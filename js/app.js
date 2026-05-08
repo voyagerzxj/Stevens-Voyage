@@ -490,6 +490,50 @@ function buildLoading() {
   return `<div class="loading"><div class="spinner"></div><span>${t('loading')}</span></div>`;
 }
 
+// ── Destination modal ──────────────────────────────────
+function ensureDestModal() {
+  if (document.getElementById('dest-modal')) return;
+  const el = document.createElement('div');
+  el.id = 'dest-modal';
+  el.className = 'dest-modal-overlay';
+  el.innerHTML = `
+    <div class="dest-modal" id="destModalBox">
+      <button class="dest-modal-close" id="destModalClose" aria-label="Close">✕</button>
+      <img class="dest-modal-img" id="destModalImg" src="" alt="">
+      <div class="dest-modal-body">
+        <div class="dest-modal-title" id="destModalTitle"></div>
+        <div class="dest-modal-loc"   id="destModalLoc"></div>
+        <div class="dest-modal-desc"  id="destModalDesc"></div>
+        <div class="dest-modal-tags"  id="destModalTags"></div>
+      </div>
+    </div>`;
+  document.body.appendChild(el);
+  el.addEventListener('click', e => { if (e.target === el) closeDestModal(); });
+  document.getElementById('destModalClose').addEventListener('click', closeDestModal);
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeDestModal(); });
+}
+
+function showDestModal(d) {
+  ensureDestModal();
+  const tags = (d.tags ? (d.tags[LANG] || d.tags.zh || []) : [])
+    .map(tag => `<span class="tag">${tag}</span>`).join('');
+  document.getElementById('destModalImg').src       = d.image || '';
+  document.getElementById('destModalImg').alt       = tx(d.name);
+  document.getElementById('destModalTitle').textContent = tx(d.name);
+  document.getElementById('destModalLoc').innerHTML = `📍 ${tx(d.location)}`;
+  document.getElementById('destModalDesc').textContent  = tx(d.description);
+  document.getElementById('destModalTags').innerHTML    = tags;
+  document.getElementById('destModalBox').scrollTop     = 0;
+  document.getElementById('dest-modal').style.display   = 'flex';
+  document.body.style.overflow = 'hidden';
+}
+
+function closeDestModal() {
+  const el = document.getElementById('dest-modal');
+  if (el) el.style.display = 'none';
+  document.body.style.overflow = '';
+}
+
 // ── Card builders ──────────────────────────────────────
 function buildContinentCard(c) {
   const { continents: _, countries: ctrs } = idx();
@@ -533,7 +577,7 @@ function buildDestCard(d) {
   const tags = (d.tags ? (d.tags[LANG] || d.tags.zh || []) : [])
     .map(tag => `<span class="tag">${tag}</span>`).join('');
   return `
-    <div class="dest-card">
+    <div class="dest-card" data-dest-id="${d.id}">
       <img class="dest-img" src="${d.image}" alt="${tx(d.name)}" loading="lazy"
            onerror="this.src='https://picsum.photos/seed/${d.id}/800/500'">
       <div class="dest-body">
@@ -903,6 +947,14 @@ async function initDestinations() {
 
   // Render destination grid
   document.getElementById('destGrid').innerHTML = renderDests(allDests, activeSub);
+
+  // Open modal on card click (event delegation — survives filter re-renders)
+  document.getElementById('destGrid').addEventListener('click', e => {
+    const card = e.target.closest('[data-dest-id]');
+    if (!card) return;
+    const dest = allDests.find(d => d.id === card.dataset.destId);
+    if (dest) showDestModal(dest);
+  });
 
   // Build map
   const mapMeta = sub ? subMapMeta(id, sub) : countryMapMeta(id);
