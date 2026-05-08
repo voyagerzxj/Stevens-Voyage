@@ -1,5 +1,5 @@
 /* =====================================================
-   app.js — Stevens Voyage v2
+   app.js — Steven Voyage v2
    Index data : window.DB_INDEX (data/index.js, sync)
    Detail data: fetch()         (data/countries/*.json)
    Dest data  : fetch()         (data/destinations/*.json)
@@ -10,7 +10,7 @@
 // ── Language ───────────────────────────────────────────
 const I18N = {
   zh: {
-    site_name:       '斯蒂文斯环球旅行',
+    site_name:       'Steven环球旅行',
     nav_home:        '首页',
     nav_continents:  '大洲',
     nav_about:       '关于',
@@ -61,7 +61,7 @@ const I18N = {
     view_country:    '国家详情',
     view_dest:       '旅游景点',
     subdivisions:    '省份 / 地区',
-    cc_notice:       '© 2026 Stevens. 本站原创内容采用 CC BY-NC-SA 4.0 协议进行许可。未经授权，禁止用于商业用途。',
+    cc_notice:       '© 2026 Steven. 本站原创内容采用 CC BY-NC-SA 4.0 协议进行许可。未经授权，禁止用于商业用途。',
     footer_home:     '首页',
     footer_about:    '关于',
     no_dest:         '暂无景点数据',
@@ -78,7 +78,7 @@ const I18N = {
     modal_tips:      '旅行小贴士',
   },
   en: {
-    site_name:       'Stevens World Travel',
+    site_name:       'Steven World Travel',
     nav_home:        'Home',
     nav_continents:  'Continents',
     nav_about:       'About',
@@ -129,7 +129,7 @@ const I18N = {
     view_country:    'Country Details',
     view_dest:       'Attractions',
     subdivisions:    'States / Provinces',
-    cc_notice:       '© 2026 Stevens. Original content licensed under CC BY-NC-SA 4.0. Commercial use prohibited.',
+    cc_notice:       '© 2026 Steven. Original content licensed under CC BY-NC-SA 4.0. Commercial use prohibited.',
     footer_home:     'Home',
     footer_about:    'About',
     no_dest:         'No destinations available',
