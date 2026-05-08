@@ -98,6 +98,9 @@ const I18N = {
     months_short:    ['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'],
     search_journal:  '游记',
     search_dest:     '景点',
+    theme_light:     '浅色',
+    theme_dark:      '深色',
+    theme_system:    '随系统',
   },
   en: {
     site_name:       'Steven World Travel',
@@ -188,6 +191,9 @@ const I18N = {
     months_short:    ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],
     search_journal:  'Journal',
     search_dest:     'Destination',
+    theme_light:     'Light',
+    theme_dark:      'Dark',
+    theme_system:    'System',
   }
 };
 
@@ -202,6 +208,37 @@ function tx(obj) {
   if (!obj) return '';
   if (typeof obj === 'string') return obj;
   return obj[LANG] || obj.zh || obj.en || '';
+}
+
+// ── Theme ──────────────────────────────────────────────
+let THEME = localStorage.getItem('sv-theme') || 'system';
+
+function getSystemTheme() {
+  return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+}
+function applyTheme(mode) {
+  const resolved = mode === 'system' ? getSystemTheme() : mode;
+  document.documentElement.setAttribute('data-theme', resolved);
+}
+function setTheme(mode) {
+  THEME = mode;
+  localStorage.setItem('sv-theme', mode);
+  applyTheme(mode);
+  document.querySelectorAll('.theme-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.themeVal === mode);
+  });
+}
+function initTheme() {
+  applyTheme(THEME);
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+    if (THEME === 'system') applyTheme('system');
+  });
+}
+function wireThemeToggle() {
+  document.querySelectorAll('.theme-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.themeVal === THEME);
+    btn.addEventListener('click', () => setTheme(btn.dataset.themeVal));
+  });
 }
 
 // ── URL helpers ────────────────────────────────────────
@@ -532,6 +569,11 @@ function buildHeader() {
           </div>
         </div>
         <div class="nav-actions">
+          <div class="theme-toggle">
+            <button class="theme-btn" data-theme-val="light" title="${t('theme_light')}">☀️</button>
+            <button class="theme-btn" data-theme-val="system" title="${t('theme_system')}">💻</button>
+            <button class="theme-btn" data-theme-val="dark" title="${t('theme_dark')}">🌙</button>
+          </div>
           <button class="lang-btn" id="langBtn">${t('lang_toggle')}</button>
         </div>
       </nav>
@@ -1450,6 +1492,9 @@ function buildBestTimeSection(bt) {
 }
 
 // ── Bootstrap ──────────────────────────────────────────
+// Apply theme immediately when script loads (before DOMContentLoaded) to minimise flash
+initTheme();
+
 document.addEventListener('DOMContentLoaded', () => {
   setLang(LANG);
 
@@ -1459,6 +1504,7 @@ document.addEventListener('DOMContentLoaded', () => {
   if (footerEl) { footerEl.insertAdjacentHTML('afterend', buildFooter()); footerEl.remove(); }
 
   wireLangToggle();
+  wireThemeToggle();
   wireSearch('navSearch', 'navDrop');
   initBackToTop();
 
