@@ -282,9 +282,8 @@ async function buildWorldMap(containerId) {
 
   const { isoMap, countries: countriesMeta } = idx();
 
-  const S_DEFAULT = { color: '#64748b', weight: 0.5, fillColor: '#cbd5e1', fillOpacity: 0.6 };
-  const S_COVERED = { color: '#1d4ed8', weight: 0.8, fillColor: '#3b82f6', fillOpacity: 0.55 };
-  const S_HOVER   = { color: '#1e3a8a', weight: 1.5, fillColor: '#1d4ed8', fillOpacity: 0.8 };
+  const S_COVERED = { color: '#1d4ed8', weight: 1, fillColor: '#3b82f6', fillOpacity: 0.5 };
+  const S_HOVER   = { color: '#1e3a8a', weight: 2, fillColor: '#1d4ed8', fillOpacity: 0.75 };
 
   let worldData;
   try {
@@ -294,39 +293,36 @@ async function buildWorldMap(containerId) {
     return;
   }
 
-  const geoFeatures = fixAntimeridian(topojson.feature(worldData, worldData.objects.countries));
+  // Only render our covered countries — avoids all antimeridian artifacts from
+  // Russia, Fiji, etc. whose polygons cross ±180° and produce horizontal lines
+  // in Leaflet. The OSM tile layer already shows uncovered countries.
+  const allFeatures = topojson.feature(worldData, worldData.objects.countries);
+  const coveredFeatures = {
+    type: 'FeatureCollection',
+    features: allFeatures.features.filter(f => isoMap[String(f.id)])
+  };
 
-  L.geoJSON(geoFeatures, {
-    style: f => {
-      const cid = isoMap[String(f.id)];
-      return countriesMeta[cid] ? S_COVERED : S_DEFAULT;
-    },
+  L.geoJSON(coveredFeatures, {
+    style: () => S_COVERED,
     onEachFeature: (f, layer) => {
       const cid = isoMap[String(f.id)];
       const meta = countriesMeta[cid];
 
       layer.on('mouseover', e => {
-        if (meta) {
-          layer.setStyle(S_HOVER);
-          const name = tx(meta.name);
-          layer.bindTooltip(`${meta.flag || ''} ${name}`, {
-            sticky: true, className: 'world-tooltip', direction: 'top'
-          }).openTooltip(e.latlng);
-        }
+        layer.setStyle(S_HOVER);
+        layer.bindTooltip(`${meta.flag || ''} ${tx(meta.name)}`, {
+          sticky: true, className: 'world-tooltip', direction: 'top'
+        }).openTooltip(e.latlng);
       });
       layer.on('mouseout', () => {
-        if (meta) {
-          layer.setStyle(S_COVERED);
-          layer.closeTooltip();
-        }
+        layer.setStyle(S_COVERED);
+        layer.closeTooltip();
       });
       layer.on('click', () => {
-        if (cid) window.location.href = `country.html?id=${cid}`;
+        window.location.href = `country.html?id=${cid}`;
       });
 
-      if (meta) {
-        layer.options.className = 'covered-country';
-      }
+      layer.options.className = 'covered-country';
     }
   }).addTo(_worldMap);
 }
