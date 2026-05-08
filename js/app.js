@@ -114,6 +114,15 @@ const I18N = {
     cookie_policy_link: '隐私政策',
     cookie_accept:   '同意',
     cookie_dismiss:  '知道了',
+    nav_risk:        '风险地图',
+    risk_title:      '旅行风险地图',
+    risk_extreme:    '极高风险',
+    risk_high:       '高风险',
+    risk_medium:     '中等风险',
+    risk_low:        '低风险',
+    risk_unknown:    '暂无数据',
+    risk_disclaimer: '风险评级仅供参考，出行前请务必查阅目的地的官方旅行建议',
+    risk_none:       '此风险等级暂无收录国家',
   },
   en: {
     site_name:       'Steven World Travel',
@@ -220,6 +229,15 @@ const I18N = {
     cookie_policy_link: 'Privacy Policy',
     cookie_accept:   'Accept',
     cookie_dismiss:  'Dismiss',
+    nav_risk:        'Risk Map',
+    risk_title:      'Travel Risk Map',
+    risk_extreme:    'Extreme Risk',
+    risk_high:       'High Risk',
+    risk_medium:     'Medium Risk',
+    risk_low:        'Low Risk',
+    risk_unknown:    'No Data',
+    risk_disclaimer: 'Risk ratings are for reference only. Always check official travel advisories before departure.',
+    risk_none:       'No countries listed at this risk level',
   }
 };
 
@@ -657,6 +675,7 @@ function buildHeader() {
     { href: 'continent.html',  key: 'nav_continents' },
     { href: 'journal.html',    key: 'nav_journal' },
     { href: 'footprint.html',  key: 'nav_footprint' },
+    { href: 'risk.html',       key: 'nav_risk' },
     { href: 'about.html',      key: 'nav_about' },
   ];
   const linkItems = links.map(p => `<li><a href="${p.href}">${t(p.key)}</a></li>`).join('');
@@ -1676,6 +1695,116 @@ async function initFootprint() {
   } catch { /* map fails silently */ }
 }
 
+// ── Risk Map ───────────────────────────────────────────
+async function initRisk() {
+  const root = document.getElementById('root');
+  if (!root) return;
+
+  const riskData = window.TRAVEL_RISK || {};
+  const { countries } = idx();
+
+  const RISK_LEVELS = ['extreme', 'high', 'medium', 'low'];
+  const RISK_COLORS = { extreme: '#dc2626', high: '#ea580c', medium: '#ca8a04', low: '#16a34a' };
+
+  const byLevel = {};
+  RISK_LEVELS.forEach(l => { byLevel[l] = []; });
+  for (const [id, level] of Object.entries(riskData)) {
+    if (byLevel[level] && countries[id]) byLevel[level].push(id);
+  }
+
+  root.innerHTML = `
+    <section class="hero hero-small">
+      <img class="hero-img" src="https://picsum.photos/seed/travel-risk-map/1600/700" alt="${t('risk_title')}"
+           onerror="this.style.cssText='position:absolute;inset:0;width:100%;height:100%;background:linear-gradient(135deg,#7f1d1d,#991b1b,#b91c1c)'">
+      <div class="hero-content">
+        <h1>⚠️ ${t('risk_title')}</h1>
+        <p>${t('risk_disclaimer')}</p>
+      </div>
+    </section>
+    <div class="container">
+      ${buildBreadcrumb([
+        { href: 'index.html', label: t('nav_home') },
+        { href: '#',          label: t('risk_title') },
+      ])}
+      <div class="section" style="padding-top:1rem">
+        <div id="risk-map" class="world-map-container"></div>
+      </div>
+      <div class="section">
+        ${RISK_LEVELS.map(level => {
+          const ids = byLevel[level];
+          return `
+            <div style="margin-bottom:2rem">
+              <h2 class="section-title" style="display:flex;align-items:center;gap:.5rem">
+                <span style="display:inline-block;width:12px;height:12px;border-radius:50%;background:${RISK_COLORS[level]};flex-shrink:0"></span>
+                ${t('risk_' + level)} (${ids.length})
+              </h2>
+              ${ids.length
+                ? `<div class="fp-country-grid">
+                    ${ids.map(id => {
+                      const m = countries[id];
+                      return `<a class="fp-country-chip risk-chip risk-chip-${level}" href="country.html?id=${id}">${m.flag || ''} ${tx(m.name)}</a>`;
+                    }).join('')}
+                  </div>`
+                : `<p style="color:var(--text-muted);font-size:.9rem">${t('risk_none')}</p>`}
+            </div>`;
+        }).join('')}
+      </div>
+    </div>`;
+
+  if (!window.L || !window.topojson) return;
+  try {
+    if (!_worldTopoCache) {
+      _worldTopoCache = await fetchJSON('https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json');
+    }
+    const map = L.map('risk-map', { zoomControl: true, scrollWheelZoom: false })
+      .setView([20, 0], 2);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© OpenStreetMap contributors', maxZoom: 6, opacity: 0.4
+    }).addTo(map);
+
+    const { isoMap } = idx();
+    const all = topojson.feature(_worldTopoCache, _worldTopoCache.objects.countries);
+
+    L.geoJSON(all, {
+      style: feature => {
+        const slug  = isoMap?.[String(feature.id)];
+        const level = slug ? riskData[slug] : null;
+        return level
+          ? { fillColor: RISK_COLORS[level], fillOpacity: 0.65, color: '#fff', weight: 0.8 }
+          : { fillColor: '#94a3b8', fillOpacity: 0.2,  color: '#cbd5e1', weight: 0.5 };
+      },
+      onEachFeature(feature, layer) {
+        const slug  = isoMap?.[String(feature.id)];
+        const cm    = slug ? countries[slug] : null;
+        const level = slug ? riskData[slug] : null;
+        const name  = cm ? `${cm.flag || ''} ${tx(cm.name)}` : '';
+        const riskLabel = level ? t('risk_' + level) : (name ? t('risk_unknown') : '');
+        if (name || riskLabel) {
+          layer.bindTooltip(
+            `${name ? `<strong>${name}</strong>` : ''}${riskLabel ? `<br><span style="color:${RISK_COLORS[level] || '#64748b'}">${riskLabel}</span>` : ''}`,
+            { sticky: true, className: 'world-tooltip' }
+          );
+        }
+        if (cm) {
+          layer.on('mouseover', () => level && layer.setStyle({ fillOpacity: 0.9 }));
+          layer.on('mouseout',  () => layer.resetStyle());
+          layer.on('click', () => { window.location.href = `country.html?id=${slug}`; });
+        }
+      }
+    }).addTo(map);
+
+    const legend = L.control({ position: 'bottomleft' });
+    legend.onAdd = () => {
+      const div = L.DomUtil.create('div', 'fp-map-legend');
+      div.innerHTML = RISK_LEVELS.map(l =>
+        `<span><i style="background:${RISK_COLORS[l]}"></i>${t('risk_' + l)}</span>`
+      ).join('') + `<span><i style="background:#94a3b8;opacity:.5"></i>${t('risk_unknown')}</span>`;
+      return div;
+    };
+    legend.addTo(map);
+  } catch { /* silent */ }
+}
+
 // ── Giscus comments ────────────────────────────────────
 function loadGiscus() {
   const container = document.getElementById('giscus-container');
@@ -1763,5 +1892,6 @@ document.addEventListener('DOMContentLoaded', () => {
   if (page === 'country')      initCountry();
   if (page === 'destinations') initDestinations();
   if (page === 'footprint')    initFootprint();
+  if (page === 'risk')         initRisk();
   initCookieBanner();
 });
