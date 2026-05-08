@@ -109,6 +109,11 @@ const I18N = {
     palette_purple:  '紫色',
     palette_rose:    '玫红',
     palette_amber:   '暖橙',
+    footer_privacy:  '隐私政策',
+    cookie_notice:   '本站使用 Cookie 进行流量统计（Google Analytics）及评论功能（Giscus）。继续浏览即表示同意。详见',
+    cookie_policy_link: '隐私政策',
+    cookie_accept:   '同意',
+    cookie_dismiss:  '知道了',
   },
   en: {
     site_name:       'Steven World Travel',
@@ -210,6 +215,11 @@ const I18N = {
     palette_purple:  'Purple',
     palette_rose:    'Rose',
     palette_amber:   'Amber',
+    footer_privacy:  'Privacy',
+    cookie_notice:   'This site uses cookies for analytics (Google Analytics) and comments (Giscus). By continuing you agree. See our',
+    cookie_policy_link: 'Privacy Policy',
+    cookie_accept:   'Accept',
+    cookie_dismiss:  'Dismiss',
   }
 };
 
@@ -435,6 +445,7 @@ function filterMap(sub) {
 
 // ── World map ──────────────────────────────────────────
 let _worldMap = null;
+let _worldTopoCache = null;
 
 function fixAntimeridian(geojson) {
   function fixCoord(c) { while (c[0] > 180) c[0] -= 360; while (c[0] < -180) c[0] += 360; }
@@ -692,10 +703,34 @@ function buildFooter() {
         <div class="footer-links">
           <a href="index.html">${t('footer_home')}</a>
           <a href="about.html">${t('footer_about')}</a>
+          <a href="privacy.html">${t('footer_privacy')}</a>
         </div>
         <p>${t('cc_notice')}</p>
       </div>
     </footer>`;
+}
+
+function initCookieBanner() {
+  if (localStorage.getItem('sv-cookie-ok')) return;
+  const banner = document.createElement('div');
+  banner.className = 'cookie-banner';
+  banner.id = 'cookieBanner';
+  banner.innerHTML = `
+    <div class="cookie-banner-text">
+      🍪 ${t('cookie_notice')} <a href="privacy.html">${t('cookie_policy_link')}</a>
+    </div>
+    <div class="cookie-banner-actions">
+      <button class="cookie-accept-btn" id="cookieAccept">${t('cookie_accept')}</button>
+      <button class="cookie-dismiss-btn" id="cookieDismiss">${t('cookie_dismiss')}</button>
+    </div>`;
+  document.body.appendChild(banner);
+  const dismiss = () => {
+    localStorage.setItem('sv-cookie-ok', '1');
+    banner.style.animation = 'slideUpBanner .25s ease reverse';
+    setTimeout(() => banner.remove(), 260);
+  };
+  document.getElementById('cookieAccept').addEventListener('click', dismiss);
+  document.getElementById('cookieDismiss').addEventListener('click', dismiss);
 }
 
 function buildBreadcrumb(items) {
@@ -933,24 +968,73 @@ function initIndex() {
 }
 
 // ── Continent map ──────────────────────────────────────
-function buildContinentMap(contId, containerId) {
+async function buildContinentMap(contId, containerId) {
   if (!window.L) return;
   const el = document.getElementById(containerId);
   if (!el) return;
 
   const meta = window.DB_COORDS?.continents?.[contId] || { center: [20, 0], zoom: 2 };
-  const { continents, countries } = idx();
+  const { continents, countries, isoMap } = idx();
   const cont = continents.find(c => c.id === contId);
+  const contCountrySet = new Set(cont?.countries || []);
 
-  const cmap = L.map(containerId, { scrollWheelZoom: false });
+  const cmap = L.map(containerId, { scrollWheelZoom: false, zoomControl: true });
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-    maxZoom: 18
+    maxZoom: 18,
+    opacity: 0.5,
   }).addTo(cmap);
   cmap.setView(meta.center, meta.zoom);
 
+  if (!window.topojson) {
+    _addContinentMarkers(cmap, cont, countries);
+    return;
+  }
+
+  try {
+    if (!_worldTopoCache) {
+      _worldTopoCache = await fetchJSON('https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json');
+    }
+
+    const primary   = getComputedStyle(document.documentElement).getPropertyValue('--primary').trim()    || '#1d4ed8';
+    const primaryDk = getComputedStyle(document.documentElement).getPropertyValue('--primary-dk').trim() || '#1e3a8a';
+
+    const S_DEFAULT = { fillColor: primary,   fillOpacity: 0.55, color: '#fff', weight: 1.5 };
+    const S_HOVER   = { fillColor: primaryDk, fillOpacity: 0.85, color: '#fff', weight: 2   };
+
+    const allFeatures = topojson.feature(_worldTopoCache, _worldTopoCache.objects.countries);
+
+    const layer = L.geoJSON(
+      {
+        type: 'FeatureCollection',
+        features: allFeatures.features.filter(f => contCountrySet.has(isoMap?.[String(f.id)]))
+      },
+      {
+        style: () => ({ ...S_DEFAULT }),
+        onEachFeature(feature, lyr) {
+          const cid = isoMap?.[String(feature.id)];
+          const cm  = cid ? countries[cid] : null;
+          if (!cm) return;
+          lyr.bindTooltip(`${cm.flag || ''} ${tx(cm.name)}`, {
+            sticky: true, className: 'world-tooltip', direction: 'top'
+          });
+          lyr.on('mouseover', e => { lyr.setStyle(S_HOVER); lyr.openTooltip(e.latlng); });
+          lyr.on('mouseout',  () => { lyr.setStyle(S_DEFAULT); lyr.closeTooltip(); });
+          lyr.on('click', () => { window.location.href = `country.html?id=${cid}`; });
+        }
+      }
+    ).addTo(cmap);
+
+    const bounds = layer.getBounds();
+    if (bounds.isValid()) cmap.fitBounds(bounds, { padding: [30, 30] });
+  } catch {
+    _addContinentMarkers(cmap, cont, countries);
+  }
+}
+
+function _addContinentMarkers(cmap, cont, countries) {
   (cont?.countries || []).forEach(cid => {
-    const cm = countries[cid];
+    const cm     = countries[cid];
     const coords = window.DB_COORDS?.countries?.[cid];
     if (!cm || !coords) return;
     const popup = `
@@ -1679,4 +1763,5 @@ document.addEventListener('DOMContentLoaded', () => {
   if (page === 'country')      initCountry();
   if (page === 'destinations') initDestinations();
   if (page === 'footprint')    initFootprint();
+  initCookieBanner();
 });

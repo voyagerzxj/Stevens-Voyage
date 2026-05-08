@@ -976,7 +976,7 @@ main { flex: 1; }
    Continent Map
    ============================ */
 .continent-map-container {
-  height: 340px;
+  height: 420px;
   border-radius: var(--radius);
   overflow: hidden;
   border: 1px solid var(--border);
@@ -986,8 +986,10 @@ main { flex: 1; }
 }
 
 @media (max-width: 600px) {
-  .continent-map-container { height: 240px; }
+  .continent-map-container { height: 260px; }
 }
+
+.continent-map-container .leaflet-interactive { cursor: pointer; }
 
 /* ============================
    Entry Cards (Homepage)
@@ -1730,3 +1732,148 @@ main { flex: 1; }
 [data-theme="dark"] .fetch-error     { background: #2d1b00; border-color: #92400e; }
 [data-theme="dark"] .fetch-error h3  { color: #fb923c; }
 [data-theme="dark"] .fetch-error p   { color: #fdba74; }
+
+/* ============================
+   Privacy Page
+   ============================ */
+.privacy-page { max-width: 820px; margin: 0 auto; padding: 2.5rem 1.5rem 4rem; }
+
+.privacy-hero {
+  text-align: center;
+  padding: 2.5rem 1rem 2rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid var(--border);
+}
+.privacy-hero h1 { font-size: 1.9rem; font-weight: 800; margin-bottom: .4rem; }
+.privacy-hero p  { color: var(--text-muted); font-size: .9rem; }
+
+.privacy-toc {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.1rem 1.4rem;
+  margin-bottom: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: .35rem;
+}
+.privacy-toc strong { font-size: .8rem; text-transform: uppercase; letter-spacing: .07em; color: var(--text-muted); margin-bottom: .2rem; }
+.privacy-toc a { font-size: .9rem; color: var(--primary); }
+.privacy-toc a:hover { text-decoration: underline; }
+
+.privacy-body section {
+  margin-bottom: 2.5rem;
+  scroll-margin-top: 80px;
+}
+.privacy-body h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: .9rem;
+  padding-bottom: .45rem;
+  border-bottom: 2px solid var(--primary);
+  display: inline-block;
+}
+.privacy-body p  { margin-bottom: .85rem; line-height: 1.85; color: var(--text); }
+.privacy-body ul { padding-left: 1.4rem; margin-bottom: .85rem; }
+.privacy-body li { line-height: 1.85; margin-bottom: .3rem; }
+.privacy-body a  { color: var(--primary); }
+.privacy-body a:hover { text-decoration: underline; }
+
+.cookie-table {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  margin: 1rem 0 1.2rem;
+  font-size: .85rem;
+}
+.cookie-row {
+  display: grid;
+  grid-template-columns: 1.2fr 1.4fr 2fr 1.4fr;
+  gap: 0;
+  border-bottom: 1px solid var(--border);
+  padding: .55rem .9rem;
+}
+.cookie-row:last-child { border-bottom: none; }
+.cookie-header { background: var(--bg); font-weight: 700; font-size: .78rem; text-transform: uppercase; letter-spacing: .05em; color: var(--text-muted); }
+.cookie-row code { font-size: .8rem; background: var(--bg); padding: .1rem .3rem; border-radius: 4px; }
+
+@media (max-width: 600px) {
+  .cookie-row { grid-template-columns: 1fr 1fr; row-gap: .2rem; }
+  .cookie-header span:nth-child(3), .cookie-header span:nth-child(4),
+  .cookie-row span:nth-child(4) { display: none; }
+}
+
+.third-list { display: flex; flex-direction: column; gap: 1rem; margin: 1rem 0; }
+.third-item {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 1rem 1.1rem;
+}
+.third-name { font-weight: 700; margin-bottom: .3rem; }
+.third-desc { font-size: .88rem; color: var(--text-muted); line-height: 1.65; margin-bottom: .5rem; }
+.third-item a { font-size: .85rem; color: var(--primary); }
+
+/* ============================
+   Cookie Consent Banner
+   ============================ */
+.cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: var(--bg-card);
+  border-top: 1px solid var(--border);
+  box-shadow: 0 -4px 24px rgba(0,0,0,.15);
+  z-index: 6000;
+  padding: 1rem 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+  animation: slideUpBanner .3s ease;
+}
+@keyframes slideUpBanner { from { transform: translateY(100%); } to { transform: translateY(0); } }
+
+.cookie-banner-text {
+  flex: 1;
+  min-width: 200px;
+  font-size: .87rem;
+  color: var(--text);
+  line-height: 1.6;
+}
+.cookie-banner-text a { color: var(--primary); }
+.cookie-banner-text a:hover { text-decoration: underline; }
+
+.cookie-banner-actions { display: flex; gap: .6rem; flex-shrink: 0; flex-wrap: wrap; }
+.cookie-accept-btn {
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  padding: .45rem 1.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: .85rem;
+  font-family: var(--font-sans);
+  font-weight: 600;
+  transition: background var(--transition);
+}
+.cookie-accept-btn:hover { background: var(--primary-dk); }
+.cookie-dismiss-btn {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  padding: .45rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: .85rem;
+  font-family: var(--font-sans);
+  transition: all var(--transition);
+}
+.cookie-dismiss-btn:hover { border-color: var(--text-muted); color: var(--text); }
+
+@media (max-width: 600px) {
+  .cookie-banner { padding: .9rem 1rem; gap: .8rem; }
+  .cookie-banner-actions { width: 100%; }
+  .cookie-accept-btn, .cookie-dismiss-btn { flex: 1; text-align: center; }
+}
