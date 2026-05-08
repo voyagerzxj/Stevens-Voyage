@@ -654,8 +654,8 @@ function buildHeader() {
     <header class="site-header">
       <nav class="nav-inner">
         <a class="nav-logo" href="index.html">
-          <img class="nav-logo-full" src="images/logo-horizontal.png" alt="STEVEN'S TRAVELS">
-          <img class="nav-logo-icon" src="images/logo-icon.png" alt="S">
+          <span class="nav-logo-text">STEVEN'S TRAVELS</span>
+          <span class="nav-logo-slogan">晓看世界 骏行千里</span>
         </a>
         <ul class="nav-links">${linkItems}</ul>
         <div class="nav-search">
