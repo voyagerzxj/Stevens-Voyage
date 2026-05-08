@@ -1,0 +1,60 @@
+[
+  {
+    "id": "great-wall",
+    "name": {
+      "zh": "长城",
+      "en": "Great Wall"
+    },
+    "description": {
+      "zh": "长城是中国最具代表性的历史建筑，绵延超过21,000公里。建于多个朝代，主要段落修建于明代。慕田峪和司马台等段落保存完好，可俯瞰壮观的山地景色。",
+      "en": "The Great Wall stretches over 21,000 km and is China's most iconic monument. Built across dynasties, the best-preserved Ming-era sections at Mutianyu and Simatai offer stunning mountain panoramas."
+    },
+    "image": "https://picsum.photos/seed/great-wall-china/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "历史建筑",
+        "明代"
+      ],
+      "en": [
+        "UNESCO",
+        "Historic Monument",
+        "Ming Dynasty"
+      ]
+    },
+    "location": {
+      "zh": "北京北部山区",
+      "en": "Mountains north of Beijing"
+    },
+    "subdivision": "beijing"
+  },
+  {
+    "id": "forbidden-city",
+    "name": {
+      "zh": "故宫",
+      "en": "Forbidden City"
+    },
+    "description": {
+      "zh": "故宫是世界上保存最完整的古代皇宫建筑群，占地72万平方米，拥有近万间房屋。自1420年起作为明清两代皇宫使用长达近600年，现为故宫博物院。",
+      "en": "The Forbidden City is the world's largest and best-preserved imperial palace complex, covering 72 ha with nearly 10,000 rooms. It served as the Ming and Qing imperial palace for nearly 600 years from 1420."
+    },
+    "image": "https://picsum.photos/seed/forbidden-city/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "皇宫",
+        "博物馆"
+      ],
+      "en": [
+        "UNESCO",
+        "Imperial Palace",
+        "Museum"
+      ]
+    },
+    "location": {
+      "zh": "北京市中心",
+      "en": "Central Beijing"
+    },
+    "subdivision": "beijing"
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "id": "taj-mahal",
+    "name": {
+      "zh": "泰姬陵",
+      "en": "Taj Mahal"
+    },
+    "description": {
+      "zh": "泰姬陵是莫卧儿皇帝沙贾汗为悼念爱妻慕塔芝·玛哈尔而建的白色大理石陵墓，1632年始建，被誉为世界七大奇迹之一和「永恒的爱情象征」。",
+      "en": "The Taj Mahal is a white marble mausoleum built by Mughal emperor Shah Jahan for his beloved wife Mumtaz Mahal from 1632. One of the Seven Wonders of the World and an eternal symbol of love."
+    },
+    "image": "https://picsum.photos/seed/taj-mahal/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "七大奇迹",
+        "莫卧儿建筑"
+      ],
+      "en": [
+        "UNESCO",
+        "Wonder of World",
+        "Mughal Architecture"
+      ]
+    },
+    "location": {
+      "zh": "北方邦阿格拉市",
+      "en": "Agra, Uttar Pradesh, India"
+    }
+  },
+  {
+    "id": "varanasi",
+    "name": {
+      "zh": "瓦拉纳西",
+      "en": "Varanasi"
+    },
+    "description": {
+      "zh": "瓦拉纳西是印度最神圣的城市，也是世界上最古老的持续有人居住的城市之一。每天清晨，成千上万的印度教信徒在恒河河坛（Ghat）边沐浴祈祷，场景庄严神圣。",
+      "en": "Varanasi is India's holiest city and one of the world's oldest continuously inhabited cities. Each dawn, thousands of Hindu pilgrims bathe and pray on the river ghats in scenes of profound spiritual intensity."
+    },
+    "image": "https://picsum.photos/seed/varanasi-ghats/800/500",
+    "tags": {
+      "zh": [
+        "宗教圣地",
+        "恒河",
+        "印度教"
+      ],
+      "en": [
+        "Holy City",
+        "Ganges",
+        "Hinduism"
+      ]
+    },
+    "location": {
+      "zh": "北方邦瓦拉纳西市",
+      "en": "Varanasi, Uttar Pradesh, India"
+    }
+  },
+  {
+    "id": "kerala-backwaters",
+    "name": {
+      "zh": "喀拉拉邦水乡",
+      "en": "Kerala Backwaters"
+    },
+    "description": {
+      "zh": "喀拉拉邦的水乡是由900余公里的河流、湖泊和运河构成的网络。乘坐传统的茅草船屋（Kettuvallam）在棕榈树成荫的水道中漂流，体验南印度独特的水上生活方式。",
+      "en": "Kerala's backwaters are a network of 900+ km of rivers, lakes and canals. Drifting through palm-shaded waterways in a traditional thatched houseboat (Kettuvallam) is an iconic South Indian experience."
+    },
+    "image": "https://picsum.photos/seed/kerala-backwaters/800/500",
+    "tags": {
+      "zh": [
+        "水乡",
+        "船屋",
+        "热带风光"
+      ],
+      "en": [
+        "Waterways",
+        "Houseboat",
+        "Tropical Scenery"
+      ]
+    },
+    "location": {
+      "zh": "喀拉拉邦，印度西南部",
+      "en": "Kerala, southwest India"
+    }
+  },
+  {
+    "id": "jaipur-pink-city",
+    "name": {
+      "zh": "斋浦尔粉红之城",
+      "en": "Jaipur - Pink City"
+    },
+    "description": {
+      "zh": "斋浦尔是拉贾斯坦邦首府，因城中众多建筑采用玫瑰粉色砂岩建造而得名「粉红之城」。琥珀堡、风之宫殿等景点集中体现了莫卧儿与拉杰普特风格融合的建筑艺术。",
+      "en": "Jaipur is Rajasthan's capital — the 'Pink City' named for its rose-coloured sandstone buildings. Amber Fort and Hawa Mahal (Palace of Winds) showcase the fusion of Mughal and Rajput architectural art."
+    },
+    "image": "https://picsum.photos/seed/jaipur-india/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "历史古城",
+        "拉贾斯坦"
+      ],
+      "en": [
+        "UNESCO",
+        "Historic City",
+        "Rajasthan"
+      ]
+    },
+    "location": {
+      "zh": "拉贾斯坦邦斋浦尔市",
+      "en": "Jaipur, Rajasthan, India"
+    }
+  },
+  {
+    "id": "goa-beaches",
+    "name": {
+      "zh": "果阿海滩",
+      "en": "Goa Beaches"
+    },
+    "description": {
+      "zh": "果阿拥有印度最美丽的海滩，北果阿的派纳吉和卡兰古特海滩热闹繁华，南果阿的帕洛莱姆则宁静祥和。葡萄牙殖民时期留下的巴洛克教堂与热带海滩融为一体。",
+      "en": "Goa has India's finest beaches. North Goa's Panaji and Calangute buzz with energy; South Goa's Palolem is serenely beautiful. Portuguese Baroque churches blend with tropical coastline."
+    },
+    "image": "https://picsum.photos/seed/goa-beach/800/500",
+    "tags": {
+      "zh": [
+        "海滩",
+        "葡式建筑",
+        "热带风情"
+      ],
+      "en": [
+        "Beach",
+        "Portuguese Heritage",
+        "Tropical"
+      ]
+    },
+    "location": {
+      "zh": "果阿邦，印度西海岸",
+      "en": "Goa, west coast of India"
+    }
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "id": "rice-terraces",
+    "name": {
+      "zh": "元阳梯田",
+      "en": "Yuanyang Rice Terraces"
+    },
+    "description": {
+      "zh": "云南哈尼族人历经1300余年开凿的元阳梯田，随山势蜿蜒起伏，层层叠叠多达3000余层。日出时分，薄雾中的金色水面与天空融为一体，呈现出令人窒息的壮观景象。",
+      "en": "Carved over 1,300 years by the Hani people, Yuanyang's terraces cascade down the mountains in over 3,000 tiers. At sunrise, the mist-shrouded golden water merges with the sky in a breathtaking tableau."
+    },
+    "image": "https://picsum.photos/seed/rice-terraces-yunnan/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "梯田",
+        "哈尼族文化"
+      ],
+      "en": [
+        "UNESCO",
+        "Terraced Fields",
+        "Hani Culture"
+      ]
+    },
+    "location": {
+      "zh": "云南省红河州元阳县",
+      "en": "Yuanyang County, Honghe Prefecture, Yunnan"
+    },
+    "subdivision": "yunnan"
+  }
+]

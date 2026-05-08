@@ -1,0 +1,68 @@
+[
+  {
+    "id": "asia",
+    "name": { "zh": "亚洲", "en": "Asia" },
+    "description": {
+      "zh": "亚洲是世界上最大的洲，面积约4458万平方公里，拥有近50亿人口。亚洲是众多古代文明的发源地，包括中华文明、印度河文明等，有着丰富的文化遗产和自然奇观。",
+      "en": "Asia is the world's largest continent, covering ~44.58 million km² and home to nearly 5 billion people. It is the cradle of many ancient civilizations with rich cultural heritage and natural wonders."
+    },
+    "image": "https://picsum.photos/seed/asia-mountains/1200/600",
+    "countries": ["china", "japan", "india"],
+    "stats": { "area": "4458万 km²", "population": { "zh": "约47亿", "en": "~4.7 billion" }, "countriesCount": 49 }
+  },
+  {
+    "id": "europe",
+    "name": { "zh": "欧洲", "en": "Europe" },
+    "description": {
+      "zh": "欧洲是文艺复兴、工业革命和民主思想的发源地，拥有丰富的历史文化遗产，以精致的城市景观、悠久的艺术传统和多样的自然风光著称。",
+      "en": "Europe is the birthplace of the Renaissance, Industrial Revolution and democratic thought. Known for sophisticated cityscapes, rich artistic traditions and diverse natural landscapes."
+    },
+    "image": "https://picsum.photos/seed/europe-city/1200/600",
+    "countries": ["albania", "france", "italy", "greece"],
+    "stats": { "area": "1018万 km²", "population": { "zh": "约7.5亿", "en": "~750 million" }, "countriesCount": 44 }
+  },
+  {
+    "id": "north-america",
+    "name": { "zh": "北美洲", "en": "North America" },
+    "description": {
+      "zh": "北美洲地形多样，从北极冻原到热带雨林，拥有世界最发达的经济体之一，以及多元融合的现代文化与壮观的自然奇景。",
+      "en": "North America features diverse landscapes from Arctic tundra to tropical rainforests. Home to some of the world's most developed economies and a rich multicultural heritage."
+    },
+    "image": "https://picsum.photos/seed/north-america-canyon/1200/600",
+    "countries": ["usa", "canada", "mexico"],
+    "stats": { "area": "2425万 km²", "population": { "zh": "约6亿", "en": "~600 million" }, "countriesCount": 23 }
+  },
+  {
+    "id": "south-america",
+    "name": { "zh": "南美洲", "en": "South America" },
+    "description": {
+      "zh": "南美洲拥有亚马逊热带雨林、安第斯山脉和广阔的潘帕斯草原，是地球上生物多样性最丰富的大洲之一，也是印加等古代文明的发源地。",
+      "en": "South America is home to the Amazon rainforest, Andes Mountains and vast Pampas grasslands — one of Earth's most biodiverse continents and birthplace of the Inca civilization."
+    },
+    "image": "https://picsum.photos/seed/south-america-rainforest/1200/600",
+    "countries": ["brazil", "peru", "argentina"],
+    "stats": { "area": "1784万 km²", "population": { "zh": "约4.3亿", "en": "~430 million" }, "countriesCount": 12 }
+  },
+  {
+    "id": "africa",
+    "name": { "zh": "非洲", "en": "Africa" },
+    "description": {
+      "zh": "非洲是人类文明的摇篮，拥有世界上最大的沙漠——撒哈拉沙漠，以及壮观的大草原和丰富的野生动物资源，孕育了包括古埃及在内的众多伟大文明。",
+      "en": "Africa is the cradle of humanity, home to the Sahara Desert, spectacular savannahs and incredible wildlife. It nurtured great civilizations including ancient Egypt."
+    },
+    "image": "https://picsum.photos/seed/africa-savannah/1200/600",
+    "countries": ["egypt", "kenya", "morocco"],
+    "stats": { "area": "3037万 km²", "population": { "zh": "约14亿", "en": "~1.4 billion" }, "countriesCount": 54 }
+  },
+  {
+    "id": "oceania",
+    "name": { "zh": "大洋洲", "en": "Oceania" },
+    "description": {
+      "zh": "大洋洲由澳大利亚大陆及众多太平洋岛屿组成，拥有独特的生态系统和原住民文化，是袋鼠、考拉等特有动物的家园，也有世界最大的珊瑚礁系统——大堡礁。",
+      "en": "Oceania comprises the Australian continent and Pacific islands, featuring unique ecosystems and Indigenous cultures. Home to iconic wildlife and the Great Barrier Reef."
+    },
+    "image": "https://picsum.photos/seed/oceania-reef/1200/600",
+    "countries": ["australia", "new-zealand"],
+    "stats": { "area": "850万 km²", "population": { "zh": "约4200万", "en": "~42 million" }, "countriesCount": 14 }
+  }
+]

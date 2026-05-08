@@ -1,0 +1,142 @@
+[
+  {
+    "id": "pyramids-giza",
+    "name": {
+      "zh": "吉萨金字塔群",
+      "en": "Pyramids of Giza"
+    },
+    "description": {
+      "zh": "吉萨金字塔群由三座大金字塔和斯芬克斯狮身人面像组成，建于约公元前2560年。大金字塔（胡夫金字塔）高146.5米，是古代世界七大奇迹中唯一保存至今的建筑，也是世界上最古老的世界遗产之一。",
+      "en": "The Giza Pyramid complex, built around 2560 BC, comprises three great pyramids and the Great Sphinx. The Great Pyramid of Khufu (146.5 m) is the only surviving Wonder of the Ancient World and one of humanity's oldest UNESCO sites."
+    },
+    "image": "https://picsum.photos/seed/pyramids-giza/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "古代奇迹",
+        "古埃及"
+      ],
+      "en": [
+        "UNESCO",
+        "Ancient Wonder",
+        "Ancient Egypt"
+      ]
+    },
+    "location": {
+      "zh": "吉萨省，开罗郊外",
+      "en": "Giza Governorate, outskirts of Cairo"
+    }
+  },
+  {
+    "id": "luxor-temples",
+    "name": {
+      "zh": "卢克索神庙群",
+      "en": "Luxor Temples"
+    },
+    "description": {
+      "zh": "卢克索古称「底比斯」，是古埃及最重要的宗教中心。卢克索神庙和卡纳克神庙组成世界上最大的神庙建筑群，「帝王谷」中安息着图坦卡蒙等众多法老。",
+      "en": "Ancient Luxor was Thebes, Egypt's greatest religious capital. Luxor and Karnak temples form the world's largest temple complex; the Valley of the Kings holds Tutankhamun and dozens of other pharaohs."
+    },
+    "image": "https://picsum.photos/seed/luxor-temples/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "古埃及神庙",
+        "帝王谷"
+      ],
+      "en": [
+        "UNESCO",
+        "Ancient Temples",
+        "Valley of Kings"
+      ]
+    },
+    "location": {
+      "zh": "卢克索市，埃及上埃及",
+      "en": "Luxor city, Upper Egypt"
+    }
+  },
+  {
+    "id": "nile-cruise",
+    "name": {
+      "zh": "尼罗河游船",
+      "en": "Nile River Cruise"
+    },
+    "description": {
+      "zh": "乘坐传统费卢卡帆船或豪华游轮沿尼罗河航行，是欣赏埃及沿岸古迹的最佳方式。从卢克索到阿斯旺的经典航线沿途经过众多古庙和农村景色，是每位埃及旅者不可错过的体验。",
+      "en": "Sailing the Nile on a traditional felucca or luxury cruise ship is the finest way to take in Egypt's riverside antiquities. The classic Luxor-to-Aswan route passes ancient temples and timeless rural landscapes."
+    },
+    "image": "https://picsum.photos/seed/nile-cruise/800/500",
+    "tags": {
+      "zh": [
+        "游轮",
+        "尼罗河",
+        "古迹沿岸"
+      ],
+      "en": [
+        "River Cruise",
+        "Nile",
+        "Ancient Sites"
+      ]
+    },
+    "location": {
+      "zh": "卢克索至阿斯旺，埃及",
+      "en": "Luxor to Aswan, Egypt"
+    }
+  },
+  {
+    "id": "abu-simbel",
+    "name": {
+      "zh": "阿布辛贝神庙",
+      "en": "Abu Simbel Temples"
+    },
+    "description": {
+      "zh": "阿布辛贝神庙是拉美西斯二世于公元前13世纪建造的岩凿神庙，四座高达20米的拉美西斯巨像守护着神庙入口。1968年整体迁移以避水库淹没，是人类文化遗产保护史上的奇迹。",
+      "en": "Abu Simbel was carved from rock by Ramesses II in the 13th century BC, guarded by four 20 m colossi. Its 1968 relocation to avoid Lake Nasser is one of the greatest feats in heritage conservation history."
+    },
+    "image": "https://picsum.photos/seed/abu-simbel/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "古埃及神庙",
+        "拉美西斯二世"
+      ],
+      "en": [
+        "UNESCO",
+        "Rock Temple",
+        "Ramesses II"
+      ]
+    },
+    "location": {
+      "zh": "阿斯旺省，埃及最南端",
+      "en": "Aswan Governorate, southernmost Egypt"
+    }
+  },
+  {
+    "id": "cairo-museum",
+    "name": {
+      "zh": "开罗埃及博物馆",
+      "en": "Egyptian Museum, Cairo"
+    },
+    "description": {
+      "zh": "开罗埃及博物馆（现与大埃及博物馆GEM共存）收藏了超过16万件古埃及文物，其中包括图坦卡蒙的黄金面具和木乃伊展厅。是全球最重要的古埃及文物收藏地。",
+      "en": "Cairo's Egyptian Museum houses over 160,000 ancient artefacts including Tutankhamun's golden mask and the Royal Mummies Hall. It is the world's pre-eminent collection of ancient Egyptian antiquities."
+    },
+    "image": "https://picsum.photos/seed/cairo-museum/800/500",
+    "tags": {
+      "zh": [
+        "博物馆",
+        "黄金面具",
+        "木乃伊"
+      ],
+      "en": [
+        "Museum",
+        "Golden Mask",
+        "Mummies"
+      ]
+    },
+    "location": {
+      "zh": "开罗市塔利尔广场",
+      "en": "Tahrir Square, Cairo, Egypt"
+    }
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "id": "colosseum",
+    "name": {
+      "zh": "罗马斗兽场",
+      "en": "Colosseum"
+    },
+    "description": {
+      "zh": "斗兽场建于公元70至80年，是古罗马帝国的象征，可同时容纳5万至8万名观众。尽管历经地震与掠夺，这座椭圆形竞技场至今仍是世界上最完好的古罗马建筑之一。",
+      "en": "Built in 70-80 AD, the Colosseum is the symbol of the Roman Empire, once holding 50,000-80,000 spectators. Despite earthquakes and plunder, this elliptical amphitheatre remains the best-preserved of antiquity."
+    },
+    "image": "https://picsum.photos/seed/colosseum-rome/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "古罗马",
+        "竞技场"
+      ],
+      "en": [
+        "UNESCO",
+        "Ancient Rome",
+        "Amphitheatre"
+      ]
+    },
+    "location": {
+      "zh": "意大利罗马市中心",
+      "en": "Central Rome, Italy"
+    }
+  },
+  {
+    "id": "venice-canals",
+    "name": {
+      "zh": "威尼斯水城",
+      "en": "Venice Canals"
+    },
+    "description": {
+      "zh": "威尼斯建于118座小岛之上，由400余座桥梁相连，以运河代替街道。贡多拉游览、里阿托桥、圣马可广场和总督宫是这座浪漫水城的精华所在。",
+      "en": "Venice is built on 118 islands linked by 400+ bridges, with canals serving as streets. Gondola rides, the Rialto Bridge, Piazza San Marco and the Doge's Palace are the highlights of this uniquely romantic city."
+    },
+    "image": "https://picsum.photos/seed/venice-canals/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "水城",
+        "贡多拉"
+      ],
+      "en": [
+        "UNESCO",
+        "Water City",
+        "Gondola"
+      ]
+    },
+    "location": {
+      "zh": "意大利威尼托大区威尼斯",
+      "en": "Venice, Veneto, Italy"
+    }
+  },
+  {
+    "id": "amalfi-coast",
+    "name": {
+      "zh": "阿马尔菲海岸",
+      "en": "Amalfi Coast"
+    },
+    "description": {
+      "zh": "阿马尔菲海岸是意大利南部那不勒斯湾的悬崖海岸线，彩色渔村层叠于峭壁之上，俯瞰湛蓝地中海。波西塔诺、阿马尔菲和拉韦罗等小镇是这条海岸线上的明珠。",
+      "en": "The Amalfi Coast is a dramatic cliff-lined stretch south of Naples, with colourful fishing villages perched above turquoise Mediterranean waters. Positano, Amalfi town and Ravello are its jewels."
+    },
+    "image": "https://picsum.photos/seed/amalfi-coast/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "海岸",
+        "彩色村庄"
+      ],
+      "en": [
+        "UNESCO",
+        "Coastline",
+        "Colourful Villages"
+      ]
+    },
+    "location": {
+      "zh": "坎帕尼亚大区，意大利南部",
+      "en": "Campania region, southern Italy"
+    }
+  },
+  {
+    "id": "tuscany-landscape",
+    "name": {
+      "zh": "托斯卡纳田园",
+      "en": "Tuscany Countryside"
+    },
+    "description": {
+      "zh": "托斯卡纳是意大利文艺复兴的发源地，以绵延起伏的山丘、柏树林荫大道、古老庄园和葡萄酒庄著称。佛罗伦萨、锡耶纳和圣吉米尼亚诺是其文化核心。",
+      "en": "Tuscany is the cradle of the Italian Renaissance. Its rolling hills, cypress-lined roads, ancient estates and wine estates are legendary. Florence, Siena and San Gimignano are its cultural heart."
+    },
+    "image": "https://picsum.photos/seed/tuscany-hills/800/500",
+    "tags": {
+      "zh": [
+        "田园风光",
+        "葡萄酒",
+        "文艺复兴"
+      ],
+      "en": [
+        "Rural Scenery",
+        "Wine",
+        "Renaissance"
+      ]
+    },
+    "location": {
+      "zh": "托斯卡纳大区，意大利中部",
+      "en": "Tuscany region, central Italy"
+    }
+  },
+  {
+    "id": "cinque-terre",
+    "name": {
+      "zh": "五渔村",
+      "en": "Cinque Terre"
+    },
+    "description": {
+      "zh": "五渔村是利古里亚海岸峭壁上的五座彩色渔村——蒙泰罗索、韦尔纳扎、科尔尼利亚、马纳罗拉和里奥马焦雷，村庄间有徒步小径相连，风景如画。",
+      "en": "Cinque Terre comprises five cliff-hugging fishing villages on the Ligurian coast — Monterosso, Vernazza, Corniglia, Manarola and Riomaggiore — linked by scenic hiking trails above the sea."
+    },
+    "image": "https://picsum.photos/seed/cinque-terre/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "渔村",
+        "徒步"
+      ],
+      "en": [
+        "UNESCO",
+        "Fishing Villages",
+        "Hiking"
+      ]
+    },
+    "location": {
+      "zh": "利古里亚大区，意大利西北部",
+      "en": "Liguria region, northwest Italy"
+    }
+  }
+]

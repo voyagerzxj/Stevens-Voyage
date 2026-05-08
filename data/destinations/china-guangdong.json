@@ -1,0 +1,31 @@
+[
+  {
+    "id": "zhangjiajie",
+    "name": {
+      "zh": "张家界",
+      "en": "Zhangjiajie"
+    },
+    "description": {
+      "zh": "张家界国家森林公园以成千上万座石英砂岩柱峰著称，这些奇特地貌据称是电影《阿凡达》中悬浮山脉的灵感来源。玻璃栈道和缆车让游客得以近距离欣赏这片超现实景观。",
+      "en": "Zhangjiajie is famous for thousands of quartz-sandstone pillar peaks, said to inspire the floating mountains in Avatar. Glass walkways and cable cars let visitors experience this surreal landscape up close."
+    },
+    "image": "https://picsum.photos/seed/zhangjiajie/800/500",
+    "tags": {
+      "zh": [
+        "奇峰异石",
+        "国家公园",
+        "玻璃栈道"
+      ],
+      "en": [
+        "Pillar Peaks",
+        "National Park",
+        "Glass Walkway"
+      ]
+    },
+    "location": {
+      "zh": "湖南省张家界市",
+      "en": "Zhangjiajie, Hunan Province"
+    },
+    "subdivision": "guangdong"
+  }
+]

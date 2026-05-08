@@ -1,0 +1,114 @@
+[
+  {
+    "id": "milford-sound",
+    "name": {
+      "zh": "米尔福德峡湾",
+      "en": "Milford Sound"
+    },
+    "description": {
+      "zh": "米尔福德峡湾是新西兰峡湾国家公园的核心景观，被鲁德亚德·吉卜林誉为「世界第八大奇迹」。垂直峭壁从海面直插云端，米特峰高达1,692米，雨后百瀑悬挂，气势磅礴。",
+      "en": "Milford Sound — Rudyard Kipling's 'Eighth Wonder of the World' — is the centrepiece of Fiordland NP. Sheer cliffs plunge from 1,692 m Mitre Peak straight into the sea; after rain, hundreds of waterfalls appear."
+    },
+    "image": "https://picsum.photos/seed/milford-sound/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "峡湾",
+        "自然奇观"
+      ],
+      "en": [
+        "UNESCO",
+        "Fiord",
+        "Natural Wonder"
+      ]
+    },
+    "location": {
+      "zh": "峡湾大区，新西兰南岛",
+      "en": "Fiordland, South Island, New Zealand"
+    }
+  },
+  {
+    "id": "hobbiton",
+    "name": {
+      "zh": "霍比特村",
+      "en": "Hobbiton"
+    },
+    "description": {
+      "zh": "霍比特村是彼得·杰克逊《指环王》和《霍比特人》系列电影的拍摄地，位于新西兰北岛的马塔马塔农场。44座圆门霍比特洞穴和「绿龙酒馆」让影迷得以亲历中土世界。",
+      "en": "Hobbiton is the filming location for Peter Jackson's Lord of the Rings and Hobbit trilogies, set on a Matamata farm on New Zealand's North Island. Its 44 hobbit holes and the Green Dragon Inn bring Middle-earth to life."
+    },
+    "image": "https://picsum.photos/seed/hobbiton-nz/800/500",
+    "tags": {
+      "zh": [
+        "电影取景地",
+        "霍比特人",
+        "主题观光"
+      ],
+      "en": [
+        "Film Location",
+        "Hobbit",
+        "Theme Tour"
+      ]
+    },
+    "location": {
+      "zh": "怀卡托大区马塔马塔，新西兰北岛",
+      "en": "Matamata, Waikato, North Island, New Zealand"
+    }
+  },
+  {
+    "id": "queenstown",
+    "name": {
+      "zh": "皇后镇",
+      "en": "Queenstown"
+    },
+    "description": {
+      "zh": "皇后镇被誉为「世界探险之都」，是蹦极跳、跳伞、喷射快艇、滑雪等极限运动的发源地或集中地。瓦卡蒂普湖畔依山傍水的小镇风光与壮阔的雪山景观相互映衬，四季皆宜。",
+      "en": "Queenstown is the 'Adventure Capital of the World' — the birthplace of commercial bungee jumping and a hub for skydiving, jet-boating and skiing. Set on Lake Wakatipu beneath snowy peaks, it is superb year-round."
+    },
+    "image": "https://picsum.photos/seed/queenstown-nz/800/500",
+    "tags": {
+      "zh": [
+        "探险运动",
+        "蹦极",
+        "滑雪"
+      ],
+      "en": [
+        "Adventure Sports",
+        "Bungee Jumping",
+        "Skiing"
+      ]
+    },
+    "location": {
+      "zh": "奥塔哥大区，新西兰南岛",
+      "en": "Otago region, South Island, New Zealand"
+    }
+  },
+  {
+    "id": "bay-of-islands",
+    "name": {
+      "zh": "海湾群岛",
+      "en": "Bay of Islands"
+    },
+    "description": {
+      "zh": "海湾群岛位于新西兰北岛最北端，由144座岛屿组成，是帆船、海豚共游、钓鱼和深潜的天堂。怀唐伊条约签署地——怀唐伊Treaty Grounds也位于此处，是新西兰最重要的历史遗址。",
+      "en": "The Bay of Islands comprises 144 islands at the tip of New Zealand's North Island — paradise for sailing, swimming with dolphins, fishing and diving. Waitangi Treaty Grounds, NZ's most important historic site, stands here."
+    },
+    "image": "https://picsum.photos/seed/bay-of-islands/800/500",
+    "tags": {
+      "zh": [
+        "海湾",
+        "历史遗址",
+        "海洋活动"
+      ],
+      "en": [
+        "Bay",
+        "Historic Site",
+        "Water Activities"
+      ]
+    },
+    "location": {
+      "zh": "北地大区，新西兰北岛",
+      "en": "Northland region, North Island, New Zealand"
+    }
+  }
+]

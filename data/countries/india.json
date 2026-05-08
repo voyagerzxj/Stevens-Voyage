@@ -1,0 +1,43 @@
+{
+  "quickFacts": {
+    "area": {
+      "zh": "328.7万平方公里",
+      "en": "3.29 million km²"
+    },
+    "population": {
+      "zh": "约14.2亿",
+      "en": "~1.42 billion"
+    },
+    "language": {
+      "zh": "印地语、英语等",
+      "en": "Hindi, English and others"
+    },
+    "currency": {
+      "zh": "印度卢比（INR）",
+      "en": "Indian Rupee (INR)"
+    },
+    "timezone": "UTC+5:30"
+  },
+  "info": {
+    "geography": {
+      "zh": "印度位于南亚，北部为喜马拉雅山脉，中部为恒河平原，南部为德干高原，西南部面临阿拉伯海，东南部面临孟加拉湾。气候类型多样，包括热带季风气候、沙漠气候等。",
+      "en": "India is located in South Asia with the Himalayas in the north, the Gangetic Plain in the center, the Deccan Plateau in the south, the Arabian Sea to the southwest and the Bay of Bengal to the southeast. Climate varies from tropical monsoon to desert."
+    },
+    "history": {
+      "zh": "印度是世界四大文明古国之一，印度河文明可追溯至公元前2500年。经历了孔雀王朝、笈多王朝、莫卧儿帝国等辉煌时代，1858年沦为英国殖民地，1947年独立，成为世界上最大的民主国家。",
+      "en": "India is one of the world's oldest civilizations, with the Indus Valley Civilization dating to 2500 BCE. It saw great empires like Maurya, Gupta and Mughal. Colonized by Britain in 1858, India gained independence in 1947 and became the world's largest democracy."
+    },
+    "economy": {
+      "zh": "印度是世界第五大经济体，近年来经济增速位居全球前列。IT服务、软件外包、制造业和农业是重要支柱。班加罗尔被称为「印度硅谷」，是全球重要的IT中心。",
+      "en": "India is the world's fifth-largest economy with one of the fastest growth rates. IT services, software outsourcing, manufacturing and agriculture are key sectors. Bangalore, the 'Silicon Valley of India,' is a major global IT hub."
+    },
+    "population": {
+      "zh": "印度人口约14.2亿，已超越中国成为世界人口最多的国家。人口结构年轻，平均年龄约28岁。印度多民族、多语言、多宗教，印度教信徒约占80%，伊斯兰教信徒约14%。",
+      "en": "India's population of ~1.42 billion has surpassed China to become the world's most populous nation. The population is young, with a median age of ~28. India is multi-ethnic, multi-lingual and multi-religious, with ~80% Hindus and ~14% Muslims."
+    },
+    "culture": {
+      "zh": "印度文化源远流长，是瑜伽、冥想的发源地。宝莱坞电影享誉全球，古典舞蹈如婆罗多舞、卡塔克舞历史悠久。印度饮食以香料丰富著称，咖喱、馕饼、香饭各具特色。印度教、佛教、耆那教均发源于此。",
+      "en": "India's culture is ancient and diverse — birthplace of yoga, meditation, Hinduism and Buddhism. Bollywood is the world's largest film industry. Classical dances like Bharatanatyam and Kathak have long histories. Indian cuisine is renowned for its spices, with curry, naan and biryani among the most famous dishes."
+    }
+  }
+}

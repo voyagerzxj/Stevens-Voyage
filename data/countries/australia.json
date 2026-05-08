@@ -1,0 +1,43 @@
+{
+  "quickFacts": {
+    "area": {
+      "zh": "769.2万平方公里",
+      "en": "7.692 million km²"
+    },
+    "population": {
+      "zh": "约2600万",
+      "en": "~26 million"
+    },
+    "language": {
+      "zh": "英语",
+      "en": "English"
+    },
+    "currency": {
+      "zh": "澳大利亚元（AUD）",
+      "en": "Australian Dollar (AUD)"
+    },
+    "timezone": "UTC+8 至 UTC+11"
+  },
+  "info": {
+    "geography": {
+      "zh": "澳大利亚是世界上最小的大陆，同时也是世界第六大国。大部分内陆地区为干旱沙漠（澳大利亚内陆），沿海地区气候宜人。大堡礁是世界最大的珊瑚礁系统，绵延超过2300公里。乌鲁鲁（艾尔斯岩）是内陆地标。",
+      "en": "Australia is the world's smallest continent and sixth-largest country. Most of the interior is arid desert (the Outback); coastal regions have a pleasant climate. The Great Barrier Reef is the world's largest coral reef system, stretching over 2,300 km. Uluru (Ayers Rock) is the iconic inland landmark."
+    },
+    "history": {
+      "zh": "澳大利亚原住民在此居住超过6.5万年，是世界上最古老的连续文化之一。1770年库克船长抵达，1788年英国开始殖民并建立流放地。1901年澳大利亚联邦成立，逐步发展为现代民主国家，并推行多元文化移民政策。",
+      "en": "Australia's Indigenous peoples have lived here for over 65,000 years — one of the world's oldest continuous cultures. Captain Cook arrived in 1770; British colonization began in 1788 as a penal colony. The Australian Federation was formed in 1901, developing into a modern democracy with multicultural immigration policies."
+    },
+    "economy": {
+      "zh": "澳大利亚是世界第十三大经济体，矿产资源极为丰富（铁矿石、煤炭、天然气、黄金）。中国是澳大利亚最大的贸易伙伴。农牧业（小麦、牛羊肉、羊毛）也是重要出口产业。旅游业、教育和金融服务业贡献显著。",
+      "en": "Australia is the world's 13th-largest economy, extremely rich in minerals (iron ore, coal, natural gas, gold). China is Australia's largest trading partner. Agriculture and livestock (wheat, beef, wool) are also important exports. Tourism, education and financial services contribute significantly."
+    },
+    "population": {
+      "zh": "澳大利亚人口约2600万，是一个典型的移民国家，人口多样性极高。欧洲裔（尤以英国和爱尔兰裔）是最大群体，亚裔移民比例持续增加。人口主要集中在东南沿海的悉尼、墨尔本、布里斯班等大城市。",
+      "en": "Australia has ~26 million people and is a quintessential immigrant nation with high diversity. Europeans (especially British and Irish) form the largest group; the proportion of Asian immigrants is steadily increasing. Population is concentrated in southeastern coastal cities like Sydney, Melbourne and Brisbane."
+    },
+    "culture": {
+      "zh": "澳大利亚文化融合了原住民文化（艺术、音乐、与土地的精神联系）和西方现代文化。冲浪、澳式足球、板球是代表性体育运动。澳大利亚人以户外生活方式、直率性格和多元包容著称。悉尼歌剧院是现代建筑的杰作和澳大利亚的国家象征。",
+      "en": "Australian culture blends Indigenous culture (art, music, spiritual connection to the land) with modern Western influences. Surfing, Australian Rules football and cricket are iconic sports. Australians are known for outdoor lifestyles, directness and multicultural inclusion. The Sydney Opera House is a modern architectural masterpiece and national symbol."
+    }
+  }
+}

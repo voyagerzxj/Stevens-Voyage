@@ -1,0 +1,566 @@
+{
+  "albania": {
+    "id": "albania", "continent": "europe",
+    "name": { "zh": "阿尔巴尼亚", "en": "Albania" },
+    "flag": "🇦🇱",
+    "capital": { "zh": "地拉那", "en": "Tirana" },
+    "coverImage": "https://picsum.photos/seed/albania-berat/1200/500",
+    "isLarge": false,
+    "quickFacts": {
+      "area":       { "zh": "28,748 平方公里", "en": "28,748 km²" },
+      "population": { "zh": "约280万", "en": "~2.8 million" },
+      "language":   { "zh": "阿尔巴尼亚语", "en": "Albanian" },
+      "currency":   { "zh": "阿尔巴尼亚列克（ALL）", "en": "Albanian Lek (ALL)" },
+      "timezone":   "UTC+1"
+    },
+    "info": {
+      "geography": {
+        "zh": "阿尔巴尼亚位于东南欧巴尔干半岛西部，西临亚得里亚海和爱奥尼亚海，北接黑山和科索沃，东接北马其顿，南邻希腊。国土面积约28,748平方公里，地形以山地为主，70%以上为山地和丘陵。阿尔卑斯山南端延伸至北部，形成壮观的阿尔巴尼亚阿尔卑斯山（又称阿克塞迪内山脉）。德林河、塞曼河等是主要河流。海岸线长约476公里，拥有清澈碧蓝的亚得里亚海与爱奥尼亚海海滩。",
+        "en": "Albania is in the western Balkans of southeastern Europe, bordering the Adriatic and Ionian Seas to the west, Montenegro and Kosovo to the north, North Macedonia to the east, and Greece to the south. Covering 28,748 km², the terrain is predominantly mountainous — over 70% hills and mountains. The southern Albanian Alps (Accursed Mountains) dominate the north. Major rivers include the Drin and Seman. The 476 km coastline features the crystal-clear waters of the Adriatic and Ionian Seas."
+      },
+      "history": {
+        "zh": "阿尔巴尼亚是古伊利里亚人的故乡，公元前7世纪希腊人在此建立殖民地。罗马帝国统治后，历经拜占庭帝国、中世纪阿尔巴尼亚公国，1468年后被奥斯曼帝国征服并统治长达约450年。民族英雄斯坎德培（1405-1468）组织了对奥斯曼帝国的长期抵抗，被视为阿尔巴尼亚的国家英雄。1912年11月28日，阿尔巴尼亚宣布独立，成为巴尔干地区最后独立的国家之一。二战后建立共产主义政权，在恩维尔·霍查领导下实行极端封闭的孤立主义政策长达40余年，1990年代初才开放并转型为民主国家。目前正积极推进欧盟入盟进程。",
+        "en": "Albania is the homeland of the ancient Illyrians; Greeks established colonies here in the 7th century BCE. After Roman rule, it passed through the Byzantine Empire and medieval Albanian principalities, before being conquered by the Ottoman Empire in 1468 — a rule lasting ~450 years. National hero Skanderbeg (1405–1468) led prolonged resistance against the Ottomans and remains Albania's greatest national symbol. Independence was declared on 28 November 1912, one of the last Balkan nations to do so. After WWII, a communist regime under Enver Hoxha enforced extreme isolation for over 40 years. Albania opened up in the early 1990s and is now actively pursuing EU membership."
+      },
+      "economy": {
+        "zh": "阿尔巴尼亚经济近年来持续稳定增长，旅游业是最重要的增长引擎，每年吸引游客数量屡创新高。水电资源丰富，电力出口是重要收入来源。农业（蔬菜、水果、橄榄油）和纺织制造业也是支柱产业。大量阿尔巴尼亚人在意大利、希腊、德国等欧洲国家工作，侨汇收入对GDP贡献显著。石油和天然气资源正在开发中。地拉那作为区域性商业中心，近年来外资流入明显增加。",
+        "en": "Albania's economy has grown steadily in recent years, with tourism as the most important growth engine — visitor numbers reach new highs annually. Rich hydropower resources make electricity export a key revenue source. Agriculture (vegetables, fruit, olive oil) and textile manufacturing are also pillars. A large Albanian diaspora in Italy, Greece and Germany sends significant remittances home. Oil and gas resources are being developed. Tirana, as a regional commercial center, has attracted increasing foreign investment."
+      },
+      "population": {
+        "zh": "阿尔巴尼亚人口约280万，是欧洲人口较少的国家之一。由于大量移民，实际境内人口有所减少。阿尔巴尼亚族占总人口约95%，其余为希腊族、马其顿族等少数民族。历史上伊斯兰教、东正教和天主教并存，阿尔巴尼亚以宗教包容著称。首都地拉那约有50-80万人，是国内唯一的大城市。",
+        "en": "Albania has ~2.8 million people and is one of Europe's smaller nations. Significant emigration has reduced the resident population. Albanians make up ~95% of the population; the remainder are Greeks, Macedonians and others. Historically Islam, Eastern Orthodoxy and Catholicism have coexisted — Albania is renowned for remarkable religious tolerance. Tirana, with 500,000–800,000 people, is the only large city."
+      },
+      "culture": {
+        "zh": "阿尔巴尼亚文化独具一格，以\"贝萨\"（Besa，意为\"信守承诺\"）这一荣誉准则最为著名，二战期间许多阿尔巴尼亚家庭因此庇护了数百名犹太难民。传统的\"等声复调\"（Iso-polyphony）无伴奏合唱已被联合国教科文组织列为人类非物质文化遗产。民间舞蹈、手工地毯（基利姆）和精美的银器工艺历史悠久。阿尔巴尼亚美食深受地中海和奥斯曼饮食传统影响，烤肉、奶酪派（Byrek）、发酵乳（Kos）和各类肉类菜肴是代表性食品。",
+        "en": "Albanian culture is unique and defined by Besa — a code of honor meaning 'keeping the promise,' which led many Albanian families to shelter hundreds of Jewish refugees during WWII. Traditional polyphonic singing (Iso-polyphony), performed without instruments, is listed as UNESCO Intangible Cultural Heritage. Folk dancing, handwoven kilim rugs and fine silverware have long traditions. Albanian cuisine blends Mediterranean and Ottoman influences: grilled meats, byrek (savory pastry), kos (fermented yogurt) and hearty meat dishes are staples."
+      }
+    }
+  },
+
+  "china": {
+    "id": "china", "continent": "asia",
+    "name": { "zh": "中国", "en": "China" },
+    "flag": "🇨🇳",
+    "capital": { "zh": "北京", "en": "Beijing" },
+    "coverImage": "https://picsum.photos/seed/china-wall/1200/500",
+    "isLarge": true,
+    "subdivisionLabel": { "zh": "省 / 直辖市", "en": "Province / Municipality" },
+    "subdivisions": {
+      "beijing":   { "name": { "zh": "北京", "en": "Beijing" },   "emoji": "🏯" },
+      "shanghai":  { "name": { "zh": "上海", "en": "Shanghai" },  "emoji": "🌆" },
+      "sichuan":   { "name": { "zh": "四川", "en": "Sichuan" },   "emoji": "🐼" },
+      "yunnan":    { "name": { "zh": "云南", "en": "Yunnan" },    "emoji": "🌄" },
+      "guangdong": { "name": { "zh": "广东", "en": "Guangdong" }, "emoji": "🏙️" }
+    },
+    "quickFacts": {
+      "area":     { "zh": "960万平方公里", "en": "9.6 million km²" },
+      "population": { "zh": "约14亿", "en": "~1.4 billion" },
+      "language": { "zh": "普通话", "en": "Mandarin" },
+      "currency": { "zh": "人民币（CNY）", "en": "Renminbi (CNY)" },
+      "timezone": "UTC+8"
+    },
+    "info": {
+      "geography": {
+        "zh": "中国位于东亚，国土面积约960万平方公里，是世界第三大国。地形西高东低，呈三级阶梯状分布：西部为青藏高原，中部为黄土高原、四川盆地，东部为平原与丘陵。主要河流有长江、黄河。气候类型多样，从寒温带到热带均有分布。",
+        "en": "China is located in East Asia with an area of ~9.6 million km², the third largest country in the world. The terrain descends in three steps from west to east: the Tibetan Plateau in the west, loess plateaus and basins in the center, and plains in the east. Major rivers include the Yangtze and Yellow River. Climate ranges from subarctic to tropical."
+      },
+      "history": {
+        "zh": "中国拥有超过五千年的文明史，是四大文明古国之一。经历了夏、商、周、秦、汉、唐、宋、元、明、清等历代王朝，于1912年建立中华民国，1949年中华人民共和国成立。改革开放以来，中国经济迅速腾飞，成为世界第二大经济体。",
+        "en": "China has over 5,000 years of civilization, one of the world's four ancient civilizations. It went through dynasties from Xia, Shang, Zhou to Qing. The Republic of China was founded in 1912, and the People's Republic of China was established in 1949. Since the Reform and Opening-Up, China has risen to become the world's second-largest economy."
+      },
+      "economy": {
+        "zh": "中国是世界第二大经济体，GDP约18万亿美元。制造业、科技、金融和服务业是经济支柱。中国是全球最大的出口国，也是最大的消费市场之一。近年来大力发展新能源、人工智能、航天等新兴产业。",
+        "en": "China is the world's second-largest economy with a GDP of ~$18 trillion. Manufacturing, technology, finance and services are key pillars. China is the world's largest exporter and one of the largest consumer markets. Recent years have seen major investment in renewable energy, AI and aerospace."
+      },
+      "population": {
+        "zh": "中国人口约14亿，是世界人口最多的国家之一。汉族占总人口约91.6%，另有55个少数民族。人口主要集中在东部沿海地区。近年来面临人口老龄化挑战，生育率持续下降。",
+        "en": "China has a population of ~1.4 billion. The Han ethnic group comprises about 91.6% of the population, with 55 other ethnic minorities. The population is concentrated in the eastern coastal regions. China faces challenges of an aging population and declining birth rate."
+      },
+      "culture": {
+        "zh": "中华文化博大精深，以儒家思想为核心，涵盖诗词、书画、戏曲、武术、茶文化等众多领域。春节、中秋节、端午节等传统节日全球华人共同庆祝。中国饮食文化源远流长，形成了川、粤、鲁、苏等八大菜系。",
+        "en": "Chinese culture is vast and profound, centered on Confucian thought and encompassing poetry, calligraphy, opera, martial arts and tea culture. Festivals like Spring Festival, Mid-Autumn Festival and Dragon Boat Festival are celebrated by Chinese communities worldwide. Chinese cuisine is renowned, with eight major regional styles including Sichuan and Cantonese."
+      }
+    }
+  },
+
+  "japan": {
+    "id": "japan", "continent": "asia",
+    "name": { "zh": "日本", "en": "Japan" },
+    "flag": "🇯🇵",
+    "capital": { "zh": "东京", "en": "Tokyo" },
+    "coverImage": "https://picsum.photos/seed/japan-fuji/1200/500",
+    "isLarge": false,
+    "quickFacts": {
+      "area":     { "zh": "37.8万平方公里", "en": "377,975 km²" },
+      "population": { "zh": "约1.25亿", "en": "~125 million" },
+      "language": { "zh": "日语", "en": "Japanese" },
+      "currency": { "zh": "日元（JPY）", "en": "Yen (JPY)" },
+      "timezone": "UTC+9"
+    },
+    "info": {
+      "geography": {
+        "zh": "日本是位于东亚的岛国，由本州、四国、九州、北海道四大岛及众多小岛组成。国土多山，平原面积狭小。地处环太平洋火山带，地震和火山活动频繁。富士山是日本最高峰，高3776米。",
+        "en": "Japan is an island nation in East Asia comprising four main islands — Honshu, Shikoku, Kyushu, Hokkaido — and thousands of smaller islands. Mountainous terrain covers most of the land. Located on the Pacific Ring of Fire, earthquakes and volcanic activity are frequent. Mount Fuji, at 3,776 m, is the highest peak."
+      },
+      "history": {
+        "zh": "日本有着超过两千年的有记载历史。经历绳文、弥生文化，奈良、平安时代的贵族文化，镰仓、室町、江户时代的武士文化，明治维新后迅速现代化。二战后在美国帮助下重建，成为世界经济强国。",
+        "en": "Japan has over 2,000 years of recorded history, from Jomon and Yayoi cultures through aristocratic Nara and Heian periods, to samurai culture in Kamakura, Muromachi and Edo periods. The Meiji Restoration launched rapid modernization. After World War II, Japan rebuilt with American assistance to become a global economic powerhouse."
+      },
+      "economy": {
+        "zh": "日本是世界第三大经济体，以汽车、电子、精密机械等制造业闻名全球。丰田、索尼、本田等跨国企业享誉世界。近年来日本积极推动数字化转型和旅游业发展。",
+        "en": "Japan is the world's third-largest economy, renowned for automobile, electronics and precision machinery manufacturing. Companies like Toyota, Sony and Honda are global icons. In recent years Japan has actively promoted digital transformation and tourism."
+      },
+      "population": {
+        "zh": "日本人口约1.25亿，近年来持续减少，面临严重的老龄化和低生育率问题。日本社会高度同质化，外国移民比例较低。东京都市圈是世界上人口最多的大都市区之一，约3800万人。",
+        "en": "Japan's population of ~125 million is declining due to severe aging and low birth rates. Japanese society is highly homogeneous with low immigration. The Greater Tokyo Area, with ~38 million people, is one of the world's most populous metropolitan areas."
+      },
+      "culture": {
+        "zh": "日本文化独具魅力，融合传统与现代。茶道、花道、歌舞伎、能剧等传统艺术与动漫、游戏、时尚等现代流行文化并存。日本饮食以寿司、拉面、天妇罗等闻名，注重食材新鲜与精致摆盘。樱花季是日本最具代表性的文化符号之一。",
+        "en": "Japanese culture uniquely blends tradition and modernity. Traditional arts like tea ceremony, ikebana, kabuki and noh coexist with modern anime, gaming and fashion. Japanese cuisine — sushi, ramen, tempura — emphasizes fresh ingredients and meticulous presentation. Cherry blossom season is one of Japan's most iconic cultural symbols."
+      }
+    }
+  },
+
+  "india": {
+    "id": "india", "continent": "asia",
+    "name": { "zh": "印度", "en": "India" },
+    "flag": "🇮🇳",
+    "capital": { "zh": "新德里", "en": "New Delhi" },
+    "coverImage": "https://picsum.photos/seed/india-taj/1200/500",
+    "isLarge": false,
+    "quickFacts": {
+      "area":     { "zh": "328.7万平方公里", "en": "3.29 million km²" },
+      "population": { "zh": "约14.2亿", "en": "~1.42 billion" },
+      "language": { "zh": "印地语、英语等", "en": "Hindi, English and others" },
+      "currency": { "zh": "印度卢比（INR）", "en": "Indian Rupee (INR)" },
+      "timezone": "UTC+5:30"
+    },
+    "info": {
+      "geography": {
+        "zh": "印度位于南亚，北部为喜马拉雅山脉，中部为恒河平原，南部为德干高原，西南部面临阿拉伯海，东南部面临孟加拉湾。气候类型多样，包括热带季风气候、沙漠气候等。",
+        "en": "India is located in South Asia with the Himalayas in the north, the Gangetic Plain in the center, the Deccan Plateau in the south, the Arabian Sea to the southwest and the Bay of Bengal to the southeast. Climate varies from tropical monsoon to desert."
+      },
+      "history": {
+        "zh": "印度是世界四大文明古国之一，印度河文明可追溯至公元前2500年。经历了孔雀王朝、笈多王朝、莫卧儿帝国等辉煌时代，1858年沦为英国殖民地，1947年独立，成为世界上最大的民主国家。",
+        "en": "India is one of the world's oldest civilizations, with the Indus Valley Civilization dating to 2500 BCE. It saw great empires like Maurya, Gupta and Mughal. Colonized by Britain in 1858, India gained independence in 1947 and became the world's largest democracy."
+      },
+      "economy": {
+        "zh": "印度是世界第五大经济体，近年来经济增速位居全球前列。IT服务、软件外包、制造业和农业是重要支柱。班加罗尔被称为「印度硅谷」，是全球重要的IT中心。",
+        "en": "India is the world's fifth-largest economy with one of the fastest growth rates. IT services, software outsourcing, manufacturing and agriculture are key sectors. Bangalore, the 'Silicon Valley of India,' is a major global IT hub."
+      },
+      "population": {
+        "zh": "印度人口约14.2亿，已超越中国成为世界人口最多的国家。人口结构年轻，平均年龄约28岁。印度多民族、多语言、多宗教，印度教信徒约占80%，伊斯兰教信徒约14%。",
+        "en": "India's population of ~1.42 billion has surpassed China to become the world's most populous nation. The population is young, with a median age of ~28. India is multi-ethnic, multi-lingual and multi-religious, with ~80% Hindus and ~14% Muslims."
+      },
+      "culture": {
+        "zh": "印度文化源远流长，是瑜伽、冥想的发源地。宝莱坞电影享誉全球，古典舞蹈如婆罗多舞、卡塔克舞历史悠久。印度饮食以香料丰富著称，咖喱、馕饼、香饭各具特色。印度教、佛教、耆那教均发源于此。",
+        "en": "India's culture is ancient and diverse — birthplace of yoga, meditation, Hinduism and Buddhism. Bollywood is the world's largest film industry. Classical dances like Bharatanatyam and Kathak have long histories. Indian cuisine is renowned for its spices, with curry, naan and biryani among the most famous dishes."
+      }
+    }
+  },
+
+  "france": {
+    "id": "france", "continent": "europe",
+    "name": { "zh": "法国", "en": "France" },
+    "flag": "🇫🇷",
+    "capital": { "zh": "巴黎", "en": "Paris" },
+    "coverImage": "https://picsum.photos/seed/france-eiffel/1200/500",
+    "isLarge": false,
+    "quickFacts": {
+      "area":     { "zh": "55.1万平方公里", "en": "551,695 km²" },
+      "population": { "zh": "约6800万", "en": "~68 million" },
+      "language": { "zh": "法语", "en": "French" },
+      "currency": { "zh": "欧元（EUR）", "en": "Euro (EUR)" },
+      "timezone": "UTC+1"
+    },
+    "info": {
+      "geography": {
+        "zh": "法国位于西欧，北临英吉利海峡，西临大西洋，南临地中海，东部与阿尔卑斯山和比利牛斯山为界。地形多样，包括北部平原、中央高原和南部地中海沿岸。塞纳河流经巴黎，卢瓦尔河是法国最长的河流。",
+        "en": "France is in Western Europe, bordering the English Channel to the north, Atlantic Ocean to the west, Mediterranean to the south, and Alps and Pyrenees to the east. Diverse terrain includes northern plains, the Massif Central, and Mediterranean coast. The Seine flows through Paris; the Loire is the longest river."
+      },
+      "history": {
+        "zh": "法国是西方文明的重要发源地。经历高卢时代、法兰克王国、卡佩王朝，路易十四建立欧洲强国，1789年法国大革命深刻影响了世界历史。拿破仑时代之后，法国历经多次政体变革，现为第五共和国。",
+        "en": "France is a major cradle of Western civilization. From Gaul through the Frankish Kingdom and Capetian dynasty, Louis XIV built a European superpower, and the 1789 French Revolution profoundly influenced world history. After the Napoleonic era, France went through multiple political changes and is now the Fifth Republic."
+      },
+      "economy": {
+        "zh": "法国是世界第七大经济体，以奢侈品、航空航天、汽车、农业和旅游业著称。路易威登、香奈儿等奢侈品牌享誉全球。法国是全球最受欢迎的旅游目的地之一，每年接待游客超8000万人次。",
+        "en": "France is the world's seventh-largest economy, renowned for luxury goods, aerospace, automobiles, agriculture and tourism. Brands like Louis Vuitton and Chanel are global icons. France is the world's most visited country, welcoming over 80 million tourists annually."
+      },
+      "population": {
+        "zh": "法国人口约6800万，是西欧人口最多的国家之一。法国是一个多元文化社会，有大量来自北非、撒哈拉以南非洲和亚洲的移民群体。法国人以热爱美食、艺术和生活品质而闻名。",
+        "en": "France has a population of ~68 million, one of the largest in Western Europe. It is a multicultural society with significant immigrant communities from North Africa, sub-Saharan Africa and Asia. The French are renowned for their love of food, art and quality of life."
+      },
+      "culture": {
+        "zh": "法国是世界文化艺术的中心之一，孕育了莫奈、罗丹、雨果、萨特等众多艺术家和思想家。法式美食被列入联合国非物质文化遗产，葡萄酒、奶酪和面包是法国饮食的象征。时尚、电影、文学等领域在全球具有重要影响力。",
+        "en": "France is a global center of art and culture, nurturing artists and thinkers like Monet, Rodin, Hugo and Sartre. French cuisine is UNESCO-listed intangible cultural heritage. Wine, cheese and bread are iconic. France exerts major global influence in fashion, cinema and literature."
+      }
+    }
+  },
+
+  "italy": {
+    "id": "italy", "continent": "europe",
+    "name": { "zh": "意大利", "en": "Italy" },
+    "flag": "🇮🇹",
+    "capital": { "zh": "罗马", "en": "Rome" },
+    "coverImage": "https://picsum.photos/seed/italy-colosseum/1200/500",
+    "isLarge": false,
+    "quickFacts": {
+      "area":     { "zh": "30.1万平方公里", "en": "301,340 km²" },
+      "population": { "zh": "约5900万", "en": "~59 million" },
+      "language": { "zh": "意大利语", "en": "Italian" },
+      "currency": { "zh": "欧元（EUR）", "en": "Euro (EUR)" },
+      "timezone": "UTC+1"
+    },
+    "info": {
+      "geography": {
+        "zh": "意大利位于南欧，形似一只靴子伸入地中海，北部以阿尔卑斯山为界，亚平宁山脉贯穿半岛全境。拥有西西里岛和撒丁岛两大岛屿。波河平原是最重要的农业区，地中海气候温和宜人。",
+        "en": "Italy is in Southern Europe, shaped like a boot extending into the Mediterranean. The Alps border the north; the Apennines run the length of the peninsula. Major islands include Sicily and Sardinia. The Po Valley is the most important agricultural area, with a mild Mediterranean climate."
+      },
+      "history": {
+        "zh": "意大利是古罗马文明的发源地，罗马帝国在鼎盛时期统治了整个欧洲、北非和中东。中世纪后，意大利城邦孕育了文艺复兴运动，深刻影响了世界文明进程。1861年意大利统一，1946年成为共和国。",
+        "en": "Italy is the birthplace of Roman civilization; at its peak the Roman Empire ruled Europe, North Africa and the Middle East. In the Middle Ages, Italian city-states nurtured the Renaissance, profoundly shaping world civilization. Italy unified in 1861 and became a republic in 1946."
+      },
+      "economy": {
+        "zh": "意大利是世界第八大经济体，以时尚、设计、汽车、机械制造和食品工业著称。法拉利、普拉达、百味来等品牌享誉全球。意大利是全球重要的葡萄酒和橄榄油生产国。",
+        "en": "Italy is the world's eighth-largest economy, celebrated for fashion, design, automobiles, mechanical engineering and food industry. Ferrari, Prada and Barilla are global icons. Italy is a leading producer of wine and olive oil."
+      },
+      "population": {
+        "zh": "意大利人口约5900万，面临人口老龄化和低生育率挑战。意大利人以热爱家庭、美食和艺术著称，生活节奏相对休闲。北部工业区与南部农业区之间存在明显的经济差异。",
+        "en": "Italy's population of ~59 million faces aging and low birth rate challenges. Italians are known for their love of family, food and art, with a relatively leisurely pace of life. Significant economic disparities exist between the industrial north and agricultural south."
+      },
+      "culture": {
+        "zh": "意大利是世界文化遗产最多的国家，拥有58处联合国教科文组织世界遗产。意大利是歌剧、文艺复兴艺术和高级时装的发源地。意式饮食（比萨、意面、冰淇淋）风靡全球，足球是国民运动。",
+        "en": "Italy has more UNESCO World Heritage Sites (58) than any other country. It is the birthplace of opera, Renaissance art and haute couture. Italian food — pizza, pasta, gelato — has conquered the world. Football (soccer) is the national passion."
+      }
+    }
+  },
+
+  "greece": {
+    "id": "greece", "continent": "europe",
+    "name": { "zh": "希腊", "en": "Greece" },
+    "flag": "🇬🇷",
+    "capital": { "zh": "雅典", "en": "Athens" },
+    "coverImage": "https://picsum.photos/seed/greece-santorini/1200/500",
+    "isLarge": false,
+    "quickFacts": {
+      "area":     { "zh": "13.2万平方公里", "en": "131,957 km²" },
+      "population": { "zh": "约1050万", "en": "~10.5 million" },
+      "language": { "zh": "希腊语", "en": "Greek" },
+      "currency": { "zh": "欧元（EUR）", "en": "Euro (EUR)" },
+      "timezone": "UTC+2"
+    },
+    "info": {
+      "geography": {
+        "zh": "希腊位于巴尔干半岛南端，海岸线绵延约13,676公里，拥有超过2,000个岛屿。奥林匹斯山是希腊最高峰，海拔2,917米。地中海气候夏季干燥炎热，冬季温和湿润。",
+        "en": "Greece is at the southern tip of the Balkan Peninsula with ~13,676 km of coastline and over 2,000 islands. Mount Olympus, at 2,917 m, is the highest peak. The Mediterranean climate brings dry hot summers and mild wet winters."
+      },
+      "history": {
+        "zh": "古希腊是西方文明的摇篮，孕育了民主制度、哲学、数学和奥林匹克运动会。经历马其顿帝国、罗马统治、拜占庭帝国和奥斯曼帝国，1821年独立战争后建立现代希腊国家。",
+        "en": "Ancient Greece is the cradle of Western civilization, giving birth to democracy, philosophy, mathematics and the Olympic Games. After Macedonian empire, Roman rule, Byzantine Empire and Ottoman Empire, modern Greece was established after the 1821 War of Independence."
+      },
+      "economy": {
+        "zh": "希腊经济以旅游业、航运业和农业为主。旅游业贡献约占GDP的20%，每年吸引超过3000万游客。橄榄油和菲达奶酪是重要出口产品。2010年代曾经历严重的债务危机，经济正逐步复苏。",
+        "en": "Greece's economy is driven by tourism, shipping and agriculture. Tourism contributes ~20% of GDP, attracting over 30 million visitors annually. Olive oil and feta cheese are major exports. After a severe debt crisis in the 2010s, the economy is gradually recovering."
+      },
+      "population": {
+        "zh": "希腊人口约1050万，近年来受经济危机影响，大量年轻人移居海外。希腊人以热情好客著称，家庭观念极强。东正教在希腊文化中占有核心地位，教会节日是社会生活的重要组成部分。",
+        "en": "Greece has ~10.5 million people; the economic crisis led many young Greeks to emigrate. Greeks are known for warm hospitality and strong family bonds. Greek Orthodox Christianity is central to culture, with church festivals playing a key role in social life."
+      },
+      "culture": {
+        "zh": "希腊文化是西方文明的根基，苏格拉底、柏拉图、亚里士多德等哲学家的思想影响至今。希腊神话、奥林匹克精神是全球共同的文化遗产。希腊美食以橄榄油、海鲜、菲达奶酪和烤肉为特色，是地中海饮食的代表。",
+        "en": "Greek culture is the foundation of Western civilization. Philosophers like Socrates, Plato and Aristotle still influence the world. Greek mythology and the Olympic spirit are shared global heritage. Greek cuisine — olive oil, seafood, feta and grilled meats — epitomizes the Mediterranean diet."
+      }
+    }
+  },
+
+  "usa": {
+    "id": "usa", "continent": "north-america",
+    "name": { "zh": "美国", "en": "United States" },
+    "flag": "🇺🇸",
+    "capital": { "zh": "华盛顿特区", "en": "Washington, D.C." },
+    "coverImage": "https://picsum.photos/seed/usa-liberty/1200/500",
+    "isLarge": true,
+    "subdivisionLabel": { "zh": "州", "en": "State" },
+    "subdivisions": {
+      "new-york":   { "name": { "zh": "纽约州", "en": "New York" },      "emoji": "🗽" },
+      "california": { "name": { "zh": "加利福尼亚州", "en": "California" }, "emoji": "🌉" },
+      "hawaii":     { "name": { "zh": "夏威夷州", "en": "Hawaii" },       "emoji": "🌺" },
+      "florida":    { "name": { "zh": "佛罗里达州", "en": "Florida" },    "emoji": "🐊" },
+      "alaska":     { "name": { "zh": "阿拉斯加州", "en": "Alaska" },     "emoji": "🐻" }
+    },
+    "quickFacts": {
+      "area":     { "zh": "983万平方公里", "en": "9.83 million km²" },
+      "population": { "zh": "约3.3亿", "en": "~330 million" },
+      "language": { "zh": "英语", "en": "English" },
+      "currency": { "zh": "美元（USD）", "en": "US Dollar (USD)" },
+      "timezone": "UTC-5 至 UTC-10"
+    },
+    "info": {
+      "geography": {
+        "zh": "美国位于北美洲中部，东临大西洋，西临太平洋，北接加拿大，南邻墨西哥。地形多样，从东部阿巴拉契亚山脉到中部大平原，再到西部落基山脉和太平洋沿岸。密西西比河是最重要的内陆水系。",
+        "en": "The USA occupies the center of North America, bordered by the Atlantic to the east, Pacific to the west, Canada to the north and Mexico to the south. Terrain ranges from the Appalachians in the east to the Great Plains, the Rocky Mountains and the Pacific Coast. The Mississippi is the dominant inland river system."
+      },
+      "history": {
+        "zh": "美洲原住民在此居住数万年后，1492年哥伦布抵达美洲。欧洲殖民定居后，1776年美国宣布独立，建立了世界上第一个现代民主共和国。经历内战、两次世界大战，美国成为20世纪的超级大国，并在冷战结束后成为全球唯一超级大国。",
+        "en": "After tens of thousands of years of Indigenous habitation, Columbus reached the Americas in 1492. After European colonization, the USA declared independence in 1776, establishing the world's first modern democratic republic. Through the Civil War and two World Wars, the USA became a 20th-century superpower and the sole superpower after the Cold War."
+      },
+      "economy": {
+        "zh": "美国是世界最大经济体，GDP约25万亿美元。科技、金融、医疗、国防和娱乐是主要行业。硅谷是全球科技创新中心，纽约是全球金融中心。苹果、谷歌、微软等科技巨头均发源于此。",
+        "en": "The USA is the world's largest economy with GDP of ~$25 trillion. Technology, finance, healthcare, defense and entertainment are key industries. Silicon Valley is the global tech innovation hub; New York is the global financial center. Apple, Google and Microsoft all originated here."
+      },
+      "population": {
+        "zh": "美国人口约3.3亿，是一个典型的移民国家，素有'民族熔炉'之称。白人约占60%，拉丁裔约18%，黑人约13%，亚裔约6%。英语为官方语言，西班牙语是第二大语言。",
+        "en": "The USA has ~330 million people and is a nation of immigrants, often called a 'melting pot.' White Americans are ~60%, Hispanics ~18%, Black Americans ~13%, Asian Americans ~6%. English is the de facto official language; Spanish is the second most spoken."
+      },
+      "culture": {
+        "zh": "美国文化多元包容，融合了来自世界各地的文化元素。好莱坞电影、流行音乐、NBA篮球、NFL橄榄球在全球具有极大影响力。快餐文化、牛仔文化和创业精神是美国文化的重要符号。自由女神像、黄石公园等是美国精神的象征。",
+        "en": "American culture is diverse and inclusive, blending elements from around the world. Hollywood films, pop music, NBA basketball and NFL football have enormous global influence. Fast food culture, cowboy culture and entrepreneurial spirit are key American symbols. The Statue of Liberty and Yellowstone National Park are iconic American landmarks."
+      }
+    }
+  },
+
+  "canada": {
+    "id": "canada", "continent": "north-america",
+    "name": { "zh": "加拿大", "en": "Canada" },
+    "flag": "🇨🇦",
+    "capital": { "zh": "渥太华", "en": "Ottawa" },
+    "coverImage": "https://picsum.photos/seed/canada-niagara/1200/500",
+    "isLarge": false,
+    "quickFacts": {
+      "area":     { "zh": "998.5万平方公里", "en": "9.985 million km²" },
+      "population": { "zh": "约3800万", "en": "~38 million" },
+      "language": { "zh": "英语、法语", "en": "English, French" },
+      "currency": { "zh": "加拿大元（CAD）", "en": "Canadian Dollar (CAD)" },
+      "timezone": "UTC-3.5 至 UTC-8"
+    },
+    "info": {
+      "geography": {
+        "zh": "加拿大是世界第二大国，国土面积约998.5万平方公里。拥有世界上最长的海岸线，地形涵盖落基山脉、大草原、北极苔原和繁茂的温带雨林。五大湖与美国共享，圣劳伦斯河是重要水系。",
+        "en": "Canada is the world's second-largest country at ~9.985 million km². It has the world's longest coastline, with terrain including the Rocky Mountains, prairies, Arctic tundra and temperate rainforests. The Great Lakes are shared with the USA; the St. Lawrence River is a key waterway."
+      },
+      "history": {
+        "zh": "加拿大原住民在此居住数千年。16世纪起欧洲人开始殖民，法国和英国争夺控制权。1867年加拿大联邦成立，1982年获得完全法律独立。加拿大一直以多元文化主义和和平主义著称。",
+        "en": "Indigenous peoples inhabited Canada for millennia before European colonization from the 16th century. France and Britain competed for control. The Canadian Confederation was formed in 1867; full legal independence came in 1982. Canada is known for multiculturalism and peacekeeping."
+      },
+      "economy": {
+        "zh": "加拿大是世界第十大经济体，自然资源丰富，石油、天然气、木材、矿产是重要出口产品。金融服务、制造业和高科技产业也是经济支柱。多伦多是加拿大最大的商业中心，温哥华是重要的太平洋门户。",
+        "en": "Canada is the world's tenth-largest economy, rich in natural resources. Oil, natural gas, timber and minerals are major exports. Financial services, manufacturing and high-tech are also key. Toronto is the largest commercial hub; Vancouver is an important Pacific gateway."
+      },
+      "population": {
+        "zh": "加拿大人口约3800万，是一个高度多元化的移民国家。每年接受约40万新移民，亚裔、南亚裔和非裔是主要移民群体。多伦多是北美种族最多元的城市之一。人口主要集中在南部与美国接壤地区。",
+        "en": "Canada has ~38 million people and is a highly diverse immigrant nation accepting ~400,000 new immigrants annually. Asian, South Asian and African communities are major immigrant groups. Toronto is one of the most ethnically diverse cities in North America. Population is concentrated in the south near the US border."
+      },
+      "culture": {
+        "zh": "加拿大以多元文化主义、包容开放著称，官方政策鼓励各族裔保留自身文化传统。曲棍球是加拿大国民运动和民族象征。枫叶、北极熊、皇家骑警是加拿大的标志性形象。冬季节日、原住民文化节是重要文化活动。",
+        "en": "Canada is known for multiculturalism and inclusiveness, with official policies encouraging ethnic groups to preserve their cultures. Ice hockey is the national sport and cultural symbol. Maple leaf, polar bears and the Mounties are iconic Canadian images. Winter festivals and Indigenous cultural events are important cultural occasions."
+      }
+    }
+  },
+
+  "mexico": {
+    "id": "mexico", "continent": "north-america",
+    "name": { "zh": "墨西哥", "en": "Mexico" },
+    "flag": "🇲🇽",
+    "capital": { "zh": "墨西哥城", "en": "Mexico City" },
+    "coverImage": "https://picsum.photos/seed/mexico-pyramid/1200/500",
+    "isLarge": false,
+    "quickFacts": {
+      "area":     { "zh": "196.4万平方公里", "en": "1.964 million km²" },
+      "population": { "zh": "约1.28亿", "en": "~128 million" },
+      "language": { "zh": "西班牙语", "en": "Spanish" },
+      "currency": { "zh": "墨西哥比索（MXN）", "en": "Mexican Peso (MXN)" },
+      "timezone": "UTC-6 至 UTC-8"
+    },
+    "info": {
+      "geography": { "zh": "墨西哥位于北美洲南部，东临墨西哥湾和加勒比海，西临太平洋。地形以高原和山地为主，中部高原海拔约2000米。尤卡坦半岛是著名旅游区。气候从北部沙漠到南部热带雨林各有不同。", "en": "Mexico is in southern North America, bordering the Gulf of Mexico and Caribbean to the east, Pacific to the west. Terrain is dominated by highlands; the central plateau sits at ~2,000 m. The Yucatan Peninsula is a famous tourist region. Climate ranges from northern desert to southern tropical rainforest." },
+      "history": { "zh": "墨西哥是玛雅文明和阿兹特克文明的发源地。1521年西班牙征服者科尔特斯灭亡阿兹特克帝国，开始三百年殖民统治。1821年独立，经历多次革命和政治动荡，现为联邦共和国。", "en": "Mexico is the birthplace of Maya and Aztec civilizations. In 1521, Spanish conquistador Cortés toppled the Aztec Empire, beginning three centuries of colonial rule. Independence came in 1821, followed by revolutions and political upheaval. Mexico is now a federal republic." },
+      "economy": { "zh": "墨西哥是世界第十五大经济体，制造业、石油、旅游业和农业是重要支柱。与美国、加拿大签订的《美墨加协定》（USMCA）对经济影响深远。旅游业吸引大量国际游客，尤以加勒比海沿岸度假区著称。", "en": "Mexico is the world's 15th-largest economy; manufacturing, oil, tourism and agriculture are key. The USMCA trade agreement with the USA and Canada is hugely significant. Tourism is major, especially Caribbean coast resorts." },
+      "population": { "zh": "墨西哥人口约1.28亿，大多数是印欧混血（梅斯蒂索）族裔。原住民文化至今在南部各州保存完好。天主教是主要宗教，家庭和宗教节日在文化生活中占有重要地位。", "en": "Mexico has ~128 million people, mostly Mestizo (mixed Indigenous and European) heritage. Indigenous cultures are well preserved in southern states. Catholicism is dominant; family and religious festivals are central to cultural life." },
+      "culture": { "zh": "墨西哥文化融合了原住民与西班牙殖民文化。亡灵节（Día de los Muertos）是墨西哥最具代表性的节日，已被列入联合国非物质文化遗产。玛雅遗址、墨西哥卷饼、龙舌兰酒、壁画艺术都是墨西哥文化的重要符号。", "en": "Mexican culture blends Indigenous and Spanish colonial heritage. Día de los Muertos (Day of the Dead) is Mexico's most distinctive festival, listed as UNESCO intangible heritage. Maya ruins, tacos, tequila and mural art are iconic Mexican cultural symbols." }
+    }
+  },
+
+  "brazil": {
+    "id": "brazil", "continent": "south-america",
+    "name": { "zh": "巴西", "en": "Brazil" },
+    "flag": "🇧🇷",
+    "capital": { "zh": "巴西利亚", "en": "Brasília" },
+    "coverImage": "https://picsum.photos/seed/brazil-rio/1200/500",
+    "isLarge": false,
+    "quickFacts": {
+      "area":     { "zh": "851.5万平方公里", "en": "8.515 million km²" },
+      "population": { "zh": "约2.15亿", "en": "~215 million" },
+      "language": { "zh": "葡萄牙语", "en": "Portuguese" },
+      "currency": { "zh": "巴西雷亚尔（BRL）", "en": "Brazilian Real (BRL)" },
+      "timezone": "UTC-3 至 UTC-5"
+    },
+    "info": {
+      "geography": { "zh": "巴西是南美洲最大的国家，占南美洲面积近一半。亚马逊热带雨林覆盖大部分西北部地区，是地球上最大的热带雨林。亚马逊河是世界流量最大的河流。南部高原地区气候温和，适宜农业发展。", "en": "Brazil is South America's largest country, occupying nearly half the continent. The Amazon rainforest covers most of the northwest — Earth's largest tropical forest. The Amazon River has the world's greatest water discharge. The southern plateau has a mild climate suitable for agriculture." },
+      "history": { "zh": "巴西于1500年被葡萄牙航海家卡布拉尔发现，此后成为葡萄牙殖民地长达三个世纪，引入了大量非洲奴隶从事甘蔗种植。1822年独立建立帝国，1889年成为共和国。20世纪经历了军事独裁时期，1985年恢复民主。", "en": "Brazil was 'discovered' by Portuguese navigator Cabral in 1500 and became a colony for three centuries, importing millions of African slaves for sugar plantations. Independence came in 1822 as an empire; a republic was declared in 1889. The 20th century included military dictatorship; democracy was restored in 1985." },
+      "economy": { "zh": "巴西是南美洲最大经济体，也是世界第九大经济体。农业极为发达，是世界最大的大豆、橙汁、咖啡和蔗糖生产国之一。石油、矿产、制造业和服务业也是重要支柱。里约热内卢和圣保罗是主要经济中心。", "en": "Brazil is South America's largest economy and the world's ninth-largest. Agriculture is highly developed — it is among the world's largest producers of soybeans, orange juice, coffee and sugar. Oil, minerals, manufacturing and services are also key. Rio de Janeiro and São Paulo are the main economic centers." },
+      "population": { "zh": "巴西人口约2.15亿，是种族最多元的国家之一，融合了原住民、欧洲移民（尤其是葡萄牙裔）、非洲裔和亚裔（尤其是日裔）。天主教是主要宗教，种族融合产生了独特的巴西文化。", "en": "Brazil's ~215 million people make it one of the world's most racially diverse nations, blending Indigenous, European (especially Portuguese), African and Asian (especially Japanese) heritage. Catholicism is dominant; racial mixing has created a unique Brazilian culture." },
+      "culture": { "zh": "巴西文化充满热情与活力，桑巴舞、巴萨诺瓦音乐和里约嘉年华举世闻名。足球是巴西的国民宗教，巴西队曾五次夺得世界杯冠军。巴西烤肉（Churrasco）和热带水果是饮食特色，亚马逊原住民文化丰富多彩。", "en": "Brazilian culture is vibrant and passionate. Samba, Bossa Nova and Rio Carnival are world-famous. Football is a national religion — Brazil has won the World Cup five times. Churrasco (BBQ) and tropical fruits define the cuisine. Amazon Indigenous cultures are richly diverse." }
+    }
+  },
+
+  "peru": {
+    "id": "peru", "continent": "south-america",
+    "name": { "zh": "秘鲁", "en": "Peru" },
+    "flag": "🇵🇪",
+    "capital": { "zh": "利马", "en": "Lima" },
+    "coverImage": "https://picsum.photos/seed/peru-machu/1200/500",
+    "isLarge": false,
+    "quickFacts": {
+      "area":     { "zh": "128.5万平方公里", "en": "1.285 million km²" },
+      "population": { "zh": "约3300万", "en": "~33 million" },
+      "language": { "zh": "西班牙语、盖丘亚语", "en": "Spanish, Quechua" },
+      "currency": { "zh": "秘鲁索尔（PEN）", "en": "Peruvian Sol (PEN)" },
+      "timezone": "UTC-5"
+    },
+    "info": {
+      "geography": { "zh": "秘鲁位于南美洲西部，地形分为三大区域：西部太平洋沿岸荒漠、中部安第斯山脉高原（包括的的喀喀湖）和东部亚马逊雨林。安第斯山脉的最高峰瓦斯卡兰山海拔6768米。", "en": "Peru is in western South America with three distinct regions: the Pacific coastal desert to the west, the central Andean highlands (including Lake Titicaca), and the eastern Amazon rainforest. Mount Huascarán, at 6,768 m, is the highest Andean peak in Peru." },
+      "history": { "zh": "秘鲁是印加帝国的心脏地带，库斯科曾是印加帝国的首都。1533年西班牙人皮萨罗征服印加帝国，开始殖民统治。1821年独立。秘鲁保存着大量印加时代的文物遗址，马丘比丘是世界最著名的考古遗址之一。", "en": "Peru was the heartland of the Inca Empire, with Cusco as its capital. Spanish conquistador Pizarro conquered the Incas in 1533. Independence came in 1821. Peru preserves extensive Inca-era ruins; Machu Picchu is one of the world's most famous archaeological sites." },
+      "economy": { "zh": "秘鲁经济以采矿业（铜、金、银、锌）、农业（咖啡、芦笋、藜麦）和旅游业为主。近二十年来经济持续增长，贫困率大幅下降。利马是重要的金融和商业中心。", "en": "Peru's economy centers on mining (copper, gold, silver, zinc), agriculture (coffee, asparagus, quinoa) and tourism. Two decades of sustained growth have significantly reduced poverty. Lima is a major financial and commercial center." },
+      "population": { "zh": "秘鲁人口约3300万，大多数是印欧混血和纯印第安血统。盖丘亚语仍是许多原住民社区的日常语言。利马是首都，也是全国人口最集中的城市，约占全国人口的三分之一。", "en": "Peru has ~33 million people, mostly Mestizo and Indigenous Quechua and Aymara. The Quechua language is still spoken daily in many Indigenous communities. Lima is the capital and most populous city, home to about one-third of the national population." },
+      "culture": { "zh": "秘鲁文化深受印加传统影响，保留了丰富的原住民风俗和手工艺。秘鲁美食享誉全球，是拉丁美洲美食的代表，酸橘汁腌鱼（Ceviche）是国菜。的的喀喀湖上的芦苇岛乌鲁斯人保持着独特的漂浮岛生活方式。", "en": "Peruvian culture is deeply shaped by Inca traditions, preserving rich Indigenous customs and crafts. Peruvian cuisine is world-renowned — a benchmark of Latin American gastronomy; ceviche is the national dish. The Uros people on Lake Titicaca maintain a unique floating-island lifestyle." }
+    }
+  },
+
+  "argentina": {
+    "id": "argentina", "continent": "south-america",
+    "name": { "zh": "阿根廷", "en": "Argentina" },
+    "flag": "🇦🇷",
+    "capital": { "zh": "布宜诺斯艾利斯", "en": "Buenos Aires" },
+    "coverImage": "https://picsum.photos/seed/argentina-patagonia/1200/500",
+    "isLarge": false,
+    "quickFacts": {
+      "area":     { "zh": "278万平方公里", "en": "2.78 million km²" },
+      "population": { "zh": "约4600万", "en": "~46 million" },
+      "language": { "zh": "西班牙语", "en": "Spanish" },
+      "currency": { "zh": "阿根廷比索（ARS）", "en": "Argentine Peso (ARS)" },
+      "timezone": "UTC-3"
+    },
+    "info": {
+      "geography": { "zh": "阿根廷是南美洲第二大国，地形从北部热带查科平原，经过中部潘帕斯草原，到南部巴塔哥尼亚高原和安第斯山脉，再到南端的火地岛。伊瓜苏瀑布是世界最宽的瀑布之一。", "en": "Argentina is South America's second-largest country, with terrain ranging from northern tropical Chaco plains through the Pampas grasslands, to Patagonia and the Andes, to Tierra del Fuego in the far south. Iguazu Falls is one of the world's widest waterfalls." },
+      "history": { "zh": "阿根廷原住民有数千年历史，1516年西班牙人抵达，1816年宣布独立。19世纪大量欧洲移民涌入，尤以意大利和西班牙裔为主。20世纪经历多次军事政变和庇隆主义政治，1983年恢复民主制度。", "en": "Argentina's Indigenous peoples have millennia of history. Spanish arrived in 1516; independence was declared in 1816. The 19th century brought massive European immigration, mainly Italian and Spanish. The 20th century saw multiple military coups and Peronism; democracy was restored in 1983." },
+      "economy": { "zh": "阿根廷是南美洲第三大经济体，农业（大豆、牛肉、小麦）极为发达。布宜诺斯艾利斯是重要的金融中心。阿根廷拥有丰富的锂矿资源，有望成为重要的锂生产国。近年来通货膨胀严峻，经济面临挑战。", "en": "Argentina is South America's third-largest economy with highly developed agriculture (soybeans, beef, wheat). Buenos Aires is a major financial center. Argentina has vast lithium reserves and is set to become a key lithium producer. Recent years have seen severe inflation and economic challenges." },
+      "population": { "zh": "阿根廷人口约4600万，绝大多数是欧洲裔（尤以意大利和西班牙后裔为主），是拉丁美洲白人比例最高的国家之一。天主教是主要宗教，布宜诺斯艾利斯素有'南美巴黎'之称。", "en": "Argentina has ~46 million people, predominantly of European descent (especially Italian and Spanish), giving it one of the highest white proportions in Latin America. Catholicism is dominant. Buenos Aires is nicknamed the 'Paris of South America.'" },
+      "culture": { "zh": "探戈舞起源于布宜诺斯艾利斯，已成为阿根廷最具代表性的文化符号，被列入联合国非物质文化遗产。阿根廷是足球强国，梅西是国家英雄。马黛茶是日常饮品，烤牛肉（Asado）是最重要的饮食传统。", "en": "Tango originated in Buenos Aires and is Argentina's most iconic cultural symbol, listed as UNESCO intangible heritage. Argentina is a football powerhouse; Messi is a national hero. Mate tea is the daily drink; Asado (barbecue) is the most important culinary tradition." }
+    }
+  },
+
+  "egypt": {
+    "id": "egypt", "continent": "africa",
+    "name": { "zh": "埃及", "en": "Egypt" },
+    "flag": "🇪🇬",
+    "capital": { "zh": "开罗", "en": "Cairo" },
+    "coverImage": "https://picsum.photos/seed/egypt-pyramids/1200/500",
+    "isLarge": false,
+    "quickFacts": {
+      "area":     { "zh": "100.1万平方公里", "en": "1.001 million km²" },
+      "population": { "zh": "约1.05亿", "en": "~105 million" },
+      "language": { "zh": "阿拉伯语", "en": "Arabic" },
+      "currency": { "zh": "埃及镑（EGP）", "en": "Egyptian Pound (EGP)" },
+      "timezone": "UTC+2"
+    },
+    "info": {
+      "geography": { "zh": "埃及位于非洲东北部，大部分国土为撒哈拉沙漠所覆盖。尼罗河自南向北贯穿全境，在北部形成肥沃的尼罗河三角洲。苏伊士运河连接地中海和红海，具有重要的战略意义。", "en": "Egypt is in northeastern Africa; most of its territory is covered by the Sahara Desert. The Nile flows south to north through the country, forming a fertile delta in the north. The Suez Canal connects the Mediterranean and Red Sea and is of immense strategic importance." },
+      "history": { "zh": "古埃及文明是世界四大文明古国之一，可追溯至公元前3100年。法老王朝建造了金字塔、狮身人面像等不朽建筑。经历希腊、罗马、阿拉伯、奥斯曼帝国统治后，1952年纳赛尔领导革命建立共和国。", "en": "Ancient Egyptian civilization is one of the world's four great ancient civilizations, dating to 3100 BCE. Pharaonic dynasties built pyramids and the Sphinx. After Greek, Roman, Arab and Ottoman rule, Nasser's revolution established a republic in 1952." },
+      "economy": { "zh": "埃及经济以旅游业、苏伊士运河收入、石油天然气、侨汇和农业为主。尼罗河沿岸是重要农业区，棉花是传统出口产品。近年来大力发展工业和新城建设，建设新行政首都。", "en": "Egypt's economy depends on tourism, Suez Canal revenues, oil and gas, remittances and agriculture. The Nile Valley is a key agricultural zone; cotton is a traditional export. Egypt is developing industry and new cities, including a new administrative capital." },
+      "population": { "zh": "埃及人口约1.05亿，是非洲人口最多的国家之一。绝大多数埃及人是阿拉伯裔，伊斯兰教（逊尼派）是国教，科普特基督徒约占10%。开罗是非洲最大的城市，人口超过2000万。", "en": "Egypt has ~105 million people, one of Africa's most populous nations. Most Egyptians are Arab; Sunni Islam is the state religion, with Coptic Christians comprising ~10%. Cairo is Africa's largest city with over 20 million people." },
+      "culture": { "zh": "埃及文化是阿拉伯文化的重要组成部分，同时保留着法老时代的独特遗产。开罗是阿拉伯世界的文化中心，埃及电影和音乐在整个阿拉伯世界具有重要影响力。象形文字、木乃伊和金字塔是人类共同的文化瑰宝。", "en": "Egyptian culture is a key part of Arab culture while retaining its unique Pharaonic heritage. Cairo is the cultural capital of the Arab world; Egyptian cinema and music are hugely influential across the Arab world. Hieroglyphics, mummies and pyramids are treasures of human civilization." }
+    }
+  },
+
+  "kenya": {
+    "id": "kenya", "continent": "africa",
+    "name": { "zh": "肯尼亚", "en": "Kenya" },
+    "flag": "🇰🇪",
+    "capital": { "zh": "内罗毕", "en": "Nairobi" },
+    "coverImage": "https://picsum.photos/seed/kenya-safari/1200/500",
+    "isLarge": false,
+    "quickFacts": {
+      "area":     { "zh": "58.2万平方公里", "en": "582,650 km²" },
+      "population": { "zh": "约5500万", "en": "~55 million" },
+      "language": { "zh": "斯瓦希里语、英语", "en": "Swahili, English" },
+      "currency": { "zh": "肯尼亚先令（KES）", "en": "Kenyan Shilling (KES)" },
+      "timezone": "UTC+3"
+    },
+    "info": {
+      "geography": { "zh": "肯尼亚位于东非，赤道穿越其中部。地形多样，包括印度洋沿岸平原、中部高原、东非大裂谷和西部维多利亚湖盆地。肯尼亚山是非洲第二高峰，海拔5199米。马赛马拉草原是著名的野生动物栖息地。", "en": "Kenya is in East Africa, straddled by the equator. Terrain includes the Indian Ocean coastal plains, central highlands, the East African Rift Valley and the Lake Victoria basin. Mount Kenya (5,199 m) is Africa's second highest peak. The Masai Mara is a world-famous wildlife habitat." },
+      "history": { "zh": "肯尼亚是人类最早出现地之一，奥杜威峡谷出土了数百万年前的人类化石。中世纪斯瓦希里文明兴盛于东非海岸，19世纪成为英国殖民地。1963年独立，乔莫·肯雅塔成为首任总统。", "en": "Kenya is one of the earliest sites of human habitation; the Olduvai Gorge yielded fossils millions of years old. The medieval Swahili civilization flourished on the East African coast; Kenya became a British colony in the 19th century. Independence came in 1963, with Jomo Kenyatta as the first president." },
+      "economy": { "zh": "肯尼亚是东非最大的经济体，旅游业、农业（茶叶、咖啡、鲜花）、电信和金融服务是主要支柱。内罗毕是东非重要的商业和金融中心，M-Pesa移动支付系统是全球金融科技创新的典范。", "en": "Kenya is East Africa's largest economy; tourism, agriculture (tea, coffee, flowers), telecoms and financial services are key. Nairobi is an important East African commercial and financial hub. M-Pesa mobile payment is a global fintech innovation benchmark." },
+      "population": { "zh": "肯尼亚人口约5500万，由超过40个不同的班图、尼罗特和库希特语族裔组成，马赛族是最具代表性的游牧民族之一。基督教是最广泛信奉的宗教，伊斯兰教在沿海地区有重要影响。", "en": "Kenya has ~55 million people from over 40 ethnic groups, including Bantu, Nilotic and Cushitic peoples. The Maasai are among the most iconic nomadic groups. Christianity is the most widely practiced religion; Islam is significant in coastal areas." },
+      "culture": { "zh": "肯尼亚以野生动物和自然奇观闻名于世，马赛马拉动物大迁徙是地球上最壮观的自然奇观之一。马赛人的红色服装和跳跃舞蹈是肯尼亚最具代表性的文化符号。肯尼亚的长跑运动员享誉全球。", "en": "Kenya is world-famous for wildlife and natural wonders. The Masai Mara wildebeest migration is one of Earth's most spectacular natural phenomena. Maasai red clothing and jumping dances are iconic Kenyan cultural symbols. Kenyan long-distance runners are world-renowned." }
+    }
+  },
+
+  "morocco": {
+    "id": "morocco", "continent": "africa",
+    "name": { "zh": "摩洛哥", "en": "Morocco" },
+    "flag": "🇲🇦",
+    "capital": { "zh": "拉巴特", "en": "Rabat" },
+    "coverImage": "https://picsum.photos/seed/morocco-medina/1200/500",
+    "isLarge": false,
+    "quickFacts": {
+      "area":     { "zh": "44.6万平方公里", "en": "446,550 km²" },
+      "population": { "zh": "约3700万", "en": "~37 million" },
+      "language": { "zh": "阿拉伯语、柏柏尔语、法语", "en": "Arabic, Berber, French" },
+      "currency": { "zh": "摩洛哥迪拉姆（MAD）", "en": "Moroccan Dirham (MAD)" },
+      "timezone": "UTC+1"
+    },
+    "info": {
+      "geography": { "zh": "摩洛哥位于非洲西北部，北临地中海，西临大西洋，与欧洲最近处仅14公里。阿特拉斯山脉横贯中部，撒哈拉沙漠覆盖南部地区。地形多样，气候温和。", "en": "Morocco is in northwestern Africa, bordering the Mediterranean to the north and Atlantic to the west, just 14 km from Europe at its closest point. The Atlas Mountains cross the center; the Sahara Desert covers the south. Diverse terrain with a mild climate." },
+      "history": { "zh": "摩洛哥是非洲最古老的王国之一，柏柏尔人在此居住数千年。7世纪阿拉伯人带来了伊斯兰教，中世纪摩洛哥王国曾是伊斯兰世界的重要中心。1912年成为法国和西班牙的保护国，1956年独立。", "en": "Morocco is one of Africa's oldest kingdoms; Berbers have lived here for millennia. Arabs brought Islam in the 7th century; the medieval Moroccan kingdom was an important center of the Islamic world. Morocco became a French and Spanish protectorate in 1912 and gained independence in 1956." },
+      "economy": { "zh": "摩洛哥经济以磷酸盐开采（全球储量第一）、旅游业、农业和纺织业为主。近年来大力发展可再生能源和汽车制造业，成为非洲重要的制造业基地。马拉喀什和非斯是重要旅游城市。", "en": "Morocco's economy centers on phosphate mining (world's largest reserves), tourism, agriculture and textiles. Recent development of renewable energy and automobile manufacturing has made it an important African manufacturing hub. Marrakech and Fes are major tourist cities." },
+      "population": { "zh": "摩洛哥人口约3700万，主要由阿拉伯人和柏柏尔人（阿马齐格人）组成。伊斯兰教是国教，几乎所有摩洛哥人都是穆斯林。法语在商业和教育领域广泛使用。", "en": "Morocco has ~37 million people, mainly Arabs and Berbers (Amazigh). Islam is the state religion; nearly all Moroccans are Muslim. French is widely used in business and education." },
+      "culture": { "zh": "摩洛哥文化融合了柏柏尔、阿拉伯、伊斯兰和法国文化元素，独具魅力。马拉喀什的集市广场（德吉玛艾尔法纳广场）是世界非物质文化遗产。摩洛哥建筑以精美的马赛克拼贴、雕花石膏和彩色琉璃瓦著称。薄荷茶是重要的待客礼仪。", "en": "Moroccan culture uniquely blends Berber, Arab, Islamic and French elements. Marrakech's Jemaa el-Fnaa square is UNESCO intangible heritage. Moroccan architecture is renowned for intricate mosaic tilework, carved plaster and zellige ceramics. Mint tea is an important hospitality ritual." }
+    }
+  },
+
+  "australia": {
+    "id": "australia", "continent": "oceania",
+    "name": { "zh": "澳大利亚", "en": "Australia" },
+    "flag": "🇦🇺",
+    "capital": { "zh": "堪培拉", "en": "Canberra" },
+    "coverImage": "https://picsum.photos/seed/australia-opera/1200/500",
+    "isLarge": false,
+    "quickFacts": {
+      "area":     { "zh": "769.2万平方公里", "en": "7.692 million km²" },
+      "population": { "zh": "约2600万", "en": "~26 million" },
+      "language": { "zh": "英语", "en": "English" },
+      "currency": { "zh": "澳大利亚元（AUD）", "en": "Australian Dollar (AUD)" },
+      "timezone": "UTC+8 至 UTC+11"
+    },
+    "info": {
+      "geography": { "zh": "澳大利亚是世界上最小的大陆，同时也是世界第六大国。大部分内陆地区为干旱沙漠（澳大利亚内陆），沿海地区气候宜人。大堡礁是世界最大的珊瑚礁系统，绵延超过2300公里。乌鲁鲁（艾尔斯岩）是内陆地标。", "en": "Australia is the world's smallest continent and sixth-largest country. Most of the interior is arid desert (the Outback); coastal regions have a pleasant climate. The Great Barrier Reef is the world's largest coral reef system, stretching over 2,300 km. Uluru (Ayers Rock) is the iconic inland landmark." },
+      "history": { "zh": "澳大利亚原住民在此居住超过6.5万年，是世界上最古老的连续文化之一。1770年库克船长抵达，1788年英国开始殖民并建立流放地。1901年澳大利亚联邦成立，逐步发展为现代民主国家，并推行多元文化移民政策。", "en": "Australia's Indigenous peoples have lived here for over 65,000 years — one of the world's oldest continuous cultures. Captain Cook arrived in 1770; British colonization began in 1788 as a penal colony. The Australian Federation was formed in 1901, developing into a modern democracy with multicultural immigration policies." },
+      "economy": { "zh": "澳大利亚是世界第十三大经济体，矿产资源极为丰富（铁矿石、煤炭、天然气、黄金）。中国是澳大利亚最大的贸易伙伴。农牧业（小麦、牛羊肉、羊毛）也是重要出口产业。旅游业、教育和金融服务业贡献显著。", "en": "Australia is the world's 13th-largest economy, extremely rich in minerals (iron ore, coal, natural gas, gold). China is Australia's largest trading partner. Agriculture and livestock (wheat, beef, wool) are also important exports. Tourism, education and financial services contribute significantly." },
+      "population": { "zh": "澳大利亚人口约2600万，是一个典型的移民国家，人口多样性极高。欧洲裔（尤以英国和爱尔兰裔）是最大群体，亚裔移民比例持续增加。人口主要集中在东南沿海的悉尼、墨尔本、布里斯班等大城市。", "en": "Australia has ~26 million people and is a quintessential immigrant nation with high diversity. Europeans (especially British and Irish) form the largest group; the proportion of Asian immigrants is steadily increasing. Population is concentrated in southeastern coastal cities like Sydney, Melbourne and Brisbane." },
+      "culture": { "zh": "澳大利亚文化融合了原住民文化（艺术、音乐、与土地的精神联系）和西方现代文化。冲浪、澳式足球、板球是代表性体育运动。澳大利亚人以户外生活方式、直率性格和多元包容著称。悉尼歌剧院是现代建筑的杰作和澳大利亚的国家象征。", "en": "Australian culture blends Indigenous culture (art, music, spiritual connection to the land) with modern Western influences. Surfing, Australian Rules football and cricket are iconic sports. Australians are known for outdoor lifestyles, directness and multicultural inclusion. The Sydney Opera House is a modern architectural masterpiece and national symbol." }
+    }
+  },
+
+  "new-zealand": {
+    "id": "new-zealand", "continent": "oceania",
+    "name": { "zh": "新西兰", "en": "New Zealand" },
+    "flag": "🇳🇿",
+    "capital": { "zh": "惠灵顿", "en": "Wellington" },
+    "coverImage": "https://picsum.photos/seed/newzealand-fjord/1200/500",
+    "isLarge": false,
+    "quickFacts": {
+      "area":     { "zh": "26.8万平方公里", "en": "268,021 km²" },
+      "population": { "zh": "约500万", "en": "~5 million" },
+      "language": { "zh": "英语、毛利语", "en": "English, Māori" },
+      "currency": { "zh": "新西兰元（NZD）", "en": "New Zealand Dollar (NZD)" },
+      "timezone": "UTC+12"
+    },
+    "info": {
+      "geography": { "zh": "新西兰由北岛和南岛两大主岛及众多小岛组成，位于太平洋西南部。地形以山地为主，南岛的南阿尔卑斯山脉有多座海拔超过3000米的高峰。峡湾国家公园以其壮观的冰川峡湾著称，米尔福德峡湾是最著名的景观。", "en": "New Zealand consists of the North Island, South Island and many smaller islands in the southwestern Pacific. Terrain is predominantly mountainous; the Southern Alps in the South Island have several peaks over 3,000 m. Fiordland National Park is famous for spectacular glacial fiords, with Milford Sound the most celebrated." },
+      "history": { "zh": "毛利人约在13世纪从东波利尼西亚航行至新西兰定居。1642年荷兰探险家塔斯曼最早抵达，1769年库克船长详细考察。1840年签订的《怀唐伊条约》确立了英国主权与毛利人权利的关系，是新西兰建国的基础文件。", "en": "Māori people arrived from eastern Polynesia around the 13th century. Dutch explorer Tasman reached New Zealand in 1642; Captain Cook surveyed it in 1769. The 1840 Treaty of Waitangi established the relationship between British sovereignty and Māori rights and is New Zealand's founding document." },
+      "economy": { "zh": "新西兰经济以农牧业（乳制品、羊肉、牛肉、羊毛、苹果）、旅游业和教育业为主。乳制品是最重要的出口产品，恒天然是全球最大的乳制品出口商之一。新西兰因清洁绿色的形象在全球享有盛誉。", "en": "New Zealand's economy is led by agriculture (dairy, lamb, beef, wool, apples), tourism and education. Dairy is the most important export; Fonterra is one of the world's largest dairy exporters. New Zealand enjoys a global reputation for being clean and green." },
+      "population": { "zh": "新西兰人口约500万，主要由欧裔新西兰人（帕克哈）和毛利人组成，近年来亚裔移民比例增加。毛利文化在新西兰社会中具有重要地位，毛利语是官方语言之一。新西兰是世界上最早赋予女性选举权的国家（1893年）。", "en": "New Zealand has ~5 million people, mainly Pākehā (European New Zealanders) and Māori, with a growing proportion of Asian immigrants. Māori culture is central to New Zealand identity; Māori is an official language. New Zealand was the first country to grant women the right to vote (1893)." },
+      "culture": { "zh": "新西兰文化以毛利文化和欧洲文化的融合为特色。毛利人的哈卡战舞（由全黑橄榄球队演绎）享誉全球。新西兰以《指环王》《霍比特人》拍摄地闻名，被称为'中土世界'。橄榄球（全黑队）是国民运动，自然探险和户外运动也极为流行。", "en": "New Zealand culture blends Māori and European heritage. The Māori haka war dance (performed by the All Blacks rugby team) is world-famous. New Zealand is known as 'Middle-earth' for The Lord of the Rings and The Hobbit filming locations. Rugby (the All Blacks) is the national sport; adventure tourism and outdoor activities are hugely popular." }
+    }
+  }
+}

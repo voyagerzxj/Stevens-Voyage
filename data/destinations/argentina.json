@@ -1,0 +1,86 @@
+[
+  {
+    "id": "iguazu-argentina",
+    "name": {
+      "zh": "伊瓜苏瀑布（阿根廷侧）",
+      "en": "Iguazu Falls (Argentina side)"
+    },
+    "description": {
+      "zh": "阿根廷侧的伊瓜苏瀑布可让游客近距离感受「魔鬼咽喉」——一条宽150米、落差达80米的U形峡谷瀑布，水雾腾空而起，震耳欲聋，被罗斯福夫人誉为「可怜的尼亚加拉」。",
+      "en": "Argentina's side puts visitors inches from the Devil's Throat — a 150 m-wide, 80 m-drop U-shaped cataract whose mist and roar prompted Eleanor Roosevelt to exclaim 'Poor Niagara!'"
+    },
+    "image": "https://picsum.photos/seed/iguazu-argentina/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "瀑布",
+        "魔鬼咽喉"
+      ],
+      "en": [
+        "UNESCO",
+        "Waterfall",
+        "Devil's Throat"
+      ]
+    },
+    "location": {
+      "zh": "米西奥内斯省，阿根廷东北部",
+      "en": "Misiones Province, northeast Argentina"
+    }
+  },
+  {
+    "id": "patagonia",
+    "name": {
+      "zh": "巴塔哥尼亚",
+      "en": "Patagonia"
+    },
+    "description": {
+      "zh": "巴塔哥尼亚是地球上最壮观的荒野之一，托雷斯德尔巴伊内国家公园的花岗岩三塔（Torres del Paine）是最具代表性的景观，狂风、冰川、湖泊和野生动物构成了极致的自然体验。",
+      "en": "Patagonia is one of Earth's most spectacular wildernesses. Torres del Paine National Park's granite Torres peaks are its signature image, amid gale-force winds, glaciers, lakes and extraordinary wildlife."
+    },
+    "image": "https://picsum.photos/seed/patagonia-towers/800/500",
+    "tags": {
+      "zh": [
+        "国家公园",
+        "荒野",
+        "徒步"
+      ],
+      "en": [
+        "National Park",
+        "Wilderness",
+        "Trekking"
+      ]
+    },
+    "location": {
+      "zh": "圣克鲁斯省，阿根廷南部",
+      "en": "Santa Cruz Province, southern Argentina"
+    }
+  },
+  {
+    "id": "buenos-aires",
+    "name": {
+      "zh": "布宜诺斯艾利斯",
+      "en": "Buenos Aires"
+    },
+    "description": {
+      "zh": "布宜诺斯艾利斯是阿根廷首都，被誉为「南美洲的巴黎」，以探戈舞蹈、欧式建筑、热情的夜生活和高质量的牛排著称。博卡区（La Boca）五彩斑斓的铁皮建筑是其最具辨识度的标志。",
+      "en": "Buenos Aires — the 'Paris of South America' — is famous for tango, European-style architecture, passionate nightlife and world-class steak. La Boca's colourful corrugated-iron buildings are its most recognisable image."
+    },
+    "image": "https://picsum.photos/seed/buenos-aires/800/500",
+    "tags": {
+      "zh": [
+        "探戈",
+        "都市",
+        "欧式建筑"
+      ],
+      "en": [
+        "Tango",
+        "Urban",
+        "European Architecture"
+      ]
+    },
+    "location": {
+      "zh": "布宜诺斯艾利斯市，阿根廷东部",
+      "en": "Buenos Aires city, eastern Argentina"
+    }
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "id": "machu-picchu",
+    "name": {
+      "zh": "马丘比丘",
+      "en": "Machu Picchu"
+    },
+    "description": {
+      "zh": "马丘比丘是印加帝国最著名的遗址，建于公元15世纪，位于海拔2,430米的安第斯山脊之上，四周云雾缭绕。1983年列入UNESCO世界遗产，被誉为「失落的印加城市」。",
+      "en": "Machu Picchu is the Inca Empire's most celebrated site, built in the 15th century on a 2,430 m Andean ridge shrouded in cloud. A UNESCO World Heritage Site since 1983 — the original 'Lost City of the Incas'."
+    },
+    "image": "https://picsum.photos/seed/machu-picchu/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "七大奇迹",
+        "印加文明"
+      ],
+      "en": [
+        "UNESCO",
+        "Wonder of World",
+        "Inca Civilisation"
+      ]
+    },
+    "location": {
+      "zh": "库斯科大区，秘鲁南部",
+      "en": "Cusco Region, southern Peru"
+    }
+  },
+  {
+    "id": "lake-titicaca",
+    "name": {
+      "zh": "的的喀喀湖",
+      "en": "Lake Titicaca"
+    },
+    "description": {
+      "zh": "的的喀喀湖是世界上海拔最高的可通航湖泊，海拔3,812米，跨越秘鲁与玻利维亚边境。湖中的芦苇岛（乌鲁斯浮岛）是当地印第安人世代居住的独特水上社区。",
+      "en": "Lake Titicaca at 3,812 m is the world's highest navigable lake, straddling the Peru-Bolivia border. The floating reed islands (Uros) are unique water communities inhabited for generations."
+    },
+    "image": "https://picsum.photos/seed/lake-titicaca/800/500",
+    "tags": {
+      "zh": [
+        "高原湖泊",
+        "浮岛",
+        "印第安文化"
+      ],
+      "en": [
+        "High-altitude Lake",
+        "Floating Islands",
+        "Indigenous Culture"
+      ]
+    },
+    "location": {
+      "zh": "普诺大区，秘鲁南部",
+      "en": "Puno Region, southern Peru"
+    }
+  },
+  {
+    "id": "nazca-lines",
+    "name": {
+      "zh": "纳斯卡线条",
+      "en": "Nazca Lines"
+    },
+    "description": {
+      "zh": "纳斯卡线条是公元1世纪至700年间绘制于纳斯卡沙漠地表的巨型地画，图案包括猴子、蜂鸟、蜘蛛等动物形象，只有从空中才能完整看清，其目的至今仍是未解之谜。",
+      "en": "The Nazca Lines are enormous geoglyphs etched into the desert between 1 AD and 700 AD — monkeys, hummingbirds, spiders — only fully visible from the air. Their purpose remains one of archaeology's great mysteries."
+    },
+    "image": "https://picsum.photos/seed/nazca-lines/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "地画",
+        "神秘文化"
+      ],
+      "en": [
+        "UNESCO",
+        "Geoglyphs",
+        "Ancient Mystery"
+      ]
+    },
+    "location": {
+      "zh": "伊卡大区，秘鲁南部",
+      "en": "Ica Region, southern Peru"
+    }
+  },
+  {
+    "id": "amazon-peru",
+    "name": {
+      "zh": "秘鲁亚马逊",
+      "en": "Peruvian Amazon"
+    },
+    "description": {
+      "zh": "秘鲁亚马逊盆地覆盖全国60%的面积，是生物多样性极其丰富的热带雨林地区。马努国家公园被认为是世界上生物多样性最高的保护区之一，生活着超过1,000种鸟类。",
+      "en": "Peru's Amazon Basin covers 60% of the country and is one of Earth's most biodiverse regions. Manu National Park is considered the world's most biodiverse protected area, home to over 1,000 bird species."
+    },
+    "image": "https://picsum.photos/seed/amazon-peru/800/500",
+    "tags": {
+      "zh": [
+        "雨林",
+        "生物多样性",
+        "野生动物"
+      ],
+      "en": [
+        "Rainforest",
+        "Biodiversity",
+        "Wildlife"
+      ]
+    },
+    "location": {
+      "zh": "洛雷托大区，秘鲁东部",
+      "en": "Loreto Region, eastern Peru"
+    }
+  }
+]

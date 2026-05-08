@@ -1,0 +1,86 @@
+[
+  {
+    "id": "chichen-itza",
+    "name": {
+      "zh": "奇琴伊察",
+      "en": "Chichen Itza"
+    },
+    "description": {
+      "zh": "奇琴伊察是玛雅文明最重要的遗址之一，库库尔坎神庙（羽蛇神金字塔）在春秋分时节会出现蛇形阴影奇观。2007年评选为世界新七大奇迹之一。",
+      "en": "Chichen Itza is one of the Maya's most important sites. At the spring and autumn equinoxes, the El Castillo pyramid creates a serpent-shadow effect. Voted one of the New Seven Wonders of the World in 2007."
+    },
+    "image": "https://picsum.photos/seed/chichen-itza/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "玛雅文明",
+        "七大奇迹"
+      ],
+      "en": [
+        "UNESCO",
+        "Maya Civilisation",
+        "Wonder of World"
+      ]
+    },
+    "location": {
+      "zh": "尤卡坦州，墨西哥",
+      "en": "Yucatan state, Mexico"
+    }
+  },
+  {
+    "id": "cancun",
+    "name": {
+      "zh": "坎昆",
+      "en": "Cancun"
+    },
+    "description": {
+      "zh": "坎昆是墨西哥最受欢迎的度假目的地，拥有24公里长的白沙滩和加勒比海清澈的碧蓝海水。酒店区（Zona Hotelera）汇集了众多豪华度假村，附近还有世界第二大珊瑚礁系统可供潜水。",
+      "en": "Cancun is Mexico's most popular resort, with 24 km of white-sand beach and clear Caribbean water. The Hotel Zone is lined with luxury resorts; nearby lies the world's second-largest coral reef system for diving."
+    },
+    "image": "https://picsum.photos/seed/cancun-beach/800/500",
+    "tags": {
+      "zh": [
+        "海滩",
+        "度假",
+        "潜水"
+      ],
+      "en": [
+        "Beach",
+        "Resort",
+        "Diving"
+      ]
+    },
+    "location": {
+      "zh": "金塔纳罗奥州，墨西哥东南部",
+      "en": "Quintana Roo state, southeast Mexico"
+    }
+  },
+  {
+    "id": "mexico-city-historic",
+    "name": {
+      "zh": "墨西哥城历史中心",
+      "en": "Mexico City Historic Centre"
+    },
+    "description": {
+      "zh": "墨西哥城历史中心建于阿兹特克帝国首都特诺奇提特兰的遗址之上，宪法广场（索卡洛广场）是拉丁美洲最大的广场，周围有宏伟的主教座堂和国家宫，壁画艺术大师迭戈·里维拉的作品遍布其中。",
+      "en": "Built on the ruins of Aztec Tenochtitlan, Mexico City's historic centre centres on the Zocalo, Latin America's largest plaza, flanked by a magnificent cathedral and National Palace adorned with Diego Rivera murals."
+    },
+    "image": "https://picsum.photos/seed/mexico-city/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "阿兹特克",
+        "壁画艺术"
+      ],
+      "en": [
+        "UNESCO",
+        "Aztec Heritage",
+        "Mural Art"
+      ]
+    },
+    "location": {
+      "zh": "墨西哥城历史中心区",
+      "en": "Historic Centre, Mexico City"
+    }
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "id": "statue-of-liberty",
+    "name": {
+      "zh": "自由女神像",
+      "en": "Statue of Liberty"
+    },
+    "description": {
+      "zh": "自由女神像是法国赠予美国的礼物，建于1886年，是自由与民主的全球象征。她高46米，矗立于纽约港的自由岛上，手持火炬迎接来自世界各地的移民。",
+      "en": "A gift from France in 1886, the 46 m Statue of Liberty is a global symbol of freedom and democracy. She stands on Liberty Island in New York Harbour, welcoming immigrants from around the world."
+    },
+    "image": "https://picsum.photos/seed/statue-of-liberty/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "地标",
+        "自由民主"
+      ],
+      "en": [
+        "UNESCO",
+        "Landmark",
+        "Freedom"
+      ]
+    },
+    "location": {
+      "zh": "纽约港自由岛",
+      "en": "Liberty Island, New York Harbour"
+    },
+    "subdivision": "new-york"
+  },
+  {
+    "id": "times-square",
+    "name": {
+      "zh": "时代广场",
+      "en": "Times Square"
+    },
+    "description": {
+      "zh": "时代广场是纽约市最具活力的地标，每年有约5,000万游客到访。林立的LED广告牌、百老汇剧院、以及新年倒计时降球活动使其成为世界最著名的十字路口。",
+      "en": "Times Square attracts 50 million visitors annually. Towering LED billboards, Broadway theatres and the iconic New Year's Eve ball drop make it the world's most famous crossroads."
+    },
+    "image": "https://picsum.photos/seed/times-square/800/500",
+    "tags": {
+      "zh": [
+        "都市",
+        "百老汇",
+        "夜生活"
+      ],
+      "en": [
+        "Urban",
+        "Broadway",
+        "Nightlife"
+      ]
+    },
+    "location": {
+      "zh": "纽约市曼哈顿区",
+      "en": "Midtown Manhattan, New York City"
+    },
+    "subdivision": "new-york"
+  }
+]

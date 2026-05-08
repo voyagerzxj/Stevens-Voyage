@@ -1,0 +1,114 @@
+[
+  {
+    "id": "christ-redeemer",
+    "name": {
+      "zh": "救世基督像",
+      "en": "Christ the Redeemer"
+    },
+    "description": {
+      "zh": "救世基督像矗立于里约热内卢科科瓦多山顶，高38米（含底座），双臂展开28米，俯瞰整个城市和瓜纳巴拉湾。1931年落成，是世界新七大奇迹之一。",
+      "en": "Christ the Redeemer stands 38 m tall (including base) atop Corcovado mountain, arms outstretched 28 m, gazing over Rio and Guanabara Bay. Completed in 1931 and one of the New Seven Wonders of the World."
+    },
+    "image": "https://picsum.photos/seed/christ-redeemer/800/500",
+    "tags": {
+      "zh": [
+        "七大奇迹",
+        "地标",
+        "宗教雕像"
+      ],
+      "en": [
+        "Wonder of World",
+        "Landmark",
+        "Religious Statue"
+      ]
+    },
+    "location": {
+      "zh": "里约热内卢科科瓦多山",
+      "en": "Corcovado Mountain, Rio de Janeiro"
+    }
+  },
+  {
+    "id": "amazon-rainforest",
+    "name": {
+      "zh": "亚马逊热带雨林",
+      "en": "Amazon Rainforest"
+    },
+    "description": {
+      "zh": "亚马逊是世界上最大的热带雨林，覆盖面积超过550万平方公里，是地球上超过10%物种的家园。从玛瑙斯出发可进行深度雨林探险，体验原始的热带生态系统。",
+      "en": "The Amazon is the world's largest tropical rainforest, covering over 5.5 million km2 and home to more than 10% of all Earth's species. Manaus is the gateway for deep-jungle expeditions."
+    },
+    "image": "https://picsum.photos/seed/amazon-rainforest/800/500",
+    "tags": {
+      "zh": [
+        "热带雨林",
+        "生物多样性",
+        "生态旅游"
+      ],
+      "en": [
+        "Rainforest",
+        "Biodiversity",
+        "Eco-Tourism"
+      ]
+    },
+    "location": {
+      "zh": "亚马逊州，巴西北部",
+      "en": "Amazonas state, northern Brazil"
+    }
+  },
+  {
+    "id": "iguazu-falls",
+    "name": {
+      "zh": "伊瓜苏瀑布（巴西侧）",
+      "en": "Iguazu Falls (Brazil side)"
+    },
+    "description": {
+      "zh": "伊瓜苏瀑布横跨巴西和阿根廷边境，是世界上最宽的瀑布群，由275条瀑布组成，宽约2,700米。巴西侧可欣赏到全景，阿根廷侧则可近距离感受「魔鬼咽喉」的震撼。",
+      "en": "Iguazu Falls straddles the Brazil-Argentina border — the world's widest waterfall system, with 275 falls stretching 2,700 m. Brazil's side gives the panoramic view; Argentina's side puts you inside the Devil's Throat."
+    },
+    "image": "https://picsum.photos/seed/iguazu-brazil/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "瀑布",
+        "自然奇观"
+      ],
+      "en": [
+        "UNESCO",
+        "Waterfall",
+        "Natural Wonder"
+      ]
+    },
+    "location": {
+      "zh": "巴拉那州，巴西南部",
+      "en": "Parana state, southern Brazil"
+    }
+  },
+  {
+    "id": "rio-carnival",
+    "name": {
+      "zh": "里约狂欢节",
+      "en": "Rio Carnival"
+    },
+    "description": {
+      "zh": "里约狂欢节是全球最盛大的狂欢节，每年吸引超过200万人参与街头庆典。桑巴舞校在桑巴大道的巡游是其核心活动，华丽的服装、激昂的音乐和热情的舞蹈令全世界为之倾倒。",
+      "en": "Rio Carnival is the world's largest, drawing over 2 million street revellers. The centrepiece is the samba school parade on the Sambadrome, a riot of elaborate costumes, thunderous drums and passionate dance."
+    },
+    "image": "https://picsum.photos/seed/rio-carnival/800/500",
+    "tags": {
+      "zh": [
+        "狂欢节",
+        "桑巴舞",
+        "文化活动"
+      ],
+      "en": [
+        "Carnival",
+        "Samba",
+        "Cultural Festival"
+      ]
+    },
+    "location": {
+      "zh": "里约热内卢市",
+      "en": "Rio de Janeiro city, Brazil"
+    }
+  }
+]

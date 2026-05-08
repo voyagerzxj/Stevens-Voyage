@@ -1,0 +1,86 @@
+[
+  {
+    "id": "niagara-falls",
+    "name": {
+      "zh": "尼亚加拉大瀑布",
+      "en": "Niagara Falls"
+    },
+    "description": {
+      "zh": "尼亚加拉瀑布由马蹄瀑布、美洲瀑布和新娘面纱瀑布三部分组成，是世界上流量最大的瀑布群之一。每秒约有168,000立方米的水从悬崖飞流而下，气势磅礴。",
+      "en": "Niagara Falls comprises three waterfalls — Horseshoe, American and Bridal Veil. Together they form one of the world's highest-flow waterfalls, with some 168,000 m3 of water plunging every second."
+    },
+    "image": "https://picsum.photos/seed/niagara-falls/800/500",
+    "tags": {
+      "zh": [
+        "瀑布",
+        "自然奇观",
+        "边境景观"
+      ],
+      "en": [
+        "Waterfall",
+        "Natural Wonder",
+        "Border Landmark"
+      ]
+    },
+    "location": {
+      "zh": "安大略省，加美边境",
+      "en": "Ontario, Canada-US border"
+    }
+  },
+  {
+    "id": "banff",
+    "name": {
+      "zh": "班夫国家公园",
+      "en": "Banff National Park"
+    },
+    "description": {
+      "zh": "班夫是加拿大第一个国家公园（1885年），位于落基山脉之中，以碧蓝的冰川湖（路易斯湖、梦莲湖）、雄伟的山峰和丰富的野生动物著称，是自然摄影师的天堂。",
+      "en": "Banff is Canada's first national park (1885), set in the Rockies. Its glacier-fed turquoise lakes (Lake Louise, Moraine Lake), towering peaks and abundant wildlife make it a paradise for nature photographers."
+    },
+    "image": "https://picsum.photos/seed/banff-canada/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "国家公园",
+        "冰川湖"
+      ],
+      "en": [
+        "UNESCO",
+        "National Park",
+        "Glacial Lakes"
+      ]
+    },
+    "location": {
+      "zh": "阿尔伯塔省落基山脉",
+      "en": "Rocky Mountains, Alberta, Canada"
+    }
+  },
+  {
+    "id": "quebec-city",
+    "name": {
+      "zh": "魁北克城",
+      "en": "Quebec City"
+    },
+    "description": {
+      "zh": "魁北克城是北美保存最完好的城墙城市，旧城区的石砌街道、法式城堡酒店和北美唯一保存完整的城墙令人仿佛置身于法国中世纪古城。1985年列入UNESCO世界遗产。",
+      "en": "Quebec City has North America's best-preserved fortified old town, with cobblestone streets, the Fairmont Chateau Frontenac and the only intact city walls in North America. A UNESCO World Heritage Site since 1985."
+    },
+    "image": "https://picsum.photos/seed/quebec-city/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "法裔文化",
+        "历史古城"
+      ],
+      "en": [
+        "UNESCO",
+        "French Culture",
+        "Historic City"
+      ]
+    },
+    "location": {
+      "zh": "魁北克省魁北克市",
+      "en": "Quebec City, Quebec, Canada"
+    }
+  }
+]

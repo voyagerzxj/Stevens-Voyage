@@ -1,0 +1,43 @@
+{
+  "quickFacts": {
+    "area": {
+      "zh": "196.4万平方公里",
+      "en": "1.964 million km²"
+    },
+    "population": {
+      "zh": "约1.28亿",
+      "en": "~128 million"
+    },
+    "language": {
+      "zh": "西班牙语",
+      "en": "Spanish"
+    },
+    "currency": {
+      "zh": "墨西哥比索（MXN）",
+      "en": "Mexican Peso (MXN)"
+    },
+    "timezone": "UTC-6 至 UTC-8"
+  },
+  "info": {
+    "geography": {
+      "zh": "墨西哥位于北美洲南部，东临墨西哥湾和加勒比海，西临太平洋。地形以高原和山地为主，中部高原海拔约2000米。尤卡坦半岛是著名旅游区。气候从北部沙漠到南部热带雨林各有不同。",
+      "en": "Mexico is in southern North America, bordering the Gulf of Mexico and Caribbean to the east, Pacific to the west. Terrain is dominated by highlands; the central plateau sits at ~2,000 m. The Yucatan Peninsula is a famous tourist region. Climate ranges from northern desert to southern tropical rainforest."
+    },
+    "history": {
+      "zh": "墨西哥是玛雅文明和阿兹特克文明的发源地。1521年西班牙征服者科尔特斯灭亡阿兹特克帝国，开始三百年殖民统治。1821年独立，经历多次革命和政治动荡，现为联邦共和国。",
+      "en": "Mexico is the birthplace of Maya and Aztec civilizations. In 1521, Spanish conquistador Cortés toppled the Aztec Empire, beginning three centuries of colonial rule. Independence came in 1821, followed by revolutions and political upheaval. Mexico is now a federal republic."
+    },
+    "economy": {
+      "zh": "墨西哥是世界第十五大经济体，制造业、石油、旅游业和农业是重要支柱。与美国、加拿大签订的《美墨加协定》（USMCA）对经济影响深远。旅游业吸引大量国际游客，尤以加勒比海沿岸度假区著称。",
+      "en": "Mexico is the world's 15th-largest economy; manufacturing, oil, tourism and agriculture are key. The USMCA trade agreement with the USA and Canada is hugely significant. Tourism is major, especially Caribbean coast resorts."
+    },
+    "population": {
+      "zh": "墨西哥人口约1.28亿，大多数是印欧混血（梅斯蒂索）族裔。原住民文化至今在南部各州保存完好。天主教是主要宗教，家庭和宗教节日在文化生活中占有重要地位。",
+      "en": "Mexico has ~128 million people, mostly Mestizo (mixed Indigenous and European) heritage. Indigenous cultures are well preserved in southern states. Catholicism is dominant; family and religious festivals are central to cultural life."
+    },
+    "culture": {
+      "zh": "墨西哥文化融合了原住民与西班牙殖民文化。亡灵节（Día de los Muertos）是墨西哥最具代表性的节日，已被列入联合国非物质文化遗产。玛雅遗址、墨西哥卷饼、龙舌兰酒、壁画艺术都是墨西哥文化的重要符号。",
+      "en": "Mexican culture blends Indigenous and Spanish colonial heritage. Día de los Muertos (Day of the Dead) is Mexico's most distinctive festival, listed as UNESCO intangible heritage. Maya ruins, tacos, tequila and mural art are iconic Mexican cultural symbols."
+    }
+  }
+}

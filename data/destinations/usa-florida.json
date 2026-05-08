@@ -1,0 +1,31 @@
+[
+  {
+    "id": "miami-beach",
+    "name": {
+      "zh": "迈阿密海滩",
+      "en": "Miami Beach"
+    },
+    "description": {
+      "zh": "迈阿密南海滩（South Beach）以洁白的沙滩、装饰艺术风格建筑和充满活力的夜生活著称。碧绿的大西洋海水、多彩的人文氛围和永恒的阳光让其成为全美最受欢迎的度假目的地之一。",
+      "en": "Miami's South Beach is known for white sands, Art Deco architecture and vibrant nightlife. Turquoise Atlantic water, a multicultural scene and year-round sunshine make it one of America's top resort destinations."
+    },
+    "image": "https://picsum.photos/seed/miami-beach/800/500",
+    "tags": {
+      "zh": [
+        "海滩",
+        "装饰艺术",
+        "夜生活"
+      ],
+      "en": [
+        "Beach",
+        "Art Deco",
+        "Nightlife"
+      ]
+    },
+    "location": {
+      "zh": "佛罗里达州迈阿密滩市",
+      "en": "Miami Beach, Florida, USA"
+    },
+    "subdivision": "florida"
+  }
+]

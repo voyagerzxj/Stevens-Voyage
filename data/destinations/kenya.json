@@ -1,0 +1,114 @@
+[
+  {
+    "id": "masai-mara",
+    "name": {
+      "zh": "马赛马拉",
+      "en": "Maasai Mara"
+    },
+    "description": {
+      "zh": "马赛马拉是肯尼亚最著名的野生动物保护区，与坦桑尼亚的塞伦盖蒂共同构成非洲最大的生态系统。每年7至10月的角马大迁徙被誉为「世界第八大奇迹」，数百万动物横渡马拉河的壮观景象令人终身难忘。",
+      "en": "Maasai Mara is Kenya's most celebrated reserve, sharing an ecosystem with Tanzania's Serengeti. The July-October Great Migration — millions of wildebeest crossing the Mara River — is called the Eighth Wonder of the World."
+    },
+    "image": "https://picsum.photos/seed/masai-mara/800/500",
+    "tags": {
+      "zh": [
+        "野生动物",
+        "大迁徙",
+        "国家保护区"
+      ],
+      "en": [
+        "Wildlife",
+        "Great Migration",
+        "Game Reserve"
+      ]
+    },
+    "location": {
+      "zh": "纳罗克县，肯尼亚西南部",
+      "en": "Narok County, southwest Kenya"
+    }
+  },
+  {
+    "id": "amboseli",
+    "name": {
+      "zh": "安博塞利国家公园",
+      "en": "Amboseli National Park"
+    },
+    "description": {
+      "zh": "安博塞利国家公园以乞力马扎罗雪山为背景，是拍摄非洲象群最理想的地点之一。公园内生活着约1,600头大象，在白雪皑皑的非洲第一高峰映衬下，象群漫步的画面令人动容。",
+      "en": "Amboseli frames Africa's largest elephant herds against the snows of Kilimanjaro, making it one of the continent's finest photography destinations. Around 1,600 elephants roam beneath Africa's highest peak."
+    },
+    "image": "https://picsum.photos/seed/amboseli-kenya/800/500",
+    "tags": {
+      "zh": [
+        "大象",
+        "国家公园",
+        "乞力马扎罗"
+      ],
+      "en": [
+        "Elephants",
+        "National Park",
+        "Kilimanjaro"
+      ]
+    },
+    "location": {
+      "zh": "卡加多县，肯尼亚南部",
+      "en": "Kajiado County, southern Kenya"
+    }
+  },
+  {
+    "id": "diani-beach",
+    "name": {
+      "zh": "迪亚尼海滩",
+      "en": "Diani Beach"
+    },
+    "description": {
+      "zh": "迪亚尼海滩是肯尼亚印度洋海岸最美丽的海滩，拥有洁白的沙滩、温暖的热带海水和丰富的珊瑚礁，被多次评选为非洲最佳海滩。是结合野生动物狩猎与海滨度假的理想目的地。",
+      "en": "Diani Beach is Kenya's finest Indian Ocean beach — white sands, warm water and rich coral reefs have earned it multiple Best Beach in Africa titles. An ideal end to a safari itinerary."
+    },
+    "image": "https://picsum.photos/seed/diani-beach/800/500",
+    "tags": {
+      "zh": [
+        "海滩",
+        "珊瑚礁",
+        "热带度假"
+      ],
+      "en": [
+        "Beach",
+        "Coral Reef",
+        "Tropical Resort"
+      ]
+    },
+    "location": {
+      "zh": "夸莱县，肯尼亚南海岸",
+      "en": "Kwale County, south coast Kenya"
+    }
+  },
+  {
+    "id": "nairobi-national-park",
+    "name": {
+      "zh": "内罗毕国家公园",
+      "en": "Nairobi National Park"
+    },
+    "description": {
+      "zh": "内罗毕国家公园是全球唯一位于首都城区内的野生动物保护区，可在城市摩天大楼的背景下近距离观察狮子、长颈鹿、犀牛等非洲野生动物，被称为「世界奇观」。",
+      "en": "Nairobi National Park is the world's only wildlife reserve within a capital city. Lions, giraffes and rhinos roam with the city skyline as backdrop — truly one of the world's most extraordinary wildlife experiences."
+    },
+    "image": "https://picsum.photos/seed/nairobi-park/800/500",
+    "tags": {
+      "zh": [
+        "城市野生动物园",
+        "犀牛",
+        "独一无二"
+      ],
+      "en": [
+        "Urban Safari",
+        "Rhino",
+        "One of a Kind"
+      ]
+    },
+    "location": {
+      "zh": "内罗毕市，肯尼亚首都",
+      "en": "Nairobi city, Kenya"
+    }
+  }
+]

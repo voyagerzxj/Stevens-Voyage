@@ -1,0 +1,43 @@
+{
+  "quickFacts": {
+    "area": {
+      "zh": "55.1万平方公里",
+      "en": "551,695 km²"
+    },
+    "population": {
+      "zh": "约6800万",
+      "en": "~68 million"
+    },
+    "language": {
+      "zh": "法语",
+      "en": "French"
+    },
+    "currency": {
+      "zh": "欧元（EUR）",
+      "en": "Euro (EUR)"
+    },
+    "timezone": "UTC+1"
+  },
+  "info": {
+    "geography": {
+      "zh": "法国位于西欧，北临英吉利海峡，西临大西洋，南临地中海，东部与阿尔卑斯山和比利牛斯山为界。地形多样，包括北部平原、中央高原和南部地中海沿岸。塞纳河流经巴黎，卢瓦尔河是法国最长的河流。",
+      "en": "France is in Western Europe, bordering the English Channel to the north, Atlantic Ocean to the west, Mediterranean to the south, and Alps and Pyrenees to the east. Diverse terrain includes northern plains, the Massif Central, and Mediterranean coast. The Seine flows through Paris; the Loire is the longest river."
+    },
+    "history": {
+      "zh": "法国是西方文明的重要发源地。经历高卢时代、法兰克王国、卡佩王朝，路易十四建立欧洲强国，1789年法国大革命深刻影响了世界历史。拿破仑时代之后，法国历经多次政体变革，现为第五共和国。",
+      "en": "France is a major cradle of Western civilization. From Gaul through the Frankish Kingdom and Capetian dynasty, Louis XIV built a European superpower, and the 1789 French Revolution profoundly influenced world history. After the Napoleonic era, France went through multiple political changes and is now the Fifth Republic."
+    },
+    "economy": {
+      "zh": "法国是世界第七大经济体，以奢侈品、航空航天、汽车、农业和旅游业著称。路易威登、香奈儿等奢侈品牌享誉全球。法国是全球最受欢迎的旅游目的地之一，每年接待游客超8000万人次。",
+      "en": "France is the world's seventh-largest economy, renowned for luxury goods, aerospace, automobiles, agriculture and tourism. Brands like Louis Vuitton and Chanel are global icons. France is the world's most visited country, welcoming over 80 million tourists annually."
+    },
+    "population": {
+      "zh": "法国人口约6800万，是西欧人口最多的国家之一。法国是一个多元文化社会，有大量来自北非、撒哈拉以南非洲和亚洲的移民群体。法国人以热爱美食、艺术和生活品质而闻名。",
+      "en": "France has a population of ~68 million, one of the largest in Western Europe. It is a multicultural society with significant immigrant communities from North Africa, sub-Saharan Africa and Asia. The French are renowned for their love of food, art and quality of life."
+    },
+    "culture": {
+      "zh": "法国是世界文化艺术的中心之一，孕育了莫奈、罗丹、雨果、萨特等众多艺术家和思想家。法式美食被列入联合国非物质文化遗产，葡萄酒、奶酪和面包是法国饮食的象征。时尚、电影、文学等领域在全球具有重要影响力。",
+      "en": "France is a global center of art and culture, nurturing artists and thinkers like Monet, Rodin, Hugo and Sartre. French cuisine is UNESCO-listed intangible cultural heritage. Wine, cheese and bread are iconic. France exerts major global influence in fashion, cinema and literature."
+    }
+  }
+}

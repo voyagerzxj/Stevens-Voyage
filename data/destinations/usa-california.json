@@ -1,0 +1,31 @@
+[
+  {
+    "id": "golden-gate",
+    "name": {
+      "zh": "金门大桥",
+      "en": "Golden Gate Bridge"
+    },
+    "description": {
+      "zh": "金门大桥是旧金山的标志性建筑，1937年建成时是世界上最长的悬索桥，主跨达1,280米。橙红色的桥身横跨金门海峡，在旧金山的晨雾中若隐若现。",
+      "en": "The Golden Gate Bridge was the world's longest suspension bridge at its 1937 completion, spanning 1,280 m. Its International Orange colour glows against the Bay Area fog and is San Francisco's defining image."
+    },
+    "image": "https://picsum.photos/seed/golden-gate/800/500",
+    "tags": {
+      "zh": [
+        "大桥",
+        "地标",
+        "工程奇迹"
+      ],
+      "en": [
+        "Bridge",
+        "Landmark",
+        "Engineering Marvel"
+      ]
+    },
+    "location": {
+      "zh": "加利福尼亚州旧金山",
+      "en": "San Francisco, California"
+    },
+    "subdivision": "california"
+  }
+]

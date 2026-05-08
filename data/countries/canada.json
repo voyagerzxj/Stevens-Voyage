@@ -1,0 +1,43 @@
+{
+  "quickFacts": {
+    "area": {
+      "zh": "998.5万平方公里",
+      "en": "9.985 million km²"
+    },
+    "population": {
+      "zh": "约3800万",
+      "en": "~38 million"
+    },
+    "language": {
+      "zh": "英语、法语",
+      "en": "English, French"
+    },
+    "currency": {
+      "zh": "加拿大元（CAD）",
+      "en": "Canadian Dollar (CAD)"
+    },
+    "timezone": "UTC-3.5 至 UTC-8"
+  },
+  "info": {
+    "geography": {
+      "zh": "加拿大是世界第二大国，国土面积约998.5万平方公里。拥有世界上最长的海岸线，地形涵盖落基山脉、大草原、北极苔原和繁茂的温带雨林。五大湖与美国共享，圣劳伦斯河是重要水系。",
+      "en": "Canada is the world's second-largest country at ~9.985 million km². It has the world's longest coastline, with terrain including the Rocky Mountains, prairies, Arctic tundra and temperate rainforests. The Great Lakes are shared with the USA; the St. Lawrence River is a key waterway."
+    },
+    "history": {
+      "zh": "加拿大原住民在此居住数千年。16世纪起欧洲人开始殖民，法国和英国争夺控制权。1867年加拿大联邦成立，1982年获得完全法律独立。加拿大一直以多元文化主义和和平主义著称。",
+      "en": "Indigenous peoples inhabited Canada for millennia before European colonization from the 16th century. France and Britain competed for control. The Canadian Confederation was formed in 1867; full legal independence came in 1982. Canada is known for multiculturalism and peacekeeping."
+    },
+    "economy": {
+      "zh": "加拿大是世界第十大经济体，自然资源丰富，石油、天然气、木材、矿产是重要出口产品。金融服务、制造业和高科技产业也是经济支柱。多伦多是加拿大最大的商业中心，温哥华是重要的太平洋门户。",
+      "en": "Canada is the world's tenth-largest economy, rich in natural resources. Oil, natural gas, timber and minerals are major exports. Financial services, manufacturing and high-tech are also key. Toronto is the largest commercial hub; Vancouver is an important Pacific gateway."
+    },
+    "population": {
+      "zh": "加拿大人口约3800万，是一个高度多元化的移民国家。每年接受约40万新移民，亚裔、南亚裔和非裔是主要移民群体。多伦多是北美种族最多元的城市之一。人口主要集中在南部与美国接壤地区。",
+      "en": "Canada has ~38 million people and is a highly diverse immigrant nation accepting ~400,000 new immigrants annually. Asian, South Asian and African communities are major immigrant groups. Toronto is one of the most ethnically diverse cities in North America. Population is concentrated in the south near the US border."
+    },
+    "culture": {
+      "zh": "加拿大以多元文化主义、包容开放著称，官方政策鼓励各族裔保留自身文化传统。曲棍球是加拿大国民运动和民族象征。枫叶、北极熊、皇家骑警是加拿大的标志性形象。冬季节日、原住民文化节是重要文化活动。",
+      "en": "Canada is known for multiculturalism and inclusiveness, with official policies encouraging ethnic groups to preserve their cultures. Ice hockey is the national sport and cultural symbol. Maple leaf, polar bears and the Mounties are iconic Canadian images. Winter festivals and Indigenous cultural events are important cultural occasions."
+    }
+  }
+}

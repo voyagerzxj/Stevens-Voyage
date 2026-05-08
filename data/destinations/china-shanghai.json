@@ -1,0 +1,31 @@
+[
+  {
+    "id": "west-lake",
+    "name": {
+      "zh": "西湖",
+      "en": "West Lake"
+    },
+    "description": {
+      "zh": "杭州西湖是中国最著名的淡水湖之一，湖光山色与历史人文交相辉映。苏堤、白堤将湖面分割成数个区域，四季风景各异，是文人墨客吟咏千年的胜地。",
+      "en": "West Lake in Hangzhou is one of China's most celebrated freshwater lakes. The Su and Bai Causeways divide its shimmering surface, creating distinct zones of beauty that have inspired poets for a thousand years."
+    },
+    "image": "https://picsum.photos/seed/west-lake-hangzhou/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "湖泊",
+        "江南园林"
+      ],
+      "en": [
+        "UNESCO",
+        "Lake",
+        "Classical Gardens"
+      ]
+    },
+    "location": {
+      "zh": "浙江省杭州市",
+      "en": "Hangzhou, Zhejiang Province"
+    },
+    "subdivision": "shanghai"
+  }
+]

@@ -1,0 +1,574 @@
+window.DB_INDEX = {
+  "continents": [
+    {
+      "id": "asia",
+      "name": {
+        "zh": "亚洲",
+        "en": "Asia"
+      },
+      "description": {
+        "zh": "亚洲是世界上最大的洲，面积约4458万平方公里，拥有近50亿人口。亚洲是众多古代文明的发源地，包括中华文明、印度河文明等，有着丰富的文化遗产和自然奇观。",
+        "en": "Asia is the world's largest continent, covering ~44.58 million km² and home to nearly 5 billion people. It is the cradle of many ancient civilizations with rich cultural heritage and natural wonders."
+      },
+      "image": "https://picsum.photos/seed/asia-mountains/1200/600",
+      "countries": [
+        "china",
+        "japan",
+        "india"
+      ],
+      "stats": {
+        "area": "4458万 km²",
+        "population": {
+          "zh": "约47亿",
+          "en": "~4.7 billion"
+        },
+        "countriesCount": 49
+      }
+    },
+    {
+      "id": "europe",
+      "name": {
+        "zh": "欧洲",
+        "en": "Europe"
+      },
+      "description": {
+        "zh": "欧洲是文艺复兴、工业革命和民主思想的发源地，拥有丰富的历史文化遗产，以精致的城市景观、悠久的艺术传统和多样的自然风光著称。",
+        "en": "Europe is the birthplace of the Renaissance, Industrial Revolution and democratic thought. Known for sophisticated cityscapes, rich artistic traditions and diverse natural landscapes."
+      },
+      "image": "https://picsum.photos/seed/europe-city/1200/600",
+      "countries": [
+        "albania",
+        "france",
+        "italy",
+        "greece"
+      ],
+      "stats": {
+        "area": "1018万 km²",
+        "population": {
+          "zh": "约7.5亿",
+          "en": "~750 million"
+        },
+        "countriesCount": 44
+      }
+    },
+    {
+      "id": "north-america",
+      "name": {
+        "zh": "北美洲",
+        "en": "North America"
+      },
+      "description": {
+        "zh": "北美洲地形多样，从北极冻原到热带雨林，拥有世界最发达的经济体之一，以及多元融合的现代文化与壮观的自然奇景。",
+        "en": "North America features diverse landscapes from Arctic tundra to tropical rainforests. Home to some of the world's most developed economies and a rich multicultural heritage."
+      },
+      "image": "https://picsum.photos/seed/north-america-canyon/1200/600",
+      "countries": [
+        "usa",
+        "canada",
+        "mexico"
+      ],
+      "stats": {
+        "area": "2425万 km²",
+        "population": {
+          "zh": "约6亿",
+          "en": "~600 million"
+        },
+        "countriesCount": 23
+      }
+    },
+    {
+      "id": "south-america",
+      "name": {
+        "zh": "南美洲",
+        "en": "South America"
+      },
+      "description": {
+        "zh": "南美洲拥有亚马逊热带雨林、安第斯山脉和广阔的潘帕斯草原，是地球上生物多样性最丰富的大洲之一，也是印加等古代文明的发源地。",
+        "en": "South America is home to the Amazon rainforest, Andes Mountains and vast Pampas grasslands — one of Earth's most biodiverse continents and birthplace of the Inca civilization."
+      },
+      "image": "https://picsum.photos/seed/south-america-rainforest/1200/600",
+      "countries": [
+        "brazil",
+        "peru",
+        "argentina"
+      ],
+      "stats": {
+        "area": "1784万 km²",
+        "population": {
+          "zh": "约4.3亿",
+          "en": "~430 million"
+        },
+        "countriesCount": 12
+      }
+    },
+    {
+      "id": "africa",
+      "name": {
+        "zh": "非洲",
+        "en": "Africa"
+      },
+      "description": {
+        "zh": "非洲是人类文明的摇篮，拥有世界上最大的沙漠——撒哈拉沙漠，以及壮观的大草原和丰富的野生动物资源，孕育了包括古埃及在内的众多伟大文明。",
+        "en": "Africa is the cradle of humanity, home to the Sahara Desert, spectacular savannahs and incredible wildlife. It nurtured great civilizations including ancient Egypt."
+      },
+      "image": "https://picsum.photos/seed/africa-savannah/1200/600",
+      "countries": [
+        "egypt",
+        "kenya",
+        "morocco"
+      ],
+      "stats": {
+        "area": "3037万 km²",
+        "population": {
+          "zh": "约14亿",
+          "en": "~1.4 billion"
+        },
+        "countriesCount": 54
+      }
+    },
+    {
+      "id": "oceania",
+      "name": {
+        "zh": "大洋洲",
+        "en": "Oceania"
+      },
+      "description": {
+        "zh": "大洋洲由澳大利亚大陆及众多太平洋岛屿组成，拥有独特的生态系统和原住民文化，是袋鼠、考拉等特有动物的家园，也有世界最大的珊瑚礁系统——大堡礁。",
+        "en": "Oceania comprises the Australian continent and Pacific islands, featuring unique ecosystems and Indigenous cultures. Home to iconic wildlife and the Great Barrier Reef."
+      },
+      "image": "https://picsum.photos/seed/oceania-reef/1200/600",
+      "countries": [
+        "australia",
+        "new-zealand"
+      ],
+      "stats": {
+        "area": "850万 km²",
+        "population": {
+          "zh": "约4200万",
+          "en": "~42 million"
+        },
+        "countriesCount": 14
+      }
+    }
+  ],
+  "countries": {
+    "albania": {
+      "name": {
+        "zh": "阿尔巴尼亚",
+        "en": "Albania"
+      },
+      "flag": "🇦🇱",
+      "continent": "europe",
+      "capital": {
+        "zh": "地拉那",
+        "en": "Tirana"
+      },
+      "coverImage": "https://picsum.photos/seed/albania-berat/1200/500",
+      "isLarge": false,
+      "brief": {
+        "zh": "阿尔巴尼亚位于东南欧巴尔干半岛西部，西临亚得里亚海和爱奥尼亚海，北接黑山和科索沃，东接北马其顿，南邻希腊。国土面积约28,748平方公里，地形以山地为主，70%以上为山地和丘陵。阿尔卑斯山南端延伸至北部，形成壮观的阿尔巴尼亚阿尔卑斯山（又称阿克塞迪内山脉）。德林河、塞曼河等是主要河流。海岸线长约47…",
+        "en": "Albania is in the western Balkans of southeastern Europe, bordering the Adriatic and Ionian Seas to the west, Montenegro and Kosovo to the north, Nort…"
+      }
+    },
+    "china": {
+      "name": {
+        "zh": "中国",
+        "en": "China"
+      },
+      "flag": "🇨🇳",
+      "continent": "asia",
+      "capital": {
+        "zh": "北京",
+        "en": "Beijing"
+      },
+      "coverImage": "https://picsum.photos/seed/china-wall/1200/500",
+      "isLarge": true,
+      "brief": {
+        "zh": "中国位于东亚，国土面积约960万平方公里，是世界第三大国。地形西高东低，呈三级阶梯状分布：西部为青藏高原，中部为黄土高原、四川盆地，东部为平原与丘陵。主要河流有长江、黄河。气候类型多样，从寒温带到热带均有分布。",
+        "en": "China is located in East Asia with an area of ~9.6 million km², the third largest country in the world. The terrain descends in three steps from west …"
+      },
+      "subdivisions": {
+        "beijing": {
+          "name": {
+            "zh": "北京",
+            "en": "Beijing"
+          },
+          "emoji": "🏯"
+        },
+        "shanghai": {
+          "name": {
+            "zh": "上海",
+            "en": "Shanghai"
+          },
+          "emoji": "🌆"
+        },
+        "sichuan": {
+          "name": {
+            "zh": "四川",
+            "en": "Sichuan"
+          },
+          "emoji": "🐼"
+        },
+        "yunnan": {
+          "name": {
+            "zh": "云南",
+            "en": "Yunnan"
+          },
+          "emoji": "🌄"
+        },
+        "guangdong": {
+          "name": {
+            "zh": "广东",
+            "en": "Guangdong"
+          },
+          "emoji": "🏙️"
+        }
+      }
+    },
+    "japan": {
+      "name": {
+        "zh": "日本",
+        "en": "Japan"
+      },
+      "flag": "🇯🇵",
+      "continent": "asia",
+      "capital": {
+        "zh": "东京",
+        "en": "Tokyo"
+      },
+      "coverImage": "https://picsum.photos/seed/japan-fuji/1200/500",
+      "isLarge": false,
+      "brief": {
+        "zh": "日本是位于东亚的岛国，由本州、四国、九州、北海道四大岛及众多小岛组成。国土多山，平原面积狭小。地处环太平洋火山带，地震和火山活动频繁。富士山是日本最高峰，高3776米。",
+        "en": "Japan is an island nation in East Asia comprising four main islands — Honshu, Shikoku, Kyushu, Hokkaido — and thousands of smaller islands. Mountainou…"
+      }
+    },
+    "india": {
+      "name": {
+        "zh": "印度",
+        "en": "India"
+      },
+      "flag": "🇮🇳",
+      "continent": "asia",
+      "capital": {
+        "zh": "新德里",
+        "en": "New Delhi"
+      },
+      "coverImage": "https://picsum.photos/seed/india-taj/1200/500",
+      "isLarge": false,
+      "brief": {
+        "zh": "印度位于南亚，北部为喜马拉雅山脉，中部为恒河平原，南部为德干高原，西南部面临阿拉伯海，东南部面临孟加拉湾。气候类型多样，包括热带季风气候、沙漠气候等。",
+        "en": "India is located in South Asia with the Himalayas in the north, the Gangetic Plain in the center, the Deccan Plateau in the south, the Arabian Sea to …"
+      }
+    },
+    "france": {
+      "name": {
+        "zh": "法国",
+        "en": "France"
+      },
+      "flag": "🇫🇷",
+      "continent": "europe",
+      "capital": {
+        "zh": "巴黎",
+        "en": "Paris"
+      },
+      "coverImage": "https://picsum.photos/seed/france-eiffel/1200/500",
+      "isLarge": false,
+      "brief": {
+        "zh": "法国位于西欧，北临英吉利海峡，西临大西洋，南临地中海，东部与阿尔卑斯山和比利牛斯山为界。地形多样，包括北部平原、中央高原和南部地中海沿岸。塞纳河流经巴黎，卢瓦尔河是法国最长的河流。",
+        "en": "France is in Western Europe, bordering the English Channel to the north, Atlantic Ocean to the west, Mediterranean to the south, and Alps and Pyrenees…"
+      }
+    },
+    "italy": {
+      "name": {
+        "zh": "意大利",
+        "en": "Italy"
+      },
+      "flag": "🇮🇹",
+      "continent": "europe",
+      "capital": {
+        "zh": "罗马",
+        "en": "Rome"
+      },
+      "coverImage": "https://picsum.photos/seed/italy-colosseum/1200/500",
+      "isLarge": false,
+      "brief": {
+        "zh": "意大利位于南欧，形似一只靴子伸入地中海，北部以阿尔卑斯山为界，亚平宁山脉贯穿半岛全境。拥有西西里岛和撒丁岛两大岛屿。波河平原是最重要的农业区，地中海气候温和宜人。",
+        "en": "Italy is in Southern Europe, shaped like a boot extending into the Mediterranean. The Alps border the north; the Apennines run the length of the penin…"
+      }
+    },
+    "greece": {
+      "name": {
+        "zh": "希腊",
+        "en": "Greece"
+      },
+      "flag": "🇬🇷",
+      "continent": "europe",
+      "capital": {
+        "zh": "雅典",
+        "en": "Athens"
+      },
+      "coverImage": "https://picsum.photos/seed/greece-santorini/1200/500",
+      "isLarge": false,
+      "brief": {
+        "zh": "希腊位于巴尔干半岛南端，海岸线绵延约13,676公里，拥有超过2,000个岛屿。奥林匹斯山是希腊最高峰，海拔2,917米。地中海气候夏季干燥炎热，冬季温和湿润。",
+        "en": "Greece is at the southern tip of the Balkan Peninsula with ~13,676 km of coastline and over 2,000 islands. Mount Olympus, at 2,917 m, is the highest p…"
+      }
+    },
+    "usa": {
+      "name": {
+        "zh": "美国",
+        "en": "United States"
+      },
+      "flag": "🇺🇸",
+      "continent": "north-america",
+      "capital": {
+        "zh": "华盛顿特区",
+        "en": "Washington, D.C."
+      },
+      "coverImage": "https://picsum.photos/seed/usa-liberty/1200/500",
+      "isLarge": true,
+      "brief": {
+        "zh": "美国位于北美洲中部，东临大西洋，西临太平洋，北接加拿大，南邻墨西哥。地形多样，从东部阿巴拉契亚山脉到中部大平原，再到西部落基山脉和太平洋沿岸。密西西比河是最重要的内陆水系。",
+        "en": "The USA occupies the center of North America, bordered by the Atlantic to the east, Pacific to the west, Canada to the north and Mexico to the south. …"
+      },
+      "subdivisions": {
+        "new-york": {
+          "name": {
+            "zh": "纽约州",
+            "en": "New York"
+          },
+          "emoji": "🗽"
+        },
+        "california": {
+          "name": {
+            "zh": "加利福尼亚州",
+            "en": "California"
+          },
+          "emoji": "🌉"
+        },
+        "hawaii": {
+          "name": {
+            "zh": "夏威夷州",
+            "en": "Hawaii"
+          },
+          "emoji": "🌺"
+        },
+        "florida": {
+          "name": {
+            "zh": "佛罗里达州",
+            "en": "Florida"
+          },
+          "emoji": "🐊"
+        },
+        "alaska": {
+          "name": {
+            "zh": "阿拉斯加州",
+            "en": "Alaska"
+          },
+          "emoji": "🐻"
+        }
+      }
+    },
+    "canada": {
+      "name": {
+        "zh": "加拿大",
+        "en": "Canada"
+      },
+      "flag": "🇨🇦",
+      "continent": "north-america",
+      "capital": {
+        "zh": "渥太华",
+        "en": "Ottawa"
+      },
+      "coverImage": "https://picsum.photos/seed/canada-niagara/1200/500",
+      "isLarge": false,
+      "brief": {
+        "zh": "加拿大是世界第二大国，国土面积约998.5万平方公里。拥有世界上最长的海岸线，地形涵盖落基山脉、大草原、北极苔原和繁茂的温带雨林。五大湖与美国共享，圣劳伦斯河是重要水系。",
+        "en": "Canada is the world's second-largest country at ~9.985 million km². It has the world's longest coastline, with terrain including the Rocky Mountains, …"
+      }
+    },
+    "mexico": {
+      "name": {
+        "zh": "墨西哥",
+        "en": "Mexico"
+      },
+      "flag": "🇲🇽",
+      "continent": "north-america",
+      "capital": {
+        "zh": "墨西哥城",
+        "en": "Mexico City"
+      },
+      "coverImage": "https://picsum.photos/seed/mexico-pyramid/1200/500",
+      "isLarge": false,
+      "brief": {
+        "zh": "墨西哥位于北美洲南部，东临墨西哥湾和加勒比海，西临太平洋。地形以高原和山地为主，中部高原海拔约2000米。尤卡坦半岛是著名旅游区。气候从北部沙漠到南部热带雨林各有不同。",
+        "en": "Mexico is in southern North America, bordering the Gulf of Mexico and Caribbean to the east, Pacific to the west. Terrain is dominated by highlands; t…"
+      }
+    },
+    "brazil": {
+      "name": {
+        "zh": "巴西",
+        "en": "Brazil"
+      },
+      "flag": "🇧🇷",
+      "continent": "south-america",
+      "capital": {
+        "zh": "巴西利亚",
+        "en": "Brasília"
+      },
+      "coverImage": "https://picsum.photos/seed/brazil-rio/1200/500",
+      "isLarge": false,
+      "brief": {
+        "zh": "巴西是南美洲最大的国家，占南美洲面积近一半。亚马逊热带雨林覆盖大部分西北部地区，是地球上最大的热带雨林。亚马逊河是世界流量最大的河流。南部高原地区气候温和，适宜农业发展。",
+        "en": "Brazil is South America's largest country, occupying nearly half the continent. The Amazon rainforest covers most of the northwest — Earth's largest t…"
+      }
+    },
+    "peru": {
+      "name": {
+        "zh": "秘鲁",
+        "en": "Peru"
+      },
+      "flag": "🇵🇪",
+      "continent": "south-america",
+      "capital": {
+        "zh": "利马",
+        "en": "Lima"
+      },
+      "coverImage": "https://picsum.photos/seed/peru-machu/1200/500",
+      "isLarge": false,
+      "brief": {
+        "zh": "秘鲁位于南美洲西部，地形分为三大区域：西部太平洋沿岸荒漠、中部安第斯山脉高原（包括的的喀喀湖）和东部亚马逊雨林。安第斯山脉的最高峰瓦斯卡兰山海拔6768米。",
+        "en": "Peru is in western South America with three distinct regions: the Pacific coastal desert to the west, the central Andean highlands (including Lake Tit…"
+      }
+    },
+    "argentina": {
+      "name": {
+        "zh": "阿根廷",
+        "en": "Argentina"
+      },
+      "flag": "🇦🇷",
+      "continent": "south-america",
+      "capital": {
+        "zh": "布宜诺斯艾利斯",
+        "en": "Buenos Aires"
+      },
+      "coverImage": "https://picsum.photos/seed/argentina-patagonia/1200/500",
+      "isLarge": false,
+      "brief": {
+        "zh": "阿根廷是南美洲第二大国，地形从北部热带查科平原，经过中部潘帕斯草原，到南部巴塔哥尼亚高原和安第斯山脉，再到南端的火地岛。伊瓜苏瀑布是世界最宽的瀑布之一。",
+        "en": "Argentina is South America's second-largest country, with terrain ranging from northern tropical Chaco plains through the Pampas grasslands, to Patago…"
+      }
+    },
+    "egypt": {
+      "name": {
+        "zh": "埃及",
+        "en": "Egypt"
+      },
+      "flag": "🇪🇬",
+      "continent": "africa",
+      "capital": {
+        "zh": "开罗",
+        "en": "Cairo"
+      },
+      "coverImage": "https://picsum.photos/seed/egypt-pyramids/1200/500",
+      "isLarge": false,
+      "brief": {
+        "zh": "埃及位于非洲东北部，大部分国土为撒哈拉沙漠所覆盖。尼罗河自南向北贯穿全境，在北部形成肥沃的尼罗河三角洲。苏伊士运河连接地中海和红海，具有重要的战略意义。",
+        "en": "Egypt is in northeastern Africa; most of its territory is covered by the Sahara Desert. The Nile flows south to north through the country, forming a f…"
+      }
+    },
+    "kenya": {
+      "name": {
+        "zh": "肯尼亚",
+        "en": "Kenya"
+      },
+      "flag": "🇰🇪",
+      "continent": "africa",
+      "capital": {
+        "zh": "内罗毕",
+        "en": "Nairobi"
+      },
+      "coverImage": "https://picsum.photos/seed/kenya-safari/1200/500",
+      "isLarge": false,
+      "brief": {
+        "zh": "肯尼亚位于东非，赤道穿越其中部。地形多样，包括印度洋沿岸平原、中部高原、东非大裂谷和西部维多利亚湖盆地。肯尼亚山是非洲第二高峰，海拔5199米。马赛马拉草原是著名的野生动物栖息地。",
+        "en": "Kenya is in East Africa, straddled by the equator. Terrain includes the Indian Ocean coastal plains, central highlands, the East African Rift Valley a…"
+      }
+    },
+    "morocco": {
+      "name": {
+        "zh": "摩洛哥",
+        "en": "Morocco"
+      },
+      "flag": "🇲🇦",
+      "continent": "africa",
+      "capital": {
+        "zh": "拉巴特",
+        "en": "Rabat"
+      },
+      "coverImage": "https://picsum.photos/seed/morocco-medina/1200/500",
+      "isLarge": false,
+      "brief": {
+        "zh": "摩洛哥位于非洲西北部，北临地中海，西临大西洋，与欧洲最近处仅14公里。阿特拉斯山脉横贯中部，撒哈拉沙漠覆盖南部地区。地形多样，气候温和。",
+        "en": "Morocco is in northwestern Africa, bordering the Mediterranean to the north and Atlantic to the west, just 14 km from Europe at its closest point. The…"
+      }
+    },
+    "australia": {
+      "name": {
+        "zh": "澳大利亚",
+        "en": "Australia"
+      },
+      "flag": "🇦🇺",
+      "continent": "oceania",
+      "capital": {
+        "zh": "堪培拉",
+        "en": "Canberra"
+      },
+      "coverImage": "https://picsum.photos/seed/australia-opera/1200/500",
+      "isLarge": false,
+      "brief": {
+        "zh": "澳大利亚是世界上最小的大陆，同时也是世界第六大国。大部分内陆地区为干旱沙漠（澳大利亚内陆），沿海地区气候宜人。大堡礁是世界最大的珊瑚礁系统，绵延超过2300公里。乌鲁鲁（艾尔斯岩）是内陆地标。",
+        "en": "Australia is the world's smallest continent and sixth-largest country. Most of the interior is arid desert (the Outback); coastal regions have a pleas…"
+      }
+    },
+    "new-zealand": {
+      "name": {
+        "zh": "新西兰",
+        "en": "New Zealand"
+      },
+      "flag": "🇳🇿",
+      "continent": "oceania",
+      "capital": {
+        "zh": "惠灵顿",
+        "en": "Wellington"
+      },
+      "coverImage": "https://picsum.photos/seed/newzealand-fjord/1200/500",
+      "isLarge": false,
+      "brief": {
+        "zh": "新西兰由北岛和南岛两大主岛及众多小岛组成，位于太平洋西南部。地形以山地为主，南岛的南阿尔卑斯山脉有多座海拔超过3000米的高峰。峡湾国家公园以其壮观的冰川峡湾著称，米尔福德峡湾是最著名的景观。",
+        "en": "New Zealand consists of the North Island, South Island and many smaller islands in the southwestern Pacific. Terrain is predominantly mountainous; the…"
+      }
+    }
+  },
+  "isoMap": {
+    "8": "albania",
+    "156": "china",
+    "392": "japan",
+    "356": "india",
+    "250": "france",
+    "380": "italy",
+    "300": "greece",
+    "840": "usa",
+    "124": "canada",
+    "484": "mexico",
+    "76": "brazil",
+    "604": "peru",
+    "32": "argentina",
+    "818": "egypt",
+    "404": "kenya",
+    "504": "morocco",
+    "36": "australia",
+    "554": "new-zealand"
+  }
+};

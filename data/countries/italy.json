@@ -1,0 +1,43 @@
+{
+  "quickFacts": {
+    "area": {
+      "zh": "30.1万平方公里",
+      "en": "301,340 km²"
+    },
+    "population": {
+      "zh": "约5900万",
+      "en": "~59 million"
+    },
+    "language": {
+      "zh": "意大利语",
+      "en": "Italian"
+    },
+    "currency": {
+      "zh": "欧元（EUR）",
+      "en": "Euro (EUR)"
+    },
+    "timezone": "UTC+1"
+  },
+  "info": {
+    "geography": {
+      "zh": "意大利位于南欧，形似一只靴子伸入地中海，北部以阿尔卑斯山为界，亚平宁山脉贯穿半岛全境。拥有西西里岛和撒丁岛两大岛屿。波河平原是最重要的农业区，地中海气候温和宜人。",
+      "en": "Italy is in Southern Europe, shaped like a boot extending into the Mediterranean. The Alps border the north; the Apennines run the length of the peninsula. Major islands include Sicily and Sardinia. The Po Valley is the most important agricultural area, with a mild Mediterranean climate."
+    },
+    "history": {
+      "zh": "意大利是古罗马文明的发源地，罗马帝国在鼎盛时期统治了整个欧洲、北非和中东。中世纪后，意大利城邦孕育了文艺复兴运动，深刻影响了世界文明进程。1861年意大利统一，1946年成为共和国。",
+      "en": "Italy is the birthplace of Roman civilization; at its peak the Roman Empire ruled Europe, North Africa and the Middle East. In the Middle Ages, Italian city-states nurtured the Renaissance, profoundly shaping world civilization. Italy unified in 1861 and became a republic in 1946."
+    },
+    "economy": {
+      "zh": "意大利是世界第八大经济体，以时尚、设计、汽车、机械制造和食品工业著称。法拉利、普拉达、百味来等品牌享誉全球。意大利是全球重要的葡萄酒和橄榄油生产国。",
+      "en": "Italy is the world's eighth-largest economy, celebrated for fashion, design, automobiles, mechanical engineering and food industry. Ferrari, Prada and Barilla are global icons. Italy is a leading producer of wine and olive oil."
+    },
+    "population": {
+      "zh": "意大利人口约5900万，面临人口老龄化和低生育率挑战。意大利人以热爱家庭、美食和艺术著称，生活节奏相对休闲。北部工业区与南部农业区之间存在明显的经济差异。",
+      "en": "Italy's population of ~59 million faces aging and low birth rate challenges. Italians are known for their love of family, food and art, with a relatively leisurely pace of life. Significant economic disparities exist between the industrial north and agricultural south."
+    },
+    "culture": {
+      "zh": "意大利是世界文化遗产最多的国家，拥有58处联合国教科文组织世界遗产。意大利是歌剧、文艺复兴艺术和高级时装的发源地。意式饮食（比萨、意面、冰淇淋）风靡全球，足球是国民运动。",
+      "en": "Italy has more UNESCO World Heritage Sites (58) than any other country. It is the birthplace of opera, Renaissance art and haute couture. Italian food — pizza, pasta, gelato — has conquered the world. Football (soccer) is the national passion."
+    }
+  }
+}

@@ -1,0 +1,31 @@
+[
+  {
+    "id": "jiuzhaigou",
+    "name": {
+      "zh": "九寨沟",
+      "en": "Jiuzhaigou"
+    },
+    "description": {
+      "zh": "九寨沟是四川省北部的仙境般的峡谷国家公园，以翡翠色的多层瀑布、色彩斑斓的湖泊和雪山为特色。水中倒映着五颜六色的林木，被誉为「童话世界」。",
+      "en": "Jiuzhaigou is a fairy-tale canyon national park in northern Sichuan, famous for its multi-tiered turquoise waterfalls, kaleidoscopic lakes and snow-capped peaks reflected in crystal-clear water."
+    },
+    "image": "https://picsum.photos/seed/jiuzhaigou/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "瀑布",
+        "高原湖泊"
+      ],
+      "en": [
+        "UNESCO",
+        "Waterfalls",
+        "Alpine Lakes"
+      ]
+    },
+    "location": {
+      "zh": "四川省阿坝州",
+      "en": "Aba Prefecture, Sichuan Province"
+    },
+    "subdivision": "sichuan"
+  }
+]

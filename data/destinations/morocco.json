@@ -1,0 +1,86 @@
+[
+  {
+    "id": "marrakech-medina",
+    "name": {
+      "zh": "马拉喀什古城",
+      "en": "Marrakech Medina"
+    },
+    "description": {
+      "zh": "马拉喀什古城（麦地那）是摩洛哥最具活力的历史城区，德吉玛·埃尔芙纳广场是其心脏地带。迷宫般的市集（苏克）中出售各式手工艺品、香料和皮革，色彩绚烂，气息浓郁。",
+      "en": "Marrakech Medina is Morocco's most vibrant historic quarter. Djemaa el-Fna square is its beating heart; the labyrinthine souks sell crafts, spices and leather in a riot of colour and aroma."
+    },
+    "image": "https://picsum.photos/seed/marrakech-medina/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "市集",
+        "伊斯兰建筑"
+      ],
+      "en": [
+        "UNESCO",
+        "Souk",
+        "Islamic Architecture"
+      ]
+    },
+    "location": {
+      "zh": "马拉喀什省，摩洛哥中南部",
+      "en": "Marrakech Province, south-central Morocco"
+    }
+  },
+  {
+    "id": "sahara-merzouga",
+    "name": {
+      "zh": "撒哈拉沙漠（梅尔祖卡）",
+      "en": "Sahara Desert (Merzouga)"
+    },
+    "description": {
+      "zh": "梅尔祖卡附近的尔格谢比沙丘是摩洛哥最壮观的沙漠景观，沙丘高达150米。骑骆驼穿越金色沙海、在沙漠帐篷中仰望星空，是无与伦比的非洲体验。",
+      "en": "The Erg Chebbi dunes near Merzouga — up to 150 m high — are Morocco's most spectacular desert scenery. Camel trekking through the golden sea of sand and sleeping under stars in a desert camp are unforgettable."
+    },
+    "image": "https://picsum.photos/seed/sahara-dunes/800/500",
+    "tags": {
+      "zh": [
+        "撒哈拉",
+        "沙丘",
+        "骆驼"
+      ],
+      "en": [
+        "Sahara",
+        "Sand Dunes",
+        "Camel Trek"
+      ]
+    },
+    "location": {
+      "zh": "德拉-塔菲拉莱特大区，摩洛哥东南部",
+      "en": "Draa-Tafilalet region, southeast Morocco"
+    }
+  },
+  {
+    "id": "chefchaouen",
+    "name": {
+      "zh": "舍夫沙万蓝色小城",
+      "en": "Chefchaouen - Blue City"
+    },
+    "description": {
+      "zh": "舍夫沙万是摩洛哥北部里夫山中的小城，以几乎所有建筑都涂成靛蓝色和白色而闻名，被誉为「蓝色珍珠」。蜿蜒的蓝色小巷、手工艺品商店和友善的当地居民使其成为摩洛哥最受欢迎的拍照胜地。",
+      "en": "Chefchaouen is Morocco's 'Blue Pearl' — a mountain town in the Rif where nearly every building is painted in shades of indigo and white. Its winding blue lanes and craft shops make it Morocco's most photogenic destination."
+    },
+    "image": "https://picsum.photos/seed/chefchaouen-blue/800/500",
+    "tags": {
+      "zh": [
+        "蓝色城市",
+        "摄影胜地",
+        "山城"
+      ],
+      "en": [
+        "Blue City",
+        "Photography",
+        "Mountain Town"
+      ]
+    },
+    "location": {
+      "zh": "舍夫沙万省，摩洛哥北部",
+      "en": "Chefchaouen Province, northern Morocco"
+    }
+  }
+]

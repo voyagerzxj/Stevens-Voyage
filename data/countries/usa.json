@@ -1,0 +1,80 @@
+{
+  "quickFacts": {
+    "area": {
+      "zh": "983万平方公里",
+      "en": "9.83 million km²"
+    },
+    "population": {
+      "zh": "约3.3亿",
+      "en": "~330 million"
+    },
+    "language": {
+      "zh": "英语",
+      "en": "English"
+    },
+    "currency": {
+      "zh": "美元（USD）",
+      "en": "US Dollar (USD)"
+    },
+    "timezone": "UTC-5 至 UTC-10"
+  },
+  "info": {
+    "geography": {
+      "zh": "美国位于北美洲中部，东临大西洋，西临太平洋，北接加拿大，南邻墨西哥。地形多样，从东部阿巴拉契亚山脉到中部大平原，再到西部落基山脉和太平洋沿岸。密西西比河是最重要的内陆水系。",
+      "en": "The USA occupies the center of North America, bordered by the Atlantic to the east, Pacific to the west, Canada to the north and Mexico to the south. Terrain ranges from the Appalachians in the east to the Great Plains, the Rocky Mountains and the Pacific Coast. The Mississippi is the dominant inland river system."
+    },
+    "history": {
+      "zh": "美洲原住民在此居住数万年后，1492年哥伦布抵达美洲。欧洲殖民定居后，1776年美国宣布独立，建立了世界上第一个现代民主共和国。经历内战、两次世界大战，美国成为20世纪的超级大国，并在冷战结束后成为全球唯一超级大国。",
+      "en": "After tens of thousands of years of Indigenous habitation, Columbus reached the Americas in 1492. After European colonization, the USA declared independence in 1776, establishing the world's first modern democratic republic. Through the Civil War and two World Wars, the USA became a 20th-century superpower and the sole superpower after the Cold War."
+    },
+    "economy": {
+      "zh": "美国是世界最大经济体，GDP约25万亿美元。科技、金融、医疗、国防和娱乐是主要行业。硅谷是全球科技创新中心，纽约是全球金融中心。苹果、谷歌、微软等科技巨头均发源于此。",
+      "en": "The USA is the world's largest economy with GDP of ~$25 trillion. Technology, finance, healthcare, defense and entertainment are key industries. Silicon Valley is the global tech innovation hub; New York is the global financial center. Apple, Google and Microsoft all originated here."
+    },
+    "population": {
+      "zh": "美国人口约3.3亿，是一个典型的移民国家，素有'民族熔炉'之称。白人约占60%，拉丁裔约18%，黑人约13%，亚裔约6%。英语为官方语言，西班牙语是第二大语言。",
+      "en": "The USA has ~330 million people and is a nation of immigrants, often called a 'melting pot.' White Americans are ~60%, Hispanics ~18%, Black Americans ~13%, Asian Americans ~6%. English is the de facto official language; Spanish is the second most spoken."
+    },
+    "culture": {
+      "zh": "美国文化多元包容，融合了来自世界各地的文化元素。好莱坞电影、流行音乐、NBA篮球、NFL橄榄球在全球具有极大影响力。快餐文化、牛仔文化和创业精神是美国文化的重要符号。自由女神像、黄石公园等是美国精神的象征。",
+      "en": "American culture is diverse and inclusive, blending elements from around the world. Hollywood films, pop music, NBA basketball and NFL football have enormous global influence. Fast food culture, cowboy culture and entrepreneurial spirit are key American symbols. The Statue of Liberty and Yellowstone National Park are iconic American landmarks."
+    }
+  },
+  "subdivisions": {
+    "new-york": {
+      "name": {
+        "zh": "纽约州",
+        "en": "New York"
+      },
+      "emoji": "🗽"
+    },
+    "california": {
+      "name": {
+        "zh": "加利福尼亚州",
+        "en": "California"
+      },
+      "emoji": "🌉"
+    },
+    "hawaii": {
+      "name": {
+        "zh": "夏威夷州",
+        "en": "Hawaii"
+      },
+      "emoji": "🌺"
+    },
+    "florida": {
+      "name": {
+        "zh": "佛罗里达州",
+        "en": "Florida"
+      },
+      "emoji": "🐊"
+    },
+    "alaska": {
+      "name": {
+        "zh": "阿拉斯加州",
+        "en": "Alaska"
+      },
+      "emoji": "🐻"
+    }
+  }
+}

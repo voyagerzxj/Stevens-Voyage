@@ -1,0 +1,10 @@
+# Claude Code memory (private, not part of the site)
+.claude/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db

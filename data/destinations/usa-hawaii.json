@@ -1,0 +1,31 @@
+[
+  {
+    "id": "hawaii-volcanoes",
+    "name": {
+      "zh": "夏威夷火山国家公园",
+      "en": "Hawaii Volcanoes National Park"
+    },
+    "description": {
+      "zh": "夏威夷火山国家公园包含两座活跃火山——基拉韦厄和冒纳罗亚，是世界上地质活动最活跃的地区之一。熔岩流入海洋的壮观景象和多样的生态系统吸引着来自全球的游客。",
+      "en": "Hawaii Volcanoes NP contains two of the world's most active volcanoes — Kilauea and Mauna Loa. The sight of lava flowing into the ocean and the park's diverse ecosystems draw visitors from around the globe."
+    },
+    "image": "https://picsum.photos/seed/hawaii-volcano/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "火山",
+        "国家公园"
+      ],
+      "en": [
+        "UNESCO",
+        "Volcano",
+        "National Park"
+      ]
+    },
+    "location": {
+      "zh": "夏威夷大岛",
+      "en": "Hawaii Island (Big Island)"
+    },
+    "subdivision": "hawaii"
+  }
+]

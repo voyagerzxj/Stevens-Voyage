@@ -1,0 +1,114 @@
+[
+  {
+    "id": "acropolis",
+    "name": {
+      "zh": "雅典卫城",
+      "en": "Acropolis of Athens"
+    },
+    "description": {
+      "zh": "雅典卫城矗立于市中心岩石高台之上，帕特农神庙是其核心建筑，建于公元前5世纪，是古希腊建筑艺术的巅峰之作，也是西方文明最重要的象征之一。",
+      "en": "The Acropolis crowns Athens on a rocky plateau. Its centrepiece, the Parthenon (5th century BC), is the pinnacle of ancient Greek architecture and one of the defining symbols of Western civilisation."
+    },
+    "image": "https://picsum.photos/seed/acropolis-athens/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "古希腊",
+        "帕特农"
+      ],
+      "en": [
+        "UNESCO",
+        "Ancient Greece",
+        "Parthenon"
+      ]
+    },
+    "location": {
+      "zh": "希腊雅典市中心",
+      "en": "Central Athens, Greece"
+    }
+  },
+  {
+    "id": "santorini",
+    "name": {
+      "zh": "圣托里尼岛",
+      "en": "Santorini"
+    },
+    "description": {
+      "zh": "圣托里尼岛是爱琴海上由火山喷发形成的弧形岛屿，白墙蓝顶的民居散布于火山口边缘的悬崖之上。伊亚村的日落被誉为世界最美夕阳之一。",
+      "en": "Santorini is a crescent-shaped volcanic island in the Aegean. White-domed houses cling to the caldera rim, and the sunset at Oia village is considered one of the most beautiful in the world."
+    },
+    "image": "https://picsum.photos/seed/santorini-greece/800/500",
+    "tags": {
+      "zh": [
+        "火山岛",
+        "蓝顶教堂",
+        "日落"
+      ],
+      "en": [
+        "Volcanic Island",
+        "Blue Domes",
+        "Sunset"
+      ]
+    },
+    "location": {
+      "zh": "基克拉迪群岛，爱琴海",
+      "en": "Cyclades, Aegean Sea, Greece"
+    }
+  },
+  {
+    "id": "meteora",
+    "name": {
+      "zh": "迈泰奥拉",
+      "en": "Meteora"
+    },
+    "description": {
+      "zh": "迈泰奥拉是矗立于色萨利平原巨大岩石柱上的东正教修道院群，14世纪僧侣用绳索和篮筐爬上这些岩石建造了修道院，如今是世界上最壮观的宗教圣地之一。",
+      "en": "Meteora consists of Eastern Orthodox monasteries perched atop colossal rock pillars in Thessaly. 14th-century monks climbed by ropes and baskets to build them — today among the world's most spectacular sacred sites."
+    },
+    "image": "https://picsum.photos/seed/meteora-greece/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "修道院",
+        "悬崖奇观"
+      ],
+      "en": [
+        "UNESCO",
+        "Monasteries",
+        "Cliff Pinnacles"
+      ]
+    },
+    "location": {
+      "zh": "色萨利大区，希腊中部",
+      "en": "Thessaly region, central Greece"
+    }
+  },
+  {
+    "id": "crete-island",
+    "name": {
+      "zh": "克里特岛",
+      "en": "Crete Island"
+    },
+    "description": {
+      "zh": "克里特岛是希腊最大的岛屿，也是古代米诺斯文明的发源地。克诺索斯宫殿遗址、萨马里亚峡谷、白山山脉和欧洲最古老的橄榄树，让这座岛屿兼具历史与自然魅力。",
+      "en": "Crete is Greece's largest island and birthplace of Minoan civilisation. The Palace of Knossos, Samaria Gorge, White Mountains and Europe's oldest olive tree give it unmatched historical and natural depth."
+    },
+    "image": "https://picsum.photos/seed/crete-island/800/500",
+    "tags": {
+      "zh": [
+        "米诺斯文明",
+        "峡谷",
+        "历史遗址"
+      ],
+      "en": [
+        "Minoan Civilisation",
+        "Gorge",
+        "Historic Ruins"
+      ]
+    },
+    "location": {
+      "zh": "地中海，希腊南部",
+      "en": "Mediterranean Sea, southern Greece"
+    }
+  }
+]

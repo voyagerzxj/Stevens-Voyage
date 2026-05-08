@@ -1,0 +1,142 @@
+[
+  {
+    "id": "eiffel-tower",
+    "name": {
+      "zh": "埃菲尔铁塔",
+      "en": "Eiffel Tower"
+    },
+    "description": {
+      "zh": "埃菲尔铁塔于1889年为世界博览会而建，高324米，是巴黎最具代表性的地标。每晚整点灯光秀令人叹为观止，登顶可俯瞰塞纳河两岸的完整城市景观。",
+      "en": "Built for the 1889 World's Fair, the 324 m Eiffel Tower is Paris's defining landmark. Its nightly light show is spectacular; the summit offers sweeping views along the Seine."
+    },
+    "image": "https://picsum.photos/seed/eiffel-tower/800/500",
+    "tags": {
+      "zh": [
+        "地标",
+        "铁塔",
+        "浪漫"
+      ],
+      "en": [
+        "Landmark",
+        "Iron Tower",
+        "Romantic"
+      ]
+    },
+    "location": {
+      "zh": "巴黎第七区战神广场",
+      "en": "Champ de Mars, 7th arr., Paris"
+    }
+  },
+  {
+    "id": "louvre",
+    "name": {
+      "zh": "卢浮宫",
+      "en": "Louvre Museum"
+    },
+    "description": {
+      "zh": "卢浮宫是世界上参观人数最多的艺术博物馆，收藏超过38万件藏品，包括《蒙娜丽莎》《断臂维纳斯》等旷世名作。宫殿本身始建于12世纪，建筑价值极高。",
+      "en": "The Louvre is the world's most visited art museum, with over 380,000 works including the Mona Lisa and Venus de Milo. The palace itself dates to the 12th century and is architecturally magnificent."
+    },
+    "image": "https://picsum.photos/seed/louvre-paris/800/500",
+    "tags": {
+      "zh": [
+        "博物馆",
+        "艺术",
+        "历史宫殿"
+      ],
+      "en": [
+        "Museum",
+        "Art",
+        "Historic Palace"
+      ]
+    },
+    "location": {
+      "zh": "巴黎第一区",
+      "en": "1st arrondissement, Paris"
+    }
+  },
+  {
+    "id": "mont-saint-michel",
+    "name": {
+      "zh": "圣米歇尔山",
+      "en": "Mont-Saint-Michel"
+    },
+    "description": {
+      "zh": "圣米歇尔山是矗立于潮汐海湾中的岩石孤岛，岛上建有始于8世纪的修道院。涨潮时四面环海，退潮时可步行而至，是法国最具辨识度的景观之一。",
+      "en": "Mont-Saint-Michel is a tidal island crowned by a monastery dating to the 8th century. Surrounded by sea at high tide and walkable at low tide, it is one of France's most recognisable landmarks."
+    },
+    "image": "https://picsum.photos/seed/mont-saint-michel/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "修道院",
+        "潮汐岛"
+      ],
+      "en": [
+        "UNESCO",
+        "Abbey",
+        "Tidal Island"
+      ]
+    },
+    "location": {
+      "zh": "诺曼底海岸，法国西北部",
+      "en": "Normandy coast, northwest France"
+    }
+  },
+  {
+    "id": "chateau-loire",
+    "name": {
+      "zh": "卢瓦尔河城堡群",
+      "en": "Loire Valley Chateaux"
+    },
+    "description": {
+      "zh": "卢瓦尔河谷是法国最大的世界遗产区之一，沿河分布着逾300座中世纪城堡和庄园。香博尔城堡、舍农索城堡等见证了法国文艺复兴时期的黄金岁月。",
+      "en": "The Loire Valley is home to over 300 medieval castles and manor houses. Chambord and Chenonceau exemplify the French Renaissance at its golden peak. A UNESCO World Heritage landscape."
+    },
+    "image": "https://picsum.photos/seed/loire-chateaux/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "城堡",
+        "文艺复兴"
+      ],
+      "en": [
+        "UNESCO",
+        "Chateaux",
+        "Renaissance"
+      ]
+    },
+    "location": {
+      "zh": "卢瓦尔河谷，法国中部",
+      "en": "Loire Valley, central France"
+    }
+  },
+  {
+    "id": "provence-lavender",
+    "name": {
+      "zh": "普罗旺斯薰衣草田",
+      "en": "Provence Lavender Fields"
+    },
+    "description": {
+      "zh": "每年6至7月，普罗旺斯高原的薰衣草田进入盛放期，连绵的紫色花海配上石砌村庄和蔚蓝天空，构成法国南部最标志性的田园风景。",
+      "en": "Each June-July, Provence's plateau blazes purple with lavender in bloom. Rolling violet fields set against stone villages and cobalt skies form the quintessential image of southern France."
+    },
+    "image": "https://picsum.photos/seed/provence-lavender/800/500",
+    "tags": {
+      "zh": [
+        "薰衣草",
+        "田园风光",
+        "普罗旺斯"
+      ],
+      "en": [
+        "Lavender",
+        "Rural Scenery",
+        "Provence"
+      ]
+    },
+    "location": {
+      "zh": "普罗旺斯地区，法国东南部",
+      "en": "Provence region, southeast France"
+    }
+  }
+]

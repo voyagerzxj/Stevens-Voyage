@@ -1,0 +1,226 @@
+[
+  {
+    "id": "berat",
+    "name": {
+      "zh": "贝拉特",
+      "en": "Berat"
+    },
+    "description": {
+      "zh": "贝拉特是阿尔巴尼亚最美丽的历史城市之一，被称为「千窗之城」。奥斯曼时期的白色石灰岩房屋密密麻麻地覆盖在山坡上，窗户层叠倒映着山谷与河流，2008年列入UNESCO世界遗产名录。",
+      "en": "Berat is one of Albania's most beautiful historic cities, nicknamed the 'City of a Thousand Windows'. Ottoman-era white limestone houses blanket the hillside, their layered windows reflected in the valley and river. A UNESCO World Heritage Site since 2008."
+    },
+    "image": "https://picsum.photos/seed/berat-albania/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "历史古城",
+        "奥斯曼建筑"
+      ],
+      "en": [
+        "UNESCO",
+        "Historic Town",
+        "Ottoman Architecture"
+      ]
+    },
+    "location": {
+      "zh": "贝拉特省，阿尔巴尼亚中南部",
+      "en": "Berat County, south-central Albania"
+    }
+  },
+  {
+    "id": "gjirokaster",
+    "name": {
+      "zh": "吉诺卡斯特",
+      "en": "Gjirokaster"
+    },
+    "description": {
+      "zh": "吉诺卡斯特是阿尔巴尼亚南部的「石头城」，依山而建的灰色石板屋顶民居与高耸的城堡构成壮观的中世纪城市景观。同样是UNESCO世界遗产，被誉为「文明的十字路口」。",
+      "en": "Gjirokaster is Albania's southern 'Stone City', with grey slate-roofed houses cascading up the hillside beneath a towering castle — a spectacular medieval cityscape and fellow UNESCO World Heritage Site."
+    },
+    "image": "https://picsum.photos/seed/gjirokaster-albania/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "石头城",
+        "中世纪城堡"
+      ],
+      "en": [
+        "UNESCO",
+        "Stone City",
+        "Medieval Castle"
+      ]
+    },
+    "location": {
+      "zh": "吉诺卡斯特省，阿尔巴尼亚南部",
+      "en": "Gjirokaster County, southern Albania"
+    }
+  },
+  {
+    "id": "butrint",
+    "name": {
+      "zh": "布特林特",
+      "en": "Butrint"
+    },
+    "description": {
+      "zh": "布特林特是阿尔巴尼亚最重要的考古遗址，拥有希腊、罗马、拜占庭和威尼斯各时期叠加的文明层次。遗址位于泻湖之畔，风景如画，1992年列入UNESCO世界遗产。",
+      "en": "Butrint is Albania's most important archaeological site, with layers of Greek, Roman, Byzantine and Venetian civilization. Beautifully set beside a lagoon, it has been a UNESCO World Heritage Site since 1992."
+    },
+    "image": "https://picsum.photos/seed/butrint-ruins/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "考古遗址",
+        "古希腊罗马"
+      ],
+      "en": [
+        "UNESCO",
+        "Archaeological Site",
+        "Greco-Roman"
+      ]
+    },
+    "location": {
+      "zh": "萨兰达附近，阿尔巴尼亚南部",
+      "en": "Near Saranda, southern Albania"
+    }
+  },
+  {
+    "id": "albanian-riviera",
+    "name": {
+      "zh": "阿尔巴尼亚里维埃拉",
+      "en": "Albanian Riviera"
+    },
+    "description": {
+      "zh": "绵延100余公里的地中海海岸线，拥有清澈湛蓝的海水、金色沙滩和错落有致的渔村。希马尔、德尔米等海湾尚未被商业化开发，被誉为地中海最后的秘境之一。",
+      "en": "Over 100 km of Mediterranean coastline with crystal-clear turquoise water, golden beaches and charming fishing villages. Bays like Himara and Dhermi remain refreshingly uncommercialised — one of the Mediterranean's last hidden gems."
+    },
+    "image": "https://picsum.photos/seed/albanian-riviera/800/500",
+    "tags": {
+      "zh": [
+        "海滩",
+        "地中海",
+        "自然风光"
+      ],
+      "en": [
+        "Beach",
+        "Mediterranean",
+        "Scenic Coast"
+      ]
+    },
+    "location": {
+      "zh": "弗洛勒省，阿尔巴尼亚西南海岸",
+      "en": "Vlore County, SW Albanian coast"
+    }
+  },
+  {
+    "id": "theth",
+    "name": {
+      "zh": "斯蒂思",
+      "en": "Theth"
+    },
+    "description": {
+      "zh": "斯蒂思是阿尔巴尼亚阿尔卑斯山中的世外桃源，四面被海拔超过2000米的山峰环绕。这里有传统的「荣誉的塔楼」（Kulla）、瀑布和徒步路线，是巴尔干最壮观的山地景观之一。",
+      "en": "Theth is a remote Shangri-La in the Albanian Alps, ringed by peaks over 2,000 m. Traditional honour towers (Kulla), waterfalls and hiking trails make it one of the Balkans' most spectacular mountain destinations."
+    },
+    "image": "https://picsum.photos/seed/theth-mountains/800/500",
+    "tags": {
+      "zh": [
+        "山地徒步",
+        "阿尔卑斯风光",
+        "传统村庄"
+      ],
+      "en": [
+        "Hiking",
+        "Alpine Scenery",
+        "Traditional Village"
+      ]
+    },
+    "location": {
+      "zh": "shkoder省北部阿尔卑斯山区",
+      "en": "Northern Albanian Alps, Shkoder County"
+    }
+  },
+  {
+    "id": "blue-eye",
+    "name": {
+      "zh": "蓝眼泉",
+      "en": "Blue Eye Spring"
+    },
+    "description": {
+      "zh": "蓝眼泉（Syri i Kaltër）是阿尔巴尼亚最神奇的自然奇观之一。泉水从深达50米的地下涌出，颜色由中心深蓝向外渐变为碧绿，水温常年保持在10°C左右，晶莹剔透，令人叹为观止。",
+      "en": "Blue Eye Spring (Syri i Kaltrer) is one of Albania's most magical natural wonders. Water wells up from over 50 m underground, graduating from deep blue at the centre to emerald green, with a constant temperature of around 10°C."
+    },
+    "image": "https://picsum.photos/seed/blue-eye-spring/800/500",
+    "tags": {
+      "zh": [
+        "自然奇观",
+        "清泉",
+        "生态旅游"
+      ],
+      "en": [
+        "Natural Wonder",
+        "Spring",
+        "Eco-Tourism"
+      ]
+    },
+    "location": {
+      "zh": "萨兰达附近，阿尔巴尼亚南部",
+      "en": "Near Saranda, southern Albania"
+    }
+  },
+  {
+    "id": "apollonia",
+    "name": {
+      "zh": "阿波罗尼亚",
+      "en": "Apollonia"
+    },
+    "description": {
+      "zh": "阿波罗尼亚是公元前6世纪希腊人建立的古城遗址，曾是古代地中海最重要的城市之一。凯撒曾在此读书，奥古斯都也在此度过青年时光。遗址保存有剧场、柱廊和博物馆。",
+      "en": "Apollonia was founded by Greeks in the 6th century BC and became one of antiquity's most important cities. Julius Caesar studied here; Augustus spent his youth here. The site preserves a theatre, colonnades and a fine museum."
+    },
+    "image": "https://picsum.photos/seed/apollonia-ruins/800/500",
+    "tags": {
+      "zh": [
+        "古希腊遗址",
+        "考古",
+        "历史"
+      ],
+      "en": [
+        "Ancient Greek Ruins",
+        "Archaeology",
+        "History"
+      ]
+    },
+    "location": {
+      "zh": "弗洛勒省，阿尔巴尼亚西部",
+      "en": "Fier County, western Albania"
+    }
+  },
+  {
+    "id": "ksamil",
+    "name": {
+      "zh": "克萨米尔",
+      "en": "Ksamil"
+    },
+    "description": {
+      "zh": "克萨米尔是阿尔巴尼亚里维埃拉最南端的度假小镇，拥有多处白沙滩和近海小岛。海水能见度极高，适合浮潜和游泳，毗邻布特林特国家公园，自然与历史兼备。",
+      "en": "Ksamil is the southernmost resort town of the Albanian Riviera, with several white-sand beaches and offshore islets. Crystal-clear water makes it ideal for snorkelling; it sits adjacent to Butrint National Park."
+    },
+    "image": "https://picsum.photos/seed/ksamil-beach/800/500",
+    "tags": {
+      "zh": [
+        "海滩",
+        "度假",
+        "浮潜"
+      ],
+      "en": [
+        "Beach",
+        "Resort",
+        "Snorkelling"
+      ]
+    },
+    "location": {
+      "zh": "萨兰达市附近，阿尔巴尼亚最南端",
+      "en": "Near Saranda, southernmost Albania"
+    }
+  }
+]

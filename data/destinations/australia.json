@@ -1,0 +1,142 @@
+[
+  {
+    "id": "great-barrier-reef",
+    "name": {
+      "zh": "大堡礁",
+      "en": "Great Barrier Reef"
+    },
+    "description": {
+      "zh": "大堡礁是世界上最大的珊瑚礁系统，由近3,000个礁石和900余座岛屿组成，绵延超过2,300公里，从太空都清晰可见。这里是全球生物多样性最丰富的海洋生态系统之一，孕育了超过1,500种鱼类。",
+      "en": "The Great Barrier Reef is the world's largest coral system — nearly 3,000 reefs and 900+ islands stretching 2,300 km and visible from space. It supports over 1,500 fish species in one of Earth's most biodiverse marine ecosystems."
+    },
+    "image": "https://picsum.photos/seed/great-barrier-reef/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "珊瑚礁",
+        "潜水"
+      ],
+      "en": [
+        "UNESCO",
+        "Coral Reef",
+        "Diving"
+      ]
+    },
+    "location": {
+      "zh": "昆士兰州近海，澳大利亚东北部",
+      "en": "Off Queensland coast, northeast Australia"
+    }
+  },
+  {
+    "id": "sydney-opera-house",
+    "name": {
+      "zh": "悉尼歌剧院",
+      "en": "Sydney Opera House"
+    },
+    "description": {
+      "zh": "悉尼歌剧院是20世纪最具代表性的建筑之一，由丹麦建筑师约翰·伍重设计，贝壳状的白色屋顶如帆船般矗立于悉尼港。自1973年启用以来，已成为澳大利亚最重要的文化地标。",
+      "en": "The Sydney Opera House is among the 20th century's most iconic buildings, designed by Jorn Utzon. Its shell-like white roof sails over Sydney Harbour. Since its 1973 opening it has been Australia's pre-eminent cultural landmark."
+    },
+    "image": "https://picsum.photos/seed/sydney-opera/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "地标",
+        "表演艺术"
+      ],
+      "en": [
+        "UNESCO",
+        "Landmark",
+        "Performing Arts"
+      ]
+    },
+    "location": {
+      "zh": "新南威尔士州悉尼港",
+      "en": "Sydney Harbour, New South Wales"
+    }
+  },
+  {
+    "id": "uluru",
+    "name": {
+      "zh": "乌鲁鲁（艾尔斯岩）",
+      "en": "Uluru (Ayers Rock)"
+    },
+    "description": {
+      "zh": "乌鲁鲁是矗立于澳大利亚中部红色沙漠中的巨型砂岩孤峰，高348米，周长约9.4公里。它是澳大利亚原住民阿南古族人的圣地，日出日落时呈现出橙红色到深紫色的神奇色变。",
+      "en": "Uluru is a colossal sandstone monolith rising 348 m from the central Australian desert, 9.4 km in circumference. A sacred site for the Anangu people, it glows from orange-red to deep purple at sunrise and sunset."
+    },
+    "image": "https://picsum.photos/seed/uluru-rock/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "原住民圣地",
+        "自然地标"
+      ],
+      "en": [
+        "UNESCO",
+        "Aboriginal Sacred Site",
+        "Natural Monolith"
+      ]
+    },
+    "location": {
+      "zh": "北领地，澳大利亚中部",
+      "en": "Northern Territory, central Australia"
+    }
+  },
+  {
+    "id": "whitsundays",
+    "name": {
+      "zh": "惠特森迪群岛",
+      "en": "Whitsunday Islands"
+    },
+    "description": {
+      "zh": "惠特森迪群岛由74座岛屿组成，其中白天堂海滩（Whitehaven Beach）以纯白二氧化硅沙粒和清澈绿松石海水被评为澳大利亚最美海滩。这里是帆船航行和大堡礁潜水的理想基地。",
+      "en": "The 74 Whitsunday Islands include Whitehaven Beach — rated Australia's most beautiful beach for its pure silica sand and turquoise water. An ideal base for sailing and Great Barrier Reef diving."
+    },
+    "image": "https://picsum.photos/seed/whitsundays/800/500",
+    "tags": {
+      "zh": [
+        "海岛",
+        "帆船",
+        "白沙滩"
+      ],
+      "en": [
+        "Islands",
+        "Sailing",
+        "White Sand Beach"
+      ]
+    },
+    "location": {
+      "zh": "昆士兰州，澳大利亚东北部",
+      "en": "Queensland, northeast Australia"
+    }
+  },
+  {
+    "id": "blue-mountains",
+    "name": {
+      "zh": "蓝山国家公园",
+      "en": "Blue Mountains National Park"
+    },
+    "description": {
+      "zh": "蓝山国家公园距悉尼仅约100公里，以三姐妹峰、尤加利树峡谷和壮观的瀑布著称。蓝色雾霭由尤加利树挥发的油脂颗粒形成，赋予山脉独特的蓝色调。",
+      "en": "Just 100 km from Sydney, the Blue Mountains NP is famous for the Three Sisters rock formation, eucalyptus-draped gorges and spectacular waterfalls. The blue haze is caused by oil particles from eucalyptus trees."
+    },
+    "image": "https://picsum.photos/seed/blue-mountains/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "国家公园",
+        "峡谷"
+      ],
+      "en": [
+        "UNESCO",
+        "National Park",
+        "Gorge"
+      ]
+    },
+    "location": {
+      "zh": "新南威尔士州，悉尼以西",
+      "en": "New South Wales, west of Sydney"
+    }
+  }
+]

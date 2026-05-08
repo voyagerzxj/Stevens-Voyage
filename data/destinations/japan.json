@@ -1,0 +1,142 @@
+[
+  {
+    "id": "mount-fuji",
+    "name": {
+      "zh": "富士山",
+      "en": "Mount Fuji"
+    },
+    "description": {
+      "zh": "富士山是日本最高峰，海拔3,776米，完美的锥形火山轮廓是日本的象征。每年7至8月开放登山，周边的富士五湖提供经典倒影美景。",
+      "en": "At 3,776 m, Mount Fuji is Japan's highest peak. Its perfect conical silhouette is the nation's symbol. Open for climbing July-August; the Fuji Five Lakes provide iconic mirror reflections."
+    },
+    "image": "https://picsum.photos/seed/mount-fuji/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "火山",
+        "登山"
+      ],
+      "en": [
+        "UNESCO",
+        "Volcano",
+        "Hiking"
+      ]
+    },
+    "location": {
+      "zh": "静冈县与山梨县交界",
+      "en": "Shizuoka-Yamanashi border, Japan"
+    }
+  },
+  {
+    "id": "kyoto-temples",
+    "name": {
+      "zh": "京都古寺群",
+      "en": "Kyoto Temples"
+    },
+    "description": {
+      "zh": "京都拥有超过1600座寺庙和400座神社，其中金阁寺、清水寺、岚山竹林等最为著名。每年春季赏樱和秋季赏枫时节，吸引数以百万计的游客。",
+      "en": "Kyoto has over 1,600 temples and 400 shrines. Kinkaku-ji, Kiyomizu-dera and Arashiyama Bamboo Grove are among the most visited. Cherry blossom and autumn foliage seasons draw millions."
+    },
+    "image": "https://picsum.photos/seed/kyoto-temples/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "寺庙",
+        "传统文化"
+      ],
+      "en": [
+        "UNESCO",
+        "Temples",
+        "Traditional Culture"
+      ]
+    },
+    "location": {
+      "zh": "京都府京都市",
+      "en": "Kyoto City, Kyoto Prefecture"
+    }
+  },
+  {
+    "id": "tokyo-shibuya",
+    "name": {
+      "zh": "东京涩谷",
+      "en": "Tokyo Shibuya"
+    },
+    "description": {
+      "zh": "涩谷十字路口是全球最繁忙的十字路口之一，每次绿灯约有3,000人同时穿行。周边聚集了东京最前沿的时尚、美食和娱乐，是现代都市文化的缩影。",
+      "en": "Shibuya Crossing is one of the world's busiest intersections — some 3,000 people cross at once on each green light. The surrounding district is Tokyo's epicentre of fashion, food and urban pop culture."
+    },
+    "image": "https://picsum.photos/seed/tokyo-shibuya/800/500",
+    "tags": {
+      "zh": [
+        "都市",
+        "购物",
+        "夜生活"
+      ],
+      "en": [
+        "Urban",
+        "Shopping",
+        "Nightlife"
+      ]
+    },
+    "location": {
+      "zh": "东京都涩谷区",
+      "en": "Shibuya, Tokyo"
+    }
+  },
+  {
+    "id": "hiroshima-miyajima",
+    "name": {
+      "zh": "广岛与宫岛",
+      "en": "Hiroshima & Miyajima"
+    },
+    "description": {
+      "zh": "广岛和平纪念公园见证了二战的历史教训；乘船15分钟可达的宫岛岛上，严岛神社的朱红大鸟居矗立于海中，是日本三景之一。",
+      "en": "Hiroshima Peace Memorial Park bears witness to the lessons of WWII. A 15-minute ferry brings you to Miyajima island, where Itsukushima Shrine's vermilion torii gate rises from the sea — one of Japan's Three Views."
+    },
+    "image": "https://picsum.photos/seed/miyajima-torii/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "历史",
+        "神社"
+      ],
+      "en": [
+        "UNESCO",
+        "History",
+        "Shrine"
+      ]
+    },
+    "location": {
+      "zh": "广岛县广岛市及廿日市市",
+      "en": "Hiroshima Prefecture, Japan"
+    }
+  },
+  {
+    "id": "osaka-castle",
+    "name": {
+      "zh": "大阪城",
+      "en": "Osaka Castle"
+    },
+    "description": {
+      "zh": "大阪城是日本最著名的城堡之一，16世纪由丰臣秀吉主持修建。高达58米的天守阁俯瞰大片樱花园，内部设有展示日本统一历史的博物馆。",
+      "en": "Osaka Castle is one of Japan's most famous castles, built by Toyotomi Hideyoshi in the 16th century. The 58 m keep overlooks extensive cherry-blossom gardens and houses a museum on Japan's unification."
+    },
+    "image": "https://picsum.photos/seed/osaka-castle/800/500",
+    "tags": {
+      "zh": [
+        "城堡",
+        "历史",
+        "樱花"
+      ],
+      "en": [
+        "Castle",
+        "History",
+        "Cherry Blossoms"
+      ]
+    },
+    "location": {
+      "zh": "大阪府大阪市中央区",
+      "en": "Chuo Ward, Osaka City"
+    }
+  }
+]
