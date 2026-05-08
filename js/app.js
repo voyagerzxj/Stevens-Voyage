@@ -123,6 +123,10 @@ const I18N = {
     risk_unknown:    '暂无数据',
     risk_disclaimer: '风险评级仅供参考，出行前请务必查阅目的地的官方旅行建议',
     risk_none:       '此风险等级暂无收录国家',
+    nav_top:         '精选',
+    top_title:       '值得一生必去的地方',
+    top_subtitle:    '精心挑选的全球最令人叹为观止的目的地，每一处都令人难以忘怀',
+    top_empty:       '暂无精选景点',
   },
   en: {
     site_name:       'Steven World Travel',
@@ -238,6 +242,10 @@ const I18N = {
     risk_unknown:    'No Data',
     risk_disclaimer: 'Risk ratings are for reference only. Always check official travel advisories before departure.',
     risk_none:       'No countries listed at this risk level',
+    nav_top:         'Top Picks',
+    top_title:       'Places Worth a Lifetime',
+    top_subtitle:    'A handpicked collection of the world\'s most breathtaking destinations — each one unforgettable',
+    top_empty:       'No picks yet',
   }
 };
 
@@ -673,6 +681,7 @@ function buildHeader() {
     { href: 'index.html',      key: 'nav_home' },
     { href: 'world.html',      key: 'nav_world' },
     { href: 'continent.html',  key: 'nav_continents' },
+    { href: 'top.html',        key: 'nav_top' },
     { href: 'journal.html',    key: 'nav_journal' },
     { href: 'footprint.html',  key: 'nav_footprint' },
     { href: 'risk.html',       key: 'nav_risk' },
@@ -1695,6 +1704,86 @@ async function initFootprint() {
   } catch { /* map fails silently */ }
 }
 
+// ── Top Picks ──────────────────────────────────────────
+function initTop() {
+  const root = document.getElementById('root');
+  if (!root) return;
+
+  const picks = window.TOP_PICKS || [];
+  const { countries, continents } = idx();
+
+  // Build continent id→name lookup from existing index data
+  const contNameMap = {};
+  continents.forEach(c => { contNameMap[c.id] = c.name; });
+
+  const usedConts = [...new Set(picks.map(p => p.continent).filter(Boolean))];
+
+  function buildCard(p, i) {
+    const name    = tx(p.name);
+    const desc    = tx(p.description);
+    const cName   = tx(p.countryName || { zh: '', en: '' });
+    const href    = p.country && countries[p.country] ? `country.html?id=${p.country}` : '#';
+    const tags    = (p.tags || []).slice(0, 3).map(tag => `<span class="top-card-tag">${tag}</span>`).join('');
+    return `
+      <a class="top-card" href="${href}" data-cont="${p.continent || ''}">
+        <img class="top-card-img" src="${p.image}" alt="${name}" loading="lazy"
+             onerror="this.src='https://picsum.photos/seed/${p.id}/800/500'">
+        <div class="top-card-overlay"></div>
+        <div class="top-card-badge">${p.flag || ''} ${cName}</div>
+        <span class="top-card-rank">${i + 1}</span>
+        <div class="top-card-body">
+          <div class="top-card-title">${name}</div>
+          <div class="top-card-desc">${desc}</div>
+          ${tags ? `<div class="top-card-tags">${tags}</div>` : ''}
+        </div>
+      </a>`;
+  }
+
+  root.innerHTML = `
+    <section class="hero hero-small">
+      <img class="hero-img" src="https://picsum.photos/seed/top-picks-world/1600/700" alt="${t('top_title')}"
+           onerror="this.style.cssText='position:absolute;inset:0;width:100%;height:100%;background:linear-gradient(135deg,#0f172a,#1e3a8a,#1d4ed8)'">
+      <div class="hero-content">
+        <h1>✨ ${t('top_title')}</h1>
+        <p>${t('top_subtitle')}</p>
+      </div>
+    </section>
+    <div class="container">
+      ${buildBreadcrumb([
+        { href: 'index.html', label: t('nav_home') },
+        { href: '#',          label: t('nav_top') },
+      ])}
+      <div class="section" style="padding-bottom:.5rem">
+        <div class="top-filters">
+          <button class="top-filter-btn active" data-cont="">${t('filter_all')} (${picks.length})</button>
+          ${usedConts.map(c => {
+            const label = contNameMap[c] ? tx(contNameMap[c]) : c;
+            const cnt   = picks.filter(p => p.continent === c).length;
+            return `<button class="top-filter-btn" data-cont="${c}">${label} (${cnt})</button>`;
+          }).join('')}
+        </div>
+      </div>
+      <div class="section" style="padding-top:0">
+        <div class="top-grid" id="top-grid">
+          ${picks.length
+            ? picks.map((p, i) => buildCard(p, i)).join('')
+            : `<div class="empty">${t('top_empty')}</div>`}
+        </div>
+      </div>
+    </div>`;
+
+  root.querySelectorAll('.top-filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      root.querySelectorAll('.top-filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const cont = btn.dataset.cont;
+      root.querySelectorAll('.top-card').forEach(card => {
+        card.style.display = (!cont || card.dataset.cont === cont) ? '' : 'none';
+      });
+    });
+  });
+}
+
 // ── Risk Map ───────────────────────────────────────────
 async function initRisk() {
   const root = document.getElementById('root');
@@ -1891,6 +1980,7 @@ document.addEventListener('DOMContentLoaded', () => {
   if (page === 'continent')    initContinent();
   if (page === 'country')      initCountry();
   if (page === 'destinations') initDestinations();
+  if (page === 'top')          initTop();
   if (page === 'footprint')    initFootprint();
   if (page === 'risk')         initRisk();
   initCookieBanner();
