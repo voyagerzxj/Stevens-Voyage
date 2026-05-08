@@ -380,6 +380,7 @@ main { flex: 1; }
   border: 1px solid var(--border);
   box-shadow: var(--shadow);
   background: #e8f4f8;
+  isolation: isolate;
 }
 
 /* Leaflet popup tweak */
@@ -756,6 +757,7 @@ main { flex: 1; }
   background: #c8dff0;
   border-top: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
+  isolation: isolate;
 }
 
 .world-tooltip {
@@ -857,6 +859,7 @@ main { flex: 1; }
   border: 1px solid var(--border);
   box-shadow: var(--shadow);
   background: #e8f4f8;
+  isolation: isolate;
 }
 
 @media (max-width: 600px) {
