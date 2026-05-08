@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>关于 | Steven环球旅行</title>
-  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="icon" href="images/logo-icon.png">
+  <link rel="apple-touch-icon" href="images/logo-icon.png">
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-HJWRL0D0HH"></script>
   <script>
@@ -37,9 +38,7 @@
     const zh = localStorage.getItem('sv-lang') !== 'en';
     document.getElementById('about-content').innerHTML = zh ? `
       <div class="about-section">
-        <img class="about-avatar"
-             src="https://picsum.photos/seed/about-avatar/240/240"
-             alt="Steven" onerror="this.style.display='none'">
+        <img class="about-brand-logo" src="images/logo-vertical.png" alt="STEVEN'S TRAVELS">
         <h1>关于本站</h1>
         <p style="color:#64748b;font-size:.95rem">一个热爱旅行与地理的独立站点</p>
 
@@ -84,9 +83,7 @@
         地图数据 © <a href="https://www.openstreetmap.org/copyright" target="_blank" style="color:#1d4ed8">OpenStreetMap</a> 贡献者。</p>
       </div>` : `
       <div class="about-section">
-        <img class="about-avatar"
-             src="https://picsum.photos/seed/about-avatar/240/240"
-             alt="Steven" onerror="this.style.display='none'">
+        <img class="about-brand-logo" src="images/logo-vertical.png" alt="STEVEN'S TRAVELS">
         <h1>About This Site</h1>
         <p style="color:#64748b;font-size:.95rem">An independent site for travel and geography enthusiasts</p>
 

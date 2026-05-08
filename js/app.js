@@ -654,8 +654,8 @@ function buildHeader() {
     <header class="site-header">
       <nav class="nav-inner">
         <a class="nav-logo" href="index.html">
-          <span class="logo-icon">🌍</span>
-          <span class="logo-text">${t('site_name')}</span>
+          <img class="nav-logo-full" src="images/logo-horizontal.png" alt="STEVEN'S TRAVELS">
+          <img class="nav-logo-icon" src="images/logo-icon.png" alt="S">
         </a>
         <ul class="nav-links">${linkItems}</ul>
         <div class="nav-search">
@@ -688,6 +688,7 @@ function buildFooter() {
   return `
     <footer class="site-footer">
       <div class="footer-inner">
+        <img class="footer-logo" src="images/logo-vertical.png" alt="STEVEN'S TRAVELS">
         <div class="footer-links">
           <a href="index.html">${t('footer_home')}</a>
           <a href="about.html">${t('footer_about')}</a>
