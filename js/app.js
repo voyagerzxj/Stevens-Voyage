@@ -144,7 +144,7 @@ const I18N = {
     stats_countries: 'Countries',
     stats_dest:      'Destinations',
     stats_cont:      'Continents',
-    nav_world:       'World Map',
+    nav_world:       'World',
     nav_journal:     'Journal',
     journal_subtitle:'Stories from the road',
     journal_empty:   'No posts yet — check back soon',
@@ -648,16 +648,16 @@ function buildHeader() {
     { href: 'footprint.html',  key: 'nav_footprint' },
     { href: 'about.html',      key: 'nav_about' },
   ];
+  const linkItems = links.map(p => `<li><a href="${p.href}">${t(p.key)}</a></li>`).join('');
+  const mobileLinkItems = links.map(p => `<li><a href="${p.href}">${t(p.key)}</a></li>`).join('');
   return `
     <header class="site-header">
       <nav class="nav-inner">
         <a class="nav-logo" href="index.html">
           <span class="logo-icon">🌍</span>
-          <span>${t('site_name')}</span>
+          <span class="logo-text">${t('site_name')}</span>
         </a>
-        <ul class="nav-links">
-          ${links.map(p => `<li><a href="${p.href}">${t(p.key)}</a></li>`).join('')}
-        </ul>
+        <ul class="nav-links">${linkItems}</ul>
         <div class="nav-search">
           <div class="search-wrap">
             <input class="search-input" id="navSearch" type="text"
@@ -668,8 +668,19 @@ function buildHeader() {
         <div class="nav-actions">
           <button class="theme-settings-btn" id="themeSettingsBtn" title="${t('theme_settings')}">🎨</button>
           <button class="lang-btn" id="langBtn">${t('lang_toggle')}</button>
+          <button class="nav-hamburger" id="navHamburger" aria-label="Menu" aria-expanded="false">☰</button>
         </div>
       </nav>
+      <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-search">
+          <div class="search-wrap">
+            <input class="search-input" id="mobileSearch" type="text"
+                   placeholder="${t('search_ph')}" autocomplete="off" spellcheck="false">
+            <div class="search-drop" id="mobileDrop"></div>
+          </div>
+        </div>
+        <ul class="mobile-menu-links">${mobileLinkItems}</ul>
+      </div>
     </header>`;
 }
 
@@ -833,6 +844,31 @@ function wireLangToggle() {
     setLang(LANG === 'zh' ? 'en' : 'zh');
     location.reload();
   });
+}
+
+function wireMobileMenu() {
+  const hamburger = document.getElementById('navHamburger');
+  const menu      = document.getElementById('mobileMenu');
+  if (!hamburger || !menu) return;
+
+  hamburger.addEventListener('click', e => {
+    e.stopPropagation();
+    const open = menu.classList.toggle('open');
+    hamburger.textContent = open ? '✕' : '☰';
+    hamburger.setAttribute('aria-expanded', open);
+  });
+
+  document.addEventListener('click', e => {
+    if (menu.classList.contains('open') &&
+        !menu.contains(e.target) &&
+        e.target !== hamburger) {
+      menu.classList.remove('open');
+      hamburger.textContent = '☰';
+      hamburger.setAttribute('aria-expanded', false);
+    }
+  });
+
+  wireSearch('mobileSearch', 'mobileDrop');
 }
 
 // ── Page: Index ────────────────────────────────────────
@@ -1600,6 +1636,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   wireLangToggle();
   wireThemeToggle();
+  wireMobileMenu();
   wireSearch('navSearch', 'navDrop');
   initBackToTop();
 
