@@ -98,9 +98,17 @@ const I18N = {
     months_short:    ['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'],
     search_journal:  '游记',
     search_dest:     '景点',
-    theme_light:     '浅色',
-    theme_dark:      '深色',
-    theme_system:    '随系统',
+    theme_settings:  '主题设置',
+    theme_brightness:'亮暗模式',
+    theme_light:     '☀️ 浅色',
+    theme_dark:      '🌙 深色',
+    theme_system:    '💻 随系统',
+    theme_palette:   '配色方案',
+    palette_blue:    '深蓝',
+    palette_green:   '翠绿',
+    palette_purple:  '紫色',
+    palette_rose:    '玫红',
+    palette_amber:   '暖橙',
   },
   en: {
     site_name:       'Steven World Travel',
@@ -191,9 +199,17 @@ const I18N = {
     months_short:    ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],
     search_journal:  'Journal',
     search_dest:     'Destination',
-    theme_light:     'Light',
-    theme_dark:      'Dark',
-    theme_system:    'System',
+    theme_settings:  'Theme',
+    theme_brightness:'Brightness',
+    theme_light:     '☀️ Light',
+    theme_dark:      '🌙 Dark',
+    theme_system:    '💻 System',
+    theme_palette:   'Color Palette',
+    palette_blue:    'Blue',
+    palette_green:   'Green',
+    palette_purple:  'Purple',
+    palette_rose:    'Rose',
+    palette_amber:   'Amber',
   }
 };
 
@@ -211,7 +227,16 @@ function tx(obj) {
 }
 
 // ── Theme ──────────────────────────────────────────────
-let THEME = localStorage.getItem('sv-theme') || 'system';
+let THEME   = localStorage.getItem('sv-theme')   || 'system';
+let PALETTE = localStorage.getItem('sv-palette') || 'blue';
+
+const PALETTES = [
+  { id: 'blue',   color: '#1d4ed8' },
+  { id: 'green',  color: '#059669' },
+  { id: 'purple', color: '#7c3aed' },
+  { id: 'rose',   color: '#e11d48' },
+  { id: 'amber',  color: '#d97706' },
+];
 
 function getSystemTheme() {
   return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
@@ -220,24 +245,96 @@ function applyTheme(mode) {
   const resolved = mode === 'system' ? getSystemTheme() : mode;
   document.documentElement.setAttribute('data-theme', resolved);
 }
+function applyPalette(palette) {
+  if (!palette || palette === 'blue') {
+    document.documentElement.removeAttribute('data-palette');
+  } else {
+    document.documentElement.setAttribute('data-palette', palette);
+  }
+}
 function setTheme(mode) {
   THEME = mode;
   localStorage.setItem('sv-theme', mode);
   applyTheme(mode);
-  document.querySelectorAll('.theme-btn').forEach(btn => {
-    btn.classList.toggle('active', btn.dataset.themeVal === mode);
+  _updatePanel();
+}
+function setPalette(palette) {
+  PALETTE = palette;
+  localStorage.setItem('sv-palette', palette);
+  applyPalette(palette);
+  _updatePanel();
+}
+function _updatePanel() {
+  document.querySelectorAll('.theme-mode-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.themeVal === THEME);
+  });
+  document.querySelectorAll('.palette-swatch').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.paletteVal === PALETTE);
   });
 }
 function initTheme() {
   applyTheme(THEME);
+  applyPalette(PALETTE);
   window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
     if (THEME === 'system') applyTheme('system');
   });
 }
-function wireThemeToggle() {
-  document.querySelectorAll('.theme-btn').forEach(btn => {
-    btn.classList.toggle('active', btn.dataset.themeVal === THEME);
+function buildThemePanel() {
+  if (document.getElementById('sv-theme-panel')) return;
+  const panel = document.createElement('div');
+  panel.id = 'sv-theme-panel';
+  panel.className = 'theme-panel';
+  panel.innerHTML = `
+    <div class="theme-panel-hd">
+      <span class="theme-panel-title">🎨 ${t('theme_settings')}</span>
+      <button class="theme-panel-close" id="themePanelClose">✕</button>
+    </div>
+    <div class="theme-panel-sec">
+      <div class="theme-panel-lbl">${t('theme_brightness')}</div>
+      <div class="theme-mode-row">
+        <button class="theme-mode-btn" data-theme-val="light">${t('theme_light')}</button>
+        <button class="theme-mode-btn" data-theme-val="system">${t('theme_system')}</button>
+        <button class="theme-mode-btn" data-theme-val="dark">${t('theme_dark')}</button>
+      </div>
+    </div>
+    <div class="theme-panel-sec">
+      <div class="theme-panel-lbl">${t('theme_palette')}</div>
+      <div class="palette-row">
+        ${PALETTES.map(p => `
+          <div style="display:flex;flex-direction:column;align-items:center;gap:0">
+            <button class="palette-swatch" data-palette-val="${p.id}"
+                    style="background:${p.color}"
+                    title="${t('palette_' + p.id)}"></button>
+            <span class="palette-label">${t('palette_' + p.id)}</span>
+          </div>`).join('')}
+      </div>
+    </div>`;
+  document.body.appendChild(panel);
+
+  document.getElementById('themePanelClose').addEventListener('click', () => panel.classList.remove('open'));
+  panel.querySelectorAll('.theme-mode-btn').forEach(btn => {
     btn.addEventListener('click', () => setTheme(btn.dataset.themeVal));
+  });
+  panel.querySelectorAll('.palette-swatch').forEach(btn => {
+    btn.addEventListener('click', () => setPalette(btn.dataset.paletteVal));
+  });
+  _updatePanel();
+}
+function wireThemeToggle() {
+  buildThemePanel();
+  const trigger = document.getElementById('themeSettingsBtn');
+  const panel   = document.getElementById('sv-theme-panel');
+  if (trigger && panel) {
+    trigger.addEventListener('click', e => {
+      e.stopPropagation();
+      panel.classList.toggle('open');
+    });
+  }
+  document.addEventListener('click', e => {
+    const p = document.getElementById('sv-theme-panel');
+    if (p?.classList.contains('open') && !p.contains(e.target) && e.target.id !== 'themeSettingsBtn') {
+      p.classList.remove('open');
+    }
   });
 }
 
@@ -569,11 +666,7 @@ function buildHeader() {
           </div>
         </div>
         <div class="nav-actions">
-          <div class="theme-toggle">
-            <button class="theme-btn" data-theme-val="light" title="${t('theme_light')}">☀️</button>
-            <button class="theme-btn" data-theme-val="system" title="${t('theme_system')}">💻</button>
-            <button class="theme-btn" data-theme-val="dark" title="${t('theme_dark')}">🌙</button>
-          </div>
+          <button class="theme-settings-btn" id="themeSettingsBtn" title="${t('theme_settings')}">🎨</button>
           <button class="lang-btn" id="langBtn">${t('lang_toggle')}</button>
         </div>
       </nav>
@@ -1375,7 +1468,9 @@ async function initFootprint() {
     .replace('{n}', visitedConts.size);
 
   root.innerHTML = `
-    <section class="hero hero-small" style="background:var(--primary-dk)">
+    <section class="hero hero-small">
+      <img class="hero-img" src="https://picsum.photos/seed/travel-footprint/1600/700" alt="${t('footprint_title')}"
+           onerror="this.style.cssText='position:absolute;inset:0;width:100%;height:100%;background:linear-gradient(135deg,#1e3a8a,#0f4c75,#1d4ed8)'">
       <div class="hero-content">
         <h1>🗺️ ${t('footprint_title')}</h1>
         <p>${statsText}</p>

@@ -36,6 +36,21 @@
 }
 
 /* ============================
+   Color Palettes
+   ============================ */
+[data-palette="green"]  { --primary: #059669; --primary-dk: #065f46; }
+[data-palette="purple"] { --primary: #7c3aed; --primary-dk: #4c1d95; }
+[data-palette="rose"]   { --primary: #e11d48; --primary-dk: #9f1239; }
+[data-palette="amber"]  { --primary: #d97706; --primary-dk: #92400e; }
+
+/* Dark mode: use lighter palette primaries for readability on dark bg */
+[data-theme="dark"]                        { --primary: #3b82f6; --primary-dk: #1d4ed8; }
+[data-theme="dark"][data-palette="green"]  { --primary: #34d399; --primary-dk: #059669; }
+[data-theme="dark"][data-palette="purple"] { --primary: #a78bfa; --primary-dk: #7c3aed; }
+[data-theme="dark"][data-palette="rose"]   { --primary: #fb7185; --primary-dk: #e11d48; }
+[data-theme="dark"][data-palette="amber"]  { --primary: #fbbf24; --primary-dk: #d97706; }
+
+/* ============================
    Reset & Base
    ============================ */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -1456,29 +1471,118 @@ main { flex: 1; }
 }
 
 /* ============================
-   Theme Toggle (nav)
+   Theme Settings Button (nav)
    ============================ */
-.theme-toggle {
+.theme-settings-btn {
+  background: rgba(255,255,255,.18);
+  border: 1px solid rgba(255,255,255,.28);
+  color: #fff;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1rem;
+  line-height: 1;
   display: flex;
   align-items: center;
-  background: rgba(255,255,255,.12);
-  border: 1px solid rgba(255,255,255,.2);
-  border-radius: 20px;
-  padding: 2px;
+  justify-content: center;
+  transition: all var(--transition);
+  flex-shrink: 0;
 }
-.theme-btn {
-  background: transparent;
+.theme-settings-btn:hover { background: rgba(255,255,255,.3); }
+
+/* ============================
+   Theme Panel (floating)
+   ============================ */
+.theme-panel {
+  position: fixed;
+  top: 68px;
+  right: 1rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-lg);
+  padding: 1.2rem 1.25rem 1.25rem;
+  width: 272px;
+  display: none;
+  z-index: 5000;
+  animation: dmFadeIn .15s ease;
+}
+.theme-panel.open { display: block; }
+
+.theme-panel-hd {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.1rem;
+}
+.theme-panel-title { font-weight: 700; font-size: .97rem; }
+.theme-panel-close {
+  background: none;
   border: none;
-  color: rgba(255,255,255,.65);
   cursor: pointer;
-  padding: .2rem .42rem;
-  border-radius: 16px;
-  font-size: .82rem;
+  color: var(--text-muted);
+  font-size: .95rem;
   line-height: 1;
-  transition: all .2s ease;
+  padding: .25rem;
+  border-radius: 4px;
+  transition: color var(--transition);
 }
-.theme-btn:hover  { background: rgba(255,255,255,.18); color: #fff; }
-.theme-btn.active { background: rgba(255,255,255,.28); color: #fff; }
+.theme-panel-close:hover { color: var(--text); }
+.theme-panel-sec { margin-bottom: 1.1rem; }
+.theme-panel-sec:last-child { margin-bottom: 0; }
+.theme-panel-lbl {
+  font-size: .73rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: .07em;
+  margin-bottom: .55rem;
+}
+.theme-mode-row {
+  display: flex;
+  gap: .35rem;
+}
+.theme-mode-btn {
+  flex: 1;
+  background: var(--bg);
+  border: 1.5px solid var(--border);
+  color: var(--text-muted);
+  padding: .45rem .3rem;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  font-size: .79rem;
+  font-family: var(--font-sans);
+  transition: all .15s;
+  text-align: center;
+  white-space: nowrap;
+}
+.theme-mode-btn:hover { border-color: var(--primary); color: var(--primary); }
+.theme-mode-btn.active { background: var(--primary); color: #fff; border-color: var(--primary); }
+
+.palette-row { display: flex; gap: .55rem; flex-wrap: wrap; }
+.palette-swatch {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  cursor: pointer;
+  transition: transform .15s, box-shadow .15s;
+  outline: none;
+  position: relative;
+}
+.palette-swatch:hover { transform: scale(1.12); }
+.palette-swatch.active {
+  box-shadow: 0 0 0 2px var(--bg-card), 0 0 0 4px var(--text);
+  transform: scale(1.12);
+}
+.palette-label {
+  font-size: .7rem;
+  text-align: center;
+  color: var(--text-muted);
+  margin-top: .2rem;
+  white-space: nowrap;
+}
 
 /* ============================
    Dark-mode element overrides

@@ -17,7 +17,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
-  <script>!function(){var t=localStorage.getItem('sv-theme');document.documentElement.setAttribute('data-theme',t==='dark'?'dark':t==='light'?'light':window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light')}();</script>
+  <script>!function(){var t=localStorage.getItem('sv-theme'),p=localStorage.getItem('sv-palette');document.documentElement.setAttribute('data-theme',t==='dark'?'dark':t==='light'?'light':window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');if(p&&p!=='blue')document.documentElement.setAttribute('data-palette',p)}();</script>
 </head>
 <body data-page="journal">
 
