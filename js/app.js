@@ -43,10 +43,15 @@ const I18N = {
     stats_countries: '收录国家',
     stats_dest:      '旅游景点',
     stats_cont:      '大洲',
+    nav_world:       '世界地图',
     world_map_title: '点击地图探索各国',
     world_map_hint:  '蓝色国家已收录详细介绍，点击即可前往',
-    browse_cont:     '按大洲浏览',
+    browse_cont:     '开始探索',
     continent_intro: '选择一个大洲，开始您的探索之旅',
+    enter_world_map: '探索世界地图',
+    enter_continents:'浏览各大洲',
+    cont_map_title:  '地图概览',
+    no_countries:    '暂无收录国家',
     countries_in:    '收录国家',
     view_country:    '国家详情',
     view_dest:       '旅游景点',
@@ -97,10 +102,15 @@ const I18N = {
     stats_countries: 'Countries',
     stats_dest:      'Destinations',
     stats_cont:      'Continents',
+    nav_world:       'World Map',
     world_map_title: 'Click the map to explore',
     world_map_hint:  'Blue countries have full coverage — click to visit',
-    browse_cont:     'Browse by Continent',
+    browse_cont:     'Start Exploring',
     continent_intro: 'Choose a continent to begin your journey',
+    enter_world_map: 'Explore World Map',
+    enter_continents:'Browse Continents',
+    cont_map_title:  'Map Overview',
+    no_countries:    'No countries covered yet',
     countries_in:    'Countries',
     view_country:    'Country Details',
     view_dest:       'Attractions',
@@ -227,14 +237,25 @@ function filterMap(sub) {
   else if (visible.length === 1) _map.setView(visible[0], 10);
 }
 
-// ── World map (homepage only) ──────────────────────────
+// ── World map ──────────────────────────────────────────
 let _worldMap = null;
+
+function fixAntimeridian(geojson) {
+  function fixCoord(c) { while (c[0] > 180) c[0] -= 360; while (c[0] < -180) c[0] += 360; }
+  function fixRing(r) { r.forEach(fixCoord); }
+  function fixGeom(g) {
+    if (!g) return;
+    if (g.type === 'Polygon') g.coordinates.forEach(fixRing);
+    else if (g.type === 'MultiPolygon') g.coordinates.forEach(p => p.forEach(fixRing));
+  }
+  (geojson.features || []).forEach(f => fixGeom(f.geometry));
+  return geojson;
+}
 
 async function buildWorldMap(containerId) {
   const el = document.getElementById(containerId);
   if (!el || !window.L) return;
 
-  // Guard: topojson must be loaded before we do anything
   if (!window.topojson) {
     el.innerHTML = `<div class="empty" style="padding:3rem">
       ${LANG==='zh'
@@ -244,25 +265,27 @@ async function buildWorldMap(containerId) {
     return;
   }
 
-  // Ocean background via CSS
-  el.style.background = '#c8dff0';
-
   _worldMap = L.map(containerId, {
     center: [20, 0], zoom: 2,
     minZoom: 1, maxZoom: 6,
     scrollWheelZoom: true,
     zoomControl: true,
     worldCopyJump: false,
+    renderer: L.svg(),
   });
 
-  // No tile layer — pure polygon map for cleanliness
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+    maxZoom: 18,
+    opacity: 0.35,
+  }).addTo(_worldMap);
+
   const { isoMap, countries: countriesMeta } = idx();
 
-  const S_DEFAULT = { color: '#94a3b8', weight: 0.6, fillColor: '#dce9f5', fillOpacity: 0.75 };
-  const S_COVERED = { color: '#2563eb', weight: 0.8, fillColor: '#3b82f6', fillOpacity: 0.6 };
-  const S_HOVER   = { color: '#1e3a8a', weight: 1.5, fillColor: '#1d4ed8', fillOpacity: 0.85 };
+  const S_DEFAULT = { color: '#64748b', weight: 0.5, fillColor: '#cbd5e1', fillOpacity: 0.6 };
+  const S_COVERED = { color: '#1d4ed8', weight: 0.8, fillColor: '#3b82f6', fillOpacity: 0.55 };
+  const S_HOVER   = { color: '#1e3a8a', weight: 1.5, fillColor: '#1d4ed8', fillOpacity: 0.8 };
 
-  // Try to load world TopoJSON
   let worldData;
   try {
     worldData = await fetchJSON('https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json');
@@ -271,7 +294,7 @@ async function buildWorldMap(containerId) {
     return;
   }
 
-  const geoFeatures = topojson.feature(worldData, worldData.objects.countries);
+  const geoFeatures = fixAntimeridian(topojson.feature(worldData, worldData.objects.countries));
 
   L.geoJSON(geoFeatures, {
     style: f => {
@@ -306,6 +329,24 @@ async function buildWorldMap(containerId) {
       }
     }
   }).addTo(_worldMap);
+}
+
+// ── Page: World ────────────────────────────────────────
+async function initWorld() {
+  const root = document.getElementById('root');
+  root.innerHTML = `
+    <section class="hero hero-small">
+      <img class="hero-img" src="https://picsum.photos/seed/world-map-hero/1600/600" alt=""
+           onerror="this.style.background='linear-gradient(135deg,#1e3a8a,#1d4ed8)'">
+      <div class="hero-content">
+        <h1>${t('nav_world')}</h1>
+        <p>${t('world_map_hint')}</p>
+      </div>
+    </section>
+    <div class="world-page-wrap">
+      <div id="world-map" class="world-page-map"></div>
+    </div>`;
+  await buildWorldMap('world-map');
 }
 
 // ── Search ─────────────────────────────────────────────
@@ -389,6 +430,7 @@ function wireSearch(inputId, dropId) {
 function buildHeader() {
   const links = [
     { href: 'index.html',     key: 'nav_home' },
+    { href: 'world.html',     key: 'nav_world' },
     { href: 'continent.html', key: 'nav_continents' },
     { href: 'about.html',     key: 'nav_about' },
   ];
@@ -512,12 +554,12 @@ function wireLangToggle() {
 }
 
 // ── Page: Index ────────────────────────────────────────
-async function initIndex() {
+function initIndex() {
   const root = document.getElementById('root');
   const { continents, countries } = idx();
   const totalCountries = Object.keys(countries).length;
+  const totalContinents = continents.length;
 
-  // Render static parts immediately
   root.innerHTML = `
     <section class="hero">
       <img class="hero-img" src="https://picsum.photos/seed/world-hero/1600/700" alt="world"
@@ -537,30 +579,70 @@ async function initIndex() {
 
     <div class="stats-strip">
       <div class="stats-inner">
-        <div class="stat-item"><div class="num">6</div><div class="lbl">${t('stats_cont')}</div></div>
+        <div class="stat-item"><div class="num">${totalContinents}</div><div class="lbl">${t('stats_cont')}</div></div>
         <div class="stat-item"><div class="num">${totalCountries}</div><div class="lbl">${t('stats_countries')}</div></div>
         <div class="stat-item"><div class="num">83</div><div class="lbl">${t('stats_dest')}</div></div>
       </div>
-    </div>
-
-    <div class="world-map-section">
-      <div class="container">
-        <h2 class="section-title">${t('world_map_title')}</h2>
-        <p class="text-muted mb-2">${t('world_map_hint')}</p>
-      </div>
-      <div id="world-map" class="world-map-container"></div>
     </div>
 
     <div class="container">
       <section class="section">
         <h2 class="section-title">${t('browse_cont')}</h2>
         <p class="text-muted mb-3">${t('continent_intro')}</p>
-        <div class="grid grid-3">${continents.map(buildContinentCard).join('')}</div>
+        <div class="entry-cards">
+          <a class="entry-card" href="world.html">
+            <div class="entry-card-icon">🗺️</div>
+            <div class="entry-card-body">
+              <div class="entry-card-title">${t('enter_world_map')}</div>
+              <div class="entry-card-desc">${t('world_map_hint')}</div>
+            </div>
+            <span class="entry-card-arrow">→</span>
+          </a>
+          <a class="entry-card" href="continent.html">
+            <div class="entry-card-icon">🌍</div>
+            <div class="entry-card-body">
+              <div class="entry-card-title">${t('enter_continents')}</div>
+              <div class="entry-card-desc">${t('continent_intro')}</div>
+            </div>
+            <span class="entry-card-arrow">→</span>
+          </a>
+        </div>
       </section>
     </div>`;
 
   wireSearch('heroSearch', 'heroDrop');
-  buildWorldMap('world-map');
+}
+
+// ── Continent map ──────────────────────────────────────
+function buildContinentMap(contId, containerId) {
+  if (!window.L) return;
+  const el = document.getElementById(containerId);
+  if (!el) return;
+
+  const meta = window.DB_COORDS?.continents?.[contId] || { center: [20, 0], zoom: 2 };
+  const { continents, countries } = idx();
+  const cont = continents.find(c => c.id === contId);
+
+  const cmap = L.map(containerId, { scrollWheelZoom: false });
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+    maxZoom: 18
+  }).addTo(cmap);
+  cmap.setView(meta.center, meta.zoom);
+
+  (cont?.countries || []).forEach(cid => {
+    const cm = countries[cid];
+    const coords = window.DB_COORDS?.countries?.[cid];
+    if (!cm || !coords) return;
+    const popup = `
+      <div style="text-align:center;font-family:system-ui,sans-serif;min-width:110px">
+        <div style="font-size:1.8rem;line-height:1.3">${cm.flag}</div>
+        <strong style="font-size:13px;display:block;margin:.3rem 0">${tx(cm.name)}</strong>
+        <a href="country.html?id=${cid}"
+           style="font-size:11px;color:#1d4ed8;font-weight:600">${t('view_country')}</a>
+      </div>`;
+    L.marker(coords.center).bindPopup(popup, { maxWidth: 160 }).addTo(cmap);
+  });
 }
 
 // ── Page: Continent ────────────────────────────────────
@@ -601,11 +683,19 @@ function initContinent() {
         { href: 'continent.html', label: t('nav_continents') },
         { href: '#',              label: tx(cont.name) },
       ])}
+      <section class="section" style="padding-bottom:0">
+        <h2 class="section-title">${t('cont_map_title')}</h2>
+        <div id="continent-map" class="continent-map-container"></div>
+      </section>
       <section class="section">
         <h2 class="section-title">${tx(cont.name)} — ${t('countries_in')}: ${countryList.length}</h2>
-        <div class="grid grid-3">${countryList.map(({ id, meta }) => buildCountryCard(id, meta)).join('')}</div>
+        ${countryList.length
+          ? `<div class="grid grid-3">${countryList.map(({ id, meta }) => buildCountryCard(id, meta)).join('')}</div>`
+          : `<div class="empty">${t('no_countries')}</div>`}
       </section>
     </div>`;
+
+  buildContinentMap(id, 'continent-map');
 }
 
 // ── Page: Country ──────────────────────────────────────
@@ -845,6 +935,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const page = document.body.dataset.page;
   if (page === 'index')        initIndex();
+  if (page === 'world')        initWorld();
   if (page === 'continent')    initContinent();
   if (page === 'country')      initCountry();
   if (page === 'destinations') initDestinations();

@@ -149,6 +149,27 @@
         },
         "countriesCount": 14
       }
+    },
+    {
+      "id": "antarctica",
+      "name": {
+        "zh": "南极洲",
+        "en": "Antarctica"
+      },
+      "description": {
+        "zh": "南极洲是地球上最寒冷、最干燥、风速最大的大洲，被厚达2公里的冰盖覆盖，储存着全球约70%的淡水。这片土地没有原住民，仅有各国科研站的少量研究人员常驻，是地球上最后一片未被人类开发的大陆。",
+        "en": "Antarctica is Earth's coldest, driest and windiest continent, blanketed by an ice sheet up to 2 km thick that holds ~70% of the world's fresh water. With no indigenous population and only scientific researchers, it remains the last great wilderness on Earth."
+      },
+      "image": "https://picsum.photos/seed/antarctica-ice/1200/600",
+      "countries": [],
+      "stats": {
+        "area": "1400万 km²",
+        "population": {
+          "zh": "约1,000–5,000（科研人员）",
+          "en": "~1,000–5,000 (researchers)"
+        },
+        "countriesCount": 0
+      }
     }
   ],
   "countries": {

@@ -6,6 +6,17 @@
  */
 window.DB_COORDS = {
 
+  /* ── Continent default map view ──────────────────── */
+  continents: {
+    "asia":          { center: [35,  105],  zoom: 3 },
+    "europe":        { center: [54,   15],  zoom: 3 },
+    "north-america": { center: [50,  -95],  zoom: 3 },
+    "south-america": { center: [-15, -60],  zoom: 3 },
+    "africa":        { center: [  5,  20],  zoom: 3 },
+    "oceania":       { center: [-27, 140],  zoom: 3 },
+    "antarctica":    { center: [-80,   0],  zoom: 2 }
+  },
+
   /* ── Country default map view ────────────────────── */
   countries: {
     "albania":     { center: [41.15,   20.17], zoom: 7 },
