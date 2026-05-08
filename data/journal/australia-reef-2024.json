@@ -1,0 +1,64 @@
+{
+  "id": "australia-reef-2024",
+  "title": { "zh": "大堡礁：在珊瑚丛中屏住呼吸", "en": "Great Barrier Reef: Holding My Breath in the Coral" },
+  "date": "2024-03-28",
+  "country": "australia",
+  "continent": "oceania",
+  "coverImage": "https://picsum.photos/seed/great-barrier-reef/1200/600",
+  "tags": { "zh": ["澳大利亚", "大堡礁", "潜水", "自然"], "en": ["Australia", "Great Barrier Reef", "Diving", "Nature"] },
+  "sections": [
+    {
+      "type": "text",
+      "content": {
+        "zh": "我在陆地上是个对海洋一无所知的人。分不清珊瑚和藻类，叫不出鱼的名字，也从未正式学过潜水。但当那艘船在凯恩斯（Cairns）外海停下、我第一次把脸埋进水里的那一刻，世界就完全不同了。水下安静极了，只有自己的呼吸声，阳光透过水面折射成一道道光柱，珊瑚礁的颜色鲜艳到不像真实存在的东西。",
+        "en": "On land I'm clueless about the ocean. I can't tell coral from algae, can't name a fish, had never properly dived before. But when the boat stopped in the Coral Sea off Cairns and I put my face in the water for the first time, the world became entirely different. Silence, except for my own breath. Sunlight refracted through the surface into columns of light. Reef colours so vivid they looked like a rendering error."
+      }
+    },
+    {
+      "type": "image",
+      "src": "https://picsum.photos/seed/reef-underwater/1200/700",
+      "caption": {
+        "zh": "珊瑚礁的颜色——这张照片的色彩完全没有经过夸张处理",
+        "en": "Reef colours — no filter, no saturation boost needed"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "zh": "我参加的是一日游的浮潜团，从凯恩斯出发坐船约90分钟到外礁（Outer Reef），在两个不同的点浮潜。导游建议我们不要去追鱼，而是静下来等——果然，只要你在水里安静着，鱼就会慢慢靠近，甚至从你脚旁游过。一条绿海龟从我身边两米处悠悠游过的那几秒，是整个澳大利亚行程里我最清晰的记忆。",
+        "en": "I joined a day-trip snorkel tour: 90 minutes by boat from Cairns to the Outer Reef, two separate spots. The guide told us not to chase the fish but to go still and wait — and it works. Once you float quietly, fish drift closer and closer, some brushing past your feet. The few seconds a green sea turtle glided past me at two metres' distance is the sharpest memory of the entire Australia trip."
+      }
+    },
+    {
+      "type": "tip",
+      "content": {
+        "zh": "时机很重要：大堡礁的最佳浮潜季节是6—10月（澳大利亚冬季），水母较少，能见度最好。3—4月（热带夏季末）有箱形水母风险，出发前务必确认当地情况。防晒霜请使用珊瑚礁安全型（reef-safe），普通含氧苯酮的防晒霜会损伤珊瑚。",
+        "en": "Timing matters: the best snorkelling months are June–October (Australian winter) — fewer jellyfish, best visibility. March–April (late tropical summer) carries box jellyfish risk; check local conditions before heading out. Use reef-safe sunscreen; regular oxybenzone-based products damage coral."
+      }
+    },
+    {
+      "type": "gallery",
+      "images": [
+        {
+          "src": "https://picsum.photos/seed/cairns-marina/600/400",
+          "caption": { "zh": "凯恩斯码头清晨出发", "en": "Cairns marina at departure" }
+        },
+        {
+          "src": "https://picsum.photos/seed/sea-turtle/600/400",
+          "caption": { "zh": "绿海龟，大堡礁常见访客", "en": "Green sea turtle, a common reef visitor" }
+        },
+        {
+          "src": "https://picsum.photos/seed/reef-fish/600/400",
+          "caption": { "zh": "色彩斑斓的礁鱼", "en": "Reef fish in the shallows" }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "content": {
+        "zh": "回到船上，皮肤晒得发烫，喝了两罐运动饮料，坐在船尾发呆了很久。大堡礁正在因为气候变化而白化——导游说，过去十年他亲眼目睹了大片珊瑚从彩色变成白色。能在它消失之前看到它，是一种幸运，也是一种沉重。下次来，不知道还能看到什么。",
+        "en": "Back on the boat, skin burned, working through two sports drinks, I sat at the stern staring at nothing for a long time. The Great Barrier Reef is bleaching due to climate change — our guide said he'd watched vast stretches turn from colour to white over the past decade. Seeing it before it disappears felt like both a privilege and a weight. I don't know what I'd find if I came back."
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "greece-islands-2024",
+  "title": { "zh": "希腊群岛：蓝与白的永恒", "en": "Greek Islands: Blue and White, Eternal" },
+  "date": "2024-09-10",
+  "country": "greece",
+  "continent": "europe",
+  "coverImage": "https://picsum.photos/seed/santorini-caldera/1200/600",
+  "tags": { "zh": ["希腊", "圣托里尼", "地中海", "岛屿"], "en": ["Greece", "Santorini", "Mediterranean", "Islands"] },
+  "sections": [
+    {
+      "type": "text",
+      "content": {
+        "zh": "九月去希腊是一个正确的决定。七八月的旺季已经退去，游客少了三分之一，气温从酷热降到了宜人的27度，海水却还暖着，可以舒舒服服地游泳。圣托里尼的伊亚小镇（Oia）在落日时分依然人山人海，但只要往镇子里走几步，转进那些没有路牌的小巷，立刻就安静下来，只剩下猫和风。",
+        "en": "September proved the right call for Greece. The July-August crush had ebbed, crowds down by a third, temperatures eased from brutal to a pleasant 27°C — yet the sea still warm enough to swim comfortably. Oia at sunset remains a scrum of tourists, but step a few paces off the main drag into the unmarked alleyways and it immediately quiets: just cats and wind."
+      }
+    },
+    {
+      "type": "image",
+      "src": "https://picsum.photos/seed/oia-sunset/1200/700",
+      "caption": {
+        "zh": "伊亚的落日：过度拍摄的景色，亲眼看到时依然震撼",
+        "en": "Oia sunset — over-photographed and still breathtaking in person"
+      }
+    },
+    {
+      "type": "text",
+      "content": {
+        "zh": "从圣托里尼乘快船到克里特岛，走了两天。伊拉克利翁的考古博物馆是整个地中海世界里我最喜欢的博物馆之一——米诺斯文明的文物精美程度令人难以置信，而且展厅里几乎没有人。克里特岛的乡村公路弯弯绕绕穿过橄榄林，路边小酒馆的烤章鱼加一杯当地的ouzo，是这次旅行里最满足的一餐。",
+        "en": "A fast ferry took me to Crete for two days. The Heraklion Archaeological Museum is one of my favourite museums in the entire Mediterranean — the Minoan artefacts are staggeringly beautiful and the galleries nearly empty. Crete's country roads wind through olive groves; grilled octopus with a glass of local ouzo at a roadside taverna was the most satisfying meal of the trip."
+      }
+    },
+    {
+      "type": "tip",
+      "content": {
+        "zh": "岛屿交通：圣托里尼岛内最方便的是租摩托车（需有驾照），坐公共巴士也可以但班次少。前往其他岛屿的快船票建议提前在官网或 ferryscanner.com 预订，旺季常常售罄。",
+        "en": "Island transport: renting a scooter on Santorini is the most convenient option (licence required); public buses run but infrequently. Book inter-island ferry tickets in advance on the ferry operators' websites or ferryscanner.com — they sell out in peak season."
+      }
+    },
+    {
+      "type": "gallery",
+      "images": [
+        {
+          "src": "https://picsum.photos/seed/santorini-blue-dome/600/400",
+          "caption": { "zh": "圣托里尼标志性的蓝顶教堂", "en": "Santorini's iconic blue-domed churches" }
+        },
+        {
+          "src": "https://picsum.photos/seed/crete-palace/600/400",
+          "caption": { "zh": "克诺索斯宫遗址，米诺斯文明中心", "en": "Palace of Knossos, heart of Minoan civilisation" }
+        },
+        {
+          "src": "https://picsum.photos/seed/aegean-sea/600/400",
+          "caption": { "zh": "爱琴海的颜色，深蓝与碧绿之间", "en": "The Aegean — somewhere between deep blue and turquoise" }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "content": {
+        "zh": "希腊之行结束后我一直在想：为什么这里让人觉得时间过得特别慢？可能是因为希腊人自己也不着急——午饭可以吃三个小时，傍晚的volta（散步）是雷打不动的仪式，一切都慢慢来。这种节奏是一种提醒：旅行不是打卡，而是进入另一种生活方式，哪怕只有几天。",
+        "en": "Since the trip I keep wondering: why does time feel so much slower in Greece? Perhaps because Greeks themselves aren't in a hurry — lunch can last three hours, the evening volta (stroll) is a sacred ritual, everything takes its time. That pace is a reminder: travel isn't about ticking boxes, it's about temporarily inhabiting a different way of living, even for just a few days."
+      }
+    }
+  ]
+}
