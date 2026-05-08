@@ -234,6 +234,16 @@ async function buildWorldMap(containerId) {
   const el = document.getElementById(containerId);
   if (!el || !window.L) return;
 
+  // Guard: topojson must be loaded before we do anything
+  if (!window.topojson) {
+    el.innerHTML = `<div class="empty" style="padding:3rem">
+      ${LANG==='zh'
+        ? '世界地图库加载失败，请检查网络连接后刷新页面'
+        : 'World map library failed to load — check your connection and refresh'}
+    </div>`;
+    return;
+  }
+
   // Ocean background via CSS
   el.style.background = '#c8dff0';
 
@@ -258,11 +268,6 @@ async function buildWorldMap(containerId) {
     worldData = await fetchJSON('https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json');
   } catch {
     el.innerHTML = `<div class="empty" style="padding:3rem">${LANG==='zh'?'世界地图需要网络连接':'World map requires network access'}</div>`;
-    return;
-  }
-
-  if (!window.topojson) {
-    el.innerHTML = `<div class="empty" style="padding:3rem">topojson library not loaded</div>`;
     return;
   }
 
