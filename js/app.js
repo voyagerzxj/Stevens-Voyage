@@ -85,6 +85,10 @@ const I18N = {
     share_copy:      '复制链接',
     share_copied:    '已复制！',
     share_weibo:     '微博',
+    share_wechat:    '微信',
+    share_xhs:       '小红书',
+    share_wechat_tip:'用微信扫一扫分享此页面',
+    share_xhs_copied:'链接已复制！打开小红书 → 发布笔记 → 粘贴链接',
     cuisine_title:   '特色美食',
     besttime_title:  '最佳旅游时间',
     besttime_opt:    '最佳',
@@ -171,6 +175,10 @@ const I18N = {
     share_copy:      'Copy Link',
     share_copied:    'Copied!',
     share_weibo:     'Weibo',
+    share_wechat:    'WeChat',
+    share_xhs:       'Xiaohongshu',
+    share_wechat_tip:'Scan with WeChat to share this page',
+    share_xhs_copied:'Link copied! Open Xiaohongshu → New Post → Paste link',
     cuisine_title:   'Local Cuisine',
     besttime_title:  'Best Time to Visit',
     besttime_opt:    'Best',
@@ -1225,12 +1233,53 @@ async function initJournal() {
 }
 
 // ── Share bar ──────────────────────────────────────────
+function showWechatQR() {
+  const existing = document.getElementById('wechat-qr-modal');
+  if (existing) { existing.style.display = 'flex'; return; }
+  const qrUrl = `https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${encodeURIComponent(location.href)}`;
+  const el = document.createElement('div');
+  el.id = 'wechat-qr-modal';
+  el.className = 'share-modal-overlay';
+  el.innerHTML = `
+    <div class="share-modal">
+      <button class="share-modal-close" onclick="document.getElementById('wechat-qr-modal').style.display='none'">✕</button>
+      <div class="share-modal-icon">💚</div>
+      <div class="share-modal-title">${t('share_wechat')}</div>
+      <img class="share-modal-qr" src="${qrUrl}" alt="QR Code">
+      <div class="share-modal-tip">${t('share_wechat_tip')}</div>
+    </div>`;
+  el.addEventListener('click', e => { if (e.target === el) el.style.display = 'none'; });
+  document.body.appendChild(el);
+}
+
+function shareToXHS(title) {
+  const text = `${title}\n${location.href}`;
+  navigator.clipboard.writeText(text).then(() => {
+    const existing = document.getElementById('xhs-modal');
+    if (existing) { existing.style.display = 'flex'; return; }
+    const el = document.createElement('div');
+    el.id = 'xhs-modal';
+    el.className = 'share-modal-overlay';
+    el.innerHTML = `
+      <div class="share-modal">
+        <button class="share-modal-close" onclick="document.getElementById('xhs-modal').style.display='none'">✕</button>
+        <div class="share-modal-icon">📕</div>
+        <div class="share-modal-title">${t('share_xhs')}</div>
+        <div class="share-modal-tip" style="font-size:.95rem;line-height:1.7">${t('share_xhs_copied')}</div>
+      </div>`;
+    el.addEventListener('click', e => { if (e.target === el) el.style.display = 'none'; });
+    document.body.appendChild(el);
+  });
+}
+
 function buildShareBar(title) {
   const url = encodeURIComponent(location.href);
   const txt = encodeURIComponent(title);
   return `
     <div class="share-bar">
       <span class="share-label">🔗 ${t('share_title')}</span>
+      <button class="share-btn share-wechat" onclick="showWechatQR()">${t('share_wechat')}</button>
+      <button class="share-btn share-xhs"    onclick="shareToXHS(${JSON.stringify(title)})">${t('share_xhs')}</button>
       <a class="share-btn share-weibo" target="_blank" rel="noopener"
          href="https://service.weibo.com/share/share.php?url=${url}&title=${txt}">
          ${t('share_weibo')}
