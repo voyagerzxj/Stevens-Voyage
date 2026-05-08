@@ -593,7 +593,7 @@ function buildContinentCard(c) {
 
 function buildCountryCard(id, meta) {
   return `
-    <div class="card">
+    <a class="card" href="${buildUrl('country.html', { id })}">
       <img class="card-img" src="${meta.coverImage}" alt="${tx(meta.name)}" loading="lazy"
            onerror="this.src='https://picsum.photos/seed/${id}/800/400'">
       <div class="card-body">
@@ -601,11 +601,7 @@ function buildCountryCard(id, meta) {
         <div class="card-subtitle">${t('fact_cap')}: ${tx(meta.capital)}</div>
         <div class="card-desc">${tx(meta.brief)}</div>
       </div>
-      <div class="card-footer">
-        <a href="${buildUrl('country.html', { id })}" style="color:inherit">${t('view_country')}</a>
-        <a href="${buildUrl('destinations.html', { id })}" style="color:inherit">${t('view_dest')}</a>
-      </div>
-    </div>`;
+    </a>`;
 }
 
 function buildDestCard(d) {
