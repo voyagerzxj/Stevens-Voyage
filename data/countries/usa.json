@@ -76,5 +76,75 @@
       },
       "emoji": "🐻"
     }
+  },
+  "cuisine": [
+    {
+      "emoji": "🥩",
+      "name": {
+        "zh": "美式BBQ",
+        "en": "American BBQ"
+      },
+      "description": {
+        "zh": "德克萨斯慢烤牛胸肉、田纳西猪肋排、卡罗莱纳拉猪肉——各州BBQ流派之争是美国饮食文化的核心。",
+        "en": "Texas brisket, Tennessee ribs, Carolina pulled pork — regional BBQ rivalries are central to American food identity."
+      }
+    },
+    {
+      "emoji": "🍔",
+      "name": {
+        "zh": "汉堡",
+        "en": "Burger"
+      },
+      "description": {
+        "zh": "现磨牛肉饼配奶酪、生菜和特制酱汁，从快餐连锁到精品餐厅，各有千秋。",
+        "en": "Fresh-ground beef patty with cheese, lettuce and special sauce — from drive-throughs to gourmet gastropubs."
+      }
+    },
+    {
+      "emoji": "🦞",
+      "name": {
+        "zh": "缅因州龙虾卷",
+        "en": "Maine Lobster Roll"
+      },
+      "description": {
+        "zh": "新英格兰特产，新鲜龙虾肉配蛋黄酱夹入烤热狗面包，在缅因海岸边吃最为地道。",
+        "en": "Fresh lobster meat with mayo in a buttered, toasted split-top bun — best eaten on the Maine coast."
+      }
+    },
+    {
+      "emoji": "🥧",
+      "name": {
+        "zh": "纽约芝士蛋糕",
+        "en": "New York Cheesecake"
+      },
+      "description": {
+        "zh": "浓郁醇厚的奶油奶酪蛋糕，底部为饼干碎，是纽约美食的标志性符号之一。",
+        "en": "Dense, velvety cream cheese cake on a graham cracker base — a New York institution since the early 20th century."
+      }
+    }
+  ],
+  "bestTime": {
+    "optimal": [
+      5,
+      6,
+      9,
+      10
+    ],
+    "good": [
+      3,
+      4,
+      7,
+      8,
+      11
+    ],
+    "avoid": [
+      1,
+      2,
+      12
+    ],
+    "note": {
+      "zh": "美国幅员辽阔，各地气候差异很大。总体而言春秋两季最适合全国旅行；佛罗里达冬季是旺季；阿拉斯加夏季最佳。",
+      "en": "The US is vast — climate varies enormously by region. Spring and autumn suit most areas; Florida peaks in winter; Alaska shines in summer."
+    }
   }
 }

@@ -39,5 +39,74 @@
       "zh": "探戈舞起源于布宜诺斯艾利斯，已成为阿根廷最具代表性的文化符号，被列入联合国非物质文化遗产。阿根廷是足球强国，梅西是国家英雄。马黛茶是日常饮品，烤牛肉（Asado）是最重要的饮食传统。",
       "en": "Tango originated in Buenos Aires and is Argentina's most iconic cultural symbol, listed as UNESCO intangible heritage. Argentina is a football powerhouse; Messi is a national hero. Mate tea is the daily drink; Asado (barbecue) is the most important culinary tradition."
     }
+  },
+  "cuisine": [
+    {
+      "emoji": "🥩",
+      "name": {
+        "zh": "阿根廷烤肉",
+        "en": "Asado"
+      },
+      "description": {
+        "zh": "阿根廷烤肉不仅是食物，更是社交仪式。牛肉在铁架上以木炭慢烤，配马尔贝克红酒是绝配。",
+        "en": "More than a meal — a social ritual. Beef slow-grilled over hardwood coals, best paired with a glass of Malbec."
+      }
+    },
+    {
+      "emoji": "🫔",
+      "name": {
+        "zh": "恩帕纳达",
+        "en": "Empanadas"
+      },
+      "description": {
+        "zh": "半月形酥皮包裹牛肉、奶酪、火腿或蔬菜馅，烤制或油炸，是阿根廷随处可见的街头美食。",
+        "en": "Half-moon pastries stuffed with beef, cheese, ham or vegetables, baked or fried — Argentina's omnipresent street food."
+      }
+    },
+    {
+      "emoji": "🍮",
+      "name": {
+        "zh": "牛奶焦糖酱",
+        "en": "Dulce de Leche"
+      },
+      "description": {
+        "zh": "牛奶和糖慢熬制成的焦糖酱，用于抹面包、夹饼干、做冰淇淋，是阿根廷人的甜蜜执念。",
+        "en": "Slow-cooked milk caramel — spread on toast, sandwiched in cookies, scooped in ice cream. Argentina's national obsession."
+      }
+    },
+    {
+      "emoji": "🍵",
+      "name": {
+        "zh": "马黛茶",
+        "en": "Yerba Mate"
+      },
+      "description": {
+        "zh": "用葫芦杯和金属吸管共饮的草本茶，提神醒脑，是阿根廷社交文化的重要组成部分。",
+        "en": "Herbal tea sipped through a metal straw from a shared gourd — caffeinated, bitter and central to Argentine social life."
+      }
+    }
+  ],
+  "bestTime": {
+    "optimal": [
+      10,
+      11,
+      3,
+      4
+    ],
+    "good": [
+      12,
+      1,
+      2,
+      9
+    ],
+    "avoid": [
+      6,
+      7,
+      8
+    ],
+    "note": {
+      "zh": "南半球的春（10—11月）和秋（3—4月）气候最宜人；巴塔哥尼亚最佳游览时间为11月至次年2月；布宜诺斯艾利斯全年可游。",
+      "en": "Spring (Oct–Nov) and autumn (Mar–Apr) are most pleasant. Patagonia is best November–February. Buenos Aires is enjoyable year-round."
+    }
   }
 }

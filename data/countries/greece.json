@@ -39,5 +39,75 @@
       "zh": "希腊文化是西方文明的根基，苏格拉底、柏拉图、亚里士多德等哲学家的思想影响至今。希腊神话、奥林匹克精神是全球共同的文化遗产。希腊美食以橄榄油、海鲜、菲达奶酪和烤肉为特色，是地中海饮食的代表。",
       "en": "Greek culture is the foundation of Western civilization. Philosophers like Socrates, Plato and Aristotle still influence the world. Greek mythology and the Olympic spirit are shared global heritage. Greek cuisine — olive oil, seafood, feta and grilled meats — epitomizes the Mediterranean diet."
     }
+  },
+  "cuisine": [
+    {
+      "emoji": "🥗",
+      "name": {
+        "zh": "希腊沙拉",
+        "en": "Greek Salad"
+      },
+      "description": {
+        "zh": "番茄、黄瓜、橄榄、菲达奶酪和橄榄油，简单却无比清爽，夏日必备。",
+        "en": "Tomatoes, cucumber, olives, feta and olive oil — deceptively simple and endlessly refreshing in the summer heat."
+      }
+    },
+    {
+      "emoji": "🍢",
+      "name": {
+        "zh": "苏夫拉基",
+        "en": "Souvlaki"
+      },
+      "description": {
+        "zh": "腌制猪肉或鸡肉串烤制，配皮塔饼、西红柿、洋葱和酸奶酱（tzatziki），是希腊最受欢迎的街头食品。",
+        "en": "Marinated pork or chicken skewers in pita with tomato, onion and tzatziki — Greece's favourite street food."
+      }
+    },
+    {
+      "emoji": "🫕",
+      "name": {
+        "zh": "木萨卡",
+        "en": "Moussaka"
+      },
+      "description": {
+        "zh": "茄子、肉末和贝夏梅酱分层烤制，香浓扎实，是希腊家庭料理的代表作。",
+        "en": "Layers of aubergine, spiced minced meat and béchamel baked until golden — the definitive Greek comfort food."
+      }
+    },
+    {
+      "emoji": "🍯",
+      "name": {
+        "zh": "蜂蜜酥皮糕",
+        "en": "Baklava"
+      },
+      "description": {
+        "zh": "薄酥皮夹核桃碎，淋上玫瑰水蜂蜜糖浆，甜而不腻，是奥斯曼遗产留下的精华。",
+        "en": "Layers of filo pastry with crushed walnuts soaked in honey syrup — a sweet Ottoman legacy."
+      }
+    }
+  ],
+  "bestTime": {
+    "optimal": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "good": [
+      3,
+      7,
+      11
+    ],
+    "avoid": [
+      1,
+      2,
+      8,
+      12
+    ],
+    "note": {
+      "zh": "4—6月和9—10月天气最佳，海水温暖、游客适中；8月是旅游旺季，圣托里尼等岛屿极度拥挤。",
+      "en": "April–June and September–October are ideal — warm sea and manageable crowds. August, especially Santorini, is overwhelmingly busy."
+    }
   }
 }

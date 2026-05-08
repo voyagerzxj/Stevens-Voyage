@@ -76,5 +76,75 @@
       },
       "emoji": "🏙️"
     }
+  },
+  "cuisine": [
+    {
+      "emoji": "🦆",
+      "name": {
+        "zh": "北京烤鸭",
+        "en": "Peking Duck"
+      },
+      "description": {
+        "zh": "外皮酥脆、肉质鲜嫩，用薄饼卷葱丝和甜面酱食用，是北京最具代表性的美食。",
+        "en": "Crispy-skinned, succulent duck rolled in thin pancakes with spring onion and hoisin — Beijing's most iconic dish."
+      }
+    },
+    {
+      "emoji": "🫕",
+      "name": {
+        "zh": "火锅",
+        "en": "Hot Pot"
+      },
+      "description": {
+        "zh": "将各种食材涮入滚烫的汤底，四川麻辣和北方清汤是最受欢迎的两种口味。",
+        "en": "Communal cooking in simmering broth — Sichuan mala (numbing-spicy) and northern clear-broth styles are both beloved."
+      }
+    },
+    {
+      "emoji": "🥟",
+      "name": {
+        "zh": "小笼包",
+        "en": "Xiaolongbao"
+      },
+      "description": {
+        "zh": "薄皮内包裹着鲜肉和浓缩汤汁，轻咬一口鲜汤迸出，起源于上海，风靡全国。",
+        "en": "Delicate steamed dumplings with minced pork and a burst of soup inside — originated in Shanghai, adored nationwide."
+      }
+    },
+    {
+      "emoji": "🍜",
+      "name": {
+        "zh": "兰州拉面",
+        "en": "Lanzhou Beef Noodles"
+      },
+      "description": {
+        "zh": "手工拉制的筋道面条配清澈牛骨汤，撒上红辣椒油和香菜，是中国最广泛的面食之一。",
+        "en": "Hand-pulled noodles in clear beef-bone broth with chilli oil and coriander — one of China's most widespread noodle dishes."
+      }
+    }
+  ],
+  "bestTime": {
+    "optimal": [
+      3,
+      4,
+      5,
+      9,
+      10,
+      11
+    ],
+    "good": [
+      6,
+      12
+    ],
+    "avoid": [
+      1,
+      2,
+      7,
+      8
+    ],
+    "note": {
+      "zh": "春秋两季（3—5月、9—11月）气候最宜人；北京等北方夏季炎热，冬季严寒；南方夏季多雨。",
+      "en": "Spring (Mar–May) and autumn (Sep–Nov) are best nationwide; northern winters are harsh and summers oppressively hot."
+    }
   }
 }

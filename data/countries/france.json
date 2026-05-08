@@ -39,5 +39,75 @@
       "zh": "法国是世界文化艺术的中心之一，孕育了莫奈、罗丹、雨果、萨特等众多艺术家和思想家。法式美食被列入联合国非物质文化遗产，葡萄酒、奶酪和面包是法国饮食的象征。时尚、电影、文学等领域在全球具有重要影响力。",
       "en": "France is a global center of art and culture, nurturing artists and thinkers like Monet, Rodin, Hugo and Sartre. French cuisine is UNESCO-listed intangible cultural heritage. Wine, cheese and bread are iconic. France exerts major global influence in fashion, cinema and literature."
     }
+  },
+  "cuisine": [
+    {
+      "emoji": "🥐",
+      "name": {
+        "zh": "可颂",
+        "en": "Croissant"
+      },
+      "description": {
+        "zh": "千层黄油酥皮制成的月牙形面包，外层酥脆、内层柔软，是法国早餐的灵魂。",
+        "en": "Buttery, laminated crescents with a shattering exterior and soft interior — the soul of a French breakfast."
+      }
+    },
+    {
+      "emoji": "🧀",
+      "name": {
+        "zh": "法式奶酪",
+        "en": "French Cheese"
+      },
+      "description": {
+        "zh": "法国拥有超过400种奶酪，从卡芒贝尔到布里、罗克福尔，每种都有独特的风味与产地故事。",
+        "en": "Over 400 varieties from Camembert to Comté and Roquefort — each with its own terroir and personality."
+      }
+    },
+    {
+      "emoji": "🍷",
+      "name": {
+        "zh": "勃艮第炖牛肉",
+        "en": "Bœuf Bourguignon"
+      },
+      "description": {
+        "zh": "用勃艮第红酒慢炖牛肉、蘑菇和小洋葱，是法式经典家常菜的代表。",
+        "en": "Beef slow-braised in Burgundy wine with mushrooms and pearl onions — the definitive French comfort dish."
+      }
+    },
+    {
+      "emoji": "🐌",
+      "name": {
+        "zh": "法式蜗牛",
+        "en": "Escargots"
+      },
+      "description": {
+        "zh": "蜗牛配黄油、大蒜和香草烤制，外表独特却令人难以忘怀，是法国餐厅的经典前菜。",
+        "en": "Snails baked in herbed garlic butter — an acquired taste that rewards the adventurous palate."
+      }
+    }
+  ],
+  "bestTime": {
+    "optimal": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "good": [
+      3,
+      7,
+      8,
+      11
+    ],
+    "avoid": [
+      1,
+      2,
+      12
+    ],
+    "note": {
+      "zh": "4—6月春意盎然、游人适中；9—10月秋色宜人、葡萄收获；7—8月巴黎拥挤炎热。",
+      "en": "April–June brings blooms and manageable crowds; September–October offers harvest season and golden light. July–August in Paris is busy and hot."
+    }
   }
 }

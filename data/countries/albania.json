@@ -39,5 +39,75 @@
       "zh": "阿尔巴尼亚文化独具一格，以\"贝萨\"（Besa，意为\"信守承诺\"）这一荣誉准则最为著名，二战期间许多阿尔巴尼亚家庭因此庇护了数百名犹太难民。传统的\"等声复调\"（Iso-polyphony）无伴奏合唱已被联合国教科文组织列为人类非物质文化遗产。民间舞蹈、手工地毯（基利姆）和精美的银器工艺历史悠久。阿尔巴尼亚美食深受地中海和奥斯曼饮食传统影响，烤肉、奶酪派（Byrek）、发酵乳（Kos）和各类肉类菜肴是代表性食品。",
       "en": "Albanian culture is unique and defined by Besa — a code of honor meaning 'keeping the promise,' which led many Albanian families to shelter hundreds of Jewish refugees during WWII. Traditional polyphonic singing (Iso-polyphony), performed without instruments, is listed as UNESCO Intangible Cultural Heritage. Folk dancing, handwoven kilim rugs and fine silverware have long traditions. Albanian cuisine blends Mediterranean and Ottoman influences: grilled meats, byrek (savory pastry), kos (fermented yogurt) and hearty meat dishes are staples."
     }
+  },
+  "cuisine": [
+    {
+      "emoji": "🥧",
+      "name": {
+        "zh": "拜雷克",
+        "en": "Byrek"
+      },
+      "description": {
+        "zh": "用薄酥皮包裹菠菜、奶酪或肉馅的烤饼，街头随处可见，是阿尔巴尼亚最经典的小吃。",
+        "en": "Flaky pastry filled with spinach, cheese or meat — the quintessential Albanian street snack."
+      }
+    },
+    {
+      "emoji": "🍲",
+      "name": {
+        "zh": "烤羊肉锅",
+        "en": "Tavë Kosi"
+      },
+      "description": {
+        "zh": "羊肉配酸奶和鸡蛋烤制而成，是阿尔巴尼亚的国菜，口感浓郁鲜美。",
+        "en": "Baked lamb with yoghurt and eggs — considered the national dish, rich and deeply savoury."
+      }
+    },
+    {
+      "emoji": "🫕",
+      "name": {
+        "zh": "费尔格塞",
+        "en": "Fërgesë"
+      },
+      "description": {
+        "zh": "以番茄、辣椒、奶酪和橄榄油炖煮而成的地道家常菜，地拉那风味独特。",
+        "en": "Stewed tomatoes, peppers and white cheese in olive oil — a beloved Tirana homestyle dish."
+      }
+    },
+    {
+      "emoji": "🍢",
+      "name": {
+        "zh": "科夫特肉丸",
+        "en": "Qofte"
+      },
+      "description": {
+        "zh": "香料混合牛羊肉制成的烤肉饼或烤肉串，配新鲜蔬菜和酱汁享用。",
+        "en": "Spiced minced beef and lamb formed into patties or skewers, grilled and served with fresh salad."
+      }
+    }
+  ],
+  "bestTime": {
+    "optimal": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "good": [
+      3,
+      7,
+      8,
+      11
+    ],
+    "avoid": [
+      1,
+      2,
+      12
+    ],
+    "note": {
+      "zh": "4—6月及9—10月天气宜人，海滩和山区均适合游览；7—8月高温且游客众多。",
+      "en": "April–June and September–October offer ideal weather for both coast and mountains; July–August is hot and crowded."
+    }
   }
 }

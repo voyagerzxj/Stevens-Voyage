@@ -39,5 +39,75 @@
       "zh": "澳大利亚文化融合了原住民文化（艺术、音乐、与土地的精神联系）和西方现代文化。冲浪、澳式足球、板球是代表性体育运动。澳大利亚人以户外生活方式、直率性格和多元包容著称。悉尼歌剧院是现代建筑的杰作和澳大利亚的国家象征。",
       "en": "Australian culture blends Indigenous culture (art, music, spiritual connection to the land) with modern Western influences. Surfing, Australian Rules football and cricket are iconic sports. Australians are known for outdoor lifestyles, directness and multicultural inclusion. The Sydney Opera House is a modern architectural masterpiece and national symbol."
     }
+  },
+  "cuisine": [
+    {
+      "emoji": "🥧",
+      "name": {
+        "zh": "澳式肉馅派",
+        "en": "Meat Pie"
+      },
+      "description": {
+        "zh": "酥皮包裹牛肉和肉汁馅，是澳大利亚体育赛事和街头小吃的国民食品，配番茄酱食用。",
+        "en": "Shortcrust and puff pastry filled with minced beef in gravy — the quintessential stadium snack, always with tomato sauce."
+      }
+    },
+    {
+      "emoji": "🍫",
+      "name": {
+        "zh": "维吉麦吐司",
+        "en": "Vegemite on Toast"
+      },
+      "description": {
+        "zh": "深棕色酵母提取物涂抹在黄油吐司上，咸鲜浓郁，是澳大利亚人从小吃到大的早餐，外国人常常难以接受。",
+        "en": "Dark yeast extract spread thinly on buttered toast — every Australian grows up on it; most visitors find it challenging."
+      }
+    },
+    {
+      "emoji": "🍰",
+      "name": {
+        "zh": "帕芙洛娃",
+        "en": "Pavlova"
+      },
+      "description": {
+        "zh": "蛋白酥皮（外脆内软）配鲜奶油和各种水果，澳大利亚和新西兰都声称是其发源地。",
+        "en": "Crisp meringue with a marshmallow centre, topped with cream and fresh fruit — Australia and New Zealand both claim to have invented it."
+      }
+    },
+    {
+      "emoji": "🍪",
+      "name": {
+        "zh": "澳新军团饼干",
+        "en": "ANZAC Biscuit"
+      },
+      "description": {
+        "zh": "燕麦、椰子和金糖浆制成的硬饼干，起源于一战时期，现已成为澳大利亚标志性零食。",
+        "en": "Oats, coconut and golden syrup biscuits — created during WWI and now an iconic Australian treat."
+      }
+    }
+  ],
+  "bestTime": {
+    "optimal": [
+      9,
+      10,
+      11,
+      3,
+      4,
+      5
+    ],
+    "good": [
+      6,
+      7,
+      8
+    ],
+    "avoid": [
+      12,
+      1,
+      2
+    ],
+    "note": {
+      "zh": "澳大利亚幅员辽阔，南北气候相反。南部（悉尼、墨尔本）9—11月春季和3—5月秋季最佳；北部（凯恩斯）旱季（5—10月）最佳；12—2月为南部夏季，炎热且有山火风险。",
+      "en": "Australia is vast — north and south have opposite climates. Southern cities (Sydney, Melbourne) are best in spring (Sep–Nov) and autumn (Mar–May). Cairns and the Top End peak in the dry season (May–Oct). December–February is southern summer — hot with bushfire risk."
+    }
   }
 }

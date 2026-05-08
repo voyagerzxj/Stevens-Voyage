@@ -39,5 +39,75 @@
       "zh": "巴西文化充满热情与活力，桑巴舞、巴萨诺瓦音乐和里约嘉年华举世闻名。足球是巴西的国民宗教，巴西队曾五次夺得世界杯冠军。巴西烤肉（Churrasco）和热带水果是饮食特色，亚马逊原住民文化丰富多彩。",
       "en": "Brazilian culture is vibrant and passionate. Samba, Bossa Nova and Rio Carnival are world-famous. Football is a national religion — Brazil has won the World Cup five times. Churrasco (BBQ) and tropical fruits define the cuisine. Amazon Indigenous cultures are richly diverse."
     }
+  },
+  "cuisine": [
+    {
+      "emoji": "🥩",
+      "name": {
+        "zh": "巴西烤肉",
+        "en": "Churrasco"
+      },
+      "description": {
+        "zh": "各种切割的牛肉和猪肉在大型烤架上转烤，由切肉师巡桌服务，是巴西最具代表性的饮食体验。",
+        "en": "Various cuts of beef and pork rotisserie-grilled over charcoal, carved tableside by passadores — Brazil's quintessential dining experience."
+      }
+    },
+    {
+      "emoji": "🫕",
+      "name": {
+        "zh": "黑豆炖肉锅",
+        "en": "Feijoada"
+      },
+      "description": {
+        "zh": "黑豆与猪肉各部位慢炖，配白饭、甘蓝菜和橙片，是巴西的国菜，传统上周六享用。",
+        "en": "Black beans slow-cooked with pork cuts, served with rice, collard greens and orange slices — the national dish, traditionally eaten on Saturdays."
+      }
+    },
+    {
+      "emoji": "🧀",
+      "name": {
+        "zh": "奶酪面包球",
+        "en": "Pão de Queijo"
+      },
+      "description": {
+        "zh": "木薯粉和奶酪制成的小圆面包，外脆内软有嚼劲，是巴西早餐和零食的首选。",
+        "en": "Chewy, cheesy tapioca-flour rolls — the go-to Brazilian breakfast and snack, gluten-free and utterly addictive."
+      }
+    },
+    {
+      "emoji": "🍹",
+      "name": {
+        "zh": "卡普里尼亚",
+        "en": "Caipirinha"
+      },
+      "description": {
+        "zh": "卡莎萨（甘蔗烈酒）配青柠和冰糖，是巴西的国民鸡尾酒，清爽解渴。",
+        "en": "Cachaça, lime and sugar over ice — Brazil's national cocktail, potent, refreshing and dangerously drinkable."
+      }
+    }
+  ],
+  "bestTime": {
+    "optimal": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "good": [
+      3,
+      10
+    ],
+    "avoid": [
+      11,
+      12,
+      1,
+      2
+    ],
+    "note": {
+      "zh": "里约和圣保罗的最佳时节为4—9月（南半球秋冬）；亚马逊热带雨林全年可游，5—9月水位较低，野生动物观察最佳。",
+      "en": "Rio and São Paulo are best April–September (austral autumn/winter). The Amazon can be visited year-round; May–September has lower water and better wildlife viewing."
+    }
   }
 }

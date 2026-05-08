@@ -76,6 +76,24 @@ const I18N = {
     modal_admission: '门票',
     modal_duration:  '建议游览时长',
     modal_tips:      '旅行小贴士',
+    nav_footprint:   '足迹',
+    footprint_title: '旅行足迹',
+    footprint_visited:'已到访',
+    footprint_wish:  '心愿单',
+    footprint_stats: '已踏上 {c} 个国家 · {n} 个大洲',
+    share_title:     '分享',
+    share_copy:      '复制链接',
+    share_copied:    '已复制！',
+    share_weibo:     '微博',
+    cuisine_title:   '特色美食',
+    besttime_title:  '最佳旅游时间',
+    besttime_opt:    '最佳',
+    besttime_good:   '适合',
+    besttime_avoid:  '避免',
+    comment_title:   '评论',
+    months_short:    ['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'],
+    search_journal:  '游记',
+    search_dest:     '景点',
   },
   en: {
     site_name:       'Steven World Travel',
@@ -144,6 +162,24 @@ const I18N = {
     modal_admission: 'Admission',
     modal_duration:  'Suggested Duration',
     modal_tips:      'Travel Tips',
+    nav_footprint:   'Footprint',
+    footprint_title: 'Travel Footprint',
+    footprint_visited:'Visited',
+    footprint_wish:  'Wishlist',
+    footprint_stats: '{c} countries visited · {n} continents',
+    share_title:     'Share',
+    share_copy:      'Copy Link',
+    share_copied:    'Copied!',
+    share_weibo:     'Weibo',
+    cuisine_title:   'Local Cuisine',
+    besttime_title:  'Best Time to Visit',
+    besttime_opt:    'Best',
+    besttime_good:   'Good',
+    besttime_avoid:  'Avoid',
+    comment_title:   'Comments',
+    months_short:    ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],
+    search_journal:  'Journal',
+    search_dest:     'Destination',
   }
 };
 
@@ -364,6 +400,15 @@ async function initWorld() {
 }
 
 // ── Search ─────────────────────────────────────────────
+let _journalSearchCache = null;
+
+async function preloadJournalIndex() {
+  if (_journalSearchCache) return;
+  try {
+    _journalSearchCache = await fetchJSON('data/journal/index.json');
+  } catch { _journalSearchCache = []; }
+}
+
 function getSearchResults(query) {
   if (!query.trim()) return [];
   const q = query.toLowerCase();
@@ -374,8 +419,7 @@ function getSearchResults(query) {
     const hay = `${c.name.zh} ${c.name.en}`.toLowerCase();
     if (hay.includes(q)) {
       results.push({
-        type: 'continent',
-        icon: '🌍',
+        type: 'continent', icon: '🌍',
         primary: tx(c.name),
         secondary: t('continent_label'),
         href: `continent.html?id=${c.id}`
@@ -386,15 +430,25 @@ function getSearchResults(query) {
     const hay = `${c.name.zh} ${c.name.en} ${c.capital?.zh||''} ${c.capital?.en||''}`.toLowerCase();
     if (hay.includes(q)) {
       results.push({
-        type: 'country',
-        icon: c.flag || '🏳️',
+        type: 'country', icon: c.flag || '🏳️',
         primary: tx(c.name),
         secondary: `${t('country_label')} · ${c.continent}`,
         href: `country.html?id=${id}`
       });
     }
   }
-  return results.slice(0, 8);
+  for (const p of (_journalSearchCache || [])) {
+    const hay = `${p.title?.zh||''} ${p.title?.en||''} ${(p.tags?.zh||[]).join(' ')} ${(p.tags?.en||[]).join(' ')}`.toLowerCase();
+    if (hay.includes(q)) {
+      results.push({
+        type: 'journal', icon: '📖',
+        primary: tx(p.title),
+        secondary: `${t('search_journal')} · ${p.date}`,
+        href: `journal.html?id=${p.id}`
+      });
+    }
+  }
+  return results.slice(0, 10);
 }
 
 function renderDropdown(results, dropEl) {
@@ -418,6 +472,8 @@ function wireSearch(inputId, dropId) {
   const input = document.getElementById(inputId);
   const drop  = document.getElementById(dropId);
   if (!input || !drop) return;
+
+  input.addEventListener('focus', () => preloadJournalIndex(), { once: true });
 
   input.addEventListener('input', () => {
     const q = input.value;
@@ -443,11 +499,12 @@ function wireSearch(inputId, dropId) {
 // ── Header / Footer builders ───────────────────────────
 function buildHeader() {
   const links = [
-    { href: 'index.html',     key: 'nav_home' },
-    { href: 'world.html',     key: 'nav_world' },
-    { href: 'continent.html', key: 'nav_continents' },
-    { href: 'journal.html',   key: 'nav_journal' },
-    { href: 'about.html',     key: 'nav_about' },
+    { href: 'index.html',      key: 'nav_home' },
+    { href: 'world.html',      key: 'nav_world' },
+    { href: 'continent.html',  key: 'nav_continents' },
+    { href: 'journal.html',    key: 'nav_journal' },
+    { href: 'footprint.html',  key: 'nav_footprint' },
+    { href: 'about.html',      key: 'nav_about' },
   ];
   return `
     <header class="site-header">
@@ -881,6 +938,8 @@ async function initCountry() {
       <div id="leaflet-map" class="map-container"></div>
     </section>
 
+    ${buildCuisineSection(detail.cuisine)}
+    ${buildBestTimeSection(detail.bestTime)}
     ${subSection}`;
 
   // Wire tabs
@@ -1157,7 +1216,185 @@ async function initJournal() {
       <article class="post-body">
         ${(post.sections || []).map(renderSection).join('')}
       </article>
+      ${buildShareBar(tx(post.title))}
+      <div class="section comment-section">
+        <h2 class="section-title">💬 ${t('comment_title')}</h2>
+        <div id="giscus-container"></div>
+      </div>
     </div>`;
+}
+
+// ── Share bar ──────────────────────────────────────────
+function buildShareBar(title) {
+  const url = encodeURIComponent(location.href);
+  const txt = encodeURIComponent(title);
+  return `
+    <div class="share-bar">
+      <span class="share-label">🔗 ${t('share_title')}</span>
+      <a class="share-btn share-weibo" target="_blank" rel="noopener"
+         href="https://service.weibo.com/share/share.php?url=${url}&title=${txt}">
+         ${t('share_weibo')}
+      </a>
+      <a class="share-btn share-x" target="_blank" rel="noopener"
+         href="https://x.com/intent/tweet?url=${url}&text=${txt}">
+         X
+      </a>
+      <button class="share-btn share-copy" onclick="
+        navigator.clipboard.writeText(location.href).then(()=>{
+          this.textContent='${t('share_copied')}';
+          setTimeout(()=>this.textContent='${t('share_copy')}',2000);
+        });
+      ">${t('share_copy')}</button>
+    </div>`;
+}
+
+// ── Back to top ────────────────────────────────────────
+function initBackToTop() {
+  const btn = document.createElement('button');
+  btn.id = 'backToTop';
+  btn.className = 'back-to-top';
+  btn.setAttribute('aria-label', 'Back to top');
+  btn.innerHTML = '↑';
+  document.body.appendChild(btn);
+  window.addEventListener('scroll', () => {
+    btn.classList.toggle('visible', window.scrollY > 320);
+  }, { passive: true });
+  btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+}
+
+// ── Footprint map ──────────────────────────────────────
+async function initFootprint() {
+  const root = document.getElementById('root');
+  if (!root) return;
+
+  let fp;
+  try { fp = window.FOOTPRINT || await fetchJSON('data/footprint.json'); }
+  catch { fp = { visited: [], wishlist: [] }; }
+
+  const visited  = new Set(fp.visited  || []);
+  const wishlist = new Set(fp.wishlist || []);
+  const { countries, continents } = idx();
+
+  const visitedConts = new Set(
+    [...visited].map(id => countries[id]?.continent).filter(Boolean)
+  );
+
+  const statsText = t('footprint_stats')
+    .replace('{c}', visited.size)
+    .replace('{n}', visitedConts.size);
+
+  root.innerHTML = `
+    <section class="hero hero-small" style="background:var(--primary-dk)">
+      <div class="hero-content">
+        <h1>🗺️ ${t('footprint_title')}</h1>
+        <p>${statsText}</p>
+      </div>
+    </section>
+    <div class="container">
+      ${buildBreadcrumb([
+        { href: 'index.html', label: t('nav_home') },
+        { href: '#',          label: t('footprint_title') },
+      ])}
+      <div class="section" style="padding-top:1rem">
+        <div id="fp-map" class="world-map-container"></div>
+      </div>
+      <div class="section">
+        <h2 class="section-title">✅ ${t('footprint_visited')} (${visited.size})</h2>
+        <div class="fp-country-grid">
+          ${[...visited].map(id => {
+            const m = countries[id];
+            return m ? `<a class="fp-country-chip visited" href="country.html?id=${id}">${m.flag} ${tx(m.name)}</a>` : '';
+          }).join('')}
+        </div>
+      </div>
+      ${wishlist.size ? `
+      <div class="section">
+        <h2 class="section-title">⭐ ${t('footprint_wish')} (${wishlist.size})</h2>
+        <div class="fp-country-grid">
+          ${[...wishlist].map(id => {
+            const m = countries[id];
+            return m ? `<a class="fp-country-chip wishlist" href="country.html?id=${id}">${m.flag} ${tx(m.name)}</a>` : '';
+          }).join('')}
+        </div>
+      </div>` : ''}
+    </div>`;
+
+  if (!window.L || !window.topojson) return;
+  try {
+    const worldData = await fetchJSON('https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json');
+    const map = L.map('fp-map', { zoomControl: true, scrollWheelZoom: false })
+      .setView([20, 0], 1);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© OpenStreetMap contributors', maxZoom: 6
+    }).addTo(map);
+
+    const { isoMap } = window;
+    const all = topojson.feature(worldData, worldData.objects.countries);
+
+    const visitedFeatures  = { type: 'FeatureCollection', features: all.features.filter(f => visited.has(isoMap?.[String(f.id)])) };
+    const wishlistFeatures = { type: 'FeatureCollection', features: all.features.filter(f => wishlist.has(isoMap?.[String(f.id)])) };
+
+    L.geoJSON(visitedFeatures,  { style: () => ({ fillColor:'#1d4ed8', fillOpacity:.7, color:'#fff', weight:1 }) }).addTo(map);
+    L.geoJSON(wishlistFeatures, { style: () => ({ fillColor:'#f59e0b', fillOpacity:.5, color:'#fff', weight:1 }) }).addTo(map);
+  } catch { /* map fails silently */ }
+}
+
+// ── Giscus comments ────────────────────────────────────
+function loadGiscus() {
+  const container = document.getElementById('giscus-container');
+  if (!container) return;
+  const s = document.createElement('script');
+  s.src = 'https://giscus.app/client.js';
+  s.setAttribute('data-repo',           'voyagerzxj/Stevens-Voyage');
+  s.setAttribute('data-repo-id',        'REPO_ID_PLACEHOLDER');
+  s.setAttribute('data-category',       'General');
+  s.setAttribute('data-category-id',    'CATEGORY_ID_PLACEHOLDER');
+  s.setAttribute('data-mapping',        'pathname');
+  s.setAttribute('data-reactions-enabled', '1');
+  s.setAttribute('data-theme',          'light');
+  s.setAttribute('data-lang',           LANG === 'zh' ? 'zh-CN' : 'en');
+  s.crossOrigin = 'anonymous';
+  s.async = true;
+  container.appendChild(s);
+}
+
+// ── Cuisine & Best-time helpers ────────────────────────
+function buildCuisineSection(cuisine) {
+  if (!cuisine || !cuisine.length) return '';
+  return `
+    <section class="section" style="padding-top:0">
+      <h2 class="section-title">🍜 ${t('cuisine_title')}</h2>
+      <div class="cuisine-grid">
+        ${cuisine.map(c => `
+          <div class="cuisine-card">
+            <div class="cuisine-emoji">${c.emoji || '🍽️'}</div>
+            <div class="cuisine-name">${tx(c.name)}</div>
+            <div class="cuisine-desc">${tx(c.description)}</div>
+          </div>`).join('')}
+      </div>
+    </section>`;
+}
+
+function buildBestTimeSection(bt) {
+  if (!bt) return '';
+  const months = t('months_short');
+  const optimal = new Set(bt.optimal || []);
+  const good    = new Set(bt.good    || []);
+  const avoid   = new Set(bt.avoid   || []);
+  const cls = i => optimal.has(i+1) ? 'bt-opt' : good.has(i+1) ? 'bt-good' : avoid.has(i+1) ? 'bt-avoid' : 'bt-neutral';
+  return `
+    <section class="section" style="padding-top:0">
+      <h2 class="section-title">📅 ${t('besttime_title')}</h2>
+      <div class="besttime-grid">
+        ${months.map((m, i) => `<div class="besttime-month ${cls(i)}"><span class="bt-m">${m}</span></div>`).join('')}
+      </div>
+      <div class="besttime-legend">
+        <span class="bt-dot bt-opt"></span>${t('besttime_opt')}
+        <span class="bt-dot bt-good"></span>${t('besttime_good')}
+        <span class="bt-dot bt-avoid"></span>${t('besttime_avoid')}
+      </div>
+      ${bt.note ? `<p class="besttime-note">${tx(bt.note)}</p>` : ''}
+    </section>`;
 }
 
 // ── Bootstrap ──────────────────────────────────────────
@@ -1171,12 +1408,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
   wireLangToggle();
   wireSearch('navSearch', 'navDrop');
+  initBackToTop();
 
   const page = document.body.dataset.page;
   if (page === 'index')        initIndex();
   if (page === 'world')        initWorld();
-  if (page === 'journal')      initJournal();
+  if (page === 'journal')      { initJournal().then(() => { if (getParam('id')) loadGiscus(); }); }
   if (page === 'continent')    initContinent();
   if (page === 'country')      initCountry();
   if (page === 'destinations') initDestinations();
+  if (page === 'footprint')    initFootprint();
 });

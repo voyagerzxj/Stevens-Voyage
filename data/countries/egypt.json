@@ -39,5 +39,75 @@
       "zh": "埃及文化是阿拉伯文化的重要组成部分，同时保留着法老时代的独特遗产。开罗是阿拉伯世界的文化中心，埃及电影和音乐在整个阿拉伯世界具有重要影响力。象形文字、木乃伊和金字塔是人类共同的文化瑰宝。",
       "en": "Egyptian culture is a key part of Arab culture while retaining its unique Pharaonic heritage. Cairo is the cultural capital of the Arab world; Egyptian cinema and music are hugely influential across the Arab world. Hieroglyphics, mummies and pyramids are treasures of human civilization."
     }
+  },
+  "cuisine": [
+    {
+      "emoji": "🫕",
+      "name": {
+        "zh": "科沙里",
+        "en": "Koshari"
+      },
+      "description": {
+        "zh": "大米、扁豆、通心粉混合，配番茄酱和炸洋葱，物美价廉，是埃及最受欢迎的国民快餐。",
+        "en": "Rice, lentils and macaroni topped with spiced tomato sauce and crispy fried onions — Egypt's beloved budget staple."
+      }
+    },
+    {
+      "emoji": "🧆",
+      "name": {
+        "zh": "炸豆饼",
+        "en": "Falafel"
+      },
+      "description": {
+        "zh": "蚕豆（非鹰嘴豆）制成的炸丸子，配皮塔饼和沙拉，是埃及版本与黎巴嫩版本最大的区别。",
+        "en": "Deep-fried fava bean patties (not chickpeas — that's the key difference from Lebanese falafel) in pita with salad."
+      }
+    },
+    {
+      "emoji": "🍢",
+      "name": {
+        "zh": "科夫塔烤肉",
+        "en": "Kofta"
+      },
+      "description": {
+        "zh": "香料混合碎肉制成的长形烤肉串，配米饭、沙拉和大蒜酱，是埃及家庭和餐厅的常见菜。",
+        "en": "Spiced minced meat moulded onto skewers and grilled — served with rice, salad and garlic sauce in homes and restaurants alike."
+      }
+    },
+    {
+      "emoji": "🫘",
+      "name": {
+        "zh": "豆泥",
+        "en": "Ful Medames"
+      },
+      "description": {
+        "zh": "慢炖蚕豆配橄榄油、柠檬和香料，是埃及从法老时代流传至今的早餐，已有数千年历史。",
+        "en": "Slow-cooked fava beans with olive oil, lemon and cumin — an Egyptian breakfast eaten since Pharaonic times."
+      }
+    }
+  ],
+  "bestTime": {
+    "optimal": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "good": [
+      4,
+      9
+    ],
+    "avoid": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "note": {
+      "zh": "10月至次年3月气候凉爽，是游览开罗、卢克索和阿斯旺的最佳时节；5—8月埃及极度炎热，不建议长时间户外活动。",
+      "en": "October–March is pleasantly cool — ideal for Cairo, Luxor and Aswan. May–August temperatures in Upper Egypt regularly exceed 40°C."
+    }
   }
 }

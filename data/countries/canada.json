@@ -39,5 +39,74 @@
       "zh": "加拿大以多元文化主义、包容开放著称，官方政策鼓励各族裔保留自身文化传统。曲棍球是加拿大国民运动和民族象征。枫叶、北极熊、皇家骑警是加拿大的标志性形象。冬季节日、原住民文化节是重要文化活动。",
       "en": "Canada is known for multiculturalism and inclusiveness, with official policies encouraging ethnic groups to preserve their cultures. Ice hockey is the national sport and cultural symbol. Maple leaf, polar bears and the Mounties are iconic Canadian images. Winter festivals and Indigenous cultural events are important cultural occasions."
     }
+  },
+  "cuisine": [
+    {
+      "emoji": "🍟",
+      "name": {
+        "zh": "普丁",
+        "en": "Poutine"
+      },
+      "description": {
+        "zh": "薯条配奶酪凝块和肉汁，发源于魁北克，是加拿大最具辨识度的国民食品。",
+        "en": "Fries topped with cheese curds and gravy — born in Quebec and now Canada's most iconic comfort food."
+      }
+    },
+    {
+      "emoji": "🍁",
+      "name": {
+        "zh": "枫糖浆",
+        "en": "Maple Syrup"
+      },
+      "description": {
+        "zh": "加拿大生产全球约70%的枫糖浆，淋在煎饼上是经典吃法，也可配咸肉或冰淇淋。",
+        "en": "Canada produces ~70% of the world's supply. Poured over pancakes is classic, but also pairs brilliantly with bacon or ice cream."
+      }
+    },
+    {
+      "emoji": "🦞",
+      "name": {
+        "zh": "新斯科舍龙虾",
+        "en": "Nova Scotia Lobster"
+      },
+      "description": {
+        "zh": "大西洋沿岸盛产新鲜龙虾，清蒸后蘸黄油，是海滨小镇夏日的仪式感美食。",
+        "en": "Atlantic lobster steamed whole and dipped in drawn butter — a ritual in every Maritime coastal town in summer."
+      }
+    },
+    {
+      "emoji": "🥞",
+      "name": {
+        "zh": "比弗尾炸饼",
+        "en": "BeaverTail"
+      },
+      "description": {
+        "zh": "形似海狸尾巴的油炸面饼，撒糖或配各种甜蜜馅料，是渥太华冬季溜冰道旁的经典小吃。",
+        "en": "Fried dough pastry shaped like a beaver's tail, dusted with cinnamon sugar — a staple on Ottawa's winter skating canal."
+      }
+    }
+  ],
+  "bestTime": {
+    "optimal": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "good": [
+      5,
+      10
+    ],
+    "avoid": [
+      1,
+      2,
+      3,
+      11,
+      12
+    ],
+    "note": {
+      "zh": "6—9月为夏季，气候宜人，适合全国旅行；冬季严寒，但魁北克冬季嘉年华和山地滑雪自有魅力。",
+      "en": "June–September is warm and perfect nationwide; winters are brutal but Quebec Winter Carnival and Rockies skiing are world-class."
+    }
   }
 }

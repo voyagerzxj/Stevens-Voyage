@@ -39,5 +39,75 @@
       "zh": "摩洛哥文化融合了柏柏尔、阿拉伯、伊斯兰和法国文化元素，独具魅力。马拉喀什的集市广场（德吉玛艾尔法纳广场）是世界非物质文化遗产。摩洛哥建筑以精美的马赛克拼贴、雕花石膏和彩色琉璃瓦著称。薄荷茶是重要的待客礼仪。",
       "en": "Moroccan culture uniquely blends Berber, Arab, Islamic and French elements. Marrakech's Jemaa el-Fnaa square is UNESCO intangible heritage. Moroccan architecture is renowned for intricate mosaic tilework, carved plaster and zellige ceramics. Mint tea is an important hospitality ritual."
     }
+  },
+  "cuisine": [
+    {
+      "emoji": "🫕",
+      "name": {
+        "zh": "塔吉锅",
+        "en": "Tagine"
+      },
+      "description": {
+        "zh": "用锥形陶锅慢炖的摩洛哥炖菜，鸡肉配柠檬和橄榄，或羊肉配梅干和杏仁，香料层次丰富。",
+        "en": "Slow-cooked stew in a conical clay pot — chicken with preserved lemon and olives, or lamb with prunes and almonds, rich with spice."
+      }
+    },
+    {
+      "emoji": "🍚",
+      "name": {
+        "zh": "古斯古斯",
+        "en": "Couscous"
+      },
+      "description": {
+        "zh": "细小的硬粒小麦颗粒蒸制松软，配炖蔬菜和羊肉，是摩洛哥周五家庭聚餐的传统菜肴。",
+        "en": "Steamed semolina grains topped with braised vegetables and lamb — the traditional Friday family meal across Morocco."
+      }
+    },
+    {
+      "emoji": "🥧",
+      "name": {
+        "zh": "巴斯提拉",
+        "en": "Bastilla"
+      },
+      "description": {
+        "zh": "薄酥皮包裹鸽子肉（现多用鸡肉）、杏仁和肉桂，甜咸交融，是摩洛哥宴会上的奢华菜肴。",
+        "en": "Flaky pastry filled with pigeon (now often chicken), almonds and cinnamon, dusted with icing sugar — a lavish Moroccan banquet showpiece."
+      }
+    },
+    {
+      "emoji": "🍵",
+      "name": {
+        "zh": "摩洛哥薄荷茶",
+        "en": "Mint Tea"
+      },
+      "description": {
+        "zh": "绿茶配新鲜薄荷和大量冰糖，高举茶壶从高处倒入小杯，是摩洛哥待客之道的象征。",
+        "en": "Green tea with fresh mint and sugar poured from height — hospitality in liquid form, and refusing it is considered impolite."
+      }
+    }
+  ],
+  "bestTime": {
+    "optimal": [
+      3,
+      4,
+      5,
+      9,
+      10,
+      11
+    ],
+    "good": [
+      2,
+      6,
+      12
+    ],
+    "avoid": [
+      7,
+      8,
+      1
+    ],
+    "note": {
+      "zh": "3—5月春季和9—11月秋季气候最宜人，撒哈拉沙漠避开酷暑；7—8月内陆极热，马拉喀什气温可达40°C以上。",
+      "en": "March–May and September–November are ideal — pleasant temperatures for both coast and Sahara. July–August inland can exceed 40°C; Marrakech is brutally hot."
+    }
   }
 }
