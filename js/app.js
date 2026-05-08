@@ -44,6 +44,11 @@ const I18N = {
     stats_dest:      '旅游景点',
     stats_cont:      '大洲',
     nav_world:       '世界地图',
+    nav_journal:     '游记',
+    journal_subtitle:'记录每一段旅途',
+    journal_empty:   '暂无游记，敬请期待',
+    journal_read:    '阅读全文',
+    tip_label:       '旅行贴士',
     world_map_title: '点击地图探索各国',
     world_map_hint:  '蓝色国家已收录详细介绍，点击即可前往',
     browse_cont:     '开始探索',
@@ -103,6 +108,11 @@ const I18N = {
     stats_dest:      'Destinations',
     stats_cont:      'Continents',
     nav_world:       'World Map',
+    nav_journal:     'Journal',
+    journal_subtitle:'Stories from the road',
+    journal_empty:   'No posts yet — check back soon',
+    journal_read:    'Read More',
+    tip_label:       'Travel Tip',
     world_map_title: 'Click the map to explore',
     world_map_hint:  'Blue countries have full coverage — click to visit',
     browse_cont:     'Start Exploring',
@@ -428,6 +438,7 @@ function buildHeader() {
     { href: 'index.html',     key: 'nav_home' },
     { href: 'world.html',     key: 'nav_world' },
     { href: 'continent.html', key: 'nav_continents' },
+    { href: 'journal.html',   key: 'nav_journal' },
     { href: 'about.html',     key: 'nav_about' },
   ];
   return `
@@ -917,6 +928,149 @@ async function initDestinations() {
   }
 }
 
+// ── Journal helpers ────────────────────────────────────
+function fmtDate(dateStr) {
+  return new Date(dateStr).toLocaleDateString(
+    LANG === 'zh' ? 'zh-CN' : 'en-US',
+    { year: 'numeric', month: 'long', day: 'numeric' }
+  );
+}
+
+function buildJournalCard(p) {
+  const countryMeta = idx().countries[p.country];
+  const tags = ((p.tags || {})[LANG] || (p.tags || {}).zh || []).slice(0, 3)
+    .map(tag => `<span class="journal-tag">${tag}</span>`).join('');
+  return `
+    <a class="journal-card" href="${buildUrl('journal.html', { id: p.id })}">
+      <img class="journal-card-img" src="${p.coverImage}" alt="${tx(p.title)}" loading="lazy"
+           onerror="this.src='https://picsum.photos/seed/${p.id}/800/400'">
+      <div class="journal-card-body">
+        <div class="journal-card-meta">
+          <span>📅 ${fmtDate(p.date)}</span>
+          ${countryMeta ? `<span>${countryMeta.flag} ${tx(countryMeta.name)}</span>` : ''}
+        </div>
+        <div class="journal-card-title">${tx(p.title)}</div>
+        <div class="journal-card-excerpt">${tx(p.excerpt)}</div>
+        <div class="journal-tags">${tags}</div>
+        <div class="journal-read-more">${t('journal_read')} →</div>
+      </div>
+    </a>`;
+}
+
+function renderSection(s) {
+  switch (s.type) {
+    case 'text':
+      return `<p class="post-text">${tx(s.content)}</p>`;
+    case 'image':
+      return `
+        <figure class="post-image">
+          <img src="${s.src}" alt="${tx(s.caption)}" loading="lazy"
+               onerror="this.style.display='none'">
+          ${s.caption ? `<figcaption>${tx(s.caption)}</figcaption>` : ''}
+        </figure>`;
+    case 'gallery':
+      return `
+        <div class="post-gallery">
+          ${(s.images || []).map(img => `
+            <figure>
+              <img src="${img.src}" alt="${tx(img.caption)}" loading="lazy"
+                   onerror="this.style.display='none'">
+              ${img.caption ? `<figcaption>${tx(img.caption)}</figcaption>` : ''}
+            </figure>`).join('')}
+        </div>`;
+    case 'tip':
+      return `
+        <div class="post-tip">
+          <div class="post-tip-label">💡 ${t('tip_label')}</div>
+          <p>${tx(s.content)}</p>
+        </div>`;
+    case 'quote':
+      return `<blockquote class="post-quote">${tx(s.content).replace(/\n/g, '<br>')}</blockquote>`;
+    default:
+      return '';
+  }
+}
+
+// ── Page: Journal ──────────────────────────────────────
+async function initJournal() {
+  const id   = getParam('id');
+  const root = document.getElementById('root');
+
+  // ── List view ──
+  if (!id) {
+    root.innerHTML = `
+      <section class="hero hero-small">
+        <img class="hero-img" src="https://picsum.photos/seed/journal-hero/1600/600" alt=""
+             onerror="this.style.background='linear-gradient(135deg,#1e3a8a,#1d4ed8)'">
+        <div class="hero-content">
+          <h1>${t('nav_journal')}</h1>
+          <p>${t('journal_subtitle')}</p>
+        </div>
+      </section>
+      <div class="container">
+        <div class="section" id="journal-list">${buildLoading()}</div>
+      </div>`;
+
+    let posts;
+    try {
+      posts = await fetchJSON('data/journal/index.json');
+    } catch (e) {
+      document.getElementById('journal-list').innerHTML = buildFetchError(e);
+      return;
+    }
+
+    posts.sort((a, b) => new Date(b.date) - new Date(a.date));
+    document.getElementById('journal-list').innerHTML = posts.length
+      ? `<div class="journal-grid">${posts.map(buildJournalCard).join('')}</div>`
+      : `<div class="empty">${t('journal_empty')}</div>`;
+    return;
+  }
+
+  // ── Post detail view ──
+  root.innerHTML = `<div class="container" style="padding-top:2rem">${buildLoading()}</div>`;
+
+  let post;
+  try {
+    post = await fetchJSON(`data/journal/${id}.json`);
+  } catch (e) {
+    root.innerHTML = `<div class="container" style="padding-top:2rem">${buildFetchError(e)}</div>`;
+    return;
+  }
+
+  const countryMeta = idx().countries[post.country];
+  const tags = ((post.tags || {})[LANG] || (post.tags || {}).zh || [])
+    .map(tag => `<span class="journal-tag">${tag}</span>`).join('');
+
+  root.innerHTML = `
+    <section class="hero hero-small">
+      <img class="hero-img" src="${post.coverImage}" alt="${tx(post.title)}"
+           onerror="this.src='https://picsum.photos/seed/${post.id}/1600/500'">
+      <div class="hero-content">
+        <h1>${tx(post.title)}</h1>
+        <div class="post-hero-meta">
+          <span>📅 ${fmtDate(post.date)}</span>
+          ${countryMeta
+            ? `<span>${countryMeta.flag}
+               <a href="country.html?id=${post.country}" style="color:inherit">
+                 ${tx(countryMeta.name)}
+               </a></span>`
+            : ''}
+        </div>
+      </div>
+    </section>
+    <div class="container">
+      ${buildBreadcrumb([
+        { href: 'index.html',   label: t('nav_home') },
+        { href: 'journal.html', label: t('nav_journal') },
+        { href: '#',            label: tx(post.title) },
+      ])}
+      <div class="post-tags">${tags}</div>
+      <article class="post-body">
+        ${(post.sections || []).map(renderSection).join('')}
+      </article>
+    </div>`;
+}
+
 // ── Bootstrap ──────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', () => {
   setLang(LANG);
@@ -932,6 +1086,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const page = document.body.dataset.page;
   if (page === 'index')        initIndex();
   if (page === 'world')        initWorld();
+  if (page === 'journal')      initJournal();
   if (page === 'continent')    initContinent();
   if (page === 'country')      initCountry();
   if (page === 'destinations') initDestinations();

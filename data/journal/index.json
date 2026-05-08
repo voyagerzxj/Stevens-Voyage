@@ -1,0 +1,28 @@
+[
+  {
+    "id": "japan-spring-2026",
+    "title": { "zh": "春日京都：与樱花的约定", "en": "Spring Kyoto: A Date with Sakura" },
+    "date": "2026-04-08",
+    "country": "japan",
+    "continent": "asia",
+    "coverImage": "https://picsum.photos/seed/kyoto-sakura/1200/600",
+    "tags": { "zh": ["日本", "京都", "樱花", "春天"], "en": ["Japan", "Kyoto", "Sakura", "Spring"] },
+    "excerpt": {
+      "zh": "四月初的京都，街道两旁的樱花树次第绽放。这是我第二次来到日本，却是第一次真正意义上与樱花相遇——不是照片里的粉色云海，而是站在岚山渡月桥边，任花瓣轻轻落在肩头的那种真实感动。",
+      "en": "In early April, Kyoto's streets burst into pink as cherry trees bloom in unison. My second trip to Japan, but my first true encounter with sakura — not the pink clouds in photos, but petals drifting onto my shoulders at Arashiyama's Togetsukyo Bridge."
+    }
+  },
+  {
+    "id": "albania-summer-2025",
+    "title": { "zh": "阿尔巴尼亚：被遗忘的亚得里亚海明珠", "en": "Albania: The Forgotten Adriatic Gem" },
+    "date": "2025-08-15",
+    "country": "albania",
+    "continent": "europe",
+    "coverImage": "https://picsum.photos/seed/albania-coast/1200/600",
+    "tags": { "zh": ["阿尔巴尼亚", "海滩", "历史", "夏天"], "en": ["Albania", "Beach", "History", "Summer"] },
+    "excerpt": {
+      "zh": "在欧洲旅行者的地图上，阿尔巴尼亚常常是一片空白。但正是这种"未被发现"的气质，让这里的亚得里亚海海岸、古老城堡和热情好客的当地人，带给我意想不到的惊喜。",
+      "en": "On most travelers' maps of Europe, Albania is a blank spot. But it's precisely this 'undiscovered' quality that makes its Adriatic coastline, ancient fortresses, and extraordinarily warm people such a revelation."
+    }
+  }
+]
