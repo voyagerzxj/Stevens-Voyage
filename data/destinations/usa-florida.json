@@ -26,6 +26,30 @@
       "zh": "佛罗里达州迈阿密滩市",
       "en": "Miami Beach, Florida, USA"
     },
-    "subdivision": "florida"
+    "subdivision": "florida",
+    "highlights": {
+      "zh": [
+        "南海滩（South Beach）是全美最著名的城市海滩之一",
+        "奥歇尔区Art Deco建筑群，粉白色调独树一帜",
+        "科勒尔盖布尔斯、温伍德涂鸦艺术区"
+      ],
+      "en": [
+        "South Beach — one of America's most famous urban beaches",
+        "Art Deco Historic District in pastel pinks and whites",
+        "Wynwood Walls street art district and Coral Gables"
+      ]
+    },
+    "admission": {
+      "zh": "海滩免费，Art Deco博物馆约5美元",
+      "en": "Beach free; Art Deco Museum ~US$5"
+    },
+    "duration": {
+      "zh": "2—4天",
+      "en": "2–4 days"
+    },
+    "tips": {
+      "zh": "11月至4月是旺季，气候宜人；6—10月高温潮湿，偶有飓风。停车昂贵，推荐使用共享单车。",
+      "en": "November–April is peak season with ideal weather. June–October is hot, humid and hurricane-prone. Parking is expensive — rent a bike or use rideshare."
+    }
   }
 ]

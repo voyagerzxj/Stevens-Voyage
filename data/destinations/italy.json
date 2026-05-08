@@ -25,6 +25,30 @@
     "location": {
       "zh": "意大利罗马市中心",
       "en": "Central Rome, Italy"
+    },
+    "highlights": {
+      "zh": [
+        "公元72年建成，古罗马最大角斗场，可容纳5万观众",
+        "俯瞰罗马广场和帕拉蒂尼山的完整古罗马景观",
+        "意大利参观人数最多的景点，每年超700万人"
+      ],
+      "en": [
+        "Built AD 72; ancient Rome's largest amphitheatre, seating 50,000",
+        "Sweeping views over the Roman Forum and Palatine Hill",
+        "Italy's most visited monument; over 7 million/year"
+      ]
+    },
+    "admission": {
+      "zh": "联票（含罗马广场）约18欧元，强烈建议网上预约",
+      "en": "Combined ticket with Forum ~€18; online booking strongly recommended"
+    },
+    "duration": {
+      "zh": "2—3小时",
+      "en": "2–3 hours"
+    },
+    "tips": {
+      "zh": "预约跳队必须，现场排队可达2—3小时。清晨或傍晚光线最美，拍摄效果最好。",
+      "en": "Pre-booking is essential — walk-up queues can reach 2–3 hours. Early morning and golden hour light offer the best photography conditions."
     }
   },
   {
@@ -53,6 +77,30 @@
     "location": {
       "zh": "意大利威尼托大区威尼斯",
       "en": "Venice, Veneto, Italy"
+    },
+    "highlights": {
+      "zh": [
+        "世界唯一以运河为街道的历史城市",
+        "贡多拉、水上公共汽车（vaporetto）等独特交通方式",
+        "圣马可广场、叹息桥、里亚托桥等地标建筑"
+      ],
+      "en": [
+        "The world's only historic city built on canals",
+        "Gondolas and vaporetto water buses as urban transport",
+        "St Mark's Basilica, Bridge of Sighs and Rialto Bridge"
+      ]
+    },
+    "admission": {
+      "zh": "旺季游客需缴纳日间入场费（约5欧元）",
+      "en": "Day-tripper access fee ~€5 during peak periods"
+    },
+    "duration": {
+      "zh": "1—3天",
+      "en": "1–3 days"
+    },
+    "tips": {
+      "zh": "尽量住在岛内，深夜潮水退去后的威尼斯最为迷人。避开8月高温和高水位（Acqua Alta）季节。",
+      "en": "Stay overnight on the island if possible. Venice at midnight, after day-trippers leave, is magical. Avoid August heat and the Acqua Alta flooding season (Oct–Jan)."
     }
   },
   {
@@ -81,6 +129,30 @@
     "location": {
       "zh": "坎帕尼亚大区，意大利南部",
       "en": "Campania region, southern Italy"
+    },
+    "highlights": {
+      "zh": [
+        "联合国教科文组织世界遗产悬崖海岸线",
+        "波西塔诺彩色渔村，全球摄影最多的度假地之一",
+        "SS163海岸公路是欧洲最壮观的驾车路线之一"
+      ],
+      "en": [
+        "UNESCO World Heritage coastal cliffscape",
+        "Positano's pastel fishing village — among the world's most photographed",
+        "SS163 coast road — one of Europe's most spectacular drives"
+      ]
+    },
+    "admission": {
+      "zh": "海滩免费，部分私人沙滩收费",
+      "en": "Public beaches free; private beach clubs charge"
+    },
+    "duration": {
+      "zh": "2—3天",
+      "en": "2–3 days"
+    },
+    "tips": {
+      "zh": "7—8月路窄车多，极度拥堵；建议乘渡轮代替自驾，或选择5月/9月前往。",
+      "en": "July–August is severely congested on the narrow coast road; take ferries between towns instead of driving, or visit in May or September."
     }
   },
   {
@@ -109,6 +181,30 @@
     "location": {
       "zh": "托斯卡纳大区，意大利中部",
       "en": "Tuscany region, central Italy"
+    },
+    "highlights": {
+      "zh": [
+        "鳞次栉比的柏树、葡萄园和石砌农庄构成世界最美乡村之一",
+        "锡耶纳、圣吉米尼亚诺等中世纪UNESCO小城",
+        "基安蒂产区世界级葡萄酒品鉴"
+      ],
+      "en": [
+        "Cypress rows, vineyards and stone farmhouses — one of Earth's most beautiful rural landscapes",
+        "Siena and San Gimignano, medieval UNESCO hill towns",
+        "World-class Chianti wine tasting in the heartland"
+      ]
+    },
+    "admission": {
+      "zh": "乡村景区免费，城镇景点单独收费",
+      "en": "Countryside free; town attractions charge separately"
+    },
+    "duration": {
+      "zh": "3—5天",
+      "en": "3–5 days"
+    },
+    "tips": {
+      "zh": "租车是游览托斯卡纳的最佳方式，可以自由进入那些无法通达的小山村。春季（4—5月）和秋季（9—10月）最美。",
+      "en": "A rental car is essential for reaching hilltop villages off the beaten track. Spring (April–May) and autumn (September–October) offer the best landscapes and temperatures."
     }
   },
   {
@@ -137,6 +233,30 @@
     "location": {
       "zh": "利古里亚大区，意大利西北部",
       "en": "Liguria region, northwest Italy"
+    },
+    "highlights": {
+      "zh": [
+        "五座彩色悬崖渔村组成的UNESCO海岸遗产",
+        "村落间的滨海步道（Sentiero Azzurro）徒步",
+        "马纳罗拉和韦尔纳扎是最上镜的两个村庄"
+      ],
+      "en": [
+        "Five colourful clifftop fishing villages; UNESCO World Heritage Coast",
+        "Coastal hiking trail (Sentiero Azzurro) linking the villages",
+        "Manarola and Vernazza the most photogenic of the five"
+      ]
+    },
+    "admission": {
+      "zh": "Cinque Terre Card约7.5欧元/天（含徒步道通行证）",
+      "en": "Cinque Terre Card ~€7.50/day (includes trail access)"
+    },
+    "duration": {
+      "zh": "1—2天",
+      "en": "1–2 days"
+    },
+    "tips": {
+      "zh": "旺季（6—9月）部分步道因超负荷临时关闭；7月极为拥挤，建议淡季前往。La Spezia是性价比最高的住宿基地。",
+      "en": "Some trails close temporarily in peak season due to overcrowding. July is extremely busy; shoulder season is far more pleasant. La Spezia makes a good and cheaper base."
     }
   }
 ]

@@ -26,6 +26,30 @@
       "zh": "加利福尼亚州旧金山",
       "en": "San Francisco, California"
     },
-    "subdivision": "california"
+    "subdivision": "california",
+    "highlights": {
+      "zh": [
+        "1937年完工，全长2.7公里的悬索大桥",
+        "旧金山最具标志性的地标，橙红色设计举世无双",
+        "可步行或骑行穿越，俯瞰旧金山湾全景"
+      ],
+      "en": [
+        "Completed 1937; 2.7 km suspension bridge",
+        "San Francisco's most iconic landmark in its distinctive 'International Orange'",
+        "Walk or cycle across for panoramic views of the bay"
+      ]
+    },
+    "admission": {
+      "zh": "步行/骑行免费，驾车通行收费",
+      "en": "Free to walk or cycle; toll for drivers"
+    },
+    "duration": {
+      "zh": "1—2小时（步行过桥约30分钟）",
+      "en": "1–2 hours (30-min walk across)"
+    },
+    "tips": {
+      "zh": "大桥经常被晨雾遮盖，反而增添神秘感；下午雾气渐散，Marin Headlands对岸视角最佳。",
+      "en": "Morning fog often partially shrouds the bridge — romantic rather than disappointing. The Marin Headlands viewpoint across the bay offers the best full-bridge perspective in the afternoon."
+    }
   }
 ]

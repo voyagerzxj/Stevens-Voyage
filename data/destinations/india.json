@@ -25,6 +25,30 @@
     "location": {
       "zh": "北方邦阿格拉市",
       "en": "Agra, Uttar Pradesh, India"
+    },
+    "highlights": {
+      "zh": [
+        "莫卧儿帝国爱情宫殿，世界新七大奇迹之一",
+        "白色大理石在不同光线下呈现不同色彩",
+        "波斯、印度、伊斯兰建筑艺术的完美融合"
+      ],
+      "en": [
+        "Mughal love monument and one of the New Seven Wonders",
+        "White marble shifts colour from gold at dawn to pearlescent at dusk",
+        "Perfect synthesis of Persian, Indian and Islamic architecture"
+      ]
+    },
+    "admission": {
+      "zh": "外国游客约1,100卢比（约92元）",
+      "en": "Foreign visitors ~₹1,100 (~US$13)"
+    },
+    "duration": {
+      "zh": "2—3小时",
+      "en": "2–3 hours"
+    },
+    "tips": {
+      "zh": "日出时分光线最美人最少，建议购买提前预约票。周五全天关闭，注意错开。",
+      "en": "Sunrise is the most beautiful and least crowded time. Book tickets online in advance. Closed all day Friday."
     }
   },
   {
@@ -53,6 +77,30 @@
     "location": {
       "zh": "北方邦瓦拉纳西市",
       "en": "Varanasi, Uttar Pradesh, India"
+    },
+    "highlights": {
+      "zh": [
+        "印度最古老的城市之一，恒河边最神圣的朝圣地",
+        "日出时恒河沐浴仪式与晨祷",
+        "夜晚的恒河火供仪式（Ganga Aarti）震撼人心"
+      ],
+      "en": [
+        "One of the world's oldest cities; holiest Hindu pilgrimage site",
+        "Dawn bathing rituals and prayers on the Ganges ghats",
+        "Nightly Ganga Aarti fire ceremony on the riverbank"
+      ]
+    },
+    "admission": {
+      "zh": "大多数区域免费",
+      "en": "Most areas free"
+    },
+    "duration": {
+      "zh": "2—3天",
+      "en": "2–3 days"
+    },
+    "tips": {
+      "zh": "乘坐晨间船只游览各大ghats是必选项目；尊重当地宗教习俗，着装保守，拍照前征得同意。",
+      "en": "An early-morning boat ride along the ghats is essential. Dress modestly and always ask permission before photographing cremation sites or rituals."
     }
   },
   {
@@ -81,6 +129,30 @@
     "location": {
       "zh": "喀拉拉邦，印度西南部",
       "en": "Kerala, southwest India"
+    },
+    "highlights": {
+      "zh": [
+        "超过900公里的内陆水网、湖泊与运河",
+        "传统双层柚木游船（Kettuvallam）住宿体验",
+        "椰林掩映的宁静水道，与世隔绝"
+      ],
+      "en": [
+        "Over 900 km of inland waterways, lakes and canals",
+        "Overnight stays on traditional teak houseboats (kettuvallam)",
+        "Palm-fringed backwaters offering complete tranquillity"
+      ]
+    },
+    "admission": {
+      "zh": "船屋通常按天计费，约3,000—8,000卢比/天/船",
+      "en": "Houseboats typically ₹3,000–8,000/day per boat"
+    },
+    "duration": {
+      "zh": "1—2天（船屋体验）",
+      "en": "1–2 days (houseboat experience)"
+    },
+    "tips": {
+      "zh": "阿莱皮（Alleppey）是预订船屋最方便的出发点，10—3月气候最宜人，避开季风季节。",
+      "en": "Alleppey (Alappuzha) is the best base for booking houseboats. October–March is the most pleasant season; avoid the monsoon."
     }
   },
   {
@@ -109,6 +181,30 @@
     "location": {
       "zh": "拉贾斯坦邦斋浦尔市",
       "en": "Jaipur, Rajasthan, India"
+    },
+    "highlights": {
+      "zh": [
+        "粉红城市，整座旧城建筑统一刷成陶土粉色",
+        "风之宫殿（Hawa Mahal）953个蜂窝状格窗",
+        "琥珀堡（Amber Fort）雄踞山顶，壮观无比"
+      ],
+      "en": [
+        "The 'Pink City' — entire old town uniformly painted terracotta pink",
+        "Hawa Mahal's 953 honeycombed lattice windows",
+        "Amber Fort dramatically crowning the hilltop"
+      ]
+    },
+    "admission": {
+      "zh": "琥珀堡约500卢比，风之宫殿约200卢比",
+      "en": "Amber Fort ~₹500; Hawa Mahal ~₹200"
+    },
+    "duration": {
+      "zh": "一天",
+      "en": "Full day"
+    },
+    "tips": {
+      "zh": "斋普尔是「黄金三角」（德里—阿格拉—斋普尔）的一角，三城联游最为经济高效。",
+      "en": "Jaipur forms one point of the 'Golden Triangle' with Delhi and Agra — the three cities together make a highly efficient itinerary."
     }
   },
   {
@@ -137,6 +233,30 @@
     "location": {
       "zh": "果阿邦，印度西海岸",
       "en": "Goa, west coast of India"
+    },
+    "highlights": {
+      "zh": [
+        "北果阿的葡式殖民建筑与夜市文化",
+        "南果阿帕洛莱姆等宁静原始海湾",
+        "果阿独特的印葡融合美食"
+      ],
+      "en": [
+        "North Goa's Portuguese colonial architecture and night markets",
+        "Quieter, pristine beaches in South Goa like Palolem",
+        "Unique Indo-Portuguese fusion cuisine"
+      ]
+    },
+    "admission": {
+      "zh": "海滩免费",
+      "en": "Beaches free"
+    },
+    "duration": {
+      "zh": "3—7天",
+      "en": "3–7 days"
+    },
+    "tips": {
+      "zh": "11月至2月是旺季，气候最宜人；6—9月季风大雨，大多数度假村关闭。",
+      "en": "November–February is the ideal season; June–September brings heavy monsoon rains and most resorts close."
     }
   }
 ]

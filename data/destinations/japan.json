@@ -25,6 +25,30 @@
     "location": {
       "zh": "静冈县与山梨县交界",
       "en": "Shizuoka-Yamanashi border, Japan"
+    },
+    "highlights": {
+      "zh": [
+        "日本最高峰，3,776米完美锥形火山",
+        "7—8月登顶开放，四季各有湖边绝景",
+        "列入UNESCO世界遗产（2013年）"
+      ],
+      "en": [
+        "Japan's highest peak — perfect 3,776 m cone",
+        "Summit open July–August; iconic lake views year-round",
+        "UNESCO World Heritage Site since 2013"
+      ]
+    },
+    "admission": {
+      "zh": "登山保全协力金2,000日元（含山梨县侧）",
+      "en": "¥2,000 conservation fee (Yamanashi side)"
+    },
+    "duration": {
+      "zh": "观景半天，登顶需10—15小时",
+      "en": "Sightseeing half-day; summit hike 10–15 hrs"
+    },
+    "tips": {
+      "zh": "不登顶也值得来，富士山本宫浅间大社和忍野八海周边风景极佳。登顶建议雇佣向导。",
+      "en": "Worth visiting even without climbing — Fujisan Hongu Sengen Shrine and Oshino Hakkai offer beautiful close-up views. Hire a guide if summiting."
     }
   },
   {
@@ -53,6 +77,30 @@
     "location": {
       "zh": "京都府京都市",
       "en": "Kyoto City, Kyoto Prefecture"
+    },
+    "highlights": {
+      "zh": [
+        "1,600余座寺庙，17处UNESCO遗产建筑",
+        "四季主题：春樱、夏绿、秋枫、冬雪",
+        "金阁寺、清水寺、岚山竹林各具特色"
+      ],
+      "en": [
+        "1,600+ temples including 17 UNESCO-listed structures",
+        "Seasonal beauty: cherry blossoms, green summer, autumn foliage, winter snow",
+        "Kinkaku-ji, Kiyomizu-dera and Arashiyama each unmissable"
+      ]
+    },
+    "admission": {
+      "zh": "各寺庙单独收费，一般500—1,000日元",
+      "en": "Each temple charges separately, typically ¥500–1,000"
+    },
+    "duration": {
+      "zh": "2—4天",
+      "en": "2–4 days"
+    },
+    "tips": {
+      "zh": "花见（3月底—4月初）和红叶（11月中）期间人极多，住宿需提前3个月预订。",
+      "en": "Cherry blossom (late March–early April) and autumn foliage (mid-November) bring enormous crowds; book accommodation 3 months ahead."
     }
   },
   {
@@ -81,6 +129,30 @@
     "location": {
       "zh": "东京都涩谷区",
       "en": "Shibuya, Tokyo"
+    },
+    "highlights": {
+      "zh": [
+        "日均逾100万人次的涩谷十字路口",
+        "忠犬八公像，东京最著名的集合地点",
+        "涩谷Sky展望台360°俯瞰东京夜景"
+      ],
+      "en": [
+        "Shibuya Crossing sees over 1 million people daily",
+        "Hachiko statue — Tokyo's most famous meeting spot",
+        "Shibuya Sky observation deck with 360° night views"
+      ]
+    },
+    "admission": {
+      "zh": "街区免费，涩谷Sky展望台约2,000日元",
+      "en": "Street free; Shibuya Sky observation deck ~¥2,000"
+    },
+    "duration": {
+      "zh": "半天至一天",
+      "en": "Half to full day"
+    },
+    "tips": {
+      "zh": "涩谷十字路口最佳观景点是涩谷站二楼星巴克或对面的 Mag's Park 观景台，无需消费。",
+      "en": "The best free vantage point for the crossing is the second-floor Starbucks in Shibuya Station or the Mag's Park terrace opposite."
     }
   },
   {
@@ -109,6 +181,30 @@
     "location": {
       "zh": "广岛县广岛市及廿日市市",
       "en": "Hiroshima Prefecture, Japan"
+    },
+    "highlights": {
+      "zh": [
+        "广岛和平纪念馆：原爆穹顶UNESCO遗产",
+        "宫岛严岛神社海中大鸟居",
+        "退潮可步行至鸟居脚下近距离观看"
+      ],
+      "en": [
+        "Hiroshima Peace Memorial and A-Bomb Dome UNESCO site",
+        "Itsukushima Shrine's torii gate rising from the sea",
+        "At low tide you can walk right up to the gate"
+      ]
+    },
+    "admission": {
+      "zh": "和平纪念馆200日元，宫岛神社免费",
+      "en": "Peace Museum ¥200; Miyajima Shrine free"
+    },
+    "duration": {
+      "zh": "一天（含宫岛半日）",
+      "en": "Full day (including half-day Miyajima)"
+    },
+    "tips": {
+      "zh": "出发前查看宫岛潮汐表，退潮时段才能走到鸟居旁边。牡蛎和枫叶馒头是当地必尝美食。",
+      "en": "Check tide tables before going — only at low tide can you approach the torii on foot. Try the local oysters and momiji manju (maple-leaf cakes)."
     }
   },
   {
@@ -137,6 +233,30 @@
     "location": {
       "zh": "大阪府大阪市中央区",
       "en": "Chuo Ward, Osaka City"
+    },
+    "highlights": {
+      "zh": [
+        "1583年丰臣秀吉始建，日本最著名城堡之一",
+        "天守阁内日本统一历史博物馆",
+        "护城河外约600棵樱花树春季盛开"
+      ],
+      "en": [
+        "Built 1583 by Toyotomi Hideyoshi; Japan's most iconic castle",
+        "Museum inside the keep chronicles Japan's unification",
+        "~600 cherry trees in the outer grounds bloom each spring"
+      ]
+    },
+    "admission": {
+      "zh": "天守阁600日元，外围公园免费",
+      "en": "Castle keep ¥600; outer park free"
+    },
+    "duration": {
+      "zh": "2—3小时",
+      "en": "2–3 hours"
+    },
+    "tips": {
+      "zh": "城堡公园本身免费开放，樱花季节在外围野餐非常惬意，无需进入天守阁。",
+      "en": "The castle park itself is free. During cherry blossom season, a picnic in the outer grounds is the quintessential experience — no need to enter the keep."
     }
   }
 ]

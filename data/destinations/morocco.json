@@ -25,6 +25,30 @@
     "location": {
       "zh": "马拉喀什省，摩洛哥中南部",
       "en": "Marrakech Province, south-central Morocco"
+    },
+    "highlights": {
+      "zh": [
+        "联合国教科文组织世界遗产麦地那（旧城区）",
+        "德吉玛广场：蛇舞者、水卖者、露天餐厅的热闹集市",
+        "萨阿迪王朝陵墓和巴伊亚宫殿的精美伊斯兰装饰"
+      ],
+      "en": [
+        "UNESCO-listed medina (old city)",
+        "Djemaa el-Fna square — snake charmers, water sellers and open-air food stalls",
+        "Saadian Tombs and Bahia Palace — exquisite Islamic ornamentation"
+      ]
+    },
+    "admission": {
+      "zh": "麦地那免费进入，各宫殿景点10—70迪拉姆不等",
+      "en": "Medina free to enter; palaces/tombs 10–70 MAD each"
+    },
+    "duration": {
+      "zh": "2—3天",
+      "en": "2–3 days"
+    },
+    "tips": {
+      "zh": "进入麦地那窄巷极易迷路，建议下载离线地图。摩托车在小巷内快速穿行，注意安全；与摊贩砍价是常态。",
+      "en": "It's easy to get lost in the medina — download offline maps. Motorbikes move fast through alleys, so stay alert. Bargaining is expected at market stalls."
     }
   },
   {
@@ -53,6 +77,30 @@
     "location": {
       "zh": "德拉-塔菲拉莱特大区，摩洛哥东南部",
       "en": "Draa-Tafilalet region, southeast Morocco"
+    },
+    "highlights": {
+      "zh": [
+        "撒哈拉沙漠东大门，埃尔格-谢比沙丘高达150米",
+        "骑骆驼入沙漠、夜宿帐篷营地、沙海中看日落日出",
+        "晴空万里的星空是北非最壮观的天文体验之一"
+      ],
+      "en": [
+        "Gateway to the Sahara; Erg Chebbi dunes reach 150 m",
+        "Camel trekking, desert camp overnight, sunrise and sunset in the dunes",
+        "One of North Africa's finest stargazing experiences under clear desert skies"
+      ]
+    },
+    "admission": {
+      "zh": "沙漠骑驼+营地体验约500—1,500摩洛哥迪拉姆/人",
+      "en": "Camel trek + camp ~MAD$500–1,500/person"
+    },
+    "duration": {
+      "zh": "1—2天",
+      "en": "1–2 days"
+    },
+    "tips": {
+      "zh": "从菲斯驾车约8小时或从马拉喀什约10小时；10月至4月气候宜人，7—8月白天极热（可超45°C）。",
+      "en": "About 8 hours from Fez or 10 from Marrakech. October–April is ideal; July–August daytime heat can exceed 45°C — stick to dawn and dusk activities."
     }
   },
   {
@@ -81,6 +129,30 @@
     "location": {
       "zh": "舍夫沙万省，摩洛哥北部",
       "en": "Chefchaouen Province, northern Morocco"
+    },
+    "highlights": {
+      "zh": [
+        "「蓝色之城」，旧城街道和房屋全部刷成深浅不一的蓝色",
+        "利夫山区（Rif Mountains）中的宁静山城",
+        "手工艺集市以当地羊毛织物和皮革制品著称"
+      ],
+      "en": [
+        "The 'Blue City' — medina streets and buildings painted in every shade of blue",
+        "Tranquil mountain town in the Rif Mountains",
+        "Craft market renowned for local wool textiles and leather goods"
+      ]
+    },
+    "admission": {
+      "zh": "免费",
+      "en": "Free"
+    },
+    "duration": {
+      "zh": "1—2天",
+      "en": "1–2 days"
+    },
+    "tips": {
+      "zh": "清晨7点前光线柔和且游客极少，是拍摄蓝色街道的最佳时机；从非斯或丹吉尔驾车约3小时可达。",
+      "en": "Before 7 a.m., the light is soft and the streets nearly empty — the best time to photograph. About 3 hours from Fez or Tangier by car."
     }
   }
 ]

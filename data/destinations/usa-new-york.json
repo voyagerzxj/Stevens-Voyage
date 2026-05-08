@@ -26,7 +26,31 @@
       "zh": "纽约港自由岛",
       "en": "Liberty Island, New York Harbour"
     },
-    "subdivision": "new-york"
+    "subdivision": "new-york",
+    "highlights": {
+      "zh": [
+        "1886年法国赠送美国的自由女神像，高93米",
+        "可登上皇冠内部俯瞰纽约港（需提前数月预订）",
+        "埃利斯岛移民博物馆同票可进"
+      ],
+      "en": [
+        "France's 1886 gift to America; 93 m total height",
+        "Crown access gives panoramic views of NY Harbour (book months ahead)",
+        "Combined entry includes Ellis Island Immigration Museum"
+      ]
+    },
+    "admission": {
+      "zh": "渡轮+观景台约25美元，皇冠门票须提前数月预订",
+      "en": "Ferry + grounds ~US$25; crown tickets sell out months in advance"
+    },
+    "duration": {
+      "zh": "3—5小时（含往返渡轮）",
+      "en": "3–5 hours (including ferry)"
+    },
+    "tips": {
+      "zh": "皇冠门票需提前至少3个月预订；仅参观底座和露台也非常值得，无需皇冠票。",
+      "en": "Crown tickets must be reserved at least 3 months ahead. The pedestal and grounds alone are well worth the trip without crown access."
+    }
   },
   {
     "id": "times-square",
@@ -55,6 +79,30 @@
       "zh": "纽约市曼哈顿区",
       "en": "Midtown Manhattan, New York City"
     },
-    "subdivision": "new-york"
+    "subdivision": "new-york",
+    "highlights": {
+      "zh": [
+        "曼哈顿中心，全球最繁忙的广场之一，每年逾5,000万人次",
+        "百老汇剧院区入口，霓虹灯彻夜不息",
+        "新年倒计时「水晶球降落」地点"
+      ],
+      "en": [
+        "Midtown Manhattan's heart; over 50 million visitors/year",
+        "Gateway to Broadway theatre district; neon signs 24/7",
+        "Site of the New Year's Eve ball drop"
+      ]
+    },
+    "admission": {
+      "zh": "免费",
+      "en": "Free"
+    },
+    "duration": {
+      "zh": "1—2小时",
+      "en": "1–2 hours"
+    },
+    "tips": {
+      "zh": "夜晚霓虹灯全亮时最为震撼；百老汇演出建议提前在官网购买折扣票（TKTS售亭可获当日折扣票）。",
+      "en": "Most impressive after dark when all the neon is blazing. For Broadway shows, buy discounted tickets at the TKTS booth or online in advance."
+    }
   }
 ]

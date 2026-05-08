@@ -25,6 +25,30 @@
     "location": {
       "zh": "巴黎第七区战神广场",
       "en": "Champ de Mars, 7th arr., Paris"
+    },
+    "highlights": {
+      "zh": [
+        "高324米，1889年世博会建成，巴黎最高建筑",
+        "三层观景台，夜晚整点闪灯10分钟",
+        "每年吸引逾700万游客，全球参观人数最多的收费景点"
+      ],
+      "en": [
+        "324 m tall, built for the 1889 World's Fair",
+        "Three observation decks; light show every hour after dark",
+        "Over 7 million visitors/year — world's most visited paid monument"
+      ]
+    },
+    "admission": {
+      "zh": "步行至二楼约11欧元，电梯至顶约29欧元",
+      "en": "Stairs to 2nd floor ~€11; lift to summit ~€29"
+    },
+    "duration": {
+      "zh": "1.5—3小时",
+      "en": "1.5–3 hours"
+    },
+    "tips": {
+      "zh": "提前在官网预约时段票，现场排队可能超过2小时。从战神广场对面欣赏铁塔全景完全免费。",
+      "en": "Book timed entry tickets on the official website — walk-up queues can exceed 2 hours. The view from Champ-de-Mars across the Seine is free and equally stunning."
     }
   },
   {
@@ -53,6 +77,30 @@
     "location": {
       "zh": "巴黎第一区",
       "en": "1st arrondissement, Paris"
+    },
+    "highlights": {
+      "zh": [
+        "世界最大博物馆，馆藏超35,000件展品",
+        "《蒙娜丽莎》《米洛的维纳斯》《胜利女神》三件镇馆之宝",
+        "拿破仑三世精美华宴厅等非艺术展区同样值得一看"
+      ],
+      "en": [
+        "World's largest museum; over 35,000 works on display",
+        "Mona Lisa, Venus de Milo and Winged Victory in one building",
+        "Napoleon III's opulent apartments worth seeing beyond the art"
+      ]
+    },
+    "admission": {
+      "zh": "22欧元（网上预约）",
+      "en": "€22 (online booking recommended)"
+    },
+    "duration": {
+      "zh": "3—5小时（看完需数日）",
+      "en": "3–5 hrs (the full collection takes days)"
+    },
+    "tips": {
+      "zh": "优先用Richelieu翼或Denon翼入口，绕开玻璃金字塔的长队。周五至22点，晚间人较少。",
+      "en": "Enter via the Richelieu or Denon wings to avoid the pyramid queue. Open until 22:00 on Fridays — evenings are significantly less crowded."
     }
   },
   {
@@ -81,6 +129,30 @@
     "location": {
       "zh": "诺曼底海岸，法国西北部",
       "en": "Normandy coast, northwest France"
+    },
+    "highlights": {
+      "zh": [
+        "诺曼底潮汐岛修道院，中世纪奇迹之一",
+        "涨潮时四面环海，退潮时可步行而至",
+        "列入UNESCO世界遗产，年访客逾300万"
+      ],
+      "en": [
+        "Normandy tidal island and abbey — a medieval wonder",
+        "Surrounded by sea at high tide; walkable at low tide",
+        "UNESCO World Heritage Site; over 3 million visitors/year"
+      ]
+    },
+    "admission": {
+      "zh": "修道院约13欧元，岛屿本身免费",
+      "en": "Abbey ~€13; the island itself is free"
+    },
+    "duration": {
+      "zh": "半天至一天",
+      "en": "Half to full day"
+    },
+    "tips": {
+      "zh": "出发前查看潮汐时刻表；住在岛上一夜可体验游客散去后的寂静，体验截然不同。",
+      "en": "Check tide times before visiting. Staying overnight on the island lets you experience it after the day-trippers leave — a completely different atmosphere."
     }
   },
   {
@@ -109,6 +181,30 @@
     "location": {
       "zh": "卢瓦尔河谷，法国中部",
       "en": "Loire Valley, central France"
+    },
+    "highlights": {
+      "zh": [
+        "卢瓦尔河谷拥有逾300座城堡，法国城堡最密集地区",
+        "香波尔城堡双螺旋楼梯据传由达芬奇设计",
+        "列入UNESCO世界遗产的「法国花园」"
+      ],
+      "en": [
+        "Over 300 châteaux in the Loire Valley — France's castle heartland",
+        "Chambord's double-helix staircase attributed to Leonardo da Vinci",
+        "UNESCO-listed 'Garden of France' landscape"
+      ]
+    },
+    "admission": {
+      "zh": "香波尔城堡约14.5欧元，各城堡单独收费",
+      "en": "Chambord ~€14.50; each château charges separately"
+    },
+    "duration": {
+      "zh": "2—4天（游览多个城堡）",
+      "en": "2–4 days (to cover several châteaux)"
+    },
+    "tips": {
+      "zh": "骑自行车是游览城堡群最惬意的方式，卢瓦河畔设有完善的骑行道。",
+      "en": "Cycling between châteaux along the Loire à Vélo cycling route is the most pleasurable way to explore the valley."
     }
   },
   {
@@ -137,6 +233,30 @@
     "location": {
       "zh": "普罗旺斯地区，法国东南部",
       "en": "Provence region, southeast France"
+    },
+    "highlights": {
+      "zh": [
+        "6—7月薰衣草盛开，瓦朗索勒高原一望无际",
+        "塞农克修道院是最经典的薰衣草取景地",
+        "普罗旺斯集市、橄榄油和葛朗克峡谷"
+      ],
+      "en": [
+        "Lavender peaks June–July across the Valensole plateau",
+        "Sénanque Abbey — the most photographed lavender scene",
+        "Provençal markets, olive oil and the Gorges du Verdon"
+      ]
+    },
+    "admission": {
+      "zh": "薰衣草田免费观赏，修道院约5欧元",
+      "en": "Lavender fields free to view; abbey ~€5"
+    },
+    "duration": {
+      "zh": "2—4天",
+      "en": "2–4 days"
+    },
+    "tips": {
+      "zh": "薰衣草花期因年份和地点而异，出发前可查看当地农场实时开花状况。避开7月14日国庆节的拥堵。",
+      "en": "Bloom timing varies by year and location — check farm websites for real-time flowering status. Avoid the traffic around Bastille Day (14 July)."
     }
   }
 ]

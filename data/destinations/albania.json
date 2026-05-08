@@ -25,6 +25,30 @@
     "location": {
       "zh": "贝拉特省，阿尔巴尼亚中南部",
       "en": "Berat County, south-central Albania"
+    },
+    "highlights": {
+      "zh": [
+        "UNESCO世界遗产，2008年列入",
+        "「千窗之城」奥斯曼建筑群",
+        "俯瞰奥苏米河谷的山顶城堡"
+      ],
+      "en": [
+        "UNESCO World Heritage Site since 2008",
+        "'City of a Thousand Windows' Ottoman quarter",
+        "Hilltop castle with sweeping river valley views"
+      ]
+    },
+    "admission": {
+      "zh": "城堡区约200列克（约1.5欧元）",
+      "en": "Castle area ~200 ALL (~€1.50)"
+    },
+    "duration": {
+      "zh": "半天至一天",
+      "en": "Half to full day"
+    },
+    "tips": {
+      "zh": "清晨或傍晚光线最美，避开正午强光；城堡内的拜占庭教堂不容错过。",
+      "en": "Visit at dawn or dusk for the best light. Don't miss the Byzantine churches inside the castle walls."
     }
   },
   {
@@ -53,6 +77,30 @@
     "location": {
       "zh": "吉诺卡斯特省，阿尔巴尼亚南部",
       "en": "Gjirokaster County, southern Albania"
+    },
+    "highlights": {
+      "zh": [
+        "联合国教科文组织世界遗产",
+        "奥斯曼时期石板屋顶老城",
+        "收藏美式战机的城堡博物馆"
+      ],
+      "en": [
+        "UNESCO World Heritage Site",
+        "Ottoman stone-roofed old city",
+        "Castle museum with a captured US spy plane"
+      ]
+    },
+    "admission": {
+      "zh": "城堡门票约200列克",
+      "en": "Castle entry ~200 ALL"
+    },
+    "duration": {
+      "zh": "3—5小时",
+      "en": "3–5 hours"
+    },
+    "tips": {
+      "zh": "石板路陡峭，建议穿防滑鞋。伊斯梅尔·卡达莱故居值得一看。",
+      "en": "Cobblestones are steep — wear grippy shoes. The birthplace of novelist Ismail Kadare is open to visitors."
     }
   },
   {
@@ -81,6 +129,30 @@
     "location": {
       "zh": "萨兰达附近，阿尔巴尼亚南部",
       "en": "Near Saranda, southern Albania"
+    },
+    "highlights": {
+      "zh": [
+        "希腊、罗马、拜占庭多层次文明叠加",
+        "泻湖边的如画自然风光",
+        "保存完好的古代剧场和城墙"
+      ],
+      "en": [
+        "Layered Greek, Roman and Byzantine remains",
+        "Scenic setting beside a lagoon",
+        "Well-preserved ancient theatre and city walls"
+      ]
+    },
+    "admission": {
+      "zh": "约700列克（约6欧元）",
+      "en": "~700 ALL (~€6)"
+    },
+    "duration": {
+      "zh": "2—3小时",
+      "en": "2–3 hours"
+    },
+    "tips": {
+      "zh": "建议与萨兰达或克萨米尔一日联游，配合导览讲解效果更好。",
+      "en": "Pair with nearby Saranda or Ksamil for a day trip. A guided tour adds considerable context."
     }
   },
   {
@@ -109,6 +181,30 @@
     "location": {
       "zh": "弗洛勒省，阿尔巴尼亚西南海岸",
       "en": "Vlore County, SW Albanian coast"
+    },
+    "highlights": {
+      "zh": [
+        "地中海最纯净的海水之一",
+        "德尔米、希马尔等未开发海湾",
+        "悬崖与沙滩交替的壮观海岸线"
+      ],
+      "en": [
+        "Some of the clearest water in the Mediterranean",
+        "Unspoiled bays at Dhermi and Himara",
+        "Dramatic coastline alternating cliffs and beaches"
+      ]
+    },
+    "admission": {
+      "zh": "海滩免费",
+      "en": "Beaches free"
+    },
+    "duration": {
+      "zh": "2—5天",
+      "en": "2–5 days"
+    },
+    "tips": {
+      "zh": "6—9月最佳，7—8月人最多。租车是最自由的出行方式，各海湾之间公共交通不便。",
+      "en": "Best June–September; most crowded in July–August. Renting a car is the most flexible option — public transport between bays is sparse."
     }
   },
   {
@@ -137,6 +233,30 @@
     "location": {
       "zh": "shkoder省北部阿尔卑斯山区",
       "en": "Northern Albanian Alps, Shkoder County"
+    },
+    "highlights": {
+      "zh": [
+        "阿尔巴尼亚阿尔卑斯山最壮观的峡谷徒步",
+        "传统Kulla荣誉塔楼",
+        "格鲁纳斯蓝色瀑布"
+      ],
+      "en": [
+        "Spectacular gorge hiking in the Albanian Alps",
+        "Traditional Kulla honour towers",
+        "Grunas waterfall and the Blue Eye of Theth"
+      ]
+    },
+    "admission": {
+      "zh": "部分景点收取少量维护费",
+      "en": "Small maintenance fee at some sites"
+    },
+    "duration": {
+      "zh": "1—3天",
+      "en": "1–3 days"
+    },
+    "tips": {
+      "zh": "从斯库台出发，山路崎岖建议乘坐当地越野车。7—9月是最佳徒步季。",
+      "en": "Access from Shkoder by local 4WD — the mountain road is rough. Best hiking season is July–September."
     }
   },
   {
@@ -165,6 +285,30 @@
     "location": {
       "zh": "萨兰达附近，阿尔巴尼亚南部",
       "en": "Near Saranda, southern Albania"
+    },
+    "highlights": {
+      "zh": [
+        "深达50米的神秘地下泉眼",
+        "从深蓝到碧绿的渐变水色",
+        "周边原始森林与自然保护区"
+      ],
+      "en": [
+        "Mysterious spring from over 50 m underground",
+        "Water graduating from deep blue to emerald green",
+        "Surrounding old-growth forest and nature reserve"
+      ]
+    },
+    "admission": {
+      "zh": "约100列克（约1欧元）",
+      "en": "~100 ALL (~€1)"
+    },
+    "duration": {
+      "zh": "1—2小时",
+      "en": "1–2 hours"
+    },
+    "tips": {
+      "zh": "禁止入水游泳，泉水约10°C且水流湍急。可与吉诺卡斯特安排一日联游。",
+      "en": "Swimming is prohibited — the current is strong and water stays ~10°C. Easily combined with a Gjirokaster day trip."
     }
   },
   {
@@ -193,6 +337,30 @@
     "location": {
       "zh": "弗洛勒省，阿尔巴尼亚西部",
       "en": "Fier County, western Albania"
+    },
+    "highlights": {
+      "zh": [
+        "公元前6世纪希腊殖民地遗址",
+        "凯撒、奥古斯都曾在此学习",
+        "保存完好的廊柱与古代剧场"
+      ],
+      "en": [
+        "Greek colonial city founded 6th century BC",
+        "Where Caesar and Augustus once studied",
+        "Intact colonnades and an ancient theatre"
+      ]
+    },
+    "admission": {
+      "zh": "约400列克（约3.5欧元）",
+      "en": "~400 ALL (~€3.50)"
+    },
+    "duration": {
+      "zh": "2—3小时",
+      "en": "2–3 hours"
+    },
+    "tips": {
+      "zh": "地拉那驾车约2小时可达，可与贝拉特安排一日联游。馆内设有精品博物馆。",
+      "en": "About 2 hours' drive from Tirana; easily paired with Berat. The on-site museum is surprisingly well-curated."
     }
   },
   {
@@ -221,6 +389,30 @@
     "location": {
       "zh": "萨兰达市附近，阿尔巴尼亚最南端",
       "en": "Near Saranda, southernmost Albania"
+    },
+    "highlights": {
+      "zh": [
+        "多处白沙滩与外海岛屿",
+        "爱奥尼亚海水晶般的能见度",
+        "毗邻布特林特国家公园"
+      ],
+      "en": [
+        "Several white-sand beaches and offshore islets",
+        "Crystal visibility in the Ionian Sea",
+        "Adjacent to Butrint National Park"
+      ]
+    },
+    "admission": {
+      "zh": "海滩免费，泳椅出租约5—10欧元",
+      "en": "Beaches free; sun lounger hire ~€5–10"
+    },
+    "duration": {
+      "zh": "半天至一天",
+      "en": "Half to full day"
+    },
+    "tips": {
+      "zh": "7—8月非常拥挤，建议6月初或9月前往。可与布特林特遗址安排同日游览。",
+      "en": "Very crowded in July–August; early June or September is quieter. Combine with Butrint on the same day."
     }
   }
 ]

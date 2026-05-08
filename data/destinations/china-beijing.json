@@ -26,7 +26,31 @@
       "zh": "北京北部山区",
       "en": "Mountains north of Beijing"
     },
-    "subdivision": "beijing"
+    "subdivision": "beijing",
+    "highlights": {
+      "zh": [
+        "世界最长的人工建筑，总长逾2万公里",
+        "慕田峪、司马台等段落风景各异",
+        "山脊上蜿蜒的视觉冲击无与伦比"
+      ],
+      "en": [
+        "World's longest man-made structure, over 20,000 km",
+        "Scenic sections at Mutianyu, Simatai and more",
+        "Unmatched visual drama along the mountain ridgeline"
+      ]
+    },
+    "admission": {
+      "zh": "慕田峪约40—65元人民币",
+      "en": "Mutianyu section ~¥40–65"
+    },
+    "duration": {
+      "zh": "3—5小时",
+      "en": "3–5 hours"
+    },
+    "tips": {
+      "zh": "避开八达岭拥挤人潮，选择慕田峪或司马台段，体验更真实；秋季红叶时节景色最美。",
+      "en": "Skip the crowded Badaling and opt for Mutianyu or Simatai for a more authentic experience. Autumn foliage season is spectacular."
+    }
   },
   {
     "id": "forbidden-city",
@@ -55,6 +79,30 @@
       "zh": "北京市中心",
       "en": "Central Beijing"
     },
-    "subdivision": "beijing"
+    "subdivision": "beijing",
+    "highlights": {
+      "zh": [
+        "世界最大的宫殿建筑群，故宫博物院",
+        "明清两朝24位皇帝的居所",
+        "收藏超过180万件文物"
+      ],
+      "en": [
+        "World's largest palace complex and premier museum",
+        "Home to 24 emperors across the Ming and Qing dynasties",
+        "Over 1.8 million artefacts in the collection"
+      ]
+    },
+    "admission": {
+      "zh": "旺季60元，淡季40元（需网上预约）",
+      "en": "Peak ¥60, off-peak ¥40 (online booking required)"
+    },
+    "duration": {
+      "zh": "3—5小时",
+      "en": "3–5 hours"
+    },
+    "tips": {
+      "zh": "门票必须提前在官网预约，现场不售票。建议早上开门时入场避开人流。",
+      "en": "Tickets must be booked on the official website in advance — no on-the-day sales. Arrive at opening time to beat the crowds."
+    }
   }
 ]

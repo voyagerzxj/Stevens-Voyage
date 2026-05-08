@@ -25,6 +25,30 @@
     "location": {
       "zh": "里约热内卢科科瓦多山",
       "en": "Corcovado Mountain, Rio de Janeiro"
+    },
+    "highlights": {
+      "zh": [
+        "高38米（含底座98米），里约热内卢最著名地标",
+        "张开双臂俯瞰瓜纳巴拉湾全景",
+        "世界新七大奇迹之一"
+      ],
+      "en": [
+        "38 m tall statue (98 m including pedestal); Rio's defining landmark",
+        "Arms-outstretched figure overlooking Guanabara Bay",
+        "One of the New Seven Wonders of the World"
+      ]
+    },
+    "admission": {
+      "zh": "约98巴西雷亚尔（含齿轨电车或小巴）",
+      "en": "~BRL$98 (including cog railway or minibus)"
+    },
+    "duration": {
+      "zh": "2—3小时",
+      "en": "2–3 hours"
+    },
+    "tips": {
+      "zh": "提前网上预约门票；雾天视野差，晴天出行。可选择步行2小时山路减少等待，但较为耗体力。",
+      "en": "Book tickets online in advance. Go on a clear day — fog can obscure the statue and views entirely. The 2-hour hike up avoids queues but is strenuous."
     }
   },
   {
@@ -53,6 +77,30 @@
     "location": {
       "zh": "亚马逊州，巴西北部",
       "en": "Amazonas state, northern Brazil"
+    },
+    "highlights": {
+      "zh": [
+        "世界上最大的热带雨林，占地550万平方公里",
+        "全球物种多样性最丰富的地区，有超过40,000种植物",
+        "亚马逊河是世界流量最大的河流"
+      ],
+      "en": [
+        "World's largest tropical rainforest; 5.5 million km²",
+        "Earth's most biodiverse region with over 40,000 plant species",
+        "Amazon River carries more water than any other river on Earth"
+      ]
+    },
+    "admission": {
+      "zh": "自助游需导游，费用因线路而异（约500—2,000美元/人/周）",
+      "en": "Self-guided not recommended; guided tours ~US$500–2,000/person/week"
+    },
+    "duration": {
+      "zh": "3—7天",
+      "en": "3–7 days"
+    },
+    "tips": {
+      "zh": "马瑙斯（Manaus）是深入亚马逊最便捷的出发地；7—10月（旱季）陆路探险更容易，11—6月洪水期则以船游为主。",
+      "en": "Manaus is the most accessible gateway. July–October (dry season) is better for land-based exploration; the flood season (November–June) means boat-based touring."
     }
   },
   {
@@ -81,6 +129,30 @@
     "location": {
       "zh": "巴拉那州，巴西南部",
       "en": "Parana state, southern Brazil"
+    },
+    "highlights": {
+      "zh": [
+        "世界最宽瀑布群，宽约2,700米，拥有275条瀑布",
+        "巴西侧可俯瞰全景，阿根廷侧可走入瀑布中间",
+        "「恶魔的咽喉」（Devil's Throat）是最壮观的单条瀑布"
+      ],
+      "en": [
+        "World's widest waterfall system; ~2,700 m wide with 275 falls",
+        "Brazil side for the panorama; Argentina side to walk among the falls",
+        "Devil's Throat — the most thunderous single cascade"
+      ]
+    },
+    "admission": {
+      "zh": "巴西侧约75巴西雷亚尔，阿根廷侧约5,000阿根廷比索",
+      "en": "Brazil side ~BRL$75; Argentina side ~ARS$5,000"
+    },
+    "duration": {
+      "zh": "1—2天（两侧各一天最好）",
+      "en": "1–2 days (ideally one day each side)"
+    },
+    "tips": {
+      "zh": "两侧都值得游览，多数人选择住在巴西的福斯-杜伊瓜苏或阿根廷的伊瓜苏港，跨境便捷。",
+      "en": "Visit both sides if possible — each offers a completely different perspective. Foz do Iguaçu (Brazil) or Puerto Iguazú (Argentina) are the main bases, with easy border crossings."
     }
   },
   {
@@ -109,6 +181,30 @@
     "location": {
       "zh": "里约热内卢市",
       "en": "Rio de Janeiro city, Brazil"
+    },
+    "highlights": {
+      "zh": [
+        "全球最大的狂欢节，每年逾200万人涌入街头",
+        "桑巴舞校在桑巴馆的表演堪称艺术巅峰",
+        "里约科帕卡巴纳和伊帕内玛海滩是狂欢中心"
+      ],
+      "en": [
+        "World's largest carnival; over 2 million people in the streets daily",
+        "Samba school parades at the Sambadrome — a peak of artistic spectacle",
+        "Copacabana and Ipanema beaches are the centre of the street party"
+      ]
+    },
+    "admission": {
+      "zh": "桑巴馆门票约120—2,000美元（视位置而定）",
+      "en": "Sambadrome tickets ~US$120–2,000 depending on section"
+    },
+    "duration": {
+      "zh": "4—7天（嘉年华期间）",
+      "en": "4–7 days (during Carnival)"
+    },
+    "tips": {
+      "zh": "狂欢节通常在2月或3月举行（复活节前40天），机票和酒店须提前至少6个月预订。",
+      "en": "Carnival falls in February or March (40 days before Easter). Book flights and hotels at least 6 months in advance — prices and demand are extreme during the event."
     }
   }
 ]

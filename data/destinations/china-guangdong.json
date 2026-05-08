@@ -26,6 +26,30 @@
       "zh": "湖南省张家界市",
       "en": "Zhangjiajie, Hunan Province"
     },
-    "subdivision": "guangdong"
+    "subdivision": "guangdong",
+    "highlights": {
+      "zh": [
+        "《阿凡达》灵感来源地，石英砂岩峰林",
+        "袁家界悬浮大陆，天门山玻璃栈道",
+        "世界自然遗产，峰林景观独一无二"
+      ],
+      "en": [
+        "Inspiration for Avatar's floating mountains",
+        "Yuanjiajie floating plateau and Tianmen Mountain glass walkway",
+        "UNESCO Natural Heritage; unique sandstone pillar landscape"
+      ]
+    },
+    "admission": {
+      "zh": "张家界国家森林公园约248元（4日票）",
+      "en": "~¥248 for a 4-day park pass"
+    },
+    "duration": {
+      "zh": "2—3天",
+      "en": "2–3 days"
+    },
+    "tips": {
+      "zh": "景区很大，建议乘观光车和索道结合徒步。云雾天气反而更有仙境感，不必强求晴天。",
+      "en": "The park is vast — combine shuttle buses, cable cars and hiking. Misty days create an ethereal atmosphere; don't despair if it's not sunny."
+    }
   }
 ]

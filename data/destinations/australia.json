@@ -25,6 +25,30 @@
     "location": {
       "zh": "昆士兰州近海，澳大利亚东北部",
       "en": "Off Queensland coast, northeast Australia"
+    },
+    "highlights": {
+      "zh": [
+        "世界上最大的珊瑚礁系统，绵延2,300公里",
+        "约1,500种鱼类和4,000种软体动物的家园",
+        "从太空中清晰可见，联合国教科文组织世界遗产"
+      ],
+      "en": [
+        "World's largest coral reef system; 2,300 km long",
+        "Home to ~1,500 fish species and 4,000 mollusc species",
+        "Visible from space; UNESCO World Heritage Site"
+      ]
+    },
+    "admission": {
+      "zh": "浮潜日游约150—250澳元（含船票和装备）",
+      "en": "Snorkel day trip ~AUD$150–250 (boat + gear)"
+    },
+    "duration": {
+      "zh": "一天（日游）或2—3天（船宿）",
+      "en": "1 day (day trip) or 2–3 days (liveaboard)"
+    },
+    "tips": {
+      "zh": "6—10月水母较少、能见度最佳；使用珊瑚礁安全型防晒霜，普通防晒霜会破坏珊瑚。",
+      "en": "June–October has the fewest jellyfish and best visibility. Use reef-safe sunscreen — conventional oxybenzone-based products harm coral."
     }
   },
   {
@@ -53,6 +77,30 @@
     "location": {
       "zh": "新南威尔士州悉尼港",
       "en": "Sydney Harbour, New South Wales"
+    },
+    "highlights": {
+      "zh": [
+        "约恩·乌松设计，1973年开幕，20世纪最杰出建筑之一",
+        "帆形屋顶由超过100万片瑞典瓷砖拼成",
+        "每年举办超过1,500场演出，澳大利亚文化地标"
+      ],
+      "en": [
+        "Designed by Jørn Utzon; opened 1973 — one of the 20th century's greatest buildings",
+        "Shell-shaped roofs tiled with over 1 million Swedish tiles",
+        "Hosts 1,500+ performances/year; Australia's cultural icon"
+      ]
+    },
+    "admission": {
+      "zh": "建筑外观免费参观，导览约40澳元，演出票另计",
+      "en": "Exterior free; guided tour ~AUD$40; performance tickets vary"
+    },
+    "duration": {
+      "zh": "1—2小时（参观）",
+      "en": "1–2 hours (sightseeing)"
+    },
+    "tips": {
+      "zh": "从环形码头（Circular Quay）步行可达，清晨日出时金色光线打在白色帆顶极为壮观。参加内部导览可进入通常不对外开放的区域。",
+      "en": "An easy walk from Circular Quay. At sunrise, golden light on the white shells is spectacular. The guided tour accesses areas not otherwise open to the public."
     }
   },
   {
@@ -81,6 +129,30 @@
     "location": {
       "zh": "北领地，澳大利亚中部",
       "en": "Northern Territory, central Australia"
+    },
+    "highlights": {
+      "zh": [
+        "海拔348米的巨型砂岩岩层，周长9.4公里",
+        "对原住民阿南古人（Anangu）具有极为重要的神圣意义",
+        "日出日落时颜色从橙红到深紫连续变幻"
+      ],
+      "en": [
+        "348 m sandstone monolith with a 9.4 km circumference",
+        "Of profound sacred significance to the Anangu Traditional Owners",
+        "Colour shifts continuously from orange-red to deep purple at sunrise and sunset"
+      ]
+    },
+    "admission": {
+      "zh": "约38澳元（3日园区通行证）",
+      "en": "~AUD$38 (3-day park pass)"
+    },
+    "duration": {
+      "zh": "1—2天",
+      "en": "1–2 days"
+    },
+    "tips": {
+      "zh": "攀爬乌鲁鲁已于2019年正式禁止，请尊重原住民文化。导览徒步、文化中心和日落观景台是推荐体验。",
+      "en": "Climbing Uluru has been permanently prohibited since 2019 in respect of Anangu culture. Guided walking tours, the Cultural Centre and the sunset viewing area are the recommended experiences."
     }
   },
   {
@@ -109,6 +181,30 @@
     "location": {
       "zh": "昆士兰州，澳大利亚东北部",
       "en": "Queensland, northeast Australia"
+    },
+    "highlights": {
+      "zh": [
+        "74座岛屿组成的群岛，大堡礁南端明珠",
+        "白天堂海滩（Whitehaven Beach）以99%纯净石英沙著称",
+        "帆船游览是最受欢迎的体验方式"
+      ],
+      "en": [
+        "74-island archipelago at the southern end of the Great Barrier Reef",
+        "Whitehaven Beach — 99% pure silica sand, one of Australia's finest",
+        "Sailing charter is the classic way to explore"
+      ]
+    },
+    "admission": {
+      "zh": "岛屿需乘船前往，游船约120—300澳元/天",
+      "en": "Island access by boat; day cruises ~AUD$120–300"
+    },
+    "duration": {
+      "zh": "2—4天",
+      "en": "2–4 days"
+    },
+    "tips": {
+      "zh": "艾尔利比奇（Airlie Beach）是出发基地；2—3天帆船包船是最值得体验的方式，可在海湾中停泊过夜。",
+      "en": "Airlie Beach is the main gateway. A 2–3 night bareboat or crewed sailing charter is the quintessential Whitsundays experience — anchoring in secluded bays overnight."
     }
   },
   {
@@ -137,6 +233,30 @@
     "location": {
       "zh": "新南威尔士州，悉尼以西",
       "en": "New South Wales, west of Sydney"
+    },
+    "highlights": {
+      "zh": [
+        "三姐妹岩（Three Sisters）是最著名的砂岩侵蚀地貌",
+        "从悉尼出发仅2小时，是最近的世界遗产体验",
+        "詹诺兰洞穴（Jenolan Caves）是澳大利亚最古老的洞穴系统"
+      ],
+      "en": [
+        "Three Sisters — most famous sandstone erosion formation",
+        "Just 2 hours from Sydney; the closest World Heritage experience from the city",
+        "Jenolan Caves — Australia's oldest cave system"
+      ]
+    },
+    "admission": {
+      "zh": "景区免费，部分活动另收费",
+      "en": "Scenic lookouts free; some activities charge"
+    },
+    "duration": {
+      "zh": "一天（日归）",
+      "en": "Full day (day trip)"
+    },
+    "tips": {
+      "zh": "租车比乘火车更灵活，可访问偏远步道；早晨蓝色薄雾从山谷升腾，是最美丽的时刻。",
+      "en": "Renting a car is more flexible than the train — you can reach less-visited trails. The famous blue haze from eucalyptus oil is most vivid in the cool morning air."
     }
   }
 ]

@@ -26,6 +26,30 @@
       "zh": "云南省红河州元阳县",
       "en": "Yuanyang County, Honghe Prefecture, Yunnan"
     },
-    "subdivision": "yunnan"
+    "subdivision": "yunnan",
+    "highlights": {
+      "zh": [
+        "元阳哈尼梯田，千年稻作文化遗产",
+        "日出时金色梯田倒映云海",
+        "联合国教科文组织文化景观遗产"
+      ],
+      "en": [
+        "Yuanyang Hani Rice Terraces, 1,300 years of cultivation",
+        "Sunrise over golden terraces reflected in still water",
+        "UNESCO Cultural Landscape since 2013"
+      ]
+    },
+    "admission": {
+      "zh": "多依树等观景台联票约100元",
+      "en": "Combined viewpoint ticket ~¥100"
+    },
+    "duration": {
+      "zh": "1—2天",
+      "en": "1–2 days"
+    },
+    "tips": {
+      "zh": "最佳观景时间是11月至次年4月灌水期，日出前1小时到达观景台占位。",
+      "en": "Best November–April when terraces are flooded. Arrive at the viewpoints at least an hour before sunrise to secure a spot."
+    }
   }
 ]

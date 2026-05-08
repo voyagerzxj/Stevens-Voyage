@@ -25,6 +25,30 @@
     "location": {
       "zh": "峡湾大区，新西兰南岛",
       "en": "Fiordland, South Island, New Zealand"
+    },
+    "highlights": {
+      "zh": [
+        "米尔福德峡湾：被称为「世界第八大奇迹」",
+        "迈特峰（Mitre Peak）垂直从海面升起1,692米",
+        "全年降雨量极高，峡湾内有无数临时瀑布"
+      ],
+      "en": [
+        "Called the 'Eighth Wonder of the World'",
+        "Mitre Peak rises 1,692 m vertically from the fjord",
+        "Year-round high rainfall creates hundreds of temporary waterfalls after rain"
+      ]
+    },
+    "admission": {
+      "zh": "游船约75—100新西兰元",
+      "en": "Cruise ~NZD$75–100"
+    },
+    "duration": {
+      "zh": "一天（含奥克兰/皇后镇驾车）",
+      "en": "Full day (including drive from Queenstown)"
+    },
+    "tips": {
+      "zh": "下雨天反而是峡湾最美的时候，瀑布数量倍增。从皇后镇驾车约4小时，建议清晨出发。",
+      "en": "Rain actually makes Milford Sound more spectacular — waterfalls multiply dramatically. Drive from Queenstown (about 4 hours) — leave at dawn for the best experience."
     }
   },
   {
@@ -53,6 +77,30 @@
     "location": {
       "zh": "怀卡托大区马塔马塔，新西兰北岛",
       "en": "Matamata, Waikato, North Island, New Zealand"
+    },
+    "highlights": {
+      "zh": [
+        "《指环王》和《霍比特人》电影取景地，完全按比例建造的霍比特人村",
+        "37个霍比特人洞穴门、磨坊和绿龙酒馆一应俱全",
+        "位于怀托摩附近的私人农场，只能通过官方导览参观"
+      ],
+      "en": [
+        "Filming location for The Lord of the Rings and The Hobbit trilogies",
+        "37 Hobbit holes, a mill, the Green Dragon Inn — all full-scale",
+        "Private farm near Matamata; accessible only by official guided tour"
+      ]
+    },
+    "admission": {
+      "zh": "约约99新西兰元（导览约2小时）",
+      "en": "~NZD$99 (guided tour ~2 hours)"
+    },
+    "duration": {
+      "zh": "2—3小时",
+      "en": "2–3 hours"
+    },
+    "tips": {
+      "zh": "必须提前在官网预约，经常售罄；可在奥克兰和怀托摩萤火虫洞之间安排为一日联游。",
+      "en": "Book in advance on the official website — tours sell out. Easily combined with Auckland and the Waitomo Glowworm Caves in a single day trip."
     }
   },
   {
@@ -81,6 +129,30 @@
     "location": {
       "zh": "奥塔哥大区，新西兰南岛",
       "en": "Otago region, South Island, New Zealand"
+    },
+    "highlights": {
+      "zh": [
+        "世界冒险运动之都：蹦极、跳伞、急流泛舟一应俱全",
+        "瓦卡提普湖（Lake Wakatipu）和雷马克布尔山（Remarkables）的壮美风景",
+        "周边通往峡湾国家公园、阿斯帕林山的徒步路线"
+      ],
+      "en": [
+        "World adventure capital: bungy jumping, skydiving and whitewater rafting",
+        "Lake Wakatipu and The Remarkables mountain range — spectacular scenery",
+        "Gateway to Fiordland National Park and Mount Aspiring treks"
+      ]
+    },
+    "admission": {
+      "zh": "城区免费，冒险项目约100—300新西兰元",
+      "en": "Town free; adventure activities ~NZD$100–300"
+    },
+    "duration": {
+      "zh": "2—5天",
+      "en": "2–5 days"
+    },
+    "tips": {
+      "zh": "皇后镇全年可游，夏（12—2月）徒步、冬（6—8月）滑雪；餐厅价格较贵，可自购超市食品节省开支。",
+      "en": "Queenstown is good year-round: summer (Dec–Feb) for hiking, winter (Jun–Aug) for skiing. Restaurants are pricey; buying groceries cuts costs significantly."
     }
   },
   {
@@ -109,6 +181,30 @@
     "location": {
       "zh": "北地大区，新西兰北岛",
       "en": "Northland region, North Island, New Zealand"
+    },
+    "highlights": {
+      "zh": [
+        "144座岛屿组成的海湾，新西兰最重要的历史地区之一",
+        "威唐伊条约地（Waitangi Treaty Grounds）是新西兰建国的象征",
+        "海豚共游、深海钓鱼和独木舟是当地主要活动"
+      ],
+      "en": [
+        "Bay dotted with 144 islands; one of New Zealand's most historically significant regions",
+        "Waitangi Treaty Grounds — where the nation was founded in 1840",
+        "Dolphin swimming, game fishing and kayaking the main activities"
+      ]
+    },
+    "admission": {
+      "zh": "威唐伊条约地约35新西兰元",
+      "en": "Waitangi Treaty Grounds ~NZD$35"
+    },
+    "duration": {
+      "zh": "1—3天",
+      "en": "1–3 days"
+    },
+    "tips": {
+      "zh": "从奥克兰驾车约3小时，是北岛最佳的周末度假目的地；2月份的威唐伊日（新西兰国庆日）有特别庆典活动。",
+      "en": "About 3 hours' drive from Auckland — a classic North Island weekend getaway. Waitangi Day (6 February) brings special ceremonies and cultural performances."
     }
   }
 ]

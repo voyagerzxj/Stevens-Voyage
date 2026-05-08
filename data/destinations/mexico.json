@@ -25,6 +25,30 @@
     "location": {
       "zh": "尤卡坦州，墨西哥",
       "en": "Yucatan state, Mexico"
+    },
+    "highlights": {
+      "zh": [
+        "玛雅文明最重要的古城遗址，世界新七大奇迹",
+        "库库尔坎金字塔，春秋分日出现蛇影奇观",
+        "列入UNESCO世界遗产"
+      ],
+      "en": [
+        "Most important Maya city ruin and one of the New Seven Wonders",
+        "El Castillo pyramid — serpent shadow phenomenon at equinox",
+        "UNESCO World Heritage Site"
+      ]
+    },
+    "admission": {
+      "zh": "约581比索（约34美元），门票含税",
+      "en": "~595 MXN (~US$34 including state tax)"
+    },
+    "duration": {
+      "zh": "3—4小时",
+      "en": "3–4 hours"
+    },
+    "tips": {
+      "zh": "清晨开园时前往，中午极为酷热。从坎昆或梅里达都有一日游，梅里达出发体验更好。",
+      "en": "Arrive at opening time — midday heat is brutal. Day trips run from Cancún or Mérida; departing from Mérida gives more time and a better experience."
     }
   },
   {
@@ -53,6 +77,30 @@
     "location": {
       "zh": "金塔纳罗奥州，墨西哥东南部",
       "en": "Quintana Roo state, southeast Mexico"
+    },
+    "highlights": {
+      "zh": [
+        "加勒比海透明度极高的碧绿海水和白沙滩",
+        "岛礁浮潜与深潜，海洋生态丰富",
+        "尼尔赛克雷托水下博物馆（MUSA）"
+      ],
+      "en": [
+        "Caribbean water of extraordinary clarity; white-sand beaches",
+        "Excellent snorkelling and diving on offshore reefs",
+        "MUSA underwater museum of submerged sculptures"
+      ]
+    },
+    "admission": {
+      "zh": "海滩免费，浮潜团约30—60美元",
+      "en": "Beaches free; snorkel tours ~US$30–60"
+    },
+    "duration": {
+      "zh": "3—7天",
+      "en": "3–7 days"
+    },
+    "tips": {
+      "zh": "12月至4月旱季气候最佳；6—10月雨季偶有飓风。酒店区（Zona Hotelera）价格较贵，Downtown性价比更高。",
+      "en": "December–April is the dry season with ideal weather. June–October is hurricane season. Downtown Cancún is significantly cheaper than the Hotel Zone."
     }
   },
   {
@@ -81,6 +129,30 @@
     "location": {
       "zh": "墨西哥城历史中心区",
       "en": "Historic Centre, Mexico City"
+    },
+    "highlights": {
+      "zh": [
+        "墨西哥城历史中心，阿兹特克文明遗址上建起的殖民城市",
+        "宪法广场（Zócalo）是全美洲最大的广场之一",
+        "人类学博物馆馆藏世界上最重要的前哥伦布文明文物"
+      ],
+      "en": [
+        "Historic centre built atop the Aztec capital Tenochtitlán",
+        "Zócalo — one of the Americas' largest plazas",
+        "National Museum of Anthropology — world's finest pre-Columbian collection"
+      ]
+    },
+    "admission": {
+      "zh": "历史中心免费，人类学博物馆约90比索（约5美元）",
+      "en": "Historic centre free; Anthropology Museum ~MXN$90 (~US$5)"
+    },
+    "duration": {
+      "zh": "2—3天",
+      "en": "2–3 days"
+    },
+    "tips": {
+      "zh": "乘坐地铁是最快捷经济的市内交通方式。海拔2,240米，初来者需注意高原反应。",
+      "en": "The Metro is the fastest and cheapest way to get around. At 2,240 m altitude, allow a day to acclimatise on arrival."
     }
   }
 ]

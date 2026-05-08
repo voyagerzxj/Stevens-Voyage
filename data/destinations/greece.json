@@ -25,6 +25,30 @@
     "location": {
       "zh": "希腊雅典市中心",
       "en": "Central Athens, Greece"
+    },
+    "highlights": {
+      "zh": [
+        "帕台农神庙，公元前447年建成，古典建筑巅峰之作",
+        "俯瞰雅典全城的制高点",
+        "卫城博物馆收藏大量原件雕塑"
+      ],
+      "en": [
+        "Parthenon, built 447 BC — the pinnacle of classical architecture",
+        "Commanding hilltop views over all of Athens",
+        "Acropolis Museum houses many original sculptures"
+      ]
+    },
+    "admission": {
+      "zh": "旺季约30欧元（含周边遗址联票）",
+      "en": "Peak season ~€30 (combined with surrounding sites)"
+    },
+    "duration": {
+      "zh": "2—3小时",
+      "en": "2–3 hours"
+    },
+    "tips": {
+      "zh": "清晨开门时人最少，7—8月中午高温酷热。参观当日凭票也可进入古代市集等其他遗址。",
+      "en": "Arrive at opening time to beat the crowds. July–August midday heat is intense — go early or late. Your ticket also grants access to the Ancient Agora and other sites on the same day."
     }
   },
   {
@@ -53,6 +77,30 @@
     "location": {
       "zh": "基克拉迪群岛，爱琴海",
       "en": "Cyclades, Aegean Sea, Greece"
+    },
+    "highlights": {
+      "zh": [
+        "火山岛特有的黑色、红色火山沙滩",
+        "伊亚（Oia）日落，全球最著名落日景观之一",
+        "卡特里（Fira）悬崖边的白蓝建筑群"
+      ],
+      "en": [
+        "Unique volcanic black and red sand beaches",
+        "Oia sunset — one of the world's most famous",
+        "Fira's clifftop white-and-blue architecture"
+      ]
+    },
+    "admission": {
+      "zh": "岛屿免费，古塞拉遗址等景点单独收费",
+      "en": "Island free; ancient sites like Akrotiri charge separately"
+    },
+    "duration": {
+      "zh": "2—4天",
+      "en": "2–4 days"
+    },
+    "tips": {
+      "zh": "6月初或9月中是最佳时机，避开7—8月的顶级旺季。伊亚日落一定要提前1小时占位。",
+      "en": "Early June or mid-September is ideal — July–August is peak and very crowded. Arrive at least an hour early for a good spot for the Oia sunset."
     }
   },
   {
@@ -81,6 +129,30 @@
     "location": {
       "zh": "色萨利大区，希腊中部",
       "en": "Thessaly region, central Greece"
+    },
+    "highlights": {
+      "zh": [
+        "巨大砂岩岩柱顶端建有6座东正教修道院，气势磅礴",
+        "拜占庭时期修士为逃避迫害在此隐居",
+        "列入UNESCO世界遗产"
+      ],
+      "en": [
+        "Six Eastern Orthodox monasteries perched atop enormous sandstone pillars",
+        "Byzantine monks settled here to escape persecution",
+        "UNESCO World Heritage Site"
+      ]
+    },
+    "admission": {
+      "zh": "每座修道院约3欧元（共6座，通常一天可游4—5座）",
+      "en": "~€3 per monastery (6 total; 4–5 doable in a day)"
+    },
+    "duration": {
+      "zh": "一天",
+      "en": "Full day"
+    },
+    "tips": {
+      "zh": "进入修道院须着长裤/长裙，女性需遮头。日出时从卡兰巴卡镇向上望，光线最为壮观。",
+      "en": "Modest dress required — long trousers/skirts and head coverings for women. The view from Kalambaka town at sunrise is as dramatic as the monasteries themselves."
     }
   },
   {
@@ -109,6 +181,30 @@
     "location": {
       "zh": "地中海，希腊南部",
       "en": "Mediterranean Sea, southern Greece"
+    },
+    "highlights": {
+      "zh": [
+        "希腊最大岛屿，米诺斯文明的摇篮",
+        "克诺索斯宫殿遗址，欧洲最古老的文明中心之一",
+        "萨马里亚峡谷，欧洲最长峡谷徒步路线"
+      ],
+      "en": [
+        "Greece's largest island; cradle of Minoan civilisation",
+        "Palace of Knossos — one of Europe's oldest centres of civilisation",
+        "Samaria Gorge — Europe's longest gorge hike"
+      ]
+    },
+    "admission": {
+      "zh": "克诺索斯宫殿约15欧元，萨马里亚峡谷约5欧元",
+      "en": "Knossos ~€15; Samaria Gorge ~€5"
+    },
+    "duration": {
+      "zh": "3—7天",
+      "en": "3–7 days"
+    },
+    "tips": {
+      "zh": "克里特岛非常大，东、西、南海岸各有特色，建议租车游览。伊拉克利翁考古博物馆不容错过。",
+      "en": "Crete is large — the east, west and south coasts all have distinct character. Rent a car. Don't miss the Heraklion Archaeological Museum."
     }
   }
 ]

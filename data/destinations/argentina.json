@@ -25,6 +25,30 @@
     "location": {
       "zh": "米西奥内斯省，阿根廷东北部",
       "en": "Misiones Province, northeast Argentina"
+    },
+    "highlights": {
+      "zh": [
+        "可在瀑布中间行走的栈道系统，近距离体验水流冲击",
+        "「恶魔的咽喉」可步行到达的U形瀑布峡谷",
+        "园内野生动物众多，包括貌似的鼠负鼠（coati）"
+      ],
+      "en": [
+        "Walkway system lets you stand in the middle of the falls",
+        "Devil's Throat — a U-shaped gorge walkable by boardwalk",
+        "Rich wildlife including coatis, toucans and butterflies in the park"
+      ]
+    },
+    "admission": {
+      "zh": "约5,000阿根廷比索",
+      "en": "~ARS$5,000"
+    },
+    "duration": {
+      "zh": "一天",
+      "en": "Full day"
+    },
+    "tips": {
+      "zh": "阿根廷侧瀑布更多、可体验性更强，建议与巴西侧搭配游览，两侧各用一天。",
+      "en": "The Argentina side has more trails and a more immersive experience; combine with the Brazil side over two days for the complete perspective."
     }
   },
   {
@@ -53,6 +77,30 @@
     "location": {
       "zh": "圣克鲁斯省，阿根廷南部",
       "en": "Santa Cruz Province, southern Argentina"
+    },
+    "highlights": {
+      "zh": [
+        "百内国家公园（Torres del Paine）的三座花岗岩塔峰",
+        "冰川国家公园莫雷诺冰川，南美洲最壮观的冰川之一",
+        "世界尽头之感：广袤草原、安第斯山和巴塔哥尼亚风"
+      ],
+      "en": [
+        "Torres del Paine's iconic three granite towers",
+        "Perito Moreno Glacier in Los Glaciares National Park",
+        "End-of-the-world atmosphere: vast steppes, Andes and Patagonian wind"
+      ]
+    },
+    "admission": {
+      "zh": "百内国家公园约35美元（11—3月）",
+      "en": "Torres del Paine ~US$35 (November–March)"
+    },
+    "duration": {
+      "zh": "5—10天",
+      "en": "5–10 days"
+    },
+    "tips": {
+      "zh": "最佳游览季节是11月至3月（南半球夏季），4—10月天气恶劣不建议徒步。提前6个月预订W形或O形徒步路线的营地。",
+      "en": "Visit November–March (southern summer). April–October is too harsh for trekking. Book campsites for the W or O trek 6 months ahead — they sell out completely."
     }
   },
   {
@@ -81,6 +129,30 @@
     "location": {
       "zh": "布宜诺斯艾利斯市，阿根廷东部",
       "en": "Buenos Aires city, eastern Argentina"
+    },
+    "highlights": {
+      "zh": [
+        "博卡区（La Boca）彩色锌房子与探戈起源地",
+        "圣特尔莫周日集市，古董与街头艺术的天堂",
+        "世界三大牛排之都，肉食天堂"
+      ],
+      "en": [
+        "La Boca's colourful zinc houses; birthplace of tango",
+        "San Telmo Sunday market — antiques, street art and atmosphere",
+        "One of the world's great steak capitals"
+      ]
+    },
+    "admission": {
+      "zh": "大多数街区和博物馆免费或低价",
+      "en": "Most neighbourhoods and many museums free or low cost"
+    },
+    "duration": {
+      "zh": "3—5天",
+      "en": "3–5 days"
+    },
+    "tips": {
+      "zh": "布宜诺斯艾利斯作息晚，晚餐通常10点以后才开始，探戈演出午夜后进入高潮。可乘坐地铁（Subte）游览各区。",
+      "en": "Buenos Aires runs late — dinner rarely starts before 10 p.m. and tango shows peak after midnight. The Subte (metro) connects the main neighbourhoods efficiently."
     }
   }
 ]

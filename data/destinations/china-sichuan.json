@@ -26,6 +26,30 @@
       "zh": "四川省阿坝州",
       "en": "Aba Prefecture, Sichuan Province"
     },
-    "subdivision": "sichuan"
+    "subdivision": "sichuan",
+    "highlights": {
+      "zh": [
+        "五花海、五彩池等108个彩色湖泊",
+        "镜海的倒影清晰到仿佛两个世界重叠",
+        "列入UNESCO世界遗产和生物圈保护区"
+      ],
+      "en": [
+        "108 multi-coloured lakes including Five-Flower Lake",
+        "Mirror-like reflections that seem to double the world",
+        "UNESCO World Heritage Site and Biosphere Reserve"
+      ]
+    },
+    "admission": {
+      "zh": "旺季约220元（含景区车票）",
+      "en": "Peak season ~¥220 (including shuttle bus)"
+    },
+    "duration": {
+      "zh": "1—2天",
+      "en": "1–2 days"
+    },
+    "tips": {
+      "zh": "秋季（10月）色彩最为绚烂，但人极多；建议淡季工作日前往。海拔约2000—3000米，注意高原反应。",
+      "en": "Autumn (October) offers the most vivid colours but massive crowds; try a weekday in the shoulder season. Altitude ranges 2,000–3,000 m — acclimatise gradually."
+    }
   }
 ]

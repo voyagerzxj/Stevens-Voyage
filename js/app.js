@@ -72,6 +72,10 @@ const I18N = {
     fetch_err_note:  '然后访问',
     continent_label: '大洲',
     country_label:   '国家',
+    modal_highlights:'亮点',
+    modal_admission: '门票',
+    modal_duration:  '建议游览时长',
+    modal_tips:      '旅行小贴士',
   },
   en: {
     site_name:       'Stevens World Travel',
@@ -136,6 +140,10 @@ const I18N = {
     fetch_err_note:  'Then open',
     continent_label: 'Continent',
     country_label:   'Country',
+    modal_highlights:'Highlights',
+    modal_admission: 'Admission',
+    modal_duration:  'Suggested Duration',
+    modal_tips:      'Travel Tips',
   }
 };
 
@@ -504,6 +512,7 @@ function ensureDestModal() {
         <div class="dest-modal-title" id="destModalTitle"></div>
         <div class="dest-modal-loc"   id="destModalLoc"></div>
         <div class="dest-modal-desc"  id="destModalDesc"></div>
+        <div id="destModalExtra"></div>
         <div class="dest-modal-tags"  id="destModalTags"></div>
       </div>
     </div>`;
@@ -522,6 +531,32 @@ function showDestModal(d) {
   document.getElementById('destModalTitle').textContent = tx(d.name);
   document.getElementById('destModalLoc').innerHTML = `📍 ${tx(d.location)}`;
   document.getElementById('destModalDesc').textContent  = tx(d.description);
+
+  // Build extra enriched content
+  let extra = '';
+  if (d.highlights) {
+    const items = tx(d.highlights);
+    if (Array.isArray(items) && items.length) {
+      extra += `<div class="dest-modal-section">
+        <div class="dest-modal-section-label">${t('modal_highlights')}</div>
+        <ul class="dest-modal-hl">${items.map(h => `<li>${h}</li>`).join('')}</ul>
+      </div>`;
+    }
+  }
+  if (d.admission || d.duration) {
+    extra += `<div class="dest-modal-facts">`;
+    if (d.admission) extra += `<div class="dest-modal-fact"><span class="dest-modal-fact-label">🎟 ${t('modal_admission')}</span><span>${tx(d.admission)}</span></div>`;
+    if (d.duration)  extra += `<div class="dest-modal-fact"><span class="dest-modal-fact-label">⏱ ${t('modal_duration')}</span><span>${tx(d.duration)}</span></div>`;
+    extra += `</div>`;
+  }
+  if (d.tips) {
+    extra += `<div class="dest-modal-tip-box">
+      <div class="dest-modal-tip-label">💡 ${t('modal_tips')}</div>
+      <div>${tx(d.tips)}</div>
+    </div>`;
+  }
+  document.getElementById('destModalExtra').innerHTML = extra;
+
   document.getElementById('destModalTags').innerHTML    = tags;
   document.getElementById('destModalBox').scrollTop     = 0;
   document.getElementById('dest-modal').style.display   = 'flex';

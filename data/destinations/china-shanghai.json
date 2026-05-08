@@ -26,6 +26,30 @@
       "zh": "浙江省杭州市",
       "en": "Hangzhou, Zhejiang Province"
     },
-    "subdivision": "shanghai"
+    "subdivision": "shanghai",
+    "highlights": {
+      "zh": [
+        "西湖十景，四季皆有主题胜景",
+        "苏堤春晓、断桥残雪等千年诗意",
+        "湖区免费开放，周边寺庙众多"
+      ],
+      "en": [
+        "Ten classic West Lake views, each season unique",
+        "Su Causeway and Broken Bridge immortalised in poetry",
+        "Lakeside area free; numerous temples nearby"
+      ]
+    },
+    "admission": {
+      "zh": "湖区免费，景区内部分景点另收费",
+      "en": "Lakeside free; some inner attractions charge separately"
+    },
+    "duration": {
+      "zh": "半天至一天",
+      "en": "Half to full day"
+    },
+    "tips": {
+      "zh": "可租用自行车或乘游船游览，清晨湖面薄雾弥漫，景色最为迷人。",
+      "en": "Rent a bicycle or take a cruise boat. Early morning mist on the lake makes for the most atmospheric experience."
+    }
   }
 ]

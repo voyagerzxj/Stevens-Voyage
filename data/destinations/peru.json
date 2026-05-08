@@ -25,6 +25,30 @@
     "location": {
       "zh": "库斯科大区，秘鲁南部",
       "en": "Cusco Region, southern Peru"
+    },
+    "highlights": {
+      "zh": [
+        "15世纪印加文明最完整的城市遗址，「失落的天空之城」",
+        "云雾环绕的安第斯山峰之间，壮观程度超乎想象",
+        "世界新七大奇迹，UNESCO世界遗产"
+      ],
+      "en": [
+        "Most complete Inca city ruin; the 'Lost City in the Clouds'",
+        "Cloud-wreathed Andean setting that exceeds all expectations",
+        "New Seven Wonders and UNESCO World Heritage Site"
+      ]
+    },
+    "admission": {
+      "zh": "约152美元（含华纳比丘山）",
+      "en": "~US$152 (including Huayna Picchu mountain)"
+    },
+    "duration": {
+      "zh": "半天至一天",
+      "en": "Half to full day"
+    },
+    "tips": {
+      "zh": "门票必须提前在官网预约，每日限额；从库斯科乘火车到阿瓜斯卡连特斯（印加热水城）再转巴士是标准路线。",
+      "en": "Timed tickets must be booked well in advance on the official website — daily visitor numbers are strictly capped. Train from Cusco to Aguas Calientes, then bus up, is the standard route."
     }
   },
   {
@@ -53,6 +77,30 @@
     "location": {
       "zh": "普诺大区，秘鲁南部",
       "en": "Puno Region, southern Peru"
+    },
+    "highlights": {
+      "zh": [
+        "海拔3,812米，世界上海拔最高的可通航湖泊",
+        "乌罗斯浮岛：印第安人用芦苇编织的人工岛屿",
+        "太阳岛（Isla del Sol）是印加神话的发源地"
+      ],
+      "en": [
+        "At 3,812 m, the world's highest navigable lake",
+        "Uros Floating Islands — handmade reed islands inhabited for centuries",
+        "Isla del Sol — birthplace of the Inca sun god in mythology"
+      ]
+    },
+    "admission": {
+      "zh": "湖区游船约30—50美元",
+      "en": "Lake tours ~US$30–50"
+    },
+    "duration": {
+      "zh": "1—2天",
+      "en": "1–2 days"
+    },
+    "tips": {
+      "zh": "普诺（Puno）是游览的最佳出发地。海拔极高，建议在库斯科适应一天后再前往，备好高山病药物。",
+      "en": "Puno is the best base. Altitude (3,812 m) is significant — spend a day acclimatising in Cusco first and carry altitude sickness medication."
     }
   },
   {
@@ -81,6 +129,30 @@
     "location": {
       "zh": "伊卡大区，秘鲁南部",
       "en": "Ica Region, southern Peru"
+    },
+    "highlights": {
+      "zh": [
+        "公元1—700年间刻在沙漠地面上的巨型地画，只能从空中辨认",
+        "蜂鸟、猴子、宇航员等200余个图形，最大达370米",
+        "仍是人类历史之谜，无法解释其目的"
+      ],
+      "en": [
+        "Geoglyphs etched into desert 1–700 AD, only fully visible from the air",
+        "Over 200 figures including a hummingbird, monkey and 'astronaut'; largest 370 m across",
+        "Purpose remains one of history's great unsolved mysteries"
+      ]
+    },
+    "admission": {
+      "zh": "飞机观览约130—250美元/人（30分钟航班）",
+      "en": "Scenic flight ~US$130–250/person (30-min flight)"
+    },
+    "duration": {
+      "zh": "半天",
+      "en": "Half day"
+    },
+    "tips": {
+      "zh": "飞行观览前避免进食，有不少游客因小型飞机颠簸而感到不适。地面瞭望台仅能看到两条地画，不建议作为唯一方式。",
+      "en": "Avoid eating before the flight — the small planes are bumpy and motion sickness is common. The ground viewpoint tower shows only two lines and is not a substitute for the flight."
     }
   },
   {
@@ -109,6 +181,30 @@
     "location": {
       "zh": "洛雷托大区，秘鲁东部",
       "en": "Loreto Region, eastern Peru"
+    },
+    "highlights": {
+      "zh": [
+        "伊基托斯（Iquitos）是全球最大的无公路连接城市",
+        "亚马逊盆地秘鲁段生物多样性极为丰富",
+        "马努国家公园是世界生物多样性最密集的保护区之一"
+      ],
+      "en": [
+        "Iquitos is the world's largest city inaccessible by road",
+        "Peru's Amazon basin is among the world's richest in biodiversity",
+        "Manu National Park — one of the world's most biodiverse protected areas"
+      ]
+    },
+    "admission": {
+      "zh": "含导游的丛林徒步营地约400—1,500美元/周/人",
+      "en": "Guided jungle lodge packages ~US$400–1,500/person/week"
+    },
+    "duration": {
+      "zh": "3—7天",
+      "en": "3–7 days"
+    },
+    "tips": {
+      "zh": "只能乘飞机或坐船到达，建议选择信誉良好的生态旅游营地；6—11月（旱季）水位较低，陆上徒步更容易。",
+      "en": "Accessible only by plane or boat. Choose a reputable eco-lodge. June–November (dry season) means lower water levels and easier land-based exploration."
     }
   }
 ]

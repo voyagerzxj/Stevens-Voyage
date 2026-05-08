@@ -26,6 +26,30 @@
       "zh": "夏威夷大岛",
       "en": "Hawaii Island (Big Island)"
     },
-    "subdivision": "hawaii"
+    "subdivision": "hawaii",
+    "highlights": {
+      "zh": [
+        "世界上少数可以近距离观察活跃熔岩流的地点之一",
+        "基拉韦厄火山是地球上最活跃的盾状火山",
+        "火山口附近的夜间红光是独一无二的自然奇观"
+      ],
+      "en": [
+        "One of the few places to safely observe active lava flows",
+        "Kilauea is Earth's most continuously active shield volcano",
+        "Glow from the summit lava lake at night is otherworldly"
+      ]
+    },
+    "admission": {
+      "zh": "约35美元/车（7日通行证）",
+      "en": "~US$35/vehicle (7-day pass)"
+    },
+    "duration": {
+      "zh": "一天",
+      "en": "Full day"
+    },
+    "tips": {
+      "zh": "火山活动状态每天都在变化，出发前查看公园官网确认当前可访问区域。熔岩气体有害健康，呼吸系统敏感者需注意。",
+      "en": "Volcanic activity changes daily — check the park website before visiting. Volcanic smog (vog) can irritate lungs; those with respiratory conditions should take precautions."
+    }
   }
 ]

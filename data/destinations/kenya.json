@@ -25,6 +25,30 @@
     "location": {
       "zh": "纳罗克县，肯尼亚西南部",
       "en": "Narok County, southwest Kenya"
+    },
+    "highlights": {
+      "zh": [
+        "非洲最著名的野生动物保护区，非洲五大兽全部可见",
+        "7—10月角马大迁徙，穿越马拉河的场景震撼人心",
+        "世界上最好的夜晚星空观测地点之一"
+      ],
+      "en": [
+        "Africa's most celebrated reserve; all Big Five seen here",
+        "July–October Great Migration; wildebeest river crossings are breathtaking",
+        "One of Africa's best night-sky viewing locations"
+      ]
+    },
+    "admission": {
+      "zh": "非肯尼亚居民约100美元/天",
+      "en": "~US$100/day (non-resident)"
+    },
+    "duration": {
+      "zh": "2—4天（含游猎）",
+      "en": "2–4 days (safari)"
+    },
+    "tips": {
+      "zh": "清晨和傍晚游猎动物活动最活跃；建议选择全包型营地，节约时间精力。7月底至10月是大迁徙高峰，价格也是全年最高。",
+      "en": "Dawn and dusk game drives yield the most wildlife activity. An all-inclusive camp saves significant logistical effort. Late July–October is peak Migration season — and peak prices."
     }
   },
   {
@@ -53,6 +77,30 @@
     "location": {
       "zh": "卡加多县，肯尼亚南部",
       "en": "Kajiado County, southern Kenya"
+    },
+    "highlights": {
+      "zh": [
+        "以乞力马扎罗雪山为背景拍摄大象的绝佳场所",
+        "非洲象群密度极高，可近距离观察家族群体行为",
+        "超过400种鸟类"
+      ],
+      "en": [
+        "Finest backdrop in Africa: elephants with Kilimanjaro behind",
+        "Very high elephant density; excellent for studying family behaviour up close",
+        "Over 400 bird species"
+      ]
+    },
+    "admission": {
+      "zh": "非肯尼亚居民约90美元/天",
+      "en": "~US$90/day (non-resident)"
+    },
+    "duration": {
+      "zh": "1—2天",
+      "en": "1–2 days"
+    },
+    "tips": {
+      "zh": "早晨乞力马扎罗山云层最少，景色最清晰；从内罗毕驾车约4小时或乘飞机30分钟。",
+      "en": "Kilimanjaro is most visible in the early morning before clouds build. About 4 hours from Nairobi by road, or 30 minutes by light aircraft."
     }
   },
   {
@@ -81,6 +129,30 @@
     "location": {
       "zh": "夸莱县，肯尼亚南海岸",
       "en": "Kwale County, south coast Kenya"
+    },
+    "highlights": {
+      "zh": [
+        "全球50大最美海滩之一，细白珊瑚沙滩绵延数公里",
+        "印度洋海水清澈温暖，珊瑚礁丰富多彩",
+        "周边有猴子森林和猎豹保护中心"
+      ],
+      "en": [
+        "One of the world's top 50 beaches; kilometres of powdery white coral sand",
+        "Warm, clear Indian Ocean water with vibrant coral reefs",
+        "Colobus monkey forest and cheetah conservation centre nearby"
+      ]
+    },
+    "admission": {
+      "zh": "海滩免费",
+      "en": "Beach free"
+    },
+    "duration": {
+      "zh": "2—5天",
+      "en": "2–5 days"
+    },
+    "tips": {
+      "zh": "12月至3月和7月至8月是旺季，海风宜人；4—6月有短雨季。从蒙巴萨机场约30分钟车程。",
+      "en": "December–March and July–August are peak seasons with pleasant sea breezes. April–June sees short rains. About 30 minutes from Mombasa airport."
     }
   },
   {
@@ -109,6 +181,30 @@
     "location": {
       "zh": "内罗毕市，肯尼亚首都",
       "en": "Nairobi city, Kenya"
+    },
+    "highlights": {
+      "zh": [
+        "世界上唯一与首都毗邻的国家公园，距市中心仅7公里",
+        "可以狮子和犀牛为前景拍摄内罗毕摩天大楼",
+        "配套长颈鹿中心、孤儿象保护区易于联游"
+      ],
+      "en": [
+        "World's only national park adjacent to a capital city, just 7 km from downtown",
+        "Photograph lions and rhinos against the Nairobi skyline",
+        "Easy to pair with the Giraffe Centre and David Sheldrick Elephant Orphanage"
+      ]
+    },
+    "admission": {
+      "zh": "非肯尼亚居民约52美元/天",
+      "en": "~US$52/day (non-resident)"
+    },
+    "duration": {
+      "zh": "半天至一天",
+      "en": "Half to full day"
+    },
+    "tips": {
+      "zh": "清晨游猎最佳，也可作为到马赛马拉前的热身体验。内罗毕本身也有丰富的美食和文化场景值得探索。",
+      "en": "Best at dawn for a game drive. Ideal as a warm-up before heading to the Maasai Mara. Nairobi itself also has a thriving food and arts scene worth exploring."
     }
   }
 ]

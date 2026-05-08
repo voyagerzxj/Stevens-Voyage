@@ -25,6 +25,30 @@
     "location": {
       "zh": "安大略省，加美边境",
       "en": "Ontario, Canada-US border"
+    },
+    "highlights": {
+      "zh": [
+        "北美最大瀑布群，落差超50米，年水量约567亿升",
+        "「雾中少女号」游船深入瀑布水雾",
+        "美加两侧各有观景角度，加拿大侧视角更优"
+      ],
+      "en": [
+        "North America's greatest waterfall; drop over 50 m",
+        "Hornblower/Maid of the Mist boat rides into the mist",
+        "Canadian side offers a wider, superior panoramic view"
+      ]
+    },
+    "admission": {
+      "zh": "景区免费，游船约约30加元",
+      "en": "Park free; boat ride ~CAD$30"
+    },
+    "duration": {
+      "zh": "半天至一天",
+      "en": "Half to full day"
+    },
+    "tips": {
+      "zh": "加拿大侧（安大略省）视角远优于美国侧。夜晚灯光秀免费观赏，非常壮观。",
+      "en": "The Canadian (Ontario) side has a far better panoramic view. The free nightly illumination show is spectacular and easy to see from the promenade."
     }
   },
   {
@@ -53,6 +77,30 @@
     "location": {
       "zh": "阿尔伯塔省落基山脉",
       "en": "Rocky Mountains, Alberta, Canada"
+    },
+    "highlights": {
+      "zh": [
+        "班夫国家公园，加拿大最古老的国家公园",
+        "路易斯湖冰川翡翠色湖水，全球最美高山湖之一",
+        "弓河瀑布和磺磺山缆车等经典景观"
+      ],
+      "en": [
+        "Canada's oldest national park in the Rockies",
+        "Lake Louise — glacier-fed emerald water; one of the world's most beautiful mountain lakes",
+        "Bow Falls, Sulphur Mountain gondola and Icefields Parkway"
+      ]
+    },
+    "admission": {
+      "zh": "约21加元/人/天（国家公园通行证）",
+      "en": "~CAD$21/person/day (national park pass)"
+    },
+    "duration": {
+      "zh": "2—5天",
+      "en": "2–5 days"
+    },
+    "tips": {
+      "zh": "7—8月路易斯湖停车位极为紧张，建议搭乘免费公园班车。6月或9月可避开拥挤且价格更低。",
+      "en": "Lake Louise parking fills by 7 a.m. in July–August — take the free park shuttle. June and September offer far fewer crowds and lower accommodation prices."
     }
   },
   {
@@ -81,6 +129,30 @@
     "location": {
       "zh": "魁北克省魁北克市",
       "en": "Quebec City, Quebec, Canada"
+    },
+    "highlights": {
+      "zh": [
+        "北美唯一仍有完整城墙的大城市",
+        "Old Quebec（下城和上城）UNESCO世界遗产",
+        "冬季嘉年华和芳提纳城堡是标志性体验"
+      ],
+      "en": [
+        "Only walled city north of Mexico",
+        "Old Quebec (Lower and Upper Town) — UNESCO World Heritage",
+        "Winter Carnival and Château Frontenac are iconic experiences"
+      ]
+    },
+    "admission": {
+      "zh": "旧城区免费，城墙博物馆约16加元",
+      "en": "Old town free; fortification museum ~CAD$16"
+    },
+    "duration": {
+      "zh": "2—3天",
+      "en": "2–3 days"
+    },
+    "tips": {
+      "zh": "冬季（1—2月）嘉年华期间虽然寒冷但气氛极佳；7月热闹宜人，6月末价格更亲民。",
+      "en": "The Winter Carnival (January–February) is cold but exhilarating. July is lively and pleasant; late June offers better prices before peak season."
     }
   }
 ]

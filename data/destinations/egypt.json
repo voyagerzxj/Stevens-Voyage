@@ -25,6 +25,30 @@
     "location": {
       "zh": "吉萨省，开罗郊外",
       "en": "Giza Governorate, outskirts of Cairo"
+    },
+    "highlights": {
+      "zh": [
+        "古代世界七大奇迹中唯一现存的建筑",
+        "胡夫大金字塔高146米，建于公元前2560年",
+        "狮身人面像（斯芬克斯）守护在金字塔旁"
+      ],
+      "en": [
+        "The only surviving structure of the Seven Wonders of the Ancient World",
+        "Great Pyramid of Khufu — 146 m; built ~2560 BC",
+        "Great Sphinx guards the complex"
+      ]
+    },
+    "admission": {
+      "zh": "景区门票约160埃及镑，内部参观另收费",
+      "en": "Site entry ~EGP$160; interior entry charged separately"
+    },
+    "duration": {
+      "zh": "3—5小时",
+      "en": "3–5 hours"
+    },
+    "tips": {
+      "zh": "骑骆驼或马车拍摄角度极佳，但价格需提前谈好。清晨是拍摄金字塔的最佳时机，光线柔和人也少。",
+      "en": "Camel rides offer excellent photo angles — agree on the price before mounting. Early morning gives the softest light and smallest crowds; heat is brutal by midday."
     }
   },
   {
@@ -53,6 +77,30 @@
     "location": {
       "zh": "卢克索市，埃及上埃及",
       "en": "Luxor city, Upper Egypt"
+    },
+    "highlights": {
+      "zh": [
+        "卡纳克神庙：全球最大的宗教建筑群之一",
+        "帝王谷：藏有图坦卡蒙等法老的60余座墓穴",
+        "卢克索神庙夜间灯光效果震撼人心"
+      ],
+      "en": [
+        "Karnak Temple — one of the world's largest religious complexes",
+        "Valley of the Kings — over 60 royal tombs including Tutankhamun's",
+        "Luxor Temple lit up at night is magnificent"
+      ]
+    },
+    "admission": {
+      "zh": "帝王谷约240埃及镑（含3座墓穴），卡纳克约150埃及镑",
+      "en": "Valley of the Kings ~EGP$240 (3 tombs); Karnak ~EGP$150"
+    },
+    "duration": {
+      "zh": "一天（西岸）加一天（东岸神庙）",
+      "en": "1 day (west bank) + 1 day (east bank temples)"
+    },
+    "tips": {
+      "zh": "租自行车游览西岸最为灵活惬意；帝王谷内图坦卡蒙墓需另付费，王后谷门票另计。",
+      "en": "Renting a bicycle to explore the west bank is the most enjoyable option. Tutankhamun's tomb requires an extra ticket inside the Valley of the Kings."
     }
   },
   {
@@ -81,6 +129,30 @@
     "location": {
       "zh": "卢克索至阿斯旺，埃及",
       "en": "Luxor to Aswan, Egypt"
+    },
+    "highlights": {
+      "zh": [
+        "世界最长河流（约6,650公里）的千年文明走廊",
+        "三天或四天经典路线：卢克索—孔翁博—阿斯旺",
+        "沿岸神庙、农田和当地市集的真实埃及风情"
+      ],
+      "en": [
+        "Corridor of ancient civilisation along the world's longest river (~6,650 km)",
+        "Classic 3–4 night cruise: Luxor – Kom Ombo – Aswan",
+        "Riverside temples, farmland and local market towns"
+      ]
+    },
+    "admission": {
+      "zh": "3晚游轮含全餐约200—600美元/人",
+      "en": "3-night cruise with meals ~US$200–600/person"
+    },
+    "duration": {
+      "zh": "3—7天",
+      "en": "3–7 days"
+    },
+    "tips": {
+      "zh": "10月至4月气候宜人是最佳时节；6—9月高温超过40度，夏季价格较低。选择持有执照导游的游轮。",
+      "en": "October–April is the most pleasant season; summer can exceed 40°C (though prices drop). Choose a licensed cruise operator with qualified guides."
     }
   },
   {
@@ -109,6 +181,30 @@
     "location": {
       "zh": "阿斯旺省，埃及最南端",
       "en": "Aswan Governorate, southernmost Egypt"
+    },
+    "highlights": {
+      "zh": [
+        "拉美西斯二世下令建造的4尊20米高巨型坐像",
+        "1968年为修建阿斯旺水坝，整座神庙被切割搬迁至今址",
+        "2月22日和10月22日，阳光精准穿入神庙深处照亮内殿"
+      ],
+      "en": [
+        "Four 20-m colossi of Ramesses II carved from solid rock",
+        "Entire temple relocated in 1968 to save it from the Aswan Dam reservoir",
+        "On 22 Feb and 22 Oct, sunlight penetrates to illuminate the inner sanctuary"
+      ]
+    },
+    "admission": {
+      "zh": "约240埃及镑",
+      "en": "~EGP$240"
+    },
+    "duration": {
+      "zh": "2—3小时",
+      "en": "2–3 hours"
+    },
+    "tips": {
+      "zh": "从阿斯旺驱车约4小时（或乘早班飞机）可达；太阳节（2月22日）门票需提前数月预订。",
+      "en": "About 4 hours' drive from Aswan (or a short flight). Sun Festival tickets (22 Feb) must be reserved months ahead — it's a once-in-a-lifetime spectacle."
     }
   },
   {
@@ -137,6 +233,30 @@
     "location": {
       "zh": "开罗市塔利尔广场",
       "en": "Tahrir Square, Cairo, Egypt"
+    },
+    "highlights": {
+      "zh": [
+        "埃及考古博物馆：全球最重要的古埃及文物收藏",
+        "图坦卡蒙的黄金面具和约5,000件随葬品原件",
+        "超过120,000件文物，需数日才能全部参观"
+      ],
+      "en": [
+        "Egyptian Museum: the world's most important collection of ancient Egyptian artefacts",
+        "Tutankhamun's gold death mask and ~5,000 original tomb objects",
+        "Over 120,000 pieces — days needed to see it all"
+      ]
+    },
+    "admission": {
+      "zh": "约200埃及镑（图坦卡蒙馆另收约100埃及镑）",
+      "en": "~EGP$200 (Tutankhamun gallery ~EGP$100 extra)"
+    },
+    "duration": {
+      "zh": "3—5小时",
+      "en": "3–5 hours"
+    },
+    "tips": {
+      "zh": "强烈建议雇佣持证讲解员，否则大量文物缺乏背景知识很难理解其意义。开罗解放广场旁，交通便捷。",
+      "en": "A licensed guide makes an enormous difference — without context, many artefacts lose their significance. Located on Tahrir Square, very central."
     }
   }
 ]
