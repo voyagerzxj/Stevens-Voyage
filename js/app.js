@@ -784,10 +784,13 @@ function initContinent() {
 async function initCountry() {
   const id   = getParam('id');
   const root = document.getElementById('root');
-  const { countries } = idx();
+  const { countries, continents } = idx();
   const meta = countries[id];
 
   if (!meta) { root.innerHTML = `<div class="empty">${t('not_found')}</div>`; return; }
+
+  const contMeta = continents.find(c => c.id === meta.continent);
+  const contLabel = contMeta ? tx(contMeta.name) : meta.continent;
 
   // Show hero immediately with slim index data
   root.innerHTML = `
@@ -803,7 +806,7 @@ async function initCountry() {
     <div class="container">
       ${buildBreadcrumb([
         { href: 'index.html', label: t('nav_home') },
-        { href: buildUrl('continent.html', { id: meta.continent }), label: meta.continent },
+        { href: buildUrl('continent.html', { id: meta.continent }), label: contLabel },
         { href: '#', label: tx(meta.name) },
       ])}
       <div id="country-detail">${buildLoading()}</div>
@@ -912,10 +915,13 @@ async function initDestinations() {
   const id   = getParam('id');
   const sub  = getParam('sub');
   const root = document.getElementById('root');
-  const { countries } = idx();
+  const { countries, continents } = idx();
   const meta = countries[id];
 
   if (!meta) { root.innerHTML = `<div class="empty">${t('not_found')}</div>`; return; }
+
+  const contMeta2 = continents.find(c => c.id === meta.continent);
+  const contLabel2 = contMeta2 ? tx(contMeta2.name) : meta.continent;
 
   const activeSub = sub || 'all';
   const heroTitle = (sub && meta.subdivisions?.[sub])
@@ -947,7 +953,7 @@ async function initDestinations() {
     <div class="container">
       ${buildBreadcrumb([
         { href: 'index.html', label: t('nav_home') },
-        { href: buildUrl('continent.html', { id: meta.continent }), label: meta.continent },
+        { href: buildUrl('continent.html', { id: meta.continent }), label: contLabel2 },
         { href: buildUrl('country.html', { id }), label: tx(meta.name) },
         { href: '#', label: t('dest_title') },
       ])}
