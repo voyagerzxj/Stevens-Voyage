@@ -1550,14 +1550,44 @@ async function initFootprint() {
       attribution: '© OpenStreetMap contributors', maxZoom: 6
     }).addTo(map);
 
-    const { isoMap } = window;
+    const { isoMap } = idx();   // ← was incorrectly `window`
     const all = topojson.feature(worldData, worldData.objects.countries);
 
-    const visitedFeatures  = { type: 'FeatureCollection', features: all.features.filter(f => visited.has(isoMap?.[String(f.id)])) };
-    const wishlistFeatures = { type: 'FeatureCollection', features: all.features.filter(f => wishlist.has(isoMap?.[String(f.id)])) };
+    const styleFor = (fillColor, fillOpacity) => ({
+      fillColor, fillOpacity, color: '#fff', weight: 1.2
+    });
+    const hoverStyle = { fillOpacity: .9, weight: 2 };
 
-    L.geoJSON(visitedFeatures,  { style: () => ({ fillColor:'#1d4ed8', fillOpacity:.7, color:'#fff', weight:1 }) }).addTo(map);
-    L.geoJSON(wishlistFeatures, { style: () => ({ fillColor:'#f59e0b', fillOpacity:.5, color:'#fff', weight:1 }) }).addTo(map);
+    function addLayer(features, fill, opacity, labelSet) {
+      return L.geoJSON(
+        { type: 'FeatureCollection', features: features.filter(f => labelSet.has(isoMap?.[String(f.id)])) },
+        {
+          style: () => styleFor(fill, opacity),
+          onEachFeature(feature, layer) {
+            const id   = isoMap?.[String(feature.id)];
+            const meta = id ? countries[id] : null;
+            const name = meta ? tx(meta.name) : '';
+            if (name) layer.bindTooltip(name, { sticky: true, className: 'world-tooltip' });
+            layer.on('mouseover', () => layer.setStyle(hoverStyle));
+            layer.on('mouseout',  () => layer.resetStyle());
+          }
+        }
+      ).addTo(map);
+    }
+
+    addLayer(all.features, '#1d4ed8', .7, visited);
+    addLayer(all.features, '#f59e0b', .6, wishlist);
+
+    // Legend
+    const legend = L.control({ position: 'bottomleft' });
+    legend.onAdd = () => {
+      const div = L.DomUtil.create('div', 'fp-map-legend');
+      div.innerHTML = `
+        <span><i style="background:#1d4ed8"></i>${t('footprint_visited')}</span>
+        <span><i style="background:#f59e0b"></i>${t('footprint_wish')}</span>`;
+      return div;
+    };
+    legend.addTo(map);
   } catch { /* map fails silently */ }
 }
 

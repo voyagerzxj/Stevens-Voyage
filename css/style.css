@@ -1432,6 +1432,31 @@ main { flex: 1; }
 .comment-section { max-width: 760px; margin: 0 auto; }
 
 /* ============================
+   Footprint Map Legend
+   ============================ */
+.fp-map-legend {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: .45rem .75rem;
+  font-size: .82rem;
+  font-family: var(--font-sans);
+  color: var(--text);
+  display: flex;
+  flex-direction: column;
+  gap: .3rem;
+  box-shadow: var(--shadow);
+}
+.fp-map-legend span { display: flex; align-items: center; gap: .45rem; }
+.fp-map-legend i {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 3px;
+  flex-shrink: 0;
+}
+
+/* ============================
    Footprint Page
    ============================ */
 .fp-country-grid {
