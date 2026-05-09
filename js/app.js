@@ -428,7 +428,13 @@ function buildMap(containerId, dests, center, zoom) {
   const el = document.getElementById(containerId);
   if (!el) return;
 
-  _map = L.map(containerId, { scrollWheelZoom: false });
+  _map = L.map(containerId, {
+    scrollWheelZoom: false,
+    minZoom: 3,
+    maxZoom: 16,
+    maxBounds: [[-85, -180], [85, 180]],
+    maxBoundsViscosity: 1.0,
+  });
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
     maxZoom: 18
@@ -505,6 +511,8 @@ async function buildWorldMap(containerId) {
     zoomControl: true,
     worldCopyJump: false,
     renderer: L.svg(),
+    maxBounds: [[-85, -180], [85, 180]],
+    maxBoundsViscosity: 1.0,
   });
 
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -1006,7 +1014,14 @@ async function buildContinentMap(contId, containerId) {
   const cont = continents.find(c => c.id === contId);
   const contCountrySet = new Set(cont?.countries || []);
 
-  const cmap = L.map(containerId, { scrollWheelZoom: false, zoomControl: true });
+  const cmap = L.map(containerId, {
+    scrollWheelZoom: false,
+    zoomControl: true,
+    minZoom: 2,
+    maxZoom: 10,
+    maxBounds: [[-85, -180], [85, 180]],
+    maxBoundsViscosity: 1.0,
+  });
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
     maxZoom: 18,
@@ -1657,8 +1672,14 @@ async function initFootprint() {
   if (!window.L || !window.topojson) return;
   try {
     const worldData = await fetchJSON('https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json');
-    const map = L.map('fp-map', { zoomControl: true, scrollWheelZoom: false })
-      .setView([20, 0], 1);
+    const map = L.map('fp-map', {
+      zoomControl: true,
+      scrollWheelZoom: false,
+      minZoom: 2,
+      maxZoom: 6,
+      maxBounds: [[-85, -180], [85, 180]],
+      maxBoundsViscosity: 1.0,
+    }).setView([20, 0], 2);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '© OpenStreetMap contributors', maxZoom: 6
     }).addTo(map);
