@@ -1845,52 +1845,70 @@ async function initRisk() {
     if (!_worldTopoCache) {
       _worldTopoCache = await fetchJSON('https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json');
     }
-    const map = L.map('risk-map', { zoomControl: true, scrollWheelZoom: false })
-      .setView([20, 0], 2);
+
+    // Restrict pan and zoom so the map doesn't scroll infinitely
+    const map = L.map('risk-map', {
+      zoomControl: true,
+      scrollWheelZoom: false,
+      minZoom: 2,
+      maxZoom: 6,
+      maxBounds: [[-85, -180], [85, 180]],
+      maxBoundsViscosity: 1.0,
+    }).setView([20, 0], 2);
+
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: '© OpenStreetMap contributors', maxZoom: 6, opacity: 0.4
+      attribution: '© OpenStreetMap contributors', maxZoom: 6, opacity: 0.55
     }).addTo(map);
 
     const { isoMap } = idx();
     const all = topojson.feature(_worldTopoCache, _worldTopoCache.objects.countries);
 
-    L.geoJSON(all, {
-      style: feature => {
-        const slug  = isoMap?.[String(feature.id)];
-        const level = slug ? riskData[slug] : null;
-        return level
-          ? { fillColor: RISK_COLORS[level], fillOpacity: 0.65, color: '#fff', weight: 0.8 }
-          : { fillColor: '#94a3b8', fillOpacity: 0.2,  color: '#cbd5e1', weight: 0.5 };
-      },
-      onEachFeature(feature, layer) {
-        const slug  = isoMap?.[String(feature.id)];
-        const cm    = slug ? countries[slug] : null;
-        const level = slug ? riskData[slug] : null;
-        const name  = cm ? `${cm.flag || ''} ${tx(cm.name)}` : '';
-        const riskLabel = level ? t('risk_' + level) : (name ? t('risk_unknown') : '');
-        if (name || riskLabel) {
+    // Only render countries that have explicit risk levels.
+    // This avoids antimeridian artifacts from Russia, Fiji, etc. whose polygons
+    // cross ±180° and produce horizontal lines in Leaflet.
+    // Unrated countries are visible through the OSM tile layer.
+    const ratedFeatures = all.features.filter(f => {
+      const slug = isoMap?.[String(f.id)];
+      return slug && riskData[slug];
+    });
+
+    L.geoJSON(
+      { type: 'FeatureCollection', features: ratedFeatures },
+      {
+        style: feature => {
+          const level = riskData[isoMap?.[String(feature.id)]];
+          return { fillColor: RISK_COLORS[level], fillOpacity: 0.65, color: '#fff', weight: 0.9 };
+        },
+        onEachFeature(feature, layer) {
+          const slug  = isoMap?.[String(feature.id)];
+          const cm    = slug ? countries[slug] : null;
+          const level = slug ? riskData[slug] : null;
+          if (!cm || !level) return;
           layer.bindTooltip(
-            `${name ? `<strong>${name}</strong>` : ''}${riskLabel ? `<br><span style="color:${RISK_COLORS[level] || '#64748b'}">${riskLabel}</span>` : ''}`,
+            `<strong>${cm.flag || ''} ${tx(cm.name)}</strong><br>` +
+            `<span style="color:${RISK_COLORS[level]}">${t('risk_' + level)}</span>`,
             { sticky: true, className: 'world-tooltip' }
           );
-        }
-        if (cm) {
-          layer.on('mouseover', () => level && layer.setStyle({ fillOpacity: 0.9 }));
+          layer.on('mouseover', () => layer.setStyle({ fillOpacity: 0.9 }));
           layer.on('mouseout',  () => layer.resetStyle());
           layer.on('click', () => { window.location.href = `country.html?id=${slug}`; });
         }
       }
-    }).addTo(map);
+    ).addTo(map);
 
-    const legend = L.control({ position: 'bottomleft' });
-    legend.onAdd = () => {
-      const div = L.DomUtil.create('div', 'fp-map-legend');
-      div.innerHTML = RISK_LEVELS.map(l =>
-        `<span><i style="background:${RISK_COLORS[l]}"></i>${t('risk_' + l)}</span>`
-      ).join('') + `<span><i style="background:#94a3b8;opacity:.5"></i>${t('risk_unknown')}</span>`;
-      return div;
-    };
-    legend.addTo(map);
+    // Legend: only show levels that actually have entries
+    const usedLevels = RISK_LEVELS.filter(l => byLevel[l].length > 0);
+    if (usedLevels.length) {
+      const legend = L.control({ position: 'bottomleft' });
+      legend.onAdd = () => {
+        const div = L.DomUtil.create('div', 'fp-map-legend');
+        div.innerHTML = usedLevels.map(l =>
+          `<span><i style="background:${RISK_COLORS[l]}"></i>${t('risk_' + l)}</span>`
+        ).join('');
+        return div;
+      };
+      legend.addTo(map);
+    }
   } catch { /* silent */ }
 }
 
