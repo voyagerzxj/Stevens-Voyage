@@ -1,0 +1,44 @@
+[
+  {
+    "id": "ise-jingu",
+    "name": { "zh": "伊势神宫", "en": "Ise Jingū" },
+    "description": {
+      "zh": "伊势神宫是日本地位最崇高的神社，供奉皇室祖先神——天照大御神（内宫）与掌管衣食住的丰受大御神（外宫）。神宫建筑采用唯一御用式年迁宫制度，每20年在相邻地址重建一次（最近一次为2013年），维持建筑的「永恒新生」，这一传统已延续约1,300年。",
+      "en": "Ise Jingū is Japan's most sacred Shinto shrine complex, enshrining the Imperial ancestor deity Amaterasu-Ōmikami (Inner Shrine, Naikū) and Toyouke-Ōmikami, goddess of food and livelihood (Outer Shrine, Gekū). Under the unique Shikinen Sengū system, the entire complex is ritually rebuilt on an adjacent site every 20 years (most recently 2013) — a tradition of 'eternal renewal' maintained for ~1,300 years."
+    },
+    "image": "https://picsum.photos/seed/ise-jingu-japan/800/500",
+    "tags": {
+      "zh": ["神宫", "皇室信仰", "式年迁宫"],
+      "en": ["Grand Shrine", "Imperial", "Shikinen Sengū"]
+    },
+    "location": {
+      "zh": "三重县伊势市（外宫·内宫）",
+      "en": "Ise City, Mie Prefecture (Gekū and Naikū)"
+    },
+    "subdivision": "mie",
+    "highlights": {
+      "zh": [
+        "内宫（皇大神宫）：供奉天照大御神，只有皇族与特定神职人员可进入最内侧正殿",
+        "式年迁宫：每20年如一重建，数百座建筑全套移建，使用与千年前相同的神明造建筑工法",
+        "おかげ横丁：内宫宇治橋前的传统参道商业街，售卖伊势乌冬、赤福等特产"
+      ],
+      "en": [
+        "Naikū (Inner Shrine): enshrines Amaterasu; only Imperial family and specific priests enter the innermost sanctuary",
+        "Shikinen Sengū: complete ritual reconstruction every 20 years using the same shinmei-zukuri architectural techniques as a millennium ago",
+        "Okage Yokochō: traditional monzenmachi in front of Naikū, famous for Ise udon noodles and akafuku rice-cake sweets"
+      ]
+    },
+    "admission": {
+      "zh": "外宫·内宫参拜免费",
+      "en": "Outer and Inner Shrine worship free"
+    },
+    "duration": {
+      "zh": "半天至一天（外宫与内宫各需约1—2小时）",
+      "en": "Half to full day (each shrine ~1–2 hours)"
+    },
+    "tips": {
+      "zh": "从名古屋乘近铁特急约1.5小时至宇治山田站或伊势市站。外宫与内宫相距约6公里，可乘巴士连接。参拜礼仪：两礼二拍手一礼，勿直接拍摄最内殿建筑。",
+      "en": "From Nagoya, take the Kintetsu Limited Express ~1.5 hours to Ujiyamada or Ise-shi station. Gekū and Naikū are 6 km apart — buses connect them. Etiquette: two bows, two claps, one bow; do not photograph the innermost sanctuary."
+    }
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "tokyo-disney-resort",
+    "name": { "zh": "东京迪士尼度假区", "en": "Tokyo Disney Resort" },
+    "description": {
+      "zh": "东京迪士尼度假区由东京迪士尼乐园（1983年开园，亚洲第一座迪士尼主题乐园）和东京迪士尼海洋（2001年开园，全球唯一以海洋探险为主题的迪士尼乐园）组成，位于千叶县浦安市，乘JR从东京站仅需约15分钟。",
+      "en": "Tokyo Disney Resort comprises Tokyo Disneyland (opened 1983, Asia's first Disney theme park) and Tokyo DisneySea (opened 2001, the world's only ocean-themed Disney park). Located in Urayasu, Chiba, it is just ~15 minutes by JR from Tokyo Station."
+    },
+    "image": "https://picsum.photos/seed/tokyo-disney-resort-japan/800/500",
+    "tags": {
+      "zh": ["主题乐园", "迪士尼", "家庭亲子"],
+      "en": ["Theme Park", "Disney", "Family"]
+    },
+    "location": {
+      "zh": "千叶县浦安市舞滨",
+      "en": "Maihama, Urayasu City, Chiba Prefecture"
+    },
+    "subdivision": "chiba",
+    "highlights": {
+      "zh": [
+        "东京迪士尼乐园：经典城堡区、幻想乐园、探险乐园等七大主题区域，含多个超人气表演",
+        "东京迪士尼海洋：以神秘岛、美国海滨等7个主题港口为场景，是全球公认最美的迪士尼乐园之一",
+        "Fantasy Springs（2024年新开园区）：冰雪奇缘、小飞侠、魔发奇缘三主题港口"
+      ],
+      "en": [
+        "Tokyo Disneyland: seven themed lands including Fantasyland and Adventureland, with multiple headline shows",
+        "Tokyo DisneySea: seven themed ports including Mysterious Island and American Waterfront — widely rated the most beautiful Disney park in the world",
+        "Fantasy Springs (opened 2024): Frozen, Peter Pan and Rapunzel themed port areas"
+      ]
+    },
+    "admission": {
+      "zh": "1日票约9,400—10,900日元（节假日较贵），建议在线选购时间段入园票",
+      "en": "One-day ticket ~¥9,400–10,900 (higher on peak days); online timed-entry tickets recommended"
+    },
+    "duration": {
+      "zh": "全天（两个乐园各建议安排一天）",
+      "en": "Full day per park (one day each recommended)"
+    },
+    "tips": {
+      "zh": "人气设施需使用Disney Premier Access（付费优先通行）或提前在官方App上抢到优先入场号。强烈建议在官方App上提前规划一日行程。",
+      "en": "For top rides use Disney Premier Access (paid fast pass) or grab standby times early via the official app. Plan your full day in the app before arriving."
+    }
+  }
+]

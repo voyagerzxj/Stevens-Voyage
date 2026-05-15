@@ -1,0 +1,55 @@
+[
+  {
+    "id": "hiroshima-miyajima",
+    "name": {
+      "zh": "广岛与宫岛",
+      "en": "Hiroshima & Miyajima"
+    },
+    "description": {
+      "zh": "广岛和平纪念公园见证了二战的历史教训；乘船15分钟可达的宫岛岛上，严岛神社的朱红大鸟居矗立于海中，是日本三景之一。",
+      "en": "Hiroshima Peace Memorial Park bears witness to the lessons of WWII. A 15-minute ferry brings you to Miyajima island, where Itsukushima Shrine's vermilion torii gate rises from the sea — one of Japan's Three Views."
+    },
+    "image": "https://picsum.photos/seed/miyajima-torii/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "历史",
+        "神社"
+      ],
+      "en": [
+        "UNESCO Heritage",
+        "History",
+        "Shrine"
+      ]
+    },
+    "location": {
+      "zh": "广岛县广岛市及廿日市市",
+      "en": "Hiroshima Prefecture, Japan"
+    },
+    "highlights": {
+      "zh": [
+        "广岛和平纪念馆：原爆穹顶UNESCO遗产",
+        "宫岛严岛神社海中大鸟居",
+        "退潮可步行至鸟居脚下近距离观看"
+      ],
+      "en": [
+        "Hiroshima Peace Memorial and A-Bomb Dome UNESCO site",
+        "Itsukushima Shrine's torii gate rising from the sea",
+        "At low tide you can walk right up to the gate"
+      ]
+    },
+    "admission": {
+      "zh": "和平纪念馆200日元，宫岛神社免费",
+      "en": "Peace Museum ¥200; Miyajima Shrine free"
+    },
+    "duration": {
+      "zh": "一天（含宫岛半日）",
+      "en": "Full day (including half-day Miyajima)"
+    },
+    "tips": {
+      "zh": "出发前查看宫岛潮汐表，退潮时段才能走到鸟居旁边。牡蛎和枫叶馒头是当地必尝美食。",
+      "en": "Check tide tables before going — only at low tide can you approach the torii on foot. Try the local oysters and momiji manju (maple-leaf cakes)."
+    },
+    "subdivision": "hiroshima"
+  }
+]

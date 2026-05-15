@@ -1,0 +1,108 @@
+[
+  {
+    "id": "iwami-ginzan",
+    "name": {
+      "zh": "石见银山遗址及其文化景观",
+      "en": "Iwami Ginzan Silver Mine and its Cultural Landscape"
+    },
+    "description": {
+      "zh": "石见银山是16—17世纪世界上最大的银矿之一，鼎盛时期年产量占全球三分之一。矿山、城下町、街道与港口构成完整的文化景观，于2007年列入UNESCO世界遗产。",
+      "en": "Iwami Ginzan was one of the world's largest silver mines in the 16th–17th centuries, at its peak producing a third of global silver output. The mine, castle towns, roads and ports form a complete cultural landscape. UNESCO-listed in 2007."
+    },
+    "image": "https://picsum.photos/seed/iwami-ginzan-japan/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "银矿",
+        "文化景观"
+      ],
+      "en": [
+        "UNESCO Heritage",
+        "Silver Mine",
+        "Cultural Landscape"
+      ]
+    },
+    "location": {
+      "zh": "岛根县大田市大森町",
+      "en": "Oda City (Omori district), Shimane Prefecture"
+    },
+    "highlights": {
+      "zh": [
+        "龙源寺间步：保存最好的银矿坑道，可入内参观",
+        "大森银山传统街道：江户时代商家和武家屋敷保存完好",
+        "鞆浦港：白石炉群遗址见证银矿精炼历史"
+      ],
+      "en": [
+        "Ryugenji Mabu: the best-preserved mine shaft, open for exploration",
+        "Omori Ginzan historic streetscape: Edo-period merchant and samurai residences intact",
+        "Tomonoura port: stone furnace ruins document the silver refining process"
+      ]
+    },
+    "admission": {
+      "zh": "大森银山街道免费；矿坑内部参观约400日元",
+      "en": "Omori streetscape free; mine shaft interior ~¥400"
+    },
+    "duration": {
+      "zh": "半天至一天",
+      "en": "Half to full day"
+    },
+    "tips": {
+      "zh": "大田站到大森约30分钟公交，班次稀少，建议自驾。租借自行车在景区内游览最为便捷。",
+      "en": "Infrequent buses run from Oda station to Omori (~30 min); a rental car is easiest. Hire a bicycle at the site to cover the scattered attractions comfortably."
+    },
+    "subdivision": "shimane"
+  },
+  {
+    "id": "oki-islands-geopark",
+    "name": {
+      "zh": "隠岐世界地质公园",
+      "en": "Oki Islands UNESCO Global Geopark"
+    },
+    "description": {
+      "zh": "隠岐群岛位于岛根半岛以北40—80公里的日本海上，由4个有人岛和无数小岛组成。通过独特的地质历史，展示了日本海的诞生过程；30,000年前产自隠岐的黑曜石已被用于日本各地的交易，岛上还保存了流放中世纪天皇的历史遗迹与独特的牛相扑文化。2013年加入UNESCO全球地质公园网络。",
+      "en": "The Oki Islands lie 40–80 km north of the Shimane Peninsula in the Sea of Japan, comprising four inhabited islands and many islets. Their geology records the formation of the Sea of Japan; obsidian quarried here 30,000 years ago was traded across Japan. The islands also preserve sites of imperial exile from the medieval era and the living tradition of bull sumo. Designated in 2013."
+    },
+    "image": "https://picsum.photos/seed/oki-islands-geopark-japan/800/500",
+    "tags": {
+      "zh": [
+        "地质公园",
+        "离岛",
+        "岛根"
+      ],
+      "en": [
+        "UNESCO Geopark",
+        "Remote Islands",
+        "Shimane"
+      ]
+    },
+    "location": {
+      "zh": "岛根县隠岐郡（西ノ島町、知夫村、海士町、隠岐の島町）",
+      "en": "Oki District, Shimane Prefecture (Nishinoshima, Chibu, Ama and Okinoshima)"
+    },
+    "highlights": {
+      "zh": [
+        "摩天崖（西ノ島）：高257米的垂直海蚀崖，为日本最大级别，四周牧马悠然",
+        "明屋海岸蜡烛岩：每年两次日落时，夕阳恰好在奇岩上点燃，极为壮观",
+        "后醍醐天皇流配遗迹（隠岐の島町）：中世纪皇室流放岛的历史氛围"
+      ],
+      "en": [
+        "Matengai Cliff (Nishinoshima): a 257 m sheer sea cliff — among Japan's largest — grazed by free-roaming horses on the plateau above",
+        "Candle Rock at Akiya Coast: twice a year the setting sun appears to ignite the sea stack like a candle — a celebrated spectacle",
+        "Emperor Go-Daigo exile sites (Okinoshima Town): atmospheric remnants of the medieval imperial banishment"
+      ]
+    },
+    "admission": {
+      "zh": "公园免费；部分设施收费",
+      "en": "Geopark free; some facilities charge entry"
+    },
+    "duration": {
+      "zh": "各岛各1—2天，全群岛游览需4—5天",
+      "en": "1–2 days per island; 4–5 days for the full island group"
+    },
+    "tips": {
+      "zh": "从境港乘高速船约2小时或从松江乘慢船约3小时可达隠岐。各岛间有渡轮相连，岛上务必租车或骑车。",
+      "en": "Take a high-speed ferry (~2 hrs) from Sakaiminato or a slow ferry (~3 hrs) from Matsue. Inter-island ferries connect the four main islands; rent a car or bicycle once on shore."
+    },
+    "subdivision": "shimane"
+  }
+]

@@ -1,55 +1,55 @@
 [
   {
-    "id": "west-lake",
+    "id": "xinchang-ancient-town",
     "name": {
-      "zh": "西湖",
-      "en": "West Lake"
+      "zh": "新场古镇",
+      "en": "Xinchang Ancient Town"
     },
     "description": {
-      "zh": "杭州西湖是中国最著名的淡水湖之一，湖光山色与历史人文交相辉映。苏堤、白堤将湖面分割成数个区域，四季风景各异，是文人墨客吟咏千年的胜地。",
-      "en": "West Lake in Hangzhou is one of China's most celebrated freshwater lakes. The Su and Bai Causeways divide its shimmering surface, creating distinct zones of beauty that have inspired poets for a thousand years."
+      "zh": "新场古镇位于上海浦东新区南部，拥有近1300年历史，是浦东保存最完好的晚清至民国时期江南水乡风貌。古镇因宋代盐场兴起，以运盐河道为骨架形成独特的水街格局，现作为「江南水乡古镇」联合申遗项目中上海的唯一代表，于2008年列入中国世界文化遗产预备名单。",
+      "en": "Xinchang Ancient Town in Pudong New Area, Shanghai, spans nearly 1,300 years of history and preserves the finest collection of late-Qing and early-Republic-era Jiangnan watertown architecture in Pudong. Founded as a salt-field hub during the Song Dynasty, the town grew around its salt-transport canals. It is Shanghai's sole representative in the joint 'Ancient Waterfront Towns in the South of Yangtze River' UNESCO candidacy, which has been on China's official World Cultural Heritage Tentative List since 2008."
     },
-    "image": "https://picsum.photos/seed/west-lake-hangzhou/800/500",
+    "image": "https://picsum.photos/seed/xinchang-ancient-town-shanghai/800/500",
     "tags": {
       "zh": [
-        "世界遗产",
-        "湖泊",
-        "江南园林"
+        "候选遗产",
+        "江南水乡",
+        "历史古镇"
       ],
       "en": [
-        "UNESCO",
-        "Lake",
-        "Classical Gardens"
+        "Tentative WHC",
+        "Jiangnan Watertown",
+        "Historic Town"
       ]
     },
     "location": {
-      "zh": "浙江省杭州市",
-      "en": "Hangzhou, Zhejiang Province"
+      "zh": "上海市浦东新区新场镇，市中心以南约36公里",
+      "en": "Xinchang Town, Pudong New Area, ~36 km south of central Shanghai"
     },
     "subdivision": "shanghai",
     "highlights": {
       "zh": [
-        "西湖十景，四季皆有主题胜景",
-        "苏堤春晓、断桥残雪等千年诗意",
-        "湖区免费开放，周边寺庙众多"
+        "UNESCO世界遗产候选（2008年列入「江南水乡古镇」预备名单）",
+        "2公里历史老街、1.2公里古石驳岸及68处精雕门楼",
+        "国家级非物质文化遗产：新场锣鼓书与浦东派琵琶"
       ],
       "en": [
-        "Ten classic West Lake views, each season unique",
-        "Su Causeway and Broken Bridge immortalised in poetry",
-        "Lakeside area free; numerous temples nearby"
+        "UNESCO Tentative World Heritage — part of 'Ancient Waterfront Towns' candidacy listed 2008",
+        "2 km historic street, 1.2 km ancient stone riverbanks, and 68 ornate carved gateways",
+        "National intangible heritage: luogu shu storytelling and Pudong-school pipa music"
       ]
     },
     "admission": {
-      "zh": "湖区免费，景区内部分景点另收费",
-      "en": "Lakeside free; some inner attractions charge separately"
+      "zh": "古镇免费进入，镇内部分景点单独收费",
+      "en": "Free entry to the town; select attractions inside charge separately"
     },
     "duration": {
-      "zh": "半天至一天",
-      "en": "Half to full day"
+      "zh": "2—4小时",
+      "en": "2–4 hours"
     },
     "tips": {
-      "zh": "可租用自行车或乘游船游览，清晨湖面薄雾弥漫，景色最为迷人。",
-      "en": "Rent a bicycle or take a cruise boat. Early morning mist on the lake makes for the most atmospheric experience."
+      "zh": "古镇至今仍有居民世代定居，保留浓厚生活气息。可乘地铁16号线至新场站步行进入，避开周末人流建议工作日前往。清晨河边晨雾与老街早市最具韵味。",
+      "en": "The town remains a living community with long-established residents. Take subway Line 16 to Xinchang station and walk in. Weekday mornings are quieter; early-morning river mist and the old-street market are the most atmospheric time to visit."
     }
   }
 ]

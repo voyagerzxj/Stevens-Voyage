@@ -1,0 +1,44 @@
+[
+  {
+    "id": "kasama-inari",
+    "name": { "zh": "笠间稲荷神社", "en": "Kasama Inari Shrine" },
+    "description": {
+      "zh": "笠间稲荷神社与京都伏见稻荷、佐贺祐德稻荷并称「日本三大稻荷」，建于651年，据传是日本历史最悠久的稻荷神社之一。神社本殿为精雕细刻的江户时代建筑（国家重要文化财），周边的笠间市以陶艺而知名，融参拜与陶艺体验于一体。",
+      "en": "Kasama Inari Shrine, alongside Fushimi Inari (Kyoto) and Yūtoku Inari (Saga), is one of Japan's three great Inari shrines. Founded in 651 AD, it is among Japan's oldest Inari sanctuaries. The main hall is a finely carved Edo-period structure designated an Important Cultural Property. The surrounding city of Kasama is renowned for ceramics, combining pilgrimage with craft experiences."
+    },
+    "image": "https://picsum.photos/seed/kasama-inari-japan/800/500",
+    "tags": {
+      "zh": ["稻荷神社", "历史古社", "陶艺"],
+      "en": ["Inari Shrine", "Historic Shrine", "Ceramics"]
+    },
+    "location": {
+      "zh": "茨城县笠间市笠间44",
+      "en": "Kasama 44, Kasama City, Ibaraki Prefecture"
+    },
+    "subdivision": "ibaraki",
+    "highlights": {
+      "zh": [
+        "本殿：江户时代后期建造，以精美透雕（透かし彫り）华丽装饰闻名，为国家重要文化财",
+        "笠间市陶器市集：每年4—5月的陶炎祭吸引200余位陶艺家参展，规模为全国最大",
+        "菊花祭：10—11月举行的菊花展是关东地区最著名的菊花博览之一"
+      ],
+      "en": [
+        "Main hall: late Edo-period architecture celebrated for its intricate sukashi-bori (openwork) carvings — nationally designated Important Cultural Property",
+        "Kasama ceramics market: the Tōen-sai pottery festival in April–May draws 200+ potters and is Japan's largest ceramic market",
+        "Chrysanthemum Festival: the Oct–Nov exhibition is one of Kanto's most celebrated chrysanthemum shows"
+      ]
+    },
+    "admission": {
+      "zh": "参拜免费",
+      "en": "Free entry"
+    },
+    "duration": {
+      "zh": "1—2小时",
+      "en": "1–2 hours"
+    },
+    "tips": {
+      "zh": "从JR水户站乘水郡线或笠间市的巡回巴士约30—40分钟可达。「陶炎祭」期间（4月29日—5月5日）有专属临时巴士接送。笠间市内数十家窑场平时也可参观购买陶器。",
+      "en": "From JR Mito station, take the Suigun Line or a local loop bus ~30–40 minutes. Dedicated shuttle buses run during the Tōen-sai pottery festival (29 Apr–5 May). Dozens of local kilns around Kasama are open year-round for pottery browsing and purchases."
+    }
+  }
+]

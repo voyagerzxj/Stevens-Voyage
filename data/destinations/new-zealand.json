@@ -206,5 +206,49 @@
       "zh": "从奥克兰驾车约3小时，是北岛最佳的周末度假目的地；2月份的威唐伊日（新西兰国庆日）有特别庆典活动。",
       "en": "About 3 hours' drive from Auckland — a classic North Island weekend getaway. Waitangi Day (6 February) brings special ceremonies and cultural performances."
     }
+  },
+  {
+    "id": "waitaki-whitestone-geopark",
+    "name": {
+      "zh": "怀塔基白石UNESCO世界地质公园",
+      "en": "Waitaki Whitestone UNESCO Global Geopark"
+    },
+    "description": {
+      "zh": "怀塔基白石地质公园位于新西兰南岛东岸，面积7,214平方公里，是大洋洲唯一的UNESCO世界地质公园，于2023年5月获得认定。公园以壮观的石灰岩地貌、冰川峡谷和海洋化石著称，为揭示地球第八大洲「西兰蒂亚」（Zealandia/Te Riu-a-Māui）的形成历史提供了独一无二的地质证据。",
+      "en": "The Waitaki Whitestone Geopark on New Zealand's South Island east coast spans 7,214 km² and is Australasia's only UNESCO Global Geopark, designated in May 2023. It is celebrated for spectacular limestone karst landscapes, glacial valleys and marine fossils, offering unparalleled evidence of the formation of Zealandia — Earth's eighth continent."
+    },
+    "image": "https://picsum.photos/seed/waitaki-whitestone-geopark-new-zealand/800/500",
+    "tags": {
+      "zh": ["地质公园", "石灰岩地貌", "西兰蒂亚"],
+      "en": ["UNESCO Geopark", "Limestone Karst", "Zealandia"]
+    },
+    "location": {
+      "zh": "奥塔哥大区，新西兰南岛东岸，怀塔基河流域",
+      "en": "Waitaki District, east coast South Island, New Zealand"
+    },
+    "highlights": {
+      "zh": [
+        "联合国教科文组织全球地质公园（2023年），大洋洲唯一",
+        "莫拉基巨砾（Moeraki Boulders）和大象岩（Elephant Rocks）等标志性地质奇观",
+        "揭示西兰蒂亚大陆从冈瓦纳超大陆分离、沉没又隆升的完整地质史"
+      ],
+      "en": [
+        "UNESCO Global Geopark since 2023 — the only one in Australasia",
+        "Iconic landmarks including the Moeraki Boulders and Elephant Rocks limestone formations",
+        "Reveals the full geological story of Zealandia — from Gondwana breakup to ocean submersion and re-emergence"
+      ]
+    },
+    "admission": {
+      "zh": "公园区域免费开放",
+      "en": "Free access throughout the geopark"
+    },
+    "duration": {
+      "zh": "2—3天",
+      "en": "2–3 days"
+    },
+    "tips": {
+      "zh": "从达尼丁（Dunedin）驾车约1.5小时可达；奥马鲁（Oamaru）是探索公园的最佳基地，当地有维多利亚时代建筑群和蓝眼企鹅保护区，是不可错过的额外体验。",
+      "en": "About 1.5 hours' drive from Dunedin. Oamaru is the ideal base — its Victorian limestone precinct and blue penguin colony are not to be missed alongside the geopark geology."
+    }
   }
 ]

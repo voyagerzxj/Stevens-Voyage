@@ -51,5 +51,50 @@
       "zh": "11月至4月是旺季，气候宜人；6—10月高温潮湿，偶有飓风。停车昂贵，推荐使用共享单车。",
       "en": "November–April is peak season with ideal weather. June–October is hot, humid and hurricane-prone. Parking is expensive — rent a bike or use rideshare."
     }
+  },
+  {
+    "id": "everglades",
+    "name": {
+      "zh": "大沼泽地国家公园",
+      "en": "Everglades National Park"
+    },
+    "description": {
+      "zh": "大沼泽地是北美最大的亚热带荒野，以其独特的「流动草原」生态系统著称——一层缓缓流动的浅水漫过绵延的锯草草地。1979年列入UNESCO世界遗产名录，同时也是国际重要湿地和生物圈保护区，保护着包括美洲短吻鳄、佛罗里达美洲豹在内的濒危物种。",
+      "en": "Everglades is North America's largest subtropical wilderness, defined by its unique 'river of grass' ecosystem — a slow-moving sheet of water flowing over vast sawgrass prairies. Inscribed as a UNESCO World Heritage Site in 1979, and also a Ramsar Wetland and Biosphere Reserve, it shelters endangered species including the American alligator and Florida panther."
+    },
+    "image": "https://picsum.photos/seed/everglades-usa/800/500",
+    "tags": {
+      "zh": ["世界遗产", "国家公园", "湿地"],
+      "en": ["UNESCO Heritage", "National Park", "Wetlands"]
+    },
+    "location": {
+      "zh": "佛罗里达州南端，迈阿密西南约50公里",
+      "en": "Southern tip of Florida, ~50 km southwest of Miami"
+    },
+    "subdivision": "florida",
+    "highlights": {
+      "zh": [
+        "「草之河」生态系统，北美最大亚热带湿地",
+        "可乘气垫船穿越锯草草地，近距离观察美洲短吻鳄",
+        "佛罗里达美洲豹、红树林、珊瑚礁三大独特生境并存"
+      ],
+      "en": [
+        "'River of grass' — North America's largest subtropical wetland",
+        "Airboat rides through sawgrass prairies with close-up alligator encounters",
+        "Three distinct ecosystems: Florida panther habitat, mangroves and coral reefs"
+      ]
+    },
+    "admission": {
+      "zh": "约35美元/车（7日通行证）",
+      "en": "~US$35/vehicle (7-day pass)"
+    },
+    "duration": {
+      "zh": "1—2天",
+      "en": "1–2 days"
+    },
+    "tips": {
+      "zh": "11月至4月（旱季）是最佳游览季节，野生动物集中于水源附近，蚊虫较少；夏季湿热且蚊虫众多，需备好驱蚊剂。",
+      "en": "November–April (dry season) is the best time — wildlife concentrates near shrinking water holes and mosquitoes are manageable. Summer is brutally hot and buggy; bring strong insect repellent."
+    }
   }
 ]

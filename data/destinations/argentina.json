@@ -11,16 +11,8 @@
     },
     "image": "https://picsum.photos/seed/iguazu-argentina/800/500",
     "tags": {
-      "zh": [
-        "世界遗产",
-        "瀑布",
-        "魔鬼咽喉"
-      ],
-      "en": [
-        "UNESCO",
-        "Waterfall",
-        "Devil's Throat"
-      ]
+      "zh": ["世界遗产", "瀑布", "魔鬼咽喉"],
+      "en": ["UNESCO Heritage", "Waterfall", "Devil's Throat"]
     },
     "location": {
       "zh": "米西奥内斯省，阿根廷东北部",
@@ -63,16 +55,8 @@
     },
     "image": "https://picsum.photos/seed/patagonia-towers/800/500",
     "tags": {
-      "zh": [
-        "国家公园",
-        "荒野",
-        "徒步"
-      ],
-      "en": [
-        "National Park",
-        "Wilderness",
-        "Trekking"
-      ]
+      "zh": ["国家公园", "荒野", "徒步"],
+      "en": ["National Park", "Wilderness", "Trekking"]
     },
     "location": {
       "zh": "圣克鲁斯省，阿根廷南部",
@@ -115,16 +99,8 @@
     },
     "image": "https://picsum.photos/seed/buenos-aires/800/500",
     "tags": {
-      "zh": [
-        "探戈",
-        "都市",
-        "欧式建筑"
-      ],
-      "en": [
-        "Tango",
-        "Urban",
-        "European Architecture"
-      ]
+      "zh": ["探戈", "都市", "欧式建筑"],
+      "en": ["Tango", "Urban", "European Architecture"]
     },
     "location": {
       "zh": "布宜诺斯艾利斯市，阿根廷东部",
@@ -153,6 +129,446 @@
     "tips": {
       "zh": "布宜诺斯艾利斯作息晚，晚餐通常10点以后才开始，探戈演出午夜后进入高潮。可乘坐地铁（Subte）游览各区。",
       "en": "Buenos Aires runs late — dinner rarely starts before 10 p.m. and tango shows peak after midnight. The Subte (metro) connects the main neighbourhoods efficiently."
+    }
+  },
+  {
+    "id": "los-glaciares",
+    "name": {
+      "zh": "冰川国家公园",
+      "en": "Los Glaciares National Park"
+    },
+    "description": {
+      "zh": "冰川国家公园是阿根廷最著名的自然保护区，以莫雷诺冰川（Perito Moreno Glacier）和菲茨罗伊山峰群为核心。莫雷诺冰川是世界上少数仍在前进的冰川之一，冰崩景观令人叹为观止。1981年列入UNESCO世界遗产。",
+      "en": "Los Glaciares National Park is Argentina's most celebrated natural reserve, centred on Perito Moreno Glacier and the Fitz Roy massif. Perito Moreno is one of the world's few still-advancing glaciers — its calving spectacle is unforgettable. Inscribed as a UNESCO World Heritage Site in 1981."
+    },
+    "image": "https://picsum.photos/seed/los-glaciares-argentina/800/500",
+    "tags": {
+      "zh": ["世界遗产", "冰川", "巴塔哥尼亚"],
+      "en": ["UNESCO Heritage", "Glacier", "Patagonia"]
+    },
+    "location": {
+      "zh": "圣克鲁斯省，阿根廷南部",
+      "en": "Santa Cruz Province, southern Argentina"
+    },
+    "highlights": {
+      "zh": [
+        "莫雷诺冰川：仍在前进的30公里长蓝色冰川，冰崩奇观震撼人心",
+        "菲茨罗伊山（3,405米）是世界最难攀登的山峰之一，外形极为壮观",
+        "埃尔查尔滕（El Chaltén）是徒步者天堂，多条精品徒步路线"
+      ],
+      "en": [
+        "Perito Moreno Glacier — a 30 km advancing blue-ice wall; calving events are awe-inspiring",
+        "Mount Fitz Roy (3,405 m) — one of the world's most technically challenging peaks, with a dramatic silhouette",
+        "El Chaltén is a hiker's paradise with numerous excellent free trails"
+      ]
+    },
+    "admission": {
+      "zh": "约2,100阿根廷比索（莫雷诺冰川区）",
+      "en": "~ARS$2,100 (Perito Moreno sector)"
+    },
+    "duration": {
+      "zh": "2—4天",
+      "en": "2–4 days"
+    },
+    "tips": {
+      "zh": "11月至3月（南半球夏季）为最佳游览期。卡拉法特（El Calafate）是莫雷诺冰川的出发基地，埃尔查尔滕（El Chaltén）是菲茨罗伊徒步的出发地。",
+      "en": "November–March (southern summer) is the best time. El Calafate is the base for Perito Moreno; El Chaltén is the base for Fitz Roy trekking. Book accommodation well ahead in peak season."
+    }
+  },
+  {
+    "id": "jesuit-missions-argentina",
+    "name": {
+      "zh": "耶稣会传教区遗址（阿根廷部分）",
+      "en": "Jesuit Missions of the Guaranis (Argentina)"
+    },
+    "description": {
+      "zh": "阿根廷米西奥内斯省境内的圣伊纳西奥米尼（San Ignacio Miní）等耶稣会传教遗址，是17—18世纪耶稣会修士与瓜拉尼原住民共同建立的乌托邦式社区的历史见证。与巴西共同于1983年列入UNESCO世界遗产。",
+      "en": "The Jesuit mission ruins in Argentina's Misiones Province — including San Ignacio Miní — are testimony to the 17th–18th-century utopian communities of Jesuit priests and Guaraní people. Inscribed jointly with Brazil as a UNESCO World Heritage Site in 1983."
+    },
+    "image": "https://picsum.photos/seed/jesuit-missions-argentina/800/500",
+    "tags": {
+      "zh": ["世界遗产", "耶稣会遗址", "殖民历史"],
+      "en": ["UNESCO Heritage", "Jesuit Ruins", "Colonial History"]
+    },
+    "location": {
+      "zh": "米西奥内斯省，阿根廷东北部",
+      "en": "Misiones Province, northeast Argentina"
+    },
+    "highlights": {
+      "zh": [
+        "圣伊纳西奥米尼：阿根廷境内保存最完好的耶稣会遗址",
+        "红砂岩建筑废墟与丛林交织，营造出神秘的历史氛围",
+        "每晚举行的灯光秀还原17世纪传教区的历史"
+      ],
+      "en": [
+        "San Ignacio Miní — the best-preserved Jesuit mission ruin in Argentina",
+        "Red sandstone ruins intertwined with jungle create a deeply atmospheric setting",
+        "Nightly sound and light show recreates the 17th-century mission community"
+      ]
+    },
+    "admission": {
+      "zh": "约500阿根廷比索（灯光秀另计）",
+      "en": "~ARS$500 (sound-and-light show priced separately)"
+    },
+    "duration": {
+      "zh": "半天",
+      "en": "Half day"
+    },
+    "tips": {
+      "zh": "距波萨达斯（Posadas）约60公里，可自驾或参加当地旅游团。可与伊瓜苏瀑布合并为米西奥内斯省精华旅行。",
+      "en": "About 60 km from Posadas — accessible by car or local tour. Combine with Iguazú Falls for a complete Misiones Province itinerary."
+    }
+  },
+  {
+    "id": "ischigualasto-talampaya",
+    "name": {
+      "zh": "伊斯奇瓜拉斯托/塔兰帕亚自然公园",
+      "en": "Ischigualasto/Talampaya Natural Parks"
+    },
+    "description": {
+      "zh": "伊斯奇瓜拉斯托（月亮谷）和塔兰帕亚自然公园是世界上三叠纪地质记录最完整的地区，出土了大量三叠纪（约2.3亿年前）恐龙和其他爬行动物化石，对研究恐龙起源具有极高科学价值。2000年列入UNESCO世界遗产。",
+      "en": "Ischigualasto (Valle de la Luna / Valley of the Moon) and Talampaya Natural Parks contain the world's most complete Triassic geological record, with abundant fossils of Triassic dinosaurs and reptiles (~230 million years old) of immense scientific value for understanding dinosaur origins. Inscribed as a UNESCO World Heritage Site in 2000."
+    },
+    "image": "https://picsum.photos/seed/ischigualasto-argentina/800/500",
+    "tags": {
+      "zh": ["世界遗产", "三叠纪化石", "月亮谷"],
+      "en": ["UNESCO Heritage", "Triassic Fossils", "Valley of the Moon"]
+    },
+    "location": {
+      "zh": "圣胡安省和拉里奥哈省，阿根廷西部",
+      "en": "San Juan and La Rioja Provinces, western Argentina"
+    },
+    "highlights": {
+      "zh": [
+        "月亮谷（Valle de la Luna）：超现实的灰白色侵蚀地貌，宛如月球表面",
+        "约2.3亿年历史的三叠纪恐龙化石（始盗龙等），是恐龙起源研究的关键遗址",
+        "塔兰帕亚峡谷以壮观的红砂岩崖壁和岩画著称"
+      ],
+      "en": [
+        "Valle de la Luna — surreal grey-white eroded landscape resembling the surface of the moon",
+        "~230 million-year-old Triassic dinosaur fossils (Eoraptor etc.) — key to understanding dinosaur origins",
+        "Talampaya Canyon — spectacular red sandstone cliffs and ancient rock art"
+      ]
+    },
+    "admission": {
+      "zh": "伊斯奇瓜拉斯托约1,500阿根廷比索；塔兰帕亚约1,000阿根廷比索",
+      "en": "Ischigualasto ~ARS$1,500; Talampaya ~ARS$1,000"
+    },
+    "duration": {
+      "zh": "1—2天（两处公园）",
+      "en": "1–2 days (both parks)"
+    },
+    "tips": {
+      "zh": "两处公园需凭导览游览，不可单独进入。从圣胡安出发自驾约3小时可达伊斯奇瓜拉斯托，两处公园相距约80公里，可合并为一日游。",
+      "en": "Both parks require guided tours — independent access is not permitted. From San Juan, Ischigualasto is ~3 hours by car; the two parks are ~80 km apart and can be combined in one long day."
+    }
+  },
+  {
+    "id": "jesuit-block-cordoba",
+    "name": {
+      "zh": "科尔多瓦的耶稣会街区与庄园",
+      "en": "Jesuit Block and Estancias of Córdoba"
+    },
+    "description": {
+      "zh": "科尔多瓦的耶稣会街区包含耶稣会大学（今科尔多瓦国立大学）、教堂和住宅，以及周边六处殖民地农庄（Estancias），是17—18世纪耶稣会在拉丁美洲最重要的教育和经济实体的遗存。2000年列入UNESCO世界遗产。",
+      "en": "The Jesuit Block in Córdoba encompasses the Jesuit University (today the National University of Córdoba), church and residences, together with six surrounding colonial Estancias. They represent the most significant surviving legacy of 17th–18th-century Jesuit educational and economic enterprise in Latin America. Inscribed in 2000."
+    },
+    "image": "https://picsum.photos/seed/jesuit-cordoba-argentina/800/500",
+    "tags": {
+      "zh": ["世界遗产", "耶稣会遗址", "殖民教育"],
+      "en": ["UNESCO Heritage", "Jesuit Heritage", "Colonial Education"]
+    },
+    "location": {
+      "zh": "科尔多瓦省，阿根廷中部",
+      "en": "Córdoba Province, central Argentina"
+    },
+    "highlights": {
+      "zh": [
+        "科尔多瓦国立大学是美洲最古老的大学之一（1613年创立）",
+        "耶稣会教堂（Iglesia de la Compañía）是阿根廷最重要的巴洛克建筑之一",
+        "六处散布于科尔多瓦省乡间的耶稣会庄园（Estancias）"
+      ],
+      "en": [
+        "National University of Córdoba — one of the oldest universities in the Americas (founded 1613)",
+        "Iglesia de la Compañía — one of Argentina's most important Baroque buildings",
+        "Six Jesuit Estancias scattered through the Córdoba countryside"
+      ]
+    },
+    "admission": {
+      "zh": "历史街区免费；各庄园收费约200—500阿根廷比索",
+      "en": "Historic block free; Estancias ~ARS$200–500 each"
+    },
+    "duration": {
+      "zh": "半天（城区）+ 1天（庄园）",
+      "en": "Half day (city block) + 1 day (estancias)"
+    },
+    "tips": {
+      "zh": "科尔多瓦市区的耶稣会街区步行即可游览；周边庄园分散，建议租车探访阿尔塔格拉西亚等最具代表性的几处。",
+      "en": "The Jesuit Block in Córdoba city is walkable. The surrounding Estancias are spread out — a rental car is recommended. Alta Gracia is the most accessible and impressive Estancia."
+    }
+  },
+  {
+    "id": "quebrada-de-humahuaca",
+    "name": {
+      "zh": "胡马华卡山谷",
+      "en": "Quebrada de Humahuaca"
+    },
+    "description": {
+      "zh": "胡马华卡山谷是安第斯山脉中一条壮观的山间峡谷，历史上曾是印加帝国的重要通道，峡谷两侧的彩色地层绵延150公里，普尔马马尔卡的「七色山」是其中最令人惊叹的自然奇观。2003年列入UNESCO世界遗产（文化景观）。",
+      "en": "Quebrada de Humahuaca is a spectacular Andean valley that served as a vital Inca trade and military route. Its 150 km of multi-coloured geological strata culminate in Purmamarca's 'Hill of Seven Colours' — one of the Andes' most striking natural wonders. Inscribed as a UNESCO World Heritage Site (cultural landscape) in 2003."
+    },
+    "image": "https://picsum.photos/seed/quebrada-humahuaca-argentina/800/500",
+    "tags": {
+      "zh": ["世界遗产", "彩色山谷", "安第斯文化"],
+      "en": ["UNESCO Heritage", "Coloured Valley", "Andean Culture"]
+    },
+    "location": {
+      "zh": "胡胡伊省，阿根廷西北部",
+      "en": "Jujuy Province, northwestern Argentina"
+    },
+    "highlights": {
+      "zh": [
+        "普尔马马尔卡的「七色山」——令人叹为观止的彩色山地地层",
+        "印加帝国时期重要的交通和贸易路线，历史文化遗迹丰富",
+        "传统的安第斯集市和原住民手工艺品，文化氛围浓厚"
+      ],
+      "en": [
+        "Purmamarca's Hill of Seven Colours — breathtaking multi-coloured geological strata",
+        "Important Inca trade and military route, with rich historical cultural sites throughout",
+        "Traditional Andean markets and indigenous crafts — a living cultural heritage"
+      ]
+    },
+    "admission": {
+      "zh": "山谷免费；各镇博物馆约100—200阿根廷比索",
+      "en": "Valley free; town museums ~ARS$100–200"
+    },
+    "duration": {
+      "zh": "2—3天",
+      "en": "2–3 days"
+    },
+    "tips": {
+      "zh": "从胡胡伊（San Salvador de Jujuy）出发驱车约65公里可达普尔马马尔卡，海拔约2,200—3,800米，需注意高原反应。建议租车自驾游览整个山谷。",
+      "en": "Purmamarca is ~65 km from San Salvador de Jujuy. Altitude ranges 2,200–3,800 m throughout the valley — watch for symptoms of altitude sickness. Renting a car is the most flexible way to explore."
+    }
+  },
+  {
+    "id": "cueva-de-las-manos",
+    "name": {
+      "zh": "手印岩洞",
+      "en": "Cueva de las Manos, Río Pinturas"
+    },
+    "description": {
+      "zh": "手印岩洞是南美洲最重要的史前岩画遗址之一，岩壁上密布约公元前9,000年至公元前700年间留下的手印负像和动物绘画（主要为原驼），彩色手印多达800余个，展现了人类最原始的艺术表达形式。1999年列入UNESCO世界遗产。",
+      "en": "Cueva de las Manos is one of South America's most important prehistoric rock art sites, its walls covered in negative handprints and animal paintings (mainly guanacos) made between 9,000 and 700 BC. Over 800 coloured handprints represent one of humanity's earliest and most moving art traditions. Inscribed in 1999."
+    },
+    "image": "https://picsum.photos/seed/cueva-las-manos-argentina/800/500",
+    "tags": {
+      "zh": ["世界遗产", "史前岩画", "手印艺术"],
+      "en": ["UNESCO Heritage", "Prehistoric Rock Art", "Handprint Art"]
+    },
+    "location": {
+      "zh": "圣克鲁斯省，阿根廷南部",
+      "en": "Santa Cruz Province, southern Argentina"
+    },
+    "highlights": {
+      "zh": [
+        "约9,000年历史的手印负像，是人类最古老的艺术表达之一",
+        "超过800个彩色手印覆盖峡谷岩壁，视觉冲击力极强",
+        "同时保存有原驼、鸵鸟等当地动物的写实绘画"
+      ],
+      "en": [
+        "~9,000-year-old negative handprints — one of humanity's earliest artistic expressions",
+        "Over 800 coloured handprints covering the canyon walls create a visually overwhelming experience",
+        "Realistic paintings of guanacos, rheas and other local fauna preserved alongside the handprints"
+      ]
+    },
+    "admission": {
+      "zh": "约500阿根廷比索（含导览）",
+      "en": "~ARS$500 (guided visit included)"
+    },
+    "duration": {
+      "zh": "2—3小时",
+      "en": "2–3 hours"
+    },
+    "tips": {
+      "zh": "位于佩里托莫雷诺镇（注意：与冰川同名）附近，距里约加耶戈斯约400公里。建议租车前往，也可从附近农场参加导游团。",
+      "en": "Located near the town of Perito Moreno (not the glacier), ~400 km from Río Gallegos. A rental car is the most practical option, or join a guided tour from a nearby estancia."
+    }
+  },
+  {
+    "id": "valdez-peninsula",
+    "name": {
+      "zh": "巴尔德斯半岛",
+      "en": "Valdés Peninsula"
+    },
+    "description": {
+      "zh": "巴尔德斯半岛是南大西洋最重要的海洋哺乳动物庇护地，每年吸引南露脊鲸、虎鲸、象海豹、南海狮和麦哲伦企鹅前来繁殖。虎鲸在此冲上沙滩捕食海狮的奇观是世界独一无二的自然现象。1999年列入UNESCO世界遗产。",
+      "en": "Valdés Peninsula is the most important marine mammal sanctuary in the South Atlantic, drawing southern right whales, orcas, elephant seals, South American sea lions and Magellanic penguins for breeding. The spectacle of orcas intentionally beaching to hunt sea lions is unique in the world. Inscribed in 1999."
+    },
+    "image": "https://picsum.photos/seed/valdez-peninsula-argentina/800/500",
+    "tags": {
+      "zh": ["世界遗产", "海洋野生动物", "虎鲸"],
+      "en": ["UNESCO Heritage", "Marine Wildlife", "Orca"]
+    },
+    "location": {
+      "zh": "丘布特省，阿根廷巴塔哥尼亚",
+      "en": "Chubut Province, Argentine Patagonia"
+    },
+    "highlights": {
+      "zh": [
+        "6—12月南露脊鲸来此繁殖，是全球最佳观鲸地之一",
+        "3—4月虎鲸在卡尔塔湾冲滩捕食南海狮，全球独一无二",
+        "麦哲伦企鹅繁殖地，9—3月可观赏约20万只企鹅"
+      ],
+      "en": [
+        "June–December: southern right whales breed here — one of the world's best whale-watching sites",
+        "March–April: orcas intentionally beach themselves to hunt sea lions at Caleta Valdés — a globally unique spectacle",
+        "Magellanic penguin colony with up to 200,000 birds present September–March"
+      ]
+    },
+    "admission": {
+      "zh": "半岛入口约800阿根廷比索；观鲸船游约100—150美元",
+      "en": "Peninsula entry ~ARS$800; whale-watching boat tour ~US$100–150"
+    },
+    "duration": {
+      "zh": "1—2天",
+      "en": "1–2 days"
+    },
+    "tips": {
+      "zh": "最佳观鲸时间为6—12月，最佳观虎鲸冲滩时间为3—4月（具体日期和潮汐有关）。从布宜诺斯艾利斯飞马德普拉塔再驱车约90分钟可达半岛。",
+      "en": "Best whale watching June–December; best orca beaching March–April (tide-dependent). Fly from Buenos Aires to Puerto Madryn, then drive ~90 minutes to the peninsula. Book wildlife tours in advance."
+    }
+  },
+  {
+    "id": "los-alerces",
+    "name": {
+      "zh": "阿莱尔塞斯国家公园",
+      "en": "Los Alerces National Park"
+    },
+    "description": {
+      "zh": "阿莱尔塞斯国家公园以其树龄超过3,000年的巴塔哥尼亚柏（Fitzroya cupressoides，又称「落叶松」）古树林著称，这些南美洲最古老的树木是巴塔哥尼亚温带雨林的珍贵遗存。2017年列入UNESCO世界遗产。",
+      "en": "Los Alerces National Park is celebrated for its ancient alerce (Fitzroya cupressoides) forests, with trees over 3,000 years old — the oldest living organisms in South America. These towering conifers are the precious remnant of Patagonian temperate rainforest. Inscribed as a UNESCO World Heritage Site in 2017."
+    },
+    "image": "https://picsum.photos/seed/los-alerces-argentina/800/500",
+    "tags": {
+      "zh": ["世界遗产", "古老柏树", "巴塔哥尼亚雨林"],
+      "en": ["UNESCO Heritage", "Ancient Alerce Trees", "Patagonian Rainforest"]
+    },
+    "location": {
+      "zh": "丘布特省，阿根廷南部",
+      "en": "Chubut Province, southern Argentina"
+    },
+    "highlights": {
+      "zh": [
+        "三千年树龄的阿莱尔塞斯古柏，南美洲最古老的生命体",
+        "公园内翠绿的湖泊、瀑布和温带雨林构成世外桃源",
+        "埃尔阿莱尔塞斯（El Alerces）古树区是公园的精华所在"
+      ],
+      "en": [
+        "3,000-year-old alerce trees — the oldest living organisms in South America",
+        "Emerald lakes, waterfalls and temperate rainforest create an otherworldly landscape",
+        "El Alerces ancient tree grove is the crown jewel of the park"
+      ]
+    },
+    "admission": {
+      "zh": "约600阿根廷比索",
+      "en": "~ARS$600"
+    },
+    "duration": {
+      "zh": "1—3天",
+      "en": "1–3 days"
+    },
+    "tips": {
+      "zh": "距埃斯克尔镇（Esquel）约50公里，乘船游览富塔莱乌富湖（Lago Futalaufquen）是进入古树区的经典方式。11月至3月（南半球夏季）为最佳游览期。",
+      "en": "About 50 km from Esquel. A boat trip on Lago Futalaufquen is the classic way to reach the alerce grove. Visit November–March (southern summer) for the best weather and trail conditions."
+    }
+  },
+  {
+    "id": "magallanes-tierra-del-fuego-geopark",
+    "name": {
+      "zh": "麦哲伦-火地岛UNESCO世界地质公园",
+      "en": "Magallanes-Tierra del Fuego UNESCO Global Geopark"
+    },
+    "description": {
+      "zh": "麦哲伦-火地岛地质公园位于阿根廷最南端的火地岛省，展示了地球上最具特色的亚极地地质与冰川地貌，包括世界最南端的泥炭沼泽生态系统、独特的比格尔海峡地质构造和丰富的化石记录。2024年被列为UNESCO世界地质公园。",
+      "en": "The Magallanes-Tierra del Fuego UNESCO Global Geopark in Argentina's southernmost Tierra del Fuego Province showcases some of Earth's most distinctive sub-polar geological and glacial landscapes, including the world's southernmost peat bog ecosystem, unique Beagle Channel geology and rich fossil records. Designated in 2024."
+    },
+    "image": "https://picsum.photos/seed/magallanes-geopark-argentina/800/500",
+    "tags": {
+      "zh": ["地质公园", "火地岛", "亚极地地貌"],
+      "en": ["UNESCO Geopark", "Tierra del Fuego", "Sub-polar Landscape"]
+    },
+    "location": {
+      "zh": "火地岛省，阿根廷最南端",
+      "en": "Tierra del Fuego Province, southernmost Argentina"
+    },
+    "highlights": {
+      "zh": [
+        "火地岛国家公园：世界最南端的国家公园，南极磁场般的原始荒野",
+        "比格尔海峡：达尔文当年航行的历史水道，野生动物丰富",
+        "乌斯怀亚（Ushuaia）：世界最南端的城市，「世界尽头之城」"
+      ],
+      "en": [
+        "Tierra del Fuego National Park — the world's southernmost national park with a primordial sub-polar wilderness",
+        "Beagle Channel — the historic waterway navigated by Darwin, rich in marine wildlife",
+        "Ushuaia — the world's southernmost city; the ultimate 'End of the World' destination"
+      ]
+    },
+    "admission": {
+      "zh": "火地岛国家公园约800阿根廷比索",
+      "en": "Tierra del Fuego National Park ~ARS$800"
+    },
+    "duration": {
+      "zh": "2—3天",
+      "en": "2–3 days"
+    },
+    "tips": {
+      "zh": "乌斯怀亚是最佳出发基地，有直飞航班从布宜诺斯艾利斯抵达（约3.5小时）。1—3月（南半球夏季）气候最好，但11月至4月都适合游览。",
+      "en": "Ushuaia is the gateway city, with direct flights from Buenos Aires (~3.5 hours). January–March has the best weather, but November–April are all viable. Combine with a Beagle Channel boat trip."
+    }
+  },
+  {
+    "id": "sierras-san-luis-geopark",
+    "name": {
+      "zh": "圣路易斯山脉UNESCO世界地质公园",
+      "en": "Sierras de San Luis UNESCO Global Geopark"
+    },
+    "description": {
+      "zh": "圣路易斯山脉地质公园位于阿根廷圣路易斯省，展示了约7亿年历史的前寒武纪变质岩地层、独特的「鞋底石」（talampaya）地貌和丰富的矿产资源。2024年被列为UNESCO世界地质公园。",
+      "en": "The Sierras de San Luis UNESCO Global Geopark in San Luis Province showcases ~700 million-year-old Precambrian metamorphic rock formations, unique eroded landforms and rich mineral diversity. Designated in 2024."
+    },
+    "image": "https://picsum.photos/seed/sierras-san-luis-argentina/800/500",
+    "tags": {
+      "zh": ["地质公园", "前寒武纪岩层", "矿产多样性"],
+      "en": ["UNESCO Geopark", "Precambrian Geology", "Mineral Diversity"]
+    },
+    "location": {
+      "zh": "圣路易斯省，阿根廷中部",
+      "en": "San Luis Province, central Argentina"
+    },
+    "highlights": {
+      "zh": [
+        "约7亿年历史的前寒武纪变质岩，是阿根廷最古老的地质记录之一",
+        "独特的山地侵蚀地貌和多样的矿物晶体",
+        "当地原住民的岩画和文化遗址丰富"
+      ],
+      "en": [
+        "~700 million-year-old Precambrian metamorphic rocks — among Argentina's oldest geological records",
+        "Distinctive mountain erosion landforms and diverse mineral crystals",
+        "Rich indigenous rock art and cultural heritage sites throughout the area"
+      ]
+    },
+    "admission": {
+      "zh": "各景点收费约200—400阿根廷比索",
+      "en": "Individual sites ~ARS$200–400"
+    },
+    "duration": {
+      "zh": "1—2天",
+      "en": "1–2 days"
+    },
+    "tips": {
+      "zh": "圣路易斯市是探索地质公园的最佳基地，距布宜诺斯艾利斯约790公里，可驾车或乘长途巴士前往。",
+      "en": "San Luis city is the best base for exploring the geopark, ~790 km from Buenos Aires by road or long-distance bus."
     }
   }
 ]

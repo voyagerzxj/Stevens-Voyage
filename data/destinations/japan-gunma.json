@@ -1,0 +1,55 @@
+[
+  {
+    "id": "tomioka-silk-mill",
+    "name": {
+      "zh": "富冈制丝厂及丝绸工业遗产群",
+      "en": "Tomioka Silk Mill and Related Sites"
+    },
+    "description": {
+      "zh": "富冈制丝厂建于1872年，是日本明治政府引进西方技术的第一座大型官营纺织工厂，开创了近代产业化蚕丝生产的先驱。遗产群含四处相关养蚕农场，于2014年列入UNESCO世界遗产。",
+      "en": "Built in 1872, Tomioka Silk Mill was Japan's first large government-operated Western-style filature, the anchor of the Meiji government's industrialisation drive. The inscribed group includes four sericulture sites. UNESCO-listed in 2014."
+    },
+    "image": "https://picsum.photos/seed/tomioka-silk-japan/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "明治工业",
+        "丝绸文化"
+      ],
+      "en": [
+        "UNESCO Heritage",
+        "Meiji Industry",
+        "Silk Culture"
+      ]
+    },
+    "location": {
+      "zh": "群马县富冈市",
+      "en": "Tomioka City, Gunma Prefecture"
+    },
+    "highlights": {
+      "zh": [
+        "保存完好的19世纪大型法式砖造缫丝工厂",
+        "东仓、西仓：巨型砖木混合结构蚕茧仓库",
+        "高山社、荒船风穴、田岛弥平旧宅：养蚕技术关联遗址"
+      ],
+      "en": [
+        "Exceptionally well-preserved 19th-century French-designed brick filature",
+        "East and West cocoon warehouses: massive brick-and-timber hybrid structures",
+        "Associated sericulture sites: Takayama-sha, Arafune Cold Storage, Tajima Yahei Sericulture Farm"
+      ]
+    },
+    "admission": {
+      "zh": "富冈制丝厂1,000日元",
+      "en": "Tomioka Silk Mill ¥1,000"
+    },
+    "duration": {
+      "zh": "富冈制丝厂约1.5小时，全遗产群一日",
+      "en": "Tomioka Mill ~1.5 hours; full heritage group 1 day"
+    },
+    "tips": {
+      "zh": "从高崎乘上信电铁约40分钟。富冈市内有免费巡回巴士连接各景点。",
+      "en": "About 40 minutes from Takasaki by Joshin Electric Railway. Free loop buses in Tomioka connect the attractions."
+    },
+    "subdivision": "gunma"
+  }
+]

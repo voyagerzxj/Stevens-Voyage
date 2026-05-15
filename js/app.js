@@ -1240,11 +1240,6 @@ async function initCountry() {
       ).join('')}
     </section>
 
-    <section class="section map-section" style="padding-top:0">
-      <h2 class="section-title">${t('map_title')}</h2>
-      <div id="leaflet-map" class="map-container"></div>
-    </section>
-
     ${buildCuisineSection(detail.cuisine)}
     ${buildBestTimeSection(detail.bestTime)}
     ${subSection}`;
@@ -1258,22 +1253,6 @@ async function initCountry() {
       document.getElementById('panel-' + btn.dataset.tab)?.classList.add('active');
     });
   });
-
-  // Load destinations for the map
-  try {
-    let dests = [];
-    if (meta.isLarge && meta.subdivisions) {
-      const subs = Object.keys(meta.subdivisions);
-      const results = await Promise.all(
-        subs.map(s => fetchJSON(`data/destinations/${id}-${s}.json`).catch(() => []))
-      );
-      dests = results.flat();
-    } else {
-      dests = await fetchJSON(`data/destinations/${id}.json`).catch(() => []);
-    }
-    const mapMeta = countryMapMeta(id);
-    buildMap('leaflet-map', dests, mapMeta.center, mapMeta.zoom);
-  } catch { /* map fails silently */ }
 }
 
 // ── Page: Destinations ─────────────────────────────────
@@ -1289,26 +1268,37 @@ async function initDestinations() {
   const contMeta2 = continents.find(c => c.id === meta.continent);
   const contLabel2 = contMeta2 ? tx(contMeta2.name) : meta.continent;
 
-  const activeSub = sub || 'all';
+  const isLargeOverview = !!(meta.isLarge && meta.subdivisions && !sub);
   const heroTitle = (sub && meta.subdivisions?.[sub])
     ? `${meta.flag} ${tx(meta.subdivisions[sub].name)}`
     : `${meta.flag} ${tx(meta.name)}`;
 
-  // Build filter bar for large countries
+  // Filter bar: large country with a subdivision selected → navigation pills
   let filterBar = '';
-  if (meta.isLarge && meta.subdivisions) {
-    const btns = [
-      `<button class="filter-btn${activeSub==='all'?' active':''}" data-sub="all">${t('filter_all')}</button>`,
-      ...Object.entries(meta.subdivisions).map(([sid, s]) =>
-        `<button class="filter-btn${activeSub===sid?' active':''}" data-sub="${sid}">${tx(s.name)}</button>`)
-    ].join('');
+  if (meta.isLarge && meta.subdivisions && sub) {
+    const btns = Object.entries(meta.subdivisions).map(([sid, s]) =>
+      `<button class="filter-btn${sub === sid ? ' active' : ''}" data-sub="${sid}">${tx(s.name)}</button>`)
+      .join('');
     filterBar = `<div class="filter-bar" id="filterBar">${btns}</div>`;
+  }
+
+  // Breadcrumb — add subdivision level when a sub is selected
+  const crumbs = [
+    { href: 'index.html', label: t('nav_home') },
+    { href: buildUrl('continent.html', { id: meta.continent }), label: contLabel2 },
+    { href: buildUrl('country.html', { id }), label: tx(meta.name) },
+  ];
+  if (meta.isLarge && sub) {
+    crumbs.push({ href: buildUrl('destinations.html', { id }), label: t('dest_title') });
+    crumbs.push({ href: '#', label: tx(meta.subdivisions?.[sub]?.name) });
+  } else {
+    crumbs.push({ href: '#', label: t('dest_title') });
   }
 
   root.innerHTML = `
     <section class="hero hero-small">
       <img class="hero-img"
-           src="https://picsum.photos/seed/${id}${sub?'-'+sub:''}/1600/500"
+           src="https://picsum.photos/seed/${id}${sub ? '-' + sub : ''}/1600/500"
            alt="${heroTitle}"
            onerror="this.src='${meta.coverImage}'">
       <div class="hero-content">
@@ -1317,29 +1307,37 @@ async function initDestinations() {
       </div>
     </section>
     <div class="container">
-      ${buildBreadcrumb([
-        { href: 'index.html', label: t('nav_home') },
-        { href: buildUrl('continent.html', { id: meta.continent }), label: contLabel2 },
-        { href: buildUrl('country.html', { id }), label: tx(meta.name) },
-        { href: '#', label: t('dest_title') },
-      ])}
+      ${buildBreadcrumb(crumbs)}
       ${filterBar}
-      <section class="section map-section" style="padding-top:${filterBar?'0':'2rem'}">
-        <h2 class="section-title">${t('map_title')}</h2>
-        <div id="leaflet-map" class="map-container"></div>
-      </section>
-      <div id="destGrid">${buildLoading()}</div>
+      ${isLargeOverview ? '' : `
+        <section class="section map-section" style="padding-top:${filterBar ? '0' : '2rem'}">
+          <h2 class="section-title">${t('map_title')}</h2>
+          <div id="leaflet-map" class="map-container"></div>
+        </section>`}
+      <div id="destGrid">${isLargeOverview ? '' : buildLoading()}</div>
     </div>`;
 
-  // Load all destination data
+  // Large-country overview: show subdivision grid, no data fetch needed
+  if (isLargeOverview) {
+    document.getElementById('destGrid').innerHTML = `
+      <section class="section" style="padding-top:1.5rem">
+        <h2 class="section-title">${t('subdivisions')}</h2>
+        <div class="subdivision-grid">
+          ${Object.entries(meta.subdivisions).map(([sid, s]) => `
+            <a class="sub-card" href="${buildUrl('destinations.html', { id, sub: sid })}">
+              <span class="emoji">${s.emoji || '📍'}</span>
+              <span class="sub-name">${tx(s.name)}</span>
+            </a>`).join('')}
+        </div>
+      </section>`;
+    return;
+  }
+
+  // Load destination data for the selected subdivision (or full file for small countries)
   let allDests = [];
   try {
-    if (meta.isLarge && meta.subdivisions) {
-      const subs = Object.keys(meta.subdivisions);
-      const results = await Promise.all(
-        subs.map(s => fetchJSON(`data/destinations/${id}-${s}.json`).catch(() => []))
-      );
-      allDests = results.flat();
+    if (meta.isLarge && sub) {
+      allDests = await fetchJSON(`data/destinations/${id}-${sub}.json`);
     } else {
       allDests = await fetchJSON(`data/destinations/${id}.json`);
     }
@@ -1349,9 +1347,9 @@ async function initDestinations() {
   }
 
   // Render destination grid
-  document.getElementById('destGrid').innerHTML = renderDests(allDests, activeSub);
+  document.getElementById('destGrid').innerHTML = renderDests(allDests, 'all');
 
-  // Open modal on card click (event delegation — survives filter re-renders)
+  // Open modal on card click
   document.getElementById('destGrid').addEventListener('click', e => {
     const card = e.target.closest('[data-dest-id]');
     if (!card) return;
@@ -1361,23 +1359,13 @@ async function initDestinations() {
 
   // Build map
   const mapMeta = sub ? subMapMeta(id, sub) : countryMapMeta(id);
-  const initDests = activeSub === 'all' ? allDests
-    : allDests.filter(d => !d.subdivision || d.subdivision === activeSub);
-  buildMap('leaflet-map', initDests, mapMeta.center, mapMeta.zoom);
+  buildMap('leaflet-map', allDests, mapMeta.center, mapMeta.zoom);
 
-  // Wire filter buttons
-  if (meta.isLarge) {
+  // Wire filter buttons → navigate to the selected subdivision page
+  if (meta.isLarge && sub) {
     document.querySelectorAll('#filterBar .filter-btn').forEach(btn => {
       btn.addEventListener('click', () => {
-        document.querySelectorAll('#filterBar .filter-btn').forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-        const s = btn.dataset.sub;
-        document.getElementById('destGrid').innerHTML = renderDests(allDests, s);
-        filterMap(s);
-        if (s !== 'all') {
-          const sm = subMapMeta(id, s);
-          _map && _map.setView(sm.center, sm.zoom);
-        }
+        window.location.href = buildUrl('destinations.html', { id, sub: btn.dataset.sub });
       });
     });
   }

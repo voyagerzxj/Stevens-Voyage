@@ -1,0 +1,55 @@
+[
+  {
+    "id": "nikko-shrines",
+    "name": {
+      "zh": "日光神社与寺庙",
+      "en": "Shrines and Temples of Nikko"
+    },
+    "description": {
+      "zh": "日光是日本江户幕府初代将军德川家康的灵庙所在地，华丽的东照宫以金箔、彩绘和精雕细刻的建筑装饰著称。深山林中的神社寺庙群于1999年列入UNESCO世界遗产。",
+      "en": "Nikko is the mausoleum of Tokugawa Ieyasu, founder of the Edo shogunate. The ornate Tosho-gu shrine dazzles with gold leaf, vivid lacquerwork and intricate carvings set deep in mountain cedars. UNESCO-listed in 1999."
+    },
+    "image": "https://picsum.photos/seed/nikko-shrines-japan/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "神社",
+        "江户时代"
+      ],
+      "en": [
+        "UNESCO Heritage",
+        "Shrine",
+        "Edo Period"
+      ]
+    },
+    "location": {
+      "zh": "栃木县日光市",
+      "en": "Nikko, Tochigi Prefecture"
+    },
+    "highlights": {
+      "zh": [
+        "东照宫阳明门：被誉为「日落之门」，雕刻精绝",
+        "三猿（非礼、非听、非视）雕刻世界闻名",
+        "秋季枫叶与金色建筑交相辉映"
+      ],
+      "en": [
+        "Tosho-gu's Yomeimon Gate: the 'Twilight Gate' adorned with 508 intricate carvings",
+        "The Three Wise Monkeys (see, hear, speak no evil) are world-famous",
+        "Autumn maples frame the gilded shrine buildings spectacularly"
+      ]
+    },
+    "admission": {
+      "zh": "东照宫及轮王寺套票约1,300—2,500日元",
+      "en": "Tosho-gu and Rinnoji combined pass ~¥1,300–2,500"
+    },
+    "duration": {
+      "zh": "一天",
+      "en": "Full day"
+    },
+    "tips": {
+      "zh": "从东京新宿乘特急约2小时，是东京出发的热门一日游目的地。建议避开黄金周和暑假旺季。",
+      "en": "About 2 hours from Tokyo Shinjuku by limited express — a classic day trip. Avoid Golden Week and summer holiday peaks."
+    },
+    "subdivision": "tochigi"
+  }
+]

@@ -210,39 +210,136 @@
       },
       "subdivisions": {
         "beijing": {
-          "name": {
-            "zh": "北京",
-            "en": "Beijing"
-          },
+          "name": { "zh": "北京", "en": "Beijing" },
           "emoji": "🏯"
         },
+        "tianjin": {
+          "name": { "zh": "天津", "en": "Tianjin" },
+          "emoji": "🌊"
+        },
+        "hebei": {
+          "name": { "zh": "河北", "en": "Hebei" },
+          "emoji": "🏔️"
+        },
+        "shanxi": {
+          "name": { "zh": "山西", "en": "Shanxi" },
+          "emoji": "🗿"
+        },
+        "inner-mongolia": {
+          "name": { "zh": "内蒙古", "en": "Inner Mongolia" },
+          "emoji": "🐎"
+        },
+        "liaoning": {
+          "name": { "zh": "辽宁", "en": "Liaoning" },
+          "emoji": "🏛️"
+        },
+        "jilin": {
+          "name": { "zh": "吉林", "en": "Jilin" },
+          "emoji": "🌲"
+        },
+        "heilongjiang": {
+          "name": { "zh": "黑龙江", "en": "Heilongjiang" },
+          "emoji": "❄️"
+        },
         "shanghai": {
-          "name": {
-            "zh": "上海",
-            "en": "Shanghai"
-          },
+          "name": { "zh": "上海", "en": "Shanghai" },
           "emoji": "🌆"
         },
-        "sichuan": {
-          "name": {
-            "zh": "四川",
-            "en": "Sichuan"
-          },
-          "emoji": "🐼"
+        "jiangsu": {
+          "name": { "zh": "江苏", "en": "Jiangsu" },
+          "emoji": "🌿"
         },
-        "yunnan": {
-          "name": {
-            "zh": "云南",
-            "en": "Yunnan"
-          },
+        "zhejiang": {
+          "name": { "zh": "浙江", "en": "Zhejiang" },
+          "emoji": "🏞️"
+        },
+        "anhui": {
+          "name": { "zh": "安徽", "en": "Anhui" },
+          "emoji": "⛰️"
+        },
+        "fujian": {
+          "name": { "zh": "福建", "en": "Fujian" },
+          "emoji": "🏘️"
+        },
+        "jiangxi": {
+          "name": { "zh": "江西", "en": "Jiangxi" },
           "emoji": "🌄"
         },
+        "shandong": {
+          "name": { "zh": "山东", "en": "Shandong" },
+          "emoji": "🏔️"
+        },
+        "henan": {
+          "name": { "zh": "河南", "en": "Henan" },
+          "emoji": "🏛️"
+        },
+        "hubei": {
+          "name": { "zh": "湖北", "en": "Hubei" },
+          "emoji": "🏯"
+        },
+        "hunan": {
+          "name": { "zh": "湖南", "en": "Hunan" },
+          "emoji": "🌫️"
+        },
         "guangdong": {
-          "name": {
-            "zh": "广东",
-            "en": "Guangdong"
-          },
+          "name": { "zh": "广东", "en": "Guangdong" },
           "emoji": "🏙️"
+        },
+        "guangxi": {
+          "name": { "zh": "广西", "en": "Guangxi" },
+          "emoji": "🗻"
+        },
+        "hainan": {
+          "name": { "zh": "海南", "en": "Hainan" },
+          "emoji": "🏝️"
+        },
+        "chongqing": {
+          "name": { "zh": "重庆", "en": "Chongqing" },
+          "emoji": "🌁"
+        },
+        "sichuan": {
+          "name": { "zh": "四川", "en": "Sichuan" },
+          "emoji": "🐼"
+        },
+        "guizhou": {
+          "name": { "zh": "贵州", "en": "Guizhou" },
+          "emoji": "🌊"
+        },
+        "yunnan": {
+          "name": { "zh": "云南", "en": "Yunnan" },
+          "emoji": "🌄"
+        },
+        "tibet": {
+          "name": { "zh": "西藏", "en": "Tibet" },
+          "emoji": "🏔️"
+        },
+        "shaanxi": {
+          "name": { "zh": "陕西", "en": "Shaanxi" },
+          "emoji": "🏺"
+        },
+        "gansu": {
+          "name": { "zh": "甘肃", "en": "Gansu" },
+          "emoji": "🐪"
+        },
+        "qinghai": {
+          "name": { "zh": "青海", "en": "Qinghai" },
+          "emoji": "🦅"
+        },
+        "ningxia": {
+          "name": { "zh": "宁夏", "en": "Ningxia" },
+          "emoji": "🕌"
+        },
+        "xinjiang": {
+          "name": { "zh": "新疆", "en": "Xinjiang" },
+          "emoji": "🏜️"
+        },
+        "hong-kong": {
+          "name": { "zh": "香港", "en": "Hong Kong" },
+          "emoji": "🌃"
+        },
+        "macau": {
+          "name": { "zh": "澳门", "en": "Macau" },
+          "emoji": "🎰"
         }
       }
     },
@@ -258,10 +355,59 @@
         "en": "Tokyo"
       },
       "coverImage": "https://picsum.photos/seed/japan-fuji/1200/500",
-      "isLarge": false,
+      "isLarge": true,
       "brief": {
         "zh": "日本是位于东亚的岛国，由本州、四国、九州、北海道四大岛及众多小岛组成。国土多山，平原面积狭小。地处环太平洋火山带，地震和火山活动频繁。富士山是日本最高峰，高3776米。",
         "en": "Japan is an island nation in East Asia comprising four main islands — Honshu, Shikoku, Kyushu, Hokkaido — and thousands of smaller islands. Mountainou…"
+      },
+      "subdivisions": {
+        "hokkaido":    { "name": { "zh": "北海道", "en": "Hokkaido" },    "emoji": "❄️" },
+        "aomori":     { "name": { "zh": "青森县", "en": "Aomori" },      "emoji": "🍎" },
+        "iwate":      { "name": { "zh": "岩手县", "en": "Iwate" },       "emoji": "🏔️" },
+        "miyagi":     { "name": { "zh": "宫城县", "en": "Miyagi" },      "emoji": "🦀" },
+        "akita":      { "name": { "zh": "秋田县", "en": "Akita" },       "emoji": "🌾" },
+        "yamagata":   { "name": { "zh": "山形县", "en": "Yamagata" },    "emoji": "🍒" },
+        "fukushima":  { "name": { "zh": "福岛县", "en": "Fukushima" },   "emoji": "🌸" },
+        "ibaraki":    { "name": { "zh": "茨城县", "en": "Ibaraki" },     "emoji": "🌹" },
+        "tochigi":    { "name": { "zh": "栃木县", "en": "Tochigi" },     "emoji": "🍓" },
+        "gunma":      { "name": { "zh": "群马县", "en": "Gunma" },       "emoji": "♨️" },
+        "saitama":    { "name": { "zh": "埼玉县", "en": "Saitama" },     "emoji": "🌻" },
+        "chiba":      { "name": { "zh": "千叶县", "en": "Chiba" },       "emoji": "🎡" },
+        "tokyo":      { "name": { "zh": "东京都", "en": "Tokyo" },       "emoji": "🗼" },
+        "kanagawa":   { "name": { "zh": "神奈川县", "en": "Kanagawa" },  "emoji": "🚢" },
+        "niigata":    { "name": { "zh": "新潟县", "en": "Niigata" },     "emoji": "🌾" },
+        "toyama":     { "name": { "zh": "富山县", "en": "Toyama" },      "emoji": "🦀" },
+        "ishikawa":   { "name": { "zh": "石川县", "en": "Ishikawa" },    "emoji": "🥢" },
+        "fukui":      { "name": { "zh": "福井县", "en": "Fukui" },       "emoji": "🦕" },
+        "yamanashi":  { "name": { "zh": "山梨县", "en": "Yamanashi" },   "emoji": "🍇" },
+        "nagano":     { "name": { "zh": "长野县", "en": "Nagano" },      "emoji": "⛷️" },
+        "gifu":       { "name": { "zh": "岐阜县", "en": "Gifu" },        "emoji": "🏯" },
+        "shizuoka":   { "name": { "zh": "静冈县", "en": "Shizuoka" },    "emoji": "🗻" },
+        "aichi":      { "name": { "zh": "爱知县", "en": "Aichi" },       "emoji": "🚗" },
+        "mie":        { "name": { "zh": "三重县", "en": "Mie" },         "emoji": "⛩️" },
+        "shiga":      { "name": { "zh": "滋贺县", "en": "Shiga" },       "emoji": "🏞️" },
+        "kyoto":      { "name": { "zh": "京都府", "en": "Kyoto" },       "emoji": "⛩️" },
+        "osaka":      { "name": { "zh": "大阪府", "en": "Osaka" },       "emoji": "🏯" },
+        "hyogo":      { "name": { "zh": "兵库县", "en": "Hyogo" },       "emoji": "🌉" },
+        "nara":       { "name": { "zh": "奈良县", "en": "Nara" },        "emoji": "🦌" },
+        "wakayama":   { "name": { "zh": "和歌山县", "en": "Wakayama" },  "emoji": "🍊" },
+        "tottori":    { "name": { "zh": "鸟取县", "en": "Tottori" },     "emoji": "🏜️" },
+        "shimane":    { "name": { "zh": "岛根县", "en": "Shimane" },     "emoji": "⛩️" },
+        "okayama":    { "name": { "zh": "冈山县", "en": "Okayama" },     "emoji": "🏯" },
+        "hiroshima":  { "name": { "zh": "广岛县", "en": "Hiroshima" },   "emoji": "☮️" },
+        "yamaguchi":  { "name": { "zh": "山口县", "en": "Yamaguchi" },   "emoji": "🐡" },
+        "tokushima":  { "name": { "zh": "德岛县", "en": "Tokushima" },   "emoji": "💃" },
+        "kagawa":     { "name": { "zh": "香川县", "en": "Kagawa" },      "emoji": "🍜" },
+        "ehime":      { "name": { "zh": "爱媛县", "en": "Ehime" },       "emoji": "🍊" },
+        "kochi":      { "name": { "zh": "高知县", "en": "Kochi" },       "emoji": "🌊" },
+        "fukuoka":    { "name": { "zh": "福冈县", "en": "Fukuoka" },     "emoji": "🍜" },
+        "saga":       { "name": { "zh": "佐贺县", "en": "Saga" },        "emoji": "🏯" },
+        "nagasaki":   { "name": { "zh": "长崎县", "en": "Nagasaki" },    "emoji": "⛪" },
+        "kumamoto":   { "name": { "zh": "熊本县", "en": "Kumamoto" },    "emoji": "🏯" },
+        "oita":       { "name": { "zh": "大分县", "en": "Oita" },        "emoji": "♨️" },
+        "miyazaki":   { "name": { "zh": "宫崎县", "en": "Miyazaki" },    "emoji": "🌴" },
+        "kagoshima":  { "name": { "zh": "鹿儿岛县", "en": "Kagoshima" }, "emoji": "🌋" },
+        "okinawa":    { "name": { "zh": "冲绳县", "en": "Okinawa" },     "emoji": "🐠" }
       }
     },
     "india": {
@@ -354,41 +500,56 @@
         "en": "The USA occupies the center of North America, bordered by the Atlantic to the east, Pacific to the west, Canada to the north and Mexico to the south. …"
       },
       "subdivisions": {
-        "new-york": {
-          "name": {
-            "zh": "纽约州",
-            "en": "New York"
-          },
-          "emoji": "🗽"
-        },
-        "california": {
-          "name": {
-            "zh": "加利福尼亚州",
-            "en": "California"
-          },
-          "emoji": "🌉"
-        },
-        "hawaii": {
-          "name": {
-            "zh": "夏威夷州",
-            "en": "Hawaii"
-          },
-          "emoji": "🌺"
-        },
-        "florida": {
-          "name": {
-            "zh": "佛罗里达州",
-            "en": "Florida"
-          },
-          "emoji": "🐊"
-        },
-        "alaska": {
-          "name": {
-            "zh": "阿拉斯加州",
-            "en": "Alaska"
-          },
-          "emoji": "🐻"
-        }
+        "alabama": { "name": { "zh": "阿拉巴马州", "en": "Alabama" }, "emoji": "🏛️" },
+        "alaska": { "name": { "zh": "阿拉斯加州", "en": "Alaska" }, "emoji": "🐻" },
+        "arizona": { "name": { "zh": "亚利桑那州", "en": "Arizona" }, "emoji": "🌵" },
+        "arkansas": { "name": { "zh": "阿肯色州", "en": "Arkansas" }, "emoji": "💎" },
+        "california": { "name": { "zh": "加利福尼亚州", "en": "California" }, "emoji": "🌉" },
+        "colorado": { "name": { "zh": "科罗拉多州", "en": "Colorado" }, "emoji": "⛷️" },
+        "connecticut": { "name": { "zh": "康涅狄格州", "en": "Connecticut" }, "emoji": "🏛️" },
+        "delaware": { "name": { "zh": "特拉华州", "en": "Delaware" }, "emoji": "🔔" },
+        "florida": { "name": { "zh": "佛罗里达州", "en": "Florida" }, "emoji": "🐊" },
+        "georgia": { "name": { "zh": "佐治亚州", "en": "Georgia" }, "emoji": "🍑" },
+        "hawaii": { "name": { "zh": "夏威夷州", "en": "Hawaii" }, "emoji": "🌺" },
+        "idaho": { "name": { "zh": "爱达荷州", "en": "Idaho" }, "emoji": "🥔" },
+        "illinois": { "name": { "zh": "伊利诺伊州", "en": "Illinois" }, "emoji": "🌆" },
+        "indiana": { "name": { "zh": "印第安纳州", "en": "Indiana" }, "emoji": "🏎️" },
+        "iowa": { "name": { "zh": "艾奥瓦州", "en": "Iowa" }, "emoji": "🌽" },
+        "kansas": { "name": { "zh": "堪萨斯州", "en": "Kansas" }, "emoji": "🌾" },
+        "kentucky": { "name": { "zh": "肯塔基州", "en": "Kentucky" }, "emoji": "🐴" },
+        "louisiana": { "name": { "zh": "路易斯安那州", "en": "Louisiana" }, "emoji": "🎷" },
+        "maine": { "name": { "zh": "缅因州", "en": "Maine" }, "emoji": "🦞" },
+        "maryland": { "name": { "zh": "马里兰州", "en": "Maryland" }, "emoji": "🦀" },
+        "massachusetts": { "name": { "zh": "马萨诸塞州", "en": "Massachusetts" }, "emoji": "🎓" },
+        "michigan": { "name": { "zh": "密歇根州", "en": "Michigan" }, "emoji": "🚗" },
+        "minnesota": { "name": { "zh": "明尼苏达州", "en": "Minnesota" }, "emoji": "🌊" },
+        "mississippi": { "name": { "zh": "密西西比州", "en": "Mississippi" }, "emoji": "🎵" },
+        "missouri": { "name": { "zh": "密苏里州", "en": "Missouri" }, "emoji": "🌉" },
+        "montana": { "name": { "zh": "蒙大拿州", "en": "Montana" }, "emoji": "🦌" },
+        "nebraska": { "name": { "zh": "内布拉斯加州", "en": "Nebraska" }, "emoji": "🌽" },
+        "nevada": { "name": { "zh": "内华达州", "en": "Nevada" }, "emoji": "🎰" },
+        "new-hampshire": { "name": { "zh": "新罕布什尔州", "en": "New Hampshire" }, "emoji": "🍂" },
+        "new-jersey": { "name": { "zh": "新泽西州", "en": "New Jersey" }, "emoji": "🌊" },
+        "new-mexico": { "name": { "zh": "新墨西哥州", "en": "New Mexico" }, "emoji": "🏜️" },
+        "new-york": { "name": { "zh": "纽约州", "en": "New York" }, "emoji": "🗽" },
+        "north-carolina": { "name": { "zh": "北卡罗来纳州", "en": "North Carolina" }, "emoji": "🏔️" },
+        "north-dakota": { "name": { "zh": "北达科他州", "en": "North Dakota" }, "emoji": "🌾" },
+        "ohio": { "name": { "zh": "俄亥俄州", "en": "Ohio" }, "emoji": "🚀" },
+        "oklahoma": { "name": { "zh": "俄克拉荷马州", "en": "Oklahoma" }, "emoji": "🌪️" },
+        "oregon": { "name": { "zh": "俄勒冈州", "en": "Oregon" }, "emoji": "🌲" },
+        "pennsylvania": { "name": { "zh": "宾夕法尼亚州", "en": "Pennsylvania" }, "emoji": "🔔" },
+        "rhode-island": { "name": { "zh": "罗德岛州", "en": "Rhode Island" }, "emoji": "⚓" },
+        "south-carolina": { "name": { "zh": "南卡罗来纳州", "en": "South Carolina" }, "emoji": "🌴" },
+        "south-dakota": { "name": { "zh": "南达科他州", "en": "South Dakota" }, "emoji": "🗿" },
+        "tennessee": { "name": { "zh": "田纳西州", "en": "Tennessee" }, "emoji": "🎸" },
+        "texas": { "name": { "zh": "得克萨斯州", "en": "Texas" }, "emoji": "🤠" },
+        "utah": { "name": { "zh": "犹他州", "en": "Utah" }, "emoji": "🏜️" },
+        "vermont": { "name": { "zh": "佛蒙特州", "en": "Vermont" }, "emoji": "🍁" },
+        "virginia": { "name": { "zh": "弗吉尼亚州", "en": "Virginia" }, "emoji": "🏛️" },
+        "washington": { "name": { "zh": "华盛顿州", "en": "Washington" }, "emoji": "☕" },
+        "west-virginia": { "name": { "zh": "西弗吉尼亚州", "en": "West Virginia" }, "emoji": "⛰️" },
+        "wisconsin": { "name": { "zh": "威斯康星州", "en": "Wisconsin" }, "emoji": "🧀" },
+        "wyoming": { "name": { "zh": "怀俄明州", "en": "Wyoming" }, "emoji": "🦬" }
       }
     },
     "canada": {

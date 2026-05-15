@@ -1,0 +1,77 @@
+[
+  {
+    "id": "kyoto-temples",
+    "name": {
+      "zh": "古京都历史建筑群",
+      "en": "Historic Monuments of Ancient Kyoto"
+    },
+    "description": {
+      "zh": "京都拥有超过1,600座寺庙和400座神社，其中金阁寺、清水寺、岚山竹林等最为著名。17处被列入UNESCO世界遗产，每年春季赏樱和秋季赏枫时节吸引数以百万计的游客。",
+      "en": "Kyoto has over 1,600 temples and 400 shrines, with 17 UNESCO-listed structures including Kinkaku-ji, Kiyomizu-dera and Ryoan-ji. Cherry blossom and autumn foliage seasons draw millions."
+    },
+    "image": "https://picsum.photos/seed/kyoto-temples-japan/800/500",
+    "tags": {
+      "zh": ["世界遗产", "寺庙", "传统文化"],
+      "en": ["UNESCO Heritage", "Temples", "Traditional Culture"]
+    },
+    "location": {
+      "zh": "京都府京都市",
+      "en": "Kyoto City, Kyoto Prefecture"
+    },
+    "highlights": {
+      "zh": [
+        "17处UNESCO遗产建筑，含金阁寺、龙安寺、二条城",
+        "四季主题：春樱、夏绿、秋枫、冬雪",
+        "金阁寺、清水寺、岚山竹林各具特色"
+      ],
+      "en": [
+        "17 UNESCO-listed structures including Kinkaku-ji, Ryoan-ji and Nijo Castle",
+        "Seasonal beauty: cherry blossoms, green summer, autumn foliage, winter snow",
+        "Kinkaku-ji, Kiyomizu-dera and Arashiyama each unmissable"
+      ]
+    },
+    "admission": {
+      "zh": "各寺庙单独收费，一般500—1,000日元",
+      "en": "Each temple charges separately, typically ¥500–1,000"
+    },
+    "duration": {
+      "zh": "2—4天",
+      "en": "2–4 days"
+    },
+    "tips": {
+      "zh": "花见（3月底—4月初）和红叶（11月中）期间人极多，住宿需提前3个月预订。",
+      "en": "Cherry blossom (late March–early April) and autumn foliage (mid-November) bring enormous crowds; book accommodation 3 months ahead."
+    },
+    "subdivision": "kyoto"
+  },
+  {
+    "id": "fushimi-inari",
+    "name": { "zh": "伏见稲荷大社", "en": "Fushimi Inari Taisha" },
+    "description": {
+      "zh": "伏见稻荷大社是全日本约30,000座稻荷神社的总本社，供奉五谷丰收与商业繁荣之神。以从本殿绵延至稻荷山山顶的「千本鸟居」（实际超过10,000座朱红色鸟居）举世闻名，全程约4公里登山路线穿越连续的鸟居隧道，自古是京都香火最旺的参拜地之一。",
+      "en": "Fushimi Inari Taisha is the head shrine of Japan's ~30,000 Inari shrines, dedicated to the gods of rice harvest and business prosperity. It is world-famous for its 'senbon torii' (literally 'thousand torii gates' — actually over 10,000 vermilion gates) lining the 4 km mountain trail to the summit of Mt Inari. One of Kyoto's most-visited shrines since ancient times."
+    },
+    "image": "https://picsum.photos/seed/fushimi-inari-japan/800/500",
+    "tags": { "zh": ["神社", "千本鸟居", "登山"], "en": ["Shrine", "Torii Gates", "Hiking"] },
+    "location": { "zh": "京都府京都市伏见区深草薮之内町", "en": "Fushimi, Kyoto City, Kyoto Prefecture" },
+    "subdivision": "kyoto",
+    "highlights": {
+      "zh": [
+        "千本鸟居：超过10,000座朱红色鸟居连绵排列，形成令人叹为观止的隧道景观",
+        "稻荷山登山：全程约4公里，途经奥社、三ノ峰等多处参拜所，山顶海拔233米",
+        "狐狸信仰：稻荷神的使者为狐狸，神社内遍布以狐狸为主题的装饰、御守和石雕"
+      ],
+      "en": [
+        "Senbon torii: 10,000+ vermilion torii forming awe-inspiring tunnel corridors up the mountain",
+        "Mt Inari hike: ~4 km full circuit past Okusho and Sannomiya shrines to the 233 m summit",
+        "Fox iconography: foxes are the messengers of the Inari deity — fox sculptures, amulets and decorations fill the grounds"
+      ]
+    },
+    "admission": { "zh": "全天24小时免费开放", "en": "Open 24 hours; free entry" },
+    "duration": { "zh": "1.5—3小时（视登山程度）", "en": "1.5–3 hours depending on how far you hike" },
+    "tips": {
+      "zh": "清晨5—7点人流极少，是拍摄朱红鸟居最佳时机。从JR京都站乘奈良线约5分钟至稻荷站，直达神社正门。日落后至深夜亦别有意境，神社有夜间照明。",
+      "en": "5–7 am offers near-empty torii corridors — the best window for photography. Take the JR Nara Line 5 minutes from Kyoto Station to Inari station, stepping out directly at the main gate. The shrine is also beautifully lit after dark."
+    }
+  }
+]

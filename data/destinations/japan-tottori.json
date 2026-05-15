@@ -1,0 +1,55 @@
+[
+  {
+    "id": "sanin-kaigan-geopark",
+    "name": {
+      "zh": "山阴海岸世界地质公园",
+      "en": "San'in Kaigan UNESCO Global Geopark"
+    },
+    "description": {
+      "zh": "山阴海岸地质公园横跨京都、兵库、鸟取三府县，沿日本海延伸约120公里，展示了约2500万年前日本海形成时留下的火成岩与多样的海岸地貌。鸟取沙丘、浦富海岸的溺谷湾、竹野的白沙海滩，构成了这片壮阔的海岸线。2010年加入UNESCO全球地质公园网络。",
+      "en": "San'in Kaigan UNESCO Global Geopark stretches approximately 120 km along the Sea of Japan coast across Kyoto, Hyogo and Tottori prefectures. It showcases igneous rocks and coastal landforms formed during the opening of the Sea of Japan some 25 million years ago. The Tottori Sand Dunes, the ria coastline of Uradome and the white-sand beaches of Takeno typify its varied scenery. Designated in 2010."
+    },
+    "image": "https://picsum.photos/seed/sanin-kaigan-geopark-japan/800/500",
+    "tags": {
+      "zh": [
+        "地质公园",
+        "海岸",
+        "鸟取沙丘"
+      ],
+      "en": [
+        "UNESCO Geopark",
+        "Coastline",
+        "Tottori Dunes"
+      ]
+    },
+    "location": {
+      "zh": "京都府京丹后市—兵库县豊冈市—鸟取县鸟取市（日本海沿岸）",
+      "en": "Kyotango (Kyoto) to Toyooka (Hyogo) to Tottori City along the Sea of Japan coast"
+    },
+    "highlights": {
+      "zh": [
+        "鸟取沙丘：日本最大的沙丘，高达90米，可骑骆驼或滑沙",
+        "浦富海岸：沉降式湾曲海岸（溺谷）与碧蓝水色，有玻璃底观光船",
+        "经鸟取岩海岸至城崎温泉：山阴地区最著名的温泉街"
+      ],
+      "en": [
+        "Tottori Sand Dunes: Japan's largest dune system reaching 90 m; camel rides and sandboarding available",
+        "Uradome Coast: spectacular ria shoreline with glass-bottomed sightseeing boats",
+        "Kinosaki Onsen: the San'in coast's most celebrated hot-spring town, near the geopark's western edge"
+      ]
+    },
+    "admission": {
+      "zh": "公园免费；鸟取沙丘观光设施及游船各自收费",
+      "en": "Geopark free; Tottori Dune facilities and Uradome boat tours charge separately"
+    },
+    "duration": {
+      "zh": "2—3天",
+      "en": "2–3 days"
+    },
+    "tips": {
+      "zh": "鸟取沙丘离鸟取站约20分钟车程；城崎温泉从京都乘特急约2小时。全程驾车游览最为便利。",
+      "en": "Tottori Sand Dunes are 20 minutes from Tottori station; Kinosaki Onsen is about 2 hours from Kyoto by limited express. Driving the full stretch is the most convenient option."
+    },
+    "subdivision": "tottori"
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "zao-fox-village",
+    "name": { "zh": "宫城藏王狐狸村", "en": "Zaō Fox Village" },
+    "description": {
+      "zh": "宫城藏王狐狸村坐落于宫城县白石市的山林间，是日本最著名的野生动物接触型主题公园。园内有约100只日本狐狸自由漫步，游客可近距离观察乃至抱抱狐狸（需满足指定要求）。冬季积雪背景下白色狐狸穿梭林间，是全球最广泛传播的日本冬季摄影题材之一。",
+      "en": "Zaō Fox Village in Shiroishi, Miyagi Prefecture, is Japan's most famous animal-encounter park. Around 100 free-roaming foxes can be observed at close range — and sometimes held (subject to conditions). The snow-covered winter setting, with white foxes moving through the forest, has become one of Japan's most-shared winter photography subjects worldwide."
+    },
+    "image": "https://picsum.photos/seed/zao-fox-village-japan/800/500",
+    "tags": {
+      "zh": ["动物体验", "狐狸", "冬季景色"],
+      "en": ["Animal Experience", "Foxes", "Winter Scenery"]
+    },
+    "location": {
+      "zh": "宫城县白石市福冈八宮峯（藏王山麓）",
+      "en": "Fukuoka Hachinomiya, Shiroishi City, Miyagi Prefecture"
+    },
+    "subdivision": "miyagi",
+    "highlights": {
+      "zh": [
+        "约100只自由漫步的日本狐狸，分布于多处圈养区与半开放区",
+        "冬季雪景：白雪覆盖的山林与狐狸相互映衬，是日本最广为流传的冬季摄影题材之一",
+        "抱抱体验（有条件）：特定时段可在工作人员协助下近距离接触和抱起狐狸"
+      ],
+      "en": [
+        "~100 free-roaming Japanese foxes in multiple enclosures ranging from fenced areas to semi-open zones",
+        "Winter snowscape: foxes amid snowy mountain forest — one of Japan's most-shared winter photography subjects",
+        "Holding experience (conditional): at designated times and with staff supervision, visitors can hold foxes"
+      ]
+    },
+    "admission": {
+      "zh": "约1,000日元；抱抱体验另收费",
+      "en": "~¥1,000; fox holding experience costs extra"
+    },
+    "duration": {
+      "zh": "1.5—2小时",
+      "en": "1.5–2 hours"
+    },
+    "tips": {
+      "zh": "最近车站为东北新干线白石蔵王站，需乘出租车约20分钟（无直达公共交通）。1—2月雪季是最佳参观时期，但需注意道路积雪状况。",
+      "en": "The nearest station is Shiroishi-Zaō on the Tohoku Shinkansen; take a taxi ~20 minutes (no direct public bus). January–February snow season is the most atmospheric — check road conditions."
+    }
+  },
+  {
+    "id": "okama-crater-lake",
+    "name": { "zh": "藏王御釜（火口湖）", "en": "Okama Crater Lake, Zaō" },
+    "description": {
+      "zh": "「御釜」是宫城·山形两县交界的藏王山火山口湖，以湖水随气候和光线变化呈现翠绿色、祖母绿乃至蔚蓝色而获得「五色湖」之美名。湖面海拔1,548米，夏季由藏王エコーライン（回声公路）可驾车直达火山口畔，是东北地区最独特的地质奇观。",
+      "en": "Okama ('the Pot') is a volcanic crater lake on the Miyagi–Yamagata border within Zaō, renowned for its waters that shift from jade green to emerald to blue depending on weather and light — earning the name 'Goshiki-numa' (Five-Colour Lake). At 1,548 m elevation, accessible by car via the Zaō Echo Line in summer, it is one of Tōhoku's most remarkable geological wonders."
+    },
+    "image": "https://picsum.photos/seed/okama-crater-zao-japan/800/500",
+    "tags": {
+      "zh": ["火山", "湖泊", "地质奇观"],
+      "en": ["Volcano", "Lake", "Geological Wonder"]
+    },
+    "location": {
+      "zh": "宫城县刈田郡藏王町（宫城·山形县境）",
+      "en": "Zaō-machi, Katta-gun, Miyagi Prefecture (Miyagi–Yamagata border)"
+    },
+    "subdivision": "miyagi",
+    "highlights": {
+      "zh": [
+        "五色湖：湖水颜色随天候瞬息万变，晴天呈翠绿色，阴天可能呈银蓝或祖母绿",
+        "藏王刈田岳展望台：步行约5分钟可到达比御釜更高的展望台，全景俯瞰火山口",
+        "藏王エコーライン：全长约26公里的高原公路，沿途经过多处雪壁（积雪可达10米）"
+      ],
+      "en": [
+        "Five-Colour Lake: the crater water shifts between jade green, silver-blue and emerald with every change in weather",
+        "Zaō Kariyata-dake observation point: a 5-minute walk above Okama for full panoramic crater views",
+        "Zaō Echo Line: ~26 km highland road with snow-wall corridors up to 10 m high in May"
+      ]
+    },
+    "admission": {
+      "zh": "停车场收费约700日元；湖畔参观免费",
+      "en": "Parking ~¥700; lakeside access free"
+    },
+    "duration": {
+      "zh": "1—2小时",
+      "en": "1–2 hours"
+    },
+    "tips": {
+      "zh": "藏王エコーライン通常11月上旬至4月下旬关闭（降雪期）。最佳参观时间为5月（雪壁季节）或夏季晴天。从山形或宫城方向驾车均可进入。",
+      "en": "Zaō Echo Line is closed from early November to late April (snow season). Best visited in May for the snow walls or on a clear summer day. Access by car from either the Yamagata or Miyagi side."
+    }
+  }
+]

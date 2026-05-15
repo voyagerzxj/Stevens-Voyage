@@ -1,0 +1,170 @@
+[
+  {
+    "id": "yokohama",
+    "name": { "zh": "横滨", "en": "Yokohama" },
+    "description": {
+      "zh": "横滨是日本第二大城市，1859年作为首批开放港口之一迎来西方文明，形成了独特的中西融合城市文化。中华街（中国城）是日本最大的唐人街，红砖仓库（赤レンガ倉庫）将明治时代的港口建筑改造为时尚购物与文化空间，港湾景色与未来港（みなとみらい）摩天大楼相映成趣。",
+      "en": "Yokohama, Japan's second-largest city, opened as one of the first treaty ports in 1859, developing a uniquely cosmopolitan culture. Chinatown is Japan's largest; the Red Brick Warehouse transforms Meiji-era port buildings into a shopping and events venue; and the Minato Mirai skyline reflects in the harbour waters."
+    },
+    "image": "https://picsum.photos/seed/yokohama-japan/800/500",
+    "tags": {
+      "zh": ["港口城市", "中华街", "历史"],
+      "en": ["Port City", "Chinatown", "History"]
+    },
+    "location": {
+      "zh": "神奈川县横滨市",
+      "en": "Yokohama City, Kanagawa Prefecture"
+    },
+    "subdivision": "kanagawa",
+    "highlights": {
+      "zh": [
+        "横滨中华街：日本最大中华街，600余家店铺，街头小吃与中华料理闻名全国",
+        "横滨赤レンガ倉庫：19世纪末建造的砖造仓库改建为文化商业综合体，定期举办露天活动",
+        "横滨天空缆车（YOKOHAMA AIR CABIN）：连接樱木町与运河公园，可从空中俯瞰港湾"
+      ],
+      "en": [
+        "Yokohama Chinatown: Japan's largest with 600+ shops; street snacks and Chinese dining famous nationwide",
+        "Red Brick Warehouse: late 19th-century brick warehouses converted to a cultural-retail hub with regular outdoor events",
+        "Yokohama Air Cabin: urban gondola linking Sakuragicho to Canal Park with panoramic harbour views"
+      ]
+    },
+    "admission": {
+      "zh": "街区免费；横滨天空缆车单程约1,000日元",
+      "en": "Streets free; Air Cabin one-way ~¥1,000"
+    },
+    "duration": {
+      "zh": "半天至一天",
+      "en": "Half to full day"
+    },
+    "tips": {
+      "zh": "从横滨站乘みなとみらい线4分钟至元町·中华街站，直接进入中华街。春节期间（1—2月）中华街举办大规模庆典活动，但也是全年最拥挤的时段。",
+      "en": "Take the Minatomirai Line 4 minutes from Yokohama station to Motomachi-Chukagai — you step straight into Chinatown. Chinese New Year (Jan–Feb) brings spectacular celebrations but also the year's biggest crowds."
+    }
+  },
+  {
+    "id": "kamakura",
+    "name": { "zh": "镰仓", "en": "Kamakura" },
+    "description": {
+      "zh": "镰仓曾是12—14世纪幕府将军的政治中心，留存了逾百座寺庙神社。镰仓大佛（高约13.35米的青铜阿弥陀如来坐像）是日本三大大佛之一，鹤冈八幡宫是镰仓最重要的神社。禅宗五山寺院群、明月院的绣球花和长谷寺的观音像均令访客流连。",
+      "en": "Kamakura served as Japan's political capital under the shoguns from the 12th to 14th centuries, leaving over a hundred temples and shrines. The Great Buddha (13.35 m bronze Amida) is one of Japan's three great daibutsu; Tsurugaoka Hachimangu is the city's most important shrine. The Zen Five-Mountain temple group, Meigetsu-in's hydrangeas and Hase-dera's Kannon statue complete the picture."
+    },
+    "image": "https://picsum.photos/seed/kamakura-japan/800/500",
+    "tags": {
+      "zh": ["大佛", "禅宗", "历史"],
+      "en": ["Great Buddha", "Zen", "History"]
+    },
+    "location": {
+      "zh": "神奈川县镰仓市",
+      "en": "Kamakura City, Kanagawa Prefecture"
+    },
+    "subdivision": "kanagawa",
+    "highlights": {
+      "zh": [
+        "镰仓大佛（高徳院）：日本最著名的露天大佛，内部空心可进入参观",
+        "鹤冈八幡宫：镰仓幕府的守护神社，大石阶与源平池构成经典风景",
+        "禅宗寺院群：建长寺（日本禅宗最古老寺院）、圆觉寺（收藏国宝佛牙舍利）"
+      ],
+      "en": [
+        "Kotoku-in Great Buddha: Japan's most celebrated open-air daibutsu; you can enter the hollow interior",
+        "Tsurugaoka Hachimangu: the Kamakura shogunate's guardian shrine with its grand stone steps and twin ponds",
+        "Zen temple cluster: Kencho-ji (Japan's oldest Zen temple) and Engaku-ji (housing a National Treasure relic)"
+      ]
+    },
+    "admission": {
+      "zh": "高徳院300日元；鹤冈八幡宫免费（宝物殿另收费）",
+      "en": "Kotoku-in ¥300; Tsurugaoka Hachimangu free (treasure hall extra)"
+    },
+    "duration": {
+      "zh": "半天至一天",
+      "en": "Half to full day"
+    },
+    "tips": {
+      "zh": "从东京新宿乘湘南新宿线约55分钟至镰仓站。6月中上旬绣球花（紫阳花）季是明月院等地最美的时节，但需避开周末人潮。",
+      "en": "From Tokyo Shinjuku, take the Shonan-Shinjuku Line ~55 minutes to Kamakura. Early-to-mid June hydrangea season is magnificent at Meigetsu-in — but avoid weekends."
+    }
+  },
+  {
+    "id": "enoshima-island",
+    "name": { "zh": "江之岛", "en": "Enoshima Island" },
+    "description": {
+      "zh": "江之岛是相模湾上的一座小型陆连岛，以弁天信仰和海鲜美食著称，通过500米长的弁天桥与江之岛站相连。岛上的三大弁天神社（边津宫、中津宫、奥津宫）供奉日本三大弁天之一，穿越岩屋洞窟可到达面向富士山的绝美展望点。",
+      "en": "Enoshima is a small tidal island in Sagami Bay, renowned for its Benzaiten worship and seafood. A 500 m causeway connects it to Enoshima Station. Three Benzaiten sub-shrines (Hetsumiya, Nakatsumiya, Okitsumiya) enshrine one of Japan's three great Benzaiten goddesses; sea caves at the far end lead to a spectacular Mt Fuji viewpoint."
+    },
+    "image": "https://picsum.photos/seed/enoshima-island-japan/800/500",
+    "tags": {
+      "zh": ["岛屿", "神社", "海鲜"],
+      "en": ["Island", "Shrine", "Seafood"]
+    },
+    "location": {
+      "zh": "神奈川县藤泽市江之岛",
+      "en": "Enoshima, Fujisawa City, Kanagawa Prefecture"
+    },
+    "subdivision": "kanagawa",
+    "highlights": {
+      "zh": [
+        "弁天神社群：三座各具特色的小祠堂，供奉音乐、财富与海上安全女神",
+        "岩屋洞窟：延伸入悬崖的天然岩洞，最深处可眺望富士山与夕阳",
+        "江之岛シーキャンドル（海蜡烛）：60米高展望灯塔，360°一览相模湾与富士山"
+      ],
+      "en": [
+        "Three Benzaiten shrine precincts: each with distinct character, enshrining the goddess of music, wealth and maritime safety",
+        "Iwaya Caves: natural sea caves carved into the cliffs, with a Mt Fuji viewpoint at the far end",
+        "Enoshima Sea Candle: 60 m observation lighthouse with 360° views of Sagami Bay and Mt Fuji"
+      ]
+    },
+    "admission": {
+      "zh": "神社免费；岩屋洞窟500日元；Sea Candle约500日元",
+      "en": "Shrines free; Iwaya Caves ¥500; Sea Candle ~¥500"
+    },
+    "duration": {
+      "zh": "半天",
+      "en": "Half day"
+    },
+    "tips": {
+      "zh": "从镰仓乘江之岛电铁（江ノ電）约25分钟至江之岛站。岛内商店街售卖生蚝、章鱼串等新鲜海鲜，是神奈川著名的海鲜小食街。",
+      "en": "From Kamakura, take the Enoshima Electric Railway (Enoden) ~25 minutes to Enoshima station. The island's Nakamise shopping street is famous for fresh oysters, octopus skewers and other Shonan seafood snacks."
+    }
+  },
+  {
+    "id": "hakone",
+    "name": { "zh": "箱根", "en": "Hakone" },
+    "description": {
+      "zh": "箱根是东京近郊最负盛名的温泉度假胜地，凭借芦之湖倒映富士山的绝美画面享誉世界。这一地区囊括了温泉、火山大涌谷、开放式露天美术馆、芦之湖游船以及连接各景点的山岳铁路环线，可消磨一至两天。",
+      "en": "Hakone is the premier mountain-resort destination near Tokyo, world-famous for its reflection of Mt Fuji in Lake Ashi. The region combines hot springs, the volcanic Owakudani valley, the Hakone Open-Air Museum, a lake cruise and the winding Hakone Tozan mountain railway loop — easily worth one to two days."
+    },
+    "image": "https://picsum.photos/seed/hakone-japan/800/500",
+    "tags": {
+      "zh": ["温泉", "富士山展望", "自然"],
+      "en": ["Onsen", "Mt Fuji View", "Nature"]
+    },
+    "location": {
+      "zh": "神奈川县足柄下郡箱根町",
+      "en": "Hakone, Ashigarashimo, Kanagawa Prefecture"
+    },
+    "subdivision": "kanagawa",
+    "highlights": {
+      "zh": [
+        "芦之湖：湖面映出富士山倒影（晴天），湖上运行海盗船观光游览",
+        "大涌谷：火山活跃地带，硫黄气孔与黑玉子（温泉煮黑色鸡蛋）是标志性体验",
+        "箱根彫刻の森美术馆：户外展示毕加索等名家雕塑，与自然山景融为一体"
+      ],
+      "en": [
+        "Lake Ashi: famous for its Mt Fuji reflection on calm days; pirate-ship sightseeing boats operate on the lake",
+        "Owakudani: active volcanic valley with steaming vents and the famous black 'kuro-tamago' eggs boiled in sulfur springs",
+        "Hakone Open-Air Museum: outdoor sculptures by Picasso and other masters set against mountain scenery"
+      ]
+    },
+    "admission": {
+      "zh": "箱根自由通（Hakone Free Pass）约6,100日元，涵盖大多数交通及景点折扣",
+      "en": "Hakone Free Pass ~¥6,100 covers most transport and gives attraction discounts"
+    },
+    "duration": {
+      "zh": "一天至两天",
+      "en": "One to two days"
+    },
+    "tips": {
+      "zh": "从新宿乘小田急浪漫特快（ロマンスカー）约85分钟直达箱根汤本，景色极佳，需提前预约座位。建议购买箱根自由通覆盖山岳铁路、缆车、芦之湖游船等多种交通。",
+      "en": "Take the Odakyu Romancecar from Shinjuku (~85 min to Hakone-Yumoto) — a scenic ride worth pre-booking. The Hakone Free Pass covers the mountain railway, ropeway, lake cruise and more."
+    }
+  }
+]

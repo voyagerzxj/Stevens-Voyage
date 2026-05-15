@@ -11,16 +11,8 @@
     },
     "image": "https://picsum.photos/seed/chichen-itza/800/500",
     "tags": {
-      "zh": [
-        "世界遗产",
-        "玛雅文明",
-        "七大奇迹"
-      ],
-      "en": [
-        "UNESCO",
-        "Maya Civilisation",
-        "Wonder of World"
-      ]
+      "zh": ["世界遗产", "玛雅文明", "七大奇迹"],
+      "en": ["UNESCO Heritage", "Maya Civilisation", "Wonder of World"]
     },
     "location": {
       "zh": "尤卡坦州，墨西哥",
@@ -63,16 +55,8 @@
     },
     "image": "https://picsum.photos/seed/cancun-beach/800/500",
     "tags": {
-      "zh": [
-        "海滩",
-        "度假",
-        "潜水"
-      ],
-      "en": [
-        "Beach",
-        "Resort",
-        "Diving"
-      ]
+      "zh": ["海滩", "度假", "潜水"],
+      "en": ["Beach", "Resort", "Diving"]
     },
     "location": {
       "zh": "金塔纳罗奥州，墨西哥东南部",
@@ -115,16 +99,8 @@
     },
     "image": "https://picsum.photos/seed/mexico-city/800/500",
     "tags": {
-      "zh": [
-        "世界遗产",
-        "阿兹特克",
-        "壁画艺术"
-      ],
-      "en": [
-        "UNESCO",
-        "Aztec Heritage",
-        "Mural Art"
-      ]
+      "zh": ["世界遗产", "阿兹特克", "壁画艺术"],
+      "en": ["UNESCO Heritage", "Aztec Heritage", "Mural Art"]
     },
     "location": {
       "zh": "墨西哥城历史中心区",
@@ -153,6 +129,1458 @@
     "tips": {
       "zh": "乘坐地铁是最快捷经济的市内交通方式。海拔2,240米，初来者需注意高原反应。",
       "en": "The Metro is the fastest and cheapest way to get around. At 2,240 m altitude, allow a day to acclimatise on arrival."
+    }
+  },
+  {
+    "id": "teotihuacan",
+    "name": {
+      "zh": "特奥蒂瓦坎",
+      "en": "Pre-Hispanic City of Teotihuacan"
+    },
+    "description": {
+      "zh": "特奥蒂瓦坎是前哥伦布时期美洲最大的城市之一，建于公元前200年至公元650年，以太阳金字塔（高66米）和月亮金字塔及长达4公里的「亡灵大道」闻名。1987年列入UNESCO世界遗产。",
+      "en": "Teotihuacan was one of pre-Columbian America's greatest cities (200 BCE–650 CE), dominated by the 66-metre Pyramid of the Sun, the Pyramid of the Moon and the 4-km Avenue of the Dead. UNESCO World Heritage Site since 1987."
+    },
+    "image": "https://picsum.photos/seed/teotihuacan-mexico/800/500",
+    "tags": {
+      "zh": ["世界遗产", "前哥伦布文明", "金字塔"],
+      "en": ["UNESCO Heritage", "Pre-Hispanic City", "Pyramids"]
+    },
+    "location": {
+      "zh": "墨西哥州，墨西哥城东北约50公里",
+      "en": "State of Mexico, ~50 km northeast of Mexico City"
+    },
+    "highlights": {
+      "zh": [
+        "太阳金字塔高66米，是世界最大金字塔之一",
+        "「亡灵大道」长4公里，串联古城主要神庙",
+        "羽蛇神庙（西塔德拉区）保存精美的羽蛇神浮雕"
+      ],
+      "en": [
+        "Pyramid of the Sun at 66 m — one of the world's largest pyramids",
+        "Avenue of the Dead stretches 4 km linking the city's major temples",
+        "Temple of the Feathered Serpent (Ciudadela) with fine carved serpent heads"
+      ]
+    },
+    "admission": {
+      "zh": "约100比索（约6美元）",
+      "en": "~MXN$100 (~US$6)"
+    },
+    "duration": {
+      "zh": "4—5小时",
+      "en": "4–5 hours"
+    },
+    "tips": {
+      "zh": "清晨前往以避开正午烈日；从墨西哥城北部汽车站（Terminal Norte）有直达班车，约1小时车程。",
+      "en": "Go early to avoid midday heat; direct buses from Mexico City's Terminal Norte take about 1 hour."
+    }
+  },
+  {
+    "id": "palenque",
+    "name": {
+      "zh": "帕伦克玛雅古城",
+      "en": "Pre-Hispanic City and National Park of Palenque"
+    },
+    "description": {
+      "zh": "帕伦克是玛雅文明鼎盛时期（公元600—900年）最精美的古城之一，其铭文神庙地下藏有帕卡尔大王的玉面葬礼面具，宫殿群落和雕刻精美的石碑令人叹为观止。1987年列入UNESCO世界遗产。",
+      "en": "Palenque is one of the most elegantly crafted Maya cities at its height (600–900 CE). The Temple of the Inscriptions conceals the jade-masked tomb of King Pakal, while the palace complex and intricately carved stelae are outstanding. UNESCO World Heritage Site since 1987."
+    },
+    "image": "https://picsum.photos/seed/palenque-mexico/800/500",
+    "tags": {
+      "zh": ["世界遗产", "玛雅文明", "热带雨林"],
+      "en": ["UNESCO Heritage", "Maya Civilisation", "Tropical Rainforest"]
+    },
+    "location": {
+      "zh": "恰帕斯州，墨西哥南部",
+      "en": "Chiapas state, southern Mexico"
+    },
+    "highlights": {
+      "zh": [
+        "铭文神庙：帕卡尔大王的陵墓，玛雅最重要的考古发现之一",
+        "热带雨林中的神庙群，有鹦鹉和吼猴出没",
+        "精美的玛雅象形文字浮雕和灰泥装饰"
+      ],
+      "en": [
+        "Temple of the Inscriptions — King Pakal's tomb, one of Maya archaeology's greatest discoveries",
+        "Jungle-shrouded temple complex with howler monkeys and parrots",
+        "Exceptionally fine Maya hieroglyphic carvings and stucco reliefs"
+      ]
+    },
+    "admission": {
+      "zh": "约90比索（约5美元）",
+      "en": "~MXN$90 (~US$5)"
+    },
+    "duration": {
+      "zh": "4—5小时",
+      "en": "4–5 hours"
+    },
+    "tips": {
+      "zh": "结合附近瀑布群（阿瓜斯苏尔、米索尔哈）一同游览。带驱蚊液，热带气候闷热潮湿。",
+      "en": "Combine with nearby waterfalls (Agua Azul, Misol-Há). Bring insect repellent; the tropical climate is hot and humid."
+    }
+  },
+  {
+    "id": "oaxaca-monte-alban",
+    "name": {
+      "zh": "瓦哈卡历史中心与蒙特阿尔班",
+      "en": "Historic Centre of Oaxaca and Monte Albán"
+    },
+    "description": {
+      "zh": "瓦哈卡城保存着精美的殖民时期建筑，而城郊的蒙特阿尔班是萨波特克文明的政治与宗教中心，建于公元前500年，山顶平台上的神庙群俯瞰着三个山谷交汇处的壮阔景观。1987年列入UNESCO世界遗产。",
+      "en": "Oaxaca city preserves superb colonial architecture, while Monte Albán on the outskirts was the Zapotec political and religious capital from 500 BCE. Its hilltop platform of temples overlooks three converging valleys. UNESCO World Heritage Site since 1987."
+    },
+    "image": "https://picsum.photos/seed/oaxaca-monte-alban-mexico/800/500",
+    "tags": {
+      "zh": ["世界遗产", "萨波特克文明", "殖民建筑"],
+      "en": ["UNESCO Heritage", "Zapotec Civilisation", "Colonial Architecture"]
+    },
+    "location": {
+      "zh": "瓦哈卡州，墨西哥南部",
+      "en": "Oaxaca state, southern Mexico"
+    },
+    "highlights": {
+      "zh": [
+        "蒙特阿尔班：山顶萨波特克古城，俯瞰三谷交汇",
+        "瓦哈卡市中心殖民时期建筑与绿色石灰岩教堂",
+        "活跃的本地市场、墨西哥最佳美食与手工艺品"
+      ],
+      "en": [
+        "Monte Albán — hilltop Zapotec capital with sweeping valley views",
+        "Oaxaca city's colonial green-stone churches and zocalo",
+        "Vibrant indigenous markets, Mexico's finest cuisine and crafts"
+      ]
+    },
+    "admission": {
+      "zh": "蒙特阿尔班约100比索；瓦哈卡城中心免费",
+      "en": "Monte Albán ~MXN$100; Oaxaca city centre free"
+    },
+    "duration": {
+      "zh": "2—3天",
+      "en": "2–3 days"
+    },
+    "tips": {
+      "zh": "11月1—2日亡灵节期间，瓦哈卡是全墨西哥最精彩的庆祝地之一，但需提前数月预订住宿。",
+      "en": "Día de los Muertos (Nov 1–2) in Oaxaca is one of Mexico's most spectacular celebrations — book accommodation months ahead."
+    }
+  },
+  {
+    "id": "puebla-historic",
+    "name": {
+      "zh": "普埃布拉历史中心",
+      "en": "Historic Centre of Puebla"
+    },
+    "description": {
+      "zh": "普埃布拉建于1531年，是殖民时代墨西哥的重要城市，以其色彩斑斓的塔拉维拉瓷砖装饰的巴洛克式建筑著称，大教堂是墨西哥最美丽的殖民时期建筑之一，也是墨西哥辣椒酱（Mole Poblano）的发源地。1987年列入UNESCO世界遗产。",
+      "en": "Founded in 1531, Puebla was a major colonial city renowned for its Baroque architecture adorned with colourful Talavera tilework. Its cathedral is among Mexico's finest colonial buildings, and Puebla is the birthplace of mole poblano sauce. UNESCO World Heritage Site since 1987."
+    },
+    "image": "https://picsum.photos/seed/puebla-mexico/800/500",
+    "tags": {
+      "zh": ["世界遗产", "殖民建筑", "塔拉维拉陶瓷"],
+      "en": ["UNESCO Heritage", "Colonial Architecture", "Talavera Ceramics"]
+    },
+    "location": {
+      "zh": "普埃布拉州，墨西哥中部",
+      "en": "Puebla state, central Mexico"
+    },
+    "highlights": {
+      "zh": [
+        "色彩缤纷的塔拉维拉瓷砖装饰的巴洛克建筑群",
+        "普埃布拉主教堂：墨西哥最美丽的殖民时期大教堂之一",
+        "莫莱波布拉诺酱的发源地，当地美食享誉全国"
+      ],
+      "en": [
+        "Baroque buildings adorned with colourful Talavera tilework",
+        "Puebla Cathedral — one of Mexico's most beautiful colonial churches",
+        "Birthplace of mole poblano; excellent local gastronomy"
+      ]
+    },
+    "admission": {
+      "zh": "历史中心免费参观",
+      "en": "Historic centre free to explore"
+    },
+    "duration": {
+      "zh": "1—2天",
+      "en": "1–2 days"
+    },
+    "tips": {
+      "zh": "从墨西哥城乘大巴仅需约2小时，是理想的一日游或周末游目的地。",
+      "en": "Just ~2 hours by bus from Mexico City — an ideal day trip or weekend getaway."
+    }
+  },
+  {
+    "id": "sian-kaan",
+    "name": {
+      "zh": "锡安卡安生物圈保护区",
+      "en": "Sian Ka'an Biosphere Reserve"
+    },
+    "description": {
+      "zh": "锡安卡安（玛雅语意为「天空诞生之地」）是墨西哥最大的自然保护区之一，覆盖533,000公顷，涵盖热带森林、红树林、沼泽和加勒比海海岸礁，是濒危动物的重要栖息地。1987年列入UNESCO世界遗产。",
+      "en": "Sian Ka'an ('where the sky is born' in Mayan) is one of Mexico's largest protected areas at 533,000 ha, encompassing tropical forests, mangroves, wetlands and Caribbean coastal reefs — vital habitat for endangered species. UNESCO World Heritage Site since 1987."
+    },
+    "image": "https://picsum.photos/seed/sian-kaan-mexico/800/500",
+    "tags": {
+      "zh": ["世界遗产", "生物圈保护区", "热带海岸"],
+      "en": ["UNESCO Heritage", "Biosphere Reserve", "Tropical Coast"]
+    },
+    "location": {
+      "zh": "金塔纳罗奥州，图卢姆南部",
+      "en": "South of Tulum, Quintana Roo state"
+    },
+    "highlights": {
+      "zh": [
+        "533,000公顷的原始热带生态系统，含珊瑚礁、红树林和雨林",
+        "海牛、美洲虎、美洲鳄和众多鸟类的重要栖息地",
+        "浮流游览：乘木筏漂流运河与礁湖"
+      ],
+      "en": [
+        "533,000 ha of pristine tropical ecosystems: coral reefs, mangroves and jungle",
+        "Key habitat for manatees, jaguars, American crocodiles and hundreds of bird species",
+        "Float tours drifting through canals and lagoons in the biosphere"
+      ]
+    },
+    "admission": {
+      "zh": "保护区入场约50—100比索；导览游约1,000—1,500比索",
+      "en": "Reserve entry ~MXN$50–100; guided tours ~MXN$1,000–1,500"
+    },
+    "duration": {
+      "zh": "半天至一天",
+      "en": "Half to full day"
+    },
+    "tips": {
+      "zh": "从图卢姆出发约30分钟车程可到达保护区边缘。参加当地向导组织的小船游览是最佳方式。",
+      "en": "About 30 minutes from Tulum. Join a local guide's small-boat tour for the best wildlife and ecosystem experience."
+    }
+  },
+  {
+    "id": "guanajuato-historic",
+    "name": {
+      "zh": "瓜纳华托历史城及周边矿区",
+      "en": "Historic Town of Guanajuato and Adjacent Mines"
+    },
+    "description": {
+      "zh": "瓜纳华托是18世纪全球最重要的白银产地，城市建于峡谷之中，地下隧道网络取代了街道，彩色房屋层叠于山坡之上，是墨西哥最美丽的殖民城市之一，也是革命英雄米格尔·伊达尔戈神父的故乡。1988年列入UNESCO世界遗产。",
+      "en": "Guanajuato was the world's most important silver-producing city in the 18th century. Built in a deep ravine with underground tunnels serving as roads, its colourful hillside houses form one of Mexico's most beautiful colonial cities and birthplace of Father Hidalgo's independence movement. UNESCO World Heritage Site since 1988."
+    },
+    "image": "https://picsum.photos/seed/guanajuato-mexico/800/500",
+    "tags": {
+      "zh": ["世界遗产", "殖民银矿城", "彩色建筑"],
+      "en": ["UNESCO Heritage", "Colonial Silver City", "Colourful Architecture"]
+    },
+    "location": {
+      "zh": "瓜纳华托州，墨西哥中部高地",
+      "en": "Guanajuato state, central Mexican highlands"
+    },
+    "highlights": {
+      "zh": [
+        "地下隧道网络取代城市街道，独一无二的城市格局",
+        "卡利赫翁·德尔·贝索（亲吻小巷）：宽仅68厘米的传奇小巷",
+        "木乃伊博物馆和瓦伦西亚那银矿等历史景点"
+      ],
+      "en": [
+        "Underground tunnel network serving as the city's road system — unique urban layout",
+        "Callejón del Beso (Kissing Alley) — the legendary 68-cm-wide lane",
+        "Mummy Museum and Valenciana silver mine as key historic attractions"
+      ]
+    },
+    "admission": {
+      "zh": "市中心免费；木乃伊博物馆约100比索",
+      "en": "City centre free; Mummy Museum ~MXN$100"
+    },
+    "duration": {
+      "zh": "1—2天",
+      "en": "1–2 days"
+    },
+    "tips": {
+      "zh": "10月塞万提斯国际艺术节期间城市最为热闹，住宿需提前数月预订。",
+      "en": "The city is at its liveliest during the Festival Internacional Cervantino in October — book accommodation months ahead."
+    }
+  },
+  {
+    "id": "uxmal",
+    "name": {
+      "zh": "乌斯马尔古城",
+      "en": "Pre-Hispanic City of Uxmal"
+    },
+    "description": {
+      "zh": "乌斯马尔是尤卡坦玛雅普克风格建筑的杰出代表，以精美的几何图案石雕装饰著称。巫师金字塔（约翰纳尔金字塔）的椭圆形底座在玛雅建筑中极为罕见，整体保存极为完好。1996年列入UNESCO世界遗产。",
+      "en": "Uxmal is the outstanding example of Puuc-style Maya architecture in the Yucatán, renowned for intricate geometric stone mosaic facades. The Pyramid of the Magician with its unusual oval base is unique in Maya architecture. UNESCO World Heritage Site since 1996."
+    },
+    "image": "https://picsum.photos/seed/uxmal-mexico/800/500",
+    "tags": {
+      "zh": ["世界遗产", "玛雅建筑", "普克风格"],
+      "en": ["UNESCO Heritage", "Maya Architecture", "Puuc Style"]
+    },
+    "location": {
+      "zh": "尤卡坦州，梅里达南部约80公里",
+      "en": "~80 km south of Mérida, Yucatán state"
+    },
+    "highlights": {
+      "zh": [
+        "巫师金字塔：椭圆底座独一无二，在玛雅建筑中极为罕见",
+        "修女四方院：四面围合的精美石刻装饰回廊",
+        "夜间声光表演，讲述玛雅传说"
+      ],
+      "en": [
+        "Pyramid of the Magician with its unique oval base",
+        "Nunnery Quadrangle — intricately carved stone mosaic courtyard complex",
+        "Evening sound-and-light show narrating Maya legends"
+      ]
+    },
+    "admission": {
+      "zh": "约331比索（约20美元）；夜间声光表演另收费",
+      "en": "~MXN$331 (~US$20); evening sound-and-light show extra"
+    },
+    "duration": {
+      "zh": "3—4小时",
+      "en": "3–4 hours"
+    },
+    "tips": {
+      "zh": "可与附近的卡巴、萨伊尔等普克路线遗址联游，从梅里达租车更灵活。",
+      "en": "Combine with other Puuc Route sites (Kabah, Sayil) nearby; renting a car from Mérida gives the most flexibility."
+    }
+  },
+  {
+    "id": "el-vizcaino",
+    "name": {
+      "zh": "维斯卡伊诺鲸鱼保护区",
+      "en": "Whale Sanctuary of El Vizcaíno"
+    },
+    "description": {
+      "zh": "维斯卡伊诺鲸鱼保护区位于下加利福尼亚半岛，涵盖两个著名的灰鲸越冬繁殖潟湖（圣伊格纳西奥潟湖和斯卡蒙斯潟湖），是全球最重要的灰鲸繁育地，每年冬季吸引数千头灰鲸来此产崽哺育。1993年列入UNESCO世界遗产。",
+      "en": "El Vizcaíno Whale Sanctuary on the Baja California Peninsula encompasses two renowned grey whale breeding lagoons (Laguna San Ignacio and Laguna Ojo de Liebre), the most important grey whale nursery in the world, drawing thousands of whales each winter. UNESCO World Heritage Site since 1993."
+    },
+    "image": "https://picsum.photos/seed/el-vizcaino-mexico/800/500",
+    "tags": {
+      "zh": ["世界遗产", "灰鲸保护区", "生态旅游"],
+      "en": ["UNESCO Heritage", "Grey Whale Sanctuary", "Ecotourism"]
+    },
+    "location": {
+      "zh": "南下加利福尼亚州，下加利福尼亚半岛中部",
+      "en": "Baja California Sur, central Baja California Peninsula"
+    },
+    "highlights": {
+      "zh": [
+        "世界最重要的灰鲸繁育地，每年12—4月数千头灰鲸聚集",
+        "可乘小船近距离观察灰鲸母子，甚至抚摸灰鲸",
+        "圣伊格纳西奥潟湖是最知名的「友好灰鲸」观赏地"
+      ],
+      "en": [
+        "World's most important grey whale nursery — thousands gather December–April",
+        "Small pangas allow close encounters with grey whale mothers and calves",
+        "Laguna San Ignacio famous for 'friendly whale' interactions"
+      ]
+    },
+    "admission": {
+      "zh": "观鲸船约600—1,200比索/人；露营营地另计",
+      "en": "Whale-watching pangas ~MXN$600–1,200/person; camping extra"
+    },
+    "duration": {
+      "zh": "2—4天",
+      "en": "2–4 days"
+    },
+    "tips": {
+      "zh": "最佳观鲸时节为2—3月。从洛雷托或圣伊格纳西奥驾车或参加专业观鲸旅行团进入。",
+      "en": "Peak whale-watching is February–March. Access by car from Loreto or San Ignacio, or join a specialist whale-watching tour."
+    }
+  },
+  {
+    "id": "monarch-butterfly",
+    "name": {
+      "zh": "帝王蝶生物圈保护区",
+      "en": "Monarch Butterfly Biosphere Reserve"
+    },
+    "description": {
+      "zh": "帝王蝶生物圈保护区位于米却肯州和墨西哥州边界的高山针叶林中，是数亿只帝王蝶每年秋冬从北美越冬迁徙的终点，层叠的橙色蝴蝶覆盖森林的景象令人叹为观止。2008年列入UNESCO世界遗产。",
+      "en": "The Monarch Butterfly Biosphere Reserve in the highland conifer forests of Michoacán and State of Mexico is the winter destination for hundreds of millions of monarch butterflies migrating from North America each autumn. The spectacle of orange-carpeted forest is breathtaking. UNESCO World Heritage Site since 2008."
+    },
+    "image": "https://picsum.photos/seed/monarch-butterfly-mexico/800/500",
+    "tags": {
+      "zh": ["世界遗产", "帝王蝶", "自然奇观"],
+      "en": ["UNESCO Heritage", "Monarch Butterflies", "Natural Wonder"]
+    },
+    "location": {
+      "zh": "米却肯州和墨西哥州边界，高山森林地带",
+      "en": "Michoacán / State of Mexico border, mountain forest zone"
+    },
+    "highlights": {
+      "zh": [
+        "数亿只帝王蝶在11—3月聚集越冬，覆盖整片森林",
+        "松树和冷杉枝头挂满橙色蝶群的壮观奇景",
+        "核心区需乘马上山，然后徒步进入蝴蝶聚集地"
+      ],
+      "en": [
+        "Hundreds of millions of monarchs overwinter November–March, blanketing the forest",
+        "Orange-clustered pine and fir trees create an otherworldly visual spectacle",
+        "Core zones accessed by horseback followed by a hike into the butterfly colony"
+      ]
+    },
+    "admission": {
+      "zh": "约120—200比索/人（视具体景区）；马匹费另计",
+      "en": "~MXN$120–200/person depending on sanctuary; horse rental extra"
+    },
+    "duration": {
+      "zh": "半天至一天",
+      "en": "Half to full day"
+    },
+    "tips": {
+      "zh": "最佳观赏时节为1—2月，上午阳光充足时蝴蝶最为活跃。从安加圭奥或奥科洛克镇为基地最方便。",
+      "en": "Best in January–February when sunny mornings encourage the most activity. Base at Angangueo or Ocampo for easiest access."
+    }
+  },
+  {
+    "id": "queretaro-historic",
+    "name": {
+      "zh": "克雷塔罗历史遗迹区",
+      "en": "Historic Monuments Zone of Querétaro"
+    },
+    "description": {
+      "zh": "克雷塔罗历史中心是墨西哥保存最完好的殖民时期城市之一，以完整的城市格局、精美的教堂和修道院及曲折的小巷著称，也是1867年墨西哥皇帝马克西米连一世被处决的历史地。1996年列入UNESCO世界遗产。",
+      "en": "Querétaro's historic centre is one of Mexico's best-preserved colonial towns, distinguished by its intact urban fabric, exquisite churches and convents and winding lanes. It was also the site of Emperor Maximilian I's execution in 1867. UNESCO World Heritage Site since 1996."
+    },
+    "image": "https://picsum.photos/seed/queretaro-mexico/800/500",
+    "tags": {
+      "zh": ["世界遗产", "殖民建筑", "历史古城"],
+      "en": ["UNESCO Heritage", "Colonial Architecture", "Historic City"]
+    },
+    "location": {
+      "zh": "克雷塔罗州，墨西哥中部高原",
+      "en": "Querétaro state, central Mexican plateau"
+    },
+    "highlights": {
+      "zh": [
+        "保存完整的殖民时期街道格局和精美教堂群",
+        "圣克鲁斯修道院：1867年马克西米连一世被处决地",
+        "迷人的粉色和赭石色建筑，夜间灯光尤为迷人"
+      ],
+      "en": [
+        "Intact colonial street plan with superb churches and convents",
+        "Convento de la Cruz — site of Emperor Maximilian I's surrender in 1867",
+        "Charming pink and ochre buildings; especially enchanting when lit at night"
+      ]
+    },
+    "admission": {
+      "zh": "历史中心免费参观",
+      "en": "Historic centre free to explore"
+    },
+    "duration": {
+      "zh": "1—2天",
+      "en": "1–2 days"
+    },
+    "tips": {
+      "zh": "从墨西哥城乘大巴约3小时，是理想的周末城市游目的地。当地葡萄酒和玛格利特酒享有盛誉。",
+      "en": "About 3 hours by bus from Mexico City — a perfect weekend urban escape. Local wines and margaritas are well worth sampling."
+    }
+  },
+  {
+    "id": "sierra-gorda-missions",
+    "name": {
+      "zh": "克雷塔罗州西埃拉戈达方济会传教区",
+      "en": "Franciscan Missions in the Sierra Gorda of Querétaro"
+    },
+    "description": {
+      "zh": "克雷塔罗州西埃拉戈达山区的五座18世纪方济会传教站，是西班牙传教士将基督教艺术与当地契奇梅克族文化融合的杰出范例，其独特的巴洛克立面融入了本土宗教图案，被称为「美洲巴洛克」。2003年列入UNESCO世界遗产。",
+      "en": "Five 18th-century Franciscan missions in Querétaro's Sierra Gorda mountains are outstanding examples of the fusion of European Christianity with local Chichimec culture. Their unique Baroque facades incorporate indigenous religious motifs in what is called 'American Baroque'. UNESCO World Heritage Site since 2003."
+    },
+    "image": "https://picsum.photos/seed/sierra-gorda-missions-mexico/800/500",
+    "tags": {
+      "zh": ["世界遗产", "方济会传教站", "美洲巴洛克"],
+      "en": ["UNESCO Heritage", "Franciscan Missions", "American Baroque"]
+    },
+    "location": {
+      "zh": "克雷塔罗州，西埃拉戈达山脉",
+      "en": "Sierra Gorda mountains, Querétaro state"
+    },
+    "highlights": {
+      "zh": [
+        "五座融合原住民图案的美洲巴洛克立面传教教堂",
+        "杰卡兰圣母传教站是其中保存最完好的范例",
+        "崎岖的西埃拉戈达山区提供徒步和自然探索"
+      ],
+      "en": [
+        "Five mission churches with extraordinary American Baroque facades blending indigenous motifs",
+        "Jalpan de Serra mission is the finest surviving example",
+        "Rugged Sierra Gorda landscape offers hiking and ecotourism"
+      ]
+    },
+    "admission": {
+      "zh": "各传教站免费或象征性收费",
+      "en": "Free or nominal entry at each mission"
+    },
+    "duration": {
+      "zh": "1—2天（覆盖全部五座传教站）",
+      "en": "1–2 days (to visit all five missions)"
+    },
+    "tips": {
+      "zh": "自驾是游览五座传教站的最佳方式，山路蜿蜒，从克雷塔罗市出发需约2小时。",
+      "en": "A car is essential to visit all five missions; winding mountain roads take about 2 hours from Querétaro city."
+    }
+  },
+  {
+    "id": "paquime",
+    "name": {
+      "zh": "帕基梅（卡萨斯格兰德斯）考古区",
+      "en": "Archaeological Zone of Paquimé (Casas Grandes)"
+    },
+    "description": {
+      "zh": "帕基梅是美国西南部与墨西哥北部之间的重要文化纽带，公元1200—1450年间达到鼎盛，其多层土砖建筑群保存完好，是前哥伦布时期美洲西北部最重要的考古遗址。1998年列入UNESCO世界遗产。",
+      "en": "Paquimé was a pivotal cultural link between the US Southwest and northern Mexico, at its height 1200–1450 CE. Its well-preserved multi-storey adobe compounds are the most important pre-Columbian archaeological site in northwestern America. UNESCO World Heritage Site since 1998."
+    },
+    "image": "https://picsum.photos/seed/paquime-mexico/800/500",
+    "tags": {
+      "zh": ["世界遗产", "前哥伦布遗址", "土砖建筑"],
+      "en": ["UNESCO Heritage", "Pre-Hispanic Site", "Adobe Architecture"]
+    },
+    "location": {
+      "zh": "奇瓦瓦州，墨西哥北部",
+      "en": "Chihuahua state, northern Mexico"
+    },
+    "highlights": {
+      "zh": [
+        "保存完好的多层土砖建筑群，连接美国西南文化与墨西哥北部",
+        "出土大量精美彩陶和鹦鹉养殖设施",
+        "附设的卡萨斯格兰德斯博物馆展示丰富文物"
+      ],
+      "en": [
+        "Well-preserved multi-storey adobe compounds linking US Southwest and northern Mexican cultures",
+        "Outstanding polychrome pottery and evidence of macaw-breeding found here",
+        "Adjacent Casas Grandes Museum displays major artefact collection"
+      ]
+    },
+    "admission": {
+      "zh": "约90比索（约5美元）",
+      "en": "~MXN$90 (~US$5)"
+    },
+    "duration": {
+      "zh": "2—3小时",
+      "en": "2–3 hours"
+    },
+    "tips": {
+      "zh": "从奇瓦瓦市驾车约3—4小时；附近的玛达雷斯山脉也值得探访。",
+      "en": "About 3–4 hours drive from Chihuahua city; the nearby Sierra Madre mountains are worth exploring."
+    }
+  },
+  {
+    "id": "tlacotalpan",
+    "name": {
+      "zh": "特拉科塔尔潘历史遗迹区",
+      "en": "Historic Monuments Zone of Tlacotalpan"
+    },
+    "description": {
+      "zh": "特拉科塔尔潘是韦拉克鲁斯州帕帕洛阿潘河畔的小城，以保存完好的19世纪西班牙—加勒比殖民建筑著称，色彩缤纷的拱廊街道和繁茂的花园令人心旷神怡，是墨西哥最迷人的小城之一。1998年列入UNESCO世界遗产。",
+      "en": "Tlacotalpan is a small town on the Papaloapan River in Veracruz state, celebrated for its exceptionally well-preserved 19th-century Spanish-Caribbean colonial architecture. Colourful arcaded streets and lush gardens make it one of Mexico's most charming towns. UNESCO World Heritage Site since 1998."
+    },
+    "image": "https://picsum.photos/seed/tlacotalpan-mexico/800/500",
+    "tags": {
+      "zh": ["世界遗产", "殖民小城", "加勒比风情"],
+      "en": ["UNESCO Heritage", "Colonial Town", "Caribbean Atmosphere"]
+    },
+    "location": {
+      "zh": "韦拉克鲁斯州，帕帕洛阿潘河畔",
+      "en": "Papaloapan River, Veracruz state"
+    },
+    "highlights": {
+      "zh": [
+        "保存完好的19世纪西班牙-加勒比建筑群",
+        "色彩斑斓的拱廊长廊和鹅卵石街道",
+        "1—2月坎德拉里亚节是墨西哥最热闹的节日之一"
+      ],
+      "en": [
+        "Exceptionally preserved 19th-century Spanish-Caribbean architecture",
+        "Colourful arcaded streets and cobblestone lanes",
+        "Candlemas Festival (January–February) — one of Mexico's most vibrant celebrations"
+      ]
+    },
+    "admission": {
+      "zh": "小城免费参观",
+      "en": "Free to explore"
+    },
+    "duration": {
+      "zh": "半天至一天",
+      "en": "Half to full day"
+    },
+    "tips": {
+      "zh": "从韦拉克鲁斯市乘大巴约2小时，可作为韦拉克鲁斯游的延伸行程。",
+      "en": "About 2 hours by bus from Veracruz city; combine as an extension of a Veracruz visit."
+    }
+  },
+  {
+    "id": "popocatepetl-monasteries",
+    "name": {
+      "zh": "波波卡特佩特尔山坡最早的16世纪修道院",
+      "en": "Earliest 16th-Century Monasteries on the Slopes of Popocatépetl"
+    },
+    "description": {
+      "zh": "波波卡特佩特尔火山山坡上散布着14座16世纪方济会、多明我会和奥斯定会修道院，是西班牙征服后最早的基督教化工程的见证，其厚重的要塞式建筑融合了欧洲哥特、文艺复兴与本土美洲风格。1994年列入UNESCO世界遗产。",
+      "en": "Fourteen 16th-century Franciscan, Dominican and Augustinian monasteries scatter across the slopes of Popocatépetl volcano, witnessing the earliest Christianisation effort after the Spanish conquest. Their fortress-like architecture blends European Gothic and Renaissance with indigenous Mexican styles. UNESCO World Heritage Site since 1994."
+    },
+    "image": "https://picsum.photos/seed/popocatepetl-monasteries-mexico/800/500",
+    "tags": {
+      "zh": ["世界遗产", "殖民修道院", "西班牙征服"],
+      "en": ["UNESCO Heritage", "Colonial Monasteries", "Spanish Conquest"]
+    },
+    "location": {
+      "zh": "莫雷洛斯州、普埃布拉州和墨西哥州，波波卡特佩特尔火山周边",
+      "en": "Morelos, Puebla and State of Mexico, around Popocatépetl volcano"
+    },
+    "highlights": {
+      "zh": [
+        "14座16世纪要塞式修道院，是美洲最早的基督教建筑群之一",
+        "各修道院融合哥特、文艺复兴与本土美洲装饰风格",
+        "背景是仍在活动的波波卡特佩特尔火山，景色壮观"
+      ],
+      "en": [
+        "14 fortress-like 16th-century monasteries among the earliest Christian buildings in the Americas",
+        "Each blends Gothic, Renaissance and indigenous American decorative styles",
+        "Dramatic backdrop of the still-active Popocatépetl volcano"
+      ]
+    },
+    "admission": {
+      "zh": "各修道院通常免费或象征性收费",
+      "en": "Usually free or nominal entry at each monastery"
+    },
+    "duration": {
+      "zh": "1—2天（自驾串联多座修道院）",
+      "en": "1–2 days (self-driving to visit multiple monasteries)"
+    },
+    "tips": {
+      "zh": "特拉雅卡潘、尤里里亚帕、托托拉潘等修道院是其中最精华的，从墨西哥城出发一日可完成。",
+      "en": "Tlayacapan, Yecapixtla and Totolapan are among the finest; all reachable on a day trip from Mexico City."
+    }
+  },
+  {
+    "id": "el-tajin",
+    "name": {
+      "zh": "埃尔·塔欣",
+      "en": "El Tajín"
+    },
+    "description": {
+      "zh": "埃尔·塔欣是托托纳克文明的重要中心（公元900—1100年鼎盛），以其精美的龛式金字塔（壁龛金字塔有365个壁龛）和复杂的球场浮雕著称，是墨西哥湾海岸区最重要的前哥伦布时期考古遗址。1992年列入UNESCO世界遗产。",
+      "en": "El Tajín was the great Totonac cultural centre at its height 900–1100 CE, renowned for the intricate Pyramid of the Niches (with 365 niches) and elaborate ball-court reliefs. It is the most important pre-Columbian site on the Gulf Coast. UNESCO World Heritage Site since 1992."
+    },
+    "image": "https://picsum.photos/seed/el-tajin-mexico/800/500",
+    "tags": {
+      "zh": ["世界遗产", "托托纳克文明", "壁龛金字塔"],
+      "en": ["UNESCO Heritage", "Totonac Civilisation", "Pyramid of the Niches"]
+    },
+    "location": {
+      "zh": "韦拉克鲁斯州，帕潘特拉附近",
+      "en": "Near Papantla, Veracruz state"
+    },
+    "highlights": {
+      "zh": [
+        "壁龛金字塔：365个壁龛与一年天数对应，建筑艺术杰作",
+        "精美的球场浮雕描绘了复杂的球赛仪式场景",
+        "飞行者（沃拉多雷斯）表演：从高柱顶端绑绳盘旋而下的托托纳克传统表演"
+      ],
+      "en": [
+        "Pyramid of the Niches — 365 niches corresponding to days of the year; a masterpiece of architecture",
+        "Elaborate ball-court reliefs depicting complex ritual ball-game scenes",
+        "Voladores performance — Totonac men spinning from a towering pole on ropes"
+      ]
+    },
+    "admission": {
+      "zh": "约90比索（约5美元）",
+      "en": "~MXN$90 (~US$5)"
+    },
+    "duration": {
+      "zh": "3—4小时",
+      "en": "3–4 hours"
+    },
+    "tips": {
+      "zh": "从帕潘特拉市中心乘出租车约10分钟。香草之都帕潘特拉本身也值得参观，当地香草工艺品是最佳伴手礼。",
+      "en": "About 10 minutes by taxi from central Papantla. The 'Vanilla Capital' Papantla itself is worth exploring — local vanilla products make great souvenirs."
+    }
+  },
+  {
+    "id": "morelia-historic",
+    "name": {
+      "zh": "莫雷利亚历史中心",
+      "en": "Historic Centre of Morelia"
+    },
+    "description": {
+      "zh": "莫雷利亚（原名巴利亚多利德）是米却肯州首府，以其约1,113座殖民时期的粉红色石灰岩建筑著称，整个历史中心保存了16—18世纪完整的城市格局，主教堂双塔是其地标。1991年列入UNESCO世界遗产。",
+      "en": "Morelia (formerly Valladolid), capital of Michoacán, is celebrated for some 1,113 colonial buildings in rosy-pink local limestone preserving an intact 16th–18th-century urban layout. The twin-towered cathedral is the defining landmark. UNESCO World Heritage Site since 1991."
+    },
+    "image": "https://picsum.photos/seed/morelia-mexico/800/500",
+    "tags": {
+      "zh": ["世界遗产", "殖民建筑", "粉色石城"],
+      "en": ["UNESCO Heritage", "Colonial Architecture", "Pink Stone City"]
+    },
+    "location": {
+      "zh": "米却肯州，墨西哥西部高地",
+      "en": "Michoacán state, western Mexican highlands"
+    },
+    "highlights": {
+      "zh": [
+        "1,100余座粉红色石灰岩殖民建筑，城市肌理保存完整",
+        "莫雷利亚大教堂双塔，是墨西哥最壮观的殖民教堂之一",
+        "著名的莫雷利亚国际电影节和糖果工艺"
+      ],
+      "en": [
+        "Over 1,100 buildings in rosy pink limestone with intact colonial urban fabric",
+        "Twin-towered Morelia Cathedral — one of Mexico's most spectacular colonial churches",
+        "Famous Morelia International Film Festival and traditional confectionery crafts"
+      ]
+    },
+    "admission": {
+      "zh": "历史中心免费",
+      "en": "Historic centre free to explore"
+    },
+    "duration": {
+      "zh": "1—2天",
+      "en": "1–2 days"
+    },
+    "tips": {
+      "zh": "从墨西哥城乘大巴约4小时，是前往帝王蝶保护区的绝佳中转站。",
+      "en": "About 4 hours by bus from Mexico City; an excellent staging point for the Monarch Butterfly Reserve."
+    }
+  },
+  {
+    "id": "xochicalco",
+    "name": {
+      "zh": "霍奇卡尔科考古区",
+      "en": "Archaeological Monument Zone of Xochicalco"
+    },
+    "description": {
+      "zh": "霍奇卡尔科（意为「花宫之地」）是公元700—900年间的重要都城和贸易中心，以其羽蛇神庙上精美的玛雅、萨波特克和特奥蒂瓦坎风格浮雕著称，融合了多元文化传统，是后古典时期墨西哥最重要的遗址之一。1999年列入UNESCO世界遗产。",
+      "en": "Xochicalco ('place of the house of flowers') was an important city and trade hub 700–900 CE, celebrated for the exquisite Maya-, Zapotec- and Teotihuacan-influenced carvings on its Temple of the Feathered Serpent. It is one of the most significant early Postclassic sites in Mexico. UNESCO World Heritage Site since 1999."
+    },
+    "image": "https://picsum.photos/seed/xochicalco-mexico/800/500",
+    "tags": {
+      "zh": ["世界遗产", "古典晚期遗址", "羽蛇神庙"],
+      "en": ["UNESCO Heritage", "Late Classic Site", "Feathered Serpent Temple"]
+    },
+    "location": {
+      "zh": "莫雷洛斯州，库埃纳瓦卡西南约38公里",
+      "en": "~38 km southwest of Cuernavaca, Morelos state"
+    },
+    "highlights": {
+      "zh": [
+        "羽蛇神庙上融合多文化风格的精美浮雕，堪称前哥伦布雕刻艺术巅峰",
+        "天文观测井：夏至日正午阳光直射入竖井，演示古代天文学",
+        "山顶遗址俯瞰莫雷洛斯山谷全景"
+      ],
+      "en": [
+        "Temple of the Feathered Serpent — multi-cultural bas-reliefs representing the pinnacle of pre-Columbian carving",
+        "Astronomical observatory shaft illuminated by a single sunbeam at summer solstice noon",
+        "Hilltop site with panoramic views across the Morelos Valley"
+      ]
+    },
+    "admission": {
+      "zh": "约90比索（约5美元）",
+      "en": "~MXN$90 (~US$5)"
+    },
+    "duration": {
+      "zh": "2—3小时",
+      "en": "2–3 hours"
+    },
+    "tips": {
+      "zh": "可与库埃纳瓦卡历史中心联游；夏至日（6月21日）前往可观看阳光照入天文竖井的奇观。",
+      "en": "Combine with a visit to Cuernavaca's historic centre; visiting on the summer solstice (21 June) lets you witness the solar shaft phenomenon."
+    }
+  },
+  {
+    "id": "calakmul",
+    "name": {
+      "zh": "卡拉克穆尔古玛雅城及热带森林",
+      "en": "Ancient Maya City and Protected Tropical Forests of Calakmul"
+    },
+    "description": {
+      "zh": "卡拉克穆尔是古典玛雅时期最强大的城邦之一，统治着覆盖近180万公顷的完整热带雨林，其中包括墨西哥最大的连续热带林。遗址中发现了大量保存完好的玛雅象形文字石碑和精美的玉制葬礼面具。2002年（自然遗产）和2014年（文化遗产扩展）列入UNESCO世界遗产。",
+      "en": "Calakmul was one of the most powerful Maya city-states in the Classic period, surrounded by ~1.8 million hectares of intact tropical forest — Mexico's largest contiguous tropical jungle. Major jade funerary masks and thousands of hieroglyphic stelae have been found here. UNESCO World Heritage Site 2002 (natural) and 2014 (cultural extension)."
+    },
+    "image": "https://picsum.photos/seed/calakmul-mexico/800/500",
+    "tags": {
+      "zh": ["世界遗产", "玛雅古城", "热带雨林"],
+      "en": ["UNESCO Heritage", "Ancient Maya City", "Tropical Rainforest"]
+    },
+    "location": {
+      "zh": "坎佩切州，尤卡坦半岛南部",
+      "en": "Southern Yucatán Peninsula, Campeche state"
+    },
+    "highlights": {
+      "zh": [
+        "古典时期最强大的玛雅城邦遗址，含众多象形文字石碑",
+        "180万公顷原始热带雨林，是墨西哥最大的连续热带林",
+        "美洲豹、貘、金刚鹦鹉等濒危野生动物的重要庇护所"
+      ],
+      "en": [
+        "Ruins of one of the most powerful Classic Maya city-states, with thousands of stelae",
+        "1.8 million ha of pristine tropical forest — Mexico's largest continuous jungle",
+        "Critical refuge for jaguars, tapirs, scarlet macaws and other endangered species"
+      ]
+    },
+    "admission": {
+      "zh": "约90比索（约5美元）",
+      "en": "~MXN$90 (~US$5)"
+    },
+    "duration": {
+      "zh": "半天至一天（含车程）",
+      "en": "Half to full day (including travel time)"
+    },
+    "tips": {
+      "zh": "从坎佩切市驾车约3.5小时，路途较远。清晨前往野生动物最为活跃；带上防蚊装备。",
+      "en": "About 3.5 hours drive from Campeche city. Go at dawn for the best wildlife activity; bring mosquito protection."
+    }
+  },
+  {
+    "id": "campeche-historic",
+    "name": {
+      "zh": "坎佩切历史设防城",
+      "en": "Historic Fortified Town of Campeche"
+    },
+    "description": {
+      "zh": "坎佩切是墨西哥湾沿岸保存最完好的西班牙殖民防御城市，其完整的城墙、多座棱堡和巴洛克式建筑反映了16—17世纪抵御海盗入侵的重要历史，色彩斑斓的殖民建筑与海滨风光交相辉映。1999年列入UNESCO世界遗产。",
+      "en": "Campeche is the best-preserved Spanish colonial fortified city on the Gulf of Mexico, with intact city walls, multiple bastions and Baroque architecture reflecting centuries of defence against pirate raids. Its colourful colonial buildings and seafront setting are outstanding. UNESCO World Heritage Site since 1999."
+    },
+    "image": "https://picsum.photos/seed/campeche-mexico/800/500",
+    "tags": {
+      "zh": ["世界遗产", "要塞城市", "殖民建筑"],
+      "en": ["UNESCO Heritage", "Fortified City", "Colonial Architecture"]
+    },
+    "location": {
+      "zh": "坎佩切州，尤卡坦半岛西海岸",
+      "en": "Western Yucatán Peninsula coast, Campeche state"
+    },
+    "highlights": {
+      "zh": [
+        "保存完整的殖民时期城墙和多座棱堡，是美洲最完好的防御城市之一",
+        "色彩鲜艳的殖民建筑，以靛蓝、赭石、黄和绿色为主调",
+        "坎佩切博物馆展示卡拉克穆尔出土的精美玉制面具"
+      ],
+      "en": [
+        "Intact colonial city walls and bastions — one of the best-preserved fortified cities in the Americas",
+        "Brightly painted colonial buildings in indigo, ochre, yellow and green",
+        "Campeche Museum displays stunning jade masks from Calakmul"
+      ]
+    },
+    "admission": {
+      "zh": "城区免费；城市博物馆约50比索",
+      "en": "City free; city museum ~MXN$50"
+    },
+    "duration": {
+      "zh": "1天",
+      "en": "1 day"
+    },
+    "tips": {
+      "zh": "夜晚灯光亮起后的城墙漫步极为迷人。坎佩切以海鲜和可可尔（椰奶汤）美食闻名。",
+      "en": "The illuminated walls after dark are magical for an evening stroll. Campeche is famous for its seafood and caldo de Chaya coconut soup."
+    }
+  },
+  {
+    "id": "sierra-san-francisco",
+    "name": {
+      "zh": "圣弗朗西斯科山岩画",
+      "en": "Rock Paintings of the Sierra de San Francisco"
+    },
+    "description": {
+      "zh": "下加利福尼亚半岛圣弗朗西斯科山脉的峡谷洞穴中保存着数百幅史前岩画，以真人大小或更大的人形和动物为主，风格独特，被认为是世界上保存最完好的史前壁画之一。1993年列入UNESCO世界遗产。",
+      "en": "The Sierra de San Francisco canyons in Baja California conceal hundreds of prehistoric rock paintings featuring life-size or larger human and animal figures in a unique style, considered among the world's finest and best-preserved prehistoric murals. UNESCO World Heritage Site since 1993."
+    },
+    "image": "https://picsum.photos/seed/sierra-san-francisco-mexico/800/500",
+    "tags": {
+      "zh": ["世界遗产", "史前岩画", "下加利福尼亚"],
+      "en": ["UNESCO Heritage", "Prehistoric Rock Art", "Baja California"]
+    },
+    "location": {
+      "zh": "南下加利福尼亚州，圣弗朗西斯科山脉",
+      "en": "Sierra de San Francisco, Baja California Sur"
+    },
+    "highlights": {
+      "zh": [
+        "数百幅史前岩画，含等人大小甚至更大的人形和动物图案",
+        "峡谷地形壮观，需骑骡或徒步数小时方可抵达",
+        "被誉为世界上保存最完好的史前岩画之一"
+      ],
+      "en": [
+        "Hundreds of prehistoric murals with life-size or larger human and animal figures",
+        "Dramatic canyon terrain requiring a multi-hour mule ride or hike to reach",
+        "Considered among the world's finest preserved prehistoric rock art"
+      ]
+    },
+    "admission": {
+      "zh": "须通过当地向导进入（约1,500—3,000比索/人，含向导费）",
+      "en": "Access via licensed local guide only (~MXN$1,500–3,000/person including guide)"
+    },
+    "duration": {
+      "zh": "1—3天（视游览深度而定）",
+      "en": "1–3 days depending on depth of visit"
+    },
+    "tips": {
+      "zh": "从圣伊格纳西奥镇出发，当地旅游机构可安排向导和骡子。11—3月凉爽季节最适合造访。",
+      "en": "Depart from San Ignacio town; local agencies arrange guides and mules. The cooler November–March season is most comfortable."
+    }
+  },
+  {
+    "id": "gulf-of-california-islands",
+    "name": {
+      "zh": "加利福尼亚湾岛屿及保护区",
+      "en": "Islands and Protected Areas of the Gulf of California"
+    },
+    "description": {
+      "zh": "加利福尼亚湾是地球上海洋生物多样性最丰富的海域之一，244个岛屿和近海水域是蓝鲸、座头鲸、加湾鼠海豚（极度濒危）及众多海洋物种的家园，被查尔斯·达尔文称为「世界鱼缸」。2005年列入UNESCO世界遗产。",
+      "en": "The Gulf of California is one of Earth's most biologically rich marine environments. Its 244 islands and surrounding waters shelter blue whales, humpbacks, the critically endangered vaquita porpoise and remarkable marine biodiversity. Jacques Cousteau called it 'the aquarium of the world'. UNESCO World Heritage Site since 2005."
+    },
+    "image": "https://picsum.photos/seed/gulf-california-mexico/800/500",
+    "tags": {
+      "zh": ["世界遗产", "海洋保护区", "鲸鱼观赏"],
+      "en": ["UNESCO Heritage", "Marine Reserve", "Whale Watching"]
+    },
+    "location": {
+      "zh": "下加利福尼亚半岛与墨西哥大陆之间的海湾",
+      "en": "Between Baja California Peninsula and mainland Mexico"
+    },
+    "highlights": {
+      "zh": [
+        "蓝鲸、虎鲸和座头鲸的重要栖息和繁殖地",
+        "加湾鼠海豚：世界上最濒危的海洋哺乳动物之一",
+        "洛雷托、拉巴斯和科尔特斯海是最佳出发基地"
+      ],
+      "en": [
+        "Critical habitat and breeding ground for blue whales, orcas and humpback whales",
+        "Vaquita porpoise — one of the world's most critically endangered marine mammals",
+        "Loreto, La Paz and Sea of Cortez as prime bases for marine excursions"
+      ]
+    },
+    "admission": {
+      "zh": "海洋公园约300—500比索/天；出海游约1,000—2,000比索/人",
+      "en": "Marine park fee ~MXN$300–500/day; boat excursions ~MXN$1,000–2,000/person"
+    },
+    "duration": {
+      "zh": "2—5天",
+      "en": "2–5 days"
+    },
+    "tips": {
+      "zh": "11—4月是鲸鱼观赏旺季。拉巴斯（下加州南部）是进入该遗产地的最方便基地城市。",
+      "en": "November–April is prime whale season. La Paz (Baja Sur) is the most convenient base city for accessing the heritage area."
+    }
+  },
+  {
+    "id": "agave-tequila-landscape",
+    "name": {
+      "zh": "龙舌兰景观与特基拉古工业设施",
+      "en": "Agave Landscape and Ancient Industrial Facilities of Tequila"
+    },
+    "description": {
+      "zh": "哈利斯科州特基拉镇周边延绵数万公顷的蓝色龙舌兰田园景观，以及多座仍在使用的19—20世纪酿酒厂，共同构成了这一展现墨西哥国酒特基拉独特文化与生产传统的UNESCO世界遗产。2006年列入。",
+      "en": "The sweeping blue agave fields around Tequila, Jalisco, extending over tens of thousands of hectares, together with the 19th–20th-century distilleries still producing tequila, form this UNESCO World Heritage Site celebrating Mexico's national spirit and its unique cultural landscape. Inscribed 2006."
+    },
+    "image": "https://picsum.photos/seed/tequila-landscape-mexico/800/500",
+    "tags": {
+      "zh": ["世界遗产", "龙舌兰酒", "文化景观"],
+      "en": ["UNESCO Heritage", "Tequila", "Cultural Landscape"]
+    },
+    "location": {
+      "zh": "哈利斯科州，特基拉镇周边地区",
+      "en": "Around Tequila town, Jalisco state"
+    },
+    "highlights": {
+      "zh": [
+        "蓝色龙舌兰田园铺展数万公顷，景色壮观独特",
+        "多座历史悠久的酿酒厂提供参观和品酒体验",
+        "特基拉特快列车（从瓜达拉哈拉出发）是最有趣的前往方式"
+      ],
+      "en": [
+        "Vast blue agave fields spanning tens of thousands of hectares — a visually unique cultural landscape",
+        "Historic distilleries offering guided tours and tastings",
+        "The Tequila Express train from Guadalajara is the most enjoyable way to visit"
+      ]
+    },
+    "admission": {
+      "zh": "酒厂参观约200—600比索/人（含品酒）",
+      "en": "Distillery tours ~MXN$200–600/person (including tasting)"
+    },
+    "duration": {
+      "zh": "1天（从瓜达拉哈拉出发）",
+      "en": "1 day (from Guadalajara)"
+    },
+    "tips": {
+      "zh": "特基拉特快列车周末发车，包含品酒和马里亚奇表演；从瓜达拉哈拉市中心出发约1.5小时。",
+      "en": "The Tequila Express runs weekends with tastings and mariachi; about 1.5 hours from central Guadalajara."
+    }
+  },
+  {
+    "id": "unam-campus",
+    "name": {
+      "zh": "墨西哥国立自治大学中央校园",
+      "en": "Central University City Campus of the UNAM"
+    },
+    "description": {
+      "zh": "墨西哥国立自治大学（UNAM）中央校园建于1949—1952年，融合了现代建筑与城市规划理念及墨西哥文化传统，校园内图书馆外立面由胡安·奥戈尔曼设计的巨型马赛克壁画举世闻名。2007年列入UNESCO世界遗产。",
+      "en": "The UNAM Central University City Campus, built 1949–1952, is a unique synthesis of modern architecture, urban planning and Mexican cultural traditions. The university library's colossal mosaic facade by Juan O'Gorman is world-famous. UNESCO World Heritage Site since 2007."
+    },
+    "image": "https://picsum.photos/seed/unam-campus-mexico/800/500",
+    "tags": {
+      "zh": ["世界遗产", "现代建筑", "马赛克壁画"],
+      "en": ["UNESCO Heritage", "Modern Architecture", "Mosaic Murals"]
+    },
+    "location": {
+      "zh": "墨西哥城南部，科约阿坎区",
+      "en": "Southern Mexico City, Coyoacán borough"
+    },
+    "highlights": {
+      "zh": [
+        "胡安·奥戈尔曼设计的图书馆外立面：四面巨型马赛克壁画",
+        "现代主义建筑群与传统墨西哥元素完美融合",
+        "校园内同时设有世界级博物馆和文化空间"
+      ],
+      "en": [
+        "Library facade by Juan O'Gorman — four vast mosaic murals covering the entire building",
+        "Modernist campus integrating Mexican cultural traditions and landscape",
+        "Houses world-class museums and cultural spaces within the campus"
+      ]
+    },
+    "admission": {
+      "zh": "校园免费参观",
+      "en": "Free to visit"
+    },
+    "duration": {
+      "zh": "2—3小时",
+      "en": "2–3 hours"
+    },
+    "tips": {
+      "zh": "乘坐地铁至大学城站（Copilco或Universidad站），步行10分钟即达。结合附近弗里达·卡洛博物馆同程游览。",
+      "en": "Take the Metro to Copilco or Universidad station (10-minute walk). Combine with the Frida Kahlo Museum nearby in Coyoacán."
+    }
+  },
+  {
+    "id": "luis-barragan-house",
+    "name": {
+      "zh": "路易斯·巴拉甘故居与工作室",
+      "en": "Luis Barragán House and Studio"
+    },
+    "description": {
+      "zh": "路易斯·巴拉甘（1902—1988年）是墨西哥最伟大的建筑师，其位于墨西哥城的故居与工作室是他建筑哲学的完美体现，以大面积彩色墙面、充足自然光线和宁静庭院著称，被誉为20世纪最重要的现代主义建筑之一。2004年列入UNESCO世界遗产。",
+      "en": "Luis Barragán (1902–1988) was Mexico's greatest architect; his Mexico City house and studio perfectly embodies his philosophy of bold coloured walls, abundant natural light and serene gardens, considered one of the 20th century's most important modernist buildings. UNESCO World Heritage Site since 2004."
+    },
+    "image": "https://picsum.photos/seed/luis-barragan-mexico/800/500",
+    "tags": {
+      "zh": ["世界遗产", "现代建筑", "建筑圣地"],
+      "en": ["UNESCO Heritage", "Modern Architecture", "Architectural Landmark"]
+    },
+    "location": {
+      "zh": "墨西哥城，塔库巴亚街区",
+      "en": "Tacubaya neighbourhood, Mexico City"
+    },
+    "highlights": {
+      "zh": [
+        "大面积彩色墙面（粉红、黄、紫）与自然光线的绝妙运用",
+        "巴拉甘建筑理念的完整体现：融合宗教、神秘与宁静",
+        "全球现代建筑爱好者必访的朝圣地"
+      ],
+      "en": [
+        "Bold coloured walls (pink, yellow, purple) and masterful use of natural light",
+        "Complete expression of Barragán's architectural philosophy: religious, mystical and serene",
+        "A pilgrimage site for architecture lovers worldwide"
+      ]
+    },
+    "admission": {
+      "zh": "约200—350比索/人（须网上预约，参观名额极为有限）",
+      "en": "~MXN$200–350/person (advance online booking required; very limited capacity)"
+    },
+    "duration": {
+      "zh": "1—1.5小时（含向导讲解）",
+      "en": "1–1.5 hours (with guided interpretation)"
+    },
+    "tips": {
+      "zh": "参观名额极为有限，须通过官方网站提前数周预约。摄影须事先申请单独许可。",
+      "en": "Capacity is strictly limited — book your visit weeks ahead via the official website. Photography requires a separate permit."
+    }
+  },
+  {
+    "id": "yagul-mitla-caves",
+    "name": {
+      "zh": "亚古尔和米特拉史前洞穴",
+      "en": "Prehistoric Caves of Yagul and Mitla"
+    },
+    "description": {
+      "zh": "亚古尔和米特拉周边的洞穴保存着最古老的植物驯化证据之一，包括距今约10,000年的玉米、南瓜和辣椒种子，是研究美洲农业起源的关键地点，同时拥有精美的萨波特克古城遗址。2010年列入UNESCO世界遗产。",
+      "en": "Caves near Yagul and Mitla preserve some of the world's earliest evidence of plant domestication, including maize, squash and chilli seeds ~10,000 years old — key sites for understanding the origins of agriculture in the Americas. Outstanding Zapotec archaeological sites also lie nearby. UNESCO World Heritage Site since 2010."
+    },
+    "image": "https://picsum.photos/seed/yagul-mitla-mexico/800/500",
+    "tags": {
+      "zh": ["世界遗产", "农业起源", "萨波特克遗址"],
+      "en": ["UNESCO Heritage", "Agricultural Origins", "Zapotec Sites"]
+    },
+    "location": {
+      "zh": "瓦哈卡州，亚古尔和米特拉遗址周边",
+      "en": "Around Yagul and Mitla sites, Oaxaca state"
+    },
+    "highlights": {
+      "zh": [
+        "距今约10,000年的玉米、南瓜和辣椒驯化证据",
+        "亚古尔萨波特克遗址，包含精美的宫殿和球场",
+        "米特拉遗址以繁复的几何石刻镶嵌装饰著称"
+      ],
+      "en": [
+        "Earliest known domestication evidence for maize, squash and chilli (~10,000 years old)",
+        "Yagul Zapotec site with fine palaces and ball court",
+        "Mitla site celebrated for intricate geometric stone mosaic decorations"
+      ]
+    },
+    "admission": {
+      "zh": "亚古尔约90比索；米特拉约75比索",
+      "en": "Yagul ~MXN$90; Mitla ~MXN$75"
+    },
+    "duration": {
+      "zh": "半天至一天（两地合并游览）",
+      "en": "Half to full day (combining both sites)"
+    },
+    "tips": {
+      "zh": "从瓦哈卡市驾车约40—50分钟，可与特奥蒂特兰·德尔瓦列织毯村结合游览。",
+      "en": "About 40–50 minutes drive from Oaxaca city; combine with Teotitlán del Valle weaving village."
+    }
+  },
+  {
+    "id": "el-pinacate",
+    "name": {
+      "zh": "埃尔皮纳卡特与格兰德西尔托生物圈保护区",
+      "en": "El Pinacate and Gran Desierto de Altar Biosphere Reserve"
+    },
+    "description": {
+      "zh": "埃尔皮纳卡特保护区涵盖索诺拉沙漠北部的两种极端地貌：布满陨石坑状火山口的皮纳卡特火山区和格兰德西尔托沙漠（北美最大的沙丘区），NASA曾将此地用于阿波罗宇航员的月球地形训练。2013年列入UNESCO世界遗产。",
+      "en": "El Pinacate encompasses two extreme Sonoran Desert landscapes: the Pinacate volcanic field with spectacular maar craters, and the Gran Desierto de Altar — North America's largest sand-dune field. NASA once trained Apollo astronauts here for lunar terrain. UNESCO World Heritage Site since 2013."
+    },
+    "image": "https://picsum.photos/seed/el-pinacate-mexico/800/500",
+    "tags": {
+      "zh": ["世界遗产", "火山地貌", "沙漠探险"],
+      "en": ["UNESCO Heritage", "Volcanic Landscape", "Desert Adventure"]
+    },
+    "location": {
+      "zh": "索诺拉州，墨西哥西北部",
+      "en": "Northwestern Sonora state, Mexico"
+    },
+    "highlights": {
+      "zh": [
+        "皮纳卡特火山区：大型火山口（玛珥湖）形似月球表面",
+        "格兰德西尔托沙漠：北美最大沙丘区，部分沙丘高逾100米",
+        "NASA曾用此地为阿波罗宇航员进行月球地形训练"
+      ],
+      "en": [
+        "Pinacate volcanic field with large maar craters resembling lunar surfaces",
+        "Gran Desierto de Altar — North America's largest active sand-dune field, dunes over 100 m",
+        "NASA trained Apollo astronauts here for lunar terrain orientation"
+      ]
+    },
+    "admission": {
+      "zh": "须通过保护区管理处申请许可（免费或象征性收费）",
+      "en": "Permit required from reserve administration (free or nominal fee)"
+    },
+    "duration": {
+      "zh": "1—2天",
+      "en": "1–2 days"
+    },
+    "tips": {
+      "zh": "从索诺伊塔或洛奎托镇驾车进入，冬季（11—3月）温度适宜。须携带充足的水和食物，设施极为有限。",
+      "en": "Enter by car from Sonoyta or Lukeville; winter (November–March) offers tolerable temperatures. Carry ample water and food — facilities are minimal."
+    }
+  },
+  {
+    "id": "aqueduct-padre-tembleque",
+    "name": {
+      "zh": "帕德雷·坦布莱克水道桥水文系统",
+      "en": "Aqueduct of Padre Tembleque Hydraulic System"
+    },
+    "description": {
+      "zh": "帕德雷·坦布莱克水道桥建于1555—1572年，是16世纪美洲规模最大的水利工程之一，其主拱桥（拥有68座拱）跨越深谷，至今仍是世界上同类建筑中最长的单排拱高架水道之一。2015年列入UNESCO世界遗产。",
+      "en": "The Aqueduct of Padre Tembleque, built 1555–1572, was one of the most ambitious hydraulic works in 16th-century America. Its main arcade with 68 arches spanning a deep valley remains one of the world's longest single-tier elevated aqueducts. UNESCO World Heritage Site since 2015."
+    },
+    "image": "https://picsum.photos/seed/padre-tembleque-mexico/800/500",
+    "tags": {
+      "zh": ["世界遗产", "殖民水利工程", "拱桥"],
+      "en": ["UNESCO Heritage", "Colonial Hydraulic Engineering", "Aqueduct"]
+    },
+    "location": {
+      "zh": "伊达尔戈州和墨西哥州，墨西哥中部",
+      "en": "Hidalgo and State of Mexico, central Mexico"
+    },
+    "highlights": {
+      "zh": [
+        "68座拱廊高架水道，是世界上最长的单排拱高架水道之一",
+        "16世纪方济会修士坦布莱克主持设计建造，历时17年",
+        "全长约48公里，融合了欧洲和墨西哥本土水利传统"
+      ],
+      "en": [
+        "68-arch arcade — one of the world's longest single-tier elevated aqueducts",
+        "Designed and built over 17 years by Franciscan friar Tembleque in the 16th century",
+        "~48 km total length combining European and indigenous Mexican hydraulic traditions"
+      ]
+    },
+    "admission": {
+      "zh": "免费参观",
+      "en": "Free to visit"
+    },
+    "duration": {
+      "zh": "1—2小时",
+      "en": "1–2 hours"
+    },
+    "tips": {
+      "zh": "从墨西哥城驾车约1.5小时抵达铁帕哈拉科镇附近的主拱段。结合帕丘卡市游览效果更佳。",
+      "en": "About 1.5 hours drive from Mexico City to the main arcade near Tepeyahualco. Combine with a visit to Pachuca city."
+    }
+  },
+  {
+    "id": "tehuacan-cuicatlan",
+    "name": {
+      "zh": "特瓦坎-奎卡特兰山谷",
+      "en": "Tehuacán–Cuicatlán Valley: Originary Habitat of Mesoamerica"
+    },
+    "description": {
+      "zh": "特瓦坎-奎卡特兰山谷是世界上最干燥的热带地区之一，同时也是美洲农业的发源地之一，保存着仙人掌科植物（包括柱状仙人掌）最重要的原生栖息地，以及数千年的前哥伦布灌溉系统。2018年列入UNESCO世界遗产。",
+      "en": "The Tehuacán–Cuicatlán Valley is one of the world's driest tropical regions and a cradle of Mesoamerican agriculture, home to the most significant natural habitat for the cactus family in the Americas (including columnar cacti) and ancient pre-Columbian irrigation systems. UNESCO World Heritage Site since 2018."
+    },
+    "image": "https://picsum.photos/seed/tehuacan-cuicatlan-mexico/800/500",
+    "tags": {
+      "zh": ["世界遗产", "仙人掌生态系统", "农业起源"],
+      "en": ["UNESCO Heritage", "Cactus Ecosystem", "Agricultural Origins"]
+    },
+    "location": {
+      "zh": "普埃布拉州和瓦哈卡州交界地带",
+      "en": "Puebla–Oaxaca border region, southern Mexico"
+    },
+    "highlights": {
+      "zh": [
+        "美洲最重要的仙人掌科植物原生栖息地，含巨型柱状仙人掌林",
+        "数千年前的前哥伦布灌溉系统，是美洲农业文明发源地之一",
+        "独特的干燥热带生物多样性，含众多特有物种"
+      ],
+      "en": [
+        "Most significant cactus habitat in the Americas with giant columnar cactus forests",
+        "Ancient pre-Columbian irrigation systems dating back thousands of years",
+        "Outstanding dry tropical biodiversity with many endemic species"
+      ]
+    },
+    "admission": {
+      "zh": "保护区象征性收费或免费",
+      "en": "Nominal fee or free at the reserve"
+    },
+    "duration": {
+      "zh": "半天至一天",
+      "en": "Half to full day"
+    },
+    "tips": {
+      "zh": "从特瓦坎市（普埃布拉州）驾车进入。建议聘请当地向导以了解丰富的植物和考古信息。",
+      "en": "Enter by car from Tehuacán city (Puebla). Hiring a local guide is recommended to appreciate the botanical and archaeological richness."
+    }
+  },
+  {
+    "id": "revillagigedo",
+    "name": {
+      "zh": "雷维利亚希赫多群岛",
+      "en": "Archipiélago de Revillagigedo"
+    },
+    "description": {
+      "zh": "雷维利亚希赫多群岛位于太平洋，距科利马州海岸约390—970公里，由四座火山岛（索科罗、克拉里昂、罗卡帕蒂达、本尼迪克托）及周边海域组成，是鬼蝠魟（大型蝠鱼）、鲨鱼、蝠鲼等大型海洋生物的重要聚集地。2016年列入UNESCO世界遗产。",
+      "en": "The Revillagigedo Archipelago in the Pacific Ocean, 390–970 km off the Colima coast, comprises four volcanic islands and surrounding waters that form a globally important aggregation site for giant manta rays, sharks, humpback whales and other large marine species. UNESCO World Heritage Site since 2016."
+    },
+    "image": "https://picsum.photos/seed/revillagigedo-mexico/800/500",
+    "tags": {
+      "zh": ["世界遗产", "海洋保护区", "鬼蝠魟"],
+      "en": ["UNESCO Heritage", "Marine Protected Area", "Giant Manta Rays"]
+    },
+    "location": {
+      "zh": "太平洋，科利马州和哈利斯科州海岸外",
+      "en": "Pacific Ocean, off the Colima and Jalisco coasts"
+    },
+    "highlights": {
+      "zh": [
+        "全球大型蝠鱼（鬼蝠魟）密度最高的海域之一",
+        "鲨鱼、座头鲸、海豚和海龟聚集的世界级潜水圣地",
+        "索科罗岛是北太平洋最重要的海洋生物多样性热点之一"
+      ],
+      "en": [
+        "One of the world's highest concentrations of oceanic giant manta rays",
+        "World-class diving destination for sharks, humpbacks, dolphins and sea turtles",
+        "Socorro Island — one of the most important marine biodiversity hotspots in the North Pacific"
+      ]
+    },
+    "admission": {
+      "zh": "须乘坐专业潜水船前往（7—10天套餐约3,000—5,000美元）",
+      "en": "Accessible only by liveaboard dive vessels (~US$3,000–5,000 for 7–10-day packages)"
+    },
+    "duration": {
+      "zh": "7—10天（船宿潜水行程）",
+      "en": "7–10 days (liveaboard dive trip)"
+    },
+    "tips": {
+      "zh": "从曼萨尼约港出发乘船约36小时。潜水旺季为11—5月，提前数月通过专业潜水运营商预订。",
+      "en": "About 36 hours by boat from Manzanillo port. Peak diving season November–May; book months ahead through specialist dive operators."
+    }
+  },
+  {
+    "id": "comarca-minera-geopark",
+    "name": {
+      "zh": "科马尔卡米内拉联合国教科文组织全球地质公园",
+      "en": "Comarca Minera UNESCO Global Geopark"
+    },
+    "description": {
+      "zh": "科马尔卡米内拉地质公园位于伊达尔戈州，以古老的银矿和金属矿开采历史为核心，涵盖壮观的玄武岩棱柱（普里斯马斯巴萨尔蒂科斯）和丰富的地质遗迹，展现了墨西哥中部高原独特的地质与矿业文化。",
+      "en": "Comarca Minera UNESCO Global Geopark in Hidalgo state centres on ancient silver and metal-mining heritage and includes dramatic basalt prism formations (Prismas Basálticos) and rich geological heritage showcasing the unique geology and mining culture of the central Mexican plateau."
+    },
+    "image": "https://picsum.photos/seed/comarca-minera-mexico/800/500",
+    "tags": {
+      "zh": ["地质公园", "玄武岩棱柱", "矿业历史"],
+      "en": ["UNESCO Geopark", "Basalt Prisms", "Mining Heritage"]
+    },
+    "location": {
+      "zh": "伊达尔戈州，墨西哥中部",
+      "en": "Hidalgo state, central Mexico"
+    },
+    "highlights": {
+      "zh": [
+        "普里斯马斯巴萨尔蒂科斯：数十米高的壮观玄武岩棱柱群",
+        "殖民时期银矿和金属矿开采遗迹",
+        "丰富的前哥伦布和殖民时期地质与文化遗产"
+      ],
+      "en": [
+        "Prismas Basálticos — spectacular basalt column formations tens of metres tall",
+        "Colonial-era silver and metal mining heritage sites",
+        "Rich pre-Columbian and colonial geological and cultural heritage"
+      ]
+    },
+    "admission": {
+      "zh": "普里斯马斯巴萨尔蒂科斯约40比索；其他区域大多免费",
+      "en": "Prismas Basálticos ~MXN$40; most other areas free"
+    },
+    "duration": {
+      "zh": "1—2天",
+      "en": "1–2 days"
+    },
+    "tips": {
+      "zh": "从帕丘卡市驾车约1.5小时可到达玄武岩棱柱景区，结合帕丘卡市历史中心游览体验更丰富。",
+      "en": "About 1.5 hours drive from Pachuca to the basalt prisms; combine with Pachuca's historic centre for a fuller visit."
+    }
+  },
+  {
+    "id": "mixteca-alta-geopark",
+    "name": {
+      "zh": "米克斯特卡阿尔塔联合国教科文组织全球地质公园",
+      "en": "Mixteca Alta UNESCO Global Geopark"
+    },
+    "description": {
+      "zh": "米克斯特卡阿尔塔地质公园位于瓦哈卡州，以米克斯特克文明的历史遗址、壮观的石灰岩峡谷和洞穴以及独特的生物多样性著称，展现了人类与自然共存的数千年历史。",
+      "en": "Mixteca Alta UNESCO Global Geopark in Oaxaca state is celebrated for Mixtec civilisation heritage sites, spectacular limestone canyons and caves, and outstanding biodiversity, reflecting thousands of years of human coexistence with the natural environment."
+    },
+    "image": "https://picsum.photos/seed/mixteca-alta-mexico/800/500",
+    "tags": {
+      "zh": ["地质公园", "米克斯特克文明", "石灰岩峡谷"],
+      "en": ["UNESCO Geopark", "Mixtec Civilisation", "Limestone Canyons"]
+    },
+    "location": {
+      "zh": "瓦哈卡州西北部，米克斯特卡阿尔塔地区",
+      "en": "Northwestern Oaxaca state, Mixteca Alta region"
+    },
+    "highlights": {
+      "zh": [
+        "米克斯特克文明遗址与传统手工艺（陶瓷、纺织）的活态传承",
+        "壮观的石灰岩峡谷、洞穴和奇特地貌",
+        "丰富的地方性植物多样性，含众多龙舌兰品种"
+      ],
+      "en": [
+        "Mixtec heritage sites with living craft traditions (ceramics, textiles)",
+        "Spectacular limestone canyons, caves and distinctive landforms",
+        "Outstanding endemic plant diversity including many agave species"
+      ]
+    },
+    "admission": {
+      "zh": "大多数区域免费",
+      "en": "Most areas free"
+    },
+    "duration": {
+      "zh": "1—2天",
+      "en": "1–2 days"
+    },
+    "tips": {
+      "zh": "从瓦哈卡市驾车约2—3小时，推荐结合当地导游体验米克斯特克文化和传统食物。",
+      "en": "About 2–3 hours drive from Oaxaca city; a local guide is recommended to experience Mixtec culture and traditional food."
+    }
+  },
+  {
+    "id": "tehuacan-cuicatlan-tentative",
+    "name": {
+      "zh": "波波卡特佩特尔—伊斯塔西瓦特尔国家公园（候选）",
+      "en": "Popocatépetl and Iztaccíhuatl National Park (Tentative WHC)"
+    },
+    "description": {
+      "zh": "波波卡特佩特尔（高5,452米）和伊斯塔西瓦特尔（高5,230米）是墨西哥最具标志性的两座火山，合称「波波和伊斯塔」，其皑皑白雪的峰顶在晴天可从墨西哥城望见。该公园目前处于UNESCO世界遗产候选名单（暂定名单）之上。",
+      "en": "Popocatépetl (5,452 m) and Iztaccíhuatl (5,230 m) are Mexico's most iconic volcanoes, affectionately called 'Popo and Izta', their snow-capped peaks visible from Mexico City on clear days. The national park is currently on Mexico's UNESCO World Heritage Tentative List."
+    },
+    "image": "https://picsum.photos/seed/popocatepetl-iztaccihuatl-mexico/800/500",
+    "tags": {
+      "zh": ["候选遗产", "火山", "国家公园"],
+      "en": ["Tentative WHC", "Volcano", "National Park"]
+    },
+    "location": {
+      "zh": "莫雷洛斯州、普埃布拉州和墨西哥州边界",
+      "en": "Morelos, Puebla and State of Mexico border"
+    },
+    "highlights": {
+      "zh": [
+        "波波卡特佩特尔：墨西哥最活跃的火山之一，持续喷发中",
+        "伊斯塔西瓦特尔：「沉睡的女人」，提供较安全的高山攀登路线",
+        "晴天从墨西哥城可见雪峰，是城市天际线的标志性背景"
+      ],
+      "en": [
+        "Popocatépetl — one of Mexico's most active volcanoes, continuously erupting",
+        "Iztaccíhuatl — 'Sleeping Woman', offering safer high-altitude climbing routes",
+        "Snow-capped peaks visible from Mexico City on clear days — iconic urban skyline backdrop"
+      ]
+    },
+    "admission": {
+      "zh": "国家公园约45比索/人",
+      "en": "~MXN$45/person (national park)"
+    },
+    "duration": {
+      "zh": "1天（观光）至多天（登山）",
+      "en": "1 day (sightseeing) to multi-day (mountaineering)"
+    },
+    "tips": {
+      "zh": "受波波卡特佩特尔火山活动影响，访问前须查看最新禁区公告。登伊斯塔西瓦特尔需要高山经验。",
+      "en": "Check current exclusion-zone notices before visiting due to Popocatépetl's volcanic activity. Climbing Iztaccíhuatl requires mountaineering experience."
+    }
+  },
+  {
+    "id": "ancient-maya-city-chichen-itza-extended",
+    "name": {
+      "zh": "科潘与奇琴伊察（候选扩展区）",
+      "en": "Chichén Itzá Extended Maya Landscape (Tentative)"
+    },
+    "description": {
+      "zh": "墨西哥正在推进将奇琴伊察周边更广泛的玛雅文化景观（包括多个古典晚期至后古典期玛雅城市遗址）列入UNESCO世界遗产的扩展申报，以体现尤卡坦半岛玛雅文明的整体性。目前处于暂定名单研究阶段。",
+      "en": "Mexico is pursuing an extended UNESCO nomination of the broader Maya cultural landscape around Chichén Itzá, encompassing multiple Late Classic to Postclassic Maya city sites to reflect the integrity of Yucatán Peninsula Maya civilisation. Currently in tentative-list study phase."
+    },
+    "image": "https://picsum.photos/seed/maya-landscape-tentative-mexico/800/500",
+    "tags": {
+      "zh": ["候选遗产", "玛雅文化景观", "遗产扩展"],
+      "en": ["Tentative WHC", "Maya Cultural Landscape", "Heritage Extension"]
+    },
+    "location": {
+      "zh": "尤卡坦州，玛雅低地地区",
+      "en": "Yucatán state, Maya Lowlands region"
+    },
+    "highlights": {
+      "zh": [
+        "尤卡坦半岛玛雅文明整体性文化景观的保护尝试",
+        "包含多个尚未充分开发的玛雅考古遗址",
+        "展现古典和后古典时期玛雅城市网络与贸易体系"
+      ],
+      "en": [
+        "Conservation of the Yucatán Maya civilisation's integrated cultural landscape",
+        "Encompasses multiple under-explored Maya archaeological sites",
+        "Showcases Classic and Postclassic Maya city networks and trade systems"
+      ]
+    },
+    "admission": {
+      "zh": "视具体遗址而定",
+      "en": "Varies by individual site"
+    },
+    "duration": {
+      "zh": "多天（遗址群探访）",
+      "en": "Multi-day (visiting site clusters)"
+    },
+    "tips": {
+      "zh": "从梅里达为基地，可探访艾克巴兰、科巴、埃格纳、霍奇奥博等较少游客涉足的玛雅遗址。",
+      "en": "Use Mérida as a base to explore lesser-visited Maya sites such as Ek Balam, Cobá, Edzná and Hochob."
     }
   }
 ]

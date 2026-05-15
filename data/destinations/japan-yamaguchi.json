@@ -1,0 +1,55 @@
+[
+  {
+    "id": "mine-akiyoshidai-geopark",
+    "name": {
+      "zh": "Mine秋吉台世界地质公园",
+      "en": "Mine-Akiyoshidai UNESCO Global Geopark"
+    },
+    "description": {
+      "zh": "Mine·秋吉台地质公园位于山口县美祢市，以日本最大的喀斯特台地——秋吉台为核心。约3亿年前的珊瑚礁石灰岩经地壳运动抬升后，被雨水长期溶蚀，形成广阔的草原状喀斯特高原与秋芳洞等巨型溶洞。美祢的矽卡岩铜矿遗迹与奈良大佛铸造有历史关联。2026年4月正式加入UNESCO全球地质公园网络，成为日本第11个UNESCO全球地质公园。",
+      "en": "Mine-Akiyoshidai UNESCO Global Geopark, centred on Akiyoshidai plateau in Mine City, Yamaguchi Prefecture, preserves Japan's largest karst landscape. Limestone reefs formed in tropical seas around 300 million years ago were uplifted and dissolved over millennia by rainwater, creating a sweeping grassland karst plateau and vast cave systems including Akiyoshido. Skarn copper deposits mined here contributed to the casting of the Great Buddha of Nara. Designated in April 2026 as Japan's 11th UNESCO Global Geopark."
+    },
+    "image": "https://picsum.photos/seed/mine-akiyoshidai-geopark-japan/800/500",
+    "tags": {
+      "zh": [
+        "地质公园",
+        "喀斯特",
+        "山口"
+      ],
+      "en": [
+        "UNESCO Geopark",
+        "Karst",
+        "Yamaguchi"
+      ]
+    },
+    "location": {
+      "zh": "山口县美祢市",
+      "en": "Mine City, Yamaguchi Prefecture"
+    },
+    "highlights": {
+      "zh": [
+        "秋吉台喀斯特高原：日本最大的喀斯特台地，白色石灰岩露头点缀于广阔草原",
+        "秋芳洞：日本最大级别的钟乳石洞，洞内河流与笋柱景观壮观",
+        "美祢矿山遗迹：矽卡岩铜矿遗址，与奈良大佛铸造历史相关联"
+      ],
+      "en": [
+        "Akiyoshidai Karst Plateau: Japan's largest karst tableland, with white limestone outcrops dotting vast grasslands",
+        "Akiyoshido Cave: one of Japan's largest stalactite caves, with an underground river and dramatic formations",
+        "Mine Mining Heritage: skarn copper deposit ruins historically linked to the casting of the Great Buddha of Nara"
+      ]
+    },
+    "admission": {
+      "zh": "秋吉台展望台免费；秋芳洞入洞约1,300日元",
+      "en": "Akiyoshidai plateau viewpoints free; Akiyoshido Cave entry ~¥1,300"
+    },
+    "duration": {
+      "zh": "半天至一天",
+      "en": "Half to full day"
+    },
+    "tips": {
+      "zh": "从新山口站乘巴士约50分钟到秋芳洞；台地上有步行路线可连接溶洞出口。3月底至4月初是草原野烧后新绿萌发的最佳观景时节。",
+      "en": "About 50 minutes by bus from Shin-Yamaguchi Station to Akiyoshido Cave. Walking trails on the plateau link to the cave exit. Late March to early April is ideal — the grassland is freshly burned and vivid green shoots emerge."
+    },
+    "subdivision": "yamaguchi"
+  }
+]

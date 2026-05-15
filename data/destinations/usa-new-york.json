@@ -17,7 +17,7 @@
         "自由民主"
       ],
       "en": [
-        "UNESCO",
+        "UNESCO Heritage",
         "Landmark",
         "Freedom"
       ]
@@ -103,6 +103,51 @@
     "tips": {
       "zh": "夜晚霓虹灯全亮时最为震撼；百老汇演出建议提前在官网购买折扣票（TKTS售亭可获当日折扣票）。",
       "en": "Most impressive after dark when all the neon is blazing. For Broadway shows, buy discounted tickets at the TKTS booth or online in advance."
+    }
+  },
+  {
+    "id": "niagara-falls-ny",
+    "name": {
+      "zh": "尼亚加拉瀑布（纽约州）",
+      "en": "Niagara Falls (New York)"
+    },
+    "description": {
+      "zh": "尼亚加拉瀑布由美国瀑布、新娘面纱瀑布和加拿大马蹄瀑布三部分组成，是北美水量最大的瀑布群，每秒约有5,700立方米的水从悬崖倾泻而下。纽约州一侧提供独特的近距离观瀑体验，尼亚加拉瀑布地区已被列入美国UNESCO候选遗产名单。",
+      "en": "Niagara Falls comprises the American Falls, Bridal Veil Falls and the Canadian Horseshoe Falls, collectively the highest-flow waterfall system in North America with ~5,700 m³/s. The New York side offers unique close-up vantage points, and the Niagara Falls area is on the US UNESCO tentative World Heritage list."
+    },
+    "image": "https://picsum.photos/seed/niagara-falls-ny-usa/800/500",
+    "tags": {
+      "zh": ["候选遗产", "瀑布", "自然奇观"],
+      "en": ["Tentative WHC", "Waterfall", "Natural Wonder"]
+    },
+    "location": {
+      "zh": "纽约州尼亚加拉县，尼亚加拉瀑布市",
+      "en": "Niagara Falls, Niagara County, New York"
+    },
+    "subdivision": "new-york",
+    "highlights": {
+      "zh": [
+        "北美水量最大瀑布群，每秒逾5,700立方米水量倾泻",
+        "「雾中少女号」游船带您驶入瀑布水雾核心",
+        "Cave of the Winds步道可抵达美国瀑布底部，近距离感受震撼水声"
+      ],
+      "en": [
+        "Highest-flow waterfall system in North America — over 5,700 m³/s",
+        "Maid of the Mist boat tour takes you into the heart of the mist",
+        "Cave of the Winds trail reaches the base of American Falls for an immersive soaking experience"
+      ]
+    },
+    "admission": {
+      "zh": "州立公园免费，游船/Cave of the Winds等体验项目另行收费（约20—35美元）",
+      "en": "State park free; boat tour and Cave of the Winds experience ~US$20–35 each"
+    },
+    "duration": {
+      "zh": "半天至一天",
+      "en": "Half day to full day"
+    },
+    "tips": {
+      "zh": "加拿大一侧（安大略省）可同时俯瞰两国瀑布，视野更全面；夏季旺季人多，建议清晨或傍晚前往；跨境需携带护照。",
+      "en": "The Canadian side (Ontario) offers a panoramic view of both falls — bring your passport if crossing. Visit at dawn or dusk to avoid summer crowds. Wear the provided rain poncho on boat tours — you will get wet."
     }
   }
 ]

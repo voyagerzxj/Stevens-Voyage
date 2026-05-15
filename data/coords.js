@@ -51,7 +51,55 @@ window.DB_COORDS = {
     "usa-california":   { center: [ 36.78, -119.42], zoom: 5 },
     "usa-hawaii":       { center: [ 20.80, -156.33], zoom: 6 },
     "usa-florida":      { center: [ 27.66,  -81.52], zoom: 6 },
-    "usa-alaska":       { center: [ 64.20, -153.37], zoom: 4 }
+    "usa-alaska":       { center: [ 64.20, -153.37], zoom: 4 },
+
+    "japan-hokkaido":   { center: [ 43.46,  142.95], zoom: 7 },
+    "japan-aomori":     { center: [ 40.82,  140.74], zoom: 8 },
+    "japan-iwate":      { center: [ 39.70,  141.13], zoom: 8 },
+    "japan-miyagi":     { center: [ 38.27,  140.87], zoom: 8 },
+    "japan-akita":      { center: [ 39.72,  140.10], zoom: 8 },
+    "japan-yamagata":   { center: [ 38.24,  140.36], zoom: 8 },
+    "japan-fukushima":  { center: [ 37.75,  140.47], zoom: 8 },
+    "japan-ibaraki":    { center: [ 36.34,  140.45], zoom: 9 },
+    "japan-tochigi":    { center: [ 36.57,  139.88], zoom: 8 },
+    "japan-gunma":      { center: [ 36.39,  139.06], zoom: 8 },
+    "japan-saitama":    { center: [ 35.86,  139.65], zoom: 9 },
+    "japan-chiba":      { center: [ 35.61,  140.12], zoom: 9 },
+    "japan-tokyo":      { center: [ 35.69,  139.69], zoom: 11 },
+    "japan-kanagawa":   { center: [ 35.45,  139.64], zoom: 9 },
+    "japan-niigata":    { center: [ 37.47,  138.85], zoom: 8 },
+    "japan-toyama":     { center: [ 36.70,  137.21], zoom: 9 },
+    "japan-ishikawa":   { center: [ 36.59,  136.63], zoom: 9 },
+    "japan-fukui":      { center: [ 35.99,  136.22], zoom: 9 },
+    "japan-yamanashi":  { center: [ 35.66,  138.57], zoom: 9 },
+    "japan-nagano":     { center: [ 36.65,  138.18], zoom: 8 },
+    "japan-gifu":       { center: [ 35.79,  136.72], zoom: 8 },
+    "japan-shizuoka":   { center: [ 34.98,  138.38], zoom: 8 },
+    "japan-aichi":      { center: [ 35.18,  137.10], zoom: 9 },
+    "japan-mie":        { center: [ 34.51,  136.50], zoom: 8 },
+    "japan-shiga":      { center: [ 35.18,  136.22], zoom: 9 },
+    "japan-kyoto":      { center: [ 35.02,  135.76], zoom: 10 },
+    "japan-osaka":      { center: [ 34.69,  135.50], zoom: 11 },
+    "japan-hyogo":      { center: [ 34.91,  134.80], zoom: 9 },
+    "japan-nara":       { center: [ 34.39,  135.84], zoom: 9 },
+    "japan-wakayama":   { center: [ 33.94,  135.37], zoom: 9 },
+    "japan-tottori":    { center: [ 35.36,  133.54], zoom: 9 },
+    "japan-shimane":    { center: [ 35.47,  133.05], zoom: 9 },
+    "japan-okayama":    { center: [ 34.66,  133.94], zoom: 9 },
+    "japan-hiroshima":  { center: [ 34.40,  132.46], zoom: 9 },
+    "japan-yamaguchi":  { center: [ 34.19,  131.47], zoom: 9 },
+    "japan-tokushima":  { center: [ 33.97,  134.55], zoom: 9 },
+    "japan-kagawa":     { center: [ 34.34,  134.04], zoom: 9 },
+    "japan-ehime":      { center: [ 33.84,  132.77], zoom: 9 },
+    "japan-kochi":      { center: [ 33.56,  133.53], zoom: 9 },
+    "japan-fukuoka":    { center: [ 33.61,  130.42], zoom: 9 },
+    "japan-saga":       { center: [ 33.24,  130.30], zoom: 9 },
+    "japan-nagasaki":   { center: [ 32.74,  129.87], zoom: 9 },
+    "japan-kumamoto":   { center: [ 32.79,  130.74], zoom: 9 },
+    "japan-oita":       { center: [ 33.24,  131.61], zoom: 9 },
+    "japan-miyazaki":   { center: [ 31.91,  131.42], zoom: 9 },
+    "japan-kagoshima":  { center: [ 31.56,  130.56], zoom: 9 },
+    "japan-okinawa":    { center: [ 26.21,  127.68], zoom: 9 }
   },
 
   /* ── Destination pin coordinates [lat, lng] ──────── */
@@ -80,6 +128,59 @@ window.DB_COORDS = {
     "tokyo-shibuya":      [35.659,  139.700],
     "hiroshima-miyajima": [34.295,  132.320],
     "osaka-castle":       [34.687,  135.526],
+
+    /* Japan — Tokyo */
+    "asakusa":               [35.7148, 139.7967],
+    "ueno":                  [35.7151, 139.7733],
+    "shinjuku":              [35.6896, 139.7006],
+    "harajuku-omotesando":   [35.6699, 139.7060],
+    "akihabara-electric-town":[35.6996, 139.7713],
+    "roppongi":              [35.6605, 139.7293],
+    "ginza-tsukiji":         [35.6713, 139.7658],
+    "tokyo-imperial-palace": [35.6852, 139.7528],
+    "odaiba":                [35.6270, 139.7758],
+    "ikebukuro":             [35.7291, 139.7187],
+    "ghibli-kichijoji":      [35.6962, 139.5704],
+    "mount-takao":           [35.6259, 139.2435],
+    "tokyo-skytree":         [35.7102, 139.8107],
+
+    /* Japan — Kanagawa */
+    "yokohama":              [35.4437, 139.6380],
+    "kamakura":              [35.3198, 139.5502],
+    "enoshima-island":       [35.2991, 139.4809],
+    "hakone":                [35.2332, 139.1050],
+
+    /* Japan — Chiba */
+    "tokyo-disney-resort":   [35.6329, 139.8804],
+
+    /* Japan — Saitama */
+    "kawagoe":               [35.9251, 139.4858],
+    "mitsumine-shrine":      [35.9255, 138.9305],
+
+    /* Japan — Miyagi */
+    "zao-fox-village":       [38.0408, 140.5304],
+    "okama-crater-lake":     [38.1362, 140.4496],
+
+    /* Japan — Niigata */
+    "echigo-tsumari":        [36.9737, 138.7500],
+
+    /* Japan — Kyoto */
+    "fushimi-inari":         [34.9677, 135.7792],
+
+    /* Japan — Mie */
+    "ise-jingu":             [34.4552, 136.7252],
+
+    /* Japan — Aichi */
+    "toyokawa-inari":        [34.8246, 137.3920],
+
+    /* Japan — Fukuoka */
+    "dazaifu-tenmangu":      [33.5214, 130.5348],
+
+    /* Japan — Saga */
+    "yutoku-inari":          [33.0738, 130.1079],
+
+    /* Japan — Ibaraki */
+    "kasama-inari":          [36.3862, 140.2542],
 
     /* India */
     "taj-mahal":         [27.175,  78.042],

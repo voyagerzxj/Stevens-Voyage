@@ -11,16 +11,8 @@
     },
     "image": "https://picsum.photos/seed/berat-albania/800/500",
     "tags": {
-      "zh": [
-        "世界遗产",
-        "历史古城",
-        "奥斯曼建筑"
-      ],
-      "en": [
-        "UNESCO",
-        "Historic Town",
-        "Ottoman Architecture"
-      ]
+      "zh": ["世界遗产", "历史古城", "奥斯曼建筑"],
+      "en": ["UNESCO Heritage", "Historic Town", "Ottoman Architecture"]
     },
     "location": {
       "zh": "贝拉特省，阿尔巴尼亚中南部",
@@ -63,16 +55,8 @@
     },
     "image": "https://picsum.photos/seed/gjirokaster-albania/800/500",
     "tags": {
-      "zh": [
-        "世界遗产",
-        "石头城",
-        "中世纪城堡"
-      ],
-      "en": [
-        "UNESCO",
-        "Stone City",
-        "Medieval Castle"
-      ]
+      "zh": ["世界遗产", "石头城", "中世纪城堡"],
+      "en": ["UNESCO Heritage", "Stone City", "Medieval Castle"]
     },
     "location": {
       "zh": "吉诺卡斯特省，阿尔巴尼亚南部",
@@ -115,16 +99,8 @@
     },
     "image": "https://picsum.photos/seed/butrint-ruins/800/500",
     "tags": {
-      "zh": [
-        "世界遗产",
-        "考古遗址",
-        "古希腊罗马"
-      ],
-      "en": [
-        "UNESCO",
-        "Archaeological Site",
-        "Greco-Roman"
-      ]
+      "zh": ["世界遗产", "考古遗址", "古希腊罗马"],
+      "en": ["UNESCO Heritage", "Archaeological Site", "Greco-Roman"]
     },
     "location": {
       "zh": "萨兰达附近，阿尔巴尼亚南部",
@@ -156,6 +132,50 @@
     }
   },
   {
+    "id": "ohrid-albania",
+    "name": {
+      "zh": "奥赫里德地区（阿尔巴尼亚侧）",
+      "en": "Natural and Cultural Heritage of the Ohrid Region (Albania)"
+    },
+    "description": {
+      "zh": "奥赫里德湖是欧洲最古老的湖泊之一，湖龄超过500万年，拥有众多特有物种。阿尔巴尼亚一侧以波格拉代茨市和林村（Lin）为中心，湖岸保存有拜占庭教堂遗址和史前湖居遗迹。该跨界遗产与北马其顿共享，阿尔巴尼亚部分于2019年扩展列入UNESCO世界遗产。",
+      "en": "Lake Ohrid is one of Europe's oldest lakes — over five million years old — with a wealth of endemic species. The Albanian side centres on Pogradec and the village of Lin, preserving Byzantine church ruins and prehistoric pile-dwelling remains along the shore. This transboundary site is shared with North Macedonia; the Albanian component was added to the UNESCO World Heritage List in 2019."
+    },
+    "image": "https://picsum.photos/seed/ohrid-albania/800/500",
+    "tags": {
+      "zh": ["世界遗产", "湖泊", "跨界遗产"],
+      "en": ["UNESCO Heritage", "Lake", "Transboundary Site"]
+    },
+    "location": {
+      "zh": "科尔察大区，阿尔巴尼亚东部（奥赫里德湖西南岸）",
+      "en": "Korça County, eastern Albania (southwestern shore of Lake Ohrid)"
+    },
+    "highlights": {
+      "zh": [
+        "欧洲最古老的湖泊之一，生物多样性极为丰富",
+        "林村（Lin）拜占庭马赛克教堂遗址",
+        "史前湖居遗迹，人类古代聚居史的珍贵见证"
+      ],
+      "en": [
+        "One of Europe's oldest and most biodiverse lakes",
+        "Byzantine mosaic church ruins at the village of Lin",
+        "Prehistoric pile-dwelling remains along the shoreline"
+      ]
+    },
+    "admission": {
+      "zh": "湖岸免费，部分遗址收取少量费用",
+      "en": "Lakeshore free; some archaeological sites charge a small fee"
+    },
+    "duration": {
+      "zh": "半天至一天",
+      "en": "Half to full day"
+    },
+    "tips": {
+      "zh": "波格拉代茨是最近的大城市，可在此住宿。林村距波格拉代茨约10公里，驾车可达。建议同时前往北马其顿一侧的奥赫里德老城，两侧形成完整体验。",
+      "en": "Pogradec is the nearest town and a good base. The village of Lin is about 10 km away by road. Consider crossing into North Macedonia to see the Ohrid Old Town — the two sides together make for a complete experience."
+    }
+  },
+  {
     "id": "albanian-riviera",
     "name": {
       "zh": "阿尔巴尼亚里维埃拉",
@@ -167,16 +187,8 @@
     },
     "image": "https://picsum.photos/seed/albanian-riviera/800/500",
     "tags": {
-      "zh": [
-        "海滩",
-        "地中海",
-        "自然风光"
-      ],
-      "en": [
-        "Beach",
-        "Mediterranean",
-        "Scenic Coast"
-      ]
+      "zh": ["海滩", "地中海", "自然风光"],
+      "en": ["Beach", "Mediterranean", "Scenic Coast"]
     },
     "location": {
       "zh": "弗洛勒省，阿尔巴尼亚西南海岸",
@@ -219,16 +231,8 @@
     },
     "image": "https://picsum.photos/seed/theth-mountains/800/500",
     "tags": {
-      "zh": [
-        "山地徒步",
-        "阿尔卑斯风光",
-        "传统村庄"
-      ],
-      "en": [
-        "Hiking",
-        "Alpine Scenery",
-        "Traditional Village"
-      ]
+      "zh": ["山地徒步", "阿尔卑斯风光", "传统村庄"],
+      "en": ["Hiking", "Alpine Scenery", "Traditional Village"]
     },
     "location": {
       "zh": "shkoder省北部阿尔卑斯山区",
@@ -271,16 +275,8 @@
     },
     "image": "https://picsum.photos/seed/blue-eye-spring/800/500",
     "tags": {
-      "zh": [
-        "自然奇观",
-        "清泉",
-        "生态旅游"
-      ],
-      "en": [
-        "Natural Wonder",
-        "Spring",
-        "Eco-Tourism"
-      ]
+      "zh": ["自然奇观", "清泉", "生态旅游"],
+      "en": ["Natural Wonder", "Spring", "Eco-Tourism"]
     },
     "location": {
       "zh": "萨兰达附近，阿尔巴尼亚南部",
@@ -323,16 +319,8 @@
     },
     "image": "https://picsum.photos/seed/apollonia-ruins/800/500",
     "tags": {
-      "zh": [
-        "古希腊遗址",
-        "考古",
-        "历史"
-      ],
-      "en": [
-        "Ancient Greek Ruins",
-        "Archaeology",
-        "History"
-      ]
+      "zh": ["古希腊遗址", "考古", "历史"],
+      "en": ["Ancient Greek Ruins", "Archaeology", "History"]
     },
     "location": {
       "zh": "弗洛勒省，阿尔巴尼亚西部",
@@ -375,16 +363,8 @@
     },
     "image": "https://picsum.photos/seed/ksamil-beach/800/500",
     "tags": {
-      "zh": [
-        "海滩",
-        "度假",
-        "浮潜"
-      ],
-      "en": [
-        "Beach",
-        "Resort",
-        "Snorkelling"
-      ]
+      "zh": ["海滩", "度假", "浮潜"],
+      "en": ["Beach", "Resort", "Snorkelling"]
     },
     "location": {
       "zh": "萨兰达市附近，阿尔巴尼亚最南端",
@@ -413,6 +393,50 @@
     "tips": {
       "zh": "7—8月非常拥挤，建议6月初或9月前往。可与布特林特遗址安排同日游览。",
       "en": "Very crowded in July–August; early June or September is quieter. Combine with Butrint on the same day."
+    }
+  },
+  {
+    "id": "albania-tentative-karavasta",
+    "name": {
+      "zh": "卡拉瓦斯塔泻湖（候选遗产）",
+      "en": "Karavasta Lagoon (Tentative WHC)"
+    },
+    "description": {
+      "zh": "卡拉瓦斯塔泻湖是地中海最大的泻湖之一，是达尔马提亚鹈鹕（全球最濒危鸟类之一）最重要的繁殖地。泻湖及周边海岸松林构成迪维亚卡—卡拉瓦斯塔国家公园，目前已列入阿尔巴尼亚UNESCO候选遗产名单。",
+      "en": "Karavasta is one of the Mediterranean's largest lagoons and the most important nesting site for the Dalmatian Pelican — among the world's most endangered birds. The lagoon and surrounding coastal pine forests form the Divjaka-Karavasta National Park, which appears on Albania's UNESCO Tentative List."
+    },
+    "image": "https://picsum.photos/seed/karavasta-albania/800/500",
+    "tags": {
+      "zh": ["候选遗产", "湿地", "鸟类观察"],
+      "en": ["Tentative WHC", "Wetlands", "Birdwatching"]
+    },
+    "location": {
+      "zh": "弗洛勒省，阿尔巴尼亚西海岸",
+      "en": "Fier and Vlore Counties, western Albanian coast"
+    },
+    "highlights": {
+      "zh": [
+        "达尔马提亚鹈鹕的全球最重要繁殖地之一",
+        "地中海最大泻湖之一，生物多样性极丰富",
+        "海岸松林徒步与皮划艇探索"
+      ],
+      "en": [
+        "One of the world's most important breeding sites for the Dalmatian Pelican",
+        "One of the Mediterranean's largest lagoons with exceptional biodiversity",
+        "Coastal pine forest hiking and kayaking"
+      ]
+    },
+    "admission": {
+      "zh": "国家公园入口约200列克",
+      "en": "National Park entry ~200 ALL"
+    },
+    "duration": {
+      "zh": "半天至一天",
+      "en": "Half to full day"
+    },
+    "tips": {
+      "zh": "3—5月是鹈鹕繁殖季，观鸟效果最佳。可从弗洛勒或法里尔驾车约30分钟抵达。",
+      "en": "March–May is pelican breeding season — the best time for birdwatching. Drive about 30 minutes from Vlore or Fier."
     }
   }
 ]

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "toyokawa-inari",
+    "name": { "zh": "豊川稲荷（妙严寺）", "en": "Toyokawa Inari (Myōgon-ji)" },
+    "description": {
+      "zh": "豊川稲荷（正式名称：圆福山妙严寺）是日本三大稻荷之一，也是极为特殊的「寺院型稻荷」——以佛教曹洞宗寺院的形式供奉稻荷大明神，融合神佛习合传统。境内有约1,000座红色鸟居连排而成的「灵狐塚」，是豊川最引人入胜的景点。",
+      "en": "Toyokawa Inari (formally Empukuzan Myōgon-ji) is one of Japan's three great Inari shrines and uniquely a Buddhist temple-style Inari — a Sōtō Zen temple that enshrines Inari Daimyōjin, reflecting the historical fusion of Shinto and Buddhism. The grounds include the Reikozuka — ~1,000 red torii gates lining a fox-spirit sanctuary — one of the most atmospheric sights in Aichi."
+    },
+    "image": "https://picsum.photos/seed/toyokawa-inari-japan/800/500",
+    "tags": {
+      "zh": ["稻荷", "寺庙", "灵狐塚"],
+      "en": ["Inari", "Temple", "Fox Sanctuary"]
+    },
+    "location": {
+      "zh": "爱知县豊川市豊川町灵狐塚1",
+      "en": "Reikozuka, Toyokawa-cho, Toyokawa City, Aichi Prefecture"
+    },
+    "subdivision": "aichi",
+    "highlights": {
+      "zh": [
+        "灵狐塚：约1,000座鸟居与无数狐狸石像营造出浓郁的神秘氛围",
+        "本殿：曹洞宗佛教建筑与稻荷信仰的融合，正月三日（元旦至三日）信众逾100万人",
+        "境内商店：豊川名物稻荷寿司（油揚げ稲荷）和狐狸造型小吃随处可见"
+      ],
+      "en": [
+        "Reikozuka: ~1,000 torii gates and countless stone fox statues create an intensely atmospheric fox-spirit sanctuary",
+        "Main hall: a rare Buddhist–Shinto fusion sanctuary; over 1 million worshippers visit during the New Year three-day period",
+        "Temple precincts: Toyokawa's specialty inari-zushi (tofu-pouch sushi) and fox-themed snacks are sold throughout"
+      ]
+    },
+    "admission": {
+      "zh": "免费参拜",
+      "en": "Free entry"
+    },
+    "duration": {
+      "zh": "1—2小时",
+      "en": "1–2 hours"
+    },
+    "tips": {
+      "zh": "从名古屋乘名铁名古屋本线至豊川稲荷站约40分钟，出站步行约5分钟直达正门。正月（1月1—3日）香火鼎盛，人潮极为拥挤，请做好排队准备。",
+      "en": "Take the Meitetsu Nagoya Main Line from Nagoya ~40 minutes to Toyokawa-Inari station; a 5-minute walk brings you to the main gate. New Year's Day through 3 January is enormously crowded — prepare for long queues."
+    }
+  }
+]

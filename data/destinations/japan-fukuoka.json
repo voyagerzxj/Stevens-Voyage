@@ -1,0 +1,77 @@
+[
+  {
+    "id": "okinoshima",
+    "name": {
+      "zh": "神宿る島·冲之岛及相关遗址",
+      "en": "Okinoshima and Associated Sites in the Munakata Region"
+    },
+    "description": {
+      "zh": "冲之岛是宗像大社的神域，岛上出土的4世纪至9世纪奉献品被完整保存，是古代日本与朝鲜半岛及大陆交流的珍贵证明。女性至今禁止登岛，每年5月27日仅允许200名男性上岛参拜。2017年列入UNESCO世界遗产。",
+      "en": "Okinoshima, the sacred island of Munakata Taisha shrine, preserves perfectly intact votive offerings from the 4th–9th centuries, documenting ancient maritime exchange between Japan and the Korean Peninsula. Women have never been permitted on the island; only 200 men may land annually on 27 May. UNESCO-listed in 2017."
+    },
+    "image": "https://picsum.photos/seed/okinoshima-japan/800/500",
+    "tags": {
+      "zh": ["世界遗产", "神道", "宗像大社"],
+      "en": ["UNESCO Heritage", "Shinto", "Munakata Taisha"]
+    },
+    "location": {
+      "zh": "福冈县宗像市及大岛（冲之岛）",
+      "en": "Munakata City and Oki-no-shima island, Fukuoka Prefecture"
+    },
+    "highlights": {
+      "zh": [
+        "冲之岛：禁忌之岛，出岛者不得透露所见所闻",
+        "宗像大社辺津宫神宝馆：藏有「海之正仓院」称号的国宝奉献品",
+        "大岛中津宫：可乘船游览的海上神社"
+      ],
+      "en": [
+        "Okinoshima: the forbidden island where nothing seen must be spoken of after leaving",
+        "Munakata Taisha Hetsu-miya treasure hall: national-treasure votive objects dubbed 'the Shosoin of the Sea'",
+        "Oshima Nakatsu-miya: the mid-ocean shrine accessible by ferry"
+      ]
+    },
+    "admission": {
+      "zh": "宗像大社神宝馆500日元；冲之岛上岛须抽签",
+      "en": "Munakata Taisha treasure hall ¥500; Okinoshima landing requires lottery entry"
+    },
+    "duration": {
+      "zh": "宗像大社半天；含大岛渡轮一天",
+      "en": "Munakata Taisha half-day; add Oshima ferry for a full day"
+    },
+    "tips": {
+      "zh": "冲之岛上岛机会极为稀少，一般游客只能在宗像大社神宝馆欣赏出土文物。从福冈博多约40分钟车程。",
+      "en": "Landing on Okinoshima is nearly impossible for regular visitors; the treasure hall at Munakata Taisha is the practical alternative. About 40 minutes by car from Hakata, Fukuoka."
+    },
+    "subdivision": "fukuoka"
+  },
+  {
+    "id": "dazaifu-tenmangu",
+    "name": { "zh": "太宰府天满宫", "en": "Dazaifu Tenman-gū" },
+    "description": {
+      "zh": "太宰府天满宫是日本全国约12,000座天满宫的总本社，供奉学问之神菅原道真，是日本受验生（参加考试的学生）参拜最多的神社之一。神社周边的参道是全九州最知名的门前町商业街，梅树约6,000株遍布境内，每年2月梅花盛开期间吸引大批游客。",
+      "en": "Dazaifu Tenman-gū is the head shrine of Japan's ~12,000 Tenmangu shrines, enshrining Sugawara no Michizane as the god of learning and is among Japan's most-visited shrines by students praying for exam success. The approach road is Kyushu's most famous monzenmachi shopping street; ~6,000 plum trees bloom across the grounds each February."
+    },
+    "image": "https://picsum.photos/seed/dazaifu-tenmangu-japan/800/500",
+    "tags": { "zh": ["神社", "学问之神", "梅花"], "en": ["Shrine", "God of Learning", "Plum Blossoms"] },
+    "location": { "zh": "福冈县太宰府市宰府4丁目", "en": "Saifu 4-chome, Dazaifu City, Fukuoka Prefecture" },
+    "subdivision": "fukuoka",
+    "highlights": {
+      "zh": [
+        "本殿：华美的桃山时代建筑样式，供奉菅原道真，考前参拜信众络绎不绝",
+        "飞梅传说：神社本殿前的「飞梅」梅树，传说是跟随道真自京都飞来的神树，全境最早开花",
+        "参道梅枝饼：炸至金黄的日式麻糬，是太宰府参道最具代表性的名物小吃"
+      ],
+      "en": [
+        "Main hall: ornate Momoyama-period architecture; a steady stream of students comes to pray for exam success",
+        "Tobiume legend: the 'flying plum tree' in front of the hall is said to have flown from Kyoto to follow Michizane — it blooms first among all the shrine's trees",
+        "Umegae-mochi: freshly grilled glutinous-rice plum cakes sold along the approach — Dazaifu's most iconic food souvenir"
+      ]
+    },
+    "admission": { "zh": "参拜免费；宝物殿等另收费", "en": "Shrine worship free; treasure hall extra" },
+    "duration": { "zh": "1—2小时", "en": "1–2 hours" },
+    "tips": {
+      "zh": "从西铁福冈（天神）站乘西铁天神大牟田线至二日市换乘太宰府线，约30分钟至太宰府站。斯塔布克斯太宰府天满宫表参道店由建筑师隈研吾设计，外观极具特色。",
+      "en": "Take the Nishitetsu Tenjin-Omuta Line from Nishitetsu-Fukuoka (Tenjin) and change at Futsukaichi for the Dazaifu Line — ~30 min total. The Starbucks on the approach, designed by Kengo Kuma, is itself an architectural attraction."
+    }
+  }
+]
