@@ -445,6 +445,7 @@ function buildMap(containerId, dests, center, zoom) {
     const coords = destCoords(dest.id);
     if (!coords) return;
     const name = tx(dest.name), loc = tx(dest.location), img = dest.image || '';
+    const scrollLabel = LANG === 'zh' ? '↓ 查看详情' : '↓ View Details';
     const popup = `
       <div style="width:180px;font-family:system-ui,sans-serif">
         <img src="${img}" alt="${name}"
@@ -452,6 +453,9 @@ function buildMap(containerId, dests, center, zoom) {
              onerror="this.style.display='none'">
         <strong style="font-size:13px;line-height:1.3;display:block">${name}</strong>
         <span style="color:#64748b;font-size:12px">📍 ${loc}</span>
+        <a href="#${dest.id}"
+           onclick="document.getElementById('${dest.id}')?.scrollIntoView({behavior:'smooth',block:'start'});return false;"
+           style="display:block;margin-top:6px;font-size:12px;color:var(--primary,#1d4ed8);font-weight:600">${scrollLabel}</a>
       </div>`;
     const marker = L.marker(coords).bindPopup(popup, { maxWidth: 210 }).addTo(_map);
     _mapMarkers.push({ marker, dest });
@@ -887,18 +891,47 @@ function buildCountryCard(id, meta) {
     </a>`;
 }
 
-function buildDestCard(d) {
+function buildDestEntry(d) {
   const tags = (d.tags ? (d.tags[LANG] || d.tags.zh || []) : [])
     .map(tag => `<span class="tag">${tag}</span>`).join('');
+
+  let highlights = '';
+  if (d.highlights) {
+    const items = tx(d.highlights);
+    if (Array.isArray(items) && items.length) {
+      highlights = `<div class="dest-entry-section">
+        <div class="dest-entry-section-label">${t('modal_highlights')}</div>
+        <ul class="dest-entry-hl">${items.map(h => `<li>${h}</li>`).join('')}</ul>
+      </div>`;
+    }
+  }
+
+  let facts = '';
+  if (d.admission || d.duration) {
+    facts = `<div class="dest-entry-facts">
+      ${d.admission ? `<span><strong>🎟 ${t('modal_admission')}</strong> ${tx(d.admission)}</span>` : ''}
+      ${d.duration  ? `<span><strong>⏱ ${t('modal_duration')}</strong> ${tx(d.duration)}</span>`  : ''}
+    </div>`;
+  }
+
+  const tips = d.tips ? `<div class="dest-entry-tip">💡 ${tx(d.tips)}</div>` : '';
+
   return `
-    <div class="dest-card" data-dest-id="${d.id}">
-      <img class="dest-img" src="${d.image}" alt="${tx(d.name)}" loading="lazy"
-           onerror="this.src='https://picsum.photos/seed/${d.id}/800/500'">
-      <div class="dest-body">
-        <div class="dest-title">${tx(d.name)}</div>
-        <div class="dest-location">📍 ${tx(d.location)}</div>
-        <div class="dest-desc">${tx(d.description)}</div>
-        <div class="dest-tags">${tags}</div>
+    <div class="dest-entry" id="${d.id}">
+      <div class="dest-entry-inner">
+        <img class="dest-entry-img" src="${d.image || ''}" alt="${tx(d.name)}" loading="lazy"
+             onerror="this.src='https://picsum.photos/seed/${d.id}/800/500'">
+        <div class="dest-entry-content">
+          <h2 class="dest-entry-title">${tx(d.name)}</h2>
+          <div class="dest-entry-meta">
+            <span class="dest-entry-loc">📍 ${tx(d.location)}</span>
+            ${tags}
+          </div>
+          <p class="dest-entry-desc">${tx(d.description)}</p>
+          ${highlights}
+          ${facts}
+          ${tips}
+        </div>
       </div>
     </div>`;
 }
@@ -906,7 +939,7 @@ function buildDestCard(d) {
 function renderDests(dests, sub) {
   const filtered = sub === 'all' ? dests : dests.filter(d => !d.subdivision || d.subdivision === sub);
   if (!filtered.length) return `<div class="empty">${t('no_dest')}</div>`;
-  return `<div class="grid grid-3">${filtered.map(buildDestCard).join('')}</div>`;
+  return `<div class="dest-list">${filtered.map(buildDestEntry).join('')}</div>`;
 }
 
 // ── Language toggle ────────────────────────────────────
@@ -1359,16 +1392,8 @@ async function initDestinations() {
     return;
   }
 
-  // Render destination grid
+  // Render destination entries
   document.getElementById('destGrid').innerHTML = renderDests(allDests, 'all');
-
-  // Open modal on card click
-  document.getElementById('destGrid').addEventListener('click', e => {
-    const card = e.target.closest('[data-dest-id]');
-    if (!card) return;
-    const dest = allDests.find(d => d.id === card.dataset.destId);
-    if (dest) showDestModal(dest);
-  });
 
   // Build map
   const mapMeta = sub ? subMapMeta(id, sub) : countryMapMeta(id);
