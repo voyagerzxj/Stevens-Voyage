@@ -1,0 +1,216 @@
+---
+[
+  {
+    "id": "west-lake",
+    "name": {
+      "zh": "西湖",
+      "en": "West Lake"
+    },
+    "description": {
+      "zh": "西湖是杭州市中心的天然淡水湖，湖面面积约6.38平方公里，三面环山，风景区总面积约60平方公里。数千年来孕育了苏堤春晓、断桥残雪、雷峰夕照等著名的「西湖十景」。2011年以「杭州西湖文化景观」列入世界遗产名录，是中国唯一以「文化景观」类别入选的湖泊遗产。",
+      "en": "West Lake is a natural freshwater lake at the heart of Hangzhou, covering 6.38 km² with mountains on three sides and a total scenic area of ~60 km². It has inspired poets, painters and garden designers for millennia, giving rise to the celebrated 'Ten Scenes of West Lake' — including the Broken Bridge in Snow and the Evening Bell at Nanping. Inscribed as a UNESCO Cultural Landscape in 2011, it is China's only lake heritage site in that category."
+    },
+    "image": "https://picsum.photos/seed/west-lake-zhejiang/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "自然风光",
+        "古典园林"
+      ],
+      "en": [
+        "UNESCO Heritage",
+        "Scenic Lake",
+        "Classical Garden"
+      ]
+    },
+    "location": {
+      "zh": "浙江省杭州市西湖区",
+      "en": "Xihu District, Hangzhou, Zhejiang"
+    },
+    "subdivision": "zhejiang",
+    "highlights": {
+      "zh": [
+        "断桥残雪——西湖最具诗意的冬日景致，白堤尽头的断桥因雪后独特形态得名",
+        "三潭印月——湖中小岛上的三座石塔，中秋月夜与湖月交相辉映",
+        "苏堤春晓——苏东坡主持修筑的长堤，六桥杨柳，春日如画"
+      ],
+      "en": [
+        "Broken Bridge in Snow — the most poetic winter scene on West Lake, named for its snow-draped silhouette",
+        "Three Pools Mirroring the Moon — three stone pagodas on a mid-lake island create a magical reflection on Mid-Autumn Festival nights",
+        "Su Causeway in Spring — the willow-lined embankment built by poet Su Dongpo, breathtaking in spring bloom"
+      ]
+    },
+    "admission": {
+      "zh": "湖滨步行道与苏堤、白堤免费；部分园林景点（如花港观鱼、曲院风荷）免费；雷峰塔40元",
+      "en": "Lakeside promenade, Su Causeway and Bai Causeway free; most gardens free; Leifeng Pagoda ¥40"
+    },
+    "duration": {
+      "zh": "半天至一整天",
+      "en": "Half day to a full day"
+    },
+    "tips": {
+      "zh": "可租借公共自行车（每次1小时内免费）环湖骑行，亦可乘坐电动游船游览湖心岛。清晨人少，断桥一带雾气朦胧，是拍摄的最佳时段。避开黄金周长假。",
+      "en": "Rent a public bicycle (free for the first hour) to circle the lake, or take an electric ferry to the mid-lake islands. Arrive early for misty, crowd-free views around the Broken Bridge. Avoid national holidays."
+    }
+  },
+  {
+    "id": "wuzhen",
+    "name": {
+      "zh": "乌镇",
+      "en": "Wuzhen Water Town"
+    },
+    "description": {
+      "zh": "乌镇是江南六大古镇之一，已有1300余年历史，保存了大量明清时期的枕水民居、石板街巷与拱桥。乌镇分东栅和西栅两个景区，西栅保护更为完整，夜晚灯火倒映水面，是江南水乡的经典意象。每年秋季举办的乌镇戏剧节享誉国际。",
+      "en": "Wuzhen is one of the six most celebrated water towns of the Yangtze Delta, with over 1,300 years of history. Its well-preserved Ming and Qing timber-frame houses line quiet canals crossed by stone arch bridges. The western precinct (Xizha) is more intact and especially atmospheric at night when lanterns reflect on the water. The annual Wuzhen Theatre Festival in autumn draws international performers."
+    },
+    "image": "https://picsum.photos/seed/wuzhen-zhejiang/800/500",
+    "tags": {
+      "zh": [
+        "古镇",
+        "江南水乡",
+        "明清建筑"
+      ],
+      "en": [
+        "Ancient Town",
+        "Water Town",
+        "Ming-Qing Architecture"
+      ]
+    },
+    "location": {
+      "zh": "浙江省嘉兴市桐乡市",
+      "en": "Tongxiang, Jiaxing, Zhejiang"
+    },
+    "subdivision": "zhejiang",
+    "highlights": {
+      "zh": [
+        "西栅夜景——灯光映水，廊棚倒影，是中国最美的水乡夜景之一",
+        "东栅茅盾故居——文学大师茅盾的出生地，感受百年书香文化",
+        "乌镇戏剧节——每年10月举行，小镇各处化身露天舞台，极具创意"
+      ],
+      "en": [
+        "Xizha night scenery — lantern-lit canals and covered walkways create one of China's most romantic water-town vistas",
+        "Mao Dun's Former Residence (Dongzha) — birthplace of the literary giant and author of 'Midnight'",
+        "Wuzhen Theatre Festival — held each October, turning bridges, courtyards and streets into open-air stages"
+      ]
+    },
+    "admission": {
+      "zh": "西栅约150元；东栅约100元；联票约200元（含住宿区游览）",
+      "en": "Xizha ~¥150; Dongzha ~¥100; combined ticket ~¥200"
+    },
+    "duration": {
+      "zh": "1—2天（建议住一晚体验夜景）",
+      "en": "1–2 days (stay overnight for the night scenery)"
+    },
+    "tips": {
+      "zh": "强烈建议在西栅住宿一晚，白天游客散去后的夜晚最美。从杭州东站乘高铁至桐乡站，再转乘景区班车约20分钟可达。",
+      "en": "Staying overnight in Xizha is highly recommended — the atmosphere after day-trippers leave is magical. From Hangzhou East station, take a high-speed train to Tongxiang, then a 20-minute shuttle to the town."
+    }
+  },
+  {
+    "id": "mount-putuo",
+    "name": {
+      "zh": "普陀山",
+      "en": "Mount Putuo"
+    },
+    "description": {
+      "zh": "普陀山是中国四大佛教名山之一，是观世音菩萨的道场，位于舟山群岛之中，面积约12.5平方公里。岛上寺庙林立，以普济禅寺、法雨禅寺、慧济禅寺三大寺为核心，梵音与海浪交织，被誉为「海天佛国」。",
+      "en": "Mount Putuo is one of China's four sacred Buddhist mountains and the holy abode of Guanyin, the Bodhisattva of Compassion. Located on a 12.5 km² island in the Zhoushan Archipelago, its three great monasteries — Puji, Fayu and Huiji — are linked by ancient stone paths through forests and past sea-view pavilions. The island is known as the 'Buddhist Kingdom on the Sea'."
+    },
+    "image": "https://picsum.photos/seed/mount-putuo-zhejiang/800/500",
+    "tags": {
+      "zh": [
+        "佛教圣地",
+        "海岛",
+        "自然风光"
+      ],
+      "en": [
+        "Buddhist Sacred Site",
+        "Island",
+        "Scenic Coast"
+      ]
+    },
+    "location": {
+      "zh": "浙江省舟山市普陀区",
+      "en": "Putuo District, Zhoushan, Zhejiang"
+    },
+    "subdivision": "zhejiang",
+    "highlights": {
+      "zh": [
+        "普济禅寺——岛上规模最大的寺院，正殿供奉高达8.8米的观音金像",
+        "南海观音立像——高达33米的铜制观音像矗立于海边，气势恢宏",
+        "百步沙与千步沙——岛上两处细软沙滩，可感受佛国海岸的宁静"
+      ],
+      "en": [
+        "Puji Monastery — largest temple on the island, housing an 8.8 m gilded Guanyin statue in its main hall",
+        "South Sea Guanyin Statue — 33 m bronze Guanyin standing at the sea's edge, visible from the ferry",
+        "Hundred-Step Beach and Thousand-Step Beach — two sandy shores offering tranquil coastal walks"
+      ]
+    },
+    "admission": {
+      "zh": "岛内景点联票约160元（含三大寺及主要景点）；轮渡另计",
+      "en": "All-inclusive island ticket ~¥160 (covers three major monasteries and key sites); ferry fare extra"
+    },
+    "duration": {
+      "zh": "1—2天",
+      "en": "1–2 days"
+    },
+    "tips": {
+      "zh": "从宁波或上海坐轮渡前往，建议住岛上一晚体验清晨梵钟与日出。农历二月十九（观音诞）、六月十九、九月十九是进香旺季，游客众多。",
+      "en": "Take a ferry from Ningbo or Shanghai. Staying overnight lets you experience the morning bell and sunrise. The three Guanyin festival dates on the lunar calendar (2nd, 6th and 9th months on the 19th) draw huge crowds."
+    }
+  },
+  {
+    "id": "yandang-mountains",
+    "name": {
+      "zh": "雁荡山",
+      "en": "Yandang Mountains"
+    },
+    "description": {
+      "zh": "雁荡山位于浙江温州乐清市，以奇峰、怪石、飞瀑、幽洞著称，素有「东南第一山」之誉。主峰百岗尖海拔1150米，全山共有景点500余处。大龙湫瀑布落差197米，是中国落差最大的瀑布之一。2005年加入联合国教科文组织世界地质公园网络。",
+      "en": "Yandang Mountains in Yueqing, Wenzhou, are celebrated for their dramatic spires, grotesque rock formations, cascading waterfalls and hidden grottoes — earning the title 'First Mountain of Southeast China'. The highest peak, Baigang Jian, reaches 1,150 m, and the area contains over 500 scenic spots. Dalongjiu Waterfall plunges 197 m, making it one of China's tallest. The mountains joined the UNESCO Global Geoparks Network in 2005."
+    },
+    "image": "https://picsum.photos/seed/yandang-zhejiang/800/500",
+    "tags": {
+      "zh": [
+        "地质公园",
+        "自然风光",
+        "瀑布"
+      ],
+      "en": [
+        "UNESCO Geopark",
+        "Scenic Mountains",
+        "Waterfalls"
+      ]
+    },
+    "location": {
+      "zh": "浙江省温州市乐清市",
+      "en": "Yueqing, Wenzhou, Zhejiang"
+    },
+    "subdivision": "zhejiang",
+    "highlights": {
+      "zh": [
+        "大龙湫瀑布——落差197米，水帘随风飘散如烟，蔚为壮观",
+        "灵峰夜景——月光下的奇峰怪石幻化成各种生动形象，堪称自然奇观",
+        "灵岩景区——刀劈斧削的峭壁与古寺交相辉映，历代文人多有题刻"
+      ],
+      "en": [
+        "Dalongjiu Waterfall — 197 m drop; the spray turns to mist in the wind, creating an ethereal curtain effect",
+        "Lingfeng Night Scenery — by moonlight, the jagged peaks transform into vivid silhouettes of animals and figures",
+        "Lingyan Scenic Area — sheer cliffs tower above ancient temples, their walls covered in centuries of calligraphy inscriptions"
+      ]
+    },
+    "admission": {
+      "zh": "各景区分开购票，灵峰约80元、灵岩约65元、大龙湫约65元；联票约170元",
+      "en": "Separate tickets per area: Lingfeng ~¥80, Lingyan ~¥65, Dalongjiu ~¥65; combined pass ~¥170"
+    },
+    "duration": {
+      "zh": "1—2天（主要三景区）",
+      "en": "1–2 days (three main areas)"
+    },
+    "tips": {
+      "zh": "灵峰夜景是雁荡山独有体验，务必安排一次。从温州南站乘高铁至乐清站仅需20分钟，再转乘景区班车。雨后瀑布最为壮观。",
+      "en": "The Lingfeng night tour is unique to Yandang — don't miss it. From Wenzhou South station, high-speed trains reach Yueqing in 20 minutes; then take a scenic-area shuttle. Waterfalls are most dramatic after rainfall."
+    }
+  }
+]
+---

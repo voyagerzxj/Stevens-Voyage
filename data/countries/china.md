@@ -1,0 +1,125 @@
+---
+{
+  "quickFacts": {
+    "area": {
+      "zh": "960万平方公里",
+      "en": "9.6 million km²"
+    },
+    "population": {
+      "zh": "约14亿",
+      "en": "~1.4 billion"
+    },
+    "language": {
+      "zh": "普通话",
+      "en": "Mandarin"
+    },
+    "currency": {
+      "zh": "人民币（CNY）",
+      "en": "Renminbi (CNY)"
+    },
+    "timezone": "UTC+8"
+  },
+  "cuisine": [
+    {
+      "emoji": "🦆",
+      "name": {
+        "zh": "北京烤鸭",
+        "en": "Peking Duck"
+      },
+      "description": {
+        "zh": "外皮酥脆、肉质鲜嫩，用薄饼卷葱丝和甜面酱食用，是北京最具代表性的美食。",
+        "en": "Crispy-skinned, succulent duck rolled in thin pancakes with spring onion and hoisin — Beijing's most iconic dish."
+      }
+    },
+    {
+      "emoji": "🫕",
+      "name": {
+        "zh": "火锅",
+        "en": "Hot Pot"
+      },
+      "description": {
+        "zh": "将各种食材涮入滚烫的汤底，四川麻辣和北方清汤是最受欢迎的两种口味。",
+        "en": "Communal cooking in simmering broth — Sichuan mala (numbing-spicy) and northern clear-broth styles are both beloved."
+      }
+    },
+    {
+      "emoji": "🥟",
+      "name": {
+        "zh": "小笼包",
+        "en": "Xiaolongbao"
+      },
+      "description": {
+        "zh": "薄皮内包裹着鲜肉和浓缩汤汁，轻咬一口鲜汤迸出，起源于上海，风靡全国。",
+        "en": "Delicate steamed dumplings with minced pork and a burst of soup inside — originated in Shanghai, adored nationwide."
+      }
+    },
+    {
+      "emoji": "🍜",
+      "name": {
+        "zh": "兰州拉面",
+        "en": "Lanzhou Beef Noodles"
+      },
+      "description": {
+        "zh": "手工拉制的筋道面条配清澈牛骨汤，撒上红辣椒油和香菜，是中国最广泛的面食之一。",
+        "en": "Hand-pulled noodles in clear beef-bone broth with chilli oil and coriander — one of China's most widespread noodle dishes."
+      }
+    }
+  ],
+  "bestTime": {
+    "optimal": [
+      3,
+      4,
+      5,
+      9,
+      10,
+      11
+    ],
+    "good": [
+      6,
+      12
+    ],
+    "avoid": [
+      1,
+      2,
+      7,
+      8
+    ],
+    "note": {
+      "zh": "春秋两季（3—5月、9—11月）气候最宜人；北京等北方夏季炎热，冬季严寒；南方夏季多雨。",
+      "en": "Spring (Mar–May) and autumn (Sep–Nov) are best nationwide; northern winters are harsh and summers oppressively hot."
+    }
+  }
+}
+---
+
+<!--zh-->
+## geography
+中国位于东亚，国土面积约960万平方公里，是世界第三大国。地形西高东低，呈三级阶梯状分布：西部为青藏高原，中部为黄土高原、四川盆地，东部为平原与丘陵。主要河流有长江、黄河。气候类型多样，从寒温带到热带均有分布。
+
+## history
+中国拥有超过五千年的文明史，是四大文明古国之一。经历了夏、商、周、秦、汉、唐、宋、元、明、清等历代王朝，于1912年建立中华民国，1949年中华人民共和国成立。改革开放以来，中国经济迅速腾飞，成为世界第二大经济体。
+
+## economy
+中国是世界第二大经济体，GDP约18万亿美元。制造业、科技、金融和服务业是经济支柱。中国是全球最大的出口国，也是最大的消费市场之一。近年来大力发展新能源、人工智能、航天等新兴产业。
+
+## population
+中国人口约14亿，是世界人口最多的国家之一。汉族占总人口约91.6%，另有55个少数民族。人口主要集中在东部沿海地区。近年来面临人口老龄化挑战，生育率持续下降。
+
+## culture
+中华文化博大精深，以儒家思想为核心，涵盖诗词、书画、戏曲、武术、茶文化等众多领域。春节、中秋节、端午节等传统节日全球华人共同庆祝。中国饮食文化源远流长，形成了川、粤、鲁、苏等八大菜系。
+
+<!--en-->
+## geography
+China is located in East Asia with an area of ~9.6 million km², the third largest country in the world. The terrain descends in three steps from west to east: the Tibetan Plateau in the west, loess plateaus and basins in the center, and plains in the east. Major rivers include the Yangtze and Yellow River. Climate ranges from subarctic to tropical.
+
+## history
+China has over 5,000 years of civilization, one of the world's four ancient civilizations. It went through dynasties from Xia, Shang, Zhou to Qing. The Republic of China was founded in 1912, and the People's Republic of China was established in 1949. Since the Reform and Opening-Up, China has risen to become the world's second-largest economy.
+
+## economy
+China is the world's second-largest economy with a GDP of ~$18 trillion. Manufacturing, technology, finance and services are key pillars. China is the world's largest exporter and one of the largest consumer markets. Recent years have seen major investment in renewable energy, AI and aerospace.
+
+## population
+China has a population of ~1.4 billion. The Han ethnic group comprises about 91.6% of the population, with 55 other ethnic minorities. The population is concentrated in the eastern coastal regions. China faces challenges of an aging population and declining birth rate.
+
+## culture
+Chinese culture is vast and profound, centered on Confucian thought and encompassing poetry, calligraphy, opera, martial arts and tea culture. Festivals like Spring Festival, Mid-Autumn Festival and Dragon Boat Festival are celebrated by Chinese communities worldwide. Chinese cuisine is renowned, with eight major regional styles including Sichuan and Cantonese.

@@ -1,0 +1,57 @@
+---
+[
+  {
+    "id": "kasama-inari-shrine",
+    "name": {
+      "zh": "笠间稻荷神社",
+      "en": "Kasama Inari Shrine"
+    },
+    "description": {
+      "zh": "笠间稻荷神社是茨城县的著名神社，香火旺盛，供奉着独特的神明，是当地重要的精神文化场所，每逢节日前来参拜的信众与游客络绎不绝。",
+      "en": "Kasama Inari Shrine is a celebrated Shinto shrine in Ibaraki Prefecture, dedicated to its enshrined deity. The shrine serves as an important spiritual and cultural landmark, drawing worshippers and visitors especially during festivals."
+    },
+    "image": "https://picsum.photos/seed/kasama-inari-shrine-japan/800/500",
+    "tags": {
+      "zh": [
+        "神社",
+        "神道",
+        "日本信仰"
+      ],
+      "en": [
+        "Shrine",
+        "Shinto",
+        "Japanese Spirituality"
+      ]
+    },
+    "location": {
+      "zh": "茨城县",
+      "en": "Ibaraki Prefecture"
+    },
+    "subdivision": "ibaraki",
+    "highlights": {
+      "zh": [
+        "社殿建筑：精心维护的神社建筑群，体现日本传统神道建筑之美",
+        "参道与鸟居：通往正殿的参道营造出庄严肃穆的神圣氛围",
+        "御守与绘马：购买祈愿御守或悬挂祈福绘马，感受日本信仰文化"
+      ],
+      "en": [
+        "Shrine buildings: beautifully maintained structures reflecting traditional Shinto architectural aesthetics",
+        "Approach and torii: the path to the main hall creates a solemn sacred atmosphere",
+        "Omamori and ema: buy protective charms or hang a prayer plaque to experience Japanese spiritual culture"
+      ]
+    },
+    "admission": {
+      "zh": "参拜免费；部分宝物殿另收费",
+      "en": "Shrine worship free; some treasure halls charge entry"
+    },
+    "duration": {
+      "zh": "30分钟—1小时",
+      "en": "30 minutes–1 hour"
+    },
+    "tips": {
+      "zh": "建议清晨或傍晚参拜，人少且气氛更加清幽。",
+      "en": "Visit early morning or late afternoon for fewer crowds and a more atmospheric experience."
+    }
+  }
+]
+---

@@ -592,7 +592,7 @@ let _journalSearchCache = null;
 async function preloadJournalIndex() {
   if (_journalSearchCache) return;
   try {
-    _journalSearchCache = await fetchJSON('data/journal/index.json');
+    _journalSearchCache = (await MD.fetch('data/journal/index.md')).meta;
   } catch { _journalSearchCache = []; }
 }
 
@@ -1176,10 +1176,23 @@ async function initCountry() {
       <div id="country-detail">${buildLoading()}</div>
     </div>`;
 
-  // Fetch full country data
+  // Fetch full country data (markdown — rendered live)
   let detail;
   try {
-    detail = await fetchJSON(`data/countries/${id}.json`);
+    const doc = await MD.fetch(`data/countries/${id}.md`);
+    const halves = MD.splitLang(doc.body);
+    const zhSecs = MD.sections(halves.zh);
+    const enSecs = MD.sections(halves.en);
+    const info = {};
+    ['geography', 'history', 'economy', 'population', 'culture'].forEach(f => {
+      info[f] = { zh: MD.render(zhSecs[f] || ''), en: MD.render(enSecs[f] || '') };
+    });
+    detail = {
+      quickFacts: doc.meta.quickFacts,
+      cuisine: doc.meta.cuisine,
+      bestTime: doc.meta.bestTime,
+      info,
+    };
   } catch (e) {
     document.getElementById('country-detail').innerHTML = buildFetchError(e);
     return;
@@ -1235,7 +1248,7 @@ async function initCountry() {
       </div>
       ${tabs.map((tb, i) =>
         `<div class="tab-panel${i===0?' active':''}" id="panel-${tb.field}">
-           <p class="info-text">${tx(detail.info?.[tb.field])}</p>
+           <div class="info-text">${tx(detail.info?.[tb.field])}</div>
          </div>`
       ).join('')}
     </section>
@@ -1337,9 +1350,9 @@ async function initDestinations() {
   let allDests = [];
   try {
     if (meta.isLarge && sub) {
-      allDests = await fetchJSON(`data/destinations/${id}-${sub}.json`);
+      allDests = (await MD.fetch(`data/destinations/${id}-${sub}.md`)).meta;
     } else {
-      allDests = await fetchJSON(`data/destinations/${id}.json`);
+      allDests = (await MD.fetch(`data/destinations/${id}.md`)).meta;
     }
   } catch (e) {
     document.getElementById('destGrid').innerHTML = buildFetchError(e);
@@ -1456,7 +1469,7 @@ async function initJournal() {
 
     let posts;
     try {
-      posts = await fetchJSON('data/journal/index.json');
+      posts = (await MD.fetch('data/journal/index.md')).meta;
     } catch (e) {
       document.getElementById('journal-list').innerHTML = buildFetchError(e);
       return;
@@ -1472,9 +1485,12 @@ async function initJournal() {
   // ── Post detail view ──
   root.innerHTML = `<div class="container" style="padding-top:2rem">${buildLoading()}</div>`;
 
-  let post;
+  let post, postBodyHtml;
   try {
-    post = await fetchJSON(`data/journal/${id}.json`);
+    const doc = await MD.fetch(`data/journal/${id}.md`);
+    post = doc.meta;
+    const halves = MD.splitLang(doc.body);
+    postBodyHtml = MD.renderPost(halves[LANG] || halves.zh, t('tip_label'));
   } catch (e) {
     root.innerHTML = `<div class="container" style="padding-top:2rem">${buildFetchError(e)}</div>`;
     return;
@@ -1509,7 +1525,7 @@ async function initJournal() {
       ])}
       <div class="post-tags">${tags}</div>
       <article class="post-body">
-        ${(post.sections || []).map(renderSection).join('')}
+        ${postBodyHtml}
       </article>
       ${buildShareBar(tx(post.title))}
       <div class="section comment-section">

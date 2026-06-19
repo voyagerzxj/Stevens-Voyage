@@ -1,0 +1,125 @@
+---
+{
+  "quickFacts": {
+    "area": {
+      "zh": "13.2万平方公里",
+      "en": "131,957 km²"
+    },
+    "population": {
+      "zh": "约1050万",
+      "en": "~10.5 million"
+    },
+    "language": {
+      "zh": "希腊语",
+      "en": "Greek"
+    },
+    "currency": {
+      "zh": "欧元（EUR）",
+      "en": "Euro (EUR)"
+    },
+    "timezone": "UTC+2"
+  },
+  "cuisine": [
+    {
+      "emoji": "🥗",
+      "name": {
+        "zh": "希腊沙拉",
+        "en": "Greek Salad"
+      },
+      "description": {
+        "zh": "番茄、黄瓜、橄榄、菲达奶酪和橄榄油，简单却无比清爽，夏日必备。",
+        "en": "Tomatoes, cucumber, olives, feta and olive oil — deceptively simple and endlessly refreshing in the summer heat."
+      }
+    },
+    {
+      "emoji": "🍢",
+      "name": {
+        "zh": "苏夫拉基",
+        "en": "Souvlaki"
+      },
+      "description": {
+        "zh": "腌制猪肉或鸡肉串烤制，配皮塔饼、西红柿、洋葱和酸奶酱（tzatziki），是希腊最受欢迎的街头食品。",
+        "en": "Marinated pork or chicken skewers in pita with tomato, onion and tzatziki — Greece's favourite street food."
+      }
+    },
+    {
+      "emoji": "🫕",
+      "name": {
+        "zh": "木萨卡",
+        "en": "Moussaka"
+      },
+      "description": {
+        "zh": "茄子、肉末和贝夏梅酱分层烤制，香浓扎实，是希腊家庭料理的代表作。",
+        "en": "Layers of aubergine, spiced minced meat and béchamel baked until golden — the definitive Greek comfort food."
+      }
+    },
+    {
+      "emoji": "🍯",
+      "name": {
+        "zh": "蜂蜜酥皮糕",
+        "en": "Baklava"
+      },
+      "description": {
+        "zh": "薄酥皮夹核桃碎，淋上玫瑰水蜂蜜糖浆，甜而不腻，是奥斯曼遗产留下的精华。",
+        "en": "Layers of filo pastry with crushed walnuts soaked in honey syrup — a sweet Ottoman legacy."
+      }
+    }
+  ],
+  "bestTime": {
+    "optimal": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "good": [
+      3,
+      7,
+      11
+    ],
+    "avoid": [
+      1,
+      2,
+      8,
+      12
+    ],
+    "note": {
+      "zh": "4—6月和9—10月天气最佳，海水温暖、游客适中；8月是旅游旺季，圣托里尼等岛屿极度拥挤。",
+      "en": "April–June and September–October are ideal — warm sea and manageable crowds. August, especially Santorini, is overwhelmingly busy."
+    }
+  }
+}
+---
+
+<!--zh-->
+## geography
+希腊位于巴尔干半岛南端，海岸线绵延约13,676公里，拥有超过2,000个岛屿。奥林匹斯山是希腊最高峰，海拔2,917米。地中海气候夏季干燥炎热，冬季温和湿润。
+
+## history
+古希腊是西方文明的摇篮，孕育了民主制度、哲学、数学和奥林匹克运动会。经历马其顿帝国、罗马统治、拜占庭帝国和奥斯曼帝国，1821年独立战争后建立现代希腊国家。
+
+## economy
+希腊经济以旅游业、航运业和农业为主。旅游业贡献约占GDP的20%，每年吸引超过3000万游客。橄榄油和菲达奶酪是重要出口产品。2010年代曾经历严重的债务危机，经济正逐步复苏。
+
+## population
+希腊人口约1050万，近年来受经济危机影响，大量年轻人移居海外。希腊人以热情好客著称，家庭观念极强。东正教在希腊文化中占有核心地位，教会节日是社会生活的重要组成部分。
+
+## culture
+希腊文化是西方文明的根基，苏格拉底、柏拉图、亚里士多德等哲学家的思想影响至今。希腊神话、奥林匹克精神是全球共同的文化遗产。希腊美食以橄榄油、海鲜、菲达奶酪和烤肉为特色，是地中海饮食的代表。
+
+<!--en-->
+## geography
+Greece is at the southern tip of the Balkan Peninsula with ~13,676 km of coastline and over 2,000 islands. Mount Olympus, at 2,917 m, is the highest peak. The Mediterranean climate brings dry hot summers and mild wet winters.
+
+## history
+Ancient Greece is the cradle of Western civilization, giving birth to democracy, philosophy, mathematics and the Olympic Games. After Macedonian empire, Roman rule, Byzantine Empire and Ottoman Empire, modern Greece was established after the 1821 War of Independence.
+
+## economy
+Greece's economy is driven by tourism, shipping and agriculture. Tourism contributes ~20% of GDP, attracting over 30 million visitors annually. Olive oil and feta cheese are major exports. After a severe debt crisis in the 2010s, the economy is gradually recovering.
+
+## population
+Greece has ~10.5 million people; the economic crisis led many young Greeks to emigrate. Greeks are known for warm hospitality and strong family bonds. Greek Orthodox Christianity is central to culture, with church festivals playing a key role in social life.
+
+## culture
+Greek culture is the foundation of Western civilization. Philosophers like Socrates, Plato and Aristotle still influence the world. Greek mythology and the Olympic spirit are shared global heritage. Greek cuisine — olive oil, seafood, feta and grilled meats — epitomizes the Mediterranean diet.

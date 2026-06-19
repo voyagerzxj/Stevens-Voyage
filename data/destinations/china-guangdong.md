@@ -1,0 +1,324 @@
+---
+[
+  {
+    "id": "zhangjiajie",
+    "name": {
+      "zh": "张家界",
+      "en": "Zhangjiajie"
+    },
+    "description": {
+      "zh": "张家界国家森林公园以成千上万座石英砂岩柱峰著称，这些奇特地貌据称是电影《阿凡达》中悬浮山脉的灵感来源。玻璃栈道和缆车让游客得以近距离欣赏这片超现实景观。",
+      "en": "Zhangjiajie is famous for thousands of quartz-sandstone pillar peaks, said to inspire the floating mountains in Avatar. Glass walkways and cable cars let visitors experience this surreal landscape up close."
+    },
+    "image": "https://picsum.photos/seed/zhangjiajie/800/500",
+    "tags": {
+      "zh": [
+        "奇峰异石",
+        "国家公园",
+        "玻璃栈道"
+      ],
+      "en": [
+        "Pillar Peaks",
+        "National Park",
+        "Glass Walkway"
+      ]
+    },
+    "location": {
+      "zh": "湖南省张家界市",
+      "en": "Zhangjiajie, Hunan Province"
+    },
+    "subdivision": "guangdong",
+    "highlights": {
+      "zh": [
+        "《阿凡达》灵感来源地，石英砂岩峰林",
+        "袁家界悬浮大陆，天门山玻璃栈道",
+        "世界自然遗产，峰林景观独一无二"
+      ],
+      "en": [
+        "Inspiration for Avatar's floating mountains",
+        "Yuanjiajie floating plateau and Tianmen Mountain glass walkway",
+        "UNESCO Natural Heritage; unique sandstone pillar landscape"
+      ]
+    },
+    "admission": {
+      "zh": "张家界国家森林公园约248元（4日票）",
+      "en": "~¥248 for a 4-day park pass"
+    },
+    "duration": {
+      "zh": "2—3天",
+      "en": "2–3 days"
+    },
+    "tips": {
+      "zh": "景区很大，建议乘观光车和索道结合徒步。云雾天气反而更有仙境感，不必强求晴天。",
+      "en": "The park is vast — combine shuttle buses, cable cars and hiking. Misty days create an ethereal atmosphere; don't despair if it's not sunny."
+    }
+  },
+  {
+    "id": "danxiashan-geopark",
+    "name": {
+      "zh": "丹霞山世界地质公园",
+      "en": "Danxiashan UNESCO Global Geopark"
+    },
+    "description": {
+      "zh": "丹霞山世界地质公园位于广东省韶关市仁化县，以典型的「丹霞地貌」命名地闻名于世。园内赤红色砂砾岩经亿年侵蚀形成奇峰、石柱、崖壁与峡谷，色如朝霞，壮美异常。丹霞山是全球「丹霞地貌」的命名与模式地，2004年加入UNESCO全球地质公园网络，并于2010年以「中国丹霞」系列遗产列入UNESCO世界遗产名录。",
+      "en": "Danxiashan UNESCO Global Geopark in Renhua County, Shaoguan, Guangdong, is the type-site and global namesake of the 'danxia landform' — spectacular red sandstone and conglomerate peaks, pillars, cliffs and gorges shaped over 65 million years of erosion. The park joined the UNESCO Global Geoparks Network in 2004 and was inscribed as part of the 'China Danxia' UNESCO World Heritage Site in 2010."
+    },
+    "image": "https://picsum.photos/seed/danxiashan-geopark-guangdong/800/500",
+    "tags": {
+      "zh": [
+        "地质公园",
+        "丹霞地貌",
+        "世界遗产"
+      ],
+      "en": [
+        "UNESCO Geopark",
+        "Danxia Landform",
+        "World Heritage"
+      ]
+    },
+    "location": {
+      "zh": "广东省韶关市仁化县",
+      "en": "Renhua County, Shaoguan, Guangdong Province"
+    },
+    "subdivision": "guangdong",
+    "highlights": {
+      "zh": [
+        "阳元石——高约28米的天然丹霞石柱，全球最具代表性的丹霞地貌景观之一",
+        "翔龙湖——碧水环绕丹霞绝壁，可乘船观赏石壁倒影",
+        "UNESCO全球地质公园（2004年）暨「中国丹霞」世界遗产（2010年）双重认证"
+      ],
+      "en": [
+        "Yangyuan Rock — a natural 28 m red sandstone pillar, one of the world's most striking danxia formations",
+        "Xianglong Lake — emerald water reflecting sheer red cliffs; cruise boats available",
+        "UNESCO Global Geopark since 2004 and 'China Danxia' World Heritage since 2010 — dual international recognition"
+      ]
+    },
+    "admission": {
+      "zh": "约180元（含景区内交通）",
+      "en": "~¥180 (including in-park transport)"
+    },
+    "duration": {
+      "zh": "1—2天",
+      "en": "1–2 days"
+    },
+    "tips": {
+      "zh": "丹霞山距韶关市区约50公里，可从广州乘高铁至韶关再转车。日出和日落时分红岩色彩最为浓烈；山顶观景台需步行上山，体力消耗较大，建议穿运动鞋。",
+      "en": "Danxiashan is about 50 km from Shaoguan city — take high-speed rail from Guangzhou to Shaoguan then transfer. The red cliffs glow most intensely at sunrise and sunset. Summit viewpoints require a steep hike; wear proper walking shoes."
+    }
+  },
+  {
+    "id": "leiqiong-geopark",
+    "name": {
+      "zh": "雷琼世界地质公园（湛江园区）",
+      "en": "Leiqiong UNESCO Global Geopark — Zhanjiang Park Area"
+    },
+    "description": {
+      "zh": "雷琼世界地质公园横跨广东省湛江市与海南省海口市，总面积3050平方公里，以雷琼裂谷火山带著称。湛江园区保存了100余座火山遗迹与火山湖，其中湖光岩玛珥湖保存了长达14万年的湖底沉积气候记录，是全球气候变化研究的重要基准地点，2006年加入UNESCO全球地质公园网络。",
+      "en": "Leiqiong UNESCO Global Geopark straddles Zhanjiang in Guangdong and Haikou in Hainan, covering 3,050 km² of the Leiqiong Rift Volcanic Belt. The Zhanjiang park area preserves over 100 volcanic features, including Huguangyan Maar Lake — whose 140,000-year-old laminated sediments serve as a global benchmark for palaeoclimate research. Designated a UNESCO Global Geopark in 2006 and revalidated through 2028."
+    },
+    "image": "https://picsum.photos/seed/leiqiong-geopark-guangdong/800/500",
+    "tags": {
+      "zh": [
+        "地质公园",
+        "火山地貌",
+        "玛珥湖"
+      ],
+      "en": [
+        "UNESCO Geopark",
+        "Volcanic Landscape",
+        "Maar Lake"
+      ]
+    },
+    "location": {
+      "zh": "广东省湛江市（另含海南省海口市园区）",
+      "en": "Zhanjiang, Guangdong Province (also spanning Haikou, Hainan Province)"
+    },
+    "subdivision": "guangdong",
+    "highlights": {
+      "zh": [
+        "湖光岩玛珥湖——直径约2.3公里的完整火山口湖，14万年气候沉积记录，全球气候变化基准地点",
+        "100余座火山遗迹，38座受保护火山构造，密集程度全国罕见",
+        "UNESCO全球地质公园（2006年），2024年通过第四次再认证，有效期延至2028年"
+      ],
+      "en": [
+        "Huguangyan Maar Lake — ~2.3 km diameter volcanic crater lake with a 140,000-year climate sediment record, a global palaeoclimate benchmark",
+        "100+ volcanic features including 38 protected volcanic structures — one of China's densest volcanic landscapes",
+        "UNESCO Global Geopark since 2006; fourth revalidation passed in 2024, extended through 2028"
+      ]
+    },
+    "admission": {
+      "zh": "湖光岩景区约60元",
+      "en": "Huguangyan Scenic Area ~¥60"
+    },
+    "duration": {
+      "zh": "半天至1天",
+      "en": "Half to full day"
+    },
+    "tips": {
+      "zh": "湖光岩距湛江市区约20公里，乘公交或打车均可抵达。公园跨粤琼两省，若同时游览海口园区，可结合海南岛行程一并安排。",
+      "en": "Huguangyan is about 20 km from Zhanjiang city centre — reachable by bus or taxi. The geopark spans Guangdong and Hainan; if visiting the Haikou park area, pair it with a broader Hainan Island itinerary."
+    }
+  },
+  {
+    "id": "kaiping-diaolou",
+    "name": {
+      "zh": "开平碉楼与村落",
+      "en": "Kaiping Diaolou and Villages"
+    },
+    "description": {
+      "zh": "开平碉楼是由近代华侨返乡后兴建的多层防御性楼房，融合了中国传统建筑与西方巴洛克、罗马式等多种风格。现存1833座碉楼散布在开平乡间，2007年以其独特的建筑艺术与华侨文化价值列入UNESCO世界遗产名录。",
+      "en": "The Kaiping Diaolou are multi-storey defensive towers built by returned overseas Chinese in the early 20th century, blending Chinese and Western architectural styles — Baroque, Roman and beyond. 1,833 towers dot the Kaiping countryside; inscribed as a UNESCO World Heritage Site in 2007."
+    },
+    "image": "https://picsum.photos/seed/kaiping-diaolou-guangdong/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "华侨建筑",
+        "近代史"
+      ],
+      "en": [
+        "UNESCO Heritage",
+        "Overseas Chinese Architecture",
+        "Modern History"
+      ]
+    },
+    "location": {
+      "zh": "广东省江门市开平市",
+      "en": "Kaiping, Jiangmen, Guangdong"
+    },
+    "subdivision": "guangdong",
+    "highlights": {
+      "zh": [
+        "UNESCO世界遗产（2007年）",
+        "1833座碉楼融合中西建筑风格",
+        "自力村、马降龙村等核心景区"
+      ],
+      "en": [
+        "UNESCO World Heritage Site since 2007",
+        "1,833 towers fusing Chinese and Western architecture",
+        "Core villages: Zili, Majianlong, Jinjiangli"
+      ]
+    },
+    "admission": {
+      "zh": "联票约200元，含多个村落景区",
+      "en": "Combo ticket ~¥200, covering multiple villages"
+    },
+    "duration": {
+      "zh": "一天",
+      "en": "Full day"
+    },
+    "tips": {
+      "zh": "自力村是保存最完好的碉楼群，建议清晨前往，光线和人流都是最佳状态。",
+      "en": "Zili Village has the best-preserved cluster; arrive early morning for the best light and fewest crowds."
+    }
+  },
+  {
+    "id": "china-danxia-guangdong",
+    "name": {
+      "zh": "中国丹霞·丹霞山（世界遗产）",
+      "en": "China Danxia — Danxiashan Component (World Heritage)"
+    },
+    "description": {
+      "zh": "「中国丹霞」是由六省六处丹霞地貌景观组成的系列世界自然遗产，广东省丹霞山为其命名地与模式地。2010年列入UNESCO世界遗产名录，以其标志性的红色砂岩峰丛、石柱与峡谷，以及丹霞地貌中最完整的多阶地貌演化序列，展现了地球亿万年地质演化的壮丽画卷。",
+      "en": "China Danxia is a serial UNESCO World Natural Heritage spanning six danxia landscapes across six provinces; the Danxiashan component in Shaoguan, Guangdong is the type-site that gives the landform its name. Inscribed in 2010, it represents the most complete sequence of danxia landform development — from towering red sandstone peaks and pillars to deep gorges — documenting hundreds of millions of years of geological evolution."
+    },
+    "image": "https://picsum.photos/seed/china-danxia-guangdong/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "丹霞地貌",
+        "自然遗产"
+      ],
+      "en": [
+        "UNESCO Heritage",
+        "Danxia Landform",
+        "Natural Heritage"
+      ]
+    },
+    "location": {
+      "zh": "广东省韶关市仁化县",
+      "en": "Renhua County, Shaoguan, Guangdong Province"
+    },
+    "subdivision": "guangdong",
+    "highlights": {
+      "zh": [
+        "「中国丹霞」六省系列遗产之广东组成部分，2010年列入UNESCO世界遗产",
+        "全球丹霞地貌命名地，保存最完整的多阶地貌演化序列",
+        "赤壁丹崖、峰林峡谷与常绿阔叶林交织，生物多样性丰富"
+      ],
+      "en": [
+        "Guangdong component of the six-province 'China Danxia' serial UNESCO World Natural Heritage, inscribed 2010",
+        "Global type-site of danxia landform; most complete multi-stage geomorphic evolution sequence",
+        "Red sandstone cliffs, pillar forests and deep gorges interwoven with subtropical evergreen forest"
+      ]
+    },
+    "admission": {
+      "zh": "约180元（含景区内交通，与地质公园景区共用）",
+      "en": "~¥180 (including in-park transport; shared with the Geopark scenic area)"
+    },
+    "duration": {
+      "zh": "1—2天",
+      "en": "1–2 days"
+    },
+    "tips": {
+      "zh": "世界遗产核心区与地质公园景区高度重叠，可一并游览。建议从广州乘高铁至韶关后转乘景区大巴，日出前后光线最佳。",
+      "en": "The World Heritage core zone largely overlaps with the Geopark scenic area — visit both in one trip. Take high-speed rail from Guangzhou to Shaoguan, then the scenic shuttle. Light is best around sunrise."
+    }
+  },
+  {
+    "id": "southern-yue-state",
+    "name": {
+      "zh": "南越国遗址",
+      "en": "Site of the Southern Yue State"
+    },
+    "description": {
+      "zh": "南越国（公元前203—111年）遗址位于广州市越秀区，由南越王宫署遗址、南越王墓及南越国木构水闸遗址三处组成，是岭南地区汉代文明与多元文化交汇的最重要考古见证。2008年提交UNESCO世界遗产预备名单，以其对岭南文化形成发展的深远影响，列为中国重要候选遗产。",
+      "en": "The archaeological sites of the Southern Yue State (203–111 BC) lie in Yuexiu District, Guangzhou, comprising three components: the Palace Ruins, the Tomb of the Southern Yue King, and the Wooden Watergate. Together they represent the most significant archaeological evidence of Han-era civilisation and multicultural exchange in the Lingnan region. Submitted to China's UNESCO Tentative List in 2008."
+    },
+    "image": "https://picsum.photos/seed/southern-yue-state-guangdong/800/500",
+    "tags": {
+      "zh": [
+        "候选遗产",
+        "汉代考古",
+        "岭南文化"
+      ],
+      "en": [
+        "Tentative WHC",
+        "Han Dynasty Archaeology",
+        "Lingnan Culture"
+      ]
+    },
+    "location": {
+      "zh": "广东省广州市越秀区",
+      "en": "Yuexiu District, Guangzhou, Guangdong Province"
+    },
+    "subdivision": "guangdong",
+    "highlights": {
+      "zh": [
+        "UNESCO世界遗产候选地（2008年列入预备名单，标准ii、iii）",
+        "南越王宫御苑——现存最古老、保存最完整的秦汉时期皇家园林遗址",
+        "南越王墓——出土大量汉代珍贵文物，现辟为南越王博物馆",
+        "南越国木构水闸——中国迄今发现最早的木构水利设施之一"
+      ],
+      "en": [
+        "UNESCO Tentative World Heritage Site since 2008 (Criteria ii, iii)",
+        "Palace Garden Ruins — the oldest and best-preserved royal garden of the Qin–Han period discovered to date",
+        "Tomb of the Southern Yue King — rich Han-era artefacts; now the Museum of the Southern Yue King's Mausoleum",
+        "Wooden Watergate — one of the earliest timber hydraulic structures discovered in China"
+      ]
+    },
+    "admission": {
+      "zh": "南越王博物馆约15元；宫署遗址博物馆约20元",
+      "en": "Museum of the Southern Yue King ~¥15; Palace Ruins Museum ~¥20"
+    },
+    "duration": {
+      "zh": "半天（可三处分别参观或选重点游览）",
+      "en": "Half day (visit all three sites or select highlights)"
+    },
+    "tips": {
+      "zh": "三处遗址均位于广州越秀区，可步行或乘地铁串联游览。南越王墓博物馆保存有完整的彩绘石室墓，不可错过。",
+      "en": "All three sites are in Yuexiu District and easily linked on foot or by metro. The painted stone burial chamber inside the Tomb museum is unmissable."
+    }
+  }
+]
+---

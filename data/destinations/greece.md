@@ -1,0 +1,1408 @@
+---
+[
+  {
+    "id": "acropolis",
+    "name": {
+      "zh": "雅典卫城",
+      "en": "Acropolis of Athens"
+    },
+    "description": {
+      "zh": "雅典卫城矗立于市中心岩石高台之上，帕特农神庙是其核心建筑，建于公元前5世纪，是古希腊建筑艺术的巅峰之作，也是西方文明最重要的象征之一。",
+      "en": "The Acropolis crowns Athens on a rocky plateau. Its centrepiece, the Parthenon (5th century BC), is the pinnacle of ancient Greek architecture and one of the defining symbols of Western civilisation."
+    },
+    "image": "https://picsum.photos/seed/acropolis-athens/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "古希腊",
+        "帕特农"
+      ],
+      "en": [
+        "UNESCO Heritage",
+        "Ancient Greece",
+        "Parthenon"
+      ]
+    },
+    "location": {
+      "zh": "希腊雅典市中心",
+      "en": "Central Athens, Greece"
+    },
+    "highlights": {
+      "zh": [
+        "帕台农神庙，公元前447年建成，古典建筑巅峰之作",
+        "俯瞰雅典全城的制高点",
+        "卫城博物馆收藏大量原件雕塑"
+      ],
+      "en": [
+        "Parthenon, built 447 BC — the pinnacle of classical architecture",
+        "Commanding hilltop views over all of Athens",
+        "Acropolis Museum houses many original sculptures"
+      ]
+    },
+    "admission": {
+      "zh": "旺季约30欧元（含周边遗址联票）",
+      "en": "Peak season ~€30 (combined with surrounding sites)"
+    },
+    "duration": {
+      "zh": "2—3小时",
+      "en": "2–3 hours"
+    },
+    "tips": {
+      "zh": "清晨开门时人最少，7—8月中午高温酷热。参观当日凭票也可进入古代市集等其他遗址。",
+      "en": "Arrive at opening time to beat the crowds. July–August midday heat is intense — go early or late. Your ticket also grants access to the Ancient Agora and other sites on the same day."
+    }
+  },
+  {
+    "id": "santorini",
+    "name": {
+      "zh": "圣托里尼岛",
+      "en": "Santorini"
+    },
+    "description": {
+      "zh": "圣托里尼岛是爱琴海上由火山喷发形成的弧形岛屿，白墙蓝顶的民居散布于火山口边缘的悬崖之上。伊亚村的日落被誉为世界最美夕阳之一。",
+      "en": "Santorini is a crescent-shaped volcanic island in the Aegean. White-domed houses cling to the caldera rim, and the sunset at Oia village is considered one of the most beautiful in the world."
+    },
+    "image": "https://picsum.photos/seed/santorini-greece/800/500",
+    "tags": {
+      "zh": [
+        "火山岛",
+        "蓝顶教堂",
+        "日落"
+      ],
+      "en": [
+        "Volcanic Island",
+        "Blue Domes",
+        "Sunset"
+      ]
+    },
+    "location": {
+      "zh": "基克拉迪群岛，爱琴海",
+      "en": "Cyclades, Aegean Sea, Greece"
+    },
+    "highlights": {
+      "zh": [
+        "火山岛特有的黑色、红色火山沙滩",
+        "伊亚（Oia）日落，全球最著名落日景观之一",
+        "卡特里（Fira）悬崖边的白蓝建筑群"
+      ],
+      "en": [
+        "Unique volcanic black and red sand beaches",
+        "Oia sunset — one of the world's most famous",
+        "Fira's clifftop white-and-blue architecture"
+      ]
+    },
+    "admission": {
+      "zh": "岛屿免费，古塞拉遗址等景点单独收费",
+      "en": "Island free; ancient sites like Akrotiri charge separately"
+    },
+    "duration": {
+      "zh": "2—4天",
+      "en": "2–4 days"
+    },
+    "tips": {
+      "zh": "6月初或9月中是最佳时机，避开7—8月的顶级旺季。伊亚日落一定要提前1小时占位。",
+      "en": "Early June or mid-September is ideal — July–August is peak and very crowded. Arrive at least an hour early for a good spot for the Oia sunset."
+    }
+  },
+  {
+    "id": "meteora",
+    "name": {
+      "zh": "迈泰奥拉",
+      "en": "Meteora"
+    },
+    "description": {
+      "zh": "迈泰奥拉是矗立于色萨利平原巨大岩石柱上的东正教修道院群，14世纪僧侣用绳索和篮筐爬上这些岩石建造了修道院，如今是世界上最壮观的宗教圣地之一。",
+      "en": "Meteora consists of Eastern Orthodox monasteries perched atop colossal rock pillars in Thessaly. 14th-century monks climbed by ropes and baskets to build them — today among the world's most spectacular sacred sites."
+    },
+    "image": "https://picsum.photos/seed/meteora-greece/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "修道院",
+        "悬崖奇观"
+      ],
+      "en": [
+        "UNESCO Heritage",
+        "Monasteries",
+        "Cliff Pinnacles"
+      ]
+    },
+    "location": {
+      "zh": "色萨利大区，希腊中部",
+      "en": "Thessaly region, central Greece"
+    },
+    "highlights": {
+      "zh": [
+        "巨大砂岩岩柱顶端建有6座东正教修道院，气势磅礴",
+        "拜占庭时期修士为逃避迫害在此隐居",
+        "列入UNESCO世界遗产"
+      ],
+      "en": [
+        "Six Eastern Orthodox monasteries perched atop enormous sandstone pillars",
+        "Byzantine monks settled here to escape persecution",
+        "UNESCO World Heritage Site"
+      ]
+    },
+    "admission": {
+      "zh": "每座修道院约3欧元（共6座，通常一天可游4—5座）",
+      "en": "~€3 per monastery (6 total; 4–5 doable in a day)"
+    },
+    "duration": {
+      "zh": "一天",
+      "en": "Full day"
+    },
+    "tips": {
+      "zh": "进入修道院须着长裤/长裙，女性需遮头。日出时从卡兰巴卡镇向上望，光线最为壮观。",
+      "en": "Modest dress required — long trousers/skirts and head coverings for women. The view from Kalambaka town at sunrise is as dramatic as the monasteries themselves."
+    }
+  },
+  {
+    "id": "crete-island",
+    "name": {
+      "zh": "克里特岛",
+      "en": "Crete Island"
+    },
+    "description": {
+      "zh": "克里特岛是希腊最大的岛屿，也是古代米诺斯文明的发源地。克诺索斯宫殿遗址、萨马里亚峡谷、白山山脉和欧洲最古老的橄榄树，让这座岛屿兼具历史与自然魅力。",
+      "en": "Crete is Greece's largest island and birthplace of Minoan civilisation. The Palace of Knossos, Samaria Gorge, White Mountains and Europe's oldest olive tree give it unmatched historical and natural depth."
+    },
+    "image": "https://picsum.photos/seed/crete-island/800/500",
+    "tags": {
+      "zh": [
+        "米诺斯文明",
+        "峡谷",
+        "历史遗址"
+      ],
+      "en": [
+        "Minoan Civilisation",
+        "Gorge",
+        "Historic Ruins"
+      ]
+    },
+    "location": {
+      "zh": "地中海，希腊南部",
+      "en": "Mediterranean Sea, southern Greece"
+    },
+    "highlights": {
+      "zh": [
+        "希腊最大岛屿，米诺斯文明的摇篮",
+        "克诺索斯宫殿遗址，欧洲最古老的文明中心之一",
+        "萨马里亚峡谷，欧洲最长峡谷徒步路线"
+      ],
+      "en": [
+        "Greece's largest island; cradle of Minoan civilisation",
+        "Palace of Knossos — one of Europe's oldest centres of civilisation",
+        "Samaria Gorge — Europe's longest gorge hike"
+      ]
+    },
+    "admission": {
+      "zh": "克诺索斯宫殿约15欧元，萨马里亚峡谷约5欧元",
+      "en": "Knossos ~€15; Samaria Gorge ~€5"
+    },
+    "duration": {
+      "zh": "3—7天",
+      "en": "3–7 days"
+    },
+    "tips": {
+      "zh": "克里特岛非常大，东、西、南海岸各有特色，建议租车游览。伊拉克利翁考古博物馆不容错过。",
+      "en": "Crete is large — the east, west and south coasts all have distinct character. Rent a car. Don't miss the Heraklion Archaeological Museum."
+    }
+  },
+  {
+    "id": "delphi",
+    "name": {
+      "zh": "德尔菲考古遗址",
+      "en": "Archaeological Site of Delphi"
+    },
+    "description": {
+      "zh": "德尔菲曾是古希腊世界的精神中心，被视为「大地的肚脐」，供奉阿波罗神的神庙和著名神谕使其成为整个希腊世界的朝圣地。遗址俯瞰着科林斯湾，风景壮阔，1987年列入UNESCO世界遗产。",
+      "en": "Delphi was the spiritual centre of the ancient Greek world — the 'navel of the earth' — where the Temple of Apollo and its celebrated oracle drew pilgrims from across the Greek world. The site overlooks the Gulf of Corinth and has been a UNESCO World Heritage Site since 1987."
+    },
+    "image": "https://picsum.photos/seed/delphi-greece/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "古希腊",
+        "神庙"
+      ],
+      "en": [
+        "UNESCO Heritage",
+        "Ancient Greece",
+        "Oracle"
+      ]
+    },
+    "location": {
+      "zh": "福基斯大区，希腊中部",
+      "en": "Phocis region, central Greece"
+    },
+    "highlights": {
+      "zh": [
+        "古希腊最神圣的神谕圣地，被视为世界的中心",
+        "阿波罗神庙遗址与古代体育场",
+        "德尔菲考古博物馆收藏精美青铜御者像"
+      ],
+      "en": [
+        "The holiest oracle site in ancient Greece — believed to be the centre of the world",
+        "Temple of Apollo ruins and ancient stadium",
+        "Delphi Archaeological Museum with the famous Bronze Charioteer"
+      ]
+    },
+    "admission": {
+      "zh": "约12欧元（含博物馆联票）",
+      "en": "~€12 (combined with museum)"
+    },
+    "duration": {
+      "zh": "3—4小时",
+      "en": "3–4 hours"
+    },
+    "tips": {
+      "zh": "建议清晨抵达以避开旅游团。从雅典约2.5小时车程，可安排一日往返。",
+      "en": "Arrive early to beat tour groups. About 2.5 hours from Athens by car — doable as a day trip."
+    }
+  },
+  {
+    "id": "bassae",
+    "name": {
+      "zh": "巴赛的阿波罗·埃庇鸠里神庙",
+      "en": "Temple of Apollo Epicurius at Bassae"
+    },
+    "description": {
+      "zh": "巴赛神庙坐落于伯罗奔尼撒山区海拔1200米处，由设计雅典帕特农神庙的建筑师伊克蒂诺斯设计，建于公元前420年左右。其独特的科林斯柱式和科林斯柱头在这里被首次使用，是希腊最完整的古代神庙之一，1986年列入UNESCO首批世界遗产。",
+      "en": "The Temple at Bassae stands at 1,200 m in the Peloponnese highlands, designed by Iktinos — the same architect as the Parthenon — around 420 BC. Its innovative Corinthian column, the first known use of the order, makes it a landmark of architectural history. It was among the first sites inscribed on the UNESCO World Heritage List in 1986."
+    },
+    "image": "https://picsum.photos/seed/bassae-greece/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "古希腊神庙",
+        "伯罗奔尼撒"
+      ],
+      "en": [
+        "UNESCO Heritage",
+        "Ancient Temple",
+        "Peloponnese"
+      ]
+    },
+    "location": {
+      "zh": "麦西尼亚大区，伯罗奔尼撒",
+      "en": "Messenia, Peloponnese, Greece"
+    },
+    "highlights": {
+      "zh": [
+        "希腊最早列入UNESCO的遗址之一（1986年）",
+        "首次使用科林斯柱式的神庙",
+        "山区孤绝位置带来壮观的野性风景"
+      ],
+      "en": [
+        "One of the first sites inscribed on the UNESCO World Heritage List (1986)",
+        "First known use of the Corinthian column order",
+        "Spectacular remote mountain setting"
+      ]
+    },
+    "admission": {
+      "zh": "约6欧元",
+      "en": "~€6"
+    },
+    "duration": {
+      "zh": "1—2小时",
+      "en": "1–2 hours"
+    },
+    "tips": {
+      "zh": "神庙目前有保护棚覆盖。山路弯曲，建议自驾。附近的安德利察萨村可用餐休息。",
+      "en": "The temple is currently covered by a protective tent. The mountain road is winding — a car is essential. The nearby village of Andritsaina offers food and rest."
+    }
+  },
+  {
+    "id": "mount-athos",
+    "name": {
+      "zh": "阿托斯山",
+      "en": "Mount Athos"
+    },
+    "description": {
+      "zh": "阿托斯山是希腊北部的修道士自治区，半岛上分布着20座东正教修道院，已有一千年历史。这里是东正教精神中心，女性至今禁止入内。1988年同时列入UNESCO世界遗产和生物圈保护区。",
+      "en": "Mount Athos is a self-governing monastic community on a Greek peninsula hosting 20 Eastern Orthodox monasteries with a millennium of continuous history. The spiritual heart of Orthodox Christianity, it remains closed to women. It has been both a UNESCO World Heritage Site and a Biosphere Reserve since 1988."
+    },
+    "image": "https://picsum.photos/seed/mount-athos-greece/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "修道院",
+        "东正教"
+      ],
+      "en": [
+        "UNESCO Heritage",
+        "Monasteries",
+        "Eastern Orthodox"
+      ]
+    },
+    "location": {
+      "zh": "哈尔基季基半岛，马其顿大区",
+      "en": "Halkidiki Peninsula, Macedonia region, northern Greece"
+    },
+    "highlights": {
+      "zh": [
+        "20座拜占庭风格修道院，历史逾千年",
+        "东正教最神圣的圣地",
+        "半岛保存原始自然生态，野生动植物丰富"
+      ],
+      "en": [
+        "20 Byzantine-style monasteries with over 1,000 years of continuous history",
+        "The holiest site in Eastern Orthodox Christianity",
+        "Pristine peninsula ecosystem rich in wildlife"
+      ]
+    },
+    "admission": {
+      "zh": "男性访客须提前申请特别通行证（Diamonitirion）",
+      "en": "Male visitors only; advance permit (Diamonitirion) required"
+    },
+    "duration": {
+      "zh": "1—4天（需住宿许可）",
+      "en": "1–4 days (overnight permit required)"
+    },
+    "tips": {
+      "zh": "通行证须提前数月申请，每日限200名非东正教访客。女性禁止入内，违者将被起诉。",
+      "en": "Permits must be applied for months in advance; only 200 non-Orthodox visitors allowed per day. Women are strictly prohibited — violations are prosecuted."
+    }
+  },
+  {
+    "id": "thessaloniki-monuments",
+    "name": {
+      "zh": "塞萨洛尼基早期基督教和拜占庭建筑群",
+      "en": "Palaeochristian and Byzantine Monuments of Thessaloniki"
+    },
+    "description": {
+      "zh": "塞萨洛尼基保存着一批建于4至15世纪的早期基督教和拜占庭教堂，马赛克镶嵌画尤为珍贵。这座城市曾是拜占庭帝国第二大城市，1988年列入UNESCO世界遗产，现有15处组成建筑群。",
+      "en": "Thessaloniki preserves a remarkable group of early Christian and Byzantine churches dating from the 4th to 15th centuries, celebrated for their outstanding mosaics. Once the Byzantine Empire's second city, the 15-building ensemble has been a UNESCO World Heritage Site since 1988."
+    },
+    "image": "https://picsum.photos/seed/thessaloniki-greece/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "拜占庭",
+        "马赛克"
+      ],
+      "en": [
+        "UNESCO Heritage",
+        "Byzantine",
+        "Mosaics"
+      ]
+    },
+    "location": {
+      "zh": "塞萨洛尼基，希腊北部",
+      "en": "Thessaloniki, northern Greece"
+    },
+    "highlights": {
+      "zh": [
+        "圣德米特里奥斯大教堂，希腊最大的教堂",
+        "罗马时期圆形建筑（罗通达）内的精美早期基督教马赛克",
+        "城市至今保有拜占庭城墙遗迹"
+      ],
+      "en": [
+        "Basilica of Saint Demetrios — Greece's largest church",
+        "Magnificent early Christian mosaics inside the Roman Rotunda",
+        "Stretches of Byzantine city walls still visible today"
+      ]
+    },
+    "admission": {
+      "zh": "多数教堂免费，部分景点收费",
+      "en": "Most churches free; some sites charge a small fee"
+    },
+    "duration": {
+      "zh": "一天",
+      "en": "Full day"
+    },
+    "tips": {
+      "zh": "塞萨洛尼基食物文化极佳，参观遗址之余别忘品尝当地美食。白塔是城市的标志，可在旁边的海滨长廊漫步。",
+      "en": "Thessaloniki has one of Greece's finest food cultures — combine monument-hopping with dining. The White Tower is the city's icon; stroll the adjacent waterfront promenade."
+    }
+  },
+  {
+    "id": "epidaurus",
+    "name": {
+      "zh": "埃庇道鲁斯考古遗址",
+      "en": "Archaeological Site of Epidaurus"
+    },
+    "description": {
+      "zh": "埃庇道鲁斯以其建于公元前4世纪的古代剧场闻名，该剧场音效之完美令现代声学家叹为观止。遗址还包括供奉阿斯克勒庇俄斯（医神）的神庙圣区，是古代世界重要的治愈圣地，1988年列入UNESCO世界遗产。",
+      "en": "Epidaurus is celebrated for its 4th-century BC theatre, whose acoustic perfection still astonishes modern acousticians. The site also encompasses the Sanctuary of Asclepius, the ancient world's most important healing centre. It has been a UNESCO World Heritage Site since 1988."
+    },
+    "image": "https://picsum.photos/seed/epidaurus-greece/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "古希腊剧场",
+        "伯罗奔尼撒"
+      ],
+      "en": [
+        "UNESCO Heritage",
+        "Ancient Theatre",
+        "Peloponnese"
+      ]
+    },
+    "location": {
+      "zh": "阿尔戈利达大区，伯罗奔尼撒",
+      "en": "Argolis, Peloponnese, Greece"
+    },
+    "highlights": {
+      "zh": [
+        "古代世界音效最完美的露天剧场，可容纳14000人",
+        "阿斯克勒庇俄斯神庙，古代最重要的医疗圣地",
+        "夏季仍举办古典戏剧演出"
+      ],
+      "en": [
+        "The ancient world's most acoustically perfect open-air theatre, seating 14,000",
+        "Sanctuary of Asclepius — antiquity's most important healing centre",
+        "Classical drama performances still staged here each summer"
+      ]
+    },
+    "admission": {
+      "zh": "约12欧元",
+      "en": "~€12"
+    },
+    "duration": {
+      "zh": "2—3小时",
+      "en": "2–3 hours"
+    },
+    "tips": {
+      "zh": "夏季雅典悲剧节期间可在此观看真实的古典戏剧演出，体验极为震撼。可与纳夫普利翁小城安排一日联游。",
+      "en": "Book tickets for the Athens Epidaurus Festival (summer) to see classical drama performed here — a spine-tingling experience. Pair with charming Nafplio nearby."
+    }
+  },
+  {
+    "id": "rhodes-medieval-city",
+    "name": {
+      "zh": "罗德岛中世纪城市",
+      "en": "Medieval City of Rhodes"
+    },
+    "description": {
+      "zh": "罗德岛老城是地中海保存最完整的中世纪城市之一，由医院骑士团在14世纪建造，城堡、宫殿、教堂与清真寺并存，折射出基督教与奥斯曼时期的双重历史层次。1988年列入UNESCO世界遗产。",
+      "en": "Rhodes Old Town is one of the Mediterranean's best-preserved medieval cities, built by the Knights Hospitaller in the 14th century. Castles, palaces, churches and mosques reflect both its Christian and Ottoman layers of history. It has been a UNESCO World Heritage Site since 1988."
+    },
+    "image": "https://picsum.photos/seed/rhodes-greece/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "中世纪古城",
+        "骑士团"
+      ],
+      "en": [
+        "UNESCO Heritage",
+        "Medieval City",
+        "Knights Hospitaller"
+      ]
+    },
+    "location": {
+      "zh": "罗德岛，多德卡尼斯群岛",
+      "en": "Rhodes Island, Dodecanese, Greece"
+    },
+    "highlights": {
+      "zh": [
+        "保存完好的中世纪城墙与护城河",
+        "骑士街，保存骑士团时代建筑的石板长街",
+        "大宫殿，14世纪骑士团总部"
+      ],
+      "en": [
+        "Intact medieval walls and moat",
+        "Street of the Knights — a perfectly preserved medieval lane",
+        "Palace of the Grand Master (14th-century Knights' headquarters)"
+      ]
+    },
+    "admission": {
+      "zh": "老城免费进入，宫殿约8欧元",
+      "en": "Old Town free; Palace of the Grand Master ~€8"
+    },
+    "duration": {
+      "zh": "半天至一天",
+      "en": "Half to full day"
+    },
+    "tips": {
+      "zh": "旺季老城人潮汹涌，建议清晨或傍晚漫步。骑士街与林达科斯卫城是必访景点。",
+      "en": "The Old Town is packed in high season — explore early morning or evening. The Street of the Knights and Lindos Acropolis are must-sees."
+    }
+  },
+  {
+    "id": "olympia",
+    "name": {
+      "zh": "奥林匹亚考古遗址",
+      "en": "Archaeological Site of Olympia"
+    },
+    "description": {
+      "zh": "奥林匹亚是古代奥林匹克运动会的发源地，每四年为向宙斯献礼而举行。遗址中有宙斯神庙（曾供奉古代七大奇迹之一的黄金象牙宙斯像）、古代体育场和圣火点燃地点。1989年列入UNESCO世界遗产。",
+      "en": "Olympia is the birthplace of the ancient Olympic Games, held every four years in honour of Zeus. The site preserves the Temple of Zeus (once housing the gold-and-ivory statue — an ancient Wonder of the World), the ancient stadium and the site of the sacred flame. A UNESCO World Heritage Site since 1989."
+    },
+    "image": "https://picsum.photos/seed/olympia-greece/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "奥林匹克",
+        "古希腊"
+      ],
+      "en": [
+        "UNESCO Heritage",
+        "Olympic Games",
+        "Ancient Greece"
+      ]
+    },
+    "location": {
+      "zh": "伊利亚大区，伯罗奔尼撒西部",
+      "en": "Elis, western Peloponnese, Greece"
+    },
+    "highlights": {
+      "zh": [
+        "古代奥林匹克运动会原址，人类体育史的起点",
+        "宙斯神庙，世界古代七大奇迹之一原址",
+        "奥林匹亚考古博物馆收藏赫尔墨斯雕像等杰作"
+      ],
+      "en": [
+        "Original site of the ancient Olympic Games — the birthplace of the Olympic tradition",
+        "Temple of Zeus — site of one of the Seven Wonders of the Ancient World",
+        "Museum with Hermes of Praxiteles and other masterpieces"
+      ]
+    },
+    "admission": {
+      "zh": "约12欧元（含博物馆联票）",
+      "en": "~€12 (combined with museum)"
+    },
+    "duration": {
+      "zh": "3—4小时",
+      "en": "3–4 hours"
+    },
+    "tips": {
+      "zh": "夏季高温难耐，建议早上开门就入场。每届奥运会火炬在此点燃，仪式别具历史感。",
+      "en": "Summer heat is fierce — arrive at opening. Each Olympic Games flame is lit here; the ceremony is genuinely moving."
+    }
+  },
+  {
+    "id": "mystras",
+    "name": {
+      "zh": "米斯特拉斯考古遗址",
+      "en": "Mystras Archaeological Site"
+    },
+    "description": {
+      "zh": "米斯特拉斯是一座建于13—15世纪的拜占庭山城，曾是末代拜占庭帝国的文化中心，宫殿、修道院和教堂错落于山坡，壁画艺术极为精美，被誉为「文艺复兴前奏」。1989年列入UNESCO世界遗产。",
+      "en": "Mystras is a Byzantine hill city built between the 13th and 15th centuries that served as the last great cultural centre of the Byzantine Empire. Palaces, monasteries and churches cling to the hillside, adorned with exquisite frescoes described as a precursor to the Renaissance. It has been a UNESCO World Heritage Site since 1989."
+    },
+    "image": "https://picsum.photos/seed/mystras-greece/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "拜占庭",
+        "鬼城"
+      ],
+      "en": [
+        "UNESCO Heritage",
+        "Byzantine",
+        "Ghost City"
+      ]
+    },
+    "location": {
+      "zh": "拉科尼亚大区，伯罗奔尼撒南部",
+      "en": "Laconia, southern Peloponnese, Greece"
+    },
+    "highlights": {
+      "zh": [
+        "拜占庭末期帝国文化中心，保存精美壁画",
+        "潘塔纳萨修道院，至今有修女居住",
+        "俯瞰斯巴达平原的险峻山城景观"
+      ],
+      "en": [
+        "Last great Byzantine cultural hub with superb medieval frescoes",
+        "Pantanassa Convent — still inhabited by nuns today",
+        "Dramatic hillside cityscapes overlooking the Spartan plain"
+      ]
+    },
+    "admission": {
+      "zh": "约8欧元",
+      "en": "~€8"
+    },
+    "duration": {
+      "zh": "2—3小时",
+      "en": "2–3 hours"
+    },
+    "tips": {
+      "zh": "遗址分上下两城，坡路陡峭，建议穿运动鞋。可与附近斯巴达博物馆安排同日参观。",
+      "en": "The site has an upper and lower city — the slopes are steep, so wear good shoes. Combine with the Sparta Archaeological Museum nearby."
+    }
+  },
+  {
+    "id": "delos",
+    "name": {
+      "zh": "提洛岛",
+      "en": "Delos"
+    },
+    "description": {
+      "zh": "提洛岛是爱琴海中央一座几乎无人居住的小岛，古希腊传说中太阳神阿波罗和月神阿尔忒弥斯的诞生地。作为古代地中海最重要的宗教和商业中心，岛上保留着大量公元前3—1世纪的遗址，1990年列入UNESCO世界遗产。",
+      "en": "Delos is a tiny, near-uninhabited island at the centre of the Aegean — the mythical birthplace of Apollo and Artemis. As one of antiquity's most important religious and commercial centres, it preserves extensive ruins from the 3rd–1st centuries BC. A UNESCO World Heritage Site since 1990."
+    },
+    "image": "https://picsum.photos/seed/delos-greece/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "古希腊",
+        "神话圣岛"
+      ],
+      "en": [
+        "UNESCO Heritage",
+        "Ancient Greece",
+        "Mythical Island"
+      ]
+    },
+    "location": {
+      "zh": "基克拉迪群岛，爱琴海中部",
+      "en": "Cyclades, central Aegean Sea, Greece"
+    },
+    "highlights": {
+      "zh": [
+        "阿波罗诞生地，古希腊最重要的圣岛",
+        "保存完好的希腊化时期住宅区与马赛克地板",
+        "仅可乘船到达，游客须当日返回"
+      ],
+      "en": [
+        "Mythical birthplace of Apollo — the most sacred island in ancient Greece",
+        "Remarkably intact Hellenistic houses with mosaic floors",
+        "Accessible only by boat; day-visitors must return by evening"
+      ]
+    },
+    "admission": {
+      "zh": "约12欧元（不含船票）",
+      "en": "~€12 (excludes boat fare)"
+    },
+    "duration": {
+      "zh": "半天（须赶上末班船返回）",
+      "en": "Half-day (must catch the last boat back)"
+    },
+    "tips": {
+      "zh": "从米科诺斯岛乘船约30分钟可达，确认末班船时刻。岛上无住宿，遮阳设施极少，务必携带水和防晒。",
+      "en": "Take the boat from Mykonos (~30 min) and check the last departure. There is no accommodation on the island and almost no shade — bring water and sunscreen."
+    }
+  },
+  {
+    "id": "daphni-hosios-loukas-nea-moni",
+    "name": {
+      "zh": "达芙尼、奥西奥斯·卢卡斯、希俄斯新修道院",
+      "en": "Monasteries of Daphni, Hosios Loukas and Nea Moni of Chios"
+    },
+    "description": {
+      "zh": "这三座中世纪修道院分布于希腊不同地区，均以其精美的拜占庭马赛克艺术著称。达芙尼修道院近雅典，奥西奥斯·卢卡斯在波奥提亚，希俄斯岛上的新修道院则代表11世纪君士坦丁堡艺术的巅峰。三处同于1990年列入UNESCO世界遗产。",
+      "en": "These three medieval monasteries, scattered across Greece, share outstanding Byzantine mosaic art. Daphni is near Athens; Hosios Loukas is in Boeotia; Nea Moni on Chios represents the pinnacle of 11th-century Constantinopolitan art. All three were inscribed on the UNESCO World Heritage List in 1990."
+    },
+    "image": "https://picsum.photos/seed/daphni-hosios-greece/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "拜占庭",
+        "修道院"
+      ],
+      "en": [
+        "UNESCO Heritage",
+        "Byzantine",
+        "Monasteries"
+      ]
+    },
+    "location": {
+      "zh": "雅典近郊、波奥提亚大区及希俄斯岛",
+      "en": "Near Athens, Boeotia, and Chios Island, Greece"
+    },
+    "highlights": {
+      "zh": [
+        "三座修道院均保存11世纪拜占庭黄金时代马赛克",
+        "奥西奥斯·卢卡斯供奉一位被封圣的当地修士",
+        "新修道院马赛克被列为拜占庭艺术最高成就之一"
+      ],
+      "en": [
+        "All three preserve 11th-century Byzantine golden-age mosaics",
+        "Hosios Loukas enshrines a locally canonised monk",
+        "Nea Moni mosaics ranked among the highest achievements of Byzantine art"
+      ]
+    },
+    "admission": {
+      "zh": "各约4欧元",
+      "en": "~€4 each"
+    },
+    "duration": {
+      "zh": "每处1—2小时",
+      "en": "1–2 hours each"
+    },
+    "tips": {
+      "zh": "三处分布较散，可根据行程分别安排。新修道院须前往希俄斯岛，可与岛屿度假结合。",
+      "en": "The three sites are spread apart — plan visits separately. Nea Moni requires a trip to Chios Island, easily combined with island relaxation."
+    }
+  },
+  {
+    "id": "pythagoreion-heraion-samos",
+    "name": {
+      "zh": "萨摩斯岛的毕达哥里翁与赫拉神庙",
+      "en": "Pythagoreion and Heraion of Samos"
+    },
+    "description": {
+      "zh": "萨摩斯岛曾是古代爱琴海最强大的城邦之一。毕达哥里翁古城保存有宏大的防御城墙与港口工程，欧帕里诺斯隧道是古代工程学的奇迹；赫拉神庙则是古代世界面积最大的神庙之一。1992年列入UNESCO世界遗产。",
+      "en": "Samos was once one of the Aegean's most powerful city-states. Pythagoreion preserves impressive fortifications and the Eupalinos Tunnel — a marvel of ancient engineering — while the Heraion was among the largest temples in the ancient world. Inscribed on the UNESCO World Heritage List in 1992."
+    },
+    "image": "https://picsum.photos/seed/samos-greece/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "古希腊",
+        "萨摩斯岛"
+      ],
+      "en": [
+        "UNESCO Heritage",
+        "Ancient Greece",
+        "Samos Island"
+      ]
+    },
+    "location": {
+      "zh": "萨摩斯岛，北爱琴海大区",
+      "en": "Samos Island, North Aegean, Greece"
+    },
+    "highlights": {
+      "zh": [
+        "欧帕里诺斯隧道，公元前6世纪古代工程奇迹",
+        "赫拉神庙，曾是古代世界最大神庙之一",
+        "毕达哥拉斯的故乡"
+      ],
+      "en": [
+        "Eupalinos Tunnel — an extraordinary feat of 6th-century BC engineering",
+        "Heraion — once among the largest temples in the ancient world",
+        "Birthplace of Pythagoras"
+      ]
+    },
+    "admission": {
+      "zh": "约6欧元（两处遗址分别收费）",
+      "en": "~€6 each site"
+    },
+    "duration": {
+      "zh": "半天",
+      "en": "Half day"
+    },
+    "tips": {
+      "zh": "萨摩斯岛交通便利，可乘飞机或渡轮到达。两处遗址相距约7公里，建议租车或乘出租车穿行。",
+      "en": "Samos is easily reached by plane or ferry. The two sites are about 7 km apart — rent a car or take a taxi."
+    }
+  },
+  {
+    "id": "vergina",
+    "name": {
+      "zh": "维吉纳考古遗址",
+      "en": "Archaeological Site of Vergina"
+    },
+    "description": {
+      "zh": "维吉纳是古代马其顿王国的首都艾加伊，1977年在此发现了菲利普二世（亚历山大大帝之父）的未被盗掘的王陵，随葬品之丰盛震惊世界。皇家陵墓现已建成地下博物馆对外开放，1996年列入UNESCO世界遗产。",
+      "en": "Vergina was Aegae, capital of the ancient Macedonian kingdom. In 1977 the unplundered royal tomb of Philip II — father of Alexander the Great — was discovered here, yielding spectacular grave goods. The royal tombs are now an underground museum open to visitors. A UNESCO World Heritage Site since 1996."
+    },
+    "image": "https://picsum.photos/seed/vergina-greece/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "古马其顿",
+        "王陵"
+      ],
+      "en": [
+        "UNESCO Heritage",
+        "Ancient Macedon",
+        "Royal Tombs"
+      ]
+    },
+    "location": {
+      "zh": "伊马提亚大区，马其顿北部",
+      "en": "Imathia, northern Greece (Macedonia region)"
+    },
+    "highlights": {
+      "zh": [
+        "菲利普二世（亚历山大大帝之父）未被盗掘的王陵",
+        "黄金棺椁、金橡树花环等珍贵随葬品",
+        "地下博物馆保留原址展示"
+      ],
+      "en": [
+        "Unplundered royal tomb of Philip II, father of Alexander the Great",
+        "Spectacular grave goods including gold larnax and golden oak wreath",
+        "Underground museum with in-situ display of the royal tombs"
+      ]
+    },
+    "admission": {
+      "zh": "约12欧元",
+      "en": "~€12"
+    },
+    "duration": {
+      "zh": "1—2小时",
+      "en": "1–2 hours"
+    },
+    "tips": {
+      "zh": "位于塞萨洛尼基约75公里处，可安排半日出行。博物馆内禁止拍照，务必事先了解规定。",
+      "en": "About 75 km from Thessaloniki — a good half-day trip. Photography is restricted inside; check current rules before visiting."
+    }
+  },
+  {
+    "id": "mycenae-tiryns",
+    "name": {
+      "zh": "迈锡尼与梯林斯考古遗址",
+      "en": "Archaeological Sites of Mycenae and Tiryns"
+    },
+    "description": {
+      "zh": "迈锡尼和梯林斯是公元前2千纪爱琴海最强大的迈锡尼文明的两大核心城市。巨石砌就的城墙（「独眼巨人式建筑」）、狮子门和阿伽门农的竖井墓群令考古学家和游客叹为观止。1999年列入UNESCO世界遗产。",
+      "en": "Mycenae and Tiryns were the two great centres of the Mycenaean civilisation — the dominant Aegean power of the 2nd millennium BC. Cyclopean masonry, the Lion Gate and Agamemnon's shaft-grave circle continue to astonish archaeologists and visitors alike. Inscribed on the UNESCO World Heritage List in 1999."
+    },
+    "image": "https://picsum.photos/seed/mycenae-greece/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "迈锡尼文明",
+        "伯罗奔尼撒"
+      ],
+      "en": [
+        "UNESCO Heritage",
+        "Mycenaean Civilisation",
+        "Peloponnese"
+      ]
+    },
+    "location": {
+      "zh": "阿尔戈利达大区，伯罗奔尼撒",
+      "en": "Argolis, Peloponnese, Greece"
+    },
+    "highlights": {
+      "zh": [
+        "狮子门，爱琴海最古老的纪念性雕塑",
+        "阿伽门农竖井墓群，迈锡尼黄金随葬品极为丰盛",
+        "梯林斯城堡的独眼巨人式巨石城墙"
+      ],
+      "en": [
+        "Lion Gate — the oldest monumental sculpture in the Aegean",
+        "Shaft Grave Circle of Agamemnon with spectacular Mycenaean gold",
+        "Cyclopean stone walls of Tiryns fortress"
+      ]
+    },
+    "admission": {
+      "zh": "迈锡尼约12欧元，梯林斯约6欧元",
+      "en": "Mycenae ~€12; Tiryns ~€6"
+    },
+    "duration": {
+      "zh": "半天（两处合并游览）",
+      "en": "Half day (combining both sites)"
+    },
+    "tips": {
+      "zh": "两处遗址相距约12公里，可与纳夫普利翁小城安排一日联游，纳夫普利翁是伯罗奔尼撒最美的港口小镇。",
+      "en": "The two sites are about 12 km apart — combine them with a visit to lovely Nafplio, the Peloponnese's most charming port town."
+    }
+  },
+  {
+    "id": "corfu-old-town",
+    "name": {
+      "zh": "科孚岛老城",
+      "en": "Old Town of Corfu"
+    },
+    "description": {
+      "zh": "科孚岛老城融合了威尼斯、法国和英国殖民时期的多重建筑风格，鹅卵石街巷、拱廊商店和威尼斯式城堡构成迷人的城市景观。两座古老的威尼斯要塞守护着城市，2007年列入UNESCO世界遗产。",
+      "en": "The Old Town of Corfu blends Venetian, French and British colonial architectural layers — cobbled lanes, arcaded streets and Venetian-style fortresses create an irresistible townscape. Two ancient Venetian fortresses guard the city. It has been a UNESCO World Heritage Site since 2007."
+    },
+    "image": "https://picsum.photos/seed/corfu-greece/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "威尼斯建筑",
+        "爱奥尼亚海"
+      ],
+      "en": [
+        "UNESCO Heritage",
+        "Venetian Architecture",
+        "Ionian Sea"
+      ]
+    },
+    "location": {
+      "zh": "科孚岛，爱奥尼亚群岛",
+      "en": "Corfu Island, Ionian Islands, Greece"
+    },
+    "highlights": {
+      "zh": [
+        "老城区石板街巷与威尼斯式建筑群",
+        "旧威尼斯要塞与新威尼斯要塞",
+        "斯皮亚纳达广场，欧洲最大广场之一"
+      ],
+      "en": [
+        "Old Town stone lanes and Venetian-style architecture",
+        "Old and New Venetian Fortresses",
+        "Spianada Square — one of the largest squares in Europe"
+      ]
+    },
+    "admission": {
+      "zh": "老城免费，城堡约6欧元",
+      "en": "Old Town free; fortresses ~€6"
+    },
+    "duration": {
+      "zh": "半天至一天",
+      "en": "Half to full day"
+    },
+    "tips": {
+      "zh": "从雅典乘飞机约1小时，也可从意大利的布林迪西乘渡轮前往。旺季7—8月人流密集，5月和9月最为宜人。",
+      "en": "About 1 hour by plane from Athens; also reachable by ferry from Brindisi, Italy. High season (July–August) is packed; May and September are ideal."
+    }
+  },
+  {
+    "id": "philippi",
+    "name": {
+      "zh": "腓立比考古遗址",
+      "en": "Archaeological Site of Philippi"
+    },
+    "description": {
+      "zh": "腓立比由马其顿国王腓力二世建于公元前356年，后成为罗马帝国东部重要城市。公元前42年的腓立比战役在此决定了罗马的命运；使徒保罗也在此建立了欧洲最早的基督教会。2016年列入UNESCO世界遗产。",
+      "en": "Philippi was founded by Philip II of Macedon in 356 BC and later became a major Roman city. The Battle of Philippi (42 BC) decided Rome's fate here; the Apostle Paul established Europe's first Christian community in the city. It has been a UNESCO World Heritage Site since 2016."
+    },
+    "image": "https://picsum.photos/seed/philippi-greece/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "古马其顿",
+        "早期基督教"
+      ],
+      "en": [
+        "UNESCO Heritage",
+        "Ancient Macedon",
+        "Early Christianity"
+      ]
+    },
+    "location": {
+      "zh": "卡瓦拉大区，希腊北部马其顿",
+      "en": "Kavala regional unit, northern Greece"
+    },
+    "highlights": {
+      "zh": [
+        "腓力二世建城遗址，马其顿帝国的重要据点",
+        "腓立比战役遗址，凯撒接班人之战",
+        "保罗传道的欧洲最早基督教遗迹"
+      ],
+      "en": [
+        "City founded by Philip II of Macedon — major Macedonian stronghold",
+        "Site of the Battle of Philippi that determined Rome's future",
+        "Europe's earliest Christian community, established by the Apostle Paul"
+      ]
+    },
+    "admission": {
+      "zh": "约8欧元",
+      "en": "~€8"
+    },
+    "duration": {
+      "zh": "2—3小时",
+      "en": "2–3 hours"
+    },
+    "tips": {
+      "zh": "位于卡瓦拉市西侧约15公里处，自驾可达。夏季在此举办腓立比古典戏剧节，值得特别安排。",
+      "en": "Located about 15 km west of Kavala city; easily reached by car. The Philippi Festival stages classical drama here each summer — well worth planning around."
+    }
+  },
+  {
+    "id": "lesvos-geopark",
+    "name": {
+      "zh": "莱斯博斯石化森林地质公园",
+      "en": "Lesvos Petrified Forest UNESCO Global Geopark"
+    },
+    "description": {
+      "zh": "莱斯博斯岛西部保存着世界上规模最大、保存最完整的石化森林之一，形成于约2000万年前的火山活动。庞大的硅化树干原地直立，部分高达3米，是地球古气候与植物演化的珍贵档案。2000年成为欧洲最早的地质公园之一。",
+      "en": "The western part of Lesvos Island preserves one of the world's largest and best-preserved petrified forests, created by volcanic activity some 20 million years ago. Massive silicified trunks stand upright in situ — some reaching 3 m — forming a priceless archive of ancient climate and plant evolution. It became one of Europe's first Geoparks in 2000."
+    },
+    "image": "https://picsum.photos/seed/lesvos-geopark-greece/800/500",
+    "tags": {
+      "zh": [
+        "地质公园",
+        "石化森林",
+        "莱斯博斯岛"
+      ],
+      "en": [
+        "UNESCO Geopark",
+        "Petrified Forest",
+        "Lesvos Island"
+      ]
+    },
+    "location": {
+      "zh": "莱斯博斯岛西部，北爱琴海",
+      "en": "Western Lesvos Island, North Aegean, Greece"
+    },
+    "highlights": {
+      "zh": [
+        "世界最大石化森林之一，树龄2000万年",
+        "直立原地保存的硅化树干，高达3米",
+        "自然历史博物馆展示化石发掘成果"
+      ],
+      "en": [
+        "One of the world's largest petrified forests, 20 million years old",
+        "Upright silicified trunks preserved in situ, up to 3 m tall",
+        "Natural History Museum of the Lesvos Petrified Forest"
+      ]
+    },
+    "admission": {
+      "zh": "约5欧元",
+      "en": "~€5"
+    },
+    "duration": {
+      "zh": "2—3小时",
+      "en": "2–3 hours"
+    },
+    "tips": {
+      "zh": "西格里村是主要入口，博物馆在此。最好从米蒂利尼驾车约1.5小时抵达，公共交通班次稀少。",
+      "en": "Sigri village is the main gateway, with the museum there. Drive from Mytilene (~1.5 hours); public buses are infrequent."
+    }
+  },
+  {
+    "id": "chelmos-vouraikos-geopark",
+    "name": {
+      "zh": "切尔莫斯—乌拉伊科斯地质公园",
+      "en": "Chelmos-Vouraikos UNESCO Global Geopark"
+    },
+    "description": {
+      "zh": "切尔莫斯—乌拉伊科斯地质公园位于伯罗奔尼撒北部，涵盖切尔莫斯山（海拔2355米）与乌拉伊科斯峡谷。园区内保存有大量中生代和新生代地质层，还有著名的希腊最后一条齿轨铁路穿行其中。2009年加入UNESCO全球地质公园网络。",
+      "en": "Chelmos-Vouraikos Geopark covers the Chelmos mountain (2,355 m) and the Vouraikos Gorge in northern Peloponnese. The park preserves extensive Mesozoic and Cenozoic geological formations and is home to Greece's last rack-and-pinion railway, which winds through the gorge. It joined the UNESCO Global Geoparks Network in 2009."
+    },
+    "image": "https://picsum.photos/seed/chelmos-vouraikos-greece/800/500",
+    "tags": {
+      "zh": [
+        "地质公园",
+        "峡谷",
+        "齿轨铁路"
+      ],
+      "en": [
+        "UNESCO Geopark",
+        "Gorge",
+        "Rack Railway"
+      ]
+    },
+    "location": {
+      "zh": "阿哈伊亚大区，伯罗奔尼撒北部",
+      "en": "Achaea, northern Peloponnese, Greece"
+    },
+    "highlights": {
+      "zh": [
+        "乌拉伊科斯峡谷，希腊最壮观的峡谷之一",
+        "希腊最后的齿轨铁路（狄亚科夫托—卡拉夫里塔线）",
+        "切尔莫斯山高山生态与滑雪度假"
+      ],
+      "en": [
+        "Vouraikos Gorge — one of Greece's most spectacular gorges",
+        "Greece's last rack-and-pinion railway (Diakofto–Kalavryta line)",
+        "Alpine ecology and skiing on Mt Chelmos"
+      ]
+    },
+    "admission": {
+      "zh": "地质公园免费，齿轨铁路单程约10欧元",
+      "en": "Geopark free; rack railway single fare ~€10"
+    },
+    "duration": {
+      "zh": "一天",
+      "en": "Full day"
+    },
+    "tips": {
+      "zh": "齿轨铁路是必乘体验，全程约45分钟。卡拉夫里塔历史遗址（二战纪念地）可同日参观。",
+      "en": "The rack railway is a must-ride (~45 min each way). The Kalavryta historical sites (WWII memorial) can be visited on the same day."
+    }
+  },
+  {
+    "id": "psiloritis-geopark",
+    "name": {
+      "zh": "普西罗里提斯地质公园",
+      "en": "Psiloritis UNESCO Global Geopark"
+    },
+    "description": {
+      "zh": "普西罗里提斯（又名伊达山）是克里特岛最高峰，海拔2456米，古代神话中宙斯在此长大。地质公园涵盖从海岸到高山的完整地形剖面，保存有3亿多年的地层记录，同时拥有丰富的米诺斯和威尼斯历史遗存。2000年成为欧洲首批地质公园之一。",
+      "en": "Psiloritis (Mount Ida) is Crete's highest peak at 2,456 m — the mythical place where Zeus was raised. The geopark spans a complete profile from coast to summit, preserving over 300 million years of geological record alongside rich Minoan and Venetian heritage. It was among Europe's first geoparks in 2000."
+    },
+    "image": "https://picsum.photos/seed/psiloritis-geopark-greece/800/500",
+    "tags": {
+      "zh": [
+        "地质公园",
+        "克里特岛",
+        "高山"
+      ],
+      "en": [
+        "UNESCO Geopark",
+        "Crete",
+        "Mountain"
+      ]
+    },
+    "location": {
+      "zh": "雷西姆诺大区，克里特岛中部",
+      "en": "Rethymno regional unit, central Crete, Greece"
+    },
+    "highlights": {
+      "zh": [
+        "克里特岛最高峰，神话中宙斯的成长地",
+        "山中米诺斯洞穴圣所（伊达翁洞穴）",
+        "跨越3亿年的地质剖面"
+      ],
+      "en": [
+        "Crete's highest peak — mythical home where Zeus was raised",
+        "Idaion Cave — Minoan cave sanctuary on the mountain",
+        "Geological cross-section spanning 300 million years"
+      ]
+    },
+    "admission": {
+      "zh": "地质公园免费",
+      "en": "Geopark free"
+    },
+    "duration": {
+      "zh": "半天至一天",
+      "en": "Half to full day"
+    },
+    "tips": {
+      "zh": "伊达翁洞穴是主要参观点，夏季可登顶，需穿登山装备。阿尼亚村是进入地质公园的门户。",
+      "en": "The Idaion Cave is the main highlight; summit hikes are feasible in summer with proper gear. The village of Anogia serves as the geopark gateway."
+    }
+  },
+  {
+    "id": "vikos-aoos-geopark",
+    "name": {
+      "zh": "维科斯—阿奥斯地质公园",
+      "en": "Vikos-Aoos UNESCO Global Geopark"
+    },
+    "description": {
+      "zh": "维科斯—阿奥斯地质公园位于希腊西北的扎戈里地区，维科斯峡谷深达900米，是世界上最深的峡谷之一。园区内点缀着20余座石桥、传统石板屋顶的扎戈罗霍里亚村庄和丰富的野生动植物，2010年加入UNESCO全球地质公园网络。",
+      "en": "Vikos-Aoos Geopark lies in the Zagori region of northwestern Greece. The Vikos Gorge — up to 900 m deep — is among the world's deepest. The park is dotted with over 20 stone arch bridges, traditional slate-roofed Zagorochoria villages and rich wildlife. It joined the UNESCO Global Geoparks Network in 2010."
+    },
+    "image": "https://picsum.photos/seed/vikos-aoos-greece/800/500",
+    "tags": {
+      "zh": [
+        "地质公园",
+        "峡谷",
+        "传统村庄"
+      ],
+      "en": [
+        "UNESCO Geopark",
+        "Gorge",
+        "Traditional Villages"
+      ]
+    },
+    "location": {
+      "zh": "约阿尼纳大区，希腊西北部",
+      "en": "Ioannina regional unit, northwestern Greece"
+    },
+    "highlights": {
+      "zh": [
+        "维科斯峡谷，吉尼斯记录认证的世界最深峡谷之一",
+        "扎戈罗霍里亚，46座保存完好的传统石村",
+        "20余座奥斯曼时期石拱桥"
+      ],
+      "en": [
+        "Vikos Gorge — among the world's deepest, recognized by Guinness World Records",
+        "Zagorochoria — 46 well-preserved traditional stone villages",
+        "Over 20 Ottoman-era stone arch bridges"
+      ]
+    },
+    "admission": {
+      "zh": "地质公园免费",
+      "en": "Geopark free"
+    },
+    "duration": {
+      "zh": "1—3天",
+      "en": "1–3 days"
+    },
+    "tips": {
+      "zh": "莫诺登德里到维科斯的峡谷徒步约4—5小时，须穿登山鞋。从约阿尼纳市驾车约45分钟可达扎戈里地区。",
+      "en": "The gorge hike from Monodendri to Vikos takes 4–5 hours — wear proper hiking boots. Drive about 45 minutes from Ioannina city to reach the Zagori region."
+    }
+  },
+  {
+    "id": "sitia-geopark",
+    "name": {
+      "zh": "西提亚地质公园",
+      "en": "Sitia UNESCO Global Geopark"
+    },
+    "description": {
+      "zh": "西提亚地质公园位于克里特岛东端，以保存完整的地中海地质多样性著称，涵盖古老的火成岩、碳酸盐地层与独特的地中海灌丛生态系统。园区内还有米诺斯时期的宫殿遗址（卡托扎克罗斯），以及传统的橄榄油和葡萄酒文化。2021年加入UNESCO全球地质公园网络。",
+      "en": "Sitia Geopark occupies the eastern tip of Crete, celebrated for its Mediterranean geological diversity — ancient igneous rocks, carbonate formations and unique Mediterranean scrubland ecosystems. The park also encompasses the Minoan palace of Kato Zakros and a living tradition of olive oil and wine culture. It joined the UNESCO Global Geoparks Network in 2021."
+    },
+    "image": "https://picsum.photos/seed/sitia-geopark-greece/800/500",
+    "tags": {
+      "zh": [
+        "地质公园",
+        "克里特岛",
+        "米诺斯遗址"
+      ],
+      "en": [
+        "UNESCO Geopark",
+        "Crete",
+        "Minoan Site"
+      ]
+    },
+    "location": {
+      "zh": "拉西希大区东端，克里特岛",
+      "en": "Lasithi regional unit, eastern Crete, Greece"
+    },
+    "highlights": {
+      "zh": [
+        "卡托扎克罗斯米诺斯宫殿，尚未被盗掘的宫殿遗址",
+        "地中海地质多样性完整剖面",
+        "传统橄榄油梯田与克里特葡萄酒文化"
+      ],
+      "en": [
+        "Kato Zakros Minoan palace — discovered unplundered",
+        "Complete cross-section of eastern Mediterranean geology",
+        "Traditional olive-oil terraces and Cretan wine culture"
+      ]
+    },
+    "admission": {
+      "zh": "地质公园免费，卡托扎克罗斯遗址约6欧元",
+      "en": "Geopark free; Kato Zakros site ~€6"
+    },
+    "duration": {
+      "zh": "半天至一天",
+      "en": "Half to full day"
+    },
+    "tips": {
+      "zh": "西提亚镇是理想的基地，周边有死亡峡谷（Gorge of the Dead）徒步路线，通往卡托扎克罗斯海湾。",
+      "en": "Sitia town makes a good base. The 'Gorge of the Dead' hike descends to Kato Zakros bay — a superb combination of geology and archaeology."
+    }
+  },
+  {
+    "id": "kefalonia-ithaca-geopark",
+    "name": {
+      "zh": "凯法利尼亚—伊萨卡地质公园",
+      "en": "Kefalonia-Ithaca UNESCO Global Geopark"
+    },
+    "description": {
+      "zh": "凯法利尼亚岛和伊萨卡岛同属爱奥尼亚群岛，地质上位于非洲板块与欧亚板块的碰撞地带，地震活跃，地质结构复杂多样。迷洛斯溶洞是欧洲著名的海下溶洞奇观；伊萨卡则是荷马史诗中奥德修斯的故乡。2021年加入UNESCO全球地质公园网络。",
+      "en": "Kefalonia and Ithaca are Ionian islands lying on the collision zone between the African and Eurasian plates — seismically active with complex geology. Melissani Cave is a celebrated semi-submerged sea cave; Ithaca is the mythical home of Odysseus. They joined the UNESCO Global Geoparks Network in 2021."
+    },
+    "image": "https://picsum.photos/seed/kefalonia-geopark-greece/800/500",
+    "tags": {
+      "zh": [
+        "地质公园",
+        "溶洞",
+        "爱奥尼亚海"
+      ],
+      "en": [
+        "UNESCO Geopark",
+        "Cave",
+        "Ionian Sea"
+      ]
+    },
+    "location": {
+      "zh": "凯法利尼亚岛与伊萨卡岛，爱奥尼亚群岛",
+      "en": "Kefalonia and Ithaca islands, Ionian Islands, Greece"
+    },
+    "highlights": {
+      "zh": [
+        "迷洛斯溶洞，阳光穿透洞顶照耀蓝绿色地下湖",
+        "德罗加拉提溶洞，巨型钟乳石洞室",
+        "伊萨卡，荷马史诗《奥德赛》的舞台"
+      ],
+      "en": [
+        "Melissani Cave — sunlight pierces the roof to illuminate a turquoise underground lake",
+        "Drogarati Cave — a massive stalactite chamber",
+        "Ithaca — setting of Homer's Odyssey"
+      ]
+    },
+    "admission": {
+      "zh": "迷洛斯溶洞约7欧元",
+      "en": "Melissani Cave ~€7"
+    },
+    "duration": {
+      "zh": "2—4天",
+      "en": "2–4 days"
+    },
+    "tips": {
+      "zh": "凯法利尼亚可乘飞机或渡轮到达，岛上必须租车。夏季溶洞游船排队较长，建议上午早去。",
+      "en": "Kefalonia is served by plane and ferry; a car is essential on the island. Cave boat queues are long in summer — go early in the morning."
+    }
+  },
+  {
+    "id": "greece-tentative-sparta",
+    "name": {
+      "zh": "斯巴达古城（候选遗产）",
+      "en": "Ancient City of Sparta (Tentative WHC)"
+    },
+    "description": {
+      "zh": "斯巴达是古希腊最强大的城邦之一，以其军事制度和斯巴达式纪律闻名于世。虽然古斯巴达人不重视建造纪念性建筑，遗留的物质遗存相对有限，但其历史意义不可忽视，目前已列入希腊UNESCO候选遗产名单。",
+      "en": "Sparta was one of ancient Greece's most powerful city-states, renowned for its military system and Spartan discipline. Though the Spartans left relatively modest material remains — reflecting their disdain for monumental construction — the site's historical significance is immense and it appears on Greece's UNESCO Tentative List."
+    },
+    "image": "https://picsum.photos/seed/sparta-tentative-greece/800/500",
+    "tags": {
+      "zh": [
+        "候选遗产",
+        "古希腊",
+        "斯巴达"
+      ],
+      "en": [
+        "Tentative WHC",
+        "Ancient Greece",
+        "Sparta"
+      ]
+    },
+    "location": {
+      "zh": "拉科尼亚大区，伯罗奔尼撒南部",
+      "en": "Laconia, southern Peloponnese, Greece"
+    },
+    "highlights": {
+      "zh": [
+        "古代最强大城邦之一的历史遗存",
+        "斯巴达考古博物馆收藏珍贵文物",
+        "可与米斯特拉斯UNESCO遗产联合游览"
+      ],
+      "en": [
+        "Remains of one of antiquity's most powerful city-states",
+        "Sparta Archaeological Museum with notable collections",
+        "Easily combined with the nearby UNESCO site of Mystras"
+      ]
+    },
+    "admission": {
+      "zh": "考古博物馆约4欧元，遗址免费",
+      "en": "Archaeological Museum ~€4; open site free"
+    },
+    "duration": {
+      "zh": "1—2小时",
+      "en": "1–2 hours"
+    },
+    "tips": {
+      "zh": "斯巴达本身是一座现代城市，古代遗址分散于城内，建议结合米斯特拉斯安排半日至一日参观。",
+      "en": "Modern Sparta is built over the ancient city — remains are scattered through town. Combine with Mystras for a rewarding half-to-full day."
+    }
+  },
+  {
+    "id": "greece-tentative-zagori",
+    "name": {
+      "zh": "扎戈里文化景观（候选遗产）",
+      "en": "Cultural Landscape of Zagori (Tentative WHC)"
+    },
+    "description": {
+      "zh": "扎戈里地区由46座保存完整的传统石村组成，石板屋顶、石拱桥与山地环境和谐相融，代表着希腊西北部独特的建筑与社会传统。该地区已于2021年列入希腊UNESCO候选遗产名单，有望成为混合型（文化+自然）世界遗产。",
+      "en": "The Zagori region comprises 46 remarkably intact traditional stone villages whose slate roofs, arched bridges and mountain setting exemplify a unique architectural and social tradition of northwestern Greece. The area was placed on Greece's UNESCO Tentative List in 2021, with potential for recognition as a mixed (cultural and natural) World Heritage Site."
+    },
+    "image": "https://picsum.photos/seed/zagori-tentative-greece/800/500",
+    "tags": {
+      "zh": [
+        "候选遗产",
+        "传统村庄",
+        "文化景观"
+      ],
+      "en": [
+        "Tentative WHC",
+        "Traditional Villages",
+        "Cultural Landscape"
+      ]
+    },
+    "location": {
+      "zh": "约阿尼纳大区，希腊西北部",
+      "en": "Ioannina regional unit, northwestern Greece"
+    },
+    "highlights": {
+      "zh": [
+        "46座保存完整的传统石板屋顶山村",
+        "奥斯曼时期石拱桥群，其中科科里桥最为著名",
+        "维科斯峡谷与阿奥斯河峡谷的壮丽自然景观"
+      ],
+      "en": [
+        "46 intact traditional stone-roofed mountain villages",
+        "Ottoman-era stone arch bridges, notably the Kokori Bridge",
+        "Spectacular natural scenery of Vikos Gorge and the Aoos River gorge"
+      ]
+    },
+    "admission": {
+      "zh": "免费进入各村庄",
+      "en": "Villages free to enter"
+    },
+    "duration": {
+      "zh": "1—3天",
+      "en": "1–3 days"
+    },
+    "tips": {
+      "zh": "帕帕哥、蒙诺登德里等村庄是最受欢迎的住宿地。周末希腊本地游客较多，工作日更为宁静。",
+      "en": "Papigo and Monodendri are among the most popular villages to stay in. Weekdays are quieter; weekends attract many Greek visitors."
+    }
+  }
+]
+---

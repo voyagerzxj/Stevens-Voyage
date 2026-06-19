@@ -1,0 +1,1720 @@
+---
+[
+  {
+    "id": "eiffel-tower",
+    "name": {
+      "zh": "埃菲尔铁塔",
+      "en": "Eiffel Tower"
+    },
+    "description": {
+      "zh": "埃菲尔铁塔于1889年为世界博览会而建，高324米，是巴黎最具代表性的地标。每晚整点灯光秀令人叹为观止，登顶可俯瞰塞纳河两岸的完整城市景观。",
+      "en": "Built for the 1889 World's Fair, the 324 m Eiffel Tower is Paris's defining landmark. Its nightly light show is spectacular; the summit offers sweeping views along the Seine."
+    },
+    "image": "https://picsum.photos/seed/eiffel-tower/800/500",
+    "tags": {
+      "zh": [
+        "地标",
+        "铁塔",
+        "浪漫"
+      ],
+      "en": [
+        "Landmark",
+        "Iron Tower",
+        "Romantic"
+      ]
+    },
+    "location": {
+      "zh": "巴黎第七区战神广场",
+      "en": "Champ de Mars, 7th arr., Paris"
+    },
+    "highlights": {
+      "zh": [
+        "高324米，1889年世博会建成，巴黎最高建筑",
+        "三层观景台，夜晚整点闪灯10分钟",
+        "每年吸引逾700万游客，全球参观人数最多的收费景点"
+      ],
+      "en": [
+        "324 m tall, built for the 1889 World's Fair",
+        "Three observation decks; light show every hour after dark",
+        "Over 7 million visitors/year — world's most visited paid monument"
+      ]
+    },
+    "admission": {
+      "zh": "步行至二楼约11欧元，电梯至顶约29欧元",
+      "en": "Stairs to 2nd floor ~€11; lift to summit ~€29"
+    },
+    "duration": {
+      "zh": "1.5—3小时",
+      "en": "1.5–3 hours"
+    },
+    "tips": {
+      "zh": "提前在官网预约时段票，现场排队可能超过2小时。从战神广场对面欣赏铁塔全景完全免费。",
+      "en": "Book timed entry tickets on the official website — walk-up queues can exceed 2 hours. The view from Champ-de-Mars across the Seine is free and equally stunning."
+    }
+  },
+  {
+    "id": "louvre",
+    "name": {
+      "zh": "卢浮宫",
+      "en": "Louvre Museum"
+    },
+    "description": {
+      "zh": "卢浮宫是世界上参观人数最多的艺术博物馆，收藏超过38万件藏品，包括《蒙娜丽莎》《断臂维纳斯》等旷世名作。宫殿本身始建于12世纪，建筑价值极高。",
+      "en": "The Louvre is the world's most visited art museum, with over 380,000 works including the Mona Lisa and Venus de Milo. The palace itself dates to the 12th century and is architecturally magnificent."
+    },
+    "image": "https://picsum.photos/seed/louvre-paris/800/500",
+    "tags": {
+      "zh": [
+        "博物馆",
+        "艺术",
+        "历史宫殿"
+      ],
+      "en": [
+        "Museum",
+        "Art",
+        "Historic Palace"
+      ]
+    },
+    "location": {
+      "zh": "巴黎第一区",
+      "en": "1st arrondissement, Paris"
+    },
+    "highlights": {
+      "zh": [
+        "世界最大博物馆，馆藏超35,000件展品",
+        "《蒙娜丽莎》《米洛的维纳斯》《胜利女神》三件镇馆之宝",
+        "拿破仑三世精美华宴厅等非艺术展区同样值得一看"
+      ],
+      "en": [
+        "World's largest museum; over 35,000 works on display",
+        "Mona Lisa, Venus de Milo and Winged Victory in one building",
+        "Napoleon III's opulent apartments worth seeing beyond the art"
+      ]
+    },
+    "admission": {
+      "zh": "22欧元（网上预约）",
+      "en": "€22 (online booking recommended)"
+    },
+    "duration": {
+      "zh": "3—5小时（看完需数日）",
+      "en": "3–5 hrs (the full collection takes days)"
+    },
+    "tips": {
+      "zh": "优先用Richelieu翼或Denon翼入口，绕开玻璃金字塔的长队。周五至22点，晚间人较少。",
+      "en": "Enter via the Richelieu or Denon wings to avoid the pyramid queue. Open until 22:00 on Fridays — evenings are significantly less crowded."
+    }
+  },
+  {
+    "id": "mont-saint-michel",
+    "name": {
+      "zh": "圣米歇尔山",
+      "en": "Mont-Saint-Michel and its Bay"
+    },
+    "description": {
+      "zh": "圣米歇尔山是矗立于潮汐海湾中的岩石孤岛，岛上建有始于8世纪的修道院。涨潮时四面环海，退潮时可步行而至，是法国最具辨识度的景观之一。",
+      "en": "Mont-Saint-Michel is a tidal island crowned by a monastery dating to the 8th century. Surrounded by sea at high tide and walkable at low tide, it is one of France's most recognisable landmarks."
+    },
+    "image": "https://picsum.photos/seed/mont-saint-michel/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "修道院",
+        "潮汐岛"
+      ],
+      "en": [
+        "UNESCO Heritage",
+        "Abbey",
+        "Tidal Island"
+      ]
+    },
+    "location": {
+      "zh": "诺曼底海岸，法国西北部",
+      "en": "Normandy coast, northwest France"
+    },
+    "highlights": {
+      "zh": [
+        "诺曼底潮汐岛修道院，中世纪奇迹之一",
+        "涨潮时四面环海，退潮时可步行而至",
+        "列入UNESCO世界遗产，年访客逾300万"
+      ],
+      "en": [
+        "Normandy tidal island and abbey — a medieval wonder",
+        "Surrounded by sea at high tide; walkable at low tide",
+        "UNESCO World Heritage Site; over 3 million visitors/year"
+      ]
+    },
+    "admission": {
+      "zh": "修道院约13欧元，岛屿本身免费",
+      "en": "Abbey ~€13; the island itself is free"
+    },
+    "duration": {
+      "zh": "半天至一天",
+      "en": "Half to full day"
+    },
+    "tips": {
+      "zh": "出发前查看潮汐时刻表；住在岛上一夜可体验游客散去后的寂静，体验截然不同。",
+      "en": "Check tide times before visiting. Staying overnight on the island lets you experience it after the day-trippers leave — a completely different atmosphere."
+    }
+  },
+  {
+    "id": "chateau-loire",
+    "name": {
+      "zh": "卢瓦尔河谷",
+      "en": "Loire Valley"
+    },
+    "description": {
+      "zh": "卢瓦尔河谷是法国最大的世界遗产区之一，沿河分布着逾300座中世纪城堡和庄园。香博尔城堡、舍农索城堡等见证了法国文艺复兴时期的黄金岁月。",
+      "en": "The Loire Valley is home to over 300 medieval castles and manor houses. Chambord and Chenonceau exemplify the French Renaissance at its golden peak. A UNESCO World Heritage landscape."
+    },
+    "image": "https://picsum.photos/seed/loire-chateaux/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "城堡",
+        "文艺复兴"
+      ],
+      "en": [
+        "UNESCO Heritage",
+        "Chateaux",
+        "Renaissance"
+      ]
+    },
+    "location": {
+      "zh": "卢瓦尔河谷，法国中部",
+      "en": "Loire Valley, central France"
+    },
+    "highlights": {
+      "zh": [
+        "卢瓦尔河谷拥有逾300座城堡，法国城堡最密集地区",
+        "香波尔城堡双螺旋楼梯据传由达芬奇设计",
+        "列入UNESCO世界遗产的「法国花园」"
+      ],
+      "en": [
+        "Over 300 châteaux in the Loire Valley — France's castle heartland",
+        "Chambord's double-helix staircase attributed to Leonardo da Vinci",
+        "UNESCO-listed 'Garden of France' landscape"
+      ]
+    },
+    "admission": {
+      "zh": "香波尔城堡约14.5欧元，各城堡单独收费",
+      "en": "Chambord ~€14.50; each château charges separately"
+    },
+    "duration": {
+      "zh": "2—4天（游览多个城堡）",
+      "en": "2–4 days (to cover several châteaux)"
+    },
+    "tips": {
+      "zh": "骑自行车是游览城堡群最惬意的方式，卢瓦河畔设有完善的骑行道。",
+      "en": "Cycling between châteaux along the Loire à Vélo cycling route is the most pleasurable way to explore the valley."
+    }
+  },
+  {
+    "id": "provence-lavender",
+    "name": {
+      "zh": "普罗旺斯薰衣草田",
+      "en": "Provence Lavender Fields"
+    },
+    "description": {
+      "zh": "每年6至7月，普罗旺斯高原的薰衣草田进入盛放期，连绵的紫色花海配上石砌村庄和蔚蓝天空，构成法国南部最标志性的田园风景。",
+      "en": "Each June-July, Provence's plateau blazes purple with lavender in bloom. Rolling violet fields set against stone villages and cobalt skies form the quintessential image of southern France."
+    },
+    "image": "https://picsum.photos/seed/provence-lavender/800/500",
+    "tags": {
+      "zh": [
+        "薰衣草",
+        "田园风光",
+        "普罗旺斯"
+      ],
+      "en": [
+        "Lavender",
+        "Rural Scenery",
+        "Provence"
+      ]
+    },
+    "location": {
+      "zh": "普罗旺斯地区，法国东南部",
+      "en": "Provence region, southeast France"
+    },
+    "highlights": {
+      "zh": [
+        "6—7月薰衣草盛开，瓦朗索勒高原一望无际",
+        "塞农克修道院是最经典的薰衣草取景地",
+        "普罗旺斯集市、橄榄油和葛朗克峡谷"
+      ],
+      "en": [
+        "Lavender peaks June–July across the Valensole plateau",
+        "Sénanque Abbey — the most photographed lavender scene",
+        "Provençal markets, olive oil and the Gorges du Verdon"
+      ]
+    },
+    "admission": {
+      "zh": "薰衣草田免费观赏，修道院约5欧元",
+      "en": "Lavender fields free to view; abbey ~€5"
+    },
+    "duration": {
+      "zh": "2—4天",
+      "en": "2–4 days"
+    },
+    "tips": {
+      "zh": "薰衣草花期因年份和地点而异，出发前可查看当地农场实时开花状况。避开7月14日国庆节的拥堵。",
+      "en": "Bloom timing varies by year and location — check farm websites for real-time flowering status. Avoid the traffic around Bastille Day (14 July)."
+    }
+  },
+  {
+    "id": "palace-versailles",
+    "name": {
+      "zh": "凡尔赛宫及其园林",
+      "en": "Palace and Park of Versailles"
+    },
+    "description": {
+      "zh": "凡尔赛宫是路易十四统治时期法国王权的象征，宫殿拥有镜厅等豪华大厅，其几何式园林延伸逾800公顷，是欧洲最壮观的巴洛克皇家宫苑。1979年列入联合国教科文组织世界遗产名录。",
+      "en": "The Palace of Versailles was the seat of French royal power under Louis XIV, featuring the dazzling Hall of Mirrors and gardens stretching over 800 hectares. It is Europe's grandest Baroque royal complex, inscribed as a UNESCO World Heritage Site in 1979."
+    },
+    "image": "https://picsum.photos/seed/palace-versailles-france/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "皇家宫殿",
+        "巴洛克"
+      ],
+      "en": [
+        "UNESCO Heritage",
+        "Royal Palace",
+        "Baroque"
+      ]
+    },
+    "location": {
+      "zh": "伊夫林省凡尔赛，巴黎西南约20公里",
+      "en": "Versailles, Yvelines, 20 km southwest of Paris"
+    },
+    "highlights": {
+      "zh": [
+        "镜厅——357面镜子映照17世纪宫廷辉煌",
+        "法式几何园林与大特里亚侬宫、小特里亚侬宫",
+        "玛丽·安托瓦内特的花园小屋与农庄"
+      ],
+      "en": [
+        "Hall of Mirrors — 357 mirrors reflecting 17th-century royal splendour",
+        "Formal geometric gardens with the Grand and Petit Trianon palaces",
+        "Marie Antoinette's Hamlet retreat within the grounds"
+      ]
+    },
+    "admission": {
+      "zh": "宫殿约21欧元，花园免费（喷泉日除外）",
+      "en": "Palace ~€21; gardens free except on fountain show days"
+    },
+    "duration": {
+      "zh": "一整天",
+      "en": "Full day"
+    },
+    "tips": {
+      "zh": "周二至周五人相对较少；建议购买含花园通行的套票。喷泉日（Grandes Eaux）为周六日，票价略高但值得。",
+      "en": "Tuesday to Friday is less crowded. Buy a passport ticket for garden access. The Grandes Eaux fountain show (weekends, April–October) is well worth the extra cost."
+    }
+  },
+  {
+    "id": "chartres-cathedral",
+    "name": {
+      "zh": "沙特尔大教堂",
+      "en": "Chartres Cathedral"
+    },
+    "description": {
+      "zh": "沙特尔主教座堂建于12至13世纪，是欧洲哥特式建筑的巅峰之作，以其保存完好的中世纪彩色玻璃窗和精美的北玫瑰窗著称。1979年被列入联合国教科文组织世界遗产名录。",
+      "en": "Chartres Cathedral, built in the 12th–13th centuries, is considered the finest example of Gothic architecture in Europe. Its medieval stained-glass windows, largely intact, and the magnificent north rose window are unrivalled. UNESCO World Heritage Site since 1979."
+    },
+    "image": "https://picsum.photos/seed/chartres-cathedral-france/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "哥特式建筑",
+        "大教堂"
+      ],
+      "en": [
+        "UNESCO Heritage",
+        "Gothic Architecture",
+        "Cathedral"
+      ]
+    },
+    "location": {
+      "zh": "厄尔-卢瓦尔省沙特尔，巴黎西南约90公里",
+      "en": "Chartres, Eure-et-Loir, ~90 km southwest of Paris"
+    },
+    "highlights": {
+      "zh": [
+        "保存最完好的中世纪彩色玻璃窗，172扇窗共计约2600平方米",
+        "北、南两大玫瑰窗，13世纪彩绘玻璃艺术的极致",
+        "地面迷宫（Labyrinth）是中世纪朝圣传统的象征"
+      ],
+      "en": [
+        "Best-preserved medieval stained glass anywhere — 172 windows covering 2,600 m²",
+        "North and south rose windows — pinnacle of 13th-century glass art",
+        "The floor labyrinth, a symbol of medieval pilgrimage tradition"
+      ]
+    },
+    "admission": {
+      "zh": "教堂免费，塔楼约9欧元",
+      "en": "Cathedral free; tower climb ~€9"
+    },
+    "duration": {
+      "zh": "1.5—3小时",
+      "en": "1.5–3 hours"
+    },
+    "tips": {
+      "zh": "Malcolm Miller英语导览（每天正午）被誉为绝佳体验，强烈推荐。从巴黎蒙帕纳斯站乘火车约1小时可达。",
+      "en": "Malcolm Miller's English tours (daily at noon) are legendary — highly recommended. Trains from Paris Montparnasse take about 1 hour."
+    }
+  },
+  {
+    "id": "vezere-caves",
+    "name": {
+      "zh": "韦泽尔河谷史前遗址与洞窟壁画",
+      "en": "Prehistoric Sites and Decorated Caves of the Vézère Valley"
+    },
+    "description": {
+      "zh": "韦泽尔河谷汇集了147处史前遗址和25座装饰洞窟，包括举世闻名的拉斯科洞窟（约17000年前的旧石器时代壁画），是人类早期艺术的重要宝库。1979年列入联合国教科文组织世界遗产名录。",
+      "en": "The Vézère Valley contains 147 prehistoric sites and 25 decorated caves, including the world-famous Lascaux cave with paintings dating back ~17,000 years. This is the most important concentration of Palaeolithic art on Earth. UNESCO World Heritage Site since 1979."
+    },
+    "image": "https://picsum.photos/seed/vezere-caves-france/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "史前遗址",
+        "洞窟壁画"
+      ],
+      "en": [
+        "UNESCO Heritage",
+        "Prehistoric Sites",
+        "Cave Art"
+      ]
+    },
+    "location": {
+      "zh": "多尔多涅省，法国西南部",
+      "en": "Dordogne département, southwest France"
+    },
+    "highlights": {
+      "zh": [
+        "拉斯科4号复制洞（Lascaux IV）完美还原距今17000年的史前壁画",
+        "丰德戈姆洞（Font-de-Gaume）是仍可参观的真实彩色壁画洞窟",
+        "莱塞济小镇周边集中了法国最密集的史前遗产"
+      ],
+      "en": [
+        "Lascaux IV replica faithfully recreates the 17,000-year-old originals",
+        "Font-de-Gaume — one of the last original polychrome painted caves open to visitors",
+        "Les Eyzies village sits at the heart of France's richest prehistoric landscape"
+      ]
+    },
+    "admission": {
+      "zh": "拉斯科4号约20欧元；丰德戈姆约14欧元（须提前预约）",
+      "en": "Lascaux IV ~€20; Font-de-Gaume ~€14 (advance booking required)"
+    },
+    "duration": {
+      "zh": "1—2天",
+      "en": "1–2 days"
+    },
+    "tips": {
+      "zh": "丰德戈姆真实洞窟每日限额参观，旺季须提前数周预约。莱塞济国家史前博物馆是很好的背景知识入门地。",
+      "en": "Font-de-Gaume is strictly limited in visitor numbers — book weeks ahead in peak season. The National Prehistory Museum in Les Eyzies provides excellent context."
+    }
+  },
+  {
+    "id": "carcassonne",
+    "name": {
+      "zh": "卡尔卡松历史要塞城市",
+      "en": "Historic Fortified City of Carcassonne"
+    },
+    "description": {
+      "zh": "卡尔卡松是欧洲保存最完好的中世纪要塞城市之一，双层城墙、52座塔楼构成壮观的防御体系。经19世纪建筑师维奥莱-勒-杜克大力修复，1997年列入联合国教科文组织世界遗产名录。",
+      "en": "Carcassonne is one of Europe's best-preserved medieval fortified cities, with double ramparts and 52 towers forming a formidable defensive system. Extensively restored by Viollet-le-Duc in the 19th century, it became a UNESCO World Heritage Site in 1997."
+    },
+    "image": "https://picsum.photos/seed/carcassonne-france/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "中世纪城堡",
+        "要塞"
+      ],
+      "en": [
+        "UNESCO Heritage",
+        "Medieval Castle",
+        "Fortified City"
+      ]
+    },
+    "location": {
+      "zh": "奥德省，法国南部",
+      "en": "Aude département, southern France"
+    },
+    "highlights": {
+      "zh": [
+        "双层城墙与52座塔楼，欧洲规模最大的中世纪防御工事之一",
+        "城内保存完好的中世纪街巷、市集和罗马式大教堂",
+        "夏季仲夏日（7月14日前后）有盛大焰火庆典"
+      ],
+      "en": [
+        "Double ramparts with 52 towers — one of Europe's largest medieval defensive systems",
+        "Well-preserved medieval streets, market and Romanesque basilica within the walls",
+        "Spectacular Bastille Day fireworks (14 July) light up the fortress"
+      ]
+    },
+    "admission": {
+      "zh": "城堡和城墙参观约12欧元，城内街道免费",
+      "en": "Château and ramparts ~€12; inner streets free"
+    },
+    "duration": {
+      "zh": "半天至一天",
+      "en": "Half to full day"
+    },
+    "tips": {
+      "zh": "旺季游客众多，建议清晨或傍晚入城。住在城墙内的古城酒店体验最为独特。",
+      "en": "Very crowded in summer — visit at dawn or dusk for atmosphere. Staying overnight within the walls is a uniquely memorable experience."
+    }
+  },
+  {
+    "id": "bordeaux-port-moon",
+    "name": {
+      "zh": "波尔多——月亮港",
+      "en": "Bordeaux, Port of the Moon"
+    },
+    "description": {
+      "zh": "波尔多历史城区以加龙河月牙形弯道命名为「月亮港」，拥有欧洲规模最大的新古典主义建筑群，大剧院、水镜广场、圣安德烈大教堂等优雅建筑令人印象深刻。2007年列入联合国教科文组织世界遗产名录。",
+      "en": "Bordeaux's historic district, nicknamed 'Port of the Moon' for its crescent-shaped curve in the Garonne River, contains Europe's largest ensemble of Neoclassical architecture. The Grand Théâtre, Miroir d'Eau and Saint-André Cathedral are its highlights. UNESCO World Heritage Site since 2007."
+    },
+    "image": "https://picsum.photos/seed/bordeaux-port-moon-france/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "葡萄酒之都",
+        "新古典主义"
+      ],
+      "en": [
+        "UNESCO Heritage",
+        "Wine Capital",
+        "Neoclassical"
+      ]
+    },
+    "location": {
+      "zh": "吉伦特省波尔多，法国西南部",
+      "en": "Bordeaux, Gironde, southwest France"
+    },
+    "highlights": {
+      "zh": [
+        "欧洲规模最大的新古典主义历史建筑群",
+        "世界最大反射水镜（Miroir d'Eau），面积3450平方米",
+        "波尔多葡萄酒节与周边列级酒庄参观"
+      ],
+      "en": [
+        "Europe's largest ensemble of Neoclassical urban architecture",
+        "Miroir d'Eau — the world's largest reflecting pool at 3,450 m²",
+        "Bordeaux wine festival and visits to classed-growth châteaux nearby"
+      ]
+    },
+    "admission": {
+      "zh": "历史城区免费漫步，各景点单独收费",
+      "en": "Historic district free to explore; individual attractions charge"
+    },
+    "duration": {
+      "zh": "1—2天",
+      "en": "1–2 days"
+    },
+    "tips": {
+      "zh": "La Cité du Vin葡萄酒文化博物馆是新建地标，票价约21欧元，强烈推荐葡萄酒爱好者参观。",
+      "en": "La Cité du Vin wine culture museum is a striking new landmark (~€21) and essential for wine lovers. The Saint-Émilion UNESCO village is 45 minutes away by train."
+    }
+  },
+  {
+    "id": "strasbourg-grande-ile",
+    "name": {
+      "zh": "斯特拉斯堡大岛",
+      "en": "Strasbourg – Grande Île and Neustadt"
+    },
+    "description": {
+      "zh": "斯特拉斯堡的大岛是阿尔萨斯首府的历史核心，汇聚了哥特式大教堂、小法兰西水区和欧洲议会等地标。德法交融的文化气质使其独树一帜，2017年大岛及新城区共同列入联合国教科文组织世界遗产名录。",
+      "en": "The Grande Île is the historic heart of Strasbourg, blending Gothic cathedral, the fairy-tale Petite France quarter and the European Parliament. This Franco-German cultural crossroads became a UNESCO World Heritage Site (extended to include Neustadt) in 2017."
+    },
+    "image": "https://picsum.photos/seed/strasbourg-grande-ile-france/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "阿尔萨斯",
+        "哥特式大教堂"
+      ],
+      "en": [
+        "UNESCO Heritage",
+        "Alsace",
+        "Gothic Cathedral"
+      ]
+    },
+    "location": {
+      "zh": "阿尔萨斯大区，法国东北部（莱茵河畔）",
+      "en": "Alsace, northeast France (on the Rhine)"
+    },
+    "highlights": {
+      "zh": [
+        "斯特拉斯堡大教堂——曾为世界第一高楼，红砂岩外观壮观",
+        "小法兰西区的半木骨架房屋与运河，阿尔萨斯最美街景",
+        "欧洲议会本部，每月举行全体会议"
+      ],
+      "en": [
+        "Strasbourg Cathedral — once the world's tallest building; stunning red sandstone facade",
+        "Petite France quarter with half-timbered houses and canals — Alsace at its most picturesque",
+        "The European Parliament plenary chamber, open for public visits"
+      ]
+    },
+    "admission": {
+      "zh": "大教堂免费，塔楼约8欧元",
+      "en": "Cathedral free; tower platform ~€8"
+    },
+    "duration": {
+      "zh": "1—2天",
+      "en": "1–2 days"
+    },
+    "tips": {
+      "zh": "12月圣诞市集（法国最大）是最受欢迎的旅游时段，建议提前订房。阿尔萨斯葡萄酒路线从斯特拉斯堡向南延伸170公里，适合驾车探索。",
+      "en": "The Christmas market (France's largest) makes December magical but busy — book accommodation early. The Alsace Wine Route stretches 170 km south and is superb by car."
+    }
+  },
+  {
+    "id": "arles-roman-monuments",
+    "name": {
+      "zh": "阿尔勒古罗马与罗马式建筑群",
+      "en": "Arles, Roman and Romanesque Monuments"
+    },
+    "description": {
+      "zh": "阿尔勒是罗马帝国在高卢的重要城市，拥有保存极佳的古罗马圆形剧场、剧场遗址和地下长廊，同时因梵高在此创作大量名作而享誉世界。1981年列入联合国教科文组织世界遗产名录。",
+      "en": "Arles was a major Roman city in Gaul, with a superbly preserved amphitheatre, theatre ruins and underground galleries. It is equally celebrated as the city where Van Gogh created many of his greatest works. UNESCO World Heritage Site since 1981."
+    },
+    "image": "https://picsum.photos/seed/arles-roman-france/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "古罗马",
+        "梵高"
+      ],
+      "en": [
+        "UNESCO Heritage",
+        "Ancient Rome",
+        "Van Gogh"
+      ]
+    },
+    "location": {
+      "zh": "布歇-杜-罗讷省阿尔勒，法国南部",
+      "en": "Arles, Bouches-du-Rhône, southern France"
+    },
+    "highlights": {
+      "zh": [
+        "古罗马圆形剧场（约公元90年），至今仍举办斗牛和音乐会",
+        "阿尔勒地下长廊（Cryptoporticus）——古罗马广场的地下储藏网络",
+        "梵高基金会与《星夜》等名作的创作地点漫游"
+      ],
+      "en": [
+        "Roman amphitheatre (c. AD 90) still hosts bullfights and concerts today",
+        "Cryptoporticus — underground galleries beneath the ancient Roman forum",
+        "Van Gogh Foundation and a walking tour of sites where he painted his masterpieces"
+      ]
+    },
+    "admission": {
+      "zh": "古迹通票约12欧元",
+      "en": "Monument pass ~€12"
+    },
+    "duration": {
+      "zh": "半天至一天",
+      "en": "Half to full day"
+    },
+    "tips": {
+      "zh": "每年7月举办Les Rencontres de la Photographie国际摄影节，是全球最重要的摄影艺术节之一。卡马格湿地国家公园在南面，可半日游。",
+      "en": "The Rencontres de la Photographie international photography festival (July) is one of the world's most important. The Camargue wetlands nature reserve is a short drive south."
+    }
+  },
+  {
+    "id": "orange-theatre",
+    "name": {
+      "zh": "奥朗日古罗马剧场",
+      "en": "Roman Theatre and Triumphal Arch of Orange"
+    },
+    "description": {
+      "zh": "奥朗日古罗马剧场建于公元1世纪，拥有欧洲保存最完整的古罗马舞台建筑正面，高达36米的巨型舞台背墙令人叹为观止。附近的凯旋门同样是罗马时期留存的珍贵纪念碑。1981年列入联合国教科文组织世界遗产名录。",
+      "en": "The Roman theatre at Orange, built in the 1st century AD, has the best-preserved stage wall in the Roman world, standing 36 metres high. The adjacent triumphal arch is another exceptional Roman monument. UNESCO World Heritage Site since 1981."
+    },
+    "image": "https://picsum.photos/seed/orange-theatre-france/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "古罗马",
+        "剧场"
+      ],
+      "en": [
+        "UNESCO Heritage",
+        "Ancient Rome",
+        "Theatre"
+      ]
+    },
+    "location": {
+      "zh": "沃克吕兹省奥朗日，法国南部",
+      "en": "Orange, Vaucluse, southern France"
+    },
+    "highlights": {
+      "zh": [
+        "欧洲保存最完整的古罗马剧场舞台背墙，高36米",
+        "凯旋门（约公元20年），保存完好的三拱式纪念门",
+        "夏季歌剧节（Les Chorégies d'Orange）在古剧场内举行"
+      ],
+      "en": [
+        "Best-preserved Roman theatre scaena frons (stage wall) in Europe at 36 m",
+        "Triumphal arch (c. AD 20) — well-preserved three-bay Roman arch",
+        "Summer opera festival (Les Chorégies d'Orange) performed in the ancient theatre"
+      ]
+    },
+    "admission": {
+      "zh": "约14欧元（含剧场和附近博物馆）",
+      "en": "~€14 (theatre and museum combined)"
+    },
+    "duration": {
+      "zh": "2—3小时",
+      "en": "2–3 hours"
+    },
+    "tips": {
+      "zh": "若赶上夏季歌剧节（7—8月），可购票欣赏在千年古剧场中举行的世界级演出，体验绝佳。",
+      "en": "If visiting July–August, book tickets for the Chorégies opera festival — watching world-class opera in a 2,000-year-old theatre is an extraordinary experience."
+    }
+  },
+  {
+    "id": "fontainebleau-palace",
+    "name": {
+      "zh": "枫丹白露宫及其园林",
+      "en": "Palace and Park of Fontainebleau"
+    },
+    "description": {
+      "zh": "枫丹白露宫是法国王室历代使用时间最长的宫殿，从中世纪至拿破仑三世均有留存，融合了多种建筑风格。其广阔的园林与森林是巴黎周边最受欢迎的户外休闲胜地，1981年列入联合国教科文组织世界遗产名录。",
+      "en": "Fontainebleau is the most continuously used royal palace in French history, from the Middle Ages through Napoleon III, blending multiple architectural styles. Its vast gardens and surrounding forest are a favourite Parisian retreat. UNESCO World Heritage Site since 1981."
+    },
+    "image": "https://picsum.photos/seed/fontainebleau-palace-france/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "皇家宫殿",
+        "森林"
+      ],
+      "en": [
+        "UNESCO Heritage",
+        "Royal Palace",
+        "Forest"
+      ]
+    },
+    "location": {
+      "zh": "塞纳-马恩省枫丹白露，巴黎东南约60公里",
+      "en": "Fontainebleau, Seine-et-Marne, ~60 km southeast of Paris"
+    },
+    "highlights": {
+      "zh": [
+        "法国王室历史最悠久的宫殿，从弗朗索瓦一世到拿破仑三世均曾居住",
+        "拿破仑一世的告别庭院（Cour des Adieux）——历史上著名的告别场景",
+        "枫丹白露森林（2.5万公顷）是攀岩和徒步胜地"
+      ],
+      "en": [
+        "France's most historic royal residence, used by rulers from Francis I to Napoleon III",
+        "Cour des Adieux — the courtyard where Napoleon bade farewell to his Old Guard",
+        "The 25,000-hectare Forest of Fontainebleau — famous for rock climbing and hiking"
+      ]
+    },
+    "admission": {
+      "zh": "宫殿约14欧元，花园免费",
+      "en": "Palace ~€14; gardens free"
+    },
+    "duration": {
+      "zh": "半天至一天",
+      "en": "Half to full day"
+    },
+    "tips": {
+      "zh": "从巴黎里昂站乘火车约40分钟可达枫丹白露-阿旺站，再乘公交约15分钟至宫殿。周二闭馆。",
+      "en": "Trains from Paris Gare de Lyon take ~40 minutes to Fontainebleau-Avon; bus connections take 15 minutes more. Palace closed on Tuesdays."
+    }
+  },
+  {
+    "id": "canal-du-midi",
+    "name": {
+      "zh": "南运河",
+      "en": "Canal du Midi"
+    },
+    "description": {
+      "zh": "南运河全长240公里，连接地中海与大西洋，是17世纪欧洲最伟大的工程成就之一，沿岸种植有数万棵法国梧桐，形成绿色拱廊。骑车或乘船沿运河穿越朗格多克是独特的慢旅体验，1996年列入联合国教科文组织世界遗产名录。",
+      "en": "The 240 km Canal du Midi links the Mediterranean to the Atlantic and was the greatest engineering achievement of 17th-century Europe. Lined with tens of thousands of plane trees forming a green canopy, it offers a uniquely leisurely journey by bike or barge. UNESCO World Heritage Site since 1996."
+    },
+    "image": "https://picsum.photos/seed/canal-du-midi-france/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "运河",
+        "慢旅游"
+      ],
+      "en": [
+        "UNESCO Heritage",
+        "Canal",
+        "Slow Travel"
+      ]
+    },
+    "location": {
+      "zh": "从土伦到地中海塞特港，穿越朗格多克-鲁西永",
+      "en": "From Toulouse to Sète on the Mediterranean, through Languedoc"
+    },
+    "highlights": {
+      "zh": [
+        "1681年竣工，17世纪欧洲最伟大的土木工程之一",
+        "沿岸悬铃木林荫道绵延数百公里，骑行和乘船体验绝佳",
+        "联结卡尔卡松、贝济耶、阿格德等历史城镇"
+      ],
+      "en": [
+        "Completed in 1681 — one of the greatest civil engineering feats of 17th-century Europe",
+        "Hundreds of kilometres of plane-tree canopy; ideal for cycling and barge holidays",
+        "Passes through Carcassonne, Béziers, Agde and other historic towns"
+      ]
+    },
+    "admission": {
+      "zh": "运河沿岸免费，租船另计",
+      "en": "Canal towpath free; barge hire charged separately"
+    },
+    "duration": {
+      "zh": "1天（骑行部分段）至1周（全程游船）",
+      "en": "1 day (cycling a section) to 1 week (full barge trip)"
+    },
+    "tips": {
+      "zh": "从卡尔卡松出发租用自行车沿运河骑行是最受欢迎的入门体验，约半日可完成一段精华路段。",
+      "en": "Hiring a bike in Carcassonne and cycling a section of the canal towpath is the most popular introduction — a half-day covers a scenic highlight stretch."
+    }
+  },
+  {
+    "id": "amiens-cathedral",
+    "name": {
+      "zh": "亚眠大教堂",
+      "en": "Amiens Cathedral"
+    },
+    "description": {
+      "zh": "亚眠圣母大教堂是法国最大的哥特式大教堂，内部空间高耸宏伟，1220年至1270年间建成，以其精美的西立面雕刻和高达42米的中殿举世闻名。1981年列入联合国教科文组织世界遗产名录。",
+      "en": "Amiens Cathedral is the largest Gothic cathedral in France, renowned for its soaring interior, exquisite sculptural west facade and nave rising to 42 metres. Built between 1220 and 1270, it represents the High Gothic style at its most majestic. UNESCO World Heritage Site since 1981."
+    },
+    "image": "https://picsum.photos/seed/amiens-cathedral-france/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "哥特式建筑",
+        "大教堂"
+      ],
+      "en": [
+        "UNESCO Heritage",
+        "Gothic Architecture",
+        "Cathedral"
+      ]
+    },
+    "location": {
+      "zh": "索姆省亚眠，法国北部",
+      "en": "Amiens, Somme, northern France"
+    },
+    "highlights": {
+      "zh": [
+        "法国最大哥特式大教堂，中殿高42米，殿内可容纳整个巴黎圣母岛",
+        "西立面雕刻群被誉为「石头百科全书」",
+        "冬季灯光秀将西立面复原为中世纪彩色涂装，极为震撼"
+      ],
+      "en": [
+        "France's largest Gothic cathedral — the nave could fit the entirety of Notre-Dame de Paris",
+        "West facade sculptures dubbed the 'encyclopaedia in stone'",
+        "Winter light projections restore the original medieval polychrome colours — spectacular"
+      ]
+    },
+    "admission": {
+      "zh": "教堂免费",
+      "en": "Free"
+    },
+    "duration": {
+      "zh": "1—2小时",
+      "en": "1–2 hours"
+    },
+    "tips": {
+      "zh": "冬季（12月—1月）的彩色灯光秀（Chroma）是参观亚眠大教堂的最佳时机。亚眠距巴黎仅1小时高铁，适合一日游。",
+      "en": "The Chroma light show (December–January) is the best time to visit. Amiens is just 1 hour from Paris by TGV — an excellent day trip."
+    }
+  },
+  {
+    "id": "reims-cathedral",
+    "name": {
+      "zh": "兰斯大教堂",
+      "en": "Cathedral of Notre-Dame of Reims"
+    },
+    "description": {
+      "zh": "兰斯圣母大教堂是法国历代国王加冕之所，从克洛维斯到查理十世共25位君主在此举行加冕典礼。教堂于13世纪建造，以精美的雕塑群和夏加尔设计的彩色玻璃窗著称，与周围的宫殿和圣雷米修道院共同列入1991年联合国教科文组织世界遗产名录。",
+      "en": "Reims Cathedral was the traditional coronation church of French kings — 25 monarchs from Clovis to Charles X were crowned here. Built in the 13th century, it is renowned for its extraordinary sculptural programme and Marc Chagall's stained-glass windows. UNESCO World Heritage Site since 1991."
+    },
+    "image": "https://picsum.photos/seed/reims-cathedral-france/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "哥特式建筑",
+        "加冕教堂"
+      ],
+      "en": [
+        "UNESCO Heritage",
+        "Gothic Architecture",
+        "Coronation Church"
+      ]
+    },
+    "location": {
+      "zh": "马恩省兰斯，法国东北部（香槟产区）",
+      "en": "Reims, Marne, northeast France (Champagne region)"
+    },
+    "highlights": {
+      "zh": [
+        "法国历代国王加冕圣地，共25位君主加冕于此",
+        "西立面逾2300座雕像，哥特式雕塑的巅峰代表",
+        "夏加尔设计的彩色玻璃窗（1974年）——现代艺术与古典建筑的完美结合"
+      ],
+      "en": [
+        "Coronation site of French kings — 25 monarchs crowned here over centuries",
+        "West facade with over 2,300 sculptures — the pinnacle of Gothic sculpture",
+        "Marc Chagall's stained-glass windows (1974) — a brilliant fusion of modern art and Gothic architecture"
+      ]
+    },
+    "admission": {
+      "zh": "教堂免费，塔楼约10欧元",
+      "en": "Cathedral free; tower ~€10"
+    },
+    "duration": {
+      "zh": "2—3小时（可含香槟酒窖参观）",
+      "en": "2–3 hours (combine with Champagne cellar tours)"
+    },
+    "tips": {
+      "zh": "兰斯是香槟之都，凯歌、玛姆等顶级香槟品牌酒窖均在此开放参观。从巴黎东站乘TGV约45分钟可达。",
+      "en": "Reims is the Champagne capital — Veuve Clicquot, Mumm and Taittinger all offer cellar tours. From Paris Gare de l'Est by TGV takes just 45 minutes."
+    }
+  },
+  {
+    "id": "provins-medieval",
+    "name": {
+      "zh": "普罗万中世纪集镇",
+      "en": "Provins, Town of Medieval Fairs"
+    },
+    "description": {
+      "zh": "普罗万是香槟伯国时代欧洲最重要的商业集散地之一，其保存完好的中世纪城防工事、地下回廊和罗马风格建筑至今完好，每年举办热闹的中世纪节庆活动，2001年列入联合国教科文组织世界遗产名录。",
+      "en": "Provins was one of medieval Europe's most important trading centres during the era of the Champagne Fairs. Its remarkably intact medieval fortifications, underground galleries and Romanesque buildings make it a living museum, enhanced by lively medieval festivals. UNESCO World Heritage Site since 2001."
+    },
+    "image": "https://picsum.photos/seed/provins-medieval-france/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "中世纪集镇",
+        "香槟伯国"
+      ],
+      "en": [
+        "UNESCO Heritage",
+        "Medieval Town",
+        "Champagne Fairs"
+      ]
+    },
+    "location": {
+      "zh": "塞纳-马恩省普罗万，巴黎东南约80公里",
+      "en": "Provins, Seine-et-Marne, ~80 km southeast of Paris"
+    },
+    "highlights": {
+      "zh": [
+        "凯撒塔楼（César Tower）——12世纪八角形军事瞭望塔",
+        "地下长廊网络，13世纪贸易商储存货物的地下仓库",
+        "夏季举办的中世纪节庆，包括骑士决斗和猛禽表演"
+      ],
+      "en": [
+        "César Tower — a 12th-century octagonal military watchtower",
+        "Underground gallery network — 13th-century storage tunnels used by medieval merchants",
+        "Summer medieval festival with jousting and falconry displays"
+      ]
+    },
+    "admission": {
+      "zh": "通票约12欧元（含主要景点）",
+      "en": "Pass ~€12 (covering main sites)"
+    },
+    "duration": {
+      "zh": "半天至一天",
+      "en": "Half to full day"
+    },
+    "tips": {
+      "zh": "从巴黎东站乘火车约1.5小时可达。中世纪节庆（Médiévales）通常在6月举行，是参观的最佳时机。",
+      "en": "Trains from Paris Gare de l'Est take ~1.5 hours. The Médiévales festival (usually June) is the most spectacular time to visit."
+    }
+  },
+  {
+    "id": "pyrenees-mont-perdu",
+    "name": {
+      "zh": "比利牛斯山——佩尔迪多山",
+      "en": "Pyrénées – Mont Perdu"
+    },
+    "description": {
+      "zh": "比利牛斯山佩尔迪多山区跨越法西两国边境，是欧洲最深峡谷之一——加尔加塔峡谷和奥尔德萨峡谷的所在地。这里既有壮观的地质景观，也保留着传统的牧羊文化，1997年作为跨境遗产列入联合国教科文组织世界遗产名录（与西班牙共同申报）。",
+      "en": "The Pyrénées – Mont Perdu transboundary site straddles the French-Spanish border, encompassing Europe's deepest canyons — Gavarnie and Ordesa — and preserving a traditional transhumance pastoral culture alongside spectacular geology. UNESCO World Heritage Site (shared with Spain) since 1997."
+    },
+    "image": "https://picsum.photos/seed/pyrenees-mont-perdu-france/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "山地自然景观",
+        "跨境遗产"
+      ],
+      "en": [
+        "UNESCO Heritage",
+        "Mountain Landscape",
+        "Transboundary Site"
+      ]
+    },
+    "location": {
+      "zh": "上比利牛斯省，法国南部（法西边境）",
+      "en": "Hautes-Pyrénées, southern France (French-Spanish border)"
+    },
+    "highlights": {
+      "zh": [
+        "加瓦尔尼冰斗（Cirque de Gavarnie）——欧洲最壮观的冰川冰斗，落差达400米的瀑布",
+        "世界最深峡谷之一的奥尔德萨峡谷（西班牙侧）",
+        "传统比利牛斯高山牧羊文化与夏季转场牧羊（transhumance）"
+      ],
+      "en": [
+        "Cirque de Gavarnie — Europe's most spectacular glacial cirque, with a 400 m waterfall",
+        "Ordesa Canyon (Spanish side) — one of the world's deepest gorges",
+        "Traditional Pyrenean transhumance pastoral culture, still practised today"
+      ]
+    },
+    "admission": {
+      "zh": "自然区域免费，加瓦尔尼村收停车费",
+      "en": "Natural areas free; parking fee at Gavarnie village"
+    },
+    "duration": {
+      "zh": "1—3天",
+      "en": "1–3 days"
+    },
+    "tips": {
+      "zh": "加瓦尔尼冰斗徒步（往返约4小时）是必做体验，7—8月游客多，建议清晨出发。卢尔德（Lourdes）朝圣地在附近，可顺道参观。",
+      "en": "The hike to Gavarnie cirque floor (4 hours round trip) is unmissable. July–August is crowded — start early. The pilgrimage site of Lourdes is nearby."
+    }
+  },
+  {
+    "id": "gulf-porto-corsica",
+    "name": {
+      "zh": "波尔托湾：皮亚纳卡朗切、吉罗拉塔湾和斯坎多拉自然保护区",
+      "en": "Gulf of Porto: Calanche of Piana, Gulf of Girolata, Scandola Reserve"
+    },
+    "description": {
+      "zh": "科西嘉岛西海岸的波尔托湾以惊人的红色花岗岩悬崖、碧绿海水和地中海植被著称。斯坎多拉是法国唯一同时列入自然遗产的联合国教科文组织世界遗产保护区，1983年登录。",
+      "en": "The Gulf of Porto on Corsica's west coast features dramatic red granite cliffs, crystal-clear water and pristine Mediterranean maquis vegetation. Scandola Reserve is France's only UNESCO natural World Heritage Site. Inscribed in 1983."
+    },
+    "image": "https://picsum.photos/seed/gulf-porto-corsica-france/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "自然遗产",
+        "科西嘉"
+      ],
+      "en": [
+        "UNESCO Heritage",
+        "Natural Heritage",
+        "Corsica"
+      ]
+    },
+    "location": {
+      "zh": "科西嘉岛西海岸，法国",
+      "en": "West coast of Corsica, France"
+    },
+    "highlights": {
+      "zh": [
+        "皮亚纳卡朗切红色花岗岩奇石，地中海最壮观的海岸景观之一",
+        "斯坎多拉自然保护区，仅可乘船进入，海豚和鱼鹰栖息地",
+        "吉罗拉塔海湾：无公路可达的原始渔村，仅可步行或乘船"
+      ],
+      "en": [
+        "Calanche of Piana — red granite rock formations forming one of the Mediterranean's most dramatic coasts",
+        "Scandola Reserve — boat-access only; home to dolphins, ospreys and pristine marine life",
+        "Gulf of Girolata — a roadless fishing hamlet reachable only on foot or by boat"
+      ]
+    },
+    "admission": {
+      "zh": "自然区域免费，游船参观约30—45欧元",
+      "en": "Natural areas free; boat excursions ~€30–45"
+    },
+    "duration": {
+      "zh": "1—2天",
+      "en": "1–2 days"
+    },
+    "tips": {
+      "zh": "从波尔托或阿雅克肖出发乘船是参观斯坎多拉的唯一方式。科西嘉最好在6月或9月前往，7—8月拥挤且机票昂贵。",
+      "en": "Boat trips from Porto or Ajaccio are the only way to reach Scandola. Corsica is best in June or September — July and August are very crowded and expensive."
+    }
+  },
+  {
+    "id": "chauvet-pont-darc",
+    "name": {
+      "zh": "阿尔代什肖维岩洞（蓬达尔克装饰洞窟）",
+      "en": "Decorated Cave of Pont d'Arc (Chauvet Cave)"
+    },
+    "description": {
+      "zh": "肖维岩洞收藏了迄今已知最古老的洞窟壁画，距今约36000年，以精湛的动物形象描绘和神秘的手印著称。原洞不对外开放，政府建造了1:1复制洞窟「阿尔代什洞（Caverne du Pont d'Arc）」供游客参观。2014年列入联合国教科文组织世界遗产名录。",
+      "en": "Chauvet Cave contains the world's oldest known cave paintings, dating back ~36,000 years, with extraordinary depictions of animals and mysterious hand prints. The original cave is sealed; the full-scale replica 'Caverne du Pont d'Arc' is open to visitors. UNESCO World Heritage Site since 2014."
+    },
+    "image": "https://picsum.photos/seed/chauvet-cave-france/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "史前壁画",
+        "洞窟艺术"
+      ],
+      "en": [
+        "UNESCO Heritage",
+        "Prehistoric Paintings",
+        "Cave Art"
+      ]
+    },
+    "location": {
+      "zh": "阿尔代什省，法国东南部",
+      "en": "Ardèche département, southeast France"
+    },
+    "highlights": {
+      "zh": [
+        "世界最古老洞窟壁画（约3.6万年前），描绘犀牛、猛犸象和洞狮等动物",
+        "Caverne du Pont d'Arc——世界最大洞窟复制品，精准还原原洞全貌",
+        "距离阿尔代什峡谷（Gorges de l'Ardèche）自然景区极近"
+      ],
+      "en": [
+        "World's oldest cave art (~36,000 years old) depicting rhinos, mammoths and cave lions",
+        "Caverne du Pont d'Arc — the world's largest cave replica, faithfully recreating the original",
+        "Adjacent to the spectacular Gorges de l'Ardèche natural canyon"
+      ]
+    },
+    "admission": {
+      "zh": "Caverne du Pont d'Arc约15欧元，须提前预约",
+      "en": "Caverne du Pont d'Arc ~€15; advance booking required"
+    },
+    "duration": {
+      "zh": "2—3小时",
+      "en": "2–3 hours"
+    },
+    "tips": {
+      "zh": "旺季门票极为紧张，请提前至少2—4周网上预约。可与阿尔代什峡谷皮划艇活动结合，安排2天行程。",
+      "en": "Tickets sell out weeks in advance in peak season — book online at least 2–4 weeks ahead. Combine with kayaking in the Gorges de l'Ardèche for a two-day itinerary."
+    }
+  },
+  {
+    "id": "santiago-compostela-france",
+    "name": {
+      "zh": "法国境内圣地亚哥朝圣之路",
+      "en": "Routes of Santiago de Compostela in France"
+    },
+    "description": {
+      "zh": "法国境内的圣地亚哥朝圣之路由四条主要干线组成，连接巴黎、韦泽莱、勒皮和阿尔勒等起点，汇聚于比利牛斯山麓的圣让皮耶德波尔，沿途遍布中世纪朝圣教堂和修道院。1998年列入联合国教科文组织世界遗产名录。",
+      "en": "The Routes of Santiago de Compostela in France comprise four main pilgrim roads from Paris, Vézelay, Le Puy-en-Velay and Arles, converging at Saint-Jean-Pied-de-Port at the foot of the Pyrenees. The routes are lined with remarkable Romanesque churches and abbeys. UNESCO World Heritage Site since 1998."
+    },
+    "image": "https://picsum.photos/seed/santiago-compostela-france/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "朝圣之路",
+        "中世纪遗迹"
+      ],
+      "en": [
+        "UNESCO Heritage",
+        "Pilgrimage Route",
+        "Medieval Heritage"
+      ]
+    },
+    "location": {
+      "zh": "横贯法国（巴黎/韦泽莱/勒皮/阿尔勒至圣让皮耶德波尔）",
+      "en": "Across France (Paris/Vézelay/Le Puy/Arles to Saint-Jean-Pied-de-Port)"
+    },
+    "highlights": {
+      "zh": [
+        "韦泽莱玛德琳大教堂，朝圣之路最重要的出发地之一",
+        "勒皮主教座堂（Le Puy-en-Velay）——建于火山岩岩柱顶端的奇异大教堂",
+        "圣让皮耶德波尔——翻越比利牛斯山前的最后一站，气氛感人"
+      ],
+      "en": [
+        "Vézelay Basilica of Mary Magdalene — one of the great pilgrimage departure points",
+        "Le Puy Cathedral — extraordinary Romanesque church perched atop a volcanic pinnacle",
+        "Saint-Jean-Pied-de-Port — the last French town before crossing the Pyrenees; deeply atmospheric"
+      ]
+    },
+    "admission": {
+      "zh": "路线本身免费，各景点单独收费",
+      "en": "Route free; individual monuments charge"
+    },
+    "duration": {
+      "zh": "多日至多周（全程徒步朝圣）",
+      "en": "Several days to weeks (depending on sections walked)"
+    },
+    "tips": {
+      "zh": "勒皮之路（Via Podensis）是最受欢迎、设施最完善的法国段，每年约有10万人从勒皮出发。全程朝圣者需携带护照（Credencial）并在各地盖章。",
+      "en": "The Via Podensis from Le Puy is the most popular and best-serviced French route — around 100,000 pilgrims set off from Le Puy annually. Carry a pilgrim passport (Credencial) for stamps along the way."
+    }
+  },
+  {
+    "id": "vezelay-basilica",
+    "name": {
+      "zh": "韦泽莱教堂与山丘",
+      "en": "Vézelay, Church and Hill"
+    },
+    "description": {
+      "zh": "韦泽莱圣玛德琳大教堂是勃艮第罗马式建筑的杰作，11至12世纪建造，以其精美的柱头雕刻和神学叙事浮雕著称。这座山顶教堂是中世纪欧洲最重要的朝圣地之一，1979年列入联合国教科文组织世界遗产名录。",
+      "en": "The Basilica of Sainte-Madeleine at Vézelay is a masterpiece of Burgundian Romanesque architecture, built in the 11th–12th centuries and renowned for its carved capitals and tympanum sculptures. This hilltop church was one of medieval Europe's most important pilgrimage destinations. UNESCO World Heritage Site since 1979."
+    },
+    "image": "https://picsum.photos/seed/vezelay-basilica-france/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "罗马式建筑",
+        "朝圣地"
+      ],
+      "en": [
+        "UNESCO Heritage",
+        "Romanesque Architecture",
+        "Pilgrimage Site"
+      ]
+    },
+    "location": {
+      "zh": "约讷省韦泽莱，勃艮第大区",
+      "en": "Vézelay, Yonne, Burgundy"
+    },
+    "highlights": {
+      "zh": [
+        "中殿柱头雕刻群——圣经故事与寓言的精彩石雕百科",
+        "西门廊雕刻鼓面（Tympanum）——耶稣显圣容，12世纪雕塑杰作",
+        "圣伯纳德于此宣布第二次十字军东征（1146年）"
+      ],
+      "en": [
+        "Nave capital sculptures — a remarkable carved encyclopaedia of biblical stories and fables",
+        "Narthex tympanum of the Transfiguration — a 12th-century sculptural masterpiece",
+        "Bernard of Clairvaux preached the Second Crusade here in 1146"
+      ]
+    },
+    "admission": {
+      "zh": "教堂免费",
+      "en": "Free"
+    },
+    "duration": {
+      "zh": "1—2小时",
+      "en": "1–2 hours"
+    },
+    "tips": {
+      "zh": "韦泽莱小镇本身也极为迷人，沿山坡石板街道漫步是一大享受。勃艮第葡萄酒路线从此处可延伸。",
+      "en": "The village of Vézelay is itself charming — strolling the cobbled hill streets is a pleasure. The Burgundy wine route is easily accessible from here."
+    }
+  },
+  {
+    "id": "haute-provence-geopark",
+    "name": {
+      "zh": "普罗旺斯高地联合国教科文组织地质公园",
+      "en": "Haute Provence UNESCO Global Geopark"
+    },
+    "description": {
+      "zh": "普罗旺斯高地地质公园是法国第一个、也是世界最早的地质公园之一，以丰富的侏罗纪菊石化石、壮观的韦尔顿大峡谷和法国最大天文台著称。该区域地质历史跨越约3亿年。",
+      "en": "Haute Provence Geopark was one of the world's first UNESCO Global Geoparks, renowned for its extraordinary Jurassic ammonite fossils, the spectacular Verdon Gorge and France's largest observatory. The geological history here spans approximately 300 million years."
+    },
+    "image": "https://picsum.photos/seed/haute-provence-geopark-france/800/500",
+    "tags": {
+      "zh": [
+        "地质公园",
+        "化石",
+        "大峡谷"
+      ],
+      "en": [
+        "UNESCO Geopark",
+        "Fossils",
+        "Canyon"
+      ]
+    },
+    "location": {
+      "zh": "阿尔卑斯-上普罗旺斯省，法国东南部",
+      "en": "Alpes-de-Haute-Provence, southeast France"
+    },
+    "highlights": {
+      "zh": [
+        "韦尔顿大峡谷（Gorges du Verdon）——欧洲最壮观的峡谷之一，翡翠绿河水",
+        "迪涅-莱班（Digne-les-Bains）菊石化石保护区，化石密度惊人",
+        "圣米歇尔-欧布斯天文台，法国最大天文台，可参观"
+      ],
+      "en": [
+        "Gorges du Verdon — one of Europe's most dramatic canyons with vivid turquoise water",
+        "Digne-les-Bains ammonite fossil reserve — extraordinary density of Jurassic fossils",
+        "Observatoire de Haute-Provence — France's largest, open for public visits"
+      ]
+    },
+    "admission": {
+      "zh": "地质公园区域免费，各景点单独收费",
+      "en": "Geopark area free; individual attractions charge"
+    },
+    "duration": {
+      "zh": "2—4天",
+      "en": "2–4 days"
+    },
+    "tips": {
+      "zh": "韦尔顿大峡谷划皮划艇或经典环峡谷公路驾车（Route des Crêtes）是最佳游览方式。迪涅化石步道免费，全程约4公里。",
+      "en": "Kayaking in the Verdon Gorge or driving the Route des Crêtes around its rim are both outstanding. The Digne fossil trail is free and about 4 km long."
+    }
+  },
+  {
+    "id": "massif-bauges-geopark",
+    "name": {
+      "zh": "博日山地联合国教科文组织地质公园",
+      "en": "Massif des Bauges UNESCO Global Geopark"
+    },
+    "description": {
+      "zh": "博日山地地质公园位于阿尔卑斯山法国北部山脚，以白垩纪和侏罗纪地层、壮观的悬崖峭壁和清洁的高山湖泊著称，是徒步、攀岩和观察野生动物（岩羚羊、土拨鼠）的绝佳目的地。",
+      "en": "Massif des Bauges Geopark lies in the northern French Alps, featuring Cretaceous and Jurassic limestone geology, dramatic cliffs and pristine alpine lakes. It is excellent for hiking, rock climbing and wildlife spotting — chamois and marmots are commonly seen."
+    },
+    "image": "https://picsum.photos/seed/massif-bauges-geopark-france/800/500",
+    "tags": {
+      "zh": [
+        "地质公园",
+        "阿尔卑斯山",
+        "野生动物"
+      ],
+      "en": [
+        "UNESCO Geopark",
+        "Alps",
+        "Wildlife"
+      ]
+    },
+    "location": {
+      "zh": "萨瓦省和上萨瓦省，法国东部",
+      "en": "Savoie and Haute-Savoie, eastern France"
+    },
+    "highlights": {
+      "zh": [
+        "博日山地自然公园，岩羚羊和土拨鼠随处可见",
+        "阿讷西湖（Lac d'Annecy）——欧洲最洁净的湖泊之一，在公园北缘",
+        "侏罗纪石灰岩地层与壮观的喀斯特地貌"
+      ],
+      "en": [
+        "Natural Regional Park with chamois and marmots easily spotted",
+        "Lake Annecy — one of Europe's cleanest lakes, on the park's northern edge",
+        "Jurassic limestone geology and spectacular karst landscapes"
+      ]
+    },
+    "admission": {
+      "zh": "公园区域免费",
+      "en": "Free"
+    },
+    "duration": {
+      "zh": "2—4天",
+      "en": "2–4 days"
+    },
+    "tips": {
+      "zh": "阿讷西小城是完美的住宿基地，结合湖畔旧城区参观和山地徒步，可安排充实的3—4天行程。",
+      "en": "The town of Annecy makes a perfect base — combine the charming lakeside old town with mountain hikes for a full 3–4 day itinerary."
+    }
+  },
+  {
+    "id": "chablais-geopark",
+    "name": {
+      "zh": "夏布莱联合国教科文组织地质公园",
+      "en": "Chablais UNESCO Global Geopark"
+    },
+    "description": {
+      "zh": "夏布莱地质公园位于法国阿尔卑斯山莱芒湖（日内瓦湖）南岸，以其独特的高山推覆岩层构造地质为特色，同时拥有迪纳波峡谷、圣吉尔塞天然拱桥等壮观地貌，是地质爱好者和登山者的天堂。",
+      "en": "Chablais Geopark lies on the southern shore of Lake Geneva in the French Alps, featuring remarkable overthrust geological formations, the Gorges du Diable canyon and Saint-Gildas natural arch. It is a paradise for geologists and mountaineers alike."
+    },
+    "image": "https://picsum.photos/seed/chablais-geopark-france/800/500",
+    "tags": {
+      "zh": [
+        "地质公园",
+        "阿尔卑斯山",
+        "莱芒湖"
+      ],
+      "en": [
+        "UNESCO Geopark",
+        "Alps",
+        "Lake Geneva"
+      ]
+    },
+    "location": {
+      "zh": "上萨瓦省，法国东部（日内瓦湖南岸）",
+      "en": "Haute-Savoie, eastern France (south shore of Lake Geneva)"
+    },
+    "highlights": {
+      "zh": [
+        "莱芒湖南岸壮观的阿尔卑斯山景",
+        "魔鬼峡谷（Gorges du Diable）的奇岩异石地貌",
+        "埃维昂-莱班（Évian-les-Bains）温泉小城，著名矿泉水产地"
+      ],
+      "en": [
+        "Spectacular Alpine scenery along Lake Geneva's southern shore",
+        "Gorges du Diable canyon with extraordinary rock formations",
+        "Évian-les-Bains spa town — home of the famous Évian mineral water"
+      ]
+    },
+    "admission": {
+      "zh": "公园区域免费",
+      "en": "Free"
+    },
+    "duration": {
+      "zh": "1—3天",
+      "en": "1–3 days"
+    },
+    "tips": {
+      "zh": "从日内瓦乘船横渡莱芒湖至埃维昂是最浪漫的进入方式。冬季可滑雪，夏季适合登山和皮划艇。",
+      "en": "Taking a boat across Lake Geneva from Geneva to Évian is the most scenic arrival. Winter offers skiing; summer is ideal for hiking and paddling."
+    }
+  },
+  {
+    "id": "armorique-geopark",
+    "name": {
+      "zh": "阿尔莫里克联合国教科文组织地质公园",
+      "en": "Armorique UNESCO Global Geopark"
+    },
+    "description": {
+      "zh": "阿尔莫里克地质公园位于布列塔尼半岛，涵盖菲尼斯泰尔省的五个不同地区，从内陆的阿雷山地到乌善特岛和克罗宗半岛，展现了超过5亿年的地球演化历史，是欧洲最古老的地质公园之一。",
+      "en": "Armorique Geopark covers five distinct areas of Finistère in Brittany, from the inland Monts d'Arrée to the island of Ouessant and the Crozon Peninsula, revealing over 500 million years of Earth history. It is one of Europe's most ancient geological territories."
+    },
+    "image": "https://picsum.photos/seed/armorique-geopark-france/800/500",
+    "tags": {
+      "zh": [
+        "地质公园",
+        "布列塔尼",
+        "海岛"
+      ],
+      "en": [
+        "UNESCO Geopark",
+        "Brittany",
+        "Island"
+      ]
+    },
+    "location": {
+      "zh": "菲尼斯泰尔省，布列塔尼大区，法国西北部",
+      "en": "Finistère, Brittany, northwest France"
+    },
+    "highlights": {
+      "zh": [
+        "克罗宗半岛壮观的峭壁和阿尔莫里克区域自然公园",
+        "乌申特岛（Ouessant）——法国最西端有人居住的岛屿，灯塔和野生鸟类",
+        "阿雷山地沼泽地貌，布列塔尼最荒野的内陆景观"
+      ],
+      "en": [
+        "Crozon Peninsula with dramatic sea cliffs and the Armorique Regional Nature Park",
+        "Ouessant Island — France's westernmost inhabited island, famous for lighthouses and seabirds",
+        "Monts d'Arrée moorlands — Brittany's most wild and atmospheric inland landscape"
+      ]
+    },
+    "admission": {
+      "zh": "公园区域免费，渡轮另计",
+      "en": "Free; ferry to Ouessant charged separately"
+    },
+    "duration": {
+      "zh": "2—4天",
+      "en": "2–4 days"
+    },
+    "tips": {
+      "zh": "克罗宗半岛的海岸骑行线路和布雷斯特（Brest）是理想的出发基地。布列塔尼可与圣米歇尔山游览相结合，安排一周行程。",
+      "en": "The Crozon Peninsula coastal cycling circuit is superb; Brest is the ideal base. Combine with Mont-Saint-Michel for a Brittany/Normandy week."
+    }
+  },
+  {
+    "id": "luberon-geopark",
+    "name": {
+      "zh": "吕贝隆联合国教科文组织地质公园",
+      "en": "Luberon UNESCO Global Geopark"
+    },
+    "description": {
+      "zh": "吕贝隆地质公园涵盖吕贝隆山脉及周边地区，以侏罗纪至中新世的丰富地层、普罗旺斯石砌山村和薰衣草田著称。博尼约的矮人公墓（侏儒化石地）是世界上最重要的古灵长类化石遗址之一。",
+      "en": "Luberon Geopark encompasses the Luberon massif and surrounding areas, featuring exceptional geological strata from the Jurassic to the Miocene, Provençal stone villages and lavender fields. Bonnieux's pygmy fauna site is one of the world's most important fossil primate locations."
+    },
+    "image": "https://picsum.photos/seed/luberon-geopark-france/800/500",
+    "tags": {
+      "zh": [
+        "地质公园",
+        "普罗旺斯",
+        "山村"
+      ],
+      "en": [
+        "UNESCO Geopark",
+        "Provence",
+        "Hill Villages"
+      ]
+    },
+    "location": {
+      "zh": "沃克吕兹省和阿尔卑斯-上普罗旺斯省，法国东南部",
+      "en": "Vaucluse and Alpes-de-Haute-Provence, southeast France"
+    },
+    "highlights": {
+      "zh": [
+        "博尼约、戈尔德等普罗旺斯最美石砌山村",
+        "科罗拉多·普罗旺斯（Colorado Provençal）——橙红色赭石矿山奇观",
+        "吕贝隆自然公园丰富的动植物群落和薰衣草田"
+      ],
+      "en": [
+        "Bonnieux, Gordes and other stunning stone hilltop villages of Provence",
+        "Colorado Provençal — dramatic orange and ochre mineral quarry landscapes",
+        "Luberon Natural Park with diverse wildlife and lavender fields"
+      ]
+    },
+    "admission": {
+      "zh": "公园区域免费，部分景点小额收费",
+      "en": "Free; small fee at some sites"
+    },
+    "duration": {
+      "zh": "2—3天",
+      "en": "2–3 days"
+    },
+    "tips": {
+      "zh": "戈尔德（Gordes）和鲁西永（Roussillon）是最上镜的两个村庄。科罗拉多·普罗旺斯日落时分光线最美。租车是探索区域的最佳方式。",
+      "en": "Gordes and Roussillon are the most photogenic villages. The Colorado Provençal is best at sunset. A rental car is essential for exploring the geopark."
+    }
+  },
+  {
+    "id": "normandie-maine-geopark",
+    "name": {
+      "zh": "诺曼底-缅因联合国教科文组织地质公园",
+      "en": "Normandie-Maine UNESCO Global Geopark"
+    },
+    "description": {
+      "zh": "诺曼底-缅因地质公园涵盖诺曼底-缅因地区自然公园，以阿摩里坎山地的前寒武纪和古生代地层为特色，融合了苹果园、奶牛牧场和古老花岗岩地貌。阿朗松和多姆弗龙是园内主要城镇。",
+      "en": "Normandie-Maine Geopark encompasses the Normandie-Maine Regional Natural Park, featuring Precambrian and Palaeozoic Armorican Massif geology alongside apple orchards, dairy farms and ancient granite landscapes. Alençon and Domfront are the main towns within the park."
+    },
+    "image": "https://picsum.photos/seed/normandie-maine-geopark-france/800/500",
+    "tags": {
+      "zh": [
+        "地质公园",
+        "诺曼底",
+        "苹果产区"
+      ],
+      "en": [
+        "UNESCO Geopark",
+        "Normandy",
+        "Apple Country"
+      ]
+    },
+    "location": {
+      "zh": "奥恩省，诺曼底大区，法国西北部",
+      "en": "Orne département, Normandy, northwest France"
+    },
+    "highlights": {
+      "zh": [
+        "前寒武纪花岗岩地貌和古老的布列塔尼-诺曼底边界地区",
+        "诺曼底苹果园、卡尔瓦多斯苹果白兰地和奶酪文化",
+        "多姆弗龙中世纪城堡遗址和古老集镇"
+      ],
+      "en": [
+        "Precambrian granite landscapes and ancient Breton-Norman borderlands",
+        "Norman apple orchards, Calvados brandy and artisan cheese culture",
+        "Domfront medieval castle ruins and well-preserved historic market town"
+      ]
+    },
+    "admission": {
+      "zh": "公园区域免费",
+      "en": "Free"
+    },
+    "duration": {
+      "zh": "1—2天",
+      "en": "1–2 days"
+    },
+    "tips": {
+      "zh": "可与诺曼底二战登陆海滩（奥马哈、朱诺等）结合安排行程，两者相距约1—2小时车程。",
+      "en": "Easily combined with the D-Day landing beaches (Omaha, Juno, etc.) — about 1–2 hours drive from the geopark."
+    }
+  },
+  {
+    "id": "causses-quercy-geopark",
+    "name": {
+      "zh": "科斯-凯尔西联合国教科文组织地质公园",
+      "en": "Causses du Quercy UNESCO Global Geopark"
+    },
+    "description": {
+      "zh": "科斯-凯尔西地质公园位于法国西南部洛特省，以壮观的石灰岩高原、深邃的峡谷和丰富的史前洞窟著称。这里是全球喀斯特地貌研究的重要样本区，拥有超过3500处洞穴，其中包括著名的帕迪拉克深渊和布吕尼凯洞窟。2017年获得UNESCO全球地质公园认定。",
+      "en": "Causses du Quercy Geopark in the Lot department of southwest France is renowned for its spectacular limestone plateaus, deep gorges and rich prehistoric caves. With over 3,500 caves, it is a world-class karst landscape — highlights include the Gouffre de Padirac abyss and the Bruniquel Cave with Neanderthal ring structures. Designated UNESCO Global Geopark in 2017."
+    },
+    "image": "https://picsum.photos/seed/causses-quercy-geopark-france/800/500",
+    "tags": {
+      "zh": [
+        "地质公园",
+        "喀斯特地貌",
+        "史前洞窟"
+      ],
+      "en": [
+        "UNESCO Geopark",
+        "Karst Landscape",
+        "Prehistoric Caves"
+      ]
+    },
+    "location": {
+      "zh": "洛特省，奥克西塔尼大区，法国西南部",
+      "en": "Lot département, Occitanie, southwest France"
+    },
+    "highlights": {
+      "zh": [
+        "帕迪拉克深渊（Gouffre de Padirac）——欧洲最壮观的地下河洞窟，深达103米",
+        "布吕尼凯洞窟（Bruniquel Cave）——尼安德特人建造的神秘石笋环形结构（距今约17.6万年）",
+        "多尔多涅河谷壮观景色，以及洛卡马杜尔悬崖圣城"
+      ],
+      "en": [
+        "Gouffre de Padirac — Europe's most spectacular underground river cave, 103 m deep",
+        "Bruniquel Cave — Neanderthal stalagmite ring structures dating back 176,000 years",
+        "Dordogne Valley panoramas and the cliff-top pilgrimage city of Rocamadour"
+      ]
+    },
+    "admission": {
+      "zh": "地质公园免费；帕迪拉克深渊约15欧元",
+      "en": "Geopark free; Gouffre de Padirac ~€15"
+    },
+    "duration": {
+      "zh": "2—3天",
+      "en": "2–3 days"
+    },
+    "tips": {
+      "zh": "洛卡马杜尔和帕迪拉克深渊夏季游客众多，建议提前预约并于早晨参观。卡于扎克（Cahors）是该地区最佳住宿基地，也以马尔贝克葡萄酒闻名。",
+      "en": "Rocamadour and Padirac are very busy in summer — book ahead and arrive early. Cahors makes the best base and is famous for its Malbec wine."
+    }
+  },
+  {
+    "id": "monts-ardeche-geopark",
+    "name": {
+      "zh": "阿尔代什山地联合国教科文组织地质公园",
+      "en": "Monts d'Ardèche UNESCO Global Geopark"
+    },
+    "description": {
+      "zh": "阿尔代什山地地质公园位于法国中央高原南端，以古老的火山地貌、玄武岩柱、茂密的栗树林和清澈的山溪著称。这片土地记录了超过5亿年的地质演化，火山遗迹与中世纪村庄交织，2014年获得UNESCO全球地质公园认定。",
+      "en": "Monts d'Ardèche Geopark sits at the southern edge of the Massif Central, featuring ancient volcanic landscapes, basalt columns, chestnut forests and crystal-clear mountain streams. Geological history spanning over 500 million years is recorded here, volcanic remnants coexisting with medieval villages. Designated UNESCO Global Geopark in 2014."
+    },
+    "image": "https://picsum.photos/seed/monts-ardeche-geopark-france/800/500",
+    "tags": {
+      "zh": [
+        "地质公园",
+        "火山地貌",
+        "中央高原"
+      ],
+      "en": [
+        "UNESCO Geopark",
+        "Volcanic Landscape",
+        "Massif Central"
+      ]
+    },
+    "location": {
+      "zh": "阿尔代什省，奥弗涅-罗讷-阿尔卑斯大区，法国东南部",
+      "en": "Ardèche département, Auvergne-Rhône-Alpes, southeast France"
+    },
+    "highlights": {
+      "zh": [
+        "雷-莫纳-苏尔-利尼翁（Le Monastier）地区的玄武岩柱地貌",
+        "茂密的栗树林——阿尔代什栗子是该地区最著名的物产",
+        "阿尔代什峡谷（Gorges de l'Ardèche）漂流和肖维岩洞（世界最古老壁画）在公园邻近"
+      ],
+      "en": [
+        "Basalt column landscapes near Le Monastier-sur-Gazeille",
+        "Dense chestnut forests — Ardèche chestnuts are the region's most celebrated product",
+        "Gorges de l'Ardèche kayaking and Chauvet Cave (world's oldest paintings) nearby"
+      ]
+    },
+    "admission": {
+      "zh": "地质公园区域免费",
+      "en": "Free"
+    },
+    "duration": {
+      "zh": "2—3天",
+      "en": "2–3 days"
+    },
+    "tips": {
+      "zh": "可与阿尔代什峡谷的皮划艇活动和肖维岩洞复制窟（Caverne du Pont d'Arc）结合，安排3—4天的阿尔代什综合行程。秋季栗子收获节（10月）氛围最佳。",
+      "en": "Combine with kayaking in the Gorges de l'Ardèche and the Caverne du Pont d'Arc (Chauvet replica) for a rich 3–4 day Ardèche itinerary. The chestnut harvest festival in October is a highlight."
+    }
+  },
+  {
+    "id": "beaujolais-geopark",
+    "name": {
+      "zh": "博若莱联合国教科文组织地质公园",
+      "en": "Beaujolais UNESCO Global Geopark"
+    },
+    "description": {
+      "zh": "博若莱地质公园涵盖法国著名的博若莱葡萄酒产区及其背后的花岗岩山地，揭示了变质岩和火成岩构成的古老地质基底如何孕育出举世闻名的葡萄酒风土。地质公园将葡萄酒文化与科学地质遗产完美融合，2018年获得UNESCO全球地质公园认定。",
+      "en": "Beaujolais Geopark encompasses the famous Beaujolais wine country and the granite highlands behind it, revealing how ancient metamorphic and igneous basement geology gives rise to the world-renowned Beaujolais terroir. The geopark uniquely combines wine culture with scientific geological heritage. Designated UNESCO Global Geopark in 2018."
+    },
+    "image": "https://picsum.photos/seed/beaujolais-geopark-france/800/500",
+    "tags": {
+      "zh": [
+        "地质公园",
+        "葡萄酒产区",
+        "花岗岩地貌"
+      ],
+      "en": [
+        "UNESCO Geopark",
+        "Wine Region",
+        "Granite Landscape"
+      ]
+    },
+    "location": {
+      "zh": "罗讷省及索恩-卢瓦尔省，奥弗涅-罗讷-阿尔卑斯大区，法国东部",
+      "en": "Rhône and Saône-et-Loire, Auvergne-Rhône-Alpes, eastern France"
+    },
+    "highlights": {
+      "zh": [
+        "博若莱新酒（Beaujolais Nouveau）每年11月第三个星期四全球同步发布",
+        "花岗岩山地风光与古老村庄——布鲁伊山（Mont Brouilly）葡萄园全景",
+        "葡萄酒庄园参观与地质步道，探索风土背后的地质奥秘"
+      ],
+      "en": [
+        "Beaujolais Nouveau released worldwide every third Thursday of November — a global wine celebration",
+        "Granite highland scenery and ancient villages — panoramic Brouilly hillside vineyards",
+        "Winery visits and geological trails linking wine terroir to deep rock geology"
+      ]
+    },
+    "admission": {
+      "zh": "地质公园区域免费，酒庄参观另计",
+      "en": "Geopark free; winery visits priced separately"
+    },
+    "duration": {
+      "zh": "1—2天",
+      "en": "1–2 days"
+    },
+    "tips": {
+      "zh": "从里昂驾车约40分钟即可进入博若莱核心区。11月博若莱新酒节是最受欢迎的参观时机，届时许多酒庄举办品酒活动。",
+      "en": "A 40-minute drive from Lyon puts you in the heart of Beaujolais. Visiting in November for the Beaujolais Nouveau release is magical — many estates open their cellars for tastings."
+    }
+  },
+  {
+    "id": "terres-herault-geopark",
+    "name": {
+      "zh": "埃罗大地联合国教科文组织地质公园",
+      "en": "Terres d'Hérault UNESCO Global Geopark"
+    },
+    "description": {
+      "zh": "埃罗大地地质公园位于法国南部奥克西塔尼大区，涵盖埃罗省北部111个市镇，记录了逾5.4亿年的地球演化历史。从古生代化石地层到中世纪盐矿、圣雅克朝圣之路遗址，地质与文化遗产在此高度交融。2026年4月获得UNESCO全球地质公园认定，是法国第10个地质公园。",
+      "en": "Terres d'Hérault Geopark in the Occitanie region of southern France spans 111 communes of northern Hérault, recording over 540 million years of Earth history. Palaeozoic fossil strata, medieval salt mines and pilgrimage routes of the Camino de Santiago are among its layered cultural and geological heritage. Designated in April 2026 as France's 10th UNESCO Global Geopark."
+    },
+    "image": "https://picsum.photos/seed/terres-herault-geopark-france/800/500",
+    "tags": {
+      "zh": [
+        "地质公园",
+        "奥克西塔尼",
+        "古生代地层"
+      ],
+      "en": [
+        "UNESCO Geopark",
+        "Occitanie",
+        "Palaeozoic Geology"
+      ]
+    },
+    "location": {
+      "zh": "埃罗省北部，奥克西塔尼大区，法国南部",
+      "en": "Northern Hérault département, Occitanie, southern France"
+    },
+    "highlights": {
+      "zh": [
+        "逾5.4亿年地质历史，从寒武纪到第四纪的完整地层记录",
+        "圣吉勒姆-勒-德塞尔特（Saint-Guilhem-le-Désert）——联合国教科文组织圣雅克朝圣之路遗址和绝美小镇",
+        "克拉马鲁高原（Causses de Gramat）喀斯特地貌与埃罗河谷壮观景色"
+      ],
+      "en": [
+        "Over 540 million years of geological history — complete stratigraphic record from Cambrian to Quaternary",
+        "Saint-Guilhem-le-Désert — UNESCO Camino de Santiago heritage site and one of France's most beautiful villages",
+        "Causses karst plateaus and the spectacular Hérault River gorges"
+      ]
+    },
+    "admission": {
+      "zh": "地质公园区域免费",
+      "en": "Free"
+    },
+    "duration": {
+      "zh": "2—3天",
+      "en": "2–3 days"
+    },
+    "tips": {
+      "zh": "圣吉勒姆-勒-德塞尔特是必游亮点，从蒙彼利埃驾车约45分钟可达。埃罗峡谷（Gorges de l'Hérault）夏季可游泳，是清凉消暑胜地。",
+      "en": "Saint-Guilhem-le-Désert is the unmissable highlight — 45 minutes by car from Montpellier. The Hérault River gorges are perfect for swimming in summer heat."
+    }
+  }
+]
+---

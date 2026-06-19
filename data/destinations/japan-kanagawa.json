@@ -1,170 +1,1221 @@
 [
   {
-    "id": "yokohama",
-    "name": { "zh": "横滨", "en": "Yokohama" },
-    "description": {
-      "zh": "横滨是日本第二大城市，1859年作为首批开放港口之一迎来西方文明，形成了独特的中西融合城市文化。中华街（中国城）是日本最大的唐人街，红砖仓库（赤レンガ倉庫）将明治时代的港口建筑改造为时尚购物与文化空间，港湾景色与未来港（みなとみらい）摩天大楼相映成趣。",
-      "en": "Yokohama, Japan's second-largest city, opened as one of the first treaty ports in 1859, developing a uniquely cosmopolitan culture. Chinatown is Japan's largest; the Red Brick Warehouse transforms Meiji-era port buildings into a shopping and events venue; and the Minato Mirai skyline reflects in the harbour waters."
+    "id": "meiji-no-mori-takao-quasi-national-park",
+    "name": {
+      "zh": "明治之森高尾国定公园",
+      "en": "Meiji no Mori Takao Quasi-National Park"
     },
-    "image": "https://picsum.photos/seed/yokohama-japan/800/500",
+    "description": {
+      "zh": "明治之森高尾国定公园是神奈川县的一处优美园林，巧妙融合了日本传统造园艺术，四季景色各异，是都市中难得的清幽休憩之地。",
+      "en": "Meiji no Mori Takao Quasi-National Park is a fine garden in Kanagawa Prefecture that elegantly incorporates traditional Japanese landscape design. The grounds transform with each season, offering a peaceful urban retreat."
+    },
+    "image": "https://picsum.photos/seed/meiji-no-mori-takao-quasi-national-park-japan/800/500",
     "tags": {
-      "zh": ["港口城市", "中华街", "历史"],
-      "en": ["Port City", "Chinatown", "History"]
+      "zh": [
+        "庭园",
+        "日式造园",
+        "自然"
+      ],
+      "en": [
+        "Garden",
+        "Japanese Landscaping",
+        "Nature"
+      ]
     },
     "location": {
-      "zh": "神奈川县横滨市",
-      "en": "Yokohama City, Kanagawa Prefecture"
+      "zh": "神奈川县",
+      "en": "Kanagawa Prefecture"
     },
     "subdivision": "kanagawa",
     "highlights": {
       "zh": [
-        "横滨中华街：日本最大中华街，600余家店铺，街头小吃与中华料理闻名全国",
-        "横滨赤レンガ倉庫：19世纪末建造的砖造仓库改建为文化商业综合体，定期举办露天活动",
-        "横滨天空缆车（YOKOHAMA AIR CABIN）：连接樱木町与运河公园，可从空中俯瞰港湾"
+        "四季景观：春樱夏绿秋枫冬雪，每个季节皆有迥异的园林之美",
+        "日式造园艺术：假山、石灯笼、锦鲤池等传统造园元素的精妙运用",
+        "都市绿洲：繁忙城市中难得的清幽空间，可静享片刻宁静"
       ],
       "en": [
-        "Yokohama Chinatown: Japan's largest with 600+ shops; street snacks and Chinese dining famous nationwide",
-        "Red Brick Warehouse: late 19th-century brick warehouses converted to a cultural-retail hub with regular outdoor events",
-        "Yokohama Air Cabin: urban gondola linking Sakuragicho to Canal Park with panoramic harbour views"
+        "Seasonal scenery: cherry blossoms in spring, greenery in summer, foliage in autumn and snow in winter",
+        "Japanese landscaping: artful use of rock arrangements, stone lanterns and koi ponds",
+        "Urban oasis: a rare tranquil retreat amid the busy city, ideal for a moment of calm"
       ]
     },
     "admission": {
-      "zh": "街区免费；横滨天空缆车单程约1,000日元",
-      "en": "Streets free; Air Cabin one-way ~¥1,000"
+      "zh": "约150—600日元（各园不同）",
+      "en": "Typically ¥150–600 depending on the garden"
     },
     "duration": {
-      "zh": "半天至一天",
-      "en": "Half to full day"
+      "zh": "1—2小时",
+      "en": "1–2 hours"
     },
     "tips": {
-      "zh": "从横滨站乘みなとみらい线4分钟至元町·中华街站，直接进入中华街。春节期间（1—2月）中华街举办大规模庆典活动，但也是全年最拥挤的时段。",
-      "en": "Take the Minatomirai Line 4 minutes from Yokohama station to Motomachi-Chukagai — you step straight into Chinatown. Chinese New Year (Jan–Feb) brings spectacular celebrations but also the year's biggest crowds."
+      "zh": "春季赏樱（3月底—4月初）和秋季赏枫（11月中旬）是最佳游览季节。",
+      "en": "Cherry blossom (late March–early April) and autumn foliage (mid-November) are the most rewarding seasons."
     }
   },
   {
-    "id": "kamakura",
-    "name": { "zh": "镰仓", "en": "Kamakura" },
-    "description": {
-      "zh": "镰仓曾是12—14世纪幕府将军的政治中心，留存了逾百座寺庙神社。镰仓大佛（高约13.35米的青铜阿弥陀如来坐像）是日本三大大佛之一，鹤冈八幡宫是镰仓最重要的神社。禅宗五山寺院群、明月院的绣球花和长谷寺的观音像均令访客流连。",
-      "en": "Kamakura served as Japan's political capital under the shoguns from the 12th to 14th centuries, leaving over a hundred temples and shrines. The Great Buddha (13.35 m bronze Amida) is one of Japan's three great daibutsu; Tsurugaoka Hachimangu is the city's most important shrine. The Zen Five-Mountain temple group, Meigetsu-in's hydrangeas and Hase-dera's Kannon statue complete the picture."
+    "id": "takaosan-yakuoin-yukiji-temple",
+    "name": {
+      "zh": "高尾山薬王院有喜寺",
+      "en": "Takaosan Yakuōin Yūkiji Temple"
     },
-    "image": "https://picsum.photos/seed/kamakura-japan/800/500",
+    "description": {
+      "zh": "高尾山薬王院有喜寺是神奈川县的著名寺庙，历史悠久，建筑风格独特，是欣赏日本传统佛教文化与寺院建筑的重要场所。",
+      "en": "Takaosan Yakuōin Yūkiji Temple is a celebrated Buddhist temple in Kanagawa Prefecture with a distinguished history and characteristic architecture, offering visitors an immersive experience of Japan's temple culture."
+    },
+    "image": "https://picsum.photos/seed/takaosan-yakuoin-yukiji-temple-japan/800/500",
     "tags": {
-      "zh": ["大佛", "禅宗", "历史"],
-      "en": ["Great Buddha", "Zen", "History"]
+      "zh": [
+        "寺庙",
+        "佛教",
+        "历史"
+      ],
+      "en": [
+        "Temple",
+        "Buddhism",
+        "Historic"
+      ]
     },
     "location": {
-      "zh": "神奈川县镰仓市",
-      "en": "Kamakura City, Kanagawa Prefecture"
+      "zh": "神奈川县",
+      "en": "Kanagawa Prefecture"
     },
     "subdivision": "kanagawa",
     "highlights": {
       "zh": [
-        "镰仓大佛（高徳院）：日本最著名的露天大佛，内部空心可进入参观",
-        "鹤冈八幡宫：镰仓幕府的守护神社，大石阶与源平池构成经典风景",
-        "禅宗寺院群：建长寺（日本禅宗最古老寺院）、圆觉寺（收藏国宝佛牙舍利）"
+        "本堂：供奉本尊的核心建筑，历史悠久，建筑气势恢宏",
+        "寺院庭园：精心营造的禅意园林，四季皆有不同景致",
+        "御守与朱印：集御朱印或购买专属御守留作纪念"
       ],
       "en": [
-        "Kotoku-in Great Buddha: Japan's most celebrated open-air daibutsu; you can enter the hollow interior",
-        "Tsurugaoka Hachimangu: the Kamakura shogunate's guardian shrine with its grand stone steps and twin ponds",
-        "Zen temple cluster: Kencho-ji (Japan's oldest Zen temple) and Engaku-ji (housing a National Treasure relic)"
+        "Main hall: the principal sanctuary enshrining the temple's deity — historic and impressive",
+        "Temple garden: a carefully composed garden offering different scenery through the seasons",
+        "Goshuin and omamori: collect a temple seal stamp or buy a protective charm as a memento"
       ]
     },
     "admission": {
-      "zh": "高徳院300日元；鹤冈八幡宫免费（宝物殿另收费）",
-      "en": "Kotoku-in ¥300; Tsurugaoka Hachimangu free (treasure hall extra)"
+      "zh": "因寺庙而异，约300—1,000日元",
+      "en": "Varies by temple; typically ¥300–1,000"
     },
     "duration": {
-      "zh": "半天至一天",
-      "en": "Half to full day"
+      "zh": "30分钟—1.5小时",
+      "en": "30 minutes–1.5 hours"
     },
     "tips": {
-      "zh": "从东京新宿乘湘南新宿线约55分钟至镰仓站。6月中上旬绣球花（紫阳花）季是明月院等地最美的时节，但需避开周末人潮。",
-      "en": "From Tokyo Shinjuku, take the Shonan-Shinjuku Line ~55 minutes to Kamakura. Early-to-mid June hydrangea season is magnificent at Meigetsu-in — but avoid weekends."
+      "zh": "注意寺庙的开放时间，大多数寺庙在傍晚4—5点关闭。",
+      "en": "Check closing times — most temples close at 4–5 pm."
     }
   },
   {
-    "id": "enoshima-island",
-    "name": { "zh": "江之岛", "en": "Enoshima Island" },
-    "description": {
-      "zh": "江之岛是相模湾上的一座小型陆连岛，以弁天信仰和海鲜美食著称，通过500米长的弁天桥与江之岛站相连。岛上的三大弁天神社（边津宫、中津宫、奥津宫）供奉日本三大弁天之一，穿越岩屋洞窟可到达面向富士山的绝美展望点。",
-      "en": "Enoshima is a small tidal island in Sagami Bay, renowned for its Benzaiten worship and seafood. A 500 m causeway connects it to Enoshima Station. Three Benzaiten sub-shrines (Hetsumiya, Nakatsumiya, Okitsumiya) enshrine one of Japan's three great Benzaiten goddesses; sea caves at the far end lead to a spectacular Mt Fuji viewpoint."
+    "id": "jusan-shu-miharashi-dai",
+    "name": {
+      "zh": "十三州大见晴台",
+      "en": "十三州大見晴台"
     },
-    "image": "https://picsum.photos/seed/enoshima-island-japan/800/500",
+    "description": {
+      "zh": "十三州大见晴台是神奈川县的著名地标，以其独特的建筑风格、历史文化意义或在城市生活中的重要地位而广为人知。",
+      "en": "十三州大見晴台 is a well-known landmark in Kanagawa Prefecture, distinguished by its unique architecture, historical significance or important role in the city's daily life."
+    },
+    "image": "https://picsum.photos/seed/jusan-shu-miharashi-dai-japan/800/500",
     "tags": {
-      "zh": ["岛屿", "神社", "海鲜"],
-      "en": ["Island", "Shrine", "Seafood"]
+      "zh": [
+        "地标",
+        "建筑",
+        "文化"
+      ],
+      "en": [
+        "Landmark",
+        "Architecture",
+        "Culture"
+      ]
     },
     "location": {
-      "zh": "神奈川县藤泽市江之岛",
-      "en": "Enoshima, Fujisawa City, Kanagawa Prefecture"
+      "zh": "神奈川县",
+      "en": "Kanagawa Prefecture"
     },
     "subdivision": "kanagawa",
     "highlights": {
       "zh": [
-        "弁天神社群：三座各具特色的小祠堂，供奉音乐、财富与海上安全女神",
-        "岩屋洞窟：延伸入悬崖的天然岩洞，最深处可眺望富士山与夕阳",
-        "江之岛シーキャンドル（海蜡烛）：60米高展望灯塔，360°一览相模湾与富士山"
+        "建筑外观：独具匠心的建筑立面与设计，是城市天际线的重要组成部分",
+        "历史文化意义：建筑背后承载着丰富的历史故事与文化内涵",
+        "周边探索：地标周边通常聚集了丰富的餐饮、购物与文化资源"
       ],
       "en": [
-        "Three Benzaiten shrine precincts: each with distinct character, enshrining the goddess of music, wealth and maritime safety",
-        "Iwaya Caves: natural sea caves carved into the cliffs, with a Mt Fuji viewpoint at the far end",
-        "Enoshima Sea Candle: 60 m observation lighthouse with 360° views of Sagami Bay and Mt Fuji"
+        "Architecture: a distinctive facade and design that contributes to the city skyline",
+        "Historical and cultural significance: the landmark carries a rich history and cultural story",
+        "Surroundings: the area around the landmark typically offers plentiful dining, shopping and cultural resources"
       ]
     },
     "admission": {
-      "zh": "神社免费；岩屋洞窟500日元；Sea Candle约500日元",
-      "en": "Shrines free; Iwaya Caves ¥500; Sea Candle ~¥500"
+      "zh": "外观参观免费；内部设施视情况而定",
+      "en": "Exterior viewing free; interior facilities vary"
     },
     "duration": {
-      "zh": "半天",
-      "en": "Half day"
+      "zh": "30分钟—1小时",
+      "en": "30 minutes–1 hour"
     },
     "tips": {
-      "zh": "从镰仓乘江之岛电铁（江ノ電）约25分钟至江之岛站。岛内商店街售卖生蚝、章鱼串等新鲜海鲜，是神奈川著名的海鲜小食街。",
-      "en": "From Kamakura, take the Enoshima Electric Railway (Enoden) ~25 minutes to Enoshima station. The island's Nakamise shopping street is famous for fresh oysters, octopus skewers and other Shonan seafood snacks."
+      "zh": "结合周边其他景点规划行程，可大幅提高游览效率。",
+      "en": "Combine with nearby sights for an efficient itinerary."
     }
   },
   {
-    "id": "hakone",
-    "name": { "zh": "箱根", "en": "Hakone" },
-    "description": {
-      "zh": "箱根是东京近郊最负盛名的温泉度假胜地，凭借芦之湖倒映富士山的绝美画面享誉世界。这一地区囊括了温泉、火山大涌谷、开放式露天美术馆、芦之湖游船以及连接各景点的山岳铁路环线，可消磨一至两天。",
-      "en": "Hakone is the premier mountain-resort destination near Tokyo, world-famous for its reflection of Mt Fuji in Lake Ashi. The region combines hot springs, the volcanic Owakudani valley, the Hakone Open-Air Museum, a lake cruise and the winding Hakone Tozan mountain railway loop — easily worth one to two days."
+    "id": "sanrio-puroland",
+    "name": {
+      "zh": "三丽鸥彩虹乐园",
+      "en": "Sanrio Puroland"
     },
-    "image": "https://picsum.photos/seed/hakone-japan/800/500",
+    "description": {
+      "zh": "三丽鸥彩虹乐园是神奈川县的人气娱乐设施，深受各年龄层游客喜爱，融合了沉浸式体验、互动游乐与主题文化于一体。",
+      "en": "Sanrio Puroland is a popular entertainment destination in Kanagawa Prefecture, beloved by visitors of all ages, combining immersive experiences, interactive attractions and themed culture."
+    },
+    "image": "https://picsum.photos/seed/sanrio-puroland-japan/800/500",
     "tags": {
-      "zh": ["温泉", "富士山展望", "自然"],
-      "en": ["Onsen", "Mt Fuji View", "Nature"]
+      "zh": [
+        "娱乐",
+        "主题乐园",
+        "亲子"
+      ],
+      "en": [
+        "Entertainment",
+        "Theme Park",
+        "Family"
+      ]
     },
     "location": {
-      "zh": "神奈川县足柄下郡箱根町",
-      "en": "Hakone, Ashigarashimo, Kanagawa Prefecture"
+      "zh": "神奈川县",
+      "en": "Kanagawa Prefecture"
     },
     "subdivision": "kanagawa",
     "highlights": {
       "zh": [
-        "芦之湖：湖面映出富士山倒影（晴天），湖上运行海盗船观光游览",
-        "大涌谷：火山活跃地带，硫黄气孔与黑玉子（温泉煮黑色鸡蛋）是标志性体验",
-        "箱根彫刻の森美术馆：户外展示毕加索等名家雕塑，与自然山景融为一体"
+        "核心体验：沉浸式的娱乐设施与互动体验，让每一位访客都能全情投入",
+        "主题特色：独特的主题设计贯穿整个园区，打造完整的沉浸式世界",
+        "周边商品：丰富的主题商品与限定纪念品，是难忘旅程的绝佳纪念"
       ],
       "en": [
-        "Lake Ashi: famous for its Mt Fuji reflection on calm days; pirate-ship sightseeing boats operate on the lake",
-        "Owakudani: active volcanic valley with steaming vents and the famous black 'kuro-tamago' eggs boiled in sulfur springs",
-        "Hakone Open-Air Museum: outdoor sculptures by Picasso and other masters set against mountain scenery"
+        "Core experience: immersive attractions and interactive facilities that fully engage visitors",
+        "Themed design: a distinctive theme permeates the entire venue, creating a complete immersive world",
+        "Merchandise: themed goods and limited souvenirs make for memorable mementos"
       ]
     },
     "admission": {
-      "zh": "箱根自由通（Hakone Free Pass）约6,100日元，涵盖大多数交通及景点折扣",
-      "en": "Hakone Free Pass ~¥6,100 covers most transport and gives attraction discounts"
+      "zh": "因场馆而异，约1,000—9,000日元",
+      "en": "Varies widely; typically ¥1,000–9,000"
     },
     "duration": {
-      "zh": "一天至两天",
-      "en": "One to two days"
+      "zh": "2—5小时",
+      "en": "2–5 hours"
     },
     "tips": {
-      "zh": "从新宿乘小田急浪漫特快（ロマンスカー）约85分钟直达箱根汤本，景色极佳，需提前预约座位。建议购买箱根自由通覆盖山岳铁路、缆车、芦之湖游船等多种交通。",
-      "en": "Take the Odakyu Romancecar from Shinjuku (~85 min to Hakone-Yumoto) — a scenic ride worth pre-booking. The Hakone Free Pass covers the mountain railway, ropeway, lake cruise and more."
+      "zh": "热门设施建议提前网上预约，节假日与周末人流量较大。",
+      "en": "Advance online booking is recommended for popular attractions, especially on weekends and holidays."
+    }
+  },
+  {
+    "id": "fujiko-f-fujio-museum",
+    "name": {
+      "zh": "哆啦A梦博物馆",
+      "en": "Fujiko · F · Fujio Museum"
+    },
+    "description": {
+      "zh": "哆啦A梦博物馆是神奈川县的著名博物馆，以其丰富的馆藏和精心的展陈方式著称，是了解相关历史文化与艺术的重要窗口。",
+      "en": "Fujiko · F · Fujio Museum is a celebrated museum in Kanagawa Prefecture, renowned for its impressive collections and thoughtful exhibitions, providing an important window into history, culture and art."
+    },
+    "image": "https://picsum.photos/seed/fujiko-f-fujio-museum-japan/800/500",
+    "tags": {
+      "zh": [
+        "博物馆",
+        "展览",
+        "文化"
+      ],
+      "en": [
+        "Museum",
+        "Exhibition",
+        "Culture"
+      ]
+    },
+    "location": {
+      "zh": "神奈川县",
+      "en": "Kanagawa Prefecture"
+    },
+    "subdivision": "kanagawa",
+    "highlights": {
+      "zh": [
+        "核心展览：精选馆藏精品，深入展现相关主题的历史脉络与文化内涵",
+        "建筑空间：博物馆建筑本身亦是值得欣赏的设计作品",
+        "特别展览：定期举办高水准的临时特展，为常规馆藏带来新的维度"
+      ],
+      "en": [
+        "Core collection: carefully curated highlights tracing the historical and cultural threads of the museum's theme",
+        "Architecture: the museum building itself is often a significant design achievement worth appreciating",
+        "Special exhibitions: periodic high-quality temporary shows add new dimensions to the permanent collection"
+      ]
+    },
+    "admission": {
+      "zh": "约500—2,000日元（各馆不同）",
+      "en": "Typically ¥500–2,000 depending on the museum"
+    },
+    "duration": {
+      "zh": "1—3小时",
+      "en": "1–3 hours"
+    },
+    "tips": {
+      "zh": "提前在官网确认开放时间与特别展览信息，部分博物馆周一闭馆。",
+      "en": "Check the official website for opening hours and special exhibitions — many museums close on Mondays."
+    }
+  },
+  {
+    "id": "kamakura-high-school",
+    "name": {
+      "zh": "镰仓高等学校",
+      "en": "Kamakura High School"
+    },
+    "description": {
+      "zh": "镰仓高等学校是神奈川县的著名地标，以其独特的建筑风格、历史文化意义或在城市生活中的重要地位而广为人知。",
+      "en": "Kamakura High School is a well-known landmark in Kanagawa Prefecture, distinguished by its unique architecture, historical significance or important role in the city's daily life."
+    },
+    "image": "https://picsum.photos/seed/kamakura-high-school-japan/800/500",
+    "tags": {
+      "zh": [
+        "地标",
+        "建筑",
+        "文化"
+      ],
+      "en": [
+        "Landmark",
+        "Architecture",
+        "Culture"
+      ]
+    },
+    "location": {
+      "zh": "神奈川县",
+      "en": "Kanagawa Prefecture"
+    },
+    "subdivision": "kanagawa",
+    "highlights": {
+      "zh": [
+        "建筑外观：独具匠心的建筑立面与设计，是城市天际线的重要组成部分",
+        "历史文化意义：建筑背后承载着丰富的历史故事与文化内涵",
+        "周边探索：地标周边通常聚集了丰富的餐饮、购物与文化资源"
+      ],
+      "en": [
+        "Architecture: a distinctive facade and design that contributes to the city skyline",
+        "Historical and cultural significance: the landmark carries a rich history and cultural story",
+        "Surroundings: the area around the landmark typically offers plentiful dining, shopping and cultural resources"
+      ]
+    },
+    "admission": {
+      "zh": "外观参观免费；内部设施视情况而定",
+      "en": "Exterior viewing free; interior facilities vary"
+    },
+    "duration": {
+      "zh": "30分钟—1小时",
+      "en": "30 minutes–1 hour"
+    },
+    "tips": {
+      "zh": "结合周边其他景点规划行程，可大幅提高游览效率。",
+      "en": "Combine with nearby sights for an efficient itinerary."
+    }
+  },
+  {
+    "id": "kamakurakoko-mae-station",
+    "name": {
+      "zh": "镰仓高校前站",
+      "en": "Kamakurakōkō-Mae Station"
+    },
+    "description": {
+      "zh": "镰仓高校前站是神奈川县的著名地标，以其独特的建筑风格、历史文化意义或在城市生活中的重要地位而广为人知。",
+      "en": "Kamakurakōkō-Mae Station is a well-known landmark in Kanagawa Prefecture, distinguished by its unique architecture, historical significance or important role in the city's daily life."
+    },
+    "image": "https://picsum.photos/seed/kamakurakoko-mae-station-japan/800/500",
+    "tags": {
+      "zh": [
+        "地标",
+        "建筑",
+        "文化"
+      ],
+      "en": [
+        "Landmark",
+        "Architecture",
+        "Culture"
+      ]
+    },
+    "location": {
+      "zh": "神奈川县",
+      "en": "Kanagawa Prefecture"
+    },
+    "subdivision": "kanagawa",
+    "highlights": {
+      "zh": [
+        "建筑外观：独具匠心的建筑立面与设计，是城市天际线的重要组成部分",
+        "历史文化意义：建筑背后承载着丰富的历史故事与文化内涵",
+        "周边探索：地标周边通常聚集了丰富的餐饮、购物与文化资源"
+      ],
+      "en": [
+        "Architecture: a distinctive facade and design that contributes to the city skyline",
+        "Historical and cultural significance: the landmark carries a rich history and cultural story",
+        "Surroundings: the area around the landmark typically offers plentiful dining, shopping and cultural resources"
+      ]
+    },
+    "admission": {
+      "zh": "外观参观免费；内部设施视情况而定",
+      "en": "Exterior viewing free; interior facilities vary"
+    },
+    "duration": {
+      "zh": "30分钟—1小时",
+      "en": "30 minutes–1 hour"
+    },
+    "tips": {
+      "zh": "结合周边其他景点规划行程，可大幅提高游览效率。",
+      "en": "Combine with nearby sights for an efficient itinerary."
+    }
+  },
+  {
+    "id": "hakone-yumoto-station",
+    "name": {
+      "zh": "箱根汤本站",
+      "en": "Hakone-Yumoto Station"
+    },
+    "description": {
+      "zh": "箱根汤本站是神奈川县的著名地标，以其独特的建筑风格、历史文化意义或在城市生活中的重要地位而广为人知。",
+      "en": "Hakone-Yumoto Station is a well-known landmark in Kanagawa Prefecture, distinguished by its unique architecture, historical significance or important role in the city's daily life."
+    },
+    "image": "https://picsum.photos/seed/hakone-yumoto-station-japan/800/500",
+    "tags": {
+      "zh": [
+        "地标",
+        "建筑",
+        "文化"
+      ],
+      "en": [
+        "Landmark",
+        "Architecture",
+        "Culture"
+      ]
+    },
+    "location": {
+      "zh": "神奈川县",
+      "en": "Kanagawa Prefecture"
+    },
+    "subdivision": "kanagawa",
+    "highlights": {
+      "zh": [
+        "建筑外观：独具匠心的建筑立面与设计，是城市天际线的重要组成部分",
+        "历史文化意义：建筑背后承载着丰富的历史故事与文化内涵",
+        "周边探索：地标周边通常聚集了丰富的餐饮、购物与文化资源"
+      ],
+      "en": [
+        "Architecture: a distinctive facade and design that contributes to the city skyline",
+        "Historical and cultural significance: the landmark carries a rich history and cultural story",
+        "Surroundings: the area around the landmark typically offers plentiful dining, shopping and cultural resources"
+      ]
+    },
+    "admission": {
+      "zh": "外观参观免费；内部设施视情况而定",
+      "en": "Exterior viewing free; interior facilities vary"
+    },
+    "duration": {
+      "zh": "30分钟—1小时",
+      "en": "30 minutes–1 hour"
+    },
+    "tips": {
+      "zh": "结合周边其他景点规划行程，可大幅提高游览效率。",
+      "en": "Combine with nearby sights for an efficient itinerary."
+    }
+  },
+  {
+    "id": "yokohama-chinatown",
+    "name": {
+      "zh": "横滨中华街",
+      "en": "Yokohama Chinatown"
+    },
+    "description": {
+      "zh": "横滨中华街是神奈川县的著名地标，以其独特的建筑风格、历史文化意义或在城市生活中的重要地位而广为人知。",
+      "en": "Yokohama Chinatown is a well-known landmark in Kanagawa Prefecture, distinguished by its unique architecture, historical significance or important role in the city's daily life."
+    },
+    "image": "https://picsum.photos/seed/yokohama-chinatown-japan/800/500",
+    "tags": {
+      "zh": [
+        "地标",
+        "建筑",
+        "文化"
+      ],
+      "en": [
+        "Landmark",
+        "Architecture",
+        "Culture"
+      ]
+    },
+    "location": {
+      "zh": "神奈川县",
+      "en": "Kanagawa Prefecture"
+    },
+    "subdivision": "kanagawa",
+    "highlights": {
+      "zh": [
+        "建筑外观：独具匠心的建筑立面与设计，是城市天际线的重要组成部分",
+        "历史文化意义：建筑背后承载着丰富的历史故事与文化内涵",
+        "周边探索：地标周边通常聚集了丰富的餐饮、购物与文化资源"
+      ],
+      "en": [
+        "Architecture: a distinctive facade and design that contributes to the city skyline",
+        "Historical and cultural significance: the landmark carries a rich history and cultural story",
+        "Surroundings: the area around the landmark typically offers plentiful dining, shopping and cultural resources"
+      ]
+    },
+    "admission": {
+      "zh": "外观参观免费；内部设施视情况而定",
+      "en": "Exterior viewing free; interior facilities vary"
+    },
+    "duration": {
+      "zh": "30分钟—1小时",
+      "en": "30 minutes–1 hour"
+    },
+    "tips": {
+      "zh": "结合周边其他景点规划行程，可大幅提高游览效率。",
+      "en": "Combine with nearby sights for an efficient itinerary."
+    }
+  },
+  {
+    "id": "motomachi",
+    "name": {
+      "zh": "横滨元町",
+      "en": "Motomachi"
+    },
+    "description": {
+      "zh": "横滨元町是神奈川县的著名地标，以其独特的建筑风格、历史文化意义或在城市生活中的重要地位而广为人知。",
+      "en": "Motomachi is a well-known landmark in Kanagawa Prefecture, distinguished by its unique architecture, historical significance or important role in the city's daily life."
+    },
+    "image": "https://picsum.photos/seed/motomachi-japan/800/500",
+    "tags": {
+      "zh": [
+        "地标",
+        "建筑",
+        "文化"
+      ],
+      "en": [
+        "Landmark",
+        "Architecture",
+        "Culture"
+      ]
+    },
+    "location": {
+      "zh": "神奈川县",
+      "en": "Kanagawa Prefecture"
+    },
+    "subdivision": "kanagawa",
+    "highlights": {
+      "zh": [
+        "建筑外观：独具匠心的建筑立面与设计，是城市天际线的重要组成部分",
+        "历史文化意义：建筑背后承载着丰富的历史故事与文化内涵",
+        "周边探索：地标周边通常聚集了丰富的餐饮、购物与文化资源"
+      ],
+      "en": [
+        "Architecture: a distinctive facade and design that contributes to the city skyline",
+        "Historical and cultural significance: the landmark carries a rich history and cultural story",
+        "Surroundings: the area around the landmark typically offers plentiful dining, shopping and cultural resources"
+      ]
+    },
+    "admission": {
+      "zh": "外观参观免费；内部设施视情况而定",
+      "en": "Exterior viewing free; interior facilities vary"
+    },
+    "duration": {
+      "zh": "30分钟—1小时",
+      "en": "30 minutes–1 hour"
+    },
+    "tips": {
+      "zh": "结合周边其他景点规划行程，可大幅提高游览效率。",
+      "en": "Combine with nearby sights for an efficient itinerary."
+    }
+  },
+  {
+    "id": "yamatecho",
+    "name": {
+      "zh": "横滨山手町",
+      "en": "Yamatecho"
+    },
+    "description": {
+      "zh": "横滨山手町是神奈川县的著名地标，以其独特的建筑风格、历史文化意义或在城市生活中的重要地位而广为人知。",
+      "en": "Yamatecho is a well-known landmark in Kanagawa Prefecture, distinguished by its unique architecture, historical significance or important role in the city's daily life."
+    },
+    "image": "https://picsum.photos/seed/yamatecho-japan/800/500",
+    "tags": {
+      "zh": [
+        "地标",
+        "建筑",
+        "文化"
+      ],
+      "en": [
+        "Landmark",
+        "Architecture",
+        "Culture"
+      ]
+    },
+    "location": {
+      "zh": "神奈川县",
+      "en": "Kanagawa Prefecture"
+    },
+    "subdivision": "kanagawa",
+    "highlights": {
+      "zh": [
+        "建筑外观：独具匠心的建筑立面与设计，是城市天际线的重要组成部分",
+        "历史文化意义：建筑背后承载着丰富的历史故事与文化内涵",
+        "周边探索：地标周边通常聚集了丰富的餐饮、购物与文化资源"
+      ],
+      "en": [
+        "Architecture: a distinctive facade and design that contributes to the city skyline",
+        "Historical and cultural significance: the landmark carries a rich history and cultural story",
+        "Surroundings: the area around the landmark typically offers plentiful dining, shopping and cultural resources"
+      ]
+    },
+    "admission": {
+      "zh": "外观参观免费；内部设施视情况而定",
+      "en": "Exterior viewing free; interior facilities vary"
+    },
+    "duration": {
+      "zh": "30分钟—1小时",
+      "en": "30 minutes–1 hour"
+    },
+    "tips": {
+      "zh": "结合周边其他景点规划行程，可大幅提高游览效率。",
+      "en": "Combine with nearby sights for an efficient itinerary."
+    }
+  },
+  {
+    "id": "yokohama-red-brick-warehouse",
+    "name": {
+      "zh": "横滨红砖仓库",
+      "en": "Yokohama Red Brick Warehouse"
+    },
+    "description": {
+      "zh": "横滨红砖仓库是神奈川县的著名地标，以其独特的建筑风格、历史文化意义或在城市生活中的重要地位而广为人知。",
+      "en": "Yokohama Red Brick Warehouse is a well-known landmark in Kanagawa Prefecture, distinguished by its unique architecture, historical significance or important role in the city's daily life."
+    },
+    "image": "https://picsum.photos/seed/yokohama-red-brick-warehouse-japan/800/500",
+    "tags": {
+      "zh": [
+        "地标",
+        "建筑",
+        "文化"
+      ],
+      "en": [
+        "Landmark",
+        "Architecture",
+        "Culture"
+      ]
+    },
+    "location": {
+      "zh": "神奈川县",
+      "en": "Kanagawa Prefecture"
+    },
+    "subdivision": "kanagawa",
+    "highlights": {
+      "zh": [
+        "建筑外观：独具匠心的建筑立面与设计，是城市天际线的重要组成部分",
+        "历史文化意义：建筑背后承载着丰富的历史故事与文化内涵",
+        "周边探索：地标周边通常聚集了丰富的餐饮、购物与文化资源"
+      ],
+      "en": [
+        "Architecture: a distinctive facade and design that contributes to the city skyline",
+        "Historical and cultural significance: the landmark carries a rich history and cultural story",
+        "Surroundings: the area around the landmark typically offers plentiful dining, shopping and cultural resources"
+      ]
+    },
+    "admission": {
+      "zh": "外观参观免费；内部设施视情况而定",
+      "en": "Exterior viewing free; interior facilities vary"
+    },
+    "duration": {
+      "zh": "30分钟—1小时",
+      "en": "30 minutes–1 hour"
+    },
+    "tips": {
+      "zh": "结合周边其他景点规划行程，可大幅提高游览效率。",
+      "en": "Combine with nearby sights for an efficient itinerary."
+    }
+  },
+  {
+    "id": "yokohama-bay-bridge",
+    "name": {
+      "zh": "横滨海湾大桥",
+      "en": "Yokohama Bay Bridge"
+    },
+    "description": {
+      "zh": "横滨海湾大桥是神奈川县的著名地标，以其独特的建筑风格、历史文化意义或在城市生活中的重要地位而广为人知。",
+      "en": "Yokohama Bay Bridge is a well-known landmark in Kanagawa Prefecture, distinguished by its unique architecture, historical significance or important role in the city's daily life."
+    },
+    "image": "https://picsum.photos/seed/yokohama-bay-bridge-japan/800/500",
+    "tags": {
+      "zh": [
+        "地标",
+        "建筑",
+        "文化"
+      ],
+      "en": [
+        "Landmark",
+        "Architecture",
+        "Culture"
+      ]
+    },
+    "location": {
+      "zh": "神奈川县",
+      "en": "Kanagawa Prefecture"
+    },
+    "subdivision": "kanagawa",
+    "highlights": {
+      "zh": [
+        "建筑外观：独具匠心的建筑立面与设计，是城市天际线的重要组成部分",
+        "历史文化意义：建筑背后承载着丰富的历史故事与文化内涵",
+        "周边探索：地标周边通常聚集了丰富的餐饮、购物与文化资源"
+      ],
+      "en": [
+        "Architecture: a distinctive facade and design that contributes to the city skyline",
+        "Historical and cultural significance: the landmark carries a rich history and cultural story",
+        "Surroundings: the area around the landmark typically offers plentiful dining, shopping and cultural resources"
+      ]
+    },
+    "admission": {
+      "zh": "外观参观免费；内部设施视情况而定",
+      "en": "Exterior viewing free; interior facilities vary"
+    },
+    "duration": {
+      "zh": "30分钟—1小时",
+      "en": "30 minutes–1 hour"
+    },
+    "tips": {
+      "zh": "结合周边其他景点规划行程，可大幅提高游览效率。",
+      "en": "Combine with nearby sights for an efficient itinerary."
+    }
+  },
+  {
+    "id": "yokohama-air-cabin-sakuragicho-station",
+    "name": {
+      "zh": "横滨空中缆车樱木町站",
+      "en": "YOKOHAMA AIR CABIN Sakuragicho Station"
+    },
+    "description": {
+      "zh": "横滨空中缆车樱木町站是神奈川县的著名地标，以其独特的建筑风格、历史文化意义或在城市生活中的重要地位而广为人知。",
+      "en": "YOKOHAMA AIR CABIN Sakuragicho Station is a well-known landmark in Kanagawa Prefecture, distinguished by its unique architecture, historical significance or important role in the city's daily life."
+    },
+    "image": "https://picsum.photos/seed/yokohama-air-cabin-sakuragicho-station-japan/800/500",
+    "tags": {
+      "zh": [
+        "地标",
+        "建筑",
+        "文化"
+      ],
+      "en": [
+        "Landmark",
+        "Architecture",
+        "Culture"
+      ]
+    },
+    "location": {
+      "zh": "神奈川县",
+      "en": "Kanagawa Prefecture"
+    },
+    "subdivision": "kanagawa",
+    "highlights": {
+      "zh": [
+        "建筑外观：独具匠心的建筑立面与设计，是城市天际线的重要组成部分",
+        "历史文化意义：建筑背后承载着丰富的历史故事与文化内涵",
+        "周边探索：地标周边通常聚集了丰富的餐饮、购物与文化资源"
+      ],
+      "en": [
+        "Architecture: a distinctive facade and design that contributes to the city skyline",
+        "Historical and cultural significance: the landmark carries a rich history and cultural story",
+        "Surroundings: the area around the landmark typically offers plentiful dining, shopping and cultural resources"
+      ]
+    },
+    "admission": {
+      "zh": "外观参观免费；内部设施视情况而定",
+      "en": "Exterior viewing free; interior facilities vary"
+    },
+    "duration": {
+      "zh": "30分钟—1小时",
+      "en": "30 minutes–1 hour"
+    },
+    "tips": {
+      "zh": "结合周边其他景点规划行程，可大幅提高游览效率。",
+      "en": "Combine with nearby sights for an efficient itinerary."
+    }
+  },
+  {
+    "id": "hase-temple",
+    "name": {
+      "zh": "长谷寺",
+      "en": "Hase Temple"
+    },
+    "description": {
+      "zh": "长谷寺是神奈川县的著名寺庙，历史悠久，建筑风格独特，是欣赏日本传统佛教文化与寺院建筑的重要场所。",
+      "en": "Hase Temple is a celebrated Buddhist temple in Kanagawa Prefecture with a distinguished history and characteristic architecture, offering visitors an immersive experience of Japan's temple culture."
+    },
+    "image": "https://picsum.photos/seed/hase-temple-japan/800/500",
+    "tags": {
+      "zh": [
+        "寺庙",
+        "佛教",
+        "历史"
+      ],
+      "en": [
+        "Temple",
+        "Buddhism",
+        "Historic"
+      ]
+    },
+    "location": {
+      "zh": "神奈川县",
+      "en": "Kanagawa Prefecture"
+    },
+    "subdivision": "kanagawa",
+    "highlights": {
+      "zh": [
+        "本堂：供奉本尊的核心建筑，历史悠久，建筑气势恢宏",
+        "寺院庭园：精心营造的禅意园林，四季皆有不同景致",
+        "御守与朱印：集御朱印或购买专属御守留作纪念"
+      ],
+      "en": [
+        "Main hall: the principal sanctuary enshrining the temple's deity — historic and impressive",
+        "Temple garden: a carefully composed garden offering different scenery through the seasons",
+        "Goshuin and omamori: collect a temple seal stamp or buy a protective charm as a memento"
+      ]
+    },
+    "admission": {
+      "zh": "因寺庙而异，约300—1,000日元",
+      "en": "Varies by temple; typically ¥300–1,000"
+    },
+    "duration": {
+      "zh": "30分钟—1.5小时",
+      "en": "30 minutes–1.5 hours"
+    },
+    "tips": {
+      "zh": "注意寺庙的开放时间，大多数寺庙在傍晚4—5点关闭。",
+      "en": "Check closing times — most temples close at 4–5 pm."
+    }
+  },
+  {
+    "id": "houkokuji",
+    "name": {
+      "zh": "报国寺",
+      "en": "Houkokuji"
+    },
+    "description": {
+      "zh": "报国寺是神奈川县的著名寺庙，历史悠久，建筑风格独特，是欣赏日本传统佛教文化与寺院建筑的重要场所。",
+      "en": "Houkokuji is a celebrated Buddhist temple in Kanagawa Prefecture with a distinguished history and characteristic architecture, offering visitors an immersive experience of Japan's temple culture."
+    },
+    "image": "https://picsum.photos/seed/houkokuji-japan/800/500",
+    "tags": {
+      "zh": [
+        "寺庙",
+        "佛教",
+        "历史"
+      ],
+      "en": [
+        "Temple",
+        "Buddhism",
+        "Historic"
+      ]
+    },
+    "location": {
+      "zh": "神奈川县",
+      "en": "Kanagawa Prefecture"
+    },
+    "subdivision": "kanagawa",
+    "highlights": {
+      "zh": [
+        "本堂：供奉本尊的核心建筑，历史悠久，建筑气势恢宏",
+        "寺院庭园：精心营造的禅意园林，四季皆有不同景致",
+        "御守与朱印：集御朱印或购买专属御守留作纪念"
+      ],
+      "en": [
+        "Main hall: the principal sanctuary enshrining the temple's deity — historic and impressive",
+        "Temple garden: a carefully composed garden offering different scenery through the seasons",
+        "Goshuin and omamori: collect a temple seal stamp or buy a protective charm as a memento"
+      ]
+    },
+    "admission": {
+      "zh": "因寺庙而异，约300—1,000日元",
+      "en": "Varies by temple; typically ¥300–1,000"
+    },
+    "duration": {
+      "zh": "30分钟—1.5小时",
+      "en": "30 minutes–1.5 hours"
+    },
+    "tips": {
+      "zh": "注意寺庙的开放时间，大多数寺庙在傍晚4—5点关闭。",
+      "en": "Check closing times — most temples close at 4–5 pm."
+    }
+  },
+  {
+    "id": "kotoku-in",
+    "name": {
+      "zh": "高德院（镰仓大佛）",
+      "en": "Kotoku-in"
+    },
+    "description": {
+      "zh": "高德院（镰仓大佛）是神奈川县的著名寺庙，历史悠久，建筑风格独特，是欣赏日本传统佛教文化与寺院建筑的重要场所。",
+      "en": "Kotoku-in is a celebrated Buddhist temple in Kanagawa Prefecture with a distinguished history and characteristic architecture, offering visitors an immersive experience of Japan's temple culture."
+    },
+    "image": "https://picsum.photos/seed/kotoku-in-japan/800/500",
+    "tags": {
+      "zh": [
+        "寺庙",
+        "佛教",
+        "历史"
+      ],
+      "en": [
+        "Temple",
+        "Buddhism",
+        "Historic"
+      ]
+    },
+    "location": {
+      "zh": "神奈川县",
+      "en": "Kanagawa Prefecture"
+    },
+    "subdivision": "kanagawa",
+    "highlights": {
+      "zh": [
+        "本堂：供奉本尊的核心建筑，历史悠久，建筑气势恢宏",
+        "寺院庭园：精心营造的禅意园林，四季皆有不同景致",
+        "御守与朱印：集御朱印或购买专属御守留作纪念"
+      ],
+      "en": [
+        "Main hall: the principal sanctuary enshrining the temple's deity — historic and impressive",
+        "Temple garden: a carefully composed garden offering different scenery through the seasons",
+        "Goshuin and omamori: collect a temple seal stamp or buy a protective charm as a memento"
+      ]
+    },
+    "admission": {
+      "zh": "因寺庙而异，约300—1,000日元",
+      "en": "Varies by temple; typically ¥300–1,000"
+    },
+    "duration": {
+      "zh": "30分钟—1.5小时",
+      "en": "30 minutes–1.5 hours"
+    },
+    "tips": {
+      "zh": "注意寺庙的开放时间，大多数寺庙在傍晚4—5点关闭。",
+      "en": "Check closing times — most temples close at 4–5 pm."
+    }
+  },
+  {
+    "id": "meigetsu-in",
+    "name": {
+      "zh": "明月院",
+      "en": "Meigetsu-in"
+    },
+    "description": {
+      "zh": "明月院是神奈川县的著名地标，以其独特的建筑风格、历史文化意义或在城市生活中的重要地位而广为人知。",
+      "en": "Meigetsu-in is a well-known landmark in Kanagawa Prefecture, distinguished by its unique architecture, historical significance or important role in the city's daily life."
+    },
+    "image": "https://picsum.photos/seed/meigetsu-in-japan/800/500",
+    "tags": {
+      "zh": [
+        "地标",
+        "建筑",
+        "文化"
+      ],
+      "en": [
+        "Landmark",
+        "Architecture",
+        "Culture"
+      ]
+    },
+    "location": {
+      "zh": "神奈川县",
+      "en": "Kanagawa Prefecture"
+    },
+    "subdivision": "kanagawa",
+    "highlights": {
+      "zh": [
+        "建筑外观：独具匠心的建筑立面与设计，是城市天际线的重要组成部分",
+        "历史文化意义：建筑背后承载着丰富的历史故事与文化内涵",
+        "周边探索：地标周边通常聚集了丰富的餐饮、购物与文化资源"
+      ],
+      "en": [
+        "Architecture: a distinctive facade and design that contributes to the city skyline",
+        "Historical and cultural significance: the landmark carries a rich history and cultural story",
+        "Surroundings: the area around the landmark typically offers plentiful dining, shopping and cultural resources"
+      ]
+    },
+    "admission": {
+      "zh": "外观参观免费；内部设施视情况而定",
+      "en": "Exterior viewing free; interior facilities vary"
+    },
+    "duration": {
+      "zh": "30分钟—1小时",
+      "en": "30 minutes–1 hour"
+    },
+    "tips": {
+      "zh": "结合周边其他景点规划行程，可大幅提高游览效率。",
+      "en": "Combine with nearby sights for an efficient itinerary."
+    }
+  },
+  {
+    "id": "kencho-ji",
+    "name": {
+      "zh": "建长寺",
+      "en": "Kenchō-ji"
+    },
+    "description": {
+      "zh": "建长寺是神奈川县的著名寺庙，历史悠久，建筑风格独特，是欣赏日本传统佛教文化与寺院建筑的重要场所。",
+      "en": "Kenchō-ji is a celebrated Buddhist temple in Kanagawa Prefecture with a distinguished history and characteristic architecture, offering visitors an immersive experience of Japan's temple culture."
+    },
+    "image": "https://picsum.photos/seed/kencho-ji-japan/800/500",
+    "tags": {
+      "zh": [
+        "寺庙",
+        "佛教",
+        "历史"
+      ],
+      "en": [
+        "Temple",
+        "Buddhism",
+        "Historic"
+      ]
+    },
+    "location": {
+      "zh": "神奈川县",
+      "en": "Kanagawa Prefecture"
+    },
+    "subdivision": "kanagawa",
+    "highlights": {
+      "zh": [
+        "本堂：供奉本尊的核心建筑，历史悠久，建筑气势恢宏",
+        "寺院庭园：精心营造的禅意园林，四季皆有不同景致",
+        "御守与朱印：集御朱印或购买专属御守留作纪念"
+      ],
+      "en": [
+        "Main hall: the principal sanctuary enshrining the temple's deity — historic and impressive",
+        "Temple garden: a carefully composed garden offering different scenery through the seasons",
+        "Goshuin and omamori: collect a temple seal stamp or buy a protective charm as a memento"
+      ]
+    },
+    "admission": {
+      "zh": "因寺庙而异，约300—1,000日元",
+      "en": "Varies by temple; typically ¥300–1,000"
+    },
+    "duration": {
+      "zh": "30分钟—1.5小时",
+      "en": "30 minutes–1.5 hours"
+    },
+    "tips": {
+      "zh": "注意寺庙的开放时间，大多数寺庙在傍晚4—5点关闭。",
+      "en": "Check closing times — most temples close at 4–5 pm."
+    }
+  },
+  {
+    "id": "engaku-ji",
+    "name": {
+      "zh": "圆觉寺",
+      "en": "Engaku-ji"
+    },
+    "description": {
+      "zh": "圆觉寺是神奈川县的著名寺庙，历史悠久，建筑风格独特，是欣赏日本传统佛教文化与寺院建筑的重要场所。",
+      "en": "Engaku-ji is a celebrated Buddhist temple in Kanagawa Prefecture with a distinguished history and characteristic architecture, offering visitors an immersive experience of Japan's temple culture."
+    },
+    "image": "https://picsum.photos/seed/engaku-ji-japan/800/500",
+    "tags": {
+      "zh": [
+        "寺庙",
+        "佛教",
+        "历史"
+      ],
+      "en": [
+        "Temple",
+        "Buddhism",
+        "Historic"
+      ]
+    },
+    "location": {
+      "zh": "神奈川县",
+      "en": "Kanagawa Prefecture"
+    },
+    "subdivision": "kanagawa",
+    "highlights": {
+      "zh": [
+        "本堂：供奉本尊的核心建筑，历史悠久，建筑气势恢宏",
+        "寺院庭园：精心营造的禅意园林，四季皆有不同景致",
+        "御守与朱印：集御朱印或购买专属御守留作纪念"
+      ],
+      "en": [
+        "Main hall: the principal sanctuary enshrining the temple's deity — historic and impressive",
+        "Temple garden: a carefully composed garden offering different scenery through the seasons",
+        "Goshuin and omamori: collect a temple seal stamp or buy a protective charm as a memento"
+      ]
+    },
+    "admission": {
+      "zh": "因寺庙而异，约300—1,000日元",
+      "en": "Varies by temple; typically ¥300–1,000"
+    },
+    "duration": {
+      "zh": "30分钟—1.5小时",
+      "en": "30 minutes–1.5 hours"
+    },
+    "tips": {
+      "zh": "注意寺庙的开放时间，大多数寺庙在傍晚4—5点关闭。",
+      "en": "Check closing times — most temples close at 4–5 pm."
+    }
+  },
+  {
+    "id": "tsurugaoka-hachimangu",
+    "name": {
+      "zh": "鹤冈八幡宫",
+      "en": "Tsurugaoka Hachimangu"
+    },
+    "description": {
+      "zh": "鹤冈八幡宫是神奈川县的著名神社，香火旺盛，供奉着独特的神明，是当地重要的精神文化场所，每逢节日前来参拜的信众与游客络绎不绝。",
+      "en": "Tsurugaoka Hachimangu is a celebrated Shinto shrine in Kanagawa Prefecture, dedicated to its enshrined deity. The shrine serves as an important spiritual and cultural landmark, drawing worshippers and visitors especially during festivals."
+    },
+    "image": "https://picsum.photos/seed/tsurugaoka-hachimangu-japan/800/500",
+    "tags": {
+      "zh": [
+        "神社",
+        "神道",
+        "日本信仰"
+      ],
+      "en": [
+        "Shrine",
+        "Shinto",
+        "Japanese Spirituality"
+      ]
+    },
+    "location": {
+      "zh": "神奈川县",
+      "en": "Kanagawa Prefecture"
+    },
+    "subdivision": "kanagawa",
+    "highlights": {
+      "zh": [
+        "社殿建筑：精心维护的神社建筑群，体现日本传统神道建筑之美",
+        "参道与鸟居：通往正殿的参道营造出庄严肃穆的神圣氛围",
+        "御守与绘马：购买祈愿御守或悬挂祈福绘马，感受日本信仰文化"
+      ],
+      "en": [
+        "Shrine buildings: beautifully maintained structures reflecting traditional Shinto architectural aesthetics",
+        "Approach and torii: the path to the main hall creates a solemn sacred atmosphere",
+        "Omamori and ema: buy protective charms or hang a prayer plaque to experience Japanese spiritual culture"
+      ]
+    },
+    "admission": {
+      "zh": "参拜免费；部分宝物殿另收费",
+      "en": "Shrine worship free; some treasure halls charge entry"
+    },
+    "duration": {
+      "zh": "30分钟—1小时",
+      "en": "30 minutes–1 hour"
+    },
+    "tips": {
+      "zh": "建议清晨或傍晚参拜，人少且气氛更加清幽。",
+      "en": "Visit early morning or late afternoon for fewer crowds and a more atmospheric experience."
+    }
+  },
+  {
+    "id": "enoshima",
+    "name": {
+      "zh": "江之岛",
+      "en": "Enoshima"
+    },
+    "description": {
+      "zh": "江之岛是神奈川县的著名地标，以其独特的建筑风格、历史文化意义或在城市生活中的重要地位而广为人知。",
+      "en": "Enoshima is a well-known landmark in Kanagawa Prefecture, distinguished by its unique architecture, historical significance or important role in the city's daily life."
+    },
+    "image": "https://picsum.photos/seed/enoshima-japan/800/500",
+    "tags": {
+      "zh": [
+        "地标",
+        "建筑",
+        "文化"
+      ],
+      "en": [
+        "Landmark",
+        "Architecture",
+        "Culture"
+      ]
+    },
+    "location": {
+      "zh": "神奈川县",
+      "en": "Kanagawa Prefecture"
+    },
+    "subdivision": "kanagawa",
+    "highlights": {
+      "zh": [
+        "建筑外观：独具匠心的建筑立面与设计，是城市天际线的重要组成部分",
+        "历史文化意义：建筑背后承载着丰富的历史故事与文化内涵",
+        "周边探索：地标周边通常聚集了丰富的餐饮、购物与文化资源"
+      ],
+      "en": [
+        "Architecture: a distinctive facade and design that contributes to the city skyline",
+        "Historical and cultural significance: the landmark carries a rich history and cultural story",
+        "Surroundings: the area around the landmark typically offers plentiful dining, shopping and cultural resources"
+      ]
+    },
+    "admission": {
+      "zh": "外观参观免费；内部设施视情况而定",
+      "en": "Exterior viewing free; interior facilities vary"
+    },
+    "duration": {
+      "zh": "30分钟—1小时",
+      "en": "30 minutes–1 hour"
+    },
+    "tips": {
+      "zh": "结合周边其他景点规划行程，可大幅提高游览效率。",
+      "en": "Combine with nearby sights for an efficient itinerary."
+    }
+  },
+  {
+    "id": "enoshima-shrine-hetsumiya",
+    "name": {
+      "zh": "江岛神社边津宫",
+      "en": "Enoshima Shrine Hetsumiya"
+    },
+    "description": {
+      "zh": "江岛神社边津宫是神奈川县的著名神社，香火旺盛，供奉着独特的神明，是当地重要的精神文化场所，每逢节日前来参拜的信众与游客络绎不绝。",
+      "en": "Enoshima Shrine Hetsumiya is a celebrated Shinto shrine in Kanagawa Prefecture, dedicated to its enshrined deity. The shrine serves as an important spiritual and cultural landmark, drawing worshippers and visitors especially during festivals."
+    },
+    "image": "https://picsum.photos/seed/enoshima-shrine-hetsumiya-japan/800/500",
+    "tags": {
+      "zh": [
+        "神社",
+        "神道",
+        "日本信仰"
+      ],
+      "en": [
+        "Shrine",
+        "Shinto",
+        "Japanese Spirituality"
+      ]
+    },
+    "location": {
+      "zh": "神奈川县",
+      "en": "Kanagawa Prefecture"
+    },
+    "subdivision": "kanagawa",
+    "highlights": {
+      "zh": [
+        "社殿建筑：精心维护的神社建筑群，体现日本传统神道建筑之美",
+        "参道与鸟居：通往正殿的参道营造出庄严肃穆的神圣氛围",
+        "御守与绘马：购买祈愿御守或悬挂祈福绘马，感受日本信仰文化"
+      ],
+      "en": [
+        "Shrine buildings: beautifully maintained structures reflecting traditional Shinto architectural aesthetics",
+        "Approach and torii: the path to the main hall creates a solemn sacred atmosphere",
+        "Omamori and ema: buy protective charms or hang a prayer plaque to experience Japanese spiritual culture"
+      ]
+    },
+    "admission": {
+      "zh": "参拜免费；部分宝物殿另收费",
+      "en": "Shrine worship free; some treasure halls charge entry"
+    },
+    "duration": {
+      "zh": "30分钟—1小时",
+      "en": "30 minutes–1 hour"
+    },
+    "tips": {
+      "zh": "建议清晨或傍晚参拜，人少且气氛更加清幽。",
+      "en": "Visit early morning or late afternoon for fewer crowds and a more atmospheric experience."
     }
   }
 ]

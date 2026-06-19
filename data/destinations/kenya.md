@@ -1,0 +1,576 @@
+---
+[
+  {
+    "id": "masai-mara",
+    "name": {
+      "zh": "马赛马拉",
+      "en": "Maasai Mara"
+    },
+    "description": {
+      "zh": "马赛马拉是肯尼亚最著名的野生动物保护区，与坦桑尼亚的塞伦盖蒂共同构成非洲最大的生态系统。每年7至10月的角马大迁徙被誉为「世界第八大奇迹」，数百万动物横渡马拉河的壮观景象令人终身难忘。",
+      "en": "Maasai Mara is Kenya's most celebrated reserve, sharing an ecosystem with Tanzania's Serengeti. The July-October Great Migration — millions of wildebeest crossing the Mara River — is called the Eighth Wonder of the World."
+    },
+    "image": "https://picsum.photos/seed/masai-mara/800/500",
+    "tags": {
+      "zh": [
+        "野生动物",
+        "大迁徙",
+        "国家保护区"
+      ],
+      "en": [
+        "Wildlife",
+        "Great Migration",
+        "Game Reserve"
+      ]
+    },
+    "location": {
+      "zh": "纳罗克县，肯尼亚西南部",
+      "en": "Narok County, southwest Kenya"
+    },
+    "highlights": {
+      "zh": [
+        "非洲最著名的野生动物保护区，非洲五大兽全部可见",
+        "7—10月角马大迁徙，穿越马拉河的场景震撼人心",
+        "世界上最好的夜晚星空观测地点之一"
+      ],
+      "en": [
+        "Africa's most celebrated reserve; all Big Five seen here",
+        "July–October Great Migration; wildebeest river crossings are breathtaking",
+        "One of Africa's best night-sky viewing locations"
+      ]
+    },
+    "admission": {
+      "zh": "非肯尼亚居民约100美元/天",
+      "en": "~US$100/day (non-resident)"
+    },
+    "duration": {
+      "zh": "2—4天（含游猎）",
+      "en": "2–4 days (safari)"
+    },
+    "tips": {
+      "zh": "清晨和傍晚游猎动物活动最活跃；建议选择全包型营地，节约时间精力。7月底至10月是大迁徙高峰，价格也是全年最高。",
+      "en": "Dawn and dusk game drives yield the most wildlife activity. An all-inclusive camp saves significant logistical effort. Late July–October is peak Migration season — and peak prices."
+    }
+  },
+  {
+    "id": "amboseli",
+    "name": {
+      "zh": "安博塞利国家公园",
+      "en": "Amboseli National Park"
+    },
+    "description": {
+      "zh": "安博塞利国家公园以乞力马扎罗雪山为背景，是拍摄非洲象群最理想的地点之一。公园内生活着约1,600头大象，在白雪皑皑的非洲第一高峰映衬下，象群漫步的画面令人动容。",
+      "en": "Amboseli frames Africa's largest elephant herds against the snows of Kilimanjaro, making it one of the continent's finest photography destinations. Around 1,600 elephants roam beneath Africa's highest peak."
+    },
+    "image": "https://picsum.photos/seed/amboseli-kenya/800/500",
+    "tags": {
+      "zh": [
+        "大象",
+        "国家公园",
+        "乞力马扎罗"
+      ],
+      "en": [
+        "Elephants",
+        "National Park",
+        "Kilimanjaro"
+      ]
+    },
+    "location": {
+      "zh": "卡加多县，肯尼亚南部",
+      "en": "Kajiado County, southern Kenya"
+    },
+    "highlights": {
+      "zh": [
+        "以乞力马扎罗雪山为背景拍摄大象的绝佳场所",
+        "非洲象群密度极高，可近距离观察家族群体行为",
+        "超过400种鸟类"
+      ],
+      "en": [
+        "Finest backdrop in Africa: elephants with Kilimanjaro behind",
+        "Very high elephant density; excellent for studying family behaviour up close",
+        "Over 400 bird species"
+      ]
+    },
+    "admission": {
+      "zh": "非肯尼亚居民约90美元/天",
+      "en": "~US$90/day (non-resident)"
+    },
+    "duration": {
+      "zh": "1—2天",
+      "en": "1–2 days"
+    },
+    "tips": {
+      "zh": "早晨乞力马扎罗山云层最少，景色最清晰；从内罗毕驾车约4小时或乘飞机30分钟。",
+      "en": "Kilimanjaro is most visible in the early morning before clouds build. About 4 hours from Nairobi by road, or 30 minutes by light aircraft."
+    }
+  },
+  {
+    "id": "diani-beach",
+    "name": {
+      "zh": "迪亚尼海滩",
+      "en": "Diani Beach"
+    },
+    "description": {
+      "zh": "迪亚尼海滩是肯尼亚印度洋海岸最美丽的海滩，拥有洁白的沙滩、温暖的热带海水和丰富的珊瑚礁，被多次评选为非洲最佳海滩。是结合野生动物狩猎与海滨度假的理想目的地。",
+      "en": "Diani Beach is Kenya's finest Indian Ocean beach — white sands, warm water and rich coral reefs have earned it multiple Best Beach in Africa titles. An ideal end to a safari itinerary."
+    },
+    "image": "https://picsum.photos/seed/diani-beach/800/500",
+    "tags": {
+      "zh": [
+        "海滩",
+        "珊瑚礁",
+        "热带度假"
+      ],
+      "en": [
+        "Beach",
+        "Coral Reef",
+        "Tropical Resort"
+      ]
+    },
+    "location": {
+      "zh": "夸莱县，肯尼亚南海岸",
+      "en": "Kwale County, south coast Kenya"
+    },
+    "highlights": {
+      "zh": [
+        "全球50大最美海滩之一，细白珊瑚沙滩绵延数公里",
+        "印度洋海水清澈温暖，珊瑚礁丰富多彩",
+        "周边有猴子森林和猎豹保护中心"
+      ],
+      "en": [
+        "One of the world's top 50 beaches; kilometres of powdery white coral sand",
+        "Warm, clear Indian Ocean water with vibrant coral reefs",
+        "Colobus monkey forest and cheetah conservation centre nearby"
+      ]
+    },
+    "admission": {
+      "zh": "海滩免费",
+      "en": "Beach free"
+    },
+    "duration": {
+      "zh": "2—5天",
+      "en": "2–5 days"
+    },
+    "tips": {
+      "zh": "12月至3月和7月至8月是旺季，海风宜人；4—6月有短雨季。从蒙巴萨机场约30分钟车程。",
+      "en": "December–March and July–August are peak seasons with pleasant sea breezes. April–June sees short rains. About 30 minutes from Mombasa airport."
+    }
+  },
+  {
+    "id": "nairobi-national-park",
+    "name": {
+      "zh": "内罗毕国家公园",
+      "en": "Nairobi National Park"
+    },
+    "description": {
+      "zh": "内罗毕国家公园是全球唯一位于首都城区内的野生动物保护区，可在城市摩天大楼的背景下近距离观察狮子、长颈鹿、犀牛等非洲野生动物，被称为「世界奇观」。",
+      "en": "Nairobi National Park is the world's only wildlife reserve within a capital city. Lions, giraffes and rhinos roam with the city skyline as backdrop — truly one of the world's most extraordinary wildlife experiences."
+    },
+    "image": "https://picsum.photos/seed/nairobi-park/800/500",
+    "tags": {
+      "zh": [
+        "城市野生动物园",
+        "犀牛",
+        "独一无二"
+      ],
+      "en": [
+        "Urban Safari",
+        "Rhino",
+        "One of a Kind"
+      ]
+    },
+    "location": {
+      "zh": "内罗毕市，肯尼亚首都",
+      "en": "Nairobi city, Kenya"
+    },
+    "highlights": {
+      "zh": [
+        "世界上唯一与首都毗邻的国家公园，距市中心仅7公里",
+        "可以狮子和犀牛为前景拍摄内罗毕摩天大楼",
+        "配套长颈鹿中心、孤儿象保护区易于联游"
+      ],
+      "en": [
+        "World's only national park adjacent to a capital city, just 7 km from downtown",
+        "Photograph lions and rhinos against the Nairobi skyline",
+        "Easy to pair with the Giraffe Centre and David Sheldrick Elephant Orphanage"
+      ]
+    },
+    "admission": {
+      "zh": "非肯尼亚居民约52美元/天",
+      "en": "~US$52/day (non-resident)"
+    },
+    "duration": {
+      "zh": "半天至一天",
+      "en": "Half to full day"
+    },
+    "tips": {
+      "zh": "清晨游猎最佳，也可作为到马赛马拉前的热身体验。内罗毕本身也有丰富的美食和文化场景值得探索。",
+      "en": "Best at dawn for a game drive. Ideal as a warm-up before heading to the Maasai Mara. Nairobi itself also has a thriving food and arts scene worth exploring."
+    }
+  },
+  {
+    "id": "lake-turkana",
+    "name": {
+      "zh": "图尔卡纳湖国家公园",
+      "en": "Lake Turkana National Parks"
+    },
+    "description": {
+      "zh": "图尔卡纳湖是世界上最大的永久性沙漠湖泊，也是非洲最大的碱性湖，被称为「玉海」。该地区是人类最重要的古人类化石遗址之一，出土了约300万年前的早期人类骨骼，1997年列入世界遗产名录（后扩展范围）。",
+      "en": "Lake Turkana is the world's largest permanent desert lake and Africa's largest alkaline lake — known as the Jade Sea. The surrounding area is one of the world's richest sources of early hominid fossils, dating back ~3 million years. Inscribed as UNESCO WHC in 1997 (later extended)."
+    },
+    "image": "https://picsum.photos/seed/lake-turkana-kenya/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "古人类遗址",
+        "碱性湖"
+      ],
+      "en": [
+        "UNESCO Heritage",
+        "Palaeoanthropology",
+        "Alkaline Lake"
+      ]
+    },
+    "location": {
+      "zh": "肯尼亚北部图尔卡纳县",
+      "en": "Turkana County, northern Kenya"
+    },
+    "highlights": {
+      "zh": [
+        "玉海——世界上最大的永久性荒漠湖泊，湖水呈翡翠绿色",
+        "出土了约300万年前的早期人类化石，被称为「人类摇篮」",
+        "湖内尼罗河鳄鱼数量居全球之冠，鸟类逾350种"
+      ],
+      "en": [
+        "The Jade Sea — world's largest permanent desert lake, with striking green waters",
+        "Fossil beds yielding hominid remains dating back ~3 million years — a 'Cradle of Mankind'",
+        "Home to the world's largest population of Nile crocodiles and 350+ bird species"
+      ]
+    },
+    "admission": {
+      "zh": "约24美元/天（非居民）",
+      "en": "~US$24/day (non-resident)"
+    },
+    "duration": {
+      "zh": "2—3天",
+      "en": "2–3 days"
+    },
+    "tips": {
+      "zh": "图尔卡纳湖地处偏远，需要越野车辆和充足的物资准备；10月至次年2月气候相对宜人，风大时湖面波涛汹涌。",
+      "en": "Lake Turkana is remote — a 4WD vehicle and thorough supplies are essential. October–February is most bearable; the lake can be extremely windy, creating rough waters."
+    }
+  },
+  {
+    "id": "mount-kenya",
+    "name": {
+      "zh": "肯尼亚山国家公园及自然林",
+      "en": "Mount Kenya National Park and Natural Forest"
+    },
+    "description": {
+      "zh": "肯尼亚山是非洲第二高峰，海拔5,199米，山顶终年积雪。国家公园内植被垂直分带明显，从热带雨林、竹林、高山草甸到冰川地带一应俱全，是非洲最具生态多样性的山地之一，1997年列入世界遗产名录。",
+      "en": "Mount Kenya (5,199 m) is Africa's second-highest peak, with permanent glaciers at its summit. The national park displays striking altitudinal zonation from rainforest through bamboo, alpine meadows to glaciated peaks — one of Africa's most ecologically diverse mountains. Inscribed as UNESCO WHC in 1997."
+    },
+    "image": "https://picsum.photos/seed/mount-kenya-kenya/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "登山",
+        "自然遗产"
+      ],
+      "en": [
+        "UNESCO Heritage",
+        "Mountaineering",
+        "Natural Heritage"
+      ]
+    },
+    "location": {
+      "zh": "中央省，肯尼亚中部",
+      "en": "Central Province, central Kenya"
+    },
+    "highlights": {
+      "zh": [
+        "非洲第二高峰（5,199米），山顶有永久冰川",
+        "从赤道热带雨林到冰川顶峰的完整垂直植被带",
+        "大象、豹、水牛等大型野生动物在山地森林中栖息"
+      ],
+      "en": [
+        "Africa's second-highest peak (5,199 m) with permanent summit glaciers",
+        "Complete altitudinal vegetation zones from equatorial rainforest to glaciated peaks",
+        "Elephants, leopards and buffalo inhabit the mountain forests"
+      ]
+    },
+    "admission": {
+      "zh": "约55美元/天（非居民）",
+      "en": "~US$55/day (non-resident)"
+    },
+    "duration": {
+      "zh": "4—6天（登顶）",
+      "en": "4–6 days (summit attempt)"
+    },
+    "tips": {
+      "zh": "最高峰巴蒂安峰需要技术攀岩；普通徒步者可登顶尼利昂峰（4,985米）。从内罗毕驾车约3小时至山脚。",
+      "en": "The true summit (Batian) requires technical climbing; trekkers aim for Point Lenana (4,985 m). About 3 hours' drive from Nairobi to the park gates."
+    }
+  },
+  {
+    "id": "lamu-old-town",
+    "name": {
+      "zh": "拉姆旧城",
+      "en": "Lamu Old Town"
+    },
+    "description": {
+      "zh": "拉姆旧城是东非保存最完好的斯瓦希里海岸古城，建于公元14世纪，兼具阿拉伯、波斯、印度和欧洲建筑风格。城内没有汽车，以驴和帆船为主要交通工具，至今保持着独特的生活方式，2001年列入世界遗产名录。",
+      "en": "Lamu Old Town is the best-preserved Swahili settlement in East Africa, dating to the 14th century and blending Arab, Persian, Indian and European influences. With no cars — only donkeys and dhows — it retains a unique living culture. Inscribed as UNESCO WHC in 2001."
+    },
+    "image": "https://picsum.photos/seed/lamu-old-town-kenya/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "斯瓦希里文化",
+        "历史城区"
+      ],
+      "en": [
+        "UNESCO Heritage",
+        "Swahili Culture",
+        "Historic Town"
+      ]
+    },
+    "location": {
+      "zh": "拉姆县，肯尼亚北部海岸",
+      "en": "Lamu County, northern Kenya coast"
+    },
+    "highlights": {
+      "zh": [
+        "东非保存最完好的斯瓦希里海岸古城，建筑融合多种文化风格",
+        "城内禁止汽车行驶，毛驴是主要交通工具",
+        "拉姆堡（葡萄牙时代炮台）和传统木雕门是建筑精华"
+      ],
+      "en": [
+        "East Africa's best-preserved Swahili town with multi-cultural architectural heritage",
+        "No cars allowed — donkeys and dhow sailboats are the only transport",
+        "Lamu Fort and intricately carved wooden doors are the architectural highlights"
+      ]
+    },
+    "admission": {
+      "zh": "拉姆堡约600肯尼亚先令",
+      "en": "Lamu Fort ~KES$600"
+    },
+    "duration": {
+      "zh": "2—3天",
+      "en": "2–3 days"
+    },
+    "tips": {
+      "zh": "从蒙巴萨或内罗毕可乘小型飞机抵达；11月至3月天气最佳。斋月期间需注意当地穆斯林习俗。",
+      "en": "Accessible by light aircraft from Mombasa or Nairobi. November–March is the most pleasant weather. During Ramadan, be respectful of local Muslim customs."
+    }
+  },
+  {
+    "id": "sacred-mijikenda-kaya",
+    "name": {
+      "zh": "米吉肯达圣林（卡亚森林）",
+      "en": "Sacred Mijikenda Kaya Forests"
+    },
+    "description": {
+      "zh": "米吉肯达圣林由分布于肯尼亚海岸的11片神圣森林（卡亚）组成，是米吉肯达族群（九个部族联合体）自16世纪以来的精神文化中心和祖先圣地。这些森林保存着独特的文化传统和珍贵的滨海植被，2008年列入世界遗产名录。",
+      "en": "The Sacred Mijikenda Kaya Forests comprise 11 sacred forest settlements along Kenya's coast, serving as spiritual and ancestral centres for the nine Mijikenda peoples since the 16th century. They preserve unique cultural traditions and rare coastal vegetation. Inscribed as UNESCO WHC in 2008."
+    },
+    "image": "https://picsum.photos/seed/mijikenda-kaya-kenya/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "文化遗产",
+        "神圣森林"
+      ],
+      "en": [
+        "UNESCO Heritage",
+        "Cultural Heritage",
+        "Sacred Forest"
+      ]
+    },
+    "location": {
+      "zh": "肯尼亚海岸，蒙巴萨南北延伸地带",
+      "en": "Kenya coast, extending north and south of Mombasa"
+    },
+    "highlights": {
+      "zh": [
+        "11片神圣森林分布于肯尼亚约200公里海岸线上",
+        "米吉肯达九族的传统祭祀、治愈仪式和祖先崇拜场所",
+        "东非海岸罕见的干旱和半干旱常绿森林生态系统"
+      ],
+      "en": [
+        "11 sacred forest sites spread along ~200 km of Kenya's coastline",
+        "Active sites for Mijikenda ritual, healing ceremonies and ancestor veneration",
+        "Rare examples of coastal dry and semi-evergreen forest ecosystems in East Africa"
+      ]
+    },
+    "admission": {
+      "zh": "入场需当地社区向导带领，费用视地点而异",
+      "en": "Entry requires a local community guide; fees vary by site"
+    },
+    "duration": {
+      "zh": "半天至一天",
+      "en": "Half to full day"
+    },
+    "tips": {
+      "zh": "部分卡亚森林位于蒙巴萨附近，可与迪亚尼海滩联游；进入圣林需穿着保守并遵守仪式礼仪。",
+      "en": "Several kaya sites are near Mombasa and can be combined with Diani Beach. Dress conservatively and follow ritual protocols — these are active sacred spaces."
+    }
+  },
+  {
+    "id": "kenya-lake-system",
+    "name": {
+      "zh": "肯尼亚裂谷湖系",
+      "en": "Kenya Lake System in the Great Rift Valley"
+    },
+    "description": {
+      "zh": "肯尼亚裂谷湖系包括博戈里亚湖、纳库鲁湖和埃尔门泰塔湖，是世界上最重要的火烈鸟栖息地，最多时可聚集约200万只火烈鸟。三座湖泊均为碱性湖，孕育了独特的蓝藻生态系统，2011年列入世界遗产名录。",
+      "en": "The Kenya Lake System encompasses Lakes Bogoria, Nakuru and Elementaita — the world's most significant flamingo habitat, with up to 2 million birds at peak times. All three are alkaline lakes sustaining unique cyanobacteria ecosystems. Inscribed as UNESCO WHC in 2011."
+    },
+    "image": "https://picsum.photos/seed/kenya-lake-system-kenya/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "火烈鸟",
+        "裂谷"
+      ],
+      "en": [
+        "UNESCO Heritage",
+        "Flamingos",
+        "Rift Valley"
+      ]
+    },
+    "location": {
+      "zh": "肯尼亚大裂谷，内罗毕以北",
+      "en": "Kenya's Great Rift Valley, north of Nairobi"
+    },
+    "highlights": {
+      "zh": [
+        "纳库鲁湖——世界最大火烈鸟聚集地，最多时超过200万只",
+        "博戈里亚湖的地热温泉和间歇泉与粉红火烈鸟共同构成奇景",
+        "大裂谷壮阔地貌与湖泊的组合提供绝美的摄影机会"
+      ],
+      "en": [
+        "Lake Nakuru — the world's greatest flamingo spectacle, up to 2 million birds",
+        "Lake Bogoria's geothermal springs and geysers alongside flocks of flamingos",
+        "Dramatic Rift Valley scenery with the lakes offers outstanding photography opportunities"
+      ]
+    },
+    "admission": {
+      "zh": "纳库鲁湖约25美元/天（非居民）",
+      "en": "Lake Nakuru ~US$25/day (non-resident)"
+    },
+    "duration": {
+      "zh": "一天至两天",
+      "en": "1–2 days"
+    },
+    "tips": {
+      "zh": "纳库鲁湖距内罗毕约2.5小时车程，是绝佳的一日游目的地；火烈鸟数量因季节和水位变化而有较大波动。",
+      "en": "Lake Nakuru is about 2.5 hours from Nairobi — a great day trip. Flamingo numbers fluctuate significantly with the season and water levels."
+    }
+  },
+  {
+    "id": "fort-jesus",
+    "name": {
+      "zh": "耶稣堡（蒙巴萨）",
+      "en": "Fort Jesus, Mombasa"
+    },
+    "description": {
+      "zh": "耶稣堡建于1593年至1596年，是葡萄牙殖民时代在东非建造的最重要军事防御工事，见证了葡萄牙、阿拉伯、荷兰和英国等各方势力在东非沿海的激烈争夺。2011年列入世界遗产名录，现为博物馆。",
+      "en": "Fort Jesus (1593–1596) is the most significant Portuguese colonial fortification in East Africa, witnessing centuries of conflict between Portuguese, Arab, Dutch and British powers on the Swahili Coast. Inscribed as UNESCO WHC in 2011; now a museum."
+    },
+    "image": "https://picsum.photos/seed/fort-jesus-kenya/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "葡萄牙堡垒",
+        "历史遗址"
+      ],
+      "en": [
+        "UNESCO Heritage",
+        "Portuguese Fort",
+        "Historic Site"
+      ]
+    },
+    "location": {
+      "zh": "蒙巴萨岛，肯尼亚南部海岸",
+      "en": "Mombasa Island, south coast Kenya"
+    },
+    "highlights": {
+      "zh": [
+        "葡萄牙文艺复兴时期军事建筑的杰出代表",
+        "珊瑚石建造的城墙保存完好，揭示了东非海岸数百年的争夺史",
+        "城堡内博物馆收藏大量斯瓦希里沿海文物和沉船出水文物"
+      ],
+      "en": [
+        "Outstanding example of Portuguese Renaissance military architecture",
+        "Coral stone walls revealing centuries of power struggles on the Swahili Coast",
+        "Museum inside the fort holds significant Swahili and shipwreck artefacts"
+      ]
+    },
+    "admission": {
+      "zh": "约1,200肯尼亚先令",
+      "en": "~KES$1,200"
+    },
+    "duration": {
+      "zh": "1—2小时",
+      "en": "1–2 hours"
+    },
+    "tips": {
+      "zh": "位于蒙巴萨旧城区内，可与旧城拱门和斯瓦希里小巷联游；傍晚时分可在海边俯瞰蒙巴萨港。",
+      "en": "Located in Mombasa's Old Town — combine with the Old Town's carved doors and Swahili lanes. The harbour views at dusk from the ramparts are excellent."
+    }
+  },
+  {
+    "id": "nyambene-hills",
+    "name": {
+      "zh": "尼扬贝内山地（候选遗产）",
+      "en": "Nyambene Hills (Tentative WHC)"
+    },
+    "description": {
+      "zh": "尼扬贝内山地是肯尼亚山东部的火山高原，以米鲁（khat）栽培文化和独特的高原植被著称，是肯尼亚世界遗产候选名单上的文化景观遗址。",
+      "en": "The Nyambene Hills are a volcanic plateau east of Mount Kenya, known for their miraa (khat) cultivation culture and distinctive highland vegetation. Listed on Kenya's UNESCO tentative list as a cultural landscape."
+    },
+    "image": "https://picsum.photos/seed/nyambene-hills-kenya/800/500",
+    "tags": {
+      "zh": [
+        "候选遗产",
+        "文化景观",
+        "高原"
+      ],
+      "en": [
+        "Tentative WHC",
+        "Cultural Landscape",
+        "Highland"
+      ]
+    },
+    "location": {
+      "zh": "梅鲁县，肯尼亚中东部",
+      "en": "Meru County, central-eastern Kenya"
+    },
+    "highlights": {
+      "zh": [
+        "绵延的火山高原地貌与独特的农业文化景观",
+        "梅鲁族的传统土地利用方式和米鲁种植传统",
+        "丰富的高地鸟类和植被多样性"
+      ],
+      "en": [
+        "Volcanic plateau landscape with distinctive agricultural cultural heritage",
+        "Meru community traditional land-use systems and miraa cultivation traditions",
+        "Rich highland bird diversity and vegetation"
+      ]
+    },
+    "admission": {
+      "zh": "无正式门票",
+      "en": "No formal admission"
+    },
+    "duration": {
+      "zh": "半天至一天",
+      "en": "Half to full day"
+    },
+    "tips": {
+      "zh": "适合对东非高原文化景观感兴趣的深度旅行者，需自驾前往；与梅鲁国家公园联游效率更高。",
+      "en": "Best for travellers interested in East African cultural landscapes; self-drive required. Combine with Meru National Park for an efficient itinerary."
+    }
+  }
+]
+---

@@ -1,55 +1,373 @@
 [
   {
-    "id": "nikko-shrines",
+    "id": "kinugawa-onsen",
     "name": {
-      "zh": "日光神社与寺庙",
-      "en": "Shrines and Temples of Nikko"
+      "zh": "鬼怒川温泉",
+      "en": "Kinugawa Onsen"
     },
     "description": {
-      "zh": "日光是日本江户幕府初代将军德川家康的灵庙所在地，华丽的东照宫以金箔、彩绘和精雕细刻的建筑装饰著称。深山林中的神社寺庙群于1999年列入UNESCO世界遗产。",
-      "en": "Nikko is the mausoleum of Tokugawa Ieyasu, founder of the Edo shogunate. The ornate Tosho-gu shrine dazzles with gold leaf, vivid lacquerwork and intricate carvings set deep in mountain cedars. UNESCO-listed in 1999."
+      "zh": "鬼怒川温泉是栃木县著名的温泉胜地，天然温泉水质优良，融入壮美的自然山水之中，是放松身心、体验日本温泉文化的绝佳去处。",
+      "en": "Kinugawa Onsen is a celebrated hot-spring resort in Tochigi Prefecture, where high-quality natural onsen waters meet scenic mountain landscapes — an ideal destination for relaxation and experiencing Japanese bath culture."
     },
-    "image": "https://picsum.photos/seed/nikko-shrines-japan/800/500",
+    "image": "https://picsum.photos/seed/kinugawa-onsen-japan/800/500",
     "tags": {
       "zh": [
-        "世界遗产",
-        "神社",
-        "江户时代"
+        "温泉",
+        "放松",
+        "日本文化"
       ],
       "en": [
-        "UNESCO Heritage",
-        "Shrine",
-        "Edo Period"
+        "Hot Spring",
+        "Onsen",
+        "Relaxation"
       ]
     },
     "location": {
-      "zh": "栃木县日光市",
-      "en": "Nikko, Tochigi Prefecture"
+      "zh": "栃木县",
+      "en": "Tochigi Prefecture"
     },
+    "subdivision": "tochigi",
     "highlights": {
       "zh": [
-        "东照宫阳明门：被誉为「日落之门」，雕刻精绝",
-        "三猿（非礼、非听、非视）雕刻世界闻名",
-        "秋季枫叶与金色建筑交相辉映"
+        "温泉浴场：多种成分与温度的天然温泉，适合不同喜好的泡汤体验",
+        "自然美景：温泉区周边的山川峡谷风光，与泡汤体验完美结合",
+        "传统旅馆：选择入住温泉旅馆，体验日式款待（おもてなし）的极致"
       ],
       "en": [
-        "Tosho-gu's Yomeimon Gate: the 'Twilight Gate' adorned with 508 intricate carvings",
-        "The Three Wise Monkeys (see, hear, speak no evil) are world-famous",
-        "Autumn maples frame the gilded shrine buildings spectacularly"
+        "Hot spring baths: natural onsen pools of varying mineral compositions and temperatures",
+        "Scenic surroundings: mountain and gorge scenery perfectly complements the bathing experience",
+        "Traditional ryokan: staying at a hot-spring inn delivers the ultimate Japanese hospitality (omotenashi) experience"
       ]
     },
     "admission": {
-      "zh": "东照宫及轮王寺套票约1,300—2,500日元",
-      "en": "Tosho-gu and Rinnoji combined pass ~¥1,300–2,500"
+      "zh": "日归浴场约500—3,000日元；住宿另计",
+      "en": "Day-use baths ~¥500–3,000; accommodation extra"
     },
     "duration": {
-      "zh": "一天",
-      "en": "Full day"
+      "zh": "半天至一天（住宿则更长）",
+      "en": "Half-day to full day (longer if staying overnight)"
     },
     "tips": {
-      "zh": "从东京新宿乘特急约2小时，是东京出发的热门一日游目的地。建议避开黄金周和暑假旺季。",
-      "en": "About 2 hours from Tokyo Shinjuku by limited express — a classic day trip. Avoid Golden Week and summer holiday peaks."
+      "zh": "傍晚浸泡温泉最为惬意。建议提前查询各浴场的纹身限制政策。",
+      "en": "Evening is the most relaxing time for a soak. Check in advance regarding tattoo restrictions."
+    }
+  },
+  {
+    "id": "nikko-toshogu",
+    "name": {
+      "zh": "日光东照宫",
+      "en": "Nikkō Tōshōgū"
     },
-    "subdivision": "tochigi"
+    "description": {
+      "zh": "日光东照宫是栃木县的著名地标，以其独特的建筑风格、历史文化意义或在城市生活中的重要地位而广为人知。",
+      "en": "Nikkō Tōshōgū is a well-known landmark in Tochigi Prefecture, distinguished by its unique architecture, historical significance or important role in the city's daily life."
+    },
+    "image": "https://picsum.photos/seed/nikko-toshogu-japan/800/500",
+    "tags": {
+      "zh": [
+        "地标",
+        "建筑",
+        "文化"
+      ],
+      "en": [
+        "Landmark",
+        "Architecture",
+        "Culture"
+      ]
+    },
+    "location": {
+      "zh": "栃木县",
+      "en": "Tochigi Prefecture"
+    },
+    "subdivision": "tochigi",
+    "highlights": {
+      "zh": [
+        "建筑外观：独具匠心的建筑立面与设计，是城市天际线的重要组成部分",
+        "历史文化意义：建筑背后承载着丰富的历史故事与文化内涵",
+        "周边探索：地标周边通常聚集了丰富的餐饮、购物与文化资源"
+      ],
+      "en": [
+        "Architecture: a distinctive facade and design that contributes to the city skyline",
+        "Historical and cultural significance: the landmark carries a rich history and cultural story",
+        "Surroundings: the area around the landmark typically offers plentiful dining, shopping and cultural resources"
+      ]
+    },
+    "admission": {
+      "zh": "外观参观免费；内部设施视情况而定",
+      "en": "Exterior viewing free; interior facilities vary"
+    },
+    "duration": {
+      "zh": "30分钟—1小时",
+      "en": "30 minutes–1 hour"
+    },
+    "tips": {
+      "zh": "结合周边其他景点规划行程，可大幅提高游览效率。",
+      "en": "Combine with nearby sights for an efficient itinerary."
+    }
+  },
+  {
+    "id": "futarasan-shrine-sign",
+    "name": {
+      "zh": "二荒山神社社标",
+      "en": "二荒山神社 社標"
+    },
+    "description": {
+      "zh": "二荒山神社社标是栃木县的著名地标，以其独特的建筑风格、历史文化意义或在城市生活中的重要地位而广为人知。",
+      "en": "二荒山神社 社標 is a well-known landmark in Tochigi Prefecture, distinguished by its unique architecture, historical significance or important role in the city's daily life."
+    },
+    "image": "https://picsum.photos/seed/futarasan-shrine-sign-japan/800/500",
+    "tags": {
+      "zh": [
+        "地标",
+        "建筑",
+        "文化"
+      ],
+      "en": [
+        "Landmark",
+        "Architecture",
+        "Culture"
+      ]
+    },
+    "location": {
+      "zh": "栃木县",
+      "en": "Tochigi Prefecture"
+    },
+    "subdivision": "tochigi",
+    "highlights": {
+      "zh": [
+        "建筑外观：独具匠心的建筑立面与设计，是城市天际线的重要组成部分",
+        "历史文化意义：建筑背后承载着丰富的历史故事与文化内涵",
+        "周边探索：地标周边通常聚集了丰富的餐饮、购物与文化资源"
+      ],
+      "en": [
+        "Architecture: a distinctive facade and design that contributes to the city skyline",
+        "Historical and cultural significance: the landmark carries a rich history and cultural story",
+        "Surroundings: the area around the landmark typically offers plentiful dining, shopping and cultural resources"
+      ]
+    },
+    "admission": {
+      "zh": "外观参观免费；内部设施视情况而定",
+      "en": "Exterior viewing free; interior facilities vary"
+    },
+    "duration": {
+      "zh": "30分钟—1小时",
+      "en": "30 minutes–1 hour"
+    },
+    "tips": {
+      "zh": "结合周边其他景点规划行程，可大幅提高游览效率。",
+      "en": "Combine with nearby sights for an efficient itinerary."
+    }
+  },
+  {
+    "id": "lake-chuzenji",
+    "name": {
+      "zh": "中禅寺湖",
+      "en": "Lake Chūzenji"
+    },
+    "description": {
+      "zh": "中禅寺湖是栃木县的壮美自然景观，以其独特的地理风貌与四季变换的自然之美而著称，是亲近大自然、享受户外体验的理想目的地。",
+      "en": "Lake Chūzenji is a magnificent natural landscape in Tochigi Prefecture, celebrated for its distinctive geographical features and seasonal beauty — an ideal destination for nature-lovers and outdoor enthusiasts."
+    },
+    "image": "https://picsum.photos/seed/lake-chuzenji-japan/800/500",
+    "tags": {
+      "zh": [
+        "自然景观",
+        "户外",
+        "风景"
+      ],
+      "en": [
+        "Nature",
+        "Outdoor",
+        "Scenic"
+      ]
+    },
+    "location": {
+      "zh": "栃木县",
+      "en": "Tochigi Prefecture"
+    },
+    "subdivision": "tochigi",
+    "highlights": {
+      "zh": [
+        "壮美景观：无论山川湖泊还是峡谷瀑布，皆令人叹为观止",
+        "户外活动：远足、骑行、垂钓等户外体验，让人与自然亲密接触",
+        "四季之美：随着季节更迭，自然景观呈现出迥然不同的色彩与氛围"
+      ],
+      "en": [
+        "Breathtaking scenery: mountains, lakes, canyons or waterfalls that command awe",
+        "Outdoor activities: hiking, cycling, fishing and other experiences that bring visitors close to nature",
+        "Seasonal changes: the landscape transforms dramatically with each season"
+      ]
+    },
+    "admission": {
+      "zh": "免费或小额入场费",
+      "en": "Free or small admission fee"
+    },
+    "duration": {
+      "zh": "半天至一天",
+      "en": "Half to full day"
+    },
+    "tips": {
+      "zh": "出发前查询天气预报，并准备合适的户外装备。",
+      "en": "Check the weather forecast before heading out and bring appropriate outdoor gear."
+    }
+  },
+  {
+    "id": "kegon-waterfalls",
+    "name": {
+      "zh": "华严瀑布",
+      "en": "Kegon Waterfalls"
+    },
+    "description": {
+      "zh": "华严瀑布是栃木县的壮美自然景观，以其独特的地理风貌与四季变换的自然之美而著称，是亲近大自然、享受户外体验的理想目的地。",
+      "en": "Kegon Waterfalls is a magnificent natural landscape in Tochigi Prefecture, celebrated for its distinctive geographical features and seasonal beauty — an ideal destination for nature-lovers and outdoor enthusiasts."
+    },
+    "image": "https://picsum.photos/seed/kegon-waterfalls-japan/800/500",
+    "tags": {
+      "zh": [
+        "自然景观",
+        "户外",
+        "风景"
+      ],
+      "en": [
+        "Nature",
+        "Outdoor",
+        "Scenic"
+      ]
+    },
+    "location": {
+      "zh": "栃木县",
+      "en": "Tochigi Prefecture"
+    },
+    "subdivision": "tochigi",
+    "highlights": {
+      "zh": [
+        "壮美景观：无论山川湖泊还是峡谷瀑布，皆令人叹为观止",
+        "户外活动：远足、骑行、垂钓等户外体验，让人与自然亲密接触",
+        "四季之美：随着季节更迭，自然景观呈现出迥然不同的色彩与氛围"
+      ],
+      "en": [
+        "Breathtaking scenery: mountains, lakes, canyons or waterfalls that command awe",
+        "Outdoor activities: hiking, cycling, fishing and other experiences that bring visitors close to nature",
+        "Seasonal changes: the landscape transforms dramatically with each season"
+      ]
+    },
+    "admission": {
+      "zh": "免费或小额入场费",
+      "en": "Free or small admission fee"
+    },
+    "duration": {
+      "zh": "半天至一天",
+      "en": "Half to full day"
+    },
+    "tips": {
+      "zh": "出发前查询天气预报，并准备合适的户外装备。",
+      "en": "Check the weather forecast before heading out and bring appropriate outdoor gear."
+    }
+  },
+  {
+    "id": "edo-wonderland-nikko-edomura",
+    "name": {
+      "zh": "日光江户村",
+      "en": "Edo Wonderland Nikko Edomura"
+    },
+    "description": {
+      "zh": "日光江户村是栃木县的著名地标，以其独特的建筑风格、历史文化意义或在城市生活中的重要地位而广为人知。",
+      "en": "Edo Wonderland Nikko Edomura is a well-known landmark in Tochigi Prefecture, distinguished by its unique architecture, historical significance or important role in the city's daily life."
+    },
+    "image": "https://picsum.photos/seed/edo-wonderland-nikko-edomura-japan/800/500",
+    "tags": {
+      "zh": [
+        "地标",
+        "建筑",
+        "文化"
+      ],
+      "en": [
+        "Landmark",
+        "Architecture",
+        "Culture"
+      ]
+    },
+    "location": {
+      "zh": "栃木县",
+      "en": "Tochigi Prefecture"
+    },
+    "subdivision": "tochigi",
+    "highlights": {
+      "zh": [
+        "建筑外观：独具匠心的建筑立面与设计，是城市天际线的重要组成部分",
+        "历史文化意义：建筑背后承载着丰富的历史故事与文化内涵",
+        "周边探索：地标周边通常聚集了丰富的餐饮、购物与文化资源"
+      ],
+      "en": [
+        "Architecture: a distinctive facade and design that contributes to the city skyline",
+        "Historical and cultural significance: the landmark carries a rich history and cultural story",
+        "Surroundings: the area around the landmark typically offers plentiful dining, shopping and cultural resources"
+      ]
+    },
+    "admission": {
+      "zh": "外观参观免费；内部设施视情况而定",
+      "en": "Exterior viewing free; interior facilities vary"
+    },
+    "duration": {
+      "zh": "30分钟—1小时",
+      "en": "30 minutes–1 hour"
+    },
+    "tips": {
+      "zh": "结合周边其他景点规划行程，可大幅提高游览效率。",
+      "en": "Combine with nearby sights for an efficient itinerary."
+    }
+  },
+  {
+    "id": "tobu-world-square",
+    "name": {
+      "zh": "东武世界广场",
+      "en": "Tobu World Square"
+    },
+    "description": {
+      "zh": "东武世界广场是栃木县的著名地标，以其独特的建筑风格、历史文化意义或在城市生活中的重要地位而广为人知。",
+      "en": "Tobu World Square is a well-known landmark in Tochigi Prefecture, distinguished by its unique architecture, historical significance or important role in the city's daily life."
+    },
+    "image": "https://picsum.photos/seed/tobu-world-square-japan/800/500",
+    "tags": {
+      "zh": [
+        "地标",
+        "建筑",
+        "文化"
+      ],
+      "en": [
+        "Landmark",
+        "Architecture",
+        "Culture"
+      ]
+    },
+    "location": {
+      "zh": "栃木县",
+      "en": "Tochigi Prefecture"
+    },
+    "subdivision": "tochigi",
+    "highlights": {
+      "zh": [
+        "建筑外观：独具匠心的建筑立面与设计，是城市天际线的重要组成部分",
+        "历史文化意义：建筑背后承载着丰富的历史故事与文化内涵",
+        "周边探索：地标周边通常聚集了丰富的餐饮、购物与文化资源"
+      ],
+      "en": [
+        "Architecture: a distinctive facade and design that contributes to the city skyline",
+        "Historical and cultural significance: the landmark carries a rich history and cultural story",
+        "Surroundings: the area around the landmark typically offers plentiful dining, shopping and cultural resources"
+      ]
+    },
+    "admission": {
+      "zh": "外观参观免费；内部设施视情况而定",
+      "en": "Exterior viewing free; interior facilities vary"
+    },
+    "duration": {
+      "zh": "30分钟—1小时",
+      "en": "30 minutes–1 hour"
+    },
+    "tips": {
+      "zh": "结合周边其他景点规划行程，可大幅提高游览效率。",
+      "en": "Combine with nearby sights for an efficient itinerary."
+    }
   }
 ]

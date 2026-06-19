@@ -1,0 +1,125 @@
+---
+{
+  "quickFacts": {
+    "area": {
+      "zh": "328.7万平方公里",
+      "en": "3.29 million km²"
+    },
+    "population": {
+      "zh": "约14.2亿",
+      "en": "~1.42 billion"
+    },
+    "language": {
+      "zh": "印地语、英语等",
+      "en": "Hindi, English and others"
+    },
+    "currency": {
+      "zh": "印度卢比（INR）",
+      "en": "Indian Rupee (INR)"
+    },
+    "timezone": "UTC+5:30"
+  },
+  "cuisine": [
+    {
+      "emoji": "🍛",
+      "name": {
+        "zh": "玛萨拉咖喱",
+        "en": "Chicken Tikka Masala"
+      },
+      "description": {
+        "zh": "烤制的鸡肉块配以浓郁番茄奶油咖喱酱，香料层次丰富，是印度最广为人知的菜肴之一。",
+        "en": "Charred chicken in a velvety tomato-cream curry — spiced with garam masala and adored worldwide."
+      }
+    },
+    {
+      "emoji": "🫓",
+      "name": {
+        "zh": "恰巴提",
+        "en": "Chapati"
+      },
+      "description": {
+        "zh": "用全麦面粉制成的薄饼，是印度日常饮食的主食，用于搭配各类咖喱和豆泥。",
+        "en": "Unleavened whole-wheat flatbread cooked on a tawa — the everyday staple scooped through curries and dal."
+      }
+    },
+    {
+      "emoji": "🥟",
+      "name": {
+        "zh": "萨摩萨",
+        "en": "Samosa"
+      },
+      "description": {
+        "zh": "三角形酥皮包裹香辣土豆豌豆馅，油炸至金黄，是印度最受欢迎的街头零食。",
+        "en": "Crispy triangular pastry stuffed with spiced potato and peas — India's most beloved street snack."
+      }
+    },
+    {
+      "emoji": "☕",
+      "name": {
+        "zh": "玛萨拉茶",
+        "en": "Masala Chai"
+      },
+      "description": {
+        "zh": "红茶与姜、豆蔻、肉桂等香料煮制的奶茶，是印度人每日必不可少的饮品。",
+        "en": "Black tea simmered with ginger, cardamom and cinnamon in milk — the rhythm of daily Indian life."
+      }
+    }
+  ],
+  "bestTime": {
+    "optimal": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "good": [
+      9,
+      4
+    ],
+    "avoid": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "note": {
+      "zh": "10月至次年3月（凉季）是最佳旅游时节，全国气候宜人；6—9月为季风季，雨量充沛但部分地区难以出行。",
+      "en": "October–March (cool season) is ideal across most of India; June–September is monsoon season with heavy rain and travel disruptions."
+    }
+  }
+}
+---
+
+<!--zh-->
+## geography
+印度位于南亚，北部为喜马拉雅山脉，中部为恒河平原，南部为德干高原，西南部面临阿拉伯海，东南部面临孟加拉湾。气候类型多样，包括热带季风气候、沙漠气候等。
+
+## history
+印度是世界四大文明古国之一，印度河文明可追溯至公元前2500年。经历了孔雀王朝、笈多王朝、莫卧儿帝国等辉煌时代，1858年沦为英国殖民地，1947年独立，成为世界上最大的民主国家。
+
+## economy
+印度是世界第五大经济体，近年来经济增速位居全球前列。IT服务、软件外包、制造业和农业是重要支柱。班加罗尔被称为「印度硅谷」，是全球重要的IT中心。
+
+## population
+印度人口约14.2亿，已超越中国成为世界人口最多的国家。人口结构年轻，平均年龄约28岁。印度多民族、多语言、多宗教，印度教信徒约占80%，伊斯兰教信徒约14%。
+
+## culture
+印度文化源远流长，是瑜伽、冥想的发源地。宝莱坞电影享誉全球，古典舞蹈如婆罗多舞、卡塔克舞历史悠久。印度饮食以香料丰富著称，咖喱、馕饼、香饭各具特色。印度教、佛教、耆那教均发源于此。
+
+<!--en-->
+## geography
+India is located in South Asia with the Himalayas in the north, the Gangetic Plain in the center, the Deccan Plateau in the south, the Arabian Sea to the southwest and the Bay of Bengal to the southeast. Climate varies from tropical monsoon to desert.
+
+## history
+India is one of the world's oldest civilizations, with the Indus Valley Civilization dating to 2500 BCE. It saw great empires like Maurya, Gupta and Mughal. Colonized by Britain in 1858, India gained independence in 1947 and became the world's largest democracy.
+
+## economy
+India is the world's fifth-largest economy with one of the fastest growth rates. IT services, software outsourcing, manufacturing and agriculture are key sectors. Bangalore, the 'Silicon Valley of India,' is a major global IT hub.
+
+## population
+India's population of ~1.42 billion has surpassed China to become the world's most populous nation. The population is young, with a median age of ~28. India is multi-ethnic, multi-lingual and multi-religious, with ~80% Hindus and ~14% Muslims.
+
+## culture
+India's culture is ancient and diverse — birthplace of yoga, meditation, Hinduism and Buddhism. Bollywood is the world's largest film industry. Classical dances like Bharatanatyam and Kathak have long histories. Indian cuisine is renowned for its spices, with curry, naan and biryani among the most famous dishes.

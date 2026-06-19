@@ -32,6 +32,7 @@
 
   <script src="data/index.js"></script>
   <script src="data/coords.js"></script>
+  <script src="js/md.js"></script>
   <script src="js/app.js"></script>
   <script>
   document.addEventListener('DOMContentLoaded', () => {
@@ -56,24 +57,26 @@
 
         <h2>🛠️ 技术说明</h2>
         <p>本站为纯静态网站，托管于 GitHub Pages，无需后端服务器。
-        数据按国家拆分存储：<code>data/countries/{id}.json</code>（国家详情）、
-        <code>data/destinations/{id}.json</code>（景点列表），导航索引由
-        <code>data/index.json</code> 维护，运行 <code>python convert.py</code>
-        可将其转换为 JS 全局变量。
+        所有内容以 <strong>Markdown（.md）文件</strong>存储，浏览器实时渲染：
+        <code>data/countries/{id}.md</code>（国家详情）、
+        <code>data/destinations/{id}.md</code>（景点列表）、
+        <code>data/journal/{id}.md</code>（游记），由
+        <a href="https://github.com" target="_blank" style="color:#1d4ed8">js/md.js</a>
+        解析 JSON 前言（front matter）与双语正文。
         地图由 <a href="https://leafletjs.com" target="_blank" style="color:#1d4ed8">Leaflet</a>
         + OpenStreetMap 提供（无需 API Key），世界地图使用 TopoJSON 绘制国家轮廓。</p>
-        <p>技术栈：HTML5 · CSS3 · 原生 JavaScript · Leaflet · TopoJSON · JSON数据</p>
+        <p>技术栈：HTML5 · CSS3 · 原生 JavaScript · Leaflet · TopoJSON · Markdown内容</p>
 
         <h2>🖼️ 如何导入自定义景点图片</h2>
         <p>目前所有景点图片来自 <a href="https://picsum.photos" target="_blank" style="color:#1d4ed8">Picsum Photos</a>（随机占位图）。替换为真实图片的步骤：</p>
         <ol style="padding-left:1.5rem;color:#1e293b;line-height:2">
           <li>在项目根目录创建文件夹 <code>images/destinations/{国家id}/</code>，例如 <code>images/destinations/albania/</code></li>
           <li>将图片文件放入该目录，命名建议与景点 id 保持一致，例如 <code>berat.jpg</code></li>
-          <li>打开对应的景点 JSON 文件，例如 <code>data/destinations/albania.json</code></li>
+          <li>打开对应的景点 Markdown 文件，例如 <code>data/destinations/albania.md</code></li>
           <li>将该景点的 <code>"image"</code> 字段从 <code>"https://picsum.photos/..."</code> 改为 <code>"images/destinations/albania/berat.jpg"</code></li>
           <li>保存文件后刷新浏览器即可（不需要运行任何脚本）</li>
         </ol>
-        <p style="color:#64748b;font-size:.9rem">💡 提示：JSON 文件可直接编辑，无需运行 convert.py；只有修改 <code>data/index.json</code>（国家名称、封面图、简介等导航信息）时才需要重新运行 convert.py。</p>
+        <p style="color:#64748b;font-size:.9rem">💡 提示：内容 <code>.md</code> 文件可直接编辑并即时生效；仅当修改 <code>data/index.json</code>（国家名称、封面图、简介等导航信息）时才需运行 <code>python convert.py</code> 重新生成导航索引。</p>
 
         <h2>📚 参考资料来源</h2>
         <p>本站内容在创作过程中参考了以下优质资料，感谢这些创作者与机构的无私分享。</p>
@@ -136,25 +139,26 @@
         <p>📧 <a href="mailto:voyagerzxj@gmail.com" style="color:#1d4ed8">voyagerzxj@gmail.com</a></p>
 
         <h2>🛠️ Technical Notes</h2>
-        <p>A fully static website on GitHub Pages. Data is split per country:
-        <code>data/countries/{id}.json</code> (country detail) and
-        <code>data/destinations/{id}.json</code> (destination lists).
-        The navigation index lives in <code>data/index.json</code>; run
-        <code>python convert.py</code> to regenerate <code>data/index.js</code>.
+        <p>A fully static website on GitHub Pages. All content is stored as
+        <strong>Markdown (.md) files</strong> rendered live in the browser:
+        <code>data/countries/{id}.md</code> (country detail),
+        <code>data/destinations/{id}.md</code> (destination lists) and
+        <code>data/journal/{id}.md</code> (travel journal) — parsed by
+        <code>js/md.js</code> (JSON front matter + bilingual Markdown body).
         Maps powered by <a href="https://leafletjs.com" target="_blank" style="color:#1d4ed8">Leaflet</a>
         + OpenStreetMap (no API key required). World map uses TopoJSON country polygons.</p>
-        <p>Stack: HTML5 · CSS3 · Vanilla JS · Leaflet · TopoJSON · JSON data</p>
+        <p>Stack: HTML5 · CSS3 · Vanilla JS · Leaflet · TopoJSON · Markdown content</p>
 
         <h2>🖼️ How to Add Custom Destination Images</h2>
         <p>Currently all images use <a href="https://picsum.photos" target="_blank" style="color:#1d4ed8">Picsum Photos</a> placeholders. To replace them:</p>
         <ol style="padding-left:1.5rem;color:#1e293b;line-height:2">
           <li>Create <code>images/destinations/{country-id}/</code>, e.g. <code>images/destinations/albania/</code></li>
           <li>Place image files there, named after the destination id, e.g. <code>berat.jpg</code></li>
-          <li>Open the destination JSON file, e.g. <code>data/destinations/albania.json</code></li>
+          <li>Open the destination Markdown file, e.g. <code>data/destinations/albania.md</code></li>
           <li>Change the <code>"image"</code> field from <code>"https://picsum.photos/..."</code> to <code>"images/destinations/albania/berat.jpg"</code></li>
           <li>Save and refresh — no script needed</li>
         </ol>
-        <p style="color:#64748b;font-size:.9rem">💡 Tip: destination JSON files can be edited directly without running any script. Only <code>data/index.json</code> changes (country names, cover images, briefs) require re-running <code>python convert.py</code>.</p>
+        <p style="color:#64748b;font-size:.9rem">💡 Tip: content <code>.md</code> files can be edited directly and take effect instantly. Only <code>data/index.json</code> changes (country names, cover images, briefs) require re-running <code>python convert.py</code>.</p>
 
         <h2>📚 References & Sources</h2>
         <p>The following resources informed the content on this site. Thanks to all creators and institutions for sharing their knowledge.</p>

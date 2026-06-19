@@ -1,0 +1,163 @@
+---
+[
+  {
+    "id": "sado-gold-mines",
+    "name": {
+      "zh": "佐渡岛金银山遗址",
+      "en": "Sado Island Gold Mines"
+    },
+    "description": {
+      "zh": "佐渡岛金银山曾是江户时代世界上最大的金矿，于17世纪鼎盛期支撑了整个江户幕府的财政。遗址完整保存了从手工选矿到近代工业采矿的各阶段技术，于2024年列入UNESCO世界遗产。",
+      "en": "Sado Island's gold and silver mines were the world's largest gold mine during the Edo period, their 17th-century peak output underwriting the entire shogunate's finances. The surviving site documents the full transition from hand-mining to modern industrial extraction. UNESCO-listed in 2024."
+    },
+    "image": "https://picsum.photos/seed/sado-gold-mines-japan/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "金银矿山",
+        "江户时代"
+      ],
+      "en": [
+        "UNESCO Heritage",
+        "Gold Mine",
+        "Edo Period"
+      ]
+    },
+    "location": {
+      "zh": "新潟县佐渡市（佐渡岛）",
+      "en": "Sado City (Sado Island), Niigata Prefecture"
+    },
+    "highlights": {
+      "zh": [
+        "西三川砂金山：日本最古老的金矿，可体验砂金淘洗",
+        "相川金银山：江户幕府直辖矿山，坑道内有蜡像还原当年采矿场景",
+        "北泽浮游选矿场：明治大正时代建造的工业化选矿遗址"
+      ],
+      "en": [
+        "Nishimikawa: Japan's oldest gold mine; visitors can try gold panning",
+        "Aikawa gold and silver mine: Edo shogunate's direct-managed mine with wax-figure dioramas inside the tunnels",
+        "Kitazawa Flotation Plant: Meiji–Taisho era industrial ore processing ruins"
+      ]
+    },
+    "admission": {
+      "zh": "相川矿山坑道参观约900日元；西三川砂金山约1,000日元",
+      "en": "Aikawa mine shaft tour ~¥900; Nishimikawa gold panning ~¥1,000"
+    },
+    "duration": {
+      "zh": "一天（建议包含渡轮时间在行程内）",
+      "en": "Full day (factor in ferry crossing time)"
+    },
+    "tips": {
+      "zh": "从新潟港乘高速船约65分钟或乘渡轮约2.5小时到佐渡。岛上景点分散，建议租车或参加当地观光巴士。",
+      "en": "From Niigata port: 65-minute jetfoil or 2.5-hour ferry to Sado. Sites are spread across the island — rent a car or join a local sightseeing bus."
+    },
+    "subdivision": "niigata"
+  },
+  {
+    "id": "itoigawa-geopark",
+    "name": {
+      "zh": "系鱼川世界地质公园",
+      "en": "Itoigawa UNESCO Global Geopark"
+    },
+    "description": {
+      "zh": "系鱼川地质公园位于新潟县，以世界上最古老的翡翠产地（约5亿年前）而举世闻名，同时也是糸鱼川—静冈构造线（日本列岛东西地质分界线）的北端，地质多样性极为丰富。",
+      "en": "The Itoigawa Geopark in Niigata Prefecture is world-renowned as the oldest known source of jade (approximately 500 million years old) and marks the northern terminus of the Itoigawa-Shizuoka Tectonic Line — the geological boundary dividing eastern and western Japan."
+    },
+    "image": "https://picsum.photos/seed/itoigawa-geopark-japan/800/500",
+    "tags": {
+      "zh": [
+        "地质公园",
+        "翡翠",
+        "新潟"
+      ],
+      "en": [
+        "UNESCO Geopark",
+        "Jade",
+        "Niigata"
+      ]
+    },
+    "location": {
+      "zh": "新潟县系鱼川市",
+      "en": "Itoigawa City, Niigata Prefecture"
+    },
+    "highlights": {
+      "zh": [
+        "翡翠峡谷（小滝川硬玉峡）：世界上最古老的翡翠产地之一",
+        "系鱼川市フォッサマグナミュージアム：展示日本列岛地质与翡翠文化",
+        "日本海沿岸的翡翠海滩，运气好可捡到天然翡翠原石"
+      ],
+      "en": [
+        "Kotaki River jade gorge: one of the world's oldest known jade source areas",
+        "Fossa Magna Museum: exhibits on the geology of the Japanese archipelago and jade culture",
+        "Japan Sea coastal beaches where lucky visitors occasionally find natural jade pebbles"
+      ]
+    },
+    "admission": {
+      "zh": "フォッサマグナミュージアム540日元",
+      "en": "Fossa Magna Museum ¥540"
+    },
+    "duration": {
+      "zh": "半天至一天",
+      "en": "Half to full day"
+    },
+    "tips": {
+      "zh": "从北陆新干线糸鱼川站步行或骑车可到达大多数景点。翡翠原石拾取必须在指定海滩（不可进入天然记念物指定区域）。",
+      "en": "Most attractions are walkable or cyclable from Itoigawa Shinkansen station. Jade pebble searching is only permitted on designated beaches, not inside protected natural monument zones."
+    },
+    "subdivision": "niigata"
+  },
+  {
+    "id": "echigotsumaari-daichinogeijutsusai-kiyotsukyo-tunnel-information-center",
+    "name": {
+      "zh": "清津峡隧道（越后妻有大地艺术祭）",
+      "en": "Echigotsumaari Daichinogeijutsusai Kiyotsukyo Tunnel Information Center"
+    },
+    "description": {
+      "zh": "清津峡隧道（越后妻有大地艺术祭）是新潟县的著名地标，以其独特的建筑风格、历史文化意义或在城市生活中的重要地位而广为人知。",
+      "en": "Echigotsumaari Daichinogeijutsusai Kiyotsukyo Tunnel Information Center is a well-known landmark in Niigata Prefecture, distinguished by its unique architecture, historical significance or important role in the city's daily life."
+    },
+    "image": "https://picsum.photos/seed/echigotsumaari-daichinogeijutsusai-kiyotsukyo-tunnel-information-center-japan/800/500",
+    "tags": {
+      "zh": [
+        "地标",
+        "建筑",
+        "文化"
+      ],
+      "en": [
+        "Landmark",
+        "Architecture",
+        "Culture"
+      ]
+    },
+    "location": {
+      "zh": "新潟县",
+      "en": "Niigata Prefecture"
+    },
+    "subdivision": "niigata",
+    "highlights": {
+      "zh": [
+        "建筑外观：独具匠心的建筑立面与设计，是城市天际线的重要组成部分",
+        "历史文化意义：建筑背后承载着丰富的历史故事与文化内涵",
+        "周边探索：地标周边通常聚集了丰富的餐饮、购物与文化资源"
+      ],
+      "en": [
+        "Architecture: a distinctive facade and design that contributes to the city skyline",
+        "Historical and cultural significance: the landmark carries a rich history and cultural story",
+        "Surroundings: the area around the landmark typically offers plentiful dining, shopping and cultural resources"
+      ]
+    },
+    "admission": {
+      "zh": "外观参观免费；内部设施视情况而定",
+      "en": "Exterior viewing free; interior facilities vary"
+    },
+    "duration": {
+      "zh": "30分钟—1小时",
+      "en": "30 minutes–1 hour"
+    },
+    "tips": {
+      "zh": "结合周边其他景点规划行程，可大幅提高游览效率。",
+      "en": "Combine with nearby sights for an efficient itinerary."
+    }
+  }
+]
+---

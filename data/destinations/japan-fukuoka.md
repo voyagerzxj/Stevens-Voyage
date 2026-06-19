@@ -1,0 +1,163 @@
+---
+[
+  {
+    "id": "okinoshima",
+    "name": {
+      "zh": "神宿る島·冲之岛及相关遗址",
+      "en": "Okinoshima and Associated Sites in the Munakata Region"
+    },
+    "description": {
+      "zh": "冲之岛是宗像大社的神域，岛上出土的4世纪至9世纪奉献品被完整保存，是古代日本与朝鲜半岛及大陆交流的珍贵证明。女性至今禁止登岛，每年5月27日仅允许200名男性上岛参拜。2017年列入UNESCO世界遗产。",
+      "en": "Okinoshima, the sacred island of Munakata Taisha shrine, preserves perfectly intact votive offerings from the 4th–9th centuries, documenting ancient maritime exchange between Japan and the Korean Peninsula. Women have never been permitted on the island; only 200 men may land annually on 27 May. UNESCO-listed in 2017."
+    },
+    "image": "https://picsum.photos/seed/okinoshima-japan/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "神道",
+        "宗像大社"
+      ],
+      "en": [
+        "UNESCO Heritage",
+        "Shinto",
+        "Munakata Taisha"
+      ]
+    },
+    "location": {
+      "zh": "福冈县宗像市及大岛（冲之岛）",
+      "en": "Munakata City and Oki-no-shima island, Fukuoka Prefecture"
+    },
+    "highlights": {
+      "zh": [
+        "冲之岛：禁忌之岛，出岛者不得透露所见所闻",
+        "宗像大社辺津宫神宝馆：藏有「海之正仓院」称号的国宝奉献品",
+        "大岛中津宫：可乘船游览的海上神社"
+      ],
+      "en": [
+        "Okinoshima: the forbidden island where nothing seen must be spoken of after leaving",
+        "Munakata Taisha Hetsu-miya treasure hall: national-treasure votive objects dubbed 'the Shosoin of the Sea'",
+        "Oshima Nakatsu-miya: the mid-ocean shrine accessible by ferry"
+      ]
+    },
+    "admission": {
+      "zh": "宗像大社神宝馆500日元；冲之岛上岛须抽签",
+      "en": "Munakata Taisha treasure hall ¥500; Okinoshima landing requires lottery entry"
+    },
+    "duration": {
+      "zh": "宗像大社半天；含大岛渡轮一天",
+      "en": "Munakata Taisha half-day; add Oshima ferry for a full day"
+    },
+    "tips": {
+      "zh": "冲之岛上岛机会极为稀少，一般游客只能在宗像大社神宝馆欣赏出土文物。从福冈博多约40分钟车程。",
+      "en": "Landing on Okinoshima is nearly impossible for regular visitors; the treasure hall at Munakata Taisha is the practical alternative. About 40 minutes by car from Hakata, Fukuoka."
+    },
+    "subdivision": "fukuoka"
+  },
+  {
+    "id": "dazaifu-tenmangu-shrine",
+    "name": {
+      "zh": "太宰府天满宫",
+      "en": "Dazaifu Tenmangu Shrine"
+    },
+    "description": {
+      "zh": "太宰府天满宫是福冈县的著名神社，香火旺盛，供奉着独特的神明，是当地重要的精神文化场所，每逢节日前来参拜的信众与游客络绎不绝。",
+      "en": "Dazaifu Tenmangu Shrine is a celebrated Shinto shrine in Fukuoka Prefecture, dedicated to its enshrined deity. The shrine serves as an important spiritual and cultural landmark, drawing worshippers and visitors especially during festivals."
+    },
+    "image": "https://picsum.photos/seed/dazaifu-tenmangu-shrine-japan/800/500",
+    "tags": {
+      "zh": [
+        "神社",
+        "神道",
+        "日本信仰"
+      ],
+      "en": [
+        "Shrine",
+        "Shinto",
+        "Japanese Spirituality"
+      ]
+    },
+    "location": {
+      "zh": "福冈县",
+      "en": "Fukuoka Prefecture"
+    },
+    "subdivision": "fukuoka",
+    "highlights": {
+      "zh": [
+        "社殿建筑：精心维护的神社建筑群，体现日本传统神道建筑之美",
+        "参道与鸟居：通往正殿的参道营造出庄严肃穆的神圣氛围",
+        "御守与绘马：购买祈愿御守或悬挂祈福绘马，感受日本信仰文化"
+      ],
+      "en": [
+        "Shrine buildings: beautifully maintained structures reflecting traditional Shinto architectural aesthetics",
+        "Approach and torii: the path to the main hall creates a solemn sacred atmosphere",
+        "Omamori and ema: buy protective charms or hang a prayer plaque to experience Japanese spiritual culture"
+      ]
+    },
+    "admission": {
+      "zh": "参拜免费；部分宝物殿另收费",
+      "en": "Shrine worship free; some treasure halls charge entry"
+    },
+    "duration": {
+      "zh": "30分钟—1小时",
+      "en": "30 minutes–1 hour"
+    },
+    "tips": {
+      "zh": "建议清晨或傍晚参拜，人少且气氛更加清幽。",
+      "en": "Visit early morning or late afternoon for fewer crowds and a more atmospheric experience."
+    }
+  },
+  {
+    "id": "tenkai-inari-shrine",
+    "name": {
+      "zh": "天开稻荷神社",
+      "en": "Tenkai Inari Shrine"
+    },
+    "description": {
+      "zh": "天开稻荷神社是福冈县的著名神社，香火旺盛，供奉着独特的神明，是当地重要的精神文化场所，每逢节日前来参拜的信众与游客络绎不绝。",
+      "en": "Tenkai Inari Shrine is a celebrated Shinto shrine in Fukuoka Prefecture, dedicated to its enshrined deity. The shrine serves as an important spiritual and cultural landmark, drawing worshippers and visitors especially during festivals."
+    },
+    "image": "https://picsum.photos/seed/tenkai-inari-shrine-japan/800/500",
+    "tags": {
+      "zh": [
+        "神社",
+        "神道",
+        "日本信仰"
+      ],
+      "en": [
+        "Shrine",
+        "Shinto",
+        "Japanese Spirituality"
+      ]
+    },
+    "location": {
+      "zh": "福冈县",
+      "en": "Fukuoka Prefecture"
+    },
+    "subdivision": "fukuoka",
+    "highlights": {
+      "zh": [
+        "社殿建筑：精心维护的神社建筑群，体现日本传统神道建筑之美",
+        "参道与鸟居：通往正殿的参道营造出庄严肃穆的神圣氛围",
+        "御守与绘马：购买祈愿御守或悬挂祈福绘马，感受日本信仰文化"
+      ],
+      "en": [
+        "Shrine buildings: beautifully maintained structures reflecting traditional Shinto architectural aesthetics",
+        "Approach and torii: the path to the main hall creates a solemn sacred atmosphere",
+        "Omamori and ema: buy protective charms or hang a prayer plaque to experience Japanese spiritual culture"
+      ]
+    },
+    "admission": {
+      "zh": "参拜免费；部分宝物殿另收费",
+      "en": "Shrine worship free; some treasure halls charge entry"
+    },
+    "duration": {
+      "zh": "30分钟—1小时",
+      "en": "30 minutes–1 hour"
+    },
+    "tips": {
+      "zh": "建议清晨或傍晚参拜，人少且气氛更加清幽。",
+      "en": "Visit early morning or late afternoon for fewer crowds and a more atmospheric experience."
+    }
+  }
+]
+---

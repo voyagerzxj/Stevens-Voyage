@@ -1,44 +1,55 @@
 [
   {
-    "id": "toyokawa-inari",
-    "name": { "zh": "豊川稲荷（妙严寺）", "en": "Toyokawa Inari (Myōgon-ji)" },
-    "description": {
-      "zh": "豊川稲荷（正式名称：圆福山妙严寺）是日本三大稻荷之一，也是极为特殊的「寺院型稻荷」——以佛教曹洞宗寺院的形式供奉稻荷大明神，融合神佛习合传统。境内有约1,000座红色鸟居连排而成的「灵狐塚」，是豊川最引人入胜的景点。",
-      "en": "Toyokawa Inari (formally Empukuzan Myōgon-ji) is one of Japan's three great Inari shrines and uniquely a Buddhist temple-style Inari — a Sōtō Zen temple that enshrines Inari Daimyōjin, reflecting the historical fusion of Shinto and Buddhism. The grounds include the Reikozuka — ~1,000 red torii gates lining a fox-spirit sanctuary — one of the most atmospheric sights in Aichi."
+    "id": "toyokawa-inari-myogon-ji-temple",
+    "name": {
+      "zh": "丰川稲荷（妙严寺）",
+      "en": "Toyokawa Inari (Myōgon-ji Temple)"
     },
-    "image": "https://picsum.photos/seed/toyokawa-inari-japan/800/500",
+    "description": {
+      "zh": "丰川稲荷（妙严寺）是爱知县的著名神社，香火旺盛，供奉着独特的神明，是当地重要的精神文化场所，每逢节日前来参拜的信众与游客络绎不绝。",
+      "en": "Toyokawa Inari (Myōgon-ji Temple) is a celebrated Shinto shrine in Aichi Prefecture, dedicated to its enshrined deity. The shrine serves as an important spiritual and cultural landmark, drawing worshippers and visitors especially during festivals."
+    },
+    "image": "https://picsum.photos/seed/toyokawa-inari-myogon-ji-temple-japan/800/500",
     "tags": {
-      "zh": ["稻荷", "寺庙", "灵狐塚"],
-      "en": ["Inari", "Temple", "Fox Sanctuary"]
+      "zh": [
+        "神社",
+        "神道",
+        "日本信仰"
+      ],
+      "en": [
+        "Shrine",
+        "Shinto",
+        "Japanese Spirituality"
+      ]
     },
     "location": {
-      "zh": "爱知县豊川市豊川町灵狐塚1",
-      "en": "Reikozuka, Toyokawa-cho, Toyokawa City, Aichi Prefecture"
+      "zh": "爱知县",
+      "en": "Aichi Prefecture"
     },
     "subdivision": "aichi",
     "highlights": {
       "zh": [
-        "灵狐塚：约1,000座鸟居与无数狐狸石像营造出浓郁的神秘氛围",
-        "本殿：曹洞宗佛教建筑与稻荷信仰的融合，正月三日（元旦至三日）信众逾100万人",
-        "境内商店：豊川名物稻荷寿司（油揚げ稲荷）和狐狸造型小吃随处可见"
+        "社殿建筑：精心维护的神社建筑群，体现日本传统神道建筑之美",
+        "参道与鸟居：通往正殿的参道营造出庄严肃穆的神圣氛围",
+        "御守与绘马：购买祈愿御守或悬挂祈福绘马，感受日本信仰文化"
       ],
       "en": [
-        "Reikozuka: ~1,000 torii gates and countless stone fox statues create an intensely atmospheric fox-spirit sanctuary",
-        "Main hall: a rare Buddhist–Shinto fusion sanctuary; over 1 million worshippers visit during the New Year three-day period",
-        "Temple precincts: Toyokawa's specialty inari-zushi (tofu-pouch sushi) and fox-themed snacks are sold throughout"
+        "Shrine buildings: beautifully maintained structures reflecting traditional Shinto architectural aesthetics",
+        "Approach and torii: the path to the main hall creates a solemn sacred atmosphere",
+        "Omamori and ema: buy protective charms or hang a prayer plaque to experience Japanese spiritual culture"
       ]
     },
     "admission": {
-      "zh": "免费参拜",
-      "en": "Free entry"
+      "zh": "参拜免费；部分宝物殿另收费",
+      "en": "Shrine worship free; some treasure halls charge entry"
     },
     "duration": {
-      "zh": "1—2小时",
-      "en": "1–2 hours"
+      "zh": "30分钟—1小时",
+      "en": "30 minutes–1 hour"
     },
     "tips": {
-      "zh": "从名古屋乘名铁名古屋本线至豊川稲荷站约40分钟，出站步行约5分钟直达正门。正月（1月1—3日）香火鼎盛，人潮极为拥挤，请做好排队准备。",
-      "en": "Take the Meitetsu Nagoya Main Line from Nagoya ~40 minutes to Toyokawa-Inari station; a 5-minute walk brings you to the main gate. New Year's Day through 3 January is enormously crowded — prepare for long queues."
+      "zh": "建议清晨或傍晚参拜，人少且气氛更加清幽。",
+      "en": "Visit early morning or late afternoon for fewer crowds and a more atmospheric experience."
     }
   }
 ]

@@ -1,0 +1,163 @@
+---
+[
+  {
+    "id": "hawaii-volcanoes",
+    "name": {
+      "zh": "夏威夷火山国家公园",
+      "en": "Hawaii Volcanoes National Park"
+    },
+    "description": {
+      "zh": "夏威夷火山国家公园包含两座活跃火山——基拉韦厄和冒纳罗亚，是世界上地质活动最活跃的地区之一。熔岩流入海洋的壮观景象和多样的生态系统吸引着来自全球的游客。",
+      "en": "Hawaii Volcanoes NP contains two of the world's most active volcanoes — Kilauea and Mauna Loa. The sight of lava flowing into the ocean and the park's diverse ecosystems draw visitors from around the globe."
+    },
+    "image": "https://picsum.photos/seed/hawaii-volcano/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "火山",
+        "国家公园"
+      ],
+      "en": [
+        "UNESCO Heritage",
+        "Volcano",
+        "National Park"
+      ]
+    },
+    "location": {
+      "zh": "夏威夷大岛",
+      "en": "Hawaii Island (Big Island)"
+    },
+    "subdivision": "hawaii",
+    "highlights": {
+      "zh": [
+        "世界上少数可以近距离观察活跃熔岩流的地点之一",
+        "基拉韦厄火山是地球上最活跃的盾状火山",
+        "火山口附近的夜间红光是独一无二的自然奇观"
+      ],
+      "en": [
+        "One of the few places to safely observe active lava flows",
+        "Kilauea is Earth's most continuously active shield volcano",
+        "Glow from the summit lava lake at night is otherworldly"
+      ]
+    },
+    "admission": {
+      "zh": "约35美元/车（7日通行证）",
+      "en": "~US$35/vehicle (7-day pass)"
+    },
+    "duration": {
+      "zh": "一天",
+      "en": "Full day"
+    },
+    "tips": {
+      "zh": "火山活动状态每天都在变化，出发前查看公园官网确认当前可访问区域。熔岩气体有害健康，呼吸系统敏感者需注意。",
+      "en": "Volcanic activity changes daily — check the park website before visiting. Volcanic smog (vog) can irritate lungs; those with respiratory conditions should take precautions."
+    }
+  },
+  {
+    "id": "papahanaumokuakea",
+    "name": {
+      "zh": "帕帕哈瑙莫夸基亚海洋国家纪念区",
+      "en": "Papahānaumokuākea Marine National Monument"
+    },
+    "description": {
+      "zh": "帕帕哈瑙莫夸基亚是美国最大的保护区，横跨夏威夷西北延伸的礁岛和环礁，面积逾150万平方公里。2010年以自然与文化双重标准列入UNESCO世界遗产名录，是世界上最大的世界遗产地之一，也是夏威夷原住民文化的重要精神场所。",
+      "en": "Papahānaumokuākea is the largest conservation area in the United States, spanning the remote reefs, atolls and islands stretching northwest of Hawaii across more than 1.5 million km². Inscribed under both natural and cultural criteria as a UNESCO World Heritage Site in 2010 — one of the world's largest — it is also a sacred ancestral homeland in Native Hawaiian tradition."
+    },
+    "image": "https://picsum.photos/seed/papahanaumokuakea-usa/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "海洋保护区",
+        "珊瑚礁"
+      ],
+      "en": [
+        "UNESCO Heritage",
+        "Marine Reserve",
+        "Coral Reef"
+      ]
+    },
+    "location": {
+      "zh": "夏威夷西北群岛，太平洋中部",
+      "en": "Northwestern Hawaiian Islands, central Pacific"
+    },
+    "subdivision": "hawaii",
+    "highlights": {
+      "zh": [
+        "美国最大保护区，面积逾150万平方公里，世界最大遗产地之一",
+        "孵育全球95%的夏威夷僧海豹种群及大量信天翁",
+        "夏威夷原住民宇宙观中先祖灵魂回归之地"
+      ],
+      "en": [
+        "US's largest protected area (>1.5 M km²); one of the world's biggest World Heritage Sites",
+        "Supports 95% of the global Hawaiian monk seal population and vast seabird colonies",
+        "Sacred in Native Hawaiian cosmology as the place where ancestral spirits return"
+      ]
+    },
+    "admission": {
+      "zh": "一般公众不开放；科研和文化许可访问需申请",
+      "en": "Closed to general public; access requires scientific or cultural permits"
+    },
+    "duration": {
+      "zh": "仅限许可访问",
+      "en": "Permit access only"
+    },
+    "tips": {
+      "zh": "该地点几乎不对普通游客开放，但可在檀香山的毕晓普博物馆了解其自然与文化历史，部分生态旅游组织提供有限许可游览。",
+      "en": "Virtually inaccessible to the public — learn about it at the Bishop Museum in Honolulu. A small number of permitted eco-tourism voyages are occasionally available through approved operators."
+    }
+  },
+  {
+    "id": "kalaupapa",
+    "name": {
+      "zh": "卡劳帕帕国家历史公园",
+      "en": "Kalaupapa National Historical Park"
+    },
+    "description": {
+      "zh": "卡劳帕帕坐落于莫洛凯岛北部悬崖脚下的半岛上，四面环海，地形封闭，19至20世纪曾是麻风病隔离地，数以千计的患者被强制流放至此。这里保留了美国最完整的麻风病史遗迹，也是世界自然与人文遗产的候选地。",
+      "en": "Kalaupapa occupies a sea-cliff-bound peninsula on Molokai's north shore and served as a leprosy (Hansen's disease) isolation settlement from 1866 to 1969, where thousands of patients were exiled. It preserves the most intact leprosy-history landscape in the United States and is on the US tentative UNESCO World Heritage list."
+    },
+    "image": "https://picsum.photos/seed/kalaupapa-usa/800/500",
+    "tags": {
+      "zh": [
+        "候选遗产",
+        "历史遗迹",
+        "国家公园"
+      ],
+      "en": [
+        "Tentative WHC",
+        "Historic Site",
+        "National Park"
+      ]
+    },
+    "location": {
+      "zh": "夏威夷莫洛凯岛北部",
+      "en": "Northern Molokai, Hawaii"
+    },
+    "subdivision": "hawaii",
+    "highlights": {
+      "zh": [
+        "达米安神父（圣达米安）的殉道之地，2009年封圣",
+        "世界最高海崖之一，高达900米，地形壮观",
+        "保存完整的麻风病隔离史遗址，见证人道主义历史"
+      ],
+      "en": [
+        "Father Damien (Saint Damien) ministered and died here; canonised 2009",
+        "Surrounded by some of the world's tallest sea cliffs, up to 900 m",
+        "Intact landscape documenting the history of forced leprosy isolation"
+      ]
+    },
+    "admission": {
+      "zh": "需参加许可导览团（仅限成人），游客须提前预约",
+      "en": "Guided permit tours only (adults 16+); advance booking required"
+    },
+    "duration": {
+      "zh": "全天（含骡子下山或小飞机往返）",
+      "en": "Full day (including mule ride down cliffs or small-plane access)"
+    },
+    "tips": {
+      "zh": "目前仍有少数麻风病幸存者居住于此，参观时请遵守导游指引，尊重居民隐私；骡子之旅是最受欢迎的进入方式，需提前数周预订。",
+      "en": "A small number of leprosy survivors still live here — follow guide instructions and respect residents' privacy. The mule ride down the cliff trail is the most popular access option; book weeks ahead."
+    }
+  }
+]
+---

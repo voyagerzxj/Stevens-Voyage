@@ -1,0 +1,125 @@
+---
+{
+  "quickFacts": {
+    "area": {
+      "zh": "769.2万平方公里",
+      "en": "7.692 million km²"
+    },
+    "population": {
+      "zh": "约2600万",
+      "en": "~26 million"
+    },
+    "language": {
+      "zh": "英语",
+      "en": "English"
+    },
+    "currency": {
+      "zh": "澳大利亚元（AUD）",
+      "en": "Australian Dollar (AUD)"
+    },
+    "timezone": "UTC+8 至 UTC+11"
+  },
+  "cuisine": [
+    {
+      "emoji": "🥧",
+      "name": {
+        "zh": "澳式肉馅派",
+        "en": "Meat Pie"
+      },
+      "description": {
+        "zh": "酥皮包裹牛肉和肉汁馅，是澳大利亚体育赛事和街头小吃的国民食品，配番茄酱食用。",
+        "en": "Shortcrust and puff pastry filled with minced beef in gravy — the quintessential stadium snack, always with tomato sauce."
+      }
+    },
+    {
+      "emoji": "🍫",
+      "name": {
+        "zh": "维吉麦吐司",
+        "en": "Vegemite on Toast"
+      },
+      "description": {
+        "zh": "深棕色酵母提取物涂抹在黄油吐司上，咸鲜浓郁，是澳大利亚人从小吃到大的早餐，外国人常常难以接受。",
+        "en": "Dark yeast extract spread thinly on buttered toast — every Australian grows up on it; most visitors find it challenging."
+      }
+    },
+    {
+      "emoji": "🍰",
+      "name": {
+        "zh": "帕芙洛娃",
+        "en": "Pavlova"
+      },
+      "description": {
+        "zh": "蛋白酥皮（外脆内软）配鲜奶油和各种水果，澳大利亚和新西兰都声称是其发源地。",
+        "en": "Crisp meringue with a marshmallow centre, topped with cream and fresh fruit — Australia and New Zealand both claim to have invented it."
+      }
+    },
+    {
+      "emoji": "🍪",
+      "name": {
+        "zh": "澳新军团饼干",
+        "en": "ANZAC Biscuit"
+      },
+      "description": {
+        "zh": "燕麦、椰子和金糖浆制成的硬饼干，起源于一战时期，现已成为澳大利亚标志性零食。",
+        "en": "Oats, coconut and golden syrup biscuits — created during WWI and now an iconic Australian treat."
+      }
+    }
+  ],
+  "bestTime": {
+    "optimal": [
+      9,
+      10,
+      11,
+      3,
+      4,
+      5
+    ],
+    "good": [
+      6,
+      7,
+      8
+    ],
+    "avoid": [
+      12,
+      1,
+      2
+    ],
+    "note": {
+      "zh": "澳大利亚幅员辽阔，南北气候相反。南部（悉尼、墨尔本）9—11月春季和3—5月秋季最佳；北部（凯恩斯）旱季（5—10月）最佳；12—2月为南部夏季，炎热且有山火风险。",
+      "en": "Australia is vast — north and south have opposite climates. Southern cities (Sydney, Melbourne) are best in spring (Sep–Nov) and autumn (Mar–May). Cairns and the Top End peak in the dry season (May–Oct). December–February is southern summer — hot with bushfire risk."
+    }
+  }
+}
+---
+
+<!--zh-->
+## geography
+澳大利亚是世界上最小的大陆，同时也是世界第六大国。大部分内陆地区为干旱沙漠（澳大利亚内陆），沿海地区气候宜人。大堡礁是世界最大的珊瑚礁系统，绵延超过2300公里。乌鲁鲁（艾尔斯岩）是内陆地标。
+
+## history
+澳大利亚原住民在此居住超过6.5万年，是世界上最古老的连续文化之一。1770年库克船长抵达，1788年英国开始殖民并建立流放地。1901年澳大利亚联邦成立，逐步发展为现代民主国家，并推行多元文化移民政策。
+
+## economy
+澳大利亚是世界第十三大经济体，矿产资源极为丰富（铁矿石、煤炭、天然气、黄金）。中国是澳大利亚最大的贸易伙伴。农牧业（小麦、牛羊肉、羊毛）也是重要出口产业。旅游业、教育和金融服务业贡献显著。
+
+## population
+澳大利亚人口约2600万，是一个典型的移民国家，人口多样性极高。欧洲裔（尤以英国和爱尔兰裔）是最大群体，亚裔移民比例持续增加。人口主要集中在东南沿海的悉尼、墨尔本、布里斯班等大城市。
+
+## culture
+澳大利亚文化融合了原住民文化（艺术、音乐、与土地的精神联系）和西方现代文化。冲浪、澳式足球、板球是代表性体育运动。澳大利亚人以户外生活方式、直率性格和多元包容著称。悉尼歌剧院是现代建筑的杰作和澳大利亚的国家象征。
+
+<!--en-->
+## geography
+Australia is the world's smallest continent and sixth-largest country. Most of the interior is arid desert (the Outback); coastal regions have a pleasant climate. The Great Barrier Reef is the world's largest coral reef system, stretching over 2,300 km. Uluru (Ayers Rock) is the iconic inland landmark.
+
+## history
+Australia's Indigenous peoples have lived here for over 65,000 years — one of the world's oldest continuous cultures. Captain Cook arrived in 1770; British colonization began in 1788 as a penal colony. The Australian Federation was formed in 1901, developing into a modern democracy with multicultural immigration policies.
+
+## economy
+Australia is the world's 13th-largest economy, extremely rich in minerals (iron ore, coal, natural gas, gold). China is Australia's largest trading partner. Agriculture and livestock (wheat, beef, wool) are also important exports. Tourism, education and financial services contribute significantly.
+
+## population
+Australia has ~26 million people and is a quintessential immigrant nation with high diversity. Europeans (especially British and Irish) form the largest group; the proportion of Asian immigrants is steadily increasing. Population is concentrated in southeastern coastal cities like Sydney, Melbourne and Brisbane.
+
+## culture
+Australian culture blends Indigenous culture (art, music, spiritual connection to the land) with modern Western influences. Surfing, Australian Rules football and cricket are iconic sports. Australians are known for outdoor lifestyles, directness and multicultural inclusion. The Sydney Opera House is a modern architectural masterpiece and national symbol.

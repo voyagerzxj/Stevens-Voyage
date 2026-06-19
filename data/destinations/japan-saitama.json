@@ -1,86 +1,108 @@
 [
   {
-    "id": "kawagoe",
-    "name": { "zh": "川越·小江户", "en": "Kawagoe — Little Edo" },
-    "description": {
-      "zh": "川越因保留了大量江户时代藏造（蔵造り）建筑而被称为「小江户」，是距东京最近的历史街区。蔵造り老街一字排开的黑色漆灰泥防火商铺、时の鐘（古老的钟楼报时塔）和菓子横丁（糖果小巷），令访客仿佛穿越回200年前的城下町。",
-      "en": "Kawagoe is dubbed 'Little Edo' for its well-preserved rows of kurazukuri (storehouse-style) buildings from the Edo period — the closest historic townscape to Tokyo. Black-plastered fireproof merchant houses, the landmark Toki no Kane bell tower and Kashiya Yokocho 'Candy Lane' combine to evoke a castle town of 200 years ago."
-    },
-    "image": "https://picsum.photos/seed/kawagoe-little-edo-japan/800/500",
-    "tags": {
-      "zh": ["江户风情", "历史街区", "传统工艺"],
-      "en": ["Edo Culture", "Historic District", "Traditional Crafts"]
-    },
-    "location": {
-      "zh": "埼玉县川越市",
-      "en": "Kawagoe City, Saitama Prefecture"
-    },
-    "subdivision": "saitama",
-    "highlights": {
-      "zh": [
-        "蔵造りの町并み：约1公里保存完好的江户建筑街道，含30余栋国家重要文化财",
-        "时の鐘：江户时代第三代藩主建造的时钟楼，至今每日报时四次",
-        "菓子屋横丁：售卖传统菓子（甘薯糖、糖果等）的古朴小巷，约20家甜品老铺"
-      ],
-      "en": [
-        "Kurazukuri townscape: ~1 km of preserved Edo-era streetscape with 30+ nationally designated Important Cultural Properties",
-        "Toki no Kane: the time bell tower built by the third domain lord in the Edo period; still chimes four times daily",
-        "Kashiya Yokocho: a charming alley of ~20 traditional sweet shops selling satsumaimo candy and old-fashioned confections"
-      ]
-    },
-    "admission": {
-      "zh": "街区免费；川越城本丸御殿100日元",
-      "en": "Streets free; Kawagoe Castle Hon-maru Palace ¥100"
-    },
-    "duration": {
-      "zh": "半天至一天",
-      "en": "Half to full day"
-    },
-    "tips": {
-      "zh": "从东京池袋乘东武东上线特急约30分钟至川越站，或从新宿乘JR川越线约50分钟。10月举行的川越祭（山车巡行）是国家指定重要无形民俗文化财。",
-      "en": "From Ikebukuro, take the Tobu-Tojo Line Limited Express ~30 minutes to Kawagoe. The Kawagoe Festival in October — with dashi float processions — is a nationally designated Intangible Folk Cultural Property."
-    }
-  },
-  {
     "id": "mitsumine-shrine",
-    "name": { "zh": "三峯神社", "en": "Mitsumine Shrine" },
+    "name": {
+      "zh": "三峯神社",
+      "en": "Mitsumine Shrine"
+    },
     "description": {
-      "zh": "三峯神社位于秩父山地深处，海拔约1,100米，是日本最具神秘气场的神社之一，以守护与赐予气力的「お犬さま」（神狼）信仰著称。神社周边原始森林遮天蔽日，尤以晨雾弥漫时云海翻腾宛若仙境，被誉为「关东最灵验的能量景点」。",
-      "en": "Mitsumine Shrine sits deep in the Chichibu mountains at ~1,100 m elevation, one of Japan's most spiritually charged sanctuaries. It is renowned for its ookami-sama (divine wolf) guardians, believed to grant protection and vital energy. Ancient forest and morning sea-of-clouds make this a celebrated 'power spot' in the Kanto region."
+      "zh": "三峯神社是埼玉县的著名神社，香火旺盛，供奉着独特的神明，是当地重要的精神文化场所，每逢节日前来参拜的信众与游客络绎不绝。",
+      "en": "Mitsumine Shrine is a celebrated Shinto shrine in Saitama Prefecture, dedicated to its enshrined deity. The shrine serves as an important spiritual and cultural landmark, drawing worshippers and visitors especially during festivals."
     },
     "image": "https://picsum.photos/seed/mitsumine-shrine-japan/800/500",
     "tags": {
-      "zh": ["神社", "山岳", "能量景点"],
-      "en": ["Shrine", "Mountain", "Power Spot"]
+      "zh": [
+        "神社",
+        "神道",
+        "日本信仰"
+      ],
+      "en": [
+        "Shrine",
+        "Shinto",
+        "Japanese Spirituality"
+      ]
     },
     "location": {
-      "zh": "埼玉县秩父市三峰",
-      "en": "Mitsumine, Chichibu City, Saitama Prefecture"
+      "zh": "埼玉县",
+      "en": "Saitama Prefecture"
     },
     "subdivision": "saitama",
     "highlights": {
       "zh": [
-        "随身守（お犬さま）：以铁铸狼形御守著称，每月1日有限量白色木制气力守护御守",
-        "随身门（随身門）：以雕刻精美的涂金狛犬（神狼）守护的神社大门",
-        "清龙权现滝：距神社徒步约30分钟的山中瀑布，适合进阶徒步者"
+        "社殿建筑：精心维护的神社建筑群，体现日本传统神道建筑之美",
+        "参道与鸟居：通往正殿的参道营造出庄严肃穆的神圣氛围",
+        "御守与绘马：购买祈愿御守或悬挂祈福绘马，感受日本信仰文化"
       ],
       "en": [
-        "Wolf guardian amulets: the iron wolf okken are the shrine's signature; limited white 'power' amulets released on the 1st of each month",
-        "Zuishinmon Gate: entrance gate flanked by elaborately carved, gold-leafed wolf komainu",
-        "Seiryu-gongen waterfall: a ~30-minute hike from the shrine for more adventurous visitors"
+        "Shrine buildings: beautifully maintained structures reflecting traditional Shinto architectural aesthetics",
+        "Approach and torii: the path to the main hall creates a solemn sacred atmosphere",
+        "Omamori and ema: buy protective charms or hang a prayer plaque to experience Japanese spiritual culture"
       ]
     },
     "admission": {
-      "zh": "参拜免费（御守另购）",
-      "en": "Free to worship; amulets sold separately"
+      "zh": "参拜免费；部分宝物殿另收费",
+      "en": "Shrine worship free; some treasure halls charge entry"
     },
     "duration": {
-      "zh": "半天至一天（含交通）",
-      "en": "Half to full day including travel"
+      "zh": "30分钟—1小时",
+      "en": "30 minutes–1 hour"
     },
     "tips": {
-      "zh": "从西武秩父站乘巴士约75分钟至三峯神社。每月1日限定的白色气力守护御守极受欢迎，可能需要当日清晨排队。冬季积雪路滑，需事先确认道路状况。",
-      "en": "Take a bus ~75 minutes from Seibu-Chichibu Station. The limited white power amulets on the 1st of each month may require early-morning queuing. Roads can be icy in winter — check conditions in advance."
+      "zh": "建议清晨或傍晚参拜，人少且气氛更加清幽。",
+      "en": "Visit early morning or late afternoon for fewer crowds and a more atmospheric experience."
+    }
+  },
+  {
+    "id": "kawagoe",
+    "name": {
+      "zh": "川越",
+      "en": "Kawagoe"
+    },
+    "description": {
+      "zh": "川越是埼玉县的著名地标，以其独特的建筑风格、历史文化意义或在城市生活中的重要地位而广为人知。",
+      "en": "Kawagoe is a well-known landmark in Saitama Prefecture, distinguished by its unique architecture, historical significance or important role in the city's daily life."
+    },
+    "image": "https://picsum.photos/seed/kawagoe-japan/800/500",
+    "tags": {
+      "zh": [
+        "地标",
+        "建筑",
+        "文化"
+      ],
+      "en": [
+        "Landmark",
+        "Architecture",
+        "Culture"
+      ]
+    },
+    "location": {
+      "zh": "埼玉县",
+      "en": "Saitama Prefecture"
+    },
+    "subdivision": "saitama",
+    "highlights": {
+      "zh": [
+        "建筑外观：独具匠心的建筑立面与设计，是城市天际线的重要组成部分",
+        "历史文化意义：建筑背后承载着丰富的历史故事与文化内涵",
+        "周边探索：地标周边通常聚集了丰富的餐饮、购物与文化资源"
+      ],
+      "en": [
+        "Architecture: a distinctive facade and design that contributes to the city skyline",
+        "Historical and cultural significance: the landmark carries a rich history and cultural story",
+        "Surroundings: the area around the landmark typically offers plentiful dining, shopping and cultural resources"
+      ]
+    },
+    "admission": {
+      "zh": "外观参观免费；内部设施视情况而定",
+      "en": "Exterior viewing free; interior facilities vary"
+    },
+    "duration": {
+      "zh": "30分钟—1小时",
+      "en": "30 minutes–1 hour"
+    },
+    "tips": {
+      "zh": "结合周边其他景点规划行程，可大幅提高游览效率。",
+      "en": "Combine with nearby sights for an efficient itinerary."
     }
   }
 ]

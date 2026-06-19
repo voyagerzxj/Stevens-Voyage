@@ -1,44 +1,55 @@
 [
   {
-    "id": "ise-jingu",
-    "name": { "zh": "伊势神宫", "en": "Ise Jingū" },
-    "description": {
-      "zh": "伊势神宫是日本地位最崇高的神社，供奉皇室祖先神——天照大御神（内宫）与掌管衣食住的丰受大御神（外宫）。神宫建筑采用唯一御用式年迁宫制度，每20年在相邻地址重建一次（最近一次为2013年），维持建筑的「永恒新生」，这一传统已延续约1,300年。",
-      "en": "Ise Jingū is Japan's most sacred Shinto shrine complex, enshrining the Imperial ancestor deity Amaterasu-Ōmikami (Inner Shrine, Naikū) and Toyouke-Ōmikami, goddess of food and livelihood (Outer Shrine, Gekū). Under the unique Shikinen Sengū system, the entire complex is ritually rebuilt on an adjacent site every 20 years (most recently 2013) — a tradition of 'eternal renewal' maintained for ~1,300 years."
+    "id": "kotai-jingu-ise-jingu-naiku-inner-sanctuary",
+    "name": {
+      "zh": "皇大神宫（伊势神宫内宫）",
+      "en": "Kotai Jingu (Ise Jingu Naiku, Inner Sanctuary)"
     },
-    "image": "https://picsum.photos/seed/ise-jingu-japan/800/500",
+    "description": {
+      "zh": "皇大神宫（伊势神宫内宫）是三重县的著名地标，以其独特的建筑风格、历史文化意义或在城市生活中的重要地位而广为人知。",
+      "en": "Kotai Jingu (Ise Jingu Naiku, Inner Sanctuary) is a well-known landmark in Mie Prefecture, distinguished by its unique architecture, historical significance or important role in the city's daily life."
+    },
+    "image": "https://picsum.photos/seed/kotai-jingu-ise-jingu-naiku-inner-sanctuary-japan/800/500",
     "tags": {
-      "zh": ["神宫", "皇室信仰", "式年迁宫"],
-      "en": ["Grand Shrine", "Imperial", "Shikinen Sengū"]
+      "zh": [
+        "地标",
+        "建筑",
+        "文化"
+      ],
+      "en": [
+        "Landmark",
+        "Architecture",
+        "Culture"
+      ]
     },
     "location": {
-      "zh": "三重县伊势市（外宫·内宫）",
-      "en": "Ise City, Mie Prefecture (Gekū and Naikū)"
+      "zh": "三重县",
+      "en": "Mie Prefecture"
     },
     "subdivision": "mie",
     "highlights": {
       "zh": [
-        "内宫（皇大神宫）：供奉天照大御神，只有皇族与特定神职人员可进入最内侧正殿",
-        "式年迁宫：每20年如一重建，数百座建筑全套移建，使用与千年前相同的神明造建筑工法",
-        "おかげ横丁：内宫宇治橋前的传统参道商业街，售卖伊势乌冬、赤福等特产"
+        "建筑外观：独具匠心的建筑立面与设计，是城市天际线的重要组成部分",
+        "历史文化意义：建筑背后承载着丰富的历史故事与文化内涵",
+        "周边探索：地标周边通常聚集了丰富的餐饮、购物与文化资源"
       ],
       "en": [
-        "Naikū (Inner Shrine): enshrines Amaterasu; only Imperial family and specific priests enter the innermost sanctuary",
-        "Shikinen Sengū: complete ritual reconstruction every 20 years using the same shinmei-zukuri architectural techniques as a millennium ago",
-        "Okage Yokochō: traditional monzenmachi in front of Naikū, famous for Ise udon noodles and akafuku rice-cake sweets"
+        "Architecture: a distinctive facade and design that contributes to the city skyline",
+        "Historical and cultural significance: the landmark carries a rich history and cultural story",
+        "Surroundings: the area around the landmark typically offers plentiful dining, shopping and cultural resources"
       ]
     },
     "admission": {
-      "zh": "外宫·内宫参拜免费",
-      "en": "Outer and Inner Shrine worship free"
+      "zh": "外观参观免费；内部设施视情况而定",
+      "en": "Exterior viewing free; interior facilities vary"
     },
     "duration": {
-      "zh": "半天至一天（外宫与内宫各需约1—2小时）",
-      "en": "Half to full day (each shrine ~1–2 hours)"
+      "zh": "30分钟—1小时",
+      "en": "30 minutes–1 hour"
     },
     "tips": {
-      "zh": "从名古屋乘近铁特急约1.5小时至宇治山田站或伊势市站。外宫与内宫相距约6公里，可乘巴士连接。参拜礼仪：两礼二拍手一礼，勿直接拍摄最内殿建筑。",
-      "en": "From Nagoya, take the Kintetsu Limited Express ~1.5 hours to Ujiyamada or Ise-shi station. Gekū and Naikū are 6 km apart — buses connect them. Etiquette: two bows, two claps, one bow; do not photograph the innermost sanctuary."
+      "zh": "结合周边其他景点规划行程，可大幅提高游览效率。",
+      "en": "Combine with nearby sights for an efficient itinerary."
     }
   }
 ]

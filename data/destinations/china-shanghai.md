@@ -1,0 +1,57 @@
+---
+[
+  {
+    "id": "xinchang-ancient-town",
+    "name": {
+      "zh": "新场古镇",
+      "en": "Xinchang Ancient Town"
+    },
+    "description": {
+      "zh": "新场古镇位于上海浦东新区南部，拥有近1300年历史，是浦东保存最完好的晚清至民国时期江南水乡风貌。古镇因宋代盐场兴起，以运盐河道为骨架形成独特的水街格局，现作为「江南水乡古镇」联合申遗项目中上海的唯一代表，于2008年列入中国世界文化遗产预备名单。",
+      "en": "Xinchang Ancient Town in Pudong New Area, Shanghai, spans nearly 1,300 years of history and preserves the finest collection of late-Qing and early-Republic-era Jiangnan watertown architecture in Pudong. Founded as a salt-field hub during the Song Dynasty, the town grew around its salt-transport canals. It is Shanghai's sole representative in the joint 'Ancient Waterfront Towns in the South of Yangtze River' UNESCO candidacy, which has been on China's official World Cultural Heritage Tentative List since 2008."
+    },
+    "image": "https://picsum.photos/seed/xinchang-ancient-town-shanghai/800/500",
+    "tags": {
+      "zh": [
+        "候选遗产",
+        "江南水乡",
+        "历史古镇"
+      ],
+      "en": [
+        "Tentative WHC",
+        "Jiangnan Watertown",
+        "Historic Town"
+      ]
+    },
+    "location": {
+      "zh": "上海市浦东新区新场镇，市中心以南约36公里",
+      "en": "Xinchang Town, Pudong New Area, ~36 km south of central Shanghai"
+    },
+    "subdivision": "shanghai",
+    "highlights": {
+      "zh": [
+        "UNESCO世界遗产候选（2008年列入「江南水乡古镇」预备名单）",
+        "2公里历史老街、1.2公里古石驳岸及68处精雕门楼",
+        "国家级非物质文化遗产：新场锣鼓书与浦东派琵琶"
+      ],
+      "en": [
+        "UNESCO Tentative World Heritage — part of 'Ancient Waterfront Towns' candidacy listed 2008",
+        "2 km historic street, 1.2 km ancient stone riverbanks, and 68 ornate carved gateways",
+        "National intangible heritage: luogu shu storytelling and Pudong-school pipa music"
+      ]
+    },
+    "admission": {
+      "zh": "古镇免费进入，镇内部分景点单独收费",
+      "en": "Free entry to the town; select attractions inside charge separately"
+    },
+    "duration": {
+      "zh": "2—4小时",
+      "en": "2–4 hours"
+    },
+    "tips": {
+      "zh": "古镇至今仍有居民世代定居，保留浓厚生活气息。可乘地铁16号线至新场站步行进入，避开周末人流建议工作日前往。清晨河边晨雾与老街早市最具韵味。",
+      "en": "The town remains a living community with long-established residents. Take subway Line 16 to Xinchang station and walk in. Weekday mornings are quieter; early-morning river mist and the old-street market are the most atmospheric time to visit."
+    }
+  }
+]
+---

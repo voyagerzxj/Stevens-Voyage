@@ -1,108 +1,55 @@
 [
   {
-    "id": "mount-fuji",
+    "id": "hatsushima",
     "name": {
-      "zh": "富士山",
-      "en": "Mount Fuji (Fujisan)"
+      "zh": "初岛",
+      "en": "Hatsushima"
     },
     "description": {
-      "zh": "富士山是日本最高峰，海拔3,776米，完美的锥形火山轮廓是日本的象征。每年7至8月开放登山，周边的富士五湖提供经典倒影美景。",
-      "en": "At 3,776 m, Mount Fuji is Japan's highest peak. Its perfect conical silhouette is the nation's symbol. Open for climbing July-August; the Fuji Five Lakes provide iconic mirror reflections."
+      "zh": "初岛是静冈县的壮美自然景观，以其独特的地理风貌与四季变换的自然之美而著称，是亲近大自然、享受户外体验的理想目的地。",
+      "en": "Hatsushima is a magnificent natural landscape in Shizuoka Prefecture, celebrated for its distinctive geographical features and seasonal beauty — an ideal destination for nature-lovers and outdoor enthusiasts."
     },
-    "image": "https://picsum.photos/seed/mount-fuji-japan/800/500",
+    "image": "https://picsum.photos/seed/hatsushima-japan/800/500",
     "tags": {
       "zh": [
-        "世界遗产",
-        "火山",
-        "登山"
+        "自然景观",
+        "户外",
+        "风景"
       ],
       "en": [
-        "UNESCO Heritage",
-        "Volcano",
-        "Hiking"
+        "Nature",
+        "Outdoor",
+        "Scenic"
       ]
     },
     "location": {
-      "zh": "静冈县与山梨县交界",
-      "en": "Shizuoka-Yamanashi border, Japan"
+      "zh": "静冈县",
+      "en": "Shizuoka Prefecture"
     },
+    "subdivision": "shizuoka",
     "highlights": {
       "zh": [
-        "日本最高峰，3,776米完美锥形火山",
-        "7—8月登顶开放，四季各有湖边绝景",
-        "列入UNESCO世界遗产（2013年）"
+        "壮美景观：无论山川湖泊还是峡谷瀑布，皆令人叹为观止",
+        "户外活动：远足、骑行、垂钓等户外体验，让人与自然亲密接触",
+        "四季之美：随着季节更迭，自然景观呈现出迥然不同的色彩与氛围"
       ],
       "en": [
-        "Japan's highest peak — perfect 3,776 m cone",
-        "Summit open July–August; iconic lake views year-round",
-        "UNESCO World Heritage Site since 2013"
+        "Breathtaking scenery: mountains, lakes, canyons or waterfalls that command awe",
+        "Outdoor activities: hiking, cycling, fishing and other experiences that bring visitors close to nature",
+        "Seasonal changes: the landscape transforms dramatically with each season"
       ]
     },
     "admission": {
-      "zh": "登山保全协力金2,000日元（含山梨县侧）",
-      "en": "¥2,000 conservation fee (Yamanashi side)"
+      "zh": "免费或小额入场费",
+      "en": "Free or small admission fee"
     },
     "duration": {
-      "zh": "观景半天，登顶需10—15小时",
-      "en": "Sightseeing half-day; summit hike 10–15 hrs"
+      "zh": "半天至一天",
+      "en": "Half to full day"
     },
     "tips": {
-      "zh": "不登顶也值得来，富士山本宫浅间大社和忍野八海周边风景极佳。登顶建议雇佣向导。",
-      "en": "Worth visiting even without climbing — Fujisan Hongu Sengen Shrine and Oshino Hakkai offer beautiful close-up views. Hire a guide if summiting."
-    },
-    "subdivision": "shizuoka"
-  },
-  {
-    "id": "izu-geopark",
-    "name": {
-      "zh": "伊豆半岛世界地质公园",
-      "en": "Izu Peninsula UNESCO Global Geopark"
-    },
-    "description": {
-      "zh": "伊豆半岛原本是菲律宾海板块上的一座火山岛，约200万年前与本州碰撞合并，留下了丰富的火山、断层和海蚀地貌。同时以温泉、海鲜和文学（夏目漱石、川端康成等人的作品背景）著称。",
-      "en": "The Izu Peninsula was originally a volcanic island on the Philippine Sea Plate that collided with Honshu approximately two million years ago, leaving a rich legacy of volcanic, fault and marine erosion landforms. It is also celebrated for hot springs, seafood and literary associations with Natsume Soseki and Kawabata Yasunari."
-    },
-    "image": "https://picsum.photos/seed/izu-geopark-japan/800/500",
-    "tags": {
-      "zh": [
-        "地质公园",
-        "温泉",
-        "静冈"
-      ],
-      "en": [
-        "UNESCO Geopark",
-        "Hot Springs",
-        "Shizuoka"
-      ]
-    },
-    "location": {
-      "zh": "静冈县伊豆半岛（伊豆市、下田市等）",
-      "en": "Izu Peninsula, Shizuoka Prefecture (Izu City, Shimoda, etc.)"
-    },
-    "highlights": {
-      "zh": [
-        "堂ヶ島：玄武岩柱状节理与天然洞穴，乘船游览",
-        "城ヶ崎海岸：火山熔岩形成的海蚀断崖，吊桥步道",
-        "伊豆の国・大室山：火山渣丘，缆车登顶360°环形步道"
-      ],
-      "en": [
-        "Dogashima: basalt columnar jointing and sea caves, best seen by boat",
-        "Jogasaki Coast: sea cliffs carved from lava flows, with suspension bridge trail",
-        "Omuroyama (Izu-no-Kuni): scoria cone with ropeway and 360° circular summit trail"
-      ]
-    },
-    "admission": {
-      "zh": "大室山缆车约700日元；各景点免费或少量收费",
-      "en": "Omuroyama ropeway ~¥700; other sites free or nominal charge"
-    },
-    "duration": {
-      "zh": "2—3天",
-      "en": "2–3 days"
-    },
-    "tips": {
-      "zh": "东京乘特急踊り子约2小时到修善寺，是伊豆最方便的入口。半岛整体驾车游览效率更高，建议租车。",
-      "en": "The Odoriko limited express from Tokyo reaches Shuzenji in about 2 hours — the most convenient entry point. Driving is more efficient for exploring the whole peninsula."
-    },
-    "subdivision": "shizuoka"
+      "zh": "出发前查询天气预报，并准备合适的户外装备。",
+      "en": "Check the weather forecast before heading out and bring appropriate outdoor gear."
+    }
   }
 ]

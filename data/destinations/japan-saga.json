@@ -1,44 +1,55 @@
 [
   {
-    "id": "yutoku-inari",
-    "name": { "zh": "祐德稲荷神社", "en": "Yūtoku Inari Shrine" },
-    "description": {
-      "zh": "祐德稲荷神社与茨城县笠间稻荷、京都伏见稻荷并称「日本三大稻荷」，位于佐贺县鹿岛市的悬崖峭壁之上，以依山而建的殿堂和绿意覆盖的山岳景色著称，外形壮观宏伟，有「九州之日光」的美誉。神社楼门、拜殿以朱红色涂漆，在绿山映衬下格外夺目。",
-      "en": "Yūtoku Inari Shrine, alongside Kasama Inari (Ibaraki) and Fushimi Inari (Kyoto), is one of Japan's three great Inari shrines. Perched on a cliff face in Kashima, Saga Prefecture, its cliff-hugging halls set against forested mountain scenery have earned the nickname 'Kyushu's Nikkō'. The vermilion-lacquered rōmon (tower gate) and oratory are breathtaking against the green hillside."
+    "id": "yutoku-inari-shrine",
+    "name": {
+      "zh": "祐德稻荷神社",
+      "en": "Yūtoku Inari Shrine"
     },
-    "image": "https://picsum.photos/seed/yutoku-inari-japan/800/500",
+    "description": {
+      "zh": "祐德稻荷神社是佐贺县的著名神社，香火旺盛，供奉着独特的神明，是当地重要的精神文化场所，每逢节日前来参拜的信众与游客络绎不绝。",
+      "en": "Yūtoku Inari Shrine is a celebrated Shinto shrine in Saga Prefecture, dedicated to its enshrined deity. The shrine serves as an important spiritual and cultural landmark, drawing worshippers and visitors especially during festivals."
+    },
+    "image": "https://picsum.photos/seed/yutoku-inari-shrine-japan/800/500",
     "tags": {
-      "zh": ["稻荷神社", "悬崖建筑", "朱红鸟居"],
-      "en": ["Inari Shrine", "Cliff Architecture", "Vermilion Gates"]
+      "zh": [
+        "神社",
+        "神道",
+        "日本信仰"
+      ],
+      "en": [
+        "Shrine",
+        "Shinto",
+        "Japanese Spirituality"
+      ]
     },
     "location": {
-      "zh": "佐贺县鹿岛市古枝乙",
-      "en": "Koeda Otsu, Kashima City, Saga Prefecture"
+      "zh": "佐贺县",
+      "en": "Saga Prefecture"
     },
     "subdivision": "saga",
     "highlights": {
       "zh": [
-        "楼门：依山建造的三层楼门高约18米，为国家重要文化财",
-        "奥之院展望台：穿越千本鸟居后到达，可俯瞰有明海与周边田园风光",
-        "秋季红叶：11月前后神社山体的枫叶与朱红建筑相映成趣，是九州著名红叶名所"
+        "社殿建筑：精心维护的神社建筑群，体现日本传统神道建筑之美",
+        "参道与鸟居：通往正殿的参道营造出庄严肃穆的神圣氛围",
+        "御守与绘马：购买祈愿御守或悬挂祈福绘马，感受日本信仰文化"
       ],
       "en": [
-        "Rōmon (tower gate): an ~18 m, three-storey gate built into the cliff face, designated an Important Cultural Property",
-        "Oku-no-in viewpoint: reached through the torii corridor, with panoramic views of Ariake Sea and surrounding farmland",
-        "Autumn foliage: late November maple colours against vermilion buildings make this a celebrated Kyushu foliage spot"
+        "Shrine buildings: beautifully maintained structures reflecting traditional Shinto architectural aesthetics",
+        "Approach and torii: the path to the main hall creates a solemn sacred atmosphere",
+        "Omamori and ema: buy protective charms or hang a prayer plaque to experience Japanese spiritual culture"
       ]
     },
     "admission": {
-      "zh": "约200日元（参拜本殿）",
-      "en": "~¥200 (main hall worship)"
+      "zh": "参拜免费；部分宝物殿另收费",
+      "en": "Shrine worship free; some treasure halls charge entry"
     },
     "duration": {
-      "zh": "1—2小时",
-      "en": "1–2 hours"
+      "zh": "30分钟—1小时",
+      "en": "30 minutes–1 hour"
     },
     "tips": {
-      "zh": "从博多站乘特急约1小时至肥前鹿島站，再换乘出租车或巴士约15分钟。每年11月上旬举办的秋季大祭香火极旺。从长崎方向亦可较便捷地前往。",
-      "en": "From Hakata, take a Limited Express ~1 hour to Hizen-Kashima station, then taxi or bus ~15 minutes. The autumn Grand Festival in early November draws large crowds."
+      "zh": "建议清晨或傍晚参拜，人少且气氛更加清幽。",
+      "en": "Visit early morning or late afternoon for fewer crowds and a more atmospheric experience."
     }
   }
 ]

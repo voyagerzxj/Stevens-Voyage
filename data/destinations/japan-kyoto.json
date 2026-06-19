@@ -11,8 +11,16 @@
     },
     "image": "https://picsum.photos/seed/kyoto-temples-japan/800/500",
     "tags": {
-      "zh": ["世界遗产", "寺庙", "传统文化"],
-      "en": ["UNESCO Heritage", "Temples", "Traditional Culture"]
+      "zh": [
+        "世界遗产",
+        "寺庙",
+        "传统文化"
+      ],
+      "en": [
+        "UNESCO Heritage",
+        "Temples",
+        "Traditional Culture"
+      ]
     },
     "location": {
       "zh": "京都府京都市",
@@ -45,33 +53,162 @@
     "subdivision": "kyoto"
   },
   {
-    "id": "fushimi-inari",
-    "name": { "zh": "伏见稲荷大社", "en": "Fushimi Inari Taisha" },
-    "description": {
-      "zh": "伏见稻荷大社是全日本约30,000座稻荷神社的总本社，供奉五谷丰收与商业繁荣之神。以从本殿绵延至稻荷山山顶的「千本鸟居」（实际超过10,000座朱红色鸟居）举世闻名，全程约4公里登山路线穿越连续的鸟居隧道，自古是京都香火最旺的参拜地之一。",
-      "en": "Fushimi Inari Taisha is the head shrine of Japan's ~30,000 Inari shrines, dedicated to the gods of rice harvest and business prosperity. It is world-famous for its 'senbon torii' (literally 'thousand torii gates' — actually over 10,000 vermilion gates) lining the 4 km mountain trail to the summit of Mt Inari. One of Kyoto's most-visited shrines since ancient times."
+    "id": "fushimi-inari-taisha",
+    "name": {
+      "zh": "伏见稻荷大社",
+      "en": "Fushimi Inari Taisha"
     },
-    "image": "https://picsum.photos/seed/fushimi-inari-japan/800/500",
-    "tags": { "zh": ["神社", "千本鸟居", "登山"], "en": ["Shrine", "Torii Gates", "Hiking"] },
-    "location": { "zh": "京都府京都市伏见区深草薮之内町", "en": "Fushimi, Kyoto City, Kyoto Prefecture" },
+    "description": {
+      "zh": "伏见稻荷大社是京都府的著名神社，香火旺盛，供奉着独特的神明，是当地重要的精神文化场所，每逢节日前来参拜的信众与游客络绎不绝。",
+      "en": "Fushimi Inari Taisha is a celebrated Shinto shrine in Kyoto, dedicated to its enshrined deity. The shrine serves as an important spiritual and cultural landmark, drawing worshippers and visitors especially during festivals."
+    },
+    "image": "https://picsum.photos/seed/fushimi-inari-taisha-japan/800/500",
+    "tags": {
+      "zh": [
+        "神社",
+        "神道",
+        "日本信仰"
+      ],
+      "en": [
+        "Shrine",
+        "Shinto",
+        "Japanese Spirituality"
+      ]
+    },
+    "location": {
+      "zh": "京都府",
+      "en": "Kyoto"
+    },
     "subdivision": "kyoto",
     "highlights": {
       "zh": [
-        "千本鸟居：超过10,000座朱红色鸟居连绵排列，形成令人叹为观止的隧道景观",
-        "稻荷山登山：全程约4公里，途经奥社、三ノ峰等多处参拜所，山顶海拔233米",
-        "狐狸信仰：稻荷神的使者为狐狸，神社内遍布以狐狸为主题的装饰、御守和石雕"
+        "社殿建筑：精心维护的神社建筑群，体现日本传统神道建筑之美",
+        "参道与鸟居：通往正殿的参道营造出庄严肃穆的神圣氛围",
+        "御守与绘马：购买祈愿御守或悬挂祈福绘马，感受日本信仰文化"
       ],
       "en": [
-        "Senbon torii: 10,000+ vermilion torii forming awe-inspiring tunnel corridors up the mountain",
-        "Mt Inari hike: ~4 km full circuit past Okusho and Sannomiya shrines to the 233 m summit",
-        "Fox iconography: foxes are the messengers of the Inari deity — fox sculptures, amulets and decorations fill the grounds"
+        "Shrine buildings: beautifully maintained structures reflecting traditional Shinto architectural aesthetics",
+        "Approach and torii: the path to the main hall creates a solemn sacred atmosphere",
+        "Omamori and ema: buy protective charms or hang a prayer plaque to experience Japanese spiritual culture"
       ]
     },
-    "admission": { "zh": "全天24小时免费开放", "en": "Open 24 hours; free entry" },
-    "duration": { "zh": "1.5—3小时（视登山程度）", "en": "1.5–3 hours depending on how far you hike" },
+    "admission": {
+      "zh": "参拜免费；部分宝物殿另收费",
+      "en": "Shrine worship free; some treasure halls charge entry"
+    },
+    "duration": {
+      "zh": "30分钟—1小时",
+      "en": "30 minutes–1 hour"
+    },
     "tips": {
-      "zh": "清晨5—7点人流极少，是拍摄朱红鸟居最佳时机。从JR京都站乘奈良线约5分钟至稻荷站，直达神社正门。日落后至深夜亦别有意境，神社有夜间照明。",
-      "en": "5–7 am offers near-empty torii corridors — the best window for photography. Take the JR Nara Line 5 minutes from Kyoto Station to Inari station, stepping out directly at the main gate. The shrine is also beautifully lit after dark."
+      "zh": "建议清晨或傍晚参拜，人少且气氛更加清幽。",
+      "en": "Visit early morning or late afternoon for fewer crowds and a more atmospheric experience."
+    }
+  },
+  {
+    "id": "senbon-torii-thousand-torii-gates",
+    "name": {
+      "zh": "千本鸟居（伏见稻荷）",
+      "en": "Senbon Torii (Thousand Torii Gates)"
+    },
+    "description": {
+      "zh": "千本鸟居（伏见稻荷）是京都府的著名地标，以其独特的建筑风格、历史文化意义或在城市生活中的重要地位而广为人知。",
+      "en": "Senbon Torii (Thousand Torii Gates) is a well-known landmark in Kyoto, distinguished by its unique architecture, historical significance or important role in the city's daily life."
+    },
+    "image": "https://picsum.photos/seed/senbon-torii-thousand-torii-gates-japan/800/500",
+    "tags": {
+      "zh": [
+        "地标",
+        "建筑",
+        "文化"
+      ],
+      "en": [
+        "Landmark",
+        "Architecture",
+        "Culture"
+      ]
+    },
+    "location": {
+      "zh": "京都府",
+      "en": "Kyoto"
+    },
+    "subdivision": "kyoto",
+    "highlights": {
+      "zh": [
+        "建筑外观：独具匠心的建筑立面与设计，是城市天际线的重要组成部分",
+        "历史文化意义：建筑背后承载着丰富的历史故事与文化内涵",
+        "周边探索：地标周边通常聚集了丰富的餐饮、购物与文化资源"
+      ],
+      "en": [
+        "Architecture: a distinctive facade and design that contributes to the city skyline",
+        "Historical and cultural significance: the landmark carries a rich history and cultural story",
+        "Surroundings: the area around the landmark typically offers plentiful dining, shopping and cultural resources"
+      ]
+    },
+    "admission": {
+      "zh": "外观参观免费；内部设施视情况而定",
+      "en": "Exterior viewing free; interior facilities vary"
+    },
+    "duration": {
+      "zh": "30分钟—1小时",
+      "en": "30 minutes–1 hour"
+    },
+    "tips": {
+      "zh": "结合周边其他景点规划行程，可大幅提高游览效率。",
+      "en": "Combine with nearby sights for an efficient itinerary."
+    }
+  },
+  {
+    "id": "seimei-shrine",
+    "name": {
+      "zh": "晴明神社",
+      "en": "Seimei Shrine"
+    },
+    "description": {
+      "zh": "晴明神社是京都府的著名神社，香火旺盛，供奉着独特的神明，是当地重要的精神文化场所，每逢节日前来参拜的信众与游客络绎不绝。",
+      "en": "Seimei Shrine is a celebrated Shinto shrine in Kyoto, dedicated to its enshrined deity. The shrine serves as an important spiritual and cultural landmark, drawing worshippers and visitors especially during festivals."
+    },
+    "image": "https://picsum.photos/seed/seimei-shrine-japan/800/500",
+    "tags": {
+      "zh": [
+        "神社",
+        "神道",
+        "日本信仰"
+      ],
+      "en": [
+        "Shrine",
+        "Shinto",
+        "Japanese Spirituality"
+      ]
+    },
+    "location": {
+      "zh": "京都府",
+      "en": "Kyoto"
+    },
+    "subdivision": "kyoto",
+    "highlights": {
+      "zh": [
+        "社殿建筑：精心维护的神社建筑群，体现日本传统神道建筑之美",
+        "参道与鸟居：通往正殿的参道营造出庄严肃穆的神圣氛围",
+        "御守与绘马：购买祈愿御守或悬挂祈福绘马，感受日本信仰文化"
+      ],
+      "en": [
+        "Shrine buildings: beautifully maintained structures reflecting traditional Shinto architectural aesthetics",
+        "Approach and torii: the path to the main hall creates a solemn sacred atmosphere",
+        "Omamori and ema: buy protective charms or hang a prayer plaque to experience Japanese spiritual culture"
+      ]
+    },
+    "admission": {
+      "zh": "参拜免费；部分宝物殿另收费",
+      "en": "Shrine worship free; some treasure halls charge entry"
+    },
+    "duration": {
+      "zh": "30分钟—1小时",
+      "en": "30 minutes–1 hour"
+    },
+    "tips": {
+      "zh": "建议清晨或傍晚参拜，人少且气氛更加清幽。",
+      "en": "Visit early morning or late afternoon for fewer crowds and a more atmospheric experience."
     }
   }
 ]

@@ -1,0 +1,888 @@
+---
+[
+  {
+    "id": "colosseum",
+    "name": {
+      "zh": "罗马斗兽场",
+      "en": "Colosseum"
+    },
+    "description": {
+      "zh": "斗兽场建于公元70至80年，是古罗马帝国的象征，可同时容纳5万至8万名观众。尽管历经地震与掠夺，这座椭圆形竞技场至今仍是世界上最完好的古罗马建筑之一。",
+      "en": "Built in 70-80 AD, the Colosseum is the symbol of the Roman Empire, once holding 50,000-80,000 spectators. Despite earthquakes and plunder, this elliptical amphitheatre remains the best-preserved of antiquity."
+    },
+    "image": "https://picsum.photos/seed/colosseum-rome/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "古罗马",
+        "竞技场"
+      ],
+      "en": [
+        "UNESCO",
+        "Ancient Rome",
+        "Amphitheatre"
+      ]
+    },
+    "location": {
+      "zh": "意大利罗马市中心",
+      "en": "Central Rome, Italy"
+    },
+    "highlights": {
+      "zh": [
+        "公元72年建成，古罗马最大角斗场，可容纳5万观众",
+        "俯瞰罗马广场和帕拉蒂尼山的完整古罗马景观",
+        "意大利参观人数最多的景点，每年超700万人"
+      ],
+      "en": [
+        "Built AD 72; ancient Rome's largest amphitheatre, seating 50,000",
+        "Sweeping views over the Roman Forum and Palatine Hill",
+        "Italy's most visited monument; over 7 million/year"
+      ]
+    },
+    "admission": {
+      "zh": "联票（含罗马广场）约18欧元，强烈建议网上预约",
+      "en": "Combined ticket with Forum ~€18; online booking strongly recommended"
+    },
+    "duration": {
+      "zh": "2—3小时",
+      "en": "2–3 hours"
+    },
+    "tips": {
+      "zh": "预约跳队必须，现场排队可达2—3小时。清晨或傍晚光线最美，拍摄效果最好。",
+      "en": "Pre-booking is essential — walk-up queues can reach 2–3 hours. Early morning and golden hour light offer the best photography conditions."
+    }
+  },
+  {
+    "id": "venice-canals",
+    "name": {
+      "zh": "威尼斯水城",
+      "en": "Venice Canals"
+    },
+    "description": {
+      "zh": "威尼斯建于118座小岛之上，由400余座桥梁相连，以运河代替街道。贡多拉游览、里阿托桥、圣马可广场和总督宫是这座浪漫水城的精华所在。",
+      "en": "Venice is built on 118 islands linked by 400+ bridges, with canals serving as streets. Gondola rides, the Rialto Bridge, Piazza San Marco and the Doge's Palace are the highlights of this uniquely romantic city."
+    },
+    "image": "https://picsum.photos/seed/venice-canals/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "水城",
+        "贡多拉"
+      ],
+      "en": [
+        "UNESCO",
+        "Water City",
+        "Gondola"
+      ]
+    },
+    "location": {
+      "zh": "意大利威尼托大区威尼斯",
+      "en": "Venice, Veneto, Italy"
+    },
+    "highlights": {
+      "zh": [
+        "世界唯一以运河为街道的历史城市",
+        "贡多拉、水上公共汽车（vaporetto）等独特交通方式",
+        "圣马可广场、叹息桥、里亚托桥等地标建筑"
+      ],
+      "en": [
+        "The world's only historic city built on canals",
+        "Gondolas and vaporetto water buses as urban transport",
+        "St Mark's Basilica, Bridge of Sighs and Rialto Bridge"
+      ]
+    },
+    "admission": {
+      "zh": "旺季游客需缴纳日间入场费（约5欧元）",
+      "en": "Day-tripper access fee ~€5 during peak periods"
+    },
+    "duration": {
+      "zh": "1—3天",
+      "en": "1–3 days"
+    },
+    "tips": {
+      "zh": "尽量住在岛内，深夜潮水退去后的威尼斯最为迷人。避开8月高温和高水位（Acqua Alta）季节。",
+      "en": "Stay overnight on the island if possible. Venice at midnight, after day-trippers leave, is magical. Avoid August heat and the Acqua Alta flooding season (Oct–Jan)."
+    }
+  },
+  {
+    "id": "amalfi-coast",
+    "name": {
+      "zh": "阿马尔菲海岸",
+      "en": "Amalfi Coast"
+    },
+    "description": {
+      "zh": "阿马尔菲海岸是意大利南部那不勒斯湾的悬崖海岸线，彩色渔村层叠于峭壁之上，俯瞰湛蓝地中海。波西塔诺、阿马尔菲和拉韦罗等小镇是这条海岸线上的明珠。",
+      "en": "The Amalfi Coast is a dramatic cliff-lined stretch south of Naples, with colourful fishing villages perched above turquoise Mediterranean waters. Positano, Amalfi town and Ravello are its jewels."
+    },
+    "image": "https://picsum.photos/seed/amalfi-coast/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "海岸",
+        "彩色村庄"
+      ],
+      "en": [
+        "UNESCO",
+        "Coastline",
+        "Colourful Villages"
+      ]
+    },
+    "location": {
+      "zh": "坎帕尼亚大区，意大利南部",
+      "en": "Campania region, southern Italy"
+    },
+    "highlights": {
+      "zh": [
+        "联合国教科文组织世界遗产悬崖海岸线",
+        "波西塔诺彩色渔村，全球摄影最多的度假地之一",
+        "SS163海岸公路是欧洲最壮观的驾车路线之一"
+      ],
+      "en": [
+        "UNESCO World Heritage coastal cliffscape",
+        "Positano's pastel fishing village — among the world's most photographed",
+        "SS163 coast road — one of Europe's most spectacular drives"
+      ]
+    },
+    "admission": {
+      "zh": "海滩免费，部分私人沙滩收费",
+      "en": "Public beaches free; private beach clubs charge"
+    },
+    "duration": {
+      "zh": "2—3天",
+      "en": "2–3 days"
+    },
+    "tips": {
+      "zh": "7—8月路窄车多，极度拥堵；建议乘渡轮代替自驾，或选择5月/9月前往。",
+      "en": "July–August is severely congested on the narrow coast road; take ferries between towns instead of driving, or visit in May or September."
+    }
+  },
+  {
+    "id": "tuscany-landscape",
+    "name": {
+      "zh": "托斯卡纳田园",
+      "en": "Tuscany Countryside"
+    },
+    "description": {
+      "zh": "托斯卡纳是意大利文艺复兴的发源地，以绵延起伏的山丘、柏树林荫大道、古老庄园和葡萄酒庄著称。佛罗伦萨、锡耶纳和圣吉米尼亚诺是其文化核心。",
+      "en": "Tuscany is the cradle of the Italian Renaissance. Its rolling hills, cypress-lined roads, ancient estates and wine estates are legendary. Florence, Siena and San Gimignano are its cultural heart."
+    },
+    "image": "https://picsum.photos/seed/tuscany-hills/800/500",
+    "tags": {
+      "zh": [
+        "田园风光",
+        "葡萄酒",
+        "文艺复兴"
+      ],
+      "en": [
+        "Rural Scenery",
+        "Wine",
+        "Renaissance"
+      ]
+    },
+    "location": {
+      "zh": "托斯卡纳大区，意大利中部",
+      "en": "Tuscany region, central Italy"
+    },
+    "highlights": {
+      "zh": [
+        "鳞次栉比的柏树、葡萄园和石砌农庄构成世界最美乡村之一",
+        "锡耶纳、圣吉米尼亚诺等中世纪UNESCO小城",
+        "基安蒂产区世界级葡萄酒品鉴"
+      ],
+      "en": [
+        "Cypress rows, vineyards and stone farmhouses — one of Earth's most beautiful rural landscapes",
+        "Siena and San Gimignano, medieval UNESCO hill towns",
+        "World-class Chianti wine tasting in the heartland"
+      ]
+    },
+    "admission": {
+      "zh": "乡村景区免费，城镇景点单独收费",
+      "en": "Countryside free; town attractions charge separately"
+    },
+    "duration": {
+      "zh": "3—5天",
+      "en": "3–5 days"
+    },
+    "tips": {
+      "zh": "租车是游览托斯卡纳的最佳方式，可以自由进入那些无法通达的小山村。春季（4—5月）和秋季（9—10月）最美。",
+      "en": "A rental car is essential for reaching hilltop villages off the beaten track. Spring (April–May) and autumn (September–October) offer the best landscapes and temperatures."
+    }
+  },
+  {
+    "id": "cinque-terre",
+    "name": {
+      "zh": "五渔村",
+      "en": "Cinque Terre"
+    },
+    "description": {
+      "zh": "五渔村是利古里亚海岸峭壁上的五座彩色渔村——蒙泰罗索、韦尔纳扎、科尔尼利亚、马纳罗拉和里奥马焦雷，村庄间有徒步小径相连，风景如画。",
+      "en": "Cinque Terre comprises five cliff-hugging fishing villages on the Ligurian coast — Monterosso, Vernazza, Corniglia, Manarola and Riomaggiore — linked by scenic hiking trails above the sea."
+    },
+    "image": "https://picsum.photos/seed/cinque-terre/800/500",
+    "tags": {
+      "zh": [
+        "世界遗产",
+        "渔村",
+        "徒步"
+      ],
+      "en": [
+        "UNESCO",
+        "Fishing Villages",
+        "Hiking"
+      ]
+    },
+    "location": {
+      "zh": "利古里亚大区，意大利西北部",
+      "en": "Liguria region, northwest Italy"
+    },
+    "highlights": {
+      "zh": [
+        "五座彩色悬崖渔村组成的UNESCO海岸遗产",
+        "村落间的滨海步道（Sentiero Azzurro）徒步",
+        "马纳罗拉和韦尔纳扎是最上镜的两个村庄"
+      ],
+      "en": [
+        "Five colourful clifftop fishing villages; UNESCO World Heritage Coast",
+        "Coastal hiking trail (Sentiero Azzurro) linking the villages",
+        "Manarola and Vernazza the most photogenic of the five"
+      ]
+    },
+    "admission": {
+      "zh": "Cinque Terre Card约7.5欧元/天（含徒步道通行证）",
+      "en": "Cinque Terre Card ~€7.50/day (includes trail access)"
+    },
+    "duration": {
+      "zh": "1—2天",
+      "en": "1–2 days"
+    },
+    "tips": {
+      "zh": "旺季（6—9月）部分步道因超负荷临时关闭；7月极为拥挤，建议淡季前往。La Spezia是性价比最高的住宿基地。",
+      "en": "Some trails close temporarily in peak season due to overcrowding. July is extremely busy; shoulder season is far more pleasant. La Spezia makes a good and cheaper base."
+    }
+  },
+  {
+    "id": "madonie-geopark",
+    "name": {
+      "zh": "马多尼联合国教科文组织地质公园",
+      "en": "Madonie UNESCO Global Geopark"
+    },
+    "description": {
+      "zh": "马多尼地质公园位于西西里岛北部，是意大利最早的UNESCO全球地质公园之一，涵盖西西里岛最高峰（卡斯蒂利奥内峰，1979米）和丰富的中生代石灰岩地层。公园内有保存完好的中世纪山城、珍稀植物（包括马多尼冷杉）和丰富的文化遗产。2004年获得UNESCO认定。",
+      "en": "Madonie Geopark in northern Sicily is one of Italy's first UNESCO Global Geoparks, encompassing Sicily's highest peak (Pizzo Carbonara, 1,979 m) and rich Mesozoic limestone geology. Medieval hilltop towns, rare endemic flora including the Madonie fir, and layered cultural heritage make this an exceptional destination. Designated in 2004."
+    },
+    "image": "https://picsum.photos/seed/madonie-geopark-italy/800/500",
+    "tags": {
+      "zh": [
+        "地质公园",
+        "西西里",
+        "中世纪山城"
+      ],
+      "en": [
+        "UNESCO Geopark",
+        "Sicily",
+        "Medieval Hill Towns"
+      ]
+    },
+    "location": {
+      "zh": "巴勒莫省，西西里岛，意大利",
+      "en": "Province of Palermo, Sicily, Italy"
+    },
+    "highlights": {
+      "zh": [
+        "西西里岛最高峰及壮观的中生代石灰岩山地地貌",
+        "卡斯特尔布奥诺（Castelbuono）和波利纳（Polizzi Generosa）等保存完好的中世纪山城",
+        "马多尼特有冷杉（Abies nebrodensis）——世界上最濒危的树种之一"
+      ],
+      "en": [
+        "Sicily's highest peaks and spectacular Mesozoic limestone mountain scenery",
+        "Castelbuono and Polizzi Generosa — beautifully preserved medieval hilltop towns",
+        "Madonie fir (Abies nebrodensis) — one of the world's rarest tree species, endemic to this park"
+      ]
+    },
+    "admission": {
+      "zh": "地质公园区域免费",
+      "en": "Free"
+    },
+    "duration": {
+      "zh": "2—3天",
+      "en": "2–3 days"
+    },
+    "tips": {
+      "zh": "卡斯特尔布奥诺以蘑菇和糖果节（圣母升天节）闻名，可与巴勒莫（约1.5小时车程）结合游览。春季（4—5月）野花盛开，徒步条件最佳。",
+      "en": "Castelbuono is famous for its mushroom and confectionery festival (Ferragosto). Combine with Palermo, about 1.5 hours away. Spring wildflowers (April–May) make it ideal for hiking."
+    }
+  },
+  {
+    "id": "beigua-geopark",
+    "name": {
+      "zh": "贝古阿联合国教科文组织地质公园",
+      "en": "Beigua UNESCO Global Geopark"
+    },
+    "description": {
+      "zh": "贝古阿地质公园位于利古里亚大区，是欧洲保存最完好的蛇绿岩（大洋地壳残片）出露区之一，揭示了古特提斯洋底地壳的演化历史。公园从利古里亚海岸延伸至亚平宁山脊，融合了海洋地质奇观与丰富的海岸生态系统。2005年获得UNESCO认定。",
+      "en": "Beigua Geopark in Liguria is one of Europe's best-preserved ophiolite outcrops — remnants of ancient oceanic crust from the Tethys Ocean floor now thrust onto land. The park stretches from the Ligurian coast to the Apennine ridge, combining extraordinary marine geology with diverse coastal ecosystems. Designated in 2005."
+    },
+    "image": "https://picsum.photos/seed/beigua-geopark-italy/800/500",
+    "tags": {
+      "zh": [
+        "地质公园",
+        "利古里亚",
+        "蛇绿岩"
+      ],
+      "en": [
+        "UNESCO Geopark",
+        "Liguria",
+        "Ophiolite"
+      ]
+    },
+    "location": {
+      "zh": "热那亚省，利古里亚大区，意大利西北部",
+      "en": "Province of Genoa, Liguria, northwest Italy"
+    },
+    "highlights": {
+      "zh": [
+        "欧洲最完整的蛇绿岩序列之一，古大洋地壳的地质时间胶囊",
+        "从亚平宁山脊俯瞰利古里亚海的壮观景色",
+        "丰富的海岸和山地生态系统，植物多样性极高"
+      ],
+      "en": [
+        "One of Europe's most complete ophiolite sequences — a geological time capsule of ancient ocean floor",
+        "Panoramic views over the Ligurian Sea from the Apennine ridge",
+        "Rich coastal and montane ecosystems with exceptional plant diversity"
+      ]
+    },
+    "admission": {
+      "zh": "地质公园区域免费",
+      "en": "Free"
+    },
+    "duration": {
+      "zh": "1—2天",
+      "en": "1–2 days"
+    },
+    "tips": {
+      "zh": "从热那亚驾车约1小时可达公园核心区。可与利古里亚海岸游览（五渔村、圣玛格丽特）结合，安排充实的一周行程。",
+      "en": "About 1 hour's drive from Genoa. Combine with Ligurian coast visits (Cinque Terre, Santa Margherita) for a full week along the Riviera."
+    }
+  },
+  {
+    "id": "adamello-brenta-geopark",
+    "name": {
+      "zh": "阿达梅洛-布伦塔联合国教科文组织地质公园",
+      "en": "Adamello Brenta UNESCO Global Geopark"
+    },
+    "description": {
+      "zh": "阿达梅洛-布伦塔地质公园位于特伦蒂诺，将意大利最大的花岗岩岩基（阿达梅洛）与独特的白云岩地貌（布伦塔白云岩）并置对比，两者在地质上截然不同，构成引人入胜的地质对比景观。公园同时以棕熊种群保护而闻名——意大利少数存有野生棕熊的地区之一。2008年获得UNESCO认定。",
+      "en": "Adamello Brenta Geopark in Trentino juxtaposes Italy's largest granite batholith (Adamello) with distinctive Dolomite karst scenery (Brenta Dolomites) — a geological contrast of remarkable educational value. The park is equally famous for its brown bear population, one of the last wild bear communities in the Alps. Designated in 2008."
+    },
+    "image": "https://picsum.photos/seed/adamello-brenta-geopark-italy/800/500",
+    "tags": {
+      "zh": [
+        "地质公园",
+        "特伦蒂诺",
+        "棕熊"
+      ],
+      "en": [
+        "UNESCO Geopark",
+        "Trentino",
+        "Brown Bears"
+      ]
+    },
+    "location": {
+      "zh": "特伦蒂诺自治省，意大利东北部",
+      "en": "Province of Trento (Trentino), northeast Italy"
+    },
+    "highlights": {
+      "zh": [
+        "布伦塔白云岩——UNESCO世界遗产白云岩山脉西部最壮观的岩塔群",
+        "意大利阿尔卑斯山最后的野生棕熊种群（约100只）",
+        "马达莱纳湖（Lago di Molveno）——白云岩倒影完美呈现的高山湖泊"
+      ],
+      "en": [
+        "Brenta Dolomites — the most spectacular western group of the UNESCO-listed Dolomites",
+        "Italy's last wild Alpine brown bear population (approximately 100 individuals)",
+        "Lake Molveno — a stunning alpine lake perfectly reflecting the Dolomite towers"
+      ]
+    },
+    "admission": {
+      "zh": "公园区域免费，缆车另计",
+      "en": "Free; cable cars charged separately"
+    },
+    "duration": {
+      "zh": "2—4天",
+      "en": "2–4 days"
+    },
+    "tips": {
+      "zh": "马达莱纳湖畔的莫尔韦诺（Molveno）小镇是绝佳住宿基地。冬季可滑雪，夏季适合徒步和攀岩。棕熊晨昏时分偶尔可在林间发现踪迹。",
+      "en": "The village of Molveno on Lake Molveno is a superb base. Winter skiing and summer hiking are both outstanding. Brown bears are occasionally spotted at dawn and dusk near the forest edges."
+    }
+  },
+  {
+    "id": "rocca-di-cerere-geopark",
+    "name": {
+      "zh": "色列雷之岩联合国教科文组织地质公园",
+      "en": "Rocca di Cerere UNESCO Global Geopark"
+    },
+    "description": {
+      "zh": "色列雷之岩地质公园位于西西里岛中部，以丰富的新近纪沉积地层和深海化石著称，包括著名的皮亚扎阿尔梅里纳罗马别墅（UNESCO世界遗产）。公园名称来源于古希腊时代崇拜谷物女神色列雷的圣殿，见证了西西里岛古典时代的农业文明。2008年获得UNESCO认定。",
+      "en": "Rocca di Cerere Geopark in central Sicily features rich Neogene sedimentary strata and deep-sea fossils, alongside the famous Villa Romana del Casale at Piazza Armerina (UNESCO World Heritage Site). The park's name recalls an ancient sanctuary to the goddess Ceres — a testament to Sicily's classical agricultural civilisation. Designated in 2008."
+    },
+    "image": "https://picsum.photos/seed/rocca-di-cerere-geopark-italy/800/500",
+    "tags": {
+      "zh": [
+        "地质公园",
+        "西西里",
+        "罗马别墅"
+      ],
+      "en": [
+        "UNESCO Geopark",
+        "Sicily",
+        "Roman Villa"
+      ]
+    },
+    "location": {
+      "zh": "恩纳省，西西里岛中部，意大利",
+      "en": "Province of Enna, central Sicily, Italy"
+    },
+    "highlights": {
+      "zh": [
+        "皮亚扎阿尔梅里纳罗马别墅（UNESCO世界遗产）——保存最完好的古罗马马赛克地板（约3500平方米）",
+        "丰富的新近纪化石地层，包括鲸鱼和海豚化石",
+        "西西里岛最高城市恩纳（Enna）的壮观全景，俯瞰全岛"
+      ],
+      "en": [
+        "Villa Romana del Casale (UNESCO) — the best-preserved Roman floor mosaics in the world (~3,500 m²)",
+        "Rich Neogene fossil layers including whale and dolphin remains",
+        "Enna, Sicily's highest city, with panoramic views across the island"
+      ]
+    },
+    "admission": {
+      "zh": "地质公园免费；罗马别墅约10欧元",
+      "en": "Geopark free; Roman villa ~€10"
+    },
+    "duration": {
+      "zh": "1—2天",
+      "en": "1–2 days"
+    },
+    "tips": {
+      "zh": "皮亚扎阿尔梅里纳罗马别墅须提前预约，旺季排队时间较长。可与阿格里真托古希腊神庙谷（约1.5小时车程）结合游览。",
+      "en": "Book ahead for the Roman villa — queues can be long in peak season. Combine with the Valley of the Temples at Agrigento, about 1.5 hours away, for a rich day of antiquity."
+    }
+  },
+  {
+    "id": "cilento-geopark",
+    "name": {
+      "zh": "奇伦托、瓦洛-迪迪亚诺和阿尔布尔尼联合国教科文组织地质公园",
+      "en": "Cilento, Vallo di Diano and Alburni UNESCO Global Geopark"
+    },
+    "description": {
+      "zh": "奇伦托地质公园位于坎帕尼亚南部，是意大利面积最大的国家公园之一，汇集了辉煌的古希腊神庙遗址（帕埃斯图姆和韦利亚，UNESCO世界遗产）、壮观的喀斯特溶洞和蔚蓝的提利尼安海岸。公园记录了超过5亿年的地质演化，2010年获得UNESCO全球地质公园认定。",
+      "en": "Cilento Geopark in southern Campania is one of Italy's largest national parks, combining magnificent Greek temple ruins at Paestum and Velia (UNESCO World Heritage Sites) with spectacular karst caves and Tyrrhenian coastline. Over 500 million years of geological evolution are recorded here. Designated UNESCO Global Geopark in 2010."
+    },
+    "image": "https://picsum.photos/seed/cilento-geopark-italy/800/500",
+    "tags": {
+      "zh": [
+        "地质公园",
+        "古希腊遗址",
+        "坎帕尼亚"
+      ],
+      "en": [
+        "UNESCO Geopark",
+        "Ancient Greek Sites",
+        "Campania"
+      ]
+    },
+    "location": {
+      "zh": "萨莱诺省，坎帕尼亚大区，意大利南部",
+      "en": "Province of Salerno, Campania, southern Italy"
+    },
+    "highlights": {
+      "zh": [
+        "帕埃斯图姆（Paestum）——保存最完好的古希腊多立克神庙群，比帕特农神庙还要古老",
+        "卡斯特尔奇维塔洞窟（Grotte di Castelcivita）和佩尔托萨洞窟——壮观的石灰岩溶洞系统",
+        "奇伦托海岸的翠绿海水、悬崖和古老渔村"
+      ],
+      "en": [
+        "Paestum — the best-preserved ancient Greek Doric temples in existence, older than the Parthenon",
+        "Grotte di Castelcivita and Pertosa Caves — spectacular limestone karst cave systems",
+        "Cilento coastline with turquoise water, dramatic cliffs and ancient fishing villages"
+      ]
+    },
+    "admission": {
+      "zh": "地质公园免费；帕埃斯图姆约13欧元；溶洞约12欧元",
+      "en": "Geopark free; Paestum ~€13; caves ~€12"
+    },
+    "duration": {
+      "zh": "3—5天",
+      "en": "3–5 days"
+    },
+    "tips": {
+      "zh": "帕埃斯图姆是必游之地，神庙保存程度远超雅典卫城现存部分。阿格罗波利（Agropoli）是奇伦托海岸探索的理想基地，交通便利。",
+      "en": "Paestum is unmissable — the temples are better preserved than much of the Acropolis. Agropoli makes an excellent coastal base for exploring the Cilento. Avoid peak August crowds."
+    }
+  },
+  {
+    "id": "tuscan-mining-park-geopark",
+    "name": {
+      "zh": "托斯卡纳矿业公园联合国教科文组织地质公园",
+      "en": "Tuscan Mining Park UNESCO Global Geopark"
+    },
+    "description": {
+      "zh": "托斯卡纳矿业公园地质公园位于格罗塞托省的金属矿山丘陵地带（Colline Metallifere），拥有超过3000年的连续采矿历史，涵盖34处矿业遗址和41处地质景点，记录了约3亿年的地质演化历史，并有250余种矿物被记录在案。2010年获得UNESCO全球地质公园认定。",
+      "en": "The Tuscan Mining Park Geopark in the Metalliferous Hills (Colline Metallifere) of Grosseto has over 3,000 years of continuous mining history, with 34 mining sites and 41 geosites recording approximately 300 million years of geological evolution. Over 250 minerals have been catalogued here. Designated UNESCO Global Geopark in 2010."
+    },
+    "image": "https://picsum.photos/seed/tuscan-mining-park-geopark-italy/800/500",
+    "tags": {
+      "zh": [
+        "地质公园",
+        "矿业遗产",
+        "托斯卡纳"
+      ],
+      "en": [
+        "UNESCO Geopark",
+        "Mining Heritage",
+        "Tuscany"
+      ]
+    },
+    "location": {
+      "zh": "格罗塞托省金属矿山丘陵，托斯卡纳大区，意大利中部",
+      "en": "Colline Metallifere, Province of Grosseto, Tuscany, central Italy"
+    },
+    "highlights": {
+      "zh": [
+        "超过3000年采矿历史的矿业博物馆群，涵盖伊特鲁里亚、罗马和近代采矿设施",
+        "250余种矿物标本，包括罕见的黄铁矿和铜矿石",
+        "丘陵地貌上古老矿城马塞塔（Massa Marittima）的中世纪大教堂"
+      ],
+      "en": [
+        "Mining museum network spanning 3,000 years from Etruscan to modern mining facilities",
+        "Over 250 mineral specimens including rare pyrite crystals and copper ores",
+        "Massa Marittima — a medieval hilltop mining town with a magnificent Romanesque cathedral"
+      ]
+    },
+    "admission": {
+      "zh": "矿业博物馆约8—12欧元，公园区域免费",
+      "en": "Mining museums ~€8–12; park area free"
+    },
+    "duration": {
+      "zh": "1—2天",
+      "en": "1–2 days"
+    },
+    "tips": {
+      "zh": "马塞塔中世纪大教堂广场是托斯卡纳最美广场之一，游客相对稀少。可与马雷马自然公园（Maremma）和厄尔巴岛结合，安排托斯卡纳南部行程。",
+      "en": "Massa Marittima's cathedral square is one of Tuscany's finest — and far less crowded than most. Combine with the Maremma Nature Park and Elba Island for a southern Tuscany itinerary."
+    }
+  },
+  {
+    "id": "apuan-alps-geopark",
+    "name": {
+      "zh": "阿普安阿尔卑斯联合国教科文组织地质公园",
+      "en": "Apuan Alps UNESCO Global Geopark"
+    },
+    "description": {
+      "zh": "阿普安阿尔卑斯地质公园位于托斯卡纳西北部，以世界著名的卡拉拉大理石产地著称，白色大理石山峰从远处看宛若积雪覆盖。公园同时拥有极为丰富的喀斯特地貌，包括意大利最深的竖井状溶洞，以及从地中海岸直达高山的完整生态梯度。2011年获得UNESCO全球地质公园认定。",
+      "en": "Apuan Alps Geopark in northwest Tuscany is home to the world-famous Carrara marble quarries, whose white peaks look snow-covered from afar. The park also features extraordinary karst landscapes including Italy's deepest vertical cave shafts, and a complete ecological gradient from the Mediterranean coast to alpine summits. Designated UNESCO Global Geopark in 2011."
+    },
+    "image": "https://picsum.photos/seed/apuan-alps-geopark-italy/800/500",
+    "tags": {
+      "zh": [
+        "地质公园",
+        "卡拉拉大理石",
+        "喀斯特地貌"
+      ],
+      "en": [
+        "UNESCO Geopark",
+        "Carrara Marble",
+        "Karst Landscape"
+      ]
+    },
+    "location": {
+      "zh": "卢卡省和马萨-卡拉拉省，托斯卡纳大区，意大利西北部",
+      "en": "Provinces of Lucca and Massa-Carrara, Tuscany, northwest Italy"
+    },
+    "highlights": {
+      "zh": [
+        "卡拉拉大理石采石场——米开朗基罗、拉斐尔和贝尼尼均使用此地大理石，可参观采石场",
+        "意大利最深的竖井溶洞之一（Monte Corchia溶洞），可探洞参观",
+        "从地中海海岸到1900米高山的急剧生态过渡带"
+      ],
+      "en": [
+        "Carrara marble quarries — source of marble for Michelangelo, Raphael and Bernini; quarry visits available",
+        "Monte Corchia — one of Italy's deepest cave systems, open for guided caving tours",
+        "Steep ecological gradient from Mediterranean coast to 1,900 m alpine summits"
+      ]
+    },
+    "admission": {
+      "zh": "地质公园免费；采石场参观约15欧元；溶洞约18欧元",
+      "en": "Geopark free; quarry tours ~€15; Monte Corchia cave ~€18"
+    },
+    "duration": {
+      "zh": "1—3天",
+      "en": "1–3 days"
+    },
+    "tips": {
+      "zh": "卡拉拉大理石采石场参观是独一无二的体验，建议提前预约导览。可与五渔村（Cinque Terre，约1小时车程）或卢卡古城结合游览。",
+      "en": "A guided quarry tour at Carrara is a unique experience — book in advance. Easily combined with Cinque Terre (~1 hour away) or the walled city of Lucca."
+    }
+  },
+  {
+    "id": "sesia-val-grande-geopark",
+    "name": {
+      "zh": "塞西亚-大峡谷联合国教科文组织地质公园",
+      "en": "Sesia Val Grande UNESCO Global Geopark"
+    },
+    "description": {
+      "zh": "塞西亚-大峡谷地质公园位于皮埃蒙特大区，是西阿尔卑斯山最重要的地质景观区之一，完整展现了大洋地壳从深海到大陆碰撞、俯冲变质的地质演化全过程，素有「欧洲最大的天然地质实验室」之称。大峡谷自然公园是意大利最荒野的地区之一。2013年获得UNESCO全球地质公园认定。",
+      "en": "Sesia Val Grande Geopark in Piedmont is one of the western Alps' most important geological landscapes, displaying the complete cycle from deep ocean crust to continental collision and subduction metamorphism — dubbed 'Europe's largest natural geological laboratory'. Val Grande National Park within is one of Italy's most remote wilderness areas. Designated UNESCO Global Geopark in 2013."
+    },
+    "image": "https://picsum.photos/seed/sesia-val-grande-geopark-italy/800/500",
+    "tags": {
+      "zh": [
+        "地质公园",
+        "皮埃蒙特",
+        "西阿尔卑斯山"
+      ],
+      "en": [
+        "UNESCO Geopark",
+        "Piedmont",
+        "Western Alps"
+      ]
+    },
+    "location": {
+      "zh": "韦尔切利省和韦尔巴尼亚省，皮埃蒙特大区，意大利西北部",
+      "en": "Provinces of Vercelli and Verbania, Piedmont, northwest Italy"
+    },
+    "highlights": {
+      "zh": [
+        "欧洲最完整的大洋地壳俯冲变质序列露头，地质教科书级别的经典剖面",
+        "大峡谷国家公园（Val Grande）——意大利最荒野的无路自然保护区",
+        "马焦雷湖（Lago Maggiore）北岸壮观的阿尔卑斯山景"
+      ],
+      "en": [
+        "Europe's most complete oceanic subduction metamorphic sequence — a textbook geological cross-section",
+        "Val Grande National Park — Italy's most remote and roadless wilderness area",
+        "Spectacular Alpine scenery along the northern shores of Lake Maggiore"
+      ]
+    },
+    "admission": {
+      "zh": "地质公园区域免费",
+      "en": "Free"
+    },
+    "duration": {
+      "zh": "2—3天",
+      "en": "2–3 days"
+    },
+    "tips": {
+      "zh": "斯特雷萨（Stresa）是马焦雷湖畔的理想基地，可游览博罗梅安群岛（Borromean Islands）。大峡谷国家公园须有向导引路，不建议独自深入。",
+      "en": "Stresa on Lake Maggiore is the ideal base, with easy access to the Borromean Islands. Val Grande's interior requires a guide — do not venture deep alone into this untamed wilderness."
+    }
+  },
+  {
+    "id": "pollino-geopark",
+    "name": {
+      "zh": "波利诺联合国教科文组织地质公园",
+      "en": "Pollino UNESCO Global Geopark"
+    },
+    "description": {
+      "zh": "波利诺地质公园横跨卡拉布里亚和巴西利卡塔两大区，是意大利最大的国家公园，以壮观的喀斯特地貌、深邃的峡谷和珍稀的波利诺松（意大利黑松的一个变种）著称。公园内的考古遗址和中世纪村落见证了希腊人、阿尔巴尼亚人和诺曼人的多元文化交融历史。2015年获得UNESCO全球地质公园认定。",
+      "en": "Pollino Geopark spans Calabria and Basilicata and is Italy's largest national park, renowned for spectacular karst landscapes, deep river gorges and the rare Bosnian pine (Pinus heldreichii) — ancient twisted trees surviving at the treeline for millennia. Greek, Albanian and Norman heritage layers the park's cultural history. Designated UNESCO Global Geopark in 2015."
+    },
+    "image": "https://picsum.photos/seed/pollino-geopark-italy/800/500",
+    "tags": {
+      "zh": [
+        "地质公园",
+        "意大利最大国家公园",
+        "喀斯特峡谷"
+      ],
+      "en": [
+        "UNESCO Geopark",
+        "Italy's Largest National Park",
+        "Karst Gorges"
+      ]
+    },
+    "location": {
+      "zh": "卡拉布里亚大区和巴西利卡塔大区，意大利南部",
+      "en": "Calabria and Basilicata, southern Italy"
+    },
+    "highlights": {
+      "zh": [
+        "古老扭曲的波利诺松，生长于山顶岩石间，树龄逾千年",
+        "拉加纳特洛峡谷（Raganello Gorge）——意大利最深峡谷之一，可峡谷漂流",
+        "阿尔巴尼亚族裔村落（Arbëreshë）——中世纪移民后裔保存古阿尔巴尼亚语言和习俗"
+      ],
+      "en": [
+        "Ancient twisted Bosnian pines clinging to rocky summits — some over 1,000 years old",
+        "Raganello Gorge — one of Italy's deepest canyons, offering dramatic gorge trekking",
+        "Arbëreshë Albanian-heritage villages preserving medieval Albanian language and customs"
+      ]
+    },
+    "admission": {
+      "zh": "公园区域免费，峡谷漂流导览另计",
+      "en": "Free; gorge trekking guides charged separately"
+    },
+    "duration": {
+      "zh": "2—4天",
+      "en": "2–4 days"
+    },
+    "tips": {
+      "zh": "公园内无大城市，建议以卡斯特罗维拉里（Castrovillari）或罗卡诺瓦（Rotonda）为基地。波利诺山顶的徒步线路在7—9月最为宜人。",
+      "en": "There are no large cities within the park — use Castrovillari or Rotonda as bases. Summit hikes to the Pollino peaks are best July through September."
+    }
+  },
+  {
+    "id": "maiella-geopark",
+    "name": {
+      "zh": "玛亚拉联合国教科文组织地质公园",
+      "en": "Maiella UNESCO Global Geopark"
+    },
+    "description": {
+      "zh": "玛亚拉地质公园位于阿布鲁佐大区，以壮观的石灰岩高原（玛亚拉山，海拔2793米）、丰富的白垩纪地层和深厚的中世纪修道院文化著称。「众神之山」（La Montagna della Madre）是当地人对玛亚拉山的称呼，修道士曾在山中凿窟而居。2021年获得UNESCO全球地质公园认定。",
+      "en": "Maiella Geopark in Abruzzo encompasses the spectacular Maiella massif (2,793 m), rich Cretaceous limestone strata and a deep tradition of medieval hermit monasteries carved into the rock. Locals call it 'La Montagna della Madre' (Mother Mountain) — monks lived in cliff-face caves here for centuries. Designated UNESCO Global Geopark in 2021."
+    },
+    "image": "https://picsum.photos/seed/maiella-geopark-italy/800/500",
+    "tags": {
+      "zh": [
+        "地质公园",
+        "阿布鲁佐",
+        "中世纪修道院"
+      ],
+      "en": [
+        "UNESCO Geopark",
+        "Abruzzo",
+        "Medieval Monasteries"
+      ]
+    },
+    "location": {
+      "zh": "基耶蒂省和佩斯卡拉省，阿布鲁佐大区，意大利中南部",
+      "en": "Provinces of Chieti and Pescara, Abruzzo, central-southern Italy"
+    },
+    "highlights": {
+      "zh": [
+        "玛亚拉山石灰岩高原——亚平宁山脉中部最壮观的山体，野生花卉极为丰富",
+        "斯皮里托桑托洞窟修道院（Eremo di Santo Spirito a Majella）——峭壁上的中世纪岩窟修道院",
+        "阿布鲁佐狼和金鹰——公园是意大利野生动物最丰富的地区之一"
+      ],
+      "en": [
+        "Maiella massif limestone plateau — the most spectacular peak of the central Apennines, with extraordinary wildflower meadows",
+        "Eremo di Santo Spirito a Majella — a medieval hermitage carved into the cliff face",
+        "Abruzzo wolf and golden eagle — the park is one of Italy's richest wildlife areas"
+      ]
+    },
+    "admission": {
+      "zh": "地质公园区域免费",
+      "en": "Free"
+    },
+    "duration": {
+      "zh": "2—3天",
+      "en": "2–3 days"
+    },
+    "tips": {
+      "zh": "卡拉马尼科特尔梅（Caramanico Terme）是温泉小城，可作为公园基地。玛亚拉山顶徒步（往返约6小时）是必做体验，春季（5—6月）野花最盛。",
+      "en": "Caramanico Terme spa town makes an ideal base inside the park. The Maiella summit hike (6 hours round trip) is unmissable. Late spring (May–June) wildflowers are spectacular."
+    }
+  },
+  {
+    "id": "aspromonte-geopark",
+    "name": {
+      "zh": "阿斯普罗蒙特联合国教科文组织地质公园",
+      "en": "Aspromonte UNESCO Global Geopark"
+    },
+    "description": {
+      "zh": "阿斯普罗蒙特地质公园位于卡拉布里亚大区最南端，是地中海地区地质最复杂的地区之一，記录了特提斯洋闭合和非洲-欧亚板块碰撞的完整地质历史。公园以古老的花岗岩地貌、深邃的河流峡谷和拜占庭文化遗产（希腊语仍在部分村落使用）著称。2021年获得UNESCO全球地质公园认定。",
+      "en": "Aspromonte Geopark at the southernmost tip of Calabria is one of the Mediterranean's geologically most complex areas, recording the full history of Tethys Ocean closure and African-Eurasian plate collision. Ancient granite landscapes, deep river canyons and Byzantine cultural heritage — Greek is still spoken in some villages — define this extraordinary territory. Designated UNESCO Global Geopark in 2021."
+    },
+    "image": "https://picsum.photos/seed/aspromonte-geopark-italy/800/500",
+    "tags": {
+      "zh": [
+        "地质公园",
+        "卡拉布里亚",
+        "拜占庭遗产"
+      ],
+      "en": [
+        "UNESCO Geopark",
+        "Calabria",
+        "Byzantine Heritage"
+      ]
+    },
+    "location": {
+      "zh": "雷焦卡拉布里亚省，卡拉布里亚大区，意大利最南部",
+      "en": "Province of Reggio Calabria, Calabria, southernmost Italy"
+    },
+    "highlights": {
+      "zh": [
+        "阿斯普罗蒙特峰顶（1955米）可同时俯瞰第勒尼安海和爱奥尼亚海",
+        "葛雷科-卡拉布里斯语（Griko）——仍在部分村落使用的拜占庭希腊语方言",
+        "布卡米诺（Buca Minore）峡谷和其他壮观河流峡谷地貌"
+      ],
+      "en": [
+        "Aspromonte summit (1,955 m) with views across both the Tyrrhenian and Ionian Seas",
+        "Griko language — Byzantine Greek dialect still spoken in a few villages",
+        "Stunning river gorge landscapes including the Butramo and Amendolea canyons"
+      ]
+    },
+    "admission": {
+      "zh": "地质公园区域免费",
+      "en": "Free"
+    },
+    "duration": {
+      "zh": "1—3天",
+      "en": "1–3 days"
+    },
+    "tips": {
+      "zh": "雷焦卡拉布里亚（Reggio Calabria）是最佳基地，市内的国立博物馆收藏了著名的里亚切铜像（古希腊青铜雕像杰作）。从公园北侧可乘渡轮前往西西里岛墨西拿。",
+      "en": "Reggio Calabria is the ideal base — its National Museum houses the Riace Bronzes, among the finest Greek sculptures ever found. The Strait of Messina ferry to Sicily is a short drive from the park."
+    }
+  },
+  {
+    "id": "murgeopark-geopark",
+    "name": {
+      "zh": "穆尔赫联合国教科文组织地质公园",
+      "en": "MurGEopark UNESCO Global Geopark"
+    },
+    "description": {
+      "zh": "穆尔赫地质公园位于普利亚大区的穆尔赫高地，是亚得里亚板块中一块极为稳定、保存完好的地质块体，保存着从白垩纪开始、跨越数千万年的亚普利亚碳酸盐台地完整地层剖面。公园内的阿尔塔穆拉古人类化石（\"阿尔塔穆拉人\"）是世界上保存最完整的尼安德特人化石之一。2025年获得UNESCO全球地质公园认定。",
+      "en": "MurGEopark in the Murge Highlands of Apulia preserves a remarkably stable section of the Adriatic Plate, containing one of the most complete successions of the Apulia Carbonate Platform dating to the Cretaceous. The Altamura Man skeleton found within a cave here is one of the world's most complete Neanderthal fossils. Designated UNESCO Global Geopark in 2025."
+    },
+    "image": "https://picsum.photos/seed/murgeopark-geopark-italy/800/500",
+    "tags": {
+      "zh": [
+        "地质公园",
+        "普利亚",
+        "尼安德特人化石"
+      ],
+      "en": [
+        "UNESCO Geopark",
+        "Apulia",
+        "Neanderthal Fossil"
+      ]
+    },
+    "location": {
+      "zh": "巴里省和巴利塔-安德里亚-特拉尼省，普利亚大区，意大利南部",
+      "en": "Provinces of Bari and Barletta-Andria-Trani, Apulia, southern Italy"
+    },
+    "highlights": {
+      "zh": [
+        "「阿尔塔穆拉人」——在石灰岩洞穴中发现的世界上保存最完整的尼安德特人骨骼（距今约15万年）",
+        "阿尔塔穆拉（Altamura）——以巨大的中世纪城墙和壮观的大教堂著称",
+        "穆尔赫高地喀斯特地貌和蓄水穴（trullo）——普利亚传统的圆锥形石灰岩干石墙建筑"
+      ],
+      "en": [
+        "Altamura Man — one of the world's most complete Neanderthal skeletons (c. 150,000 years old) found inside a limestone cave",
+        "Altamura city — celebrated for its massive medieval walls and spectacular cathedral",
+        "Murge karst landscape and the iconic trulli conical stone-roofed buildings of Apulia"
+      ]
+    },
+    "admission": {
+      "zh": "地质公园免费；阿尔塔穆拉人遗址需预约导览",
+      "en": "Geopark free; Altamura Man cave site requires a guided reservation"
+    },
+    "duration": {
+      "zh": "1—2天",
+      "en": "1–2 days"
+    },
+    "tips": {
+      "zh": "可与阿尔贝罗贝洛（Alberobello）的联合国教科文组织世界遗产圆锥屋（trulli）结合游览，两者相距约30公里。巴里机场（Bari Karol Wojtyla Airport）是最便捷的进入方式。",
+      "en": "Combine with Alberobello's UNESCO-listed trulli houses, about 30 km away. Bari airport is the most convenient gateway for visiting the Murge Highlands."
+    }
+  }
+]
+---

@@ -1,0 +1,57 @@
+---
+[
+  {
+    "id": "kotai-jingu-ise-jingu-naiku-inner-sanctuary",
+    "name": {
+      "zh": "皇大神宫（伊势神宫内宫）",
+      "en": "Kotai Jingu (Ise Jingu Naiku, Inner Sanctuary)"
+    },
+    "description": {
+      "zh": "皇大神宫（伊势神宫内宫）是三重县的著名地标，以其独特的建筑风格、历史文化意义或在城市生活中的重要地位而广为人知。",
+      "en": "Kotai Jingu (Ise Jingu Naiku, Inner Sanctuary) is a well-known landmark in Mie Prefecture, distinguished by its unique architecture, historical significance or important role in the city's daily life."
+    },
+    "image": "https://picsum.photos/seed/kotai-jingu-ise-jingu-naiku-inner-sanctuary-japan/800/500",
+    "tags": {
+      "zh": [
+        "地标",
+        "建筑",
+        "文化"
+      ],
+      "en": [
+        "Landmark",
+        "Architecture",
+        "Culture"
+      ]
+    },
+    "location": {
+      "zh": "三重县",
+      "en": "Mie Prefecture"
+    },
+    "subdivision": "mie",
+    "highlights": {
+      "zh": [
+        "建筑外观：独具匠心的建筑立面与设计，是城市天际线的重要组成部分",
+        "历史文化意义：建筑背后承载着丰富的历史故事与文化内涵",
+        "周边探索：地标周边通常聚集了丰富的餐饮、购物与文化资源"
+      ],
+      "en": [
+        "Architecture: a distinctive facade and design that contributes to the city skyline",
+        "Historical and cultural significance: the landmark carries a rich history and cultural story",
+        "Surroundings: the area around the landmark typically offers plentiful dining, shopping and cultural resources"
+      ]
+    },
+    "admission": {
+      "zh": "外观参观免费；内部设施视情况而定",
+      "en": "Exterior viewing free; interior facilities vary"
+    },
+    "duration": {
+      "zh": "30分钟—1小时",
+      "en": "30 minutes–1 hour"
+    },
+    "tips": {
+      "zh": "结合周边其他景点规划行程，可大幅提高游览效率。",
+      "en": "Combine with nearby sights for an efficient itinerary."
+    }
+  }
+]
+---

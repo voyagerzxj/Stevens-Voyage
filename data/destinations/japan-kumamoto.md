@@ -1,0 +1,57 @@
+---
+[
+  {
+    "id": "aso-geopark",
+    "name": {
+      "zh": "阿苏世界地质公园",
+      "en": "Aso UNESCO Global Geopark"
+    },
+    "description": {
+      "zh": "阿苏地质公园位于熊本县，拥有世界最大级别的活火山口，周长约128公里的外轮山及中央火口丘群构成壮观的火山地貌。草原景观与火口湖、农耕文化共同构成独特的地质公园。",
+      "en": "The Aso Geopark in Kumamoto Prefecture encompasses one of the world's largest active calderas, with a 128 km outer rim and a chain of central cone peaks. The volcanic landscape, grasslands, crater lake and traditional farming culture combine into a globally significant geopark."
+    },
+    "image": "https://picsum.photos/seed/aso-geopark-japan/800/500",
+    "tags": {
+      "zh": [
+        "地质公园",
+        "火山",
+        "熊本"
+      ],
+      "en": [
+        "UNESCO Geopark",
+        "Volcano",
+        "Kumamoto"
+      ]
+    },
+    "location": {
+      "zh": "熊本县阿苏市及阿苏郡",
+      "en": "Aso City and Aso District, Kumamoto Prefecture"
+    },
+    "highlights": {
+      "zh": [
+        "中岳火口：可近距离观察活跃的火山口（开放状态随火山活动变化）",
+        "阿苏大草原：日本最大的草原，春季野烧（山焼き）壮观",
+        "大观峰：俯瞰阿苏外轮山的绝佳展望台"
+      ],
+      "en": [
+        "Nakadake crater: active volcanic crater viewable up close (access varies with activity level)",
+        "Aso grasslands: Japan's largest, with the spectacular spring controlled burning (yamayaki)",
+        "Daikanbo viewpoint: panoramic vista of the outer caldera rim"
+      ]
+    },
+    "admission": {
+      "zh": "中岳火口展望台约800日元；草原免费",
+      "en": "Nakadake crater viewpoint ~¥800; grasslands free"
+    },
+    "duration": {
+      "zh": "一天",
+      "en": "Full day"
+    },
+    "tips": {
+      "zh": "火口开放状态受火山活动影响随时变化，出发前请查看阿苏山火山防灾协议会官网。熊本市出发约1.5小时。",
+      "en": "Crater access changes with volcanic activity — always check the Aso Volcanic Disaster Prevention Council website before visiting. About 1.5 hours from Kumamoto city."
+    },
+    "subdivision": "kumamoto"
+  }
+]
+---

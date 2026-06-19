@@ -11,8 +11,16 @@
     },
     "image": "https://picsum.photos/seed/sado-gold-mines-japan/800/500",
     "tags": {
-      "zh": ["世界遗产", "金银矿山", "江户时代"],
-      "en": ["UNESCO Heritage", "Gold Mine", "Edo Period"]
+      "zh": [
+        "世界遗产",
+        "金银矿山",
+        "江户时代"
+      ],
+      "en": [
+        "UNESCO Heritage",
+        "Gold Mine",
+        "Edo Period"
+      ]
     },
     "location": {
       "zh": "新潟县佐渡市（佐渡岛）",
@@ -56,8 +64,16 @@
     },
     "image": "https://picsum.photos/seed/itoigawa-geopark-japan/800/500",
     "tags": {
-      "zh": ["地质公园", "翡翠", "新潟"],
-      "en": ["UNESCO Geopark", "Jade", "Niigata"]
+      "zh": [
+        "地质公园",
+        "翡翠",
+        "新潟"
+      ],
+      "en": [
+        "UNESCO Geopark",
+        "Jade",
+        "Niigata"
+      ]
     },
     "location": {
       "zh": "新潟县系鱼川市",
@@ -90,33 +106,56 @@
     "subdivision": "niigata"
   },
   {
-    "id": "echigo-tsumari",
-    "name": { "zh": "越后妻有大地艺术祭", "en": "Echigo-Tsumari Art Field" },
-    "description": {
-      "zh": "越后妻有大地艺术祭（Echigo-Tsumari Art Triennale）是全球规模最大的户外艺术节，在新潟县南部约760平方公里的里山田园风光中散布着350余件常设与临时艺术装置。北川富朗主导的这一项目以艺术重新激活了老龄化的农村社区，每届三年举办，常设展区全年开放（部分冬季关闭）。",
-      "en": "The Echigo-Tsumari Art Triennale is the world's largest outdoor art festival, with 350+ permanent and temporary installations scattered across ~760 km² of satoyama (rural mountain) landscape in southern Niigata. Directed by Fram Kitagawa, the project revitalises ageing agricultural villages through art; the triennial event runs every three years, with permanent works accessible year-round (partial winter closures)."
+    "id": "echigotsumaari-daichinogeijutsusai-kiyotsukyo-tunnel-information-center",
+    "name": {
+      "zh": "清津峡隧道（越后妻有大地艺术祭）",
+      "en": "Echigotsumaari Daichinogeijutsusai Kiyotsukyo Tunnel Information Center"
     },
-    "image": "https://picsum.photos/seed/echigo-tsumari-japan/800/500",
-    "tags": { "zh": ["当代艺术", "田园景观", "艺术祭"], "en": ["Contemporary Art", "Rural Landscape", "Art Festival"] },
-    "location": { "zh": "新潟县十日町市·津南町周边", "en": "Tokamachi City and Tsunan Town area, Niigata Prefecture" },
+    "description": {
+      "zh": "清津峡隧道（越后妻有大地艺术祭）是新潟县的著名地标，以其独特的建筑风格、历史文化意义或在城市生活中的重要地位而广为人知。",
+      "en": "Echigotsumaari Daichinogeijutsusai Kiyotsukyo Tunnel Information Center is a well-known landmark in Niigata Prefecture, distinguished by its unique architecture, historical significance or important role in the city's daily life."
+    },
+    "image": "https://picsum.photos/seed/echigotsumaari-daichinogeijutsusai-kiyotsukyo-tunnel-information-center-japan/800/500",
+    "tags": {
+      "zh": [
+        "地标",
+        "建筑",
+        "文化"
+      ],
+      "en": [
+        "Landmark",
+        "Architecture",
+        "Culture"
+      ]
+    },
+    "location": {
+      "zh": "新潟县",
+      "en": "Niigata Prefecture"
+    },
     "subdivision": "niigata",
     "highlights": {
       "zh": [
-        "清津峡隧道（Tunnel of Light）：渓谷道内的光影镜面装置，是世界最被广泛拍摄的艺术作品之一",
-        "农舞台：原小学改造的艺术设施，周边梯田艺术装置令人印象深刻",
-        "里山里海：以饱含生活气息的日本农村景观为背景，骑行或驾车串联各处装置艺术"
+        "建筑外观：独具匠心的建筑立面与设计，是城市天际线的重要组成部分",
+        "历史文化意义：建筑背后承载着丰富的历史故事与文化内涵",
+        "周边探索：地标周边通常聚集了丰富的餐饮、购物与文化资源"
       ],
       "en": [
-        "Tunnel of Light, Kiyotsu Gorge: a mirrored-light installation inside a river-canyon tunnel — one of the world's most-photographed artworks",
-        "Nohbutai (Agricultural Stage): former school converted into an art facility surrounded by terrace-field installations",
-        "Satoyama landscape: explore by bicycle or car through rice-paddy countryside to connect the scattered artworks"
+        "Architecture: a distinctive facade and design that contributes to the city skyline",
+        "Historical and cultural significance: the landmark carries a rich history and cultural story",
+        "Surroundings: the area around the landmark typically offers plentiful dining, shopping and cultural resources"
       ]
     },
-    "admission": { "zh": "常设展区单独购票约1,500日元；三年祭期间护照票约4,000日元", "en": "Permanent sites individual tickets ~¥1,500; triennale passport ~¥4,000" },
-    "duration": { "zh": "一天至两天", "en": "One to two days" },
+    "admission": {
+      "zh": "外观参观免费；内部设施视情况而定",
+      "en": "Exterior viewing free; interior facilities vary"
+    },
+    "duration": {
+      "zh": "30分钟—1小时",
+      "en": "30 minutes–1 hour"
+    },
     "tips": {
-      "zh": "基地设在十日町站，需租车或参加特定旅游班车游览（公共交通不便利）。清津峡须事先在线预约参观时段（名额有限）。三年祭期间（2022、2025…）装置数量大幅增加，体验更丰富。",
-      "en": "Base yourself at Tokamachi station; rent a car or join shuttle tours (public transport is inadequate for full coverage). Kiyotsu Gorge requires online advance reservation. Triennale years (2022, 2025…) dramatically expand the number of installations."
+      "zh": "结合周边其他景点规划行程，可大幅提高游览效率。",
+      "en": "Combine with nearby sights for an efficient itinerary."
     }
   }
 ]
