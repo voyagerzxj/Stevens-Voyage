@@ -550,8 +550,15 @@ main { flex: 1; }
 .dest-entry-title {
   font-size: 1.4rem;
   font-weight: 700;
-  margin-bottom: .5rem;
+  margin-bottom: .25rem;
   color: var(--text);
+}
+
+.dest-rating {
+  color: var(--accent);
+  font-size: 1.05rem;
+  letter-spacing: .08em;
+  margin-bottom: .5rem;
 }
 
 .dest-entry-meta {

@@ -891,6 +891,12 @@ function buildCountryCard(id, meta) {
     </a>`;
 }
 
+function renderStars(rating) {
+  if (!rating || rating < 1 || rating > 5) return '';
+  const n = Math.round(rating);
+  return `<div class="dest-rating" title="${n}/5">${'★'.repeat(n)}${'☆'.repeat(5 - n)}</div>`;
+}
+
 function buildDestEntry(d) {
   const tags = (d.tags ? (d.tags[LANG] || d.tags.zh || []) : [])
     .map(tag => `<span class="tag">${tag}</span>`).join('');
@@ -923,6 +929,7 @@ function buildDestEntry(d) {
              onerror="this.src='https://picsum.photos/seed/${d.id}/800/500'">
         <div class="dest-entry-content">
           <h2 class="dest-entry-title">${tx(d.name)}</h2>
+          ${renderStars(d.rating)}
           <div class="dest-entry-meta">
             <span class="dest-entry-loc">📍 ${tx(d.location)}</span>
             ${tags}

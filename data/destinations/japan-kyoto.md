@@ -2,6 +2,7 @@
 [
   {
     "id": "kyoto-temples",
+    "rating": 5,
     "name": {
       "zh": "古京都历史建筑群",
       "en": "Historic Monuments of Ancient Kyoto"
