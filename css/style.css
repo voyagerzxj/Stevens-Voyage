@@ -181,6 +181,7 @@ main { flex: 1; }
   text-align: center;
   overflow: hidden;
   color: #fff;
+  background: linear-gradient(135deg, var(--primary-dk), var(--primary));
 }
 
 .hero-img {

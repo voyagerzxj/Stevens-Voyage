@@ -1368,7 +1368,7 @@ async function initDestinations() {
       <img class="hero-img"
            src="https://picsum.photos/seed/${id}${sub ? '-' + sub : ''}/1600/500"
            alt="${heroTitle}"
-           onerror="this.src='${meta.coverImage}'">
+           onerror="this.onerror=null;this.src='${meta.coverImage}'">
       <div class="hero-content">
         <h1>${heroTitle}</h1>
         <p>${t('dest_title')}</p>
