@@ -483,16 +483,31 @@ function filterMap(sub) {
 let _worldMap = null;
 let _worldTopoCache = null;
 
-function fixAntimeridian(geojson) {
-  function fixCoord(c) { while (c[0] > 180) c[0] -= 360; while (c[0] < -180) c[0] += 360; }
-  function fixRing(r) { r.forEach(fixCoord); }
-  function fixGeom(g) {
-    if (!g) return;
-    if (g.type === 'Polygon') g.coordinates.forEach(fixRing);
-    else if (g.type === 'MultiPolygon') g.coordinates.forEach(p => p.forEach(fixRing));
+// Unwrap coordinates that cross ±180° by adjusting each lon relative to its
+// predecessor, eliminating the horizontal-line artifact Leaflet draws when a
+// polygon ring jumps from +179° to -179° (e.g. Russia, Fiji).
+function fixAntimeridian(feature) {
+  const g = feature.geometry;
+  if (!g) return feature;
+  function fixRing(ring) {
+    if (!ring.length) return ring;
+    const out = [[...ring[0]]];
+    for (let i = 1; i < ring.length; i++) {
+      let lon = ring[i][0];
+      const prev = out[i - 1][0];
+      while (lon - prev >  180) lon -= 360;
+      while (prev - lon >  180) lon += 360;
+      out.push([lon, ring[i][1]]);
+    }
+    return out;
   }
-  (geojson.features || []).forEach(f => fixGeom(f.geometry));
-  return geojson;
+  const fix = poly => poly.map(fixRing);
+  const coords = g.type === 'MultiPolygon'
+    ? g.coordinates.map(fix)
+    : g.type === 'Polygon'
+    ? fix(g.coordinates)
+    : g.coordinates;
+  return { ...feature, geometry: { ...g, coordinates: coords } };
 }
 
 async function buildWorldMap(containerId) {
@@ -1847,6 +1862,7 @@ async function initRisk() {
   if (!root) return;
 
   const riskData = window.TRAVEL_RISK || {};
+  const riskMeta = window.RISK_META   || {};
   const { countries } = idx();
 
   const RISK_LEVELS = ['extreme', 'high', 'medium', 'low'];
@@ -1855,7 +1871,7 @@ async function initRisk() {
   const byLevel = {};
   RISK_LEVELS.forEach(l => { byLevel[l] = []; });
   for (const [id, level] of Object.entries(riskData)) {
-    if (byLevel[level] && countries[id]) byLevel[level].push(id);
+    if (byLevel[level] && (countries[id] || riskMeta[id])) byLevel[level].push(id);
   }
 
   root.innerHTML = `
@@ -1887,8 +1903,11 @@ async function initRisk() {
               ${ids.length
                 ? `<div class="fp-country-grid">
                     ${ids.map(id => {
-                      const m = countries[id];
-                      return `<a class="fp-country-chip risk-chip risk-chip-${level}" href="country.html?id=${id}">${m.flag || ''} ${tx(m.name)}</a>`;
+                      const m = countries[id] || riskMeta[id];
+                      if (!m) return '';
+                      return countries[id]
+                        ? `<a class="fp-country-chip risk-chip risk-chip-${level}" href="country.html?id=${id}">${m.flag || ''} ${tx(m.name)}</a>`
+                        : `<span class="fp-country-chip risk-chip risk-chip-${level}">${m.flag || ''} ${tx(m.name)}</span>`;
                     }).join('')}
                   </div>`
                 : `<p style="color:var(--text-muted);font-size:.9rem">${t('risk_none')}</p>`}
@@ -1920,14 +1939,11 @@ async function initRisk() {
     const { isoMap } = idx();
     const all = topojson.feature(_worldTopoCache, _worldTopoCache.objects.countries);
 
-    // Only render countries that have explicit risk levels.
-    // This avoids antimeridian artifacts from Russia, Fiji, etc. whose polygons
-    // cross ±180° and produce horizontal lines in Leaflet.
-    // Unrated countries are visible through the OSM tile layer.
-    const ratedFeatures = all.features.filter(f => {
-      const slug = isoMap?.[String(f.id)];
-      return slug && riskData[slug];
-    });
+    // Filter to rated countries, then unwrap coordinates that cross ±180° to
+    // eliminate the horizontal-line artifact Leaflet draws for Russia etc.
+    const ratedFeatures = all.features
+      .filter(f => { const slug = isoMap?.[String(f.id)]; return slug && riskData[slug]; })
+      .map(fixAntimeridian);
 
     L.geoJSON(
       { type: 'FeatureCollection', features: ratedFeatures },
@@ -1938,7 +1954,7 @@ async function initRisk() {
         },
         onEachFeature(feature, layer) {
           const slug  = isoMap?.[String(feature.id)];
-          const cm    = slug ? countries[slug] : null;
+          const cm    = slug ? (countries[slug] || riskMeta[slug]) : null;
           const level = slug ? riskData[slug] : null;
           if (!cm || !level) return;
           layer.bindTooltip(
@@ -1948,7 +1964,9 @@ async function initRisk() {
           );
           layer.on('mouseover', () => layer.setStyle({ fillOpacity: 0.9 }));
           layer.on('mouseout',  () => layer.resetStyle());
-          layer.on('click', () => { window.location.href = `country.html?id=${slug}`; });
+          if (countries[slug]) {
+            layer.on('click', () => { window.location.href = `country.html?id=${slug}`; });
+          }
         }
       }
     ).addTo(map);
