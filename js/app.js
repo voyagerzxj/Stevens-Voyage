@@ -1939,30 +1939,33 @@ async function initRisk() {
     const { isoMap } = idx();
     const all = topojson.feature(_worldTopoCache, _worldTopoCache.objects.countries);
 
-    // Filter to rated countries, then unwrap coordinates that cross ±180° to
-    // eliminate the horizontal-line artifact Leaflet draws for Russia etc.
-    const ratedFeatures = all.features
-      .filter(f => { const slug = isoMap?.[String(f.id)]; return slug && riskData[slug]; })
-      .map(fixAntimeridian);
+    // Draw every country. Rated ones get a risk colour; unrated ones get a
+    // subtle gray so the world map is fully visible.  Apply fixAntimeridian to
+    // all features — it's a no-op for countries that don't cross ±180°.
+    const processedFeatures = all.features.map(fixAntimeridian);
 
     L.geoJSON(
-      { type: 'FeatureCollection', features: ratedFeatures },
+      { type: 'FeatureCollection', features: processedFeatures },
       {
         style: feature => {
-          const level = riskData[isoMap?.[String(feature.id)]];
-          return { fillColor: RISK_COLORS[level], fillOpacity: 0.65, color: '#fff', weight: 0.9 };
+          const slug  = isoMap?.[String(feature.id)];
+          const level = slug ? riskData[slug] : null;
+          return level
+            ? { fillColor: RISK_COLORS[level], fillOpacity: 0.65, color: '#fff', weight: 0.9 }
+            : { fillColor: '#9ca3af',           fillOpacity: 0.25, color: '#fff', weight: 0.5 };
         },
         onEachFeature(feature, layer) {
           const slug  = isoMap?.[String(feature.id)];
           const cm    = slug ? (countries[slug] || riskMeta[slug]) : null;
           const level = slug ? riskData[slug] : null;
-          if (!cm || !level) return;
-          layer.bindTooltip(
-            `<strong>${cm.flag || ''} ${tx(cm.name)}</strong><br>` +
-            `<span style="color:${RISK_COLORS[level]}">${t('risk_' + level)}</span>`,
-            { sticky: true, className: 'world-tooltip' }
-          );
-          layer.on('mouseover', () => layer.setStyle({ fillOpacity: 0.9 }));
+          if (cm) {
+            layer.bindTooltip(
+              `<strong>${cm.flag || ''} ${tx(cm.name)}</strong>` +
+              (level ? `<br><span style="color:${RISK_COLORS[level]}">${t('risk_' + level)}</span>` : ''),
+              { sticky: true, className: 'world-tooltip' }
+            );
+          }
+          layer.on('mouseover', () => layer.setStyle({ fillOpacity: level ? 0.9 : 0.45 }));
           layer.on('mouseout',  () => layer.resetStyle());
           if (countries[slug]) {
             layer.on('click', () => { window.location.href = `country.html?id=${slug}`; });
@@ -1971,15 +1974,16 @@ async function initRisk() {
       }
     ).addTo(map);
 
-    // Legend: only show levels that actually have entries
+    // Legend
     const usedLevels = RISK_LEVELS.filter(l => byLevel[l].length > 0);
-    if (usedLevels.length) {
+    {
       const legend = L.control({ position: 'bottomleft' });
       legend.onAdd = () => {
         const div = L.DomUtil.create('div', 'fp-map-legend');
-        div.innerHTML = usedLevels.map(l =>
-          `<span><i style="background:${RISK_COLORS[l]}"></i>${t('risk_' + l)}</span>`
-        ).join('');
+        div.innerHTML = [
+          ...usedLevels.map(l => `<span><i style="background:${RISK_COLORS[l]}"></i>${t('risk_' + l)}</span>`),
+          `<span><i style="background:#9ca3af;opacity:.6"></i>${LANG === 'zh' ? '其他' : 'Other'}</span>`
+        ].join('');
         return div;
       };
       legend.addTo(map);
